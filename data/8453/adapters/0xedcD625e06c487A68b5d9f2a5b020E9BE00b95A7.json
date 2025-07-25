@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xedcD625e06c487A68b5d9f2a5b020E9BE00b95A7",
+  "chainId": 8453,
+  "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
+  "maxStaleness": "4800",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (4800 s) is sufficient for the feed's heartbeat (1200 s).",
+      "pass": true
+    }
+  ],
+  "label": "BTC / USD (0.1%, 1200s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
+  "chainId": 130,
+  "base": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+  "cross": "0x4200000000000000000000000000000000000006",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+  "oracleCrossQuote": "0xF5C2DfD1740D18aD7cf23FBA76cc11d877802937",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7 is weETH (Wrapped eETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "weETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

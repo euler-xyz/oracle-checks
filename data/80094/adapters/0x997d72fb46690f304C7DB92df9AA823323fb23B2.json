@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
+  "chainId": 80094,
+  "base": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x2D4f3199a80b848F3d094745F3Bbd4224892654e",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (21600 s).",
+      "pass": true
+    }
+  ],
+  "label": "HONEY (0.1%, 21600s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}

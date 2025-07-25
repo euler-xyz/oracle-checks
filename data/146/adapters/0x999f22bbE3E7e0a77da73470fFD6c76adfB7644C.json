@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x999f22bbE3E7e0a77da73470fFD6c76adfB7644C",
+  "chainId": 146,
+  "base": "0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47",
+  "cross": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812",
+  "quote": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+  "oracleBaseCross": "0x0E44629b6CD146A525507F995bFB335045E1E6a7",
+  "oracleCrossQuote": "0x4d27110bB9f488f1ED9d85613242B642a3c8AA74",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47 is wstkscETH (Wrapped stkscETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x50c42dEAcD8Fc9773493ED674b675bE577f2634b is WETH (Wrapped Ether on Sonic) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812 is scETH (Sonic ETH) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "wstkscETH/scETH/WETH",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

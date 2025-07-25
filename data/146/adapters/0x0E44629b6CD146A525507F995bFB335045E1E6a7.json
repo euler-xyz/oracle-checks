@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0x0E44629b6CD146A525507F995bFB335045E1E6a7",
+  "chainId": 146,
+  "base": "0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47",
+  "quote": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812",
+  "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+  "feedId": "0xb680422b70915df562e4802bd8679112ff0f6b0a29ec2c3762ae2720eda01e58",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47 is wstkscETH (Wrapped stkscETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812 is scETH (Sonic ETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: WSTKSCETH/SCETH",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (wstkscETH) corresponds to the Pyth feed's base asset from metadata (WSTKSCETH).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (scETH) corresponds to the Pyth feed's quote asset from metadata (SCETH).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
+  "methodology": "Exchange Rate",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

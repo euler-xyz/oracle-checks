@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
+  "chainId": 80094,
+  "base": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x3587a73AA02519335A8a6053a97657BECe0bC2Cc",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "ETH (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}

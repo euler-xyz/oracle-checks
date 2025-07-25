@@ -1,0 +1,52 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0xe8a784f4BdCd4707BAF4068e72887888Ad58c033",
+  "chainId": 80094,
+  "base": "0x5475611Dffb8ef4d697Ae39df9395513b6E947d7",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xE262021D583b9c97244EB3e5cD3C31cB19F94447",
+  "maxStaleness": "10800",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5475611Dffb8ef4d697Ae39df9395513b6E947d7 is srUSD (Savings rUSD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "SRUSD/USD",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Chronicle",
+  "whitelisted": false
+}

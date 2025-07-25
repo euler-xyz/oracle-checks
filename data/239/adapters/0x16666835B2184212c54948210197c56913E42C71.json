@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x16666835B2184212c54948210197c56913E42C71",
+  "chainId": 239,
+  "base": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xaeA46DaFFe5E1A1eDd241AEB9600933e92433B9f",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Unknown",
+  "whitelisted": false
+}

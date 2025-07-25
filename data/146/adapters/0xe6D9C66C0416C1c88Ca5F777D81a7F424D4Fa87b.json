@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+  "chainId": 146,
+  "base": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+  "feedId": "0x316b1536978bee10c47b3c74c0b3995aabae973a3351621680a2aa383aca77b8",
+  "maxStaleness": "120",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE is scUSD (Sonic USD) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: SCUSD/USD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (scUSD) corresponds to the Pyth feed's base asset from metadata (SCUSD).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.SCUSD/USD (120s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

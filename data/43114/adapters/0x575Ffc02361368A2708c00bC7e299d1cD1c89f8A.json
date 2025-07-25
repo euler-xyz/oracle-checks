@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x575Ffc02361368A2708c00bC7e299d1cD1c89f8A",
+  "chainId": 43114,
+  "base": "0xaEb1FA0853c7C98EAb10fcF0EA669aE3d07FBB10",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xaEb1FA0853c7C98EAb10fcF0EA669aE3d07FBB10 is sBUIDL (sBUIDL) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
+    }
+  ],
+  "label": "1:1 sBUIDL/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x87f6cc8E53cD0b38e4D52524e3c1e8711f0dA046",
+  "chainId": 239,
+  "base": "0xAf368c91793CB22739386DFCbBb2F1A9e4bCBeBf",
+  "quote": "0x61D66bC21fED820938021B06e9b2291f3FB91945",
+  "feed": "0x6a7c5E1453eD56B89ce05aDad746dcE01723E986",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xAf368c91793CB22739386DFCbBb2F1A9e4bCBeBf is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x61D66bC21fED820938021B06e9b2291f3FB91945 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Unknown",
+  "whitelisted": false
+}

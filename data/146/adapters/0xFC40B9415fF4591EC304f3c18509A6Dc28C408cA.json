@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0xFC40B9415fF4591EC304f3c18509A6Dc28C408cA",
+  "chainId": 146,
+  "base": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+  "quote": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+  "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+  "feedId": "0x3b14bd355f182fa3a3feeea6824228e1f71e7c221a37bc91e8307280aee6a803",
+  "maxStaleness": "120",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE5DA20F15420aD15DE0fa650600aFc998bbE3955 is stS (Beets Staked Sonic) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38 is wS (Wrapped Sonic) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: STS/S",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (stS) corresponds to the Pyth feed's base asset from metadata (STS).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (wS) does not correspond to the Pyth feed's quote asset from metadata (S).",
+      "pass": false
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.STS/S.RR (120s, ±300bps)",
+  "methodology": "Exchange Rate",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

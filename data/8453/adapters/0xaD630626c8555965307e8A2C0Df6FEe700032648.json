@@ -1,0 +1,58 @@
+{
+  "name": "PendleOracle",
+  "address": "0xaD630626c8555965307e8A2C0Df6FEe700032648",
+  "chainId": 8453,
+  "base": "0xec443e7E0e745348E500084892C89218B3ba4683",
+  "quote": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+  "pendleMarket": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xec443e7E0e745348E500084892C89218B3ba4683 is PT-USR-24APR2025 (PT Resolv USD 24APR2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE15578523937ed7F08E8F7a1Fa8a021E07025a08 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "Unknown pool",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

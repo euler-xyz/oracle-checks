@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0x0250917Ae8C612bA47275aF7D591e1eB1D121799",
+  "chainId": 146,
+  "base": "0x9fb76f7ce5FCeAA2C42887ff441D46095E494206",
+  "quote": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+  "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+  "feedId": "0xcaed0964240861da425cf03fae9737473f6f031fb80cbbd73c3fb8cddd7a2204",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x9fb76f7ce5FCeAA2C42887ff441D46095E494206 is wstkscUSD (Wrapped stkscUSD) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE is scUSD (Sonic USD) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: WSTKSCUSD/SCUSD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (wstkscUSD) corresponds to the Pyth feed's base asset from metadata (WSTKSCUSD).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (scUSD) corresponds to the Pyth feed's quote asset from metadata (SCUSD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
+  "methodology": "Exchange Rate",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

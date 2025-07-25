@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x9fD1020F6EFb83d6b60189268f42ca71855A71Cd",
+  "chainId": 8453,
+  "base": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+  "cross": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x61c7C35f6A99E8A8fA04896aaf7bf5cc0cF59802",
+  "oracleCrossQuote": "0x3D5B275186Ec3a7f35991341dcb5d6183882DB2d",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "LBTC/BTC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

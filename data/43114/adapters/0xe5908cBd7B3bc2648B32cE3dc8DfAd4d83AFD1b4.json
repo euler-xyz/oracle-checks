@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
+  "chainId": 43114,
+  "base": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+  "quote": "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777",
+  "feed": "0xc0990e0989141a5F535a2a24b6Af65618CC83d32",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xCC0966D8418d412c599A6421b760a847eB169A8c is xSolvBTC (xSolvBTC) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777 is SolvBTC (Solv BTC) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "SolvBTC.BBN / SolvBTC Exchange Rate (0.01%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

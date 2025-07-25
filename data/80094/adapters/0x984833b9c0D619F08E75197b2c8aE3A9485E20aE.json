@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x984833b9c0D619F08E75197b2c8aE3A9485E20aE",
+  "chainId": 80094,
+  "base": "0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5",
+  "cross": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xc2D30CFaC263Cb7a6978b3D227675b75A5B57FE7",
+  "oracleCrossQuote": "0xADF96cb1E19D658901A204eF375d605a0300244B",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "BB.SNECT/NECT/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

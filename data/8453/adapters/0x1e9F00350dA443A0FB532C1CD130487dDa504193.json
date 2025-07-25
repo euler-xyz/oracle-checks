@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x1e9F00350dA443A0FB532C1CD130487dDa504193",
+  "chainId": 8453,
+  "base": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x940181a94A35A4569E4529A3CDfB74e38FD98631 is AERO (Aerodrome) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "AERO / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

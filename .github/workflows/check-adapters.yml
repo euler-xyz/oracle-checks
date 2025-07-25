@@ -1,0 +1,89 @@
+name: Check Adapters
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs every 1 hours
+    - cron: "0 */1 * * *"
+  # Allows manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  run-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 0
+
+      - name: Reset and update submodule
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+
+          # Remove submodule from index and working tree
+          git rm -f euler-interfaces || true
+
+          # Remove the submodule directory and .git/modules
+          rm -rf euler-interfaces
+          rm -rf .git/modules/euler-interfaces
+
+          # Remove the entry from .gitmodules and commit
+          rm -f .gitmodules
+          git commit -m "Remove old submodule" || true
+
+          # Create new .gitmodules file
+          echo '[submodule "euler-interfaces"]' > .gitmodules
+          echo '    path = euler-interfaces' >> .gitmodules
+          echo '    url = https://github.com/euler-xyz/euler-interfaces' >> .gitmodules
+          echo '    branch = master' >> .gitmodules
+
+          # Add and initialize the submodule
+          git submodule add -f -b master https://github.com/euler-xyz/euler-interfaces
+
+          # Commit the changes if any
+          git add .gitmodules euler-interfaces
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Reset euler-interfaces submodule" && git push)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Generate .env file
+        run: |
+          echo '${{ secrets.RPC_URLS }}' > rpc_urls.json
+          for KEY in $(jq -r 'keys[]' rpc_urls.json); do
+            VALUE=$(jq -r ".[\"$KEY\"]" rpc_urls.json)
+            echo "RPC_URL_$KEY=$VALUE" >> .env
+          done
+          rm rpc_urls.json
+          echo "EULER_DATA_API_URL=${{ secrets.EULER_DATA_API_URL }}" >> .env
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run checks
+        run: npm run start
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+
+          # Stage only the data directory
+          git add -f data/
+
+          # Only commit and push if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Update adapter check results"
+            git push origin HEAD:main
+          fi

@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x7626962A3e09C6A7711E8be8c4d09C7C1729F475",
+  "chainId": 80094,
+  "base": "0x549943e04f40284185054145c6E4e9568C1D3241",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xC70BfA834C23822d1A0FB2Aedf484Dce280B2FDC",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "USDC/USD (0.5, 86400s)",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "eOracle",
+  "whitelisted": false
+}

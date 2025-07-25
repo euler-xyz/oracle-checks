@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x971A8ba22A85d4f2ff4a9128A3BeC5397F2e8653",
+  "chainId": 80094,
+  "base": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x63FBA167C2FfC4Dd43c7B2ca60B8B275d4dA4a0B",
+  "maxStaleness": "1112186928292553357",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2719e657ec3B3CbE521a18E640CA55799836376f is PT-sUSDE-25SEP2025 (PT Ethena sUSDE 25SEP2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "eOracle Pendle PT-sUSDe (25SEP2025) Linear Discount/USD ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "eOracle",
+  "whitelisted": false
+}

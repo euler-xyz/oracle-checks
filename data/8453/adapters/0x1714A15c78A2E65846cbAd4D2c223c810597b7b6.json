@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x1714A15c78A2E65846cbAd4D2c223c810597b7b6",
+  "chainId": 8453,
+  "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  "cross": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x6f3621dF5c5e33e6F1e82Fc11999777E08A1a2A7",
+  "oracleCrossQuote": "0xa73E4A743135c16A36CfC746699d7F53bb00aA7a",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "cbBTC/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xdbcC3537800134A316f8D01eDa38d07c8d34174c",
+  "chainId": 8453,
+  "base": "0x5875eEE11Cf8398102FdAd704C9E96607675467a",
+  "cross": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x64F9a04610b1CeA9E7a628bFA161dC84975D6BC1",
+  "oracleCrossQuote": "0x847BD1550634c35Ea5d6528B0414e0BE69584010",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5875eEE11Cf8398102FdAd704C9E96607675467a is sUSDS (Savings USDS) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc is USDS (USDS Stablecoin) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "sUSDS/USDS/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

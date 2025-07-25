@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x3F85aD6c5eb255241D132dA62Fe304fd1122c01B",
+  "chainId": 8453,
+  "base": "0xEDfa23602D0EC14714057867A78d01e94176BEA0",
+  "quote": "0x4200000000000000000000000000000000000006",
+  "feed": "0xe8dD07CCf5BC4922424140E44Eb970F5950725ef",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xEDfa23602D0EC14714057867A78d01e94176BEA0 is wrsETH (rsETHWrapper) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "wrsETH-ETH Exchange Rate (0.5%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x17D1bAa41d790Edb4Eb4E91612575AB0C2632d45",
+  "chainId": 239,
+  "base": "0xD44F691aeD69fe43180B95b6F82f89c18Fb93094",
+  "cross": "0xb76d91340F5CE3577f0a056D29f6e3Eb4E88B140",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x3b8753B5065d7522cD6e514D2341cA73246C26a0",
+  "oracleCrossQuote": "0x9bE83e996fe6D00c93BC31b41241eFba31a2bBFF",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD44F691aeD69fe43180B95b6F82f89c18Fb93094 is tsTON (Tonstakers TON) with 9 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xb76d91340F5CE3577f0a056D29f6e3Eb4E88B140 is TON (TON Token) with 9 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "tsTON/TON/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0x963919A10E2FB623010db2a4AeAF752b7F5F90a4",
+  "chainId": 8453,
+  "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+  "feedId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: USDC/USD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.USDC/USD (60s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

@@ -1,0 +1,43 @@
+{
+  "name": "oracle-checks",
+  "version": "0.1.6",
+  "description": "Euler price oracle verification checks",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext .ts --max-warnings 0",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Objective Labs",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objectivedefi/oracle-checks.git"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9",
+    "@swc/core": "^1.10.12",
+    "@types/node": "^20.13.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@objectivelabs/oracle-sdk": "^1.1.7",
+    "cbor-x": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "viem": "^2.31.7"
+  }
+}

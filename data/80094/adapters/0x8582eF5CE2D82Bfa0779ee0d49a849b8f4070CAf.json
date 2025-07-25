@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x8582eF5CE2D82Bfa0779ee0d49a849b8f4070CAf",
+  "chainId": 80094,
+  "base": "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xcA727511c9d542AAb9eF406d24E5bbbE4567c22d",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6fc6545d5cDE268D5C7f1e476D444F39c995120d is beraETH (Berachain Staked ETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "beraETH_FUNDAMENTAL/USD (0.5%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}

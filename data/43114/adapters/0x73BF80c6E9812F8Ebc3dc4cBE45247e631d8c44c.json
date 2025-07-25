@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x73BF80c6E9812F8Ebc3dc4cBE45247e631d8c44c",
+  "chainId": 43114,
+  "base": "0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3",
+  "cross": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xe8a784f4BdCd4707BAF4068e72887888Ad58c033",
+  "oracleCrossQuote": "0xFaAF6eD6dCD936dA3F4EF105d326D6464529206f",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3 is stAVAX (Hypha Staked AVAX) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 is WAVAX (Wrapped AVAX) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "stAVAX/WAVAX/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

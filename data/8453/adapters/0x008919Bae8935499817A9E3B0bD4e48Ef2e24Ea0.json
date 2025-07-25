@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x008919Bae8935499817A9E3B0bD4e48Ef2e24Ea0",
+  "chainId": 8453,
+  "base": "0xec443e7E0e745348E500084892C89218B3ba4683",
+  "cross": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xaD630626c8555965307e8A2C0Df6FEe700032648",
+  "oracleCrossQuote": "0xC20dC7913CbFd893e486CFf33CA20fA15Cc2cDaa",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xec443e7E0e745348E500084892C89218B3ba4683 is PT-USR-24APR2025 (PT Resolv USD 24APR2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-USR-24APR2025/USR/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

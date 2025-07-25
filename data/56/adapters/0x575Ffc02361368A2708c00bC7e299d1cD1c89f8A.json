@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0x575Ffc02361368A2708c00bC7e299d1cD1c89f8A",
+  "chainId": 56,
+  "base": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+  "feedId": "0x0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+  "maxStaleness": "120",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d is USD1 (World Liberty Financial USD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: USD1/USD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (USD1) corresponds to the Pyth feed's base asset from metadata (USD1).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.USD1/USD (120s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x63bD3D67a6BF1496d9586C50c3d5BFf56C66b29d",
+  "chainId": 239,
+  "base": "0xAf368c91793CB22739386DFCbBb2F1A9e4bCBeBf",
+  "cross": "0x61D66bC21fED820938021B06e9b2291f3FB91945",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x87f6cc8E53cD0b38e4D52524e3c1e8711f0dA046",
+  "oracleCrossQuote": "0x7334C4402C3eeECdDA1f4bDa78B3EBbF460ede1D",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xAf368c91793CB22739386DFCbBb2F1A9e4bCBeBf is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x61D66bC21fED820938021B06e9b2291f3FB91945 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "wstETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
