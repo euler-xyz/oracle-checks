@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     # Runs every 1 hours
     - cron: "0 */1 * * *"
