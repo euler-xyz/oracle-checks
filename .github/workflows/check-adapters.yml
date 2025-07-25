@@ -85,5 +85,5 @@ jobs:
           # Only commit and push if there are changes
           if ! git diff --cached --quiet; then
             git commit -m "Update adapter check results"
-            git push origin HEAD:main
+            git push origin HEAD:master
           fi
