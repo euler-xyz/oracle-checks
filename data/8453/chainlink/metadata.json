@@ -1410,6 +1410,47 @@
     "decimals": 8
   },
   {
+    "compareOffchain": "",
+    "contractAddress": "0x41414C39811D9Dce7feDda7522199Fb3410EF95a",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "yusd-usd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "yUSD / USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "yUSD-USD",
+    "proxyAddress": "0xc1a849217F3BaB97F1a46b990e369D6705B4be96",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "yUSD / USD Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "yUSD",
+      "baseAssetClic": "yUSD_CR",
+      "blockchainName": "Base",
+      "clicProductName": "yUSD/USD-ExRate-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
+  },
+  {
     "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x41F3a42270f161Ad1b25Cdb06bAd6cFC123E5C99",
