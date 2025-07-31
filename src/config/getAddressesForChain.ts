@@ -34,7 +34,9 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
   }
 
   return {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     oracleRouterFactory: (peripheryAddresses as any).oracleRouterFactory,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     oracleAdapterRegistry: (peripheryAddresses as any).oracleAdapterRegistry,
     oracleAdaptersAddresses,
   };
@@ -42,7 +44,8 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
 
 function extractAddressesFromOracleAdaptersCsv(file: string): Address[] {
   const rows = file.split("\n");
-  return rows.slice(1, rows.length - 1)
+  return rows
+    .slice(1, rows.length - 1)
     .map((row) => {
       const parts = row.split(",");
       const address = parts[4]; // 5th column (0-indexed)
