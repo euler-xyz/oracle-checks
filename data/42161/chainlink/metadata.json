@@ -25927,6 +25927,103 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "EUR/USD-RefPrice-Timestamped-mainnet-production",
+    "pair": [
+      "EUR",
+      "USD"
+    ],
+    "path": "eur-usd-refprice-timestamped-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Euro",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Euro",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX_Spot",
+      "clicProductName": "EUR/USD-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v8"
+    },
+    "decimals": 18,
+    "feedId": "0x0008b943a6e94c024eb38a19e31802180d12aa0cac4c7fd857c3112378f591aa",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "VEA/USD-Streams-EquityPrice-Timestamped-mainnet-production",
     "pair": [
       "VEA",
