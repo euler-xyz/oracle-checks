@@ -27,7 +27,7 @@ This system periodically checks the health and accuracy of price oracle adapters
 1. Clone the repository with submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/objectivedefi/oracle-checks.git
+git clone --recurse-submodules https://github.com/euler-xyz/oracle-checks.git
 cd oracle-checks
 ```
 
