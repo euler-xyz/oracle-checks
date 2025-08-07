@@ -7,13 +7,13 @@ import { SystemAddresses } from "./types";
 
 export function getAddressesForChain(chainId: number): SystemAddresses {
   const peripheryAddressesPath = join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/PeripheryAddresses.json`,
+    process.cwd(),
+    `euler-interfaces/addresses/${chainId}/PeripheryAddresses.json`,
   );
 
   const oracleAdaptersAddressesPath = join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
+    process.cwd(),
+    `euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
   );
 
   let peripheryAddresses: unknown;
@@ -34,16 +34,22 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
   }
 
   return {
-    oracleRouterFactory: peripheryAddresses.oracleRouterFactory,
-    oracleAdapterRegistry: peripheryAddresses.oracleAdapterRegistry,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    oracleRouterFactory: (peripheryAddresses as any).oracleRouterFactory,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    oracleAdapterRegistry: (peripheryAddresses as any).oracleAdapterRegistry,
     oracleAdaptersAddresses,
   };
 }
 
 function extractAddressesFromOracleAdaptersCsv(file: string): Address[] {
   const rows = file.split("\n");
-  return rows.slice(1, rows.length - 1).map((row) => {
-    const [, , , , address] = row.split(",");
-    return address.trim() as Address;
-  });
+  return rows
+    .slice(1, rows.length - 1)
+    .map((row) => {
+      const parts = row.split(",");
+      const address = parts[4]; // 5th column (0-indexed)
+      return address ? address.trim() : null;
+    })
+    .filter((address): address is Address => !!address && address.startsWith("0x"));
 }
