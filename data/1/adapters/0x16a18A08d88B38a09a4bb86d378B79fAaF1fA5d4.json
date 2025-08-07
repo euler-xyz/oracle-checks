@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x16a18A08d88B38a09a4bb86d378B79fAaF1fA5d4",
+  "chainId": 1,
+  "base": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C is USDM (Mountain Protocol USD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
+    }
+  ],
+  "label": "1:1 USDM/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

@@ -1,0 +1,51 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0xAb21F487D3A3f126d1A92788c3b1D96AB4093029",
+  "chainId": 1,
+  "base": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "rateProvider": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee is weETH (Wrapped eETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "weETH/WETH",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Rate Provider",
+  "whitelisted": false
+}

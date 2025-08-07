@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x56F31BBF98a7E13BA956aBf627142FEf603f9cbC",
+  "chainId": 1,
+  "base": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+  "quote": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7A56E1C57C7475CCf742a1832B028F0456652F97 is SolvBTC (Solv BTC) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
+    }
+  ],
+  "label": "1:1 SolvBTC/BTC",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

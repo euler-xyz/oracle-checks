@@ -1,0 +1,52 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0xDC8af46aDF7143e58047beECA27210D6dc760721",
+  "chainId": 1,
+  "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  "quote": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "feed": "0x3131E6a68BFb42976Ef574AF042f67d322098747",
+  "maxStaleness": "46800",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "CBBTC/USDC",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Chronicle",
+  "whitelisted": false
+}

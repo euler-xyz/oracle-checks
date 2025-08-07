@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x239DE90Ac71a220Ba745A10988BC2AbF6F4Dc2E8",
+  "chainId": 1,
+  "base": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xf87d2F4d42856f0B6Eae140Aaf78bF0F777e9936",
+  "maxStaleness": "31536000000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8 is ETH+ (ETHPlus) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "MEV Capital ETH+/USD Oracle ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "MEV Capital",
+  "whitelisted": false
+}

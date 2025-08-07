@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x5412ed14FF9D2044981987D472d6C0618eD87d57",
+  "chainId": 1,
+  "base": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+  "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x93c59E574Fb98Dd283A8c54E0C7881AD9944FcAA",
+  "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD9A442856C234a39a81a089C06451EBAa4306a72 is pufETH (pufETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "pufETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

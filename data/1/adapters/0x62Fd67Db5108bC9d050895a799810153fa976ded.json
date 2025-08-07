@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x62Fd67Db5108bC9d050895a799810153fa976ded",
+  "chainId": 1,
+  "base": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
+  "cross": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xd73dBF824CAB905a7E1687Ec1Ee25fd94FEEEed5",
+  "oracleCrossQuote": "0x990Ec39Ab55cFB15A3d326359045E982977132ef",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xB997B3418935A1Df0F914Ee901ec83927c1509A0 is PT-EBTC-26DEC2024 (PT ether.fi eBTC 26DEC2024) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-EBTC-26DEC2024/eBTC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

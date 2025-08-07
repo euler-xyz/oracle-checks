@@ -1,0 +1,52 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0x420a9855fA5FE985b9A6458780214a2700e0D9c6",
+  "chainId": 1,
+  "base": "0x56072C95FAA701256059aa122697B133aDEd9279",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x9f7Ce792d0ee09a6ce89eC2B9B236A44B0aCf73e",
+  "maxStaleness": "46800",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x56072C95FAA701256059aa122697B133aDEd9279 is SKY (SKY Governance Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "SKY/USD",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Chronicle",
+  "whitelisted": false
+}

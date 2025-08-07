@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x73bDDD7B48B653D4e78D88916a40f9890049ebE9",
+  "chainId": 1,
+  "base": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+  "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xE39Da17508ec3fE7806a58b0aBe15A2df742cBfE",
+  "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xae78736Cd615f374D3085123A210448E74Fc6393 is rETH (Rocket Pool ETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "rETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

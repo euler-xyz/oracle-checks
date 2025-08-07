@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xB3DF99fff1f803f1a505AF97F18FBf6C5B28aC8F",
+  "chainId": 1,
+  "base": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+  "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5",
+  "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755 is PT-cUSDO-19JUN2025 (PT Compounding Open Dollar 19JUN2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-cUSDO-19JUN2025/USDO/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

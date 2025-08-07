@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x4c00c56a52C1Da5b835a62C55f590b9EE60F1c59",
+  "chainId": 1,
+  "base": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+  "cross": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x56F31BBF98a7E13BA956aBf627142FEf603f9cbC",
+  "oracleCrossQuote": "0x92b172Bd476948d01f858Dd3FaAc4943e3BC775E",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7A56E1C57C7475CCf742a1832B028F0456652F97 is SolvBTC (Solv BTC) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "SolvBTC/BTC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

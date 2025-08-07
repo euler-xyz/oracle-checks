@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xa0a9511fCb0FCC9Ea046abb417A2703D62F1Edd7",
+  "chainId": 1,
+  "base": "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x4F0585d46e23DBc50017E348d4D37dF3DED6e4b4",
+  "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xb7de5dFCb74d25c2f21841fbd6230355C50d9308 is PT-sUSDE-29MAY2025 (PT Ethena sUSDE 29MAY2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-sUSDE-29MAY2025/USDe/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
+  "chainId": 1,
+  "base": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
+  "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x50D2C7992b802Eef16c04FeADAB310f31866a545 is PT-eUSDE-29MAY2025 (PT Ethereal eUSDE 29MAY2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-eUSDE-29MAY2025/USDe/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

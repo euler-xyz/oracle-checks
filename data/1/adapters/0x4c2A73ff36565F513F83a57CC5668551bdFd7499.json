@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x4c2A73ff36565F513F83a57CC5668551bdFd7499",
+  "chainId": 1,
+  "base": "0x23e479ddcda990E8523494895759bD98cD2fDBF6",
+  "cross": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xB2d329A6e3cd47c7dB5D600EF376dDCB2DDc0773",
+  "oracleCrossQuote": "0x7739a9e31ee060afAe2657dC4Ff8DA11078C2c52",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x23e479ddcda990E8523494895759bD98cD2fDBF6 is PT-corn-SolvBTC.BBN-26DEC2024 (PT Corn SolvBTC Babylon 26DEC2024) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 is WBTC (Wrapped BTC) with 8 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-corn-SolvBTC.BBN-26DEC2024/WBTC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

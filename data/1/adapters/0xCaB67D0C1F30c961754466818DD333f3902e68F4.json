@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xCaB67D0C1F30c961754466818DD333f3902e68F4",
+  "chainId": 1,
+  "base": "0x61439b9575278054D69c9176d88FaFaf8319E4b7",
+  "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x182CF2A51672c71227Ea1fEDE9C8Ed285C158fAc",
+  "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x61439b9575278054D69c9176d88FaFaf8319E4b7 is PT-USD0++-30JAN2025 (PT USD0++ 30JAN2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-USD0++-30JAN2025/USD0++/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

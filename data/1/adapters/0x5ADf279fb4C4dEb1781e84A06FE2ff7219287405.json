@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x5ADf279fb4C4dEb1781e84A06FE2ff7219287405",
+  "chainId": 1,
+  "base": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xA027702dbb89fbd58938e4324ac03B58d812b0E1",
+  "maxStaleness": "7200",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e is YFI (yearn.finance) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (7200 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "pass": false
+    }
+  ],
+  "label": "YFI / USD (1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

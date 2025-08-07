@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xd54Bc197150487A40D4eBd4Fb215CA4fA996173e",
+  "chainId": 1,
+  "base": "0x738d1115B90efa71AE468F1287fc864775e23a31",
+  "cross": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x2D1706941e7A7b93c2e44F01261f1dDe3D1D6999",
+  "oracleCrossQuote": "0x01dBD40296C232C2C58c99Ff69084B256BeE33EE",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x738d1115B90efa71AE468F1287fc864775e23a31 is srUSD (Savings rUSD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "srUSD/rUSD/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

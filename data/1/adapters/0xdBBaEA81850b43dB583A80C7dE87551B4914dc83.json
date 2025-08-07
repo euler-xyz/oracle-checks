@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xdBBaEA81850b43dB583A80C7dE87551B4914dc83",
+  "chainId": 1,
+  "base": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xb99D174ED06c83588Af997c8859F93E83dD4733f",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497 is sUSDe (Staked USDe) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "sUSDe (0.2%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}

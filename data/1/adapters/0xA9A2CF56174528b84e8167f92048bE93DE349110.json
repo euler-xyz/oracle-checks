@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xA9A2CF56174528b84e8167f92048bE93DE349110",
+  "chainId": 1,
+  "base": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xAdb2c15Fde49D1A4294740aCb650de94184E66b2",
+  "maxStaleness": "31536000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4956b52aE2fF65D74CA2d61207523288e4528f96 is RLP (Resolv Liquidity Provider Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Resolv RLP/USD Oracle ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Resolv",
+  "whitelisted": false
+}

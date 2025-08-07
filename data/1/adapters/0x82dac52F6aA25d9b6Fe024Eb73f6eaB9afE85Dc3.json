@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0x82dac52F6aA25d9b6Fe024Eb73f6eaB9afE85Dc3",
+  "chainId": 1,
+  "base": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
+  "quote": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "pendleMarket": "0x9A63FA80b5DDFd3Cab23803fdB93ad2c18F3d5aa",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A is PT-syrupUSDC-28AUG2025 (PT Syrup USDC 28AUG2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x9A63FA80b5DDFd3Cab23803fdB93ad2c18F3d5aa is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "syrupUSDC",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

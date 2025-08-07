@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0xB59fB806CcbE626c45f8A4f2cAde9E2eAD2e62c0",
+  "chainId": 1,
+  "base": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+  "quote": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+  "pendleMarket": "0x3F53eb4c57c7E7118BE8566bCd503EA502639581",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc is PT-cUSDO-20NOV2025 (PT Compounding Open Dollar 20NOV2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3F53eb4c57c7E7118BE8566bCd503EA502639581 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "cUSDO",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

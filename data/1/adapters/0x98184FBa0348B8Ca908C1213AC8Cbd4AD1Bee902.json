@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x98184FBa0348B8Ca908C1213AC8Cbd4AD1Bee902",
+  "chainId": 1,
+  "base": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+  "cross": "0x00000000000000000000000000000000000003d2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x4d0d1B45834e8185e7ddB4aD8Fc64884fa8e6D5D",
+  "oracleCrossQuote": "0x8453AEEd36efF2c88f237c78ce3e643d04a7AFaC",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8 is EURA (EURA (previously agEUR)) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x00000000000000000000000000000000000003d2 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "EURA/EUR/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xe635E116D38ED5db736E620dD5c839a9A119f3F5",
+  "chainId": 1,
+  "base": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
+  "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x82dac52F6aA25d9b6Fe024Eb73f6eaB9afE85Dc3",
+  "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A is PT-syrupUSDC-28AUG2025 (PT Syrup USDC 28AUG2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-syrupUSDC-28AUG2025/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

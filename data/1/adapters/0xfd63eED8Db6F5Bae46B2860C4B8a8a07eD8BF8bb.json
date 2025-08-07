@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xfd63eED8Db6F5Bae46B2860C4B8a8a07eD8BF8bb",
+  "chainId": 1,
+  "base": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xE4f2AE539442e1D3Fb40F03ceEbF4A372a390d24",
+  "maxStaleness": "31536000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2a8c22E3b10036f3AEF5875d04f8441d4188b656 is mBASIS (Midas Basis Trading Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Midas mBASIS/USD Oracle ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Midas",
+  "whitelisted": false
+}

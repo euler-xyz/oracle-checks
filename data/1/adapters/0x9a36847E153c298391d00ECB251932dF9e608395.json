@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x9a36847E153c298391d00ECB251932dF9e608395",
+  "chainId": 1,
+  "base": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x056339C044055819E8Db84E71f5f2E1F536b2E5b",
+  "maxStaleness": "31536000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xDD629E5241CbC5919847783e6C96B2De4754e438 is mTBILL (Midas US Treasury Bill Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Midas mTBILL/USD Oracle ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Midas",
+  "whitelisted": false
+}

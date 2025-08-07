@@ -1,0 +1,51 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0x28B99170918f7441C4850E691dD44D2dC3150A75",
+  "chainId": 1,
+  "base": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "rateProvider": "0x302013E7936a39c358d07A3Df55dc94EC417E3a1",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xac3E018457B222d93114458476f3E3416Abbe38F is sfrxETH (Staked Frax Ether) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "sfrxETH/WETH",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Rate Provider",
+  "whitelisted": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "LidoOracle",
+  "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
+  "chainId": 1,
+  "WSTETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+  "STETH": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 is stETH (Liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Lido oracle",
+      "severity": "High",
+      "message": "Adapter is connected to the official Lido contracts on Ethereum.",
+      "pass": true
+    }
+  ],
+  "label": "wstETH/stETH",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Lido",
+  "whitelisted": false
+}

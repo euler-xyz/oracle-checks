@@ -1,0 +1,58 @@
+{
+  "name": "PendleOracle",
+  "address": "0xC1F6c8E2F625d7f60Bf4b84e34ab0F0b53AD2C6F",
+  "chainId": 1,
+  "base": "0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685",
+  "quote": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+  "pendleMarket": "0xaFDC922d0059147486cC1F0f32e3A2354b0d35CC",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685 is PT-USD0++-27MAR2025 (PT USD0++ 27MAR2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xaFDC922d0059147486cC1F0f32e3A2354b0d35CC is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "Unknown pool",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xf8147C4c6CB7c615c32A44EB79C18C43b9Fe2058",
+  "chainId": 1,
+  "base": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
+  "cross": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xA66F779E656e76bAE0cA7BCA8E731A938412c496",
+  "oracleCrossQuote": "0x92b172Bd476948d01f858Dd3FaAc4943e3BC775E",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x007115416AB6c266329a03B09a8aa39aC2eF7d9d is mBTC (Midas BTC Yield Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "mBTC/BTC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
