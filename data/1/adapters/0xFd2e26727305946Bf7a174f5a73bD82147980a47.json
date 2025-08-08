@@ -48,20 +48,20 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: RSR/USD",
-      "pass": true
+      "message": "Could not find matching Pyth feed",
+      "pass": false
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (RSR) corresponds to the Pyth feed's base asset from metadata (RSR).",
-      "pass": true
+      "message": "Feed is unknown.",
+      "pass": false
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-      "pass": true
+      "message": "Feed is unknown",
+      "pass": false
     },
     {
       "id": "Recognized Pyth proxy",
@@ -76,8 +76,8 @@
       "pass": true
     }
   ],
-  "label": "Crypto.RSR/USD (120s, ±300bps)",
-  "methodology": "Market Price",
+  "label": "unknown feed (120s, ±300bps)",
+  "methodology": "Unknown",
   "model": "Pull",
   "provider": "Pyth",
   "whitelisted": false
