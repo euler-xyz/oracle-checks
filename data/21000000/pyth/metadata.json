@@ -968,6 +968,19 @@
     }
   },
   {
+    "id": "0x5e2e8fcd3c2b6f4d56265feca3106aa22fc4f7998857a6b6191321eeead2f2fb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EMU5",
+      "description": "EM U5 19 SEPTEMBER 2025 / US DOLLAR",
+      "display_symbol": "EMU5/USD",
+      "generic_symbol": "EMU5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0703/0000-1315&1800-2400,0704/0000-1300",
+      "symbol": "Equity.US.EMU5/USD"
+    }
+  },
+  {
     "id": "0x0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
     "attributes": {
       "asset_type": "Crypto",
@@ -1476,6 +1489,20 @@
     }
   },
   {
+    "id": "0xd7a28394622d4d938601fb39e26d658c4ced10e21676d068b05dff9af6f2b991",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8801",
+      "country": "JP",
+      "description": "MITSUI FUDOSAN / JAPANESE YEN",
+      "display_symbol": "8801/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8801/JPY"
+    }
+  },
+  {
     "id": "0x39d020f60982ed892abbcd4a06a276a9f9b7bfbce003204c110b6e488f502da3",
     "attributes": {
       "asset_type": "Crypto",
@@ -1916,17 +1943,17 @@
     }
   },
   {
-    "id": "0xa6cdf5ac29a2bb75c2d1347e85362b703c7c8090a21d358e6b4155294e5b3159",
+    "id": "0xd0a54deb29ead4f227a8e76edba7814849691d3b874d26193fb3acf24e093a87",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "ALP",
-      "contract_id": "spl: 4bQRutgDJs6vuh6ZcWaPVXiQaBzbHketjbCDjL4oRN34",
-      "description": "ADRENA LIQUIDITY PROVIDER TOKEN / US DOLLAR REDEMPTION RATE",
-      "display_symbol": "ALP/USD",
-      "generic_symbol": "ALPUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ALP/USD.RR"
+      "asset_type": "Equity",
+      "base": "9201",
+      "country": "JP",
+      "description": "JAPAN AIRLINES CO LTD / JAPANESE YEN",
+      "display_symbol": "9201/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9201/JPY"
     }
   },
   {
@@ -1943,19 +1970,6 @@
     }
   },
   {
-    "id": "0x89b814de1eb2afd3d3b498d296fca3a873e644bafb587e84d181a01edd682853",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ASTR",
-      "description": "ASTAR / US DOLLAR",
-      "display_symbol": "ASTR/USD",
-      "generic_symbol": "ASTRUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ASTR/USD"
-    }
-  },
-  {
     "id": "0xad47427cedeb8fcfef5b44c9e36ad34098fbaeb374a545b1a3f37f6ce39deae7",
     "attributes": {
       "asset_type": "Equity",
@@ -1967,20 +1981,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.BKG/GBP"
-    }
-  },
-  {
-    "id": "0xea07fce25d7d716fe6ad10b267451011baadc8f3724b28487026072ddce3ba1b",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "STHAPT",
-      "contract_id": "apt: 0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6",
-      "description": "STAKED THALA APTOS / THALA APTOS REDEMPTION RATE",
-      "display_symbol": "STHAPT/THAPT",
-      "generic_symbol": "STHAPTTHAPT",
-      "quote_currency": "THAPT",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STHAPT/THAPT.RR"
     }
   },
   {
@@ -2026,6 +2026,75 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.SPYG/USD"
+    }
+  },
+  {
+    "id": "0xa6cdf5ac29a2bb75c2d1347e85362b703c7c8090a21d358e6b4155294e5b3159",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ALP",
+      "contract_id": "spl: 4bQRutgDJs6vuh6ZcWaPVXiQaBzbHketjbCDjL4oRN34",
+      "description": "ADRENA LIQUIDITY PROVIDER TOKEN / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "ALP/USD",
+      "generic_symbol": "ALPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ALP/USD.RR"
+    }
+  },
+  {
+    "id": "0x1dcf3e46a48b9ca084f57b5345cc94aefcdf1b635e263224ef67aace457eef7b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8035",
+      "country": "JP",
+      "description": "TOKYO ELECTRON / JAPANESE YEN",
+      "display_symbol": "8035/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8035/JPY"
+    }
+  },
+  {
+    "id": "0x89b814de1eb2afd3d3b498d296fca3a873e644bafb587e84d181a01edd682853",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ASTR",
+      "description": "ASTAR / US DOLLAR",
+      "display_symbol": "ASTR/USD",
+      "generic_symbol": "ASTRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ASTR/USD"
+    }
+  },
+  {
+    "id": "0xea07fce25d7d716fe6ad10b267451011baadc8f3724b28487026072ddce3ba1b",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STHAPT",
+      "contract_id": "apt: 0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6",
+      "description": "STAKED THALA APTOS / THALA APTOS REDEMPTION RATE",
+      "display_symbol": "STHAPT/THAPT",
+      "generic_symbol": "STHAPTTHAPT",
+      "quote_currency": "THAPT",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STHAPT/THAPT.RR"
+    }
+  },
+  {
+    "id": "0x0b26c5677fdfadf315a1e306ea49790a797886816d0f8a2c336fc7145cfaf308",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8058",
+      "country": "JP",
+      "description": "MITSUBISHI CORP / JAPANESE YEN",
+      "display_symbol": "8058/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8058/JPY"
     }
   },
   {
@@ -2087,6 +2156,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.MU/USD"
+    }
+  },
+  {
+    "id": "0x1146b35198d9d69ffdb4f8ca6677178bc0117a10edcef30de8a4fe3d53a43efb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7733",
+      "country": "JP",
+      "description": "OLYMPUS CORPORATION / JAPANESE YEN",
+      "display_symbol": "7733/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7733/JPY"
     }
   },
   {
@@ -2478,6 +2561,20 @@
     }
   },
   {
+    "id": "0x86a5e41e666846c3740b0be974f7adebe90c4304d59ed7a192b5500ae0ce0b06",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7735",
+      "country": "JP",
+      "description": "SCREEN HOLDINGS CO LTD / JAPANESE YEN",
+      "display_symbol": "7735/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7735/JPY"
+    }
+  },
+  {
     "id": "0x0a03c915d98ab4084795d283e20f08d7130acd826bca180754b120bfc202f2fb",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -2506,6 +2603,34 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.MCHI/USD"
+    }
+  },
+  {
+    "id": "0x2bf6d003a800876acea333df0123f31c5c7d137801a5e18251d1ec8721b62560",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9434",
+      "country": "JP",
+      "description": "SOFTBANK CORP / JAPANESE YEN",
+      "display_symbol": "9434/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9434/JPY"
+    }
+  },
+  {
+    "id": "0x0b160324cab37b77201868eb63c67772362dda35fc48874816f9fe745dda9078",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7261",
+      "country": "JP",
+      "description": "MAZDA MOTOR CORP / JAPANESE YEN",
+      "display_symbol": "7261/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7261/JPY"
     }
   },
   {
@@ -2823,6 +2948,20 @@
     }
   },
   {
+    "id": "0x061e40b146a88776a7c22b98a23dfd5cd7383e17ee45e3b14d0c9e803b745d72",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8233",
+      "country": "JP",
+      "description": "TAKASHIMAYA CO / JAPANESE YEN",
+      "display_symbol": "8233/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8233/JPY"
+    }
+  },
+  {
     "id": "0x92eea8ba1b00078cdc2ef6f64f091f262e8c7d0576ee4677572f314ebfafa4c7",
     "attributes": {
       "asset_type": "FX",
@@ -2862,6 +3001,20 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.000880/KRW"
+    }
+  },
+  {
+    "id": "0x7f66a34c1fb906fa33290556c4cdcc8b196794f6eecfdf033ce2946426162932",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8725",
+      "country": "JP",
+      "description": "MS&AD INS GP HLDGS / JAPANESE YEN",
+      "display_symbol": "8725/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8725/JPY"
     }
   },
   {
@@ -2922,6 +3075,20 @@
     }
   },
   {
+    "id": "0x97864351f7b9c652ae45ce45a96d4c9475d5d531caebb11c35f86dac4b0cad08",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7453",
+      "country": "JP",
+      "description": "RYOHIN KEIKAKU CO / JAPANESE YEN",
+      "display_symbol": "7453/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7453/JPY"
+    }
+  },
+  {
     "id": "0xa007ed7f4e98f90b585aaecafa2bef88c28af6f0e6f601268c17530e5dfb462d",
     "attributes": {
       "asset_type": "Crypto",
@@ -2979,6 +3146,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.DAY/USD"
+    }
+  },
+  {
+    "id": "0x2132cbc333161e94b91da745ed73b1450410fdc870f2235bf628c28da358b652",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HIMS",
+      "country": "US",
+      "description": "HIMS & HERS HEALTH INC",
+      "display_symbol": "HIMS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.HIMS/USD"
     }
   },
   {
@@ -3064,6 +3245,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.PALL/USD"
+    }
+  },
+  {
+    "id": "0xaae1f5b2838cb49b2447eb074d45171e8fd69f76928e2f5d6a88c4e2c8dd6381",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9107",
+      "country": "JP",
+      "description": "KAWASAKI KISEN KAISHA / JAPANESE YEN",
+      "display_symbol": "9107/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9107/JPY"
     }
   },
   {
@@ -3637,6 +3832,20 @@
     }
   },
   {
+    "id": "0xfd986c5e3ab94ecca751f3281ee1f88a1118c21e664ae35c8a47d2da0838a096",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7186",
+      "country": "JP",
+      "description": "CONCORDIA FINANCIAL GROUP LTD / JAPANESE YEN",
+      "display_symbol": "7186/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7186/JPY"
+    }
+  },
+  {
     "id": "0x212c7aec26135c00c46df278385b79cd1f9e6bf4d3acee0f361f6cdadaff740b",
     "attributes": {
       "asset_type": "Equity",
@@ -3924,6 +4133,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.VO/USD"
+    }
+  },
+  {
+    "id": "0x4d824ad5fbfc5032eceb277113c591d6a4799ff3bea09528715ecef21dc85a15",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8804",
+      "country": "JP",
+      "description": "TOKYO TATEMONO CO / JAPANESE YEN",
+      "display_symbol": "8804/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8804/JPY"
     }
   },
   {
@@ -5086,6 +5309,20 @@
     }
   },
   {
+    "id": "0x051e0f95c6e6066f9c879ce7bc1a089dd80736b537ec082ad4154c235fc8b0b2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7269",
+      "country": "JP",
+      "description": "SUZUKI MOTOR CORP / JAPANESE YEN",
+      "display_symbol": "7269/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7269/JPY"
+    }
+  },
+  {
     "id": "0xaafa1b2ed24a90e5f3fb7dd6b8e546a6068e4432039cc6adf1e6d6a92ff6ecdf",
     "attributes": {
       "asset_type": "Equity",
@@ -5286,6 +5523,20 @@
       "quote_currency": "USDE",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TSUSDE/USDE.RR"
+    }
+  },
+  {
+    "id": "0x400d537589dc759c1daef0fa49dcad2f0cbecc354fa6e41cebaef17b1568db29",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7741",
+      "country": "JP",
+      "description": "HOYA CORP / JAPANESE YEN",
+      "display_symbol": "7741/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7741/JPY"
     }
   },
   {
@@ -5709,6 +5960,20 @@
     }
   },
   {
+    "id": "0x16d91298bedced5e5a02252e1536c6c589b1007ac06cb02b87f0209128cf6e4d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7272",
+      "country": "JP",
+      "description": "YAMAHA MOTOR CO / JAPANESE YEN",
+      "display_symbol": "7272/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7272/JPY"
+    }
+  },
+  {
     "id": "0xdf36d39cf7b927c357284441fde4115922d0d6180d4813e525047ea3a3c57f4b",
     "attributes": {
       "asset_type": "Equity",
@@ -5910,6 +6175,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.DHR/USD"
+    }
+  },
+  {
+    "id": "0x84981567319029f78660d114bae42df7325ac30786e4dc47772d535ecfc1df30",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7951",
+      "country": "JP",
+      "description": "YAMAHA CORP / JAPANESE YEN",
+      "display_symbol": "7951/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7951/JPY"
     }
   },
   {
@@ -6874,6 +7153,94 @@
     }
   },
   {
+    "id": "0x944f2f908c5166e0732ea5b610599116cd8e1c41f47452697c1e84138b7184d6",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PERP",
+      "description": "PERPETUAL PROTOCOL / US DOLLAR",
+      "display_symbol": "PERP/USD",
+      "generic_symbol": "PERPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PERP/USD"
+    }
+  },
+  {
+    "id": "0xd2a57755cd77a11ae2dc2c69aae02f4dff1143fad8761eb2ff72f308ab98d496",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1876-HK",
+      "country": "HK",
+      "description": "BUDWEISER BREWING COMPANY APAC LTD / HONG KONG DOLLAR",
+      "display_symbol": "HK.1876/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
+      "symbol": "Equity.HK.1876-HK/HKD"
+    }
+  },
+  {
+    "id": "0x3d739102be847ba442365931b384aeba9b48eda30c25553d30b5ec697da29c41",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NXPI",
+      "cms_symbol": "NXPI",
+      "country": "US",
+      "cqs_symbol": "NXPI",
+      "description": "NXP SEMICONDUCTORS NV / US DOLLAR",
+      "display_symbol": "NXPI/USD",
+      "nasdaq_symbol": "NXPI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.NXPI/USD"
+    }
+  },
+  {
+    "id": "0xd302d0bf304b2a9a186d58733a2fd9d29a9f4ed7c91b74df44071c614f81363c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AVY",
+      "cms_symbol": "AVY",
+      "country": "US",
+      "cqs_symbol": "AVY",
+      "description": "AVERY DENNISON CORPORATION / US DOLLAR",
+      "display_symbol": "AVY/USD",
+      "nasdaq_symbol": "AVY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.AVY/USD"
+    }
+  },
+  {
+    "id": "0x178d0d973d4cabb0323fb50aa043e9f9d384d904d70340a4e794e20e6d5986e6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MNG",
+      "country": "GB",
+      "description": "M&G PLC / BRITISH POUND",
+      "display_symbol": "MNG/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.GB.MNG/GBP"
+    }
+  },
+  {
+    "id": "0xa940f22b79e9475ba12a536f109f0e944e937715bfea6f153b8db1675f3fccf7",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LOUD",
+      "description": "STAY LOUD / US DOLLAR",
+      "display_symbol": "LOUD/USD",
+      "generic_symbol": "LOUDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LOUD/USD"
+    }
+  },
+  {
     "id": "0xb2c7a2a935f77a8903c03943e5cb001581a25223b8978baffbac0d3c801897fb",
     "attributes": {
       "asset_type": "Crypto",
@@ -6898,19 +7265,6 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.1605/JPY"
-    }
-  },
-  {
-    "id": "0x944f2f908c5166e0732ea5b610599116cd8e1c41f47452697c1e84138b7184d6",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "PERP",
-      "description": "PERPETUAL PROTOCOL / US DOLLAR",
-      "display_symbol": "PERP/USD",
-      "generic_symbol": "PERPUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PERP/USD"
     }
   },
   {
@@ -6945,51 +7299,45 @@
     }
   },
   {
-    "id": "0x3d739102be847ba442365931b384aeba9b48eda30c25553d30b5ec697da29c41",
+    "id": "0x431c8109e07c49c09cd6b53a06eba03a2c73ee2140ee145a76759692e9ec31b1",
     "attributes": {
       "asset_type": "Equity",
-      "base": "NXPI",
-      "cms_symbol": "NXPI",
-      "country": "US",
-      "cqs_symbol": "NXPI",
-      "description": "NXP SEMICONDUCTORS NV / US DOLLAR",
-      "display_symbol": "NXPI/USD",
-      "nasdaq_symbol": "NXPI",
+      "base": "7751",
+      "country": "JP",
+      "description": "CANON INC / JAPANESE YEN",
+      "display_symbol": "7751/JPY",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.NXPI/USD"
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7751/JPY"
     }
   },
   {
-    "id": "0xd2a57755cd77a11ae2dc2c69aae02f4dff1143fad8761eb2ff72f308ab98d496",
+    "id": "0xa7c8181cf4be902eb4d0c0825e94115be3b716f3c66c58f0bbf09c384c432ace",
     "attributes": {
       "asset_type": "Equity",
-      "base": "1876-HK",
-      "country": "HK",
-      "description": "BUDWEISER BREWING COMPANY APAC LTD / HONG KONG DOLLAR",
-      "display_symbol": "HK.1876/HKD",
+      "base": "8316",
+      "country": "JP",
+      "description": "SUMITOMO MITSUI FINANCIAL GROUP INC / JAPANESE YEN",
+      "display_symbol": "8316/JPY",
       "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
-      "symbol": "Equity.HK.1876-HK/HKD"
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8316/JPY"
     }
   },
   {
-    "id": "0xd302d0bf304b2a9a186d58733a2fd9d29a9f4ed7c91b74df44071c614f81363c",
+    "id": "0x539df3aa7719001d8ce51a17c85ffbc14021fc413bc8dade6197b4a4fda10955",
     "attributes": {
       "asset_type": "Equity",
-      "base": "AVY",
-      "cms_symbol": "AVY",
-      "country": "US",
-      "cqs_symbol": "AVY",
-      "description": "AVERY DENNISON CORPORATION / US DOLLAR",
-      "display_symbol": "AVY/USD",
-      "nasdaq_symbol": "AVY",
+      "base": "7270",
+      "country": "JP",
+      "description": "SUBARU CORPORATION / JAPANESE YEN",
+      "display_symbol": "7270/JPY",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.AVY/USD"
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7270/JPY"
     }
   },
   {
@@ -7007,20 +7355,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.PCG/USD"
-    }
-  },
-  {
-    "id": "0x178d0d973d4cabb0323fb50aa043e9f9d384d904d70340a4e794e20e6d5986e6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "MNG",
-      "country": "GB",
-      "description": "M&G PLC / BRITISH POUND",
-      "display_symbol": "MNG/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
-      "symbol": "Equity.GB.MNG/GBP"
     }
   },
   {
@@ -7054,43 +7388,16 @@
     }
   },
   {
-    "id": "0xa940f22b79e9475ba12a536f109f0e944e937715bfea6f153b8db1675f3fccf7",
+    "id": "0x4244d07890e4610f46bbde67de8f43a4bf8b569eebe904f136b469f148503b7f",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "LOUD",
-      "description": "STAY LOUD / US DOLLAR",
-      "display_symbol": "LOUD/USD",
-      "generic_symbol": "LOUDUSD",
+      "base": "NVDAX",
+      "description": "NVIDIA XSTOCK / US DOLLAR",
+      "display_symbol": "NVDAX/USD",
+      "generic_symbol": "NVDAXUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LOUD/USD"
-    }
-  },
-  {
-    "id": "0x2b9ab1e972a281585084148ba1389800799bd4be63b957507db1349314e47445",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "AAVE",
-      "description": "AAVE / US DOLLAR",
-      "display_symbol": "AAVE/USD",
-      "generic_symbol": "AAVEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.AAVE/USD"
-    }
-  },
-  {
-    "id": "0x3b14bd355f182fa3a3feeea6824228e1f71e7c221a37bc91e8307280aee6a803",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "STS",
-      "contract_id": "s: 0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
-      "description": "BEETS STAKED SONIC / SONIC REDEMPTION RATE",
-      "display_symbol": "STS/S",
-      "generic_symbol": "STSS",
-      "quote_currency": "S",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STS/S.RR"
+      "symbol": "Crypto.NVDAX/USD"
     }
   },
   {
@@ -7120,19 +7427,6 @@
     }
   },
   {
-    "id": "0xff4c53361e36a9b837433c87d290c229e1f01aec5ef98d9f3f70953a20a629ce",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MOBILE",
-      "description": "HELIUM MOBILE / US DOLLAR",
-      "display_symbol": "MOBILE/USD",
-      "generic_symbol": "MOBILEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MOBILE/USD"
-    }
-  },
-  {
     "id": "0x440045c78d204a0ec4aba5fdeebcc10a7eb9cd3a3df4a89e3aa917653db8ef04",
     "attributes": {
       "asset_type": "Equity",
@@ -7150,16 +7444,16 @@
     }
   },
   {
-    "id": "0x23bea4c329866dfa048eebba6f6538a3c671c0f15391fd451c842881aed4ae1a",
+    "id": "0x0f7f8f64d3b762be8fead73e692ba52cd6e07076e0784810ecc95cf0d28e9a96",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "SPOT",
-      "description": "AMPLEFORTH SENIOR PERPETUAL SPOT / US DOLLAR",
-      "display_symbol": "SPOT/USD",
-      "generic_symbol": "SPOTUSD",
+      "base": "OG",
+      "description": "OG FAN TOKEN / US DOLLAR",
+      "display_symbol": "OG/USD",
+      "generic_symbol": "OGUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SPOT/USD"
+      "symbol": "Crypto.OG/USD"
     }
   },
   {
@@ -7180,19 +7474,6 @@
     }
   },
   {
-    "id": "0xecd49a99bb0a0f772de2a4b5ce93fdb5b7b83ae7dd7d99c68dadf9cc40ee8fbe",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "WTIU5",
-      "description": "PYTH WTI 20 AUGUST 2025 / US DOLLAR",
-      "display_symbol": "WTIU5/USD",
-      "generic_symbol": "WTIU5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
-      "symbol": "Commodities.WTIU5/USD"
-    }
-  },
-  {
     "id": "0x26e4f737fde0263a9eea10ae63ac36dcedab2aaf629261a994e1eeb6ee0afe53",
     "attributes": {
       "asset_type": "Crypto",
@@ -7203,19 +7484,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SUSHI/USD"
-    }
-  },
-  {
-    "id": "0x0f7f8f64d3b762be8fead73e692ba52cd6e07076e0784810ecc95cf0d28e9a96",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "OG",
-      "description": "OG FAN TOKEN / US DOLLAR",
-      "display_symbol": "OG/USD",
-      "generic_symbol": "OGUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.OG/USD"
     }
   },
   {
@@ -7233,19 +7501,6 @@
     }
   },
   {
-    "id": "0x4244d07890e4610f46bbde67de8f43a4bf8b569eebe904f136b469f148503b7f",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "NVDAX",
-      "description": "NVIDIA XSTOCK / US DOLLAR",
-      "display_symbol": "NVDAX/USD",
-      "generic_symbol": "NVDAXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.NVDAX/USD"
-    }
-  },
-  {
     "id": "0xa79471b8128c37e8193306b255521d2c8b5d7b3dd76673aad38abb3c7e42c825",
     "attributes": {
       "asset_type": "Equity",
@@ -7257,6 +7512,86 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.2269-HK/HKD"
+    }
+  },
+  {
+    "id": "0x2b9ab1e972a281585084148ba1389800799bd4be63b957507db1349314e47445",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AAVE",
+      "description": "AAVE / US DOLLAR",
+      "display_symbol": "AAVE/USD",
+      "generic_symbol": "AAVEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AAVE/USD"
+    }
+  },
+  {
+    "id": "0x78940d7d0c366915018ae7c11942a9e85f7fcd60de33142af3cb015501cb26d1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8750",
+      "country": "JP",
+      "description": "DAI-ICHI LIFE HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "8750/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8750/JPY"
+    }
+  },
+  {
+    "id": "0xecd49a99bb0a0f772de2a4b5ce93fdb5b7b83ae7dd7d99c68dadf9cc40ee8fbe",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTIU5",
+      "description": "PYTH WTI 20 AUGUST 2025 / US DOLLAR",
+      "display_symbol": "WTIU5/USD",
+      "generic_symbol": "WTIU5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "symbol": "Commodities.WTIU5/USD"
+    }
+  },
+  {
+    "id": "0x3b14bd355f182fa3a3feeea6824228e1f71e7c221a37bc91e8307280aee6a803",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STS",
+      "contract_id": "s: 0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+      "description": "BEETS STAKED SONIC / SONIC REDEMPTION RATE",
+      "display_symbol": "STS/S",
+      "generic_symbol": "STSS",
+      "quote_currency": "S",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STS/S.RR"
+    }
+  },
+  {
+    "id": "0xff4c53361e36a9b837433c87d290c229e1f01aec5ef98d9f3f70953a20a629ce",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MOBILE",
+      "description": "HELIUM MOBILE / US DOLLAR",
+      "display_symbol": "MOBILE/USD",
+      "generic_symbol": "MOBILEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MOBILE/USD"
+    }
+  },
+  {
+    "id": "0x23bea4c329866dfa048eebba6f6538a3c671c0f15391fd451c842881aed4ae1a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SPOT",
+      "description": "AMPLEFORTH SENIOR PERPETUAL SPOT / US DOLLAR",
+      "display_symbol": "SPOT/USD",
+      "generic_symbol": "SPOTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SPOT/USD"
     }
   },
   {
@@ -8038,6 +8373,20 @@
     }
   },
   {
+    "id": "0xae63f8e813cbd410c3cd370ea945ba5ab57f53f739ef329378a06a073fc64a26",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8304",
+      "country": "JP",
+      "description": "AOZORA BANK / JAPANESE YEN",
+      "display_symbol": "8304/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8304/JPY"
+    }
+  },
+  {
     "id": "0x595b1f205756f823c5606c0e2295d375ea51921cfe2dabd57257cd4dd7e31eb7",
     "attributes": {
       "asset_type": "Equity",
@@ -8622,6 +8971,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.6098/JPY"
+    }
+  },
+  {
+    "id": "0x1ce3ea77ef5f79a8d0ff402fa5b7ac18268969707bd3a6bb3c6ad0cb422765af",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9008",
+      "country": "JP",
+      "description": "KEIO CORPORATION / JAPANESE YEN",
+      "display_symbol": "9008/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9008/JPY"
     }
   },
   {
@@ -9299,6 +9662,20 @@
     }
   },
   {
+    "id": "0x1114b2e99d595c169802581cd1bf825dcd737b5217ffe2b003db6421c3b8d4d2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9101",
+      "country": "JP",
+      "description": "NIPPON YUSEN KABUSHIKI KAISHA / JAPANESE YEN",
+      "display_symbol": "9101/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9101/JPY"
+    }
+  },
+  {
     "id": "0xb7e7516de1d6d62de2b9e1aec15f46243eef30d0e8effa687a14f817dce759a8",
     "attributes": {
       "asset_type": "Equity",
@@ -9517,6 +9894,20 @@
     }
   },
   {
+    "id": "0x17617f1d80aefe84ade7399ca3db31c48c5bf20ac62d4f897a3c88def454b3f1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8795",
+      "country": "JP",
+      "description": "T&D HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "8795/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8795/JPY"
+    }
+  },
+  {
     "id": "0x03259bdd8db7eed49482503408281de06c17c609947fec9dbc95775ad22d1300",
     "attributes": {
       "asset_type": "Equity",
@@ -9639,47 +10030,17 @@
     }
   },
   {
-    "id": "0x19f2cec610f000c63b704ee3380bf7cb0ef94a110f72fd970def9fac4862bde8",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MYX",
-      "description": "MYX FINANCE / US DOLLAR",
-      "display_symbol": "MYX/USD",
-      "generic_symbol": "MYXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MYX/USD"
-    }
-  },
-  {
-    "id": "0xe7718a55c812787267b06ff8f7f42a7d82a5f92406b343fcf09db8d095360832",
+    "id": "0x701eda42f3c80db841fc613051f2e92c5703ccccccd73e53eaa6e73b82a9098a",
     "attributes": {
       "asset_type": "Equity",
-      "base": "FCIT",
-      "country": "GB",
-      "description": "F&C INVESTMENT TRUST PLC / BRITISH POUND",
-      "display_symbol": "FCIT/GBP",
+      "base": "1093-HK",
+      "country": "HK",
+      "description": "CSPC PHARMA / HONG KONG DOLLAR",
+      "display_symbol": "HK.1093/HKD",
       "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
-      "symbol": "Equity.GB.FCIT/GBP"
-    }
-  },
-  {
-    "id": "0x84ce9993f3e19e52be7d567c8bf7714407cab2afa0d3a752ac09bc49b0153663",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "PKG",
-      "cms_symbol": "PKG",
-      "country": "US",
-      "cqs_symbol": "PKG",
-      "description": "PACKAGING CORPORATION OF AMERICA / US DOLLAR",
-      "display_symbol": "PKG/USD",
-      "nasdaq_symbol": "PKG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.PKG/USD"
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
+      "symbol": "Equity.HK.1093-HK/HKD"
     }
   },
   {
@@ -9700,16 +10061,74 @@
     }
   },
   {
-    "id": "0x7a5bc1d2b56ad029048cd63964b3ad2776eadf812edc1a43a31406cb54bff592",
+    "id": "0x84ce9993f3e19e52be7d567c8bf7714407cab2afa0d3a752ac09bc49b0153663",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PKG",
+      "cms_symbol": "PKG",
+      "country": "US",
+      "cqs_symbol": "PKG",
+      "description": "PACKAGING CORPORATION OF AMERICA / US DOLLAR",
+      "display_symbol": "PKG/USD",
+      "nasdaq_symbol": "PKG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.PKG/USD"
+    }
+  },
+  {
+    "id": "0x19f2cec610f000c63b704ee3380bf7cb0ef94a110f72fd970def9fac4862bde8",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "INJ",
-      "description": "INJECTIVE / US DOLLAR",
-      "display_symbol": "INJ/USD",
-      "generic_symbol": "INJUSD",
+      "base": "MYX",
+      "description": "MYX FINANCE / US DOLLAR",
+      "display_symbol": "MYX/USD",
+      "generic_symbol": "MYXUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.INJ/USD"
+      "symbol": "Crypto.MYX/USD"
+    }
+  },
+  {
+    "id": "0x6b1381ce7e874dc5410b197ac8348162c0dd6c0d4c9cd6322672d6c2b1d58293",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FLOKI",
+      "description": "FLOKI / US DOLLAR",
+      "display_symbol": "FLOKI/USD",
+      "generic_symbol": "FLKIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FLOKI/USD"
+    }
+  },
+  {
+    "id": "0x7c90a1bd719f2aa079a5dbbd9e4b57c248acbaa1e861bacf2eae76aba3b752eb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9502",
+      "country": "JP",
+      "description": "CHUBU ELECTRIC POWER CO INC / JAPANESE YEN",
+      "display_symbol": "9502/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9502/JPY"
+    }
+  },
+  {
+    "id": "0xc97a7ee3768a4b3f25455a95effde1adcbfe7fc88107bd6352d4ee6f735da7dd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7752",
+      "country": "JP",
+      "description": "RICOH CO / JAPANESE YEN",
+      "display_symbol": "7752/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7752/JPY"
     }
   },
   {
@@ -9727,30 +10146,44 @@
     }
   },
   {
-    "id": "0x701eda42f3c80db841fc613051f2e92c5703ccccccd73e53eaa6e73b82a9098a",
+    "id": "0xe7718a55c812787267b06ff8f7f42a7d82a5f92406b343fcf09db8d095360832",
     "attributes": {
       "asset_type": "Equity",
-      "base": "1093-HK",
-      "country": "HK",
-      "description": "CSPC PHARMA / HONG KONG DOLLAR",
-      "display_symbol": "HK.1093/HKD",
+      "base": "FCIT",
+      "country": "GB",
+      "description": "F&C INVESTMENT TRUST PLC / BRITISH POUND",
+      "display_symbol": "FCIT/GBP",
       "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
-      "symbol": "Equity.HK.1093-HK/HKD"
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.GB.FCIT/GBP"
     }
   },
   {
-    "id": "0x6b1381ce7e874dc5410b197ac8348162c0dd6c0d4c9cd6322672d6c2b1d58293",
+    "id": "0x7a5bc1d2b56ad029048cd63964b3ad2776eadf812edc1a43a31406cb54bff592",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "FLOKI",
-      "description": "FLOKI / US DOLLAR",
-      "display_symbol": "FLOKI/USD",
-      "generic_symbol": "FLKIUSD",
+      "base": "INJ",
+      "description": "INJECTIVE / US DOLLAR",
+      "display_symbol": "INJ/USD",
+      "generic_symbol": "INJUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FLOKI/USD"
+      "symbol": "Crypto.INJ/USD"
+    }
+  },
+  {
+    "id": "0xd9270ea8675d9377bf8d63d6cdb918960da8705ba76d9c4120c670576d6c4127",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FRE",
+      "country": "DE",
+      "description": "FRESENIUS SE CO KGAA / EURO",
+      "display_symbol": "FRE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.FRE/EUR"
     }
   },
   {
@@ -9778,20 +10211,6 @@
       "quote_currency": "USD",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.US.IWDA/USD"
-    }
-  },
-  {
-    "id": "0xd9270ea8675d9377bf8d63d6cdb918960da8705ba76d9c4120c670576d6c4127",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "FRE",
-      "country": "DE",
-      "description": "FRESENIUS SE CO KGAA / EURO",
-      "display_symbol": "FRE/EUR",
-      "publish_interval": "5",
-      "quote_currency": "EUR",
-      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
-      "symbol": "Equity.DE.FRE/EUR"
     }
   },
   {
@@ -10109,6 +10528,20 @@
     }
   },
   {
+    "id": "0xd3e5e44dd99d1ac76091dab8beaf65fcd1a8aeb22bf89e285288302d54e22b44",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8802",
+      "country": "JP",
+      "description": "MITSUBISHI ESTATE CO / JAPANESE YEN",
+      "display_symbol": "8802/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8802/JPY"
+    }
+  },
+  {
     "id": "0xed5d938ea5c648f66a3b7dd349376356c1d95135307137f4d1200eb36e9f5c12",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -10183,6 +10616,34 @@
     }
   },
   {
+    "id": "0xd5399c95ddc3219ab8b03bd51ca81560bc92a648950bf964eef67bfd9783654a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAL",
+      "country": "US",
+      "description": "AMERICAN AIRLINES GROUP INC / US DOLLAR",
+      "display_symbol": "AAL/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.AAL/USD"
+    }
+  },
+  {
+    "id": "0xc5d197f9a87872998b30a271eb9094d66c1668fd5bb20889a50ed3cc07e74b96",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9007",
+      "country": "JP",
+      "description": "ODAKYU ELECTRIC RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9007/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9007/JPY"
+    }
+  },
+  {
     "id": "0xba9e386c7cff73f68e17ee14f3f8a190afa842621527ec5f542968c516759df4",
     "attributes": {
       "asset_type": "Equity",
@@ -10211,6 +10672,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.6178/JPY"
+    }
+  },
+  {
+    "id": "0x0fca08871aeca420a9321f89fc1deb21cf704c48838fa49a10fa64498fbbdcf1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8267",
+      "country": "JP",
+      "description": "AEON CO LTD / JAPANESE YEN",
+      "display_symbol": "8267/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8267/JPY"
     }
   },
   {
@@ -10268,6 +10743,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BLUE/USD"
+    }
+  },
+  {
+    "id": "0x4dc04e160395acdfd3692278f3bda3f44d0d1c95ddcb8d789d10c80a81211325",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9064",
+      "country": "JP",
+      "description": "YAMATO HOLDINGS CO LTD / JAPANESE YEN",
+      "display_symbol": "9064/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9064/JPY"
     }
   },
   {
@@ -10341,6 +10830,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.4005/JPY"
+    }
+  },
+  {
+    "id": "0xbab031da8ecc5fb2d7732c645f50e6649a7b0efc8094ddcb166a0dfbc6752a65",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9602",
+      "country": "JP",
+      "description": "TOHO CO LTD / JAPANESE YEN",
+      "display_symbol": "9602/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9602/JPY"
     }
   },
   {
@@ -10682,6 +11185,20 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.047050/KRW"
+    }
+  },
+  {
+    "id": "0xe4f608ea639a4f5e34a8fb5652a3f816481978371a04040f0c2db8be5b6d6a2e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9021",
+      "country": "JP",
+      "description": "WEST JAPAN RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9021/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9021/JPY"
     }
   },
   {
@@ -11574,6 +12091,20 @@
     }
   },
   {
+    "id": "0xa622b261542754d0911b19c056f4b5454250a0645cbc130edcf0cb3a2a9b1e7c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8604",
+      "country": "JP",
+      "description": "NOMURA HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "8604/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8604/JPY"
+    }
+  },
+  {
     "id": "0x1e2fea8c5028e09489fbcb31014e9e7833e08eea78922eaa69d96cf1b37206c2",
     "attributes": {
       "asset_type": "Equity",
@@ -12402,6 +12933,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.GHO/USD"
+    }
+  },
+  {
+    "id": "0x9e19cbf0b363b3ce3fa8533e171f449f605a7ca5bb272a9b80df4264591c4cbb",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "CAD",
+      "description": "CANADIAN DOLLAR / JAPANESE YEN",
+      "display_symbol": "CAD/JPY",
+      "generic_symbol": "CADJPY",
+      "quote_currency": "JPY",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.CAD/JPY",
+      "tenor": "Spot"
     }
   },
   {
@@ -13373,6 +13918,20 @@
     }
   },
   {
+    "id": "0x08e5bcc790876ce48f0b911385c15cc31768955e2700920e841c2ed6d197f2d6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7912",
+      "country": "JP",
+      "description": "DAI NIPPON PRINTING CO / JAPANESE YEN",
+      "display_symbol": "7912/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7912/JPY"
+    }
+  },
+  {
     "id": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
     "attributes": {
       "asset_type": "Crypto",
@@ -13982,6 +14541,20 @@
     }
   },
   {
+    "id": "0x5e11c0428b366963a5c2d22d090de0b9439c39694b7b82c843f049ea4b665039",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8001",
+      "country": "JP",
+      "description": "ITOCHU CORP / JAPANESE YEN",
+      "display_symbol": "8001/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8001/JPY"
+    }
+  },
+  {
     "id": "0x50792163ea9ceb6e4142a4ae35845e4ca4c559b89bbf6cb3d426f79534717401",
     "attributes": {
       "asset_type": "Equity",
@@ -14278,6 +14851,20 @@
     }
   },
   {
+    "id": "0x95330ad1bcac1bd79179fe59000bfe199ba3fe7f03254220548ef2d034bdf4d6",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "AUD",
+      "description": "AUSTRALIAN DOLLAR / CANADIAN DOLLAR",
+      "display_symbol": "AUD/CAD",
+      "generic_symbol": "AUDCAD",
+      "quote_currency": "CAD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.AUD/CAD",
+      "tenor": "Spot"
+    }
+  },
+  {
     "id": "0xa6c8eca9aea31d6bb81fd6576638f30692d4afaa73237c097c193477aa5003b3",
     "attributes": {
       "asset_type": "Crypto",
@@ -14338,6 +14925,34 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.PSA/USD"
+    }
+  },
+  {
+    "id": "0x30709573128be74dbeeb7d04013b3c343384d1426ccc08cf784a424d35a85b25",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8697",
+      "country": "JP",
+      "description": "JAPAN EXCHANGE GROUP / JAPANESE YEN",
+      "display_symbol": "8697/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8697/JPY"
+    }
+  },
+  {
+    "id": "0xb12ff615c24c39fc08c4c38a9e684ae97f066ddc17e796e3e677f0de75538459",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9009",
+      "country": "JP",
+      "description": "KEISEI ELECTRIC RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9009/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9009/JPY"
     }
   },
   {
@@ -14678,6 +15293,20 @@
     }
   },
   {
+    "id": "0xa5f7c3ebcf2630dd81492b2122012d35120f5447c35fbb0640c8750cc5aa51f8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9983",
+      "country": "JP",
+      "description": "FAST RETAILING CO LTD / JAPANESE YEN",
+      "display_symbol": "9983/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9983/JPY"
+    }
+  },
+  {
     "id": "0xb44565b8b9b39ab2f4ba792f1c8f8aa8ef7d780e709b191637ef886d96fd1472",
     "attributes": {
       "asset_type": "Crypto",
@@ -14913,6 +15542,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.TGT/USD"
+    }
+  },
+  {
+    "id": "0x4ed4281616dfaa0fb9d02423842b17c7313a832b4e84ede075c96806c4077648",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7832",
+      "country": "JP",
+      "description": "BANDAI NAMCO HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "7832/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7832/JPY"
     }
   },
   {
@@ -15251,6 +15894,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.CL/USD"
+    }
+  },
+  {
+    "id": "0xd41463d6e31faa28aec9e299952ba1a0acececaabdf5ae8ccc05f53c8a5c9af4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7012",
+      "country": "JP",
+      "description": "KAWASAKI HEAVY INDUSTRIES / JAPANESE YEN",
+      "display_symbol": "7012/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7012/JPY"
     }
   },
   {
@@ -16016,6 +16673,20 @@
     }
   },
   {
+    "id": "0xf29714210f130f56a4c8047aa5397244639a08f1e9c0864afeddc9cfc6024bca",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8591",
+      "country": "JP",
+      "description": "ORIX CORPORATION / JAPANESE YEN",
+      "display_symbol": "8591/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8591/JPY"
+    }
+  },
+  {
     "id": "0xe5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
     "attributes": {
       "asset_type": "Crypto",
@@ -16289,6 +16960,20 @@
     }
   },
   {
+    "id": "0x7a8075c6313fc8c712c4ef2d776a8c966b7e3968d405b17d06c8a2d74d27544d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9501",
+      "country": "JP",
+      "description": "TOKYO ELEC POWER CO HLDGS INC / JAPANESE YEN",
+      "display_symbol": "9501/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9501/JPY"
+    }
+  },
+  {
     "id": "0x56a3121958b01f99fdc4e1fd01e81050602c7ace3a571918bb55c6a96657cca9",
     "attributes": {
       "asset_type": "Crypto",
@@ -16326,6 +17011,20 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.CTEC/GBP"
+    }
+  },
+  {
+    "id": "0x8906ed56da3177e91d5e80124ce6e57ba541b34fbf3896498dee320d93ea25b8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7211",
+      "country": "JP",
+      "description": "MITSUBISHI MOTOR CORP / JAPANESE YEN",
+      "display_symbol": "7211/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7211/JPY"
     }
   },
   {
@@ -16393,6 +17092,34 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MEZO.MUSD/USD"
+    }
+  },
+  {
+    "id": "0x6cd53676d796fef4fb354b183be8dc069c6396a9d79c0b8741a5fa0c77f79399",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9147",
+      "country": "JP",
+      "description": "NIPPON EXPRESS HLDGS INC / JAPANESE YEN",
+      "display_symbol": "9147/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9147/JPY"
+    }
+  },
+  {
+    "id": "0x1fabbdd1b428e37ea525b20df480fc1e9706b7e6f572a82dd715ae2e08fccaba",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9202",
+      "country": "JP",
+      "description": "ANA HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "9202/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9202/JPY"
     }
   },
   {
@@ -16865,6 +17592,20 @@
     }
   },
   {
+    "id": "0x4f51eac95423152089ed3a919107cf01132c9b06ac4f081a9376f6f4bcf83674",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8766",
+      "country": "JP",
+      "description": "TOKIO MARINE HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "8766/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8766/JPY"
+    }
+  },
+  {
     "id": "0xdd83d991ed72e3d688509ca349f29d2bd3d883af74a17b9515c310ff70e9d1e4",
     "attributes": {
       "asset_type": "Crypto",
@@ -16983,6 +17724,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.USDG/USD"
+    }
+  },
+  {
+    "id": "0x5e8119d118301c69a6cbbf9e013c20a953506bd3834a8ad89a1382b2974bfce0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7267",
+      "country": "JP",
+      "description": "HONDA MOTOR CO / JAPANESE YEN",
+      "display_symbol": "7267/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7267/JPY"
     }
   },
   {
@@ -17161,6 +17916,20 @@
     }
   },
   {
+    "id": "0xdd46d4af27ab159b99094f91f40a259fdc3c7de86001657d9ab31c3ad90baac7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8630",
+      "country": "JP",
+      "description": "SOMPO HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "8630/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8630/JPY"
+    }
+  },
+  {
     "id": "0xb3a76e70a55517e0405cc90a2545de4c30413c13c532caf96a734103ec4259e9",
     "attributes": {
       "asset_type": "Equity",
@@ -17228,6 +17997,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PNUT/USD"
+    }
+  },
+  {
+    "id": "0x1ee8d2d0ec862ea17678ee16b49c6c82f8a3cdce985f5d57711aa02401da1f74",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7013",
+      "country": "JP",
+      "description": "IHI CORPORATION / JAPANESE YEN",
+      "display_symbol": "7013/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7013/JPY"
     }
   },
   {
@@ -17810,6 +18593,20 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.005380/KRW"
+    }
+  },
+  {
+    "id": "0xf351f44cd7a22c3a023893a541a287dbf880e73d0089a42229ca0ce09ffe186f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8031",
+      "country": "JP",
+      "description": "MITSUI & CO / JAPANESE YEN",
+      "display_symbol": "8031/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8031/JPY"
     }
   },
   {
@@ -18498,6 +19295,20 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.3690-HK/HKD"
+    }
+  },
+  {
+    "id": "0x20e075bae9b2385d223a6f50029f543ee7bf61f9e435674007c6039e4ec714ba",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9432",
+      "country": "JP",
+      "description": "NTT INC / JAPANESE YEN",
+      "display_symbol": "9432/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9432/JPY"
     }
   },
   {
@@ -20856,6 +21667,20 @@
     }
   },
   {
+    "id": "0x72bc23b1d0afb1f8edef20b7fb60982298993161bc0fd749587d6f60cd1ee9a3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BABA",
+      "country": "US",
+      "description": "ALIBABA GROUP LIMITED / US DOLLAR",
+      "display_symbol": "BABA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.BABA/USD"
+    }
+  },
+  {
     "id": "0x984f446492ec7a3543d4ebe4a3783369708072088aebb82bce3f211ab4a09cdc",
     "attributes": {
       "asset_type": "Equity",
@@ -21381,6 +22206,19 @@
     }
   },
   {
+    "id": "0x50c7975cb8b0fbdf5d3ef951204a8b481f0717aa04f33ee4411744b49266ce84",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DMU5",
+      "description": "DM U5 19 SEPTEMBER 2025 / US DOLLAR",
+      "display_symbol": "DMU5/USD",
+      "generic_symbol": "DMU5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0703/0000-1315&1800-2400,0704/0000-1300",
+      "symbol": "Equity.US.DMU5/USD"
+    }
+  },
+  {
     "id": "0x67ac585d05128c7b6a88660be04acd18b2bddd6308e98b71b9f3ba0f0e781296",
     "attributes": {
       "asset_type": "Equity",
@@ -21551,6 +22389,20 @@
     }
   },
   {
+    "id": "0x3f9032e5b17bce6a070abfe7d047fef4dda2a2998fbedc61868d0bd22ddf1ec8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8252",
+      "country": "JP",
+      "description": "MARUI GROUP CO LTD / JAPANESE YEN",
+      "display_symbol": "8252/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8252/JPY"
+    }
+  },
+  {
     "id": "0x071301c678e65e5e0530e6f8ff4eb655e23ff0252bb7f4112c89b2496329ab15",
     "attributes": {
       "asset_type": "Equity",
@@ -21708,6 +22560,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.KLAC/USD"
+    }
+  },
+  {
+    "id": "0x9c73dae23f5ab9323a573d171896d9ff359d2e31275d732f707d5c055ad34f85",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8830",
+      "country": "JP",
+      "description": "SUMITOMO REALTY & DEVELOPMENT CO / JAPANESE YEN",
+      "display_symbol": "8830/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8830/JPY"
     }
   },
   {
@@ -22147,6 +23013,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.UNH/USD"
+    }
+  },
+  {
+    "id": "0x94011abd4faccd3df6176be8abab51b374c2cdaf8905d7d106afde6c69a3e2c9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7762",
+      "country": "JP",
+      "description": "CITIZEN WATCH CO LTD / JAPANESE YEN",
+      "display_symbol": "7762/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7762/JPY"
     }
   },
   {
@@ -22924,6 +23804,20 @@
     }
   },
   {
+    "id": "0x9a9a734f22497caed26b4ae5438dc8d954daf592e2d9cfe4d7c49c9f94fa611d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9005",
+      "country": "JP",
+      "description": "TOKYU CORP / JAPANESE YEN",
+      "display_symbol": "9005/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9005/JPY"
+    }
+  },
+  {
     "id": "0x26e8215286b4aa8d4aa77dff2d5feb1d83dc874c9aeb5a7d6d5fc4b83a005da4",
     "attributes": {
       "asset_type": "Crypto",
@@ -22990,6 +23884,20 @@
     }
   },
   {
+    "id": "0xd17ef839c8df98ad36be27b4c74b183ad00b2997cb649d01b2d9dfd72500f818",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9001",
+      "country": "JP",
+      "description": "TOBU RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9001/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9001/JPY"
+    }
+  },
+  {
     "id": "0xe1469c5df9b47a2e090019e8c6f67325c94ac505a32ee768b53511bd281f21e6",
     "attributes": {
       "asset_type": "Equity",
@@ -23018,6 +23926,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.FSLR/USD"
+    }
+  },
+  {
+    "id": "0x93163cfb2a5761dc4c7d4726c568688b1ae142849ff6f8d4dd7e004dee1a2e00",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8331",
+      "country": "JP",
+      "description": "CHIBA BANK / JAPANESE YEN",
+      "display_symbol": "8331/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8331/JPY"
     }
   },
   {
@@ -23146,6 +24068,20 @@
     }
   },
   {
+    "id": "0xfec44951e54a606cbbca6fc7fb721c33bb54e4ae641a8a12d5df94313d635a12",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "EUR",
+      "description": "EURO / CANADIAN DOLLAR",
+      "display_symbol": "EUR/CAD",
+      "generic_symbol": "EURCAD",
+      "quote_currency": "CAD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.EUR/CAD",
+      "tenor": "Spot"
+    }
+  },
+  {
     "id": "0xb0e25851305040478afe2f7ba29d29e8677dc521f93322400d6c4cab7a2a5ec0",
     "attributes": {
       "asset_type": "Crypto",
@@ -23159,20 +24095,45 @@
     }
   },
   {
-    "id": "0x169b68eb05ce4bac2eac0a70b7eafd1abf78bd5d8c6f769e1668bf011308e4e8",
+    "id": "0xc4944b800476ed99f9c181e92689bef8c6a7109fb2442a20d19642f0bf53b1de",
     "attributes": {
       "asset_type": "Equity",
-      "base": "APTV",
-      "cms_symbol": "APTV",
-      "country": "US",
-      "cqs_symbol": "APTV",
-      "description": "APTIV PLC / US DOLLAR",
-      "display_symbol": "APTV/USD",
-      "nasdaq_symbol": "APTV",
+      "base": "9843",
+      "country": "JP",
+      "description": "NITORI HOLDINGS CO LTD / JAPANESE YEN",
+      "display_symbol": "9843/JPY",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.APTV/USD"
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9843/JPY"
+    }
+  },
+  {
+    "id": "0x04d503017a3c604e90c29defcad264f907cfefe0212ec50dca82da8ac3cdb184",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2802",
+      "country": "JP",
+      "description": "AJINOMOTO CO INC / JAPANESE YEN",
+      "display_symbol": "2802/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.2802/JPY"
+    }
+  },
+  {
+    "id": "0xeb21a074c86f457f0ed0c4ae0c3278afb1b00b0d582025123a9d13eb788595e4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8308",
+      "country": "JP",
+      "description": "RESONA HOLDINGS / JAPANESE YEN",
+      "display_symbol": "8308/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8308/JPY"
     }
   },
   {
@@ -23217,6 +24178,20 @@
     }
   },
   {
+    "id": "0x4bb2c468b4852a7b1d4af80353e3a07451075ffdb8715fea11d7f3a4694f1136",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6762",
+      "country": "JP",
+      "description": "TDK CORP / JAPANESE YEN",
+      "display_symbol": "6762/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.6762/JPY"
+    }
+  },
+  {
     "id": "0x29d791d343bf0744b54b1c36a4814453f18e8fdd2ca032a9f2a142128a0c94bd",
     "attributes": {
       "asset_type": "Equity",
@@ -23248,20 +24223,6 @@
     }
   },
   {
-    "id": "0x04d503017a3c604e90c29defcad264f907cfefe0212ec50dca82da8ac3cdb184",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "2802",
-      "country": "JP",
-      "description": "AJINOMOTO CO INC / JAPANESE YEN",
-      "display_symbol": "2802/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.2802/JPY"
-    }
-  },
-  {
     "id": "0x0fc54579a29ba60a08fdb5c28348f22fd3bec18e221dd6b90369950db638a5a7",
     "attributes": {
       "asset_type": "Crypto",
@@ -23272,20 +24233,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.AIXBT/USD"
-    }
-  },
-  {
-    "id": "0x4bb2c468b4852a7b1d4af80353e3a07451075ffdb8715fea11d7f3a4694f1136",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6762",
-      "country": "JP",
-      "description": "TDK CORP / JAPANESE YEN",
-      "display_symbol": "6762/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.6762/JPY"
     }
   },
   {
@@ -23317,17 +24264,20 @@
     }
   },
   {
-    "id": "0xfec44951e54a606cbbca6fc7fb721c33bb54e4ae641a8a12d5df94313d635a12",
+    "id": "0x169b68eb05ce4bac2eac0a70b7eafd1abf78bd5d8c6f769e1668bf011308e4e8",
     "attributes": {
-      "asset_type": "FX",
-      "base": "EUR",
-      "description": "EURO / CANADIAN DOLLAR",
-      "display_symbol": "EUR/CAD",
-      "generic_symbol": "EURCAD",
-      "quote_currency": "CAD",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.EUR/CAD",
-      "tenor": "Spot"
+      "asset_type": "Equity",
+      "base": "APTV",
+      "cms_symbol": "APTV",
+      "country": "US",
+      "cqs_symbol": "APTV",
+      "description": "APTIV PLC / US DOLLAR",
+      "display_symbol": "APTV/USD",
+      "nasdaq_symbol": "APTV",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.APTV/USD"
     }
   },
   {
@@ -23529,6 +24479,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.C/USD"
+    }
+  },
+  {
+    "id": "0x8eb403ee57559d916ea5039d0d06eb2cd0e96d02649d023ec6436a232ddac4b4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8411",
+      "country": "JP",
+      "description": "MIZUHO FINANCIAL GROUP / JAPANESE YEN",
+      "display_symbol": "8411/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8411/JPY"
     }
   },
   {
@@ -24059,6 +25023,20 @@
     }
   },
   {
+    "id": "0x46e8e7759ebd7b9ca9bfbb2ca2a6ab5bbd31f0c5b2a7576fe82c28c5030a7911",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7205",
+      "country": "JP",
+      "description": "HINO MOTORS / JAPANESE YEN",
+      "display_symbol": "7205/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7205/JPY"
+    }
+  },
+  {
     "id": "0xb3a83dbe70b62241b0f916212e097465a1b31085fa30da3342dd35468ca17ca5",
     "attributes": {
       "asset_type": "Equity",
@@ -24375,6 +25353,19 @@
     }
   },
   {
+    "id": "0x1aa551ff44cbfa58850c3dcaed6644314e9c7115583670b601a68c842062c86b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NMU5",
+      "description": "NM U5 19 SEPTEMBER 2025 / US DOLLAR",
+      "display_symbol": "NMU5/USD",
+      "generic_symbol": "NMU5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0703/0000-1315&1800-2400,0704/0000-1300",
+      "symbol": "Equity.US.NMU5/USD"
+    }
+  },
+  {
     "id": "0xcb9be05a0205676c4959845ada37452d3b9613d6602addd0ec223bdb33d81c8b",
     "attributes": {
       "asset_type": "Equity",
@@ -24668,6 +25659,20 @@
     }
   },
   {
+    "id": "0xdb72ba7ccc360b102f83727c63c8292952fc937bae5757969adebe94db59e8a7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9766",
+      "country": "JP",
+      "description": "KONAMI GROUP CORPORATION / JAPANESE YEN",
+      "display_symbol": "9766/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9766/JPY"
+    }
+  },
+  {
     "id": "0x337611acbeb14ef4ea0d754226bc8b900ff5fd2e469e762a4b135034c3ed9897",
     "attributes": {
       "asset_type": "Equity",
@@ -24695,6 +25700,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WEN/USD"
+    }
+  },
+  {
+    "id": "0x4057d9380c94669ab9a1a8a726c5995160a8b86db4efdf3c90f2792a6cb8a890",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8601",
+      "country": "JP",
+      "description": "DAIWA SECURITIES GROUP / JAPANESE YEN",
+      "display_symbol": "8601/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8601/JPY"
     }
   },
   {
@@ -24807,6 +25826,34 @@
     }
   },
   {
+    "id": "0xe3368c251cc659291fa80672399bdefe0e806ee694a8b3640f3e9ee18d765a63",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9020",
+      "country": "JP",
+      "description": "EAST JAPAN RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9020/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9020/JPY"
+    }
+  },
+  {
+    "id": "0xc32997521ce307b9eb7deae941439429d0ecfeb04ff10f239bb2758afc2df4fb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9735",
+      "country": "JP",
+      "description": "SECOM CO / JAPANESE YEN",
+      "display_symbol": "9735/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9735/JPY"
+    }
+  },
+  {
     "id": "0x6c75e52531ec5fd3ef253f6062956a8508a2f03fa0a209fb7fbc51efd9d35f88",
     "attributes": {
       "asset_type": "Crypto",
@@ -24858,6 +25905,20 @@
       "quote_currency": "USDC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PST/USDC.RR"
+    }
+  },
+  {
+    "id": "0x719f9dbca109e356690cfe78f87bdc1840c1a906a15d8923c9bd47a85aff693b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9022",
+      "country": "JP",
+      "description": "CENTRAL JAPAN RAILWAY CO / JAPANESE YEN",
+      "display_symbol": "9022/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9022/JPY"
     }
   },
   {
@@ -25134,6 +26195,20 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.207940/KRW"
+    }
+  },
+  {
+    "id": "0x9e09e1e18d52bf8655a9a5869915f3c4f9b36cfdbf783dbac2b090084985ef90",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QS",
+      "country": "US",
+      "description": "QUANTUMSCAPE CORPORATION / US DOLLAR",
+      "display_symbol": "QS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.QS/USD"
     }
   },
   {
@@ -26029,6 +27104,20 @@
     }
   },
   {
+    "id": "0xeed90db1640c49b4043bc1249a69c7be84bc77a739782e156c4061d5c7c022d6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8253",
+      "country": "JP",
+      "description": "CREDIT SAISON CO / JAPANESE YEN",
+      "display_symbol": "8253/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8253/JPY"
+    }
+  },
+  {
     "id": "0x710afe0041a07156bfd71971160c78a326bf8121403e0d4e140d06bea0353b7f",
     "attributes": {
       "asset_type": "FX",
@@ -26344,6 +27433,20 @@
     }
   },
   {
+    "id": "0x02aa0026973e59d94d53bfd36bf97004a06e21e7788f8efa8369a7c5d2eb7d6f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9503",
+      "country": "JP",
+      "description": "KANSAI ELECTRIC POWER CO INC / JAPANESE YEN",
+      "display_symbol": "9503/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9503/JPY"
+    }
+  },
+  {
     "id": "0x89e10b4bdeda2633eb6bca10be1674f9e6bf312772510a2f604c4f55f45ff8d9",
     "attributes": {
       "asset_type": "Crypto",
@@ -26585,6 +27688,20 @@
     }
   },
   {
+    "id": "0x97faaf335c865fd05eb4af62ef95b0ac4ab499781a3af9735e706b9023e5ab5e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9531",
+      "country": "JP",
+      "description": "TOKYO GAS CO / JAPANESE YEN",
+      "display_symbol": "9531/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9531/JPY"
+    }
+  },
+  {
     "id": "0xbf20e149c45ec15b78eb4a61d0bbae625acc0dadacf9c3b76c3bb8de9346d3ec",
     "attributes": {
       "asset_type": "Equity",
@@ -26658,6 +27775,20 @@
     }
   },
   {
+    "id": "0x5b5c4809385f0cf849e7c2a4eb32d7830ea7708d2fcfd93811dd9fef49372ee9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8002",
+      "country": "JP",
+      "description": "MARUBENI CORP / JAPANESE YEN",
+      "display_symbol": "8002/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8002/JPY"
+    }
+  },
+  {
     "id": "0x216f728010a42b2b21bbd9c5971ea682d3424c88b1449b405ba6cbf7b7ebcab5",
     "attributes": {
       "asset_type": "Equity",
@@ -26672,6 +27803,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.VLO/USD"
+    }
+  },
+  {
+    "id": "0xe9988572f440d07b8a602f57a0a5a916e60ab85baad5ce1cffef5e98b2841caf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VERB",
+      "country": "US",
+      "description": "VERB TECHNOLOGY COMPANY INC",
+      "display_symbol": "VERB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.VERB/USD"
     }
   },
   {
@@ -26759,20 +27904,6 @@
     }
   },
   {
-    "id": "0x5ca9c34d00214bf9416439970caf29eb7f379536fcb82ee21e7d7cf69acadf2a",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "DEJAAA",
-      "contract_id": "eth: 0x4880799eE5200fC58DA299e965df644fBf46780B",
-      "description": "DEFI JANUS AAA CLO STRATEGY FUND / US DOLLAR REDEMPTION RATE",
-      "display_symbol": "DEJAAA/USD",
-      "generic_symbol": "DEJAAAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.DEJAAA/USD.RR"
-    }
-  },
-  {
     "id": "0xba59501e95d5f1383095f94ce0d82087707de591c9904b6dffbc2fc167cee79e",
     "attributes": {
       "asset_type": "Equity",
@@ -26818,23 +27949,6 @@
     }
   },
   {
-    "id": "0xcbb7674d9eebacf3a81a54109dca655d805f04d902bc61b2157e8a2d95b00492",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "NRG",
-      "cms_symbol": "NRG",
-      "country": "US",
-      "cqs_symbol": "NRG",
-      "description": "NRG ENERGY INC / US DOLLAR",
-      "display_symbol": "NRG/USD",
-      "nasdaq_symbol": "NRG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.NRG/USD"
-    }
-  },
-  {
     "id": "0x40440d18fb5ad809e2825ce7dfc035cfa57135c13062a04addafe0c7f54425e0",
     "attributes": {
       "asset_type": "Crypto",
@@ -26845,19 +27959,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SATS/USD"
-    }
-  },
-  {
-    "id": "0x488f59877d3950ca12c5529d3ec6d4904666b2ec2d37616e61ecc88e3d23d51c",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ROSE",
-      "description": "OASIS NETWORK / US DOLLAR",
-      "display_symbol": "ROSE/USD",
-      "generic_symbol": "ROSEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ROSE/USD"
     }
   },
   {
@@ -26915,6 +28016,50 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.XDC/USD"
+    }
+  },
+  {
+    "id": "0xcbb7674d9eebacf3a81a54109dca655d805f04d902bc61b2157e8a2d95b00492",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NRG",
+      "cms_symbol": "NRG",
+      "country": "US",
+      "cqs_symbol": "NRG",
+      "description": "NRG ENERGY INC / US DOLLAR",
+      "display_symbol": "NRG/USD",
+      "nasdaq_symbol": "NRG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.NRG/USD"
+    }
+  },
+  {
+    "id": "0x488f59877d3950ca12c5529d3ec6d4904666b2ec2d37616e61ecc88e3d23d51c",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ROSE",
+      "description": "OASIS NETWORK / US DOLLAR",
+      "display_symbol": "ROSE/USD",
+      "generic_symbol": "ROSEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ROSE/USD"
+    }
+  },
+  {
+    "id": "0x5ca9c34d00214bf9416439970caf29eb7f379536fcb82ee21e7d7cf69acadf2a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "DEJAAA",
+      "contract_id": "eth: 0x4880799eE5200fC58DA299e965df644fBf46780B",
+      "description": "DEFI JANUS AAA CLO STRATEGY FUND / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "DEJAAA/USD",
+      "generic_symbol": "DEJAAAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DEJAAA/USD.RR"
     }
   },
   {
@@ -26988,6 +28133,20 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.0016-HK/HKD"
+    }
+  },
+  {
+    "id": "0x4a9fa0a484bb7839e8e5e5ac0ee215cb723992d3cc4736f68abfc6d434ab1d6e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8053",
+      "country": "JP",
+      "description": "SUMITOMO CORP / JAPANESE YEN",
+      "display_symbol": "8053/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8053/JPY"
     }
   },
   {
@@ -27070,6 +28229,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.BSV/USD"
+    }
+  },
+  {
+    "id": "0x29bd8cd3577c5cc1ca4030fb037b00984d4a2fb3d9ecf35077a718aab16b4e18",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8309",
+      "country": "JP",
+      "description": "SUMITOMO MITSUI TRUST GP INC / JAPANESE YEN",
+      "display_symbol": "8309/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8309/JPY"
     }
   },
   {
@@ -27169,6 +28342,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PONKE/USD"
+    }
+  },
+  {
+    "id": "0x66e871fb5c5895a2ef39f281fddb57e24e4ea2f8891fb87b6037a7652c0d5c42",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8354",
+      "country": "JP",
+      "description": "FUKUOKA FINANCIAL GROUP INC / JAPANESE YEN",
+      "display_symbol": "8354/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8354/JPY"
     }
   },
   {
@@ -27355,33 +28542,6 @@
     }
   },
   {
-    "id": "0xf7731dc812590214d3eb4343bfb13d1b4cfa9b1d4e020644b5d5d8e07d60c66c",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "GOAT",
-      "description": "GOATSEUS MAXIMUS / US DOLLAR",
-      "display_symbol": "GOAT/USD",
-      "generic_symbol": "GOATUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GOAT/USD"
-    }
-  },
-  {
-    "id": "0x9c7989c3a422b8236767a4e7db6505a1d534bf859d8281eeab27787230373f87",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "090430",
-      "country": "KR",
-      "description": "AMOREPACIFIC CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.090430/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.090430/KRW"
-    }
-  },
-  {
     "id": "0x47fb560328d99cacbe3f5b920a67a7933ab1bd1064a244ff03b06ff5aaa54e71",
     "attributes": {
       "asset_type": "Crypto Index",
@@ -27392,36 +28552,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.Index.GML2/USD"
-    }
-  },
-  {
-    "id": "0xaa0eed91fe7b824ad9931f8601647bec51870c76f7a5d6ead18c3df9ecb3c553",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "LVS",
-      "cms_symbol": "LVS",
-      "country": "US",
-      "cqs_symbol": "LVS",
-      "description": "LAS VEGAS SANDS CORP / US DOLLAR",
-      "display_symbol": "LVS/USD",
-      "nasdaq_symbol": "LVS",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.LVS/USD"
-    }
-  },
-  {
-    "id": "0x47a156470288850a440df3a6ce85a55917b813a19bb5b31128a33a986566a362",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "TSLAX",
-      "description": "TESLA XSTOCK / US DOLLAR",
-      "display_symbol": "TSLAX/USD",
-      "generic_symbol": "TSLAXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TSLAX/USD"
     }
   },
   {
@@ -27464,6 +28594,133 @@
     }
   },
   {
+    "id": "0x9c7989c3a422b8236767a4e7db6505a1d534bf859d8281eeab27787230373f87",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "090430",
+      "country": "KR",
+      "description": "AMOREPACIFIC CORPORATION / SOUTH KOREAN WON",
+      "display_symbol": "KQ.090430/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
+      "symbol": "Equity.KR.090430/KRW"
+    }
+  },
+  {
+    "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AMPUSD",
+      "description": "AMPLEFORTH US DOLLAR / US DOLLAR",
+      "display_symbol": "AMPUSD/USD",
+      "generic_symbol": "AMPUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AMPUSD/USD"
+    }
+  },
+  {
+    "id": "0xd96aa551f05f1e84366a7b32afb363aadbcf5357d2caca43bcefdb3e65eccb11",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SOLV",
+      "cms_symbol": "SOLV",
+      "country": "US",
+      "cqs_symbol": "SOLV",
+      "description": "SOLVENTUM CORPORATION / US DOLLAR",
+      "display_symbol": "SOLV/USD",
+      "nasdaq_symbol": "SOLV",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.SOLV/USD"
+    }
+  },
+  {
+    "id": "0x6665073f5bc307b97e68654ff11f3d8875abd6181855814d23ab01b8085c0906",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MBTC",
+      "description": "MERLIN SEAL BITCOIN / US DOLLAR",
+      "display_symbol": "MBTC/USD",
+      "generic_symbol": "MBTCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MBTC/USD"
+    }
+  },
+  {
+    "id": "0x5ab188823c117b3ac791391752f95fd701d923ccffa3436ecf7ba5d4bb4bd678",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BAND",
+      "description": "BAND / US DOLLAR",
+      "display_symbol": "BAND/USD",
+      "generic_symbol": "BANDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BAND/USD"
+    }
+  },
+  {
+    "id": "0xf7731dc812590214d3eb4343bfb13d1b4cfa9b1d4e020644b5d5d8e07d60c66c",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GOAT",
+      "description": "GOATSEUS MAXIMUS / US DOLLAR",
+      "display_symbol": "GOAT/USD",
+      "generic_symbol": "GOATUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GOAT/USD"
+    }
+  },
+  {
+    "id": "0x47a156470288850a440df3a6ce85a55917b813a19bb5b31128a33a986566a362",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TSLAX",
+      "description": "TESLA XSTOCK / US DOLLAR",
+      "display_symbol": "TSLAX/USD",
+      "generic_symbol": "TSLAXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TSLAX/USD"
+    }
+  },
+  {
+    "id": "0xaa0eed91fe7b824ad9931f8601647bec51870c76f7a5d6ead18c3df9ecb3c553",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LVS",
+      "cms_symbol": "LVS",
+      "country": "US",
+      "cqs_symbol": "LVS",
+      "description": "LAS VEGAS SANDS CORP / US DOLLAR",
+      "display_symbol": "LVS/USD",
+      "nasdaq_symbol": "LVS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.LVS/USD"
+    }
+  },
+  {
+    "id": "0xcb290dc195bb0ae1fcdf1b23e9e57bada79d38ee27b9b140ed634008c22bc34c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7202",
+      "country": "JP",
+      "description": "ISUZU MOTORS / JAPANESE YEN",
+      "display_symbol": "7202/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7202/JPY"
+    }
+  },
+  {
     "id": "0x9d7042f0c20f5ccab0a3433d8e5b86797f5a85479a66ae8bf5a763b272aa99ab",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -27491,36 +28748,6 @@
     }
   },
   {
-    "id": "0xd96aa551f05f1e84366a7b32afb363aadbcf5357d2caca43bcefdb3e65eccb11",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SOLV",
-      "cms_symbol": "SOLV",
-      "country": "US",
-      "cqs_symbol": "SOLV",
-      "description": "SOLVENTUM CORPORATION / US DOLLAR",
-      "display_symbol": "SOLV/USD",
-      "nasdaq_symbol": "SOLV",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.SOLV/USD"
-    }
-  },
-  {
-    "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "AMPUSD",
-      "description": "AMPLEFORTH US DOLLAR / US DOLLAR",
-      "display_symbol": "AMPUSD/USD",
-      "generic_symbol": "AMPUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.AMPUSD/USD"
-    }
-  },
-  {
     "id": "0x20e3150670edc7674cf130f844934de184fb497c271499d6c4b9ffad3c41ff0f",
     "attributes": {
       "asset_type": "Equity",
@@ -27535,32 +28762,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.BWA/USD"
-    }
-  },
-  {
-    "id": "0x5ab188823c117b3ac791391752f95fd701d923ccffa3436ecf7ba5d4bb4bd678",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BAND",
-      "description": "BAND / US DOLLAR",
-      "display_symbol": "BAND/USD",
-      "generic_symbol": "BANDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BAND/USD"
-    }
-  },
-  {
-    "id": "0x6665073f5bc307b97e68654ff11f3d8875abd6181855814d23ab01b8085c0906",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MBTC",
-      "description": "MERLIN SEAL BITCOIN / US DOLLAR",
-      "display_symbol": "MBTC/USD",
-      "generic_symbol": "MBTCUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MBTC/USD"
     }
   },
   {
@@ -27762,6 +28963,20 @@
     }
   },
   {
+    "id": "0x7ff9e1cfb7175326d900c200b706fbfffb0aae7be21920d3d48a4a748f62d755",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7911",
+      "country": "JP",
+      "description": "TOPPAN HOLDINGS INC / JAPANESE YEN",
+      "display_symbol": "7911/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7911/JPY"
+    }
+  },
+  {
     "id": "0xe799f456b358a2534aa1b45141d454ac04b444ed23b1440b778549bb758f2b5c",
     "attributes": {
       "asset_type": "Crypto",
@@ -27943,6 +29158,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.YINN/USD"
+    }
+  },
+  {
+    "id": "0xa094cf05bfd2472dc9170e744b8d33797205aba3c188d84b3bbc311005be2747",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9433",
+      "country": "JP",
+      "description": "KDDI CORPORATION / JAPANESE YEN",
+      "display_symbol": "9433/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9433/JPY"
     }
   },
   {
@@ -28713,6 +29942,20 @@
     }
   },
   {
+    "id": "0xda82e7067ce4b0838f03107e5189a7aa5aaab3c35ed253490ac38c9aaf236972",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9104",
+      "country": "JP",
+      "description": "MITSUI OSK LINES LTD / JAPANESE YEN",
+      "display_symbol": "9104/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9104/JPY"
+    }
+  },
+  {
     "id": "0x3607bf4d7b78666bd3736c7aacaf2fd2bc56caa8667d3224971ebe3c0623292a",
     "attributes": {
       "asset_type": "Crypto",
@@ -29222,6 +30465,20 @@
     }
   },
   {
+    "id": "0x2902b4f29f297b43819acb28711cd8054dfa716aa1ed145e8423aa67408d5dcd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8015",
+      "country": "JP",
+      "description": "TOYOTA TSUSHO CORP / JAPANESE YEN",
+      "display_symbol": "8015/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8015/JPY"
+    }
+  },
+  {
     "id": "0x968825d1093b823a437448576bda4c54c691c681a7e84605386043ea969caa6d",
     "attributes": {
       "asset_type": "Equity",
@@ -29413,6 +30670,20 @@
     }
   },
   {
+    "id": "0xfffc6beb56f5b3bae7b82a1611ec2c3059cdfe3c9ae333871eac09026121b0e9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9532",
+      "country": "JP",
+      "description": "OSAKA GAS CO / JAPANESE YEN",
+      "display_symbol": "9532/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9532/JPY"
+    }
+  },
+  {
     "id": "0xdbceeed2f816d22ae5371206fa28c8da7615537eced46373185f4bde8af54d27",
     "attributes": {
       "asset_type": "Equity",
@@ -29472,20 +30743,6 @@
     }
   },
   {
-    "id": "0x07055494bc693ea7cc99f0f2c91d32d588d3af5caaa455d7575c4abe0d496a97",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "9984",
-      "country": "JP",
-      "description": "SOFTBANK GROUP CORP / JAPANESE YEN",
-      "display_symbol": "9984/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.9984/JPY"
-    }
-  },
-  {
     "id": "0x216f5e294659837328cfe78f262ab628b83e1f436941b5e43500b48869e4e28e",
     "attributes": {
       "asset_type": "Equity",
@@ -29517,19 +30774,6 @@
     }
   },
   {
-    "id": "0x4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "WIF",
-      "description": "DOG WIF HAT / US DOLLAR",
-      "display_symbol": "WIF/USD",
-      "generic_symbol": "WIFUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WIF/USD"
-    }
-  },
-  {
     "id": "0xedee2a6a61d87da880ddcb04244cf1f6e78c3a8c80f7f35f1445e900439fb681",
     "attributes": {
       "asset_type": "Equity",
@@ -29541,6 +30785,61 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.0992-HK/HKD"
+    }
+  },
+  {
+    "id": "0x07055494bc693ea7cc99f0f2c91d32d588d3af5caaa455d7575c4abe0d496a97",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9984",
+      "country": "JP",
+      "description": "SOFTBANK GROUP CORP / JAPANESE YEN",
+      "display_symbol": "9984/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9984/JPY"
+    }
+  },
+  {
+    "id": "0xe6e93d16b9c4b8f2b401d27e0d7bf84be5fd7194c8a3987d229dfc546c13b325",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6920",
+      "country": "JP",
+      "description": "LASERTEC CORPORATION / JAPANESE YEN",
+      "display_symbol": "6920/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.6920/JPY"
+    }
+  },
+  {
+    "id": "0x548b5b9277412b2b03ca17abea02313e7b7bd1ae40b5d8c9d42715119e17d647",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7201",
+      "country": "JP",
+      "description": "NISSAN MOTOR CO / JAPANESE YEN",
+      "display_symbol": "7201/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7201/JPY"
+    }
+  },
+  {
+    "id": "0x4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WIF",
+      "description": "DOG WIF HAT / US DOLLAR",
+      "display_symbol": "WIF/USD",
+      "generic_symbol": "WIFUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WIF/USD"
     }
   },
   {
@@ -29571,20 +30870,6 @@
     }
   },
   {
-    "id": "0xe6e93d16b9c4b8f2b401d27e0d7bf84be5fd7194c8a3987d229dfc546c13b325",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6920",
-      "country": "JP",
-      "description": "LASERTEC CORPORATION / JAPANESE YEN",
-      "display_symbol": "6920/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.6920/JPY"
-    }
-  },
-  {
     "id": "0x6a5b195413104705ba598a1f31a578f2bf7fa22768eb85ccf79c50655652cfc8",
     "attributes": {
       "asset_type": "Equity",
@@ -29609,6 +30894,20 @@
       "quote_currency": "%",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C,0901/C",
       "symbol": "Rates.US7Y"
+    }
+  },
+  {
+    "id": "0x38e8dd9b74943ce63b08b4b3f897f128ece558ea61cd7e00c9c77a6d64cd8265",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X ROBOTICS & ARTIFICIAL INTELLIGENCE ETF",
+      "display_symbol": "BOTZ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.BOTZ/USD"
     }
   },
   {
@@ -29673,6 +30972,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.HYPERSTABLE.USH/USD"
+    }
+  },
+  {
+    "id": "0x0e52c4f0b0a56a11cb6ed4418fd34df93897af4ec935bf44eca1f71976ca8358",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7731",
+      "country": "JP",
+      "description": "NIKON CORP / JAPANESE YEN",
+      "display_symbol": "7731/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.7731/JPY"
     }
   },
   {
