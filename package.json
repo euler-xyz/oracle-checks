@@ -9,7 +9,8 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node dist/index.js",
+    "ui": "node scripts/devServer.js"
   },
   "keywords": [],
   "author": "Objective Labs",
@@ -38,6 +39,7 @@
     "@objectivelabs/oracle-sdk": "^1.1.7",
     "cbor-x": "^1.6.0",
     "dotenv": "^16.4.7",
+    "express": "^4.19.2",
     "viem": "^2.31.7"
   }
 }
