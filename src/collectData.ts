@@ -26,7 +26,7 @@ import {
   RedStoneFeed,
   RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
-import dotenv from "dotenv";
+import { config as loadEnv } from "dotenv";
 import { Address, getAddress, Hex, isAddress, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
@@ -40,7 +40,7 @@ import {
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { CollectedData } from "./types";
 
-dotenv.config();
+loadEnv();
 
 const BATCH_SIZE = 50;
 

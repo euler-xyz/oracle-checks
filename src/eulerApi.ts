@@ -70,17 +70,25 @@ async function fetchEulerApi<T>(path: string): Promise<T | null> {
 export async function fetchEulerApiHistoricalAdapters(chainId: number): Promise<Address[]> {
   return fetchEulerApi<EulerApiHistoricalAdaptersResponse>(
     `/v1/oracle/historical-adapters?chainId=${chainId}`,
-  ).then((data) => (data ? data[chainId] : []));
+  ).then((data) => {
+    if (!data) return [];
+    const value = (data as EulerApiHistoricalAdaptersResponse)[chainId];
+    return Array.isArray(value) ? value : [];
+  });
 }
 
 export async function fetchEulerApiDeployedRouters(chainId: number): Promise<DeployedRouter[]> {
   return fetchEulerApi<EulerApiDeployedRoutersResponse>(
     `/v1/oracle/routers?chainId=${chainId}`,
-  ).then((data) => (data ? data : []));
+  ).then((data) => (Array.isArray(data) ? data : []));
 }
 
 export async function fetchEulerApiWhitelistedAdapters(chainId: number): Promise<AdapterEntry[]> {
   return fetchEulerApi<EulerApiWhitelistedAdaptersResponse>(
     `/v1/oracle/whitelisted-adapters?chainId=${chainId}`,
-  ).then((data) => (data ? data[chainId] : []));
+  ).then((data) => {
+    if (!data) return [];
+    const value = (data as EulerApiWhitelistedAdaptersResponse)[chainId];
+    return Array.isArray(value) ? value : [];
+  });
 }
