@@ -4031,20 +4031,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: 1INCH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (1INCH) corresponds to the Pyth feed's base asset from metadata (1INCH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4059,8 +4059,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.1INCH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4115,20 +4115,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: AAVE/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (AAVE) corresponds to the Pyth feed's base asset from metadata (AAVE).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4143,8 +4143,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.AAVE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4199,20 +4199,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EURA/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EURA) corresponds to the Pyth feed's base asset from metadata (EURA).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4227,8 +4227,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EURA/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4283,20 +4283,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BAL/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (BAL) corresponds to the Pyth feed's base asset from metadata (BAL).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4311,8 +4311,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BAL/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4367,20 +4367,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CBETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbETH) corresponds to the Pyth feed's base asset from metadata (CBETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4395,8 +4395,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.CBETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4451,20 +4451,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CRV/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (CRV) corresponds to the Pyth feed's base asset from metadata (CRV).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4479,8 +4479,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.CRV/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4535,20 +4535,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CVX/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (CVX) corresponds to the Pyth feed's base asset from metadata (CVX).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4563,8 +4563,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.CVX/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4619,20 +4619,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: DAI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (DAI) corresponds to the Pyth feed's base asset from metadata (DAI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4647,8 +4647,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.DAI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4703,20 +4703,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ENA/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ENA) corresponds to the Pyth feed's base asset from metadata (ENA).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4731,8 +4731,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ENA/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4787,20 +4787,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ENS/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ENS) corresponds to the Pyth feed's base asset from metadata (ENS).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4815,8 +4815,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ENS/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4871,20 +4871,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4899,8 +4899,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -4955,20 +4955,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETHFI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ETHFI) corresponds to the Pyth feed's base asset from metadata (ETHFI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4983,8 +4983,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ETHFI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5039,20 +5039,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EURC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EURC) corresponds to the Pyth feed's base asset from metadata (EURC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5067,8 +5067,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EURC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5123,20 +5123,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EZETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ezETH) corresponds to the Pyth feed's base asset from metadata (EZETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5151,8 +5151,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EZETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5291,20 +5291,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: FRXETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (frxETH) corresponds to the Pyth feed's base asset from metadata (FRXETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5319,8 +5319,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.FRXETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5375,20 +5375,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: FRAX/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (FXS) does not correspond to the Pyth feed's base asset from metadata (FRAX).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5403,8 +5403,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.FRAX/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5459,20 +5459,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: GHO/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (GHO) corresponds to the Pyth feed's base asset from metadata (GHO).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5487,8 +5487,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.GHO/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5543,20 +5543,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: GNO/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (GNO) corresponds to the Pyth feed's base asset from metadata (GNO).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5571,8 +5571,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.GNO/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5627,20 +5627,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: GRT/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (GRT) corresponds to the Pyth feed's base asset from metadata (GRT).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5655,8 +5655,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.GRT/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5711,20 +5711,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ILV/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ILV) corresponds to the Pyth feed's base asset from metadata (ILV).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5739,8 +5739,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ILV/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5795,20 +5795,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: LDO/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LDO) corresponds to the Pyth feed's base asset from metadata (LDO).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5823,8 +5823,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.LDO/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5879,20 +5879,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: LINK/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LINK) corresponds to the Pyth feed's base asset from metadata (LINK).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5907,8 +5907,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.LINK/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -5963,20 +5963,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: LQTY/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LQTY) corresponds to the Pyth feed's base asset from metadata (LQTY).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -5991,8 +5991,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.LQTY/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6047,20 +6047,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: LUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LUSD) corresponds to the Pyth feed's base asset from metadata (LUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6075,8 +6075,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.LUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6131,20 +6131,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: METH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6159,8 +6159,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.METH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6215,20 +6215,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: MKR/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (MKR) corresponds to the Pyth feed's base asset from metadata (MKR).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6243,8 +6243,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.MKR/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6299,20 +6299,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: MNT/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (MNT) corresponds to the Pyth feed's base asset from metadata (MNT).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6327,8 +6327,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.MNT/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6383,20 +6383,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ONDO/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ONDO) corresponds to the Pyth feed's base asset from metadata (ONDO).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6411,8 +6411,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ONDO/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6467,20 +6467,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PAXG/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (PAXG) corresponds to the Pyth feed's base asset from metadata (PAXG).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6495,8 +6495,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.PAXG/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6551,20 +6551,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PENDLE/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (PENDLE) corresponds to the Pyth feed's base asset from metadata (PENDLE).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6579,8 +6579,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.PENDLE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6635,20 +6635,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PUFETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (pufETH) corresponds to the Pyth feed's base asset from metadata (PUFETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6663,8 +6663,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.PUFETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6719,20 +6719,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PXETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (pxETH) corresponds to the Pyth feed's base asset from metadata (PXETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6747,8 +6747,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.PXETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6803,20 +6803,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PYUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (PYUSD) corresponds to the Pyth feed's base asset from metadata (PYUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6831,8 +6831,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.PYUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6887,20 +6887,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RDNT/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (RDNT) corresponds to the Pyth feed's base asset from metadata (RDNT).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6915,8 +6915,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RDNT/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -6971,20 +6971,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (rETH) corresponds to the Pyth feed's base asset from metadata (RETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6999,8 +6999,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7055,20 +7055,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RPL/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (RPL) corresponds to the Pyth feed's base asset from metadata (RPL).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7083,8 +7083,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RPL/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7139,20 +7139,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RSETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (rsETH) corresponds to the Pyth feed's base asset from metadata (RSETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7167,8 +7167,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RSETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7223,20 +7223,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RSR/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (RSR) corresponds to the Pyth feed's base asset from metadata (RSR).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7251,8 +7251,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RSR/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7307,20 +7307,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RSWETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (rswETH) corresponds to the Pyth feed's base asset from metadata (RSWETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7335,8 +7335,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.RSWETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7391,20 +7391,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SAFE/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (SAFE) corresponds to the Pyth feed's base asset from metadata (SAFE).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7419,8 +7419,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SAFE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7475,20 +7475,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SDAI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sDAI) corresponds to the Pyth feed's base asset from metadata (SDAI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7503,8 +7503,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SDAI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7559,20 +7559,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SFRXETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sfrxETH) corresponds to the Pyth feed's base asset from metadata (SFRXETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7587,8 +7587,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SFRXETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7643,20 +7643,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SNX/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (SNX) corresponds to the Pyth feed's base asset from metadata (SNX).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7671,8 +7671,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SNX/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7727,20 +7727,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: STG/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (STG) corresponds to the Pyth feed's base asset from metadata (STG).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7755,8 +7755,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.STG/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7811,20 +7811,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SUSDE/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sUSDe) corresponds to the Pyth feed's base asset from metadata (SUSDE).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7839,8 +7839,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SUSDE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7895,20 +7895,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SUSHI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (SUSHI) corresponds to the Pyth feed's base asset from metadata (SUSHI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -7923,8 +7923,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SUSHI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -7979,20 +7979,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SWETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (swETH) corresponds to the Pyth feed's base asset from metadata (SWETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8007,8 +8007,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SWETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8063,20 +8063,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: TBTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (tBTC) corresponds to the Pyth feed's base asset from metadata (TBTC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8091,8 +8091,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.TBTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8147,20 +8147,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: TUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (TUSD) corresponds to the Pyth feed's base asset from metadata (TUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8175,8 +8175,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.TUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8231,20 +8231,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: UNI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (UNI) corresponds to the Pyth feed's base asset from metadata (UNI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8259,8 +8259,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.UNI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8315,20 +8315,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8343,8 +8343,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8399,20 +8399,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDE/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDe) corresponds to the Pyth feed's base asset from metadata (USDE).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8427,8 +8427,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8483,20 +8483,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDP/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDP) corresponds to the Pyth feed's base asset from metadata (USDP).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8511,8 +8511,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDP/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8567,20 +8567,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDT/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDT) corresponds to the Pyth feed's base asset from metadata (USDT).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8595,8 +8595,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDT/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8651,20 +8651,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDY/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDY) corresponds to the Pyth feed's base asset from metadata (USDY).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8679,8 +8679,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDY/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8735,20 +8735,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WBTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WBTC) corresponds to the Pyth feed's base asset from metadata (WBTC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8763,8 +8763,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WBTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8819,20 +8819,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WEETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (weETH) corresponds to the Pyth feed's base asset from metadata (WEETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8847,8 +8847,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WEETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8903,20 +8903,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WLD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WLD) corresponds to the Pyth feed's base asset from metadata (WLD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -8931,8 +8931,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WLD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -8987,20 +8987,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WOO/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WOO) corresponds to the Pyth feed's base asset from metadata (WOO).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -9015,8 +9015,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WOO/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -9071,20 +9071,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -9099,8 +9099,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WSTETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -9155,20 +9155,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: XAUT/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (XAUt) corresponds to the Pyth feed's base asset from metadata (XAUT).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -9183,8 +9183,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.XAUT/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -9239,20 +9239,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: YFI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (YFI) corresponds to the Pyth feed's base asset from metadata (YFI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -9267,8 +9267,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.YFI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -14554,20 +14554,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: FDUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (FDUSD) corresponds to the Pyth feed's base asset from metadata (FDUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -14582,8 +14582,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.FDUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15465,20 +15465,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BIFI/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (BIFI) corresponds to the Pyth feed's base asset from metadata (BIFI).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15493,8 +15493,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BIFI/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15549,20 +15549,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USD0/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USD0) corresponds to the Pyth feed's base asset from metadata (USD0).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15577,8 +15577,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USD0/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15633,20 +15633,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USD0++/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USD0++) corresponds to the Pyth feed's base asset from metadata (USD0++).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15661,8 +15661,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USD0++/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15774,20 +15774,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: G/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (G) corresponds to the Pyth feed's base asset from metadata (G).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15802,8 +15802,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.G/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15858,20 +15858,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EIGEN/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EIGEN) corresponds to the Pyth feed's base asset from metadata (EIGEN).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15886,8 +15886,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EIGEN/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -15942,20 +15942,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: STRK/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (STRK) corresponds to the Pyth feed's base asset from metadata (STRK).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15970,8 +15970,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.STRK/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16038,20 +16038,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16066,8 +16066,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16122,20 +16122,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16150,8 +16150,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16206,20 +16206,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16234,8 +16234,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16290,20 +16290,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (eBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16318,8 +16318,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16664,20 +16664,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (BTC) corresponds to the Pyth feed's base asset from metadata (BTC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16692,8 +16692,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -16748,20 +16748,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CBBTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbBTC) corresponds to the Pyth feed's base asset from metadata (CBBTC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -16776,8 +16776,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.CBBTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -18689,20 +18689,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDA/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDA) corresponds to the Pyth feed's base asset from metadata (USDA).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -18717,8 +18717,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDA/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -18773,20 +18773,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: DEUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (deUSD) corresponds to the Pyth feed's base asset from metadata (DEUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -18801,8 +18801,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.DEUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -19032,20 +19032,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDS/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDS) corresponds to the Pyth feed's base asset from metadata (USDS).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -19060,8 +19060,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDS/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -19244,20 +19244,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: METH/ETH",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (WETH) corresponds to the Pyth feed's quote asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -19272,8 +19272,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.METH/ETH.RR (120s, ±300bps)",
-    "methodology": "Exchange Rate",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -25123,20 +25123,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: XUSD/USDC",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (xUSD) corresponds to the Pyth feed's base asset from metadata (XUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USDC) corresponds to the Pyth feed's quote asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -25151,8 +25151,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.XUSD/USDC.RR (120s, ±300bps)",
-    "methodology": "Exchange Rate",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
