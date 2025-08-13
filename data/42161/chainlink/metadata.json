@@ -29728,6 +29728,100 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "UDG/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "UDG",
+      "AUM"
+    ],
+    "path": "udg-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Uranium Digital Token",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Asset",
+    "docs": {
+      "assetClass": "Tokenized Commodities",
+      "assetName": "Uranium Digital Token",
+      "baseAsset": "UDG",
+      "clicProductName": "UDG/POR-Datalink-ProofOfReserves",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Asset",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR"
+    },
+    "decimals": 0,
+    "feedId": "0x0009de5ffad036d889d1bef8f402ee67370b1fbdfd491d07bf0a8666b031552a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "QQQX/USD-Datalink-Backed-TotalReturnMultiplier-Timestamped-mainnet-production",
     "pair": [
