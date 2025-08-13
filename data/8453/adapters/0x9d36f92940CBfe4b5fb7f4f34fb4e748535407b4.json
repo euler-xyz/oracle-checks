@@ -1,10 +1,11 @@
 {
-  "name": "RateProviderOracle",
-  "address": "0x87044100bB65aeee4661160d470B3f79E79E506E",
+  "name": "PendleUniversalOracle",
+  "address": "0x9d36f92940CBfe4b5fb7f4f34fb4e748535407b4",
   "chainId": 8453,
-  "base": "0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7",
-  "quote": "0x4200000000000000000000000000000000000006",
-  "rateProvider": "0xB0027C1C870573d5626Df1f049a12E39d3e613e9",
+  "base": "0xDe4f5ADc052AEd60000F3171785B168A3d27Dcd7",
+  "quote": "0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7",
+  "pendleMarket": "0xEe2058f408A43f6D952Ebd55812b4bf0d1cA8854",
+  "twapWindow": "900",
   "checks": [
     {
       "id": "Adapter existence",
@@ -15,8 +16,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -33,19 +34,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
+      "message": "Asset 0xDe4f5ADc052AEd60000F3171785B168A3d27Dcd7 is PT-yoETH-25SEP2025 (PT yoVaultETH 25SEP2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
       "message": "Asset 0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7 is yoETH (yoVaultETH) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+      "message": "Asset 0xEe2058f408A43f6D952Ebd55812b4bf0d1cA8854 is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "yoETH/WETH",
-  "methodology": "Exchange Rate",
+  "label": "yoETH",
+  "methodology": "TWAP",
   "model": "Push",
-  "provider": "Rate Provider",
-  "whitelisted": true
+  "provider": "Pendle",
+  "whitelisted": false
 }

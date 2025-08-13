@@ -1,11 +1,10 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x94dAE37fDf8302c5800661a93de43b77D8709925",
+  "name": "FixedRateOracle",
+  "address": "0x5eA932A23b2c8248B4261e51bD66241F8294Ed85",
   "chainId": 8453,
-  "base": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+  "base": "0xafAEE977C1137297414D7dBb8c0DfA555017e292",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9",
-  "maxStaleness": "90000",
+  "rate": "1",
   "checks": [
     {
       "id": "Adapter existence",
@@ -16,8 +15,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -34,7 +33,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x102d758f688a4C1C5a80b116bD945d4455460282 is USD₮0 (Stargate USD₮0 (Bridged)) with 6 decimals.",
+      "message": "Asset 0xafAEE977C1137297414D7dBb8c0DfA555017e292 is JRT Token (JRT) with 18 decimals.",
       "pass": true
     },
     {
@@ -44,15 +43,15 @@
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-      "pass": true
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has an unusual fixed rate: 0.000000000000000001.",
+      "pass": false
     }
   ],
-  "label": "USDT / USD (0.3%, 86400s)",
-  "methodology": "Market Price",
+  "label": "1:0.000000000000000001 JRT Token/USD",
+  "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Chainlink",
-  "whitelisted": true
+  "provider": "Fixed Rate",
+  "whitelisted": false
 }

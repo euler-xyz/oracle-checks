@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x94dAE37fDf8302c5800661a93de43b77D8709925",
-  "chainId": 8453,
-  "base": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x1A808d3c2ac8bA00D7edA27124Ea3f392B52663E",
+  "chainId": 1,
+  "base": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9",
-  "maxStaleness": "90000",
+  "feed": "0x6BDd865C63f842aa0D8b5489ad9a4a2C14A84DB9",
+  "maxStaleness": "86400",
   "checks": [
     {
       "id": "Adapter existence",
@@ -16,8 +16,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -34,7 +34,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x102d758f688a4C1C5a80b116bD945d4455460282 is USD₮0 (Stargate USD₮0 (Bridged)) with 6 decimals.",
+      "message": "Asset 0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5 is RZR (Rezerve.money) with 18 decimals.",
       "pass": true
     },
     {
@@ -46,13 +46,13 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-      "pass": true
+      "message": "Feed heartbeat is unknown",
+      "pass": false
     }
   ],
-  "label": "USDT / USD (0.3%, 86400s)",
-  "methodology": "Market Price",
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
   "model": "Push",
-  "provider": "Chainlink",
-  "whitelisted": true
+  "provider": "Unknown",
+  "whitelisted": false
 }
