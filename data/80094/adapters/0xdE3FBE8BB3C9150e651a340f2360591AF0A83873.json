@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xdE3FBE8BB3C9150e651a340f2360591AF0A83873",
+  "chainId": 80094,
+  "base": "0xFace73a169e2CA2934036C8Af9f464b5De9eF0ca",
+  "cross": "0x6969696969696969696969696969696969696969",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xa8e81cCb30D50BD253DE09262F2AAd86D547058a",
+  "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xFace73a169e2CA2934036C8Af9f464b5De9eF0ca is stLBGT (Staked LBGT) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "stLBGT/WBERA/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

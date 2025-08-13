@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x421B5623A02dE8B2E7A5F83279F12EB1fC81D19d",
+  "chainId": 56,
+  "base": "0xD9EdEba7f3580f5E22821A52fc1ba8508F4e34D0",
+  "cross": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x31A23C197c1255629C0a0A6A1d3CE88230A36ED3",
+  "oracleCrossQuote": "0x70F58c13047845e3febC0e96dd5e4724F8EA65BA",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD9EdEba7f3580f5E22821A52fc1ba8508F4e34D0 is slisBNB (Staked Lista BNB) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c is WBNB (Wrapped BNB) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "slisBNB/WBNB/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
