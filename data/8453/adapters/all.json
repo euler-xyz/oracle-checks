@@ -1043,20 +1043,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -1071,8 +1071,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.WSTETH/USD (60s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -1242,20 +1242,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -1270,8 +1270,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ETH/USD (60s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -1326,20 +1326,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -1354,8 +1354,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDC/USD (60s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -1947,62 +1947,6 @@
     "whitelisted": false
   },
   {
-    "name": "FixedRateOracle",
-    "address": "0x618d05ddaf810bEDeA3D2838fE56d8Eec9813aB6",
-    "chainId": 8453,
-    "base": "0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Onchain indexing failed for asset 0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0: could not get decimals.",
-        "pass": false
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Error checking fixed rate.",
-        "pass": false
-      }
-    ],
-    "label": "Unknown Fixed Rate Oracle",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
     "name": "ChainlinkOracle",
     "address": "0xedcD625e06c487A68b5d9f2a5b020E9BE00b95A7",
     "chainId": 8453,
@@ -2059,6 +2003,62 @@
     "model": "Push",
     "provider": "Chainlink",
     "whitelisted": true
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x618d05ddaf810bEDeA3D2838fE56d8Eec9813aB6",
+    "chainId": 8453,
+    "base": "0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Onchain indexing failed for asset 0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0: could not get decimals.",
+        "pass": false
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Error checking fixed rate.",
+        "pass": false
+      }
+    ],
+    "label": "Unknown Fixed Rate Oracle",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
   },
   {
     "name": "CrossAdapter",
@@ -3080,20 +3080,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EURC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EURC) corresponds to the Pyth feed's base asset from metadata (EURC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -3108,8 +3108,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EURC/USD (60s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -3494,20 +3494,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CBETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbETH) corresponds to the Pyth feed's base asset from metadata (CBETH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -3522,8 +3522,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.CBETH/USD (60s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -3976,20 +3976,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SUSDS/USDS",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sUSDS) corresponds to the Pyth feed's base asset from metadata (SUSDS).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USDS) corresponds to the Pyth feed's quote asset from metadata (USDS).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -4004,8 +4004,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.SUSDS/USDS.RR (60s, ±300bps)",
-    "methodology": "Exchange Rate",
+    "label": "unknown feed (60s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
