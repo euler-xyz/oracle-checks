@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x96C69C68B556F7856cE4D57eFa138Ff8Ba31eAf4",
+  "chainId": 239,
+  "base": "0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1",
+  "cross": "0x61D66bC21fED820938021B06e9b2291f3FB91945",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xD76B80E773290eFaE3F68C2f324C3eff4790aC6f",
+  "oracleCrossQuote": "0x7334C4402C3eeECdDA1f4bDa78B3EBbF460ede1D",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1 is rsETH (KelpDao Restaked ETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x61D66bC21fED820938021B06e9b2291f3FB91945 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "rsETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": true
+}
