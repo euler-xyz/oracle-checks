@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0x2a1c11C7c29c16b45D7f2918A238e44527048B6E",
+  "chainId": 1,
+  "base": "0xd0a4B74A6B62aA2b6C02349463D9041606608F36",
+  "quote": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+  "pendleMarket": "0x07b1711d4af74Af661DDe3b774741993B79fC59C",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xd0a4B74A6B62aA2b6C02349463D9041606608F36 is PT-tUSDe-25SEP2025 (PT Terminal USDe 25SEP2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x07b1711d4af74Af661DDe3b774741993B79fC59C is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "tUSDe",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}
