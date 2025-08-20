@@ -1947,6 +1947,62 @@
     "whitelisted": false
   },
   {
+    "name": "FixedRateOracle",
+    "address": "0x618d05ddaf810bEDeA3D2838fE56d8Eec9813aB6",
+    "chainId": 8453,
+    "base": "0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Onchain indexing failed for asset 0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0: could not get decimals.",
+        "pass": false
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Error checking fixed rate.",
+        "pass": false
+      }
+    ],
+    "label": "Unknown Fixed Rate Oracle",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xedcD625e06c487A68b5d9f2a5b020E9BE00b95A7",
     "chainId": 8453,
@@ -2003,62 +2059,6 @@
     "model": "Push",
     "provider": "Chainlink",
     "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x618d05ddaf810bEDeA3D2838fE56d8Eec9813aB6",
-    "chainId": 8453,
-    "base": "0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Onchain indexing failed for asset 0x99Dc0B0a829Ec69ac3d7CBB88eF297bBbcc829a0: could not get decimals.",
-        "pass": false
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Error checking fixed rate.",
-        "pass": false
-      }
-    ],
-    "label": "Unknown Fixed Rate Oracle",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
   },
   {
     "name": "CrossAdapter",
@@ -3228,124 +3228,6 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xB4F1fE0a468891e90c30a033AAFd8e8301Dd3dd0",
-    "chainId": 8453,
-    "base": "0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e",
-    "cross": "0x4200000000000000000000000000000000000006",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x1ba18942520eAfF081760d2EbfEF935dDD5Fb173",
-    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e is OSAK (Osaka Protocol) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "OSAK/WETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xC7EeDEF7d40448e47Ce2Bdab74E00eAa9B669F53",
-    "chainId": 8453,
-    "base": "0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e",
-    "cross": "0x4200000000000000000000000000000000000006",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xa5646D478cB0BD7BE28F2139AA1A42c468c8F241",
-    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e is OSAK (Osaka Protocol) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "OSAK/WETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
     "whitelisted": false
   },
   {
@@ -4953,94 +4835,6 @@
         "id": "Consistent asset",
         "severity": "High",
         "message": "Onchain indexing failed for asset 0xE8f16fbf4eaFEC04bcf0C06d768E7bA325F9d6DE: could not get symbol.",
-        "pass": false
-      }
-    ],
-    "label": "undefined/undefined",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Uniswap V3",
-    "whitelisted": false
-  },
-  {
-    "name": "UniswapV3Oracle",
-    "address": "0x1ba18942520eAfF081760d2EbfEF935dDD5Fb173",
-    "chainId": 8453,
-    "twapWindow": "3600",
-    "pool": "0xCfa7C4bb565915F1c4f9475e2A0536D31efad776",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Onchain indexing failed for asset 0xCfa7C4bb565915F1c4f9475e2A0536D31efad776: could not get symbol.",
-        "pass": false
-      }
-    ],
-    "label": "undefined/undefined",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Uniswap V3",
-    "whitelisted": false
-  },
-  {
-    "name": "UniswapV3Oracle",
-    "address": "0xa5646D478cB0BD7BE28F2139AA1A42c468c8F241",
-    "chainId": 8453,
-    "twapWindow": "3600",
-    "pool": "0xCfa7C4bb565915F1c4f9475e2A0536D31efad776",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Onchain indexing failed for asset 0xCfa7C4bb565915F1c4f9475e2A0536D31efad776: could not get symbol.",
         "pass": false
       }
     ],
