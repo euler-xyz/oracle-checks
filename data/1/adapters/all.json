@@ -10507,6 +10507,243 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0x74B221fAC3000e94A3618357ddA27d8333f3FC1e",
+    "chainId": 1,
+    "base": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
+    "cross": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
+    "oracleCrossQuote": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-LBTC-26JUN2025/LBTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x0505C3f2B1c74ad84f4556a0b5a73386E6286d4E",
+    "chainId": 1,
+    "base": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
+    "cross": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xbaD0e1DA7D39A21455Acef570cF9F3A8881F5e23",
+    "oracleCrossQuote": "0x990Ec39Ab55cFB15A3d326359045E982977132ef",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xc653F79de1274eE65674BeFda54986020d6f8FC1 is PT-EBTC-26JUN2025 (PT ether.fi eBTC 26JUN2025) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-EBTC-26JUN2025/eBTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "address": "0xB0361d730BC0F2C6f3ee66538e4eB91b846c5ee8"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xBd154793659D1E6ea0C58754cEd6807059A421b0",
+    "chainId": 1,
+    "base": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USN/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xB3DF99fff1f803f1a505AF97F18FBf6C5B28aC8F",
+    "chainId": 1,
+    "base": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5",
+    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755 is PT-cUSDO-19JUN2025 (PT Compounding Open Dollar 19JUN2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-cUSDO-19JUN2025/USDO/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0xF2b8616744502851343c52DA76e9adFb97f08b91",
     "chainId": 1,
     "base": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
@@ -10681,6 +10918,65 @@
     "model": "Unknown",
     "provider": "Cross",
     "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
+    "chainId": 1,
+    "base": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
+    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x50D2C7992b802Eef16c04FeADAB310f31866a545 is PT-eUSDE-29MAY2025 (PT Ethereal eUSDE 29MAY2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-eUSDE-29MAY2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10916,183 +11212,6 @@
     "whitelisted": false
   },
   {
-    "name": "CrossAdapter",
-    "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
-    "chainId": 1,
-    "base": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
-    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x50D2C7992b802Eef16c04FeADAB310f31866a545 is PT-eUSDE-29MAY2025 (PT Ethereal eUSDE 29MAY2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-eUSDE-29MAY2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x74B221fAC3000e94A3618357ddA27d8333f3FC1e",
-    "chainId": 1,
-    "base": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
-    "cross": "0x8236a87084f8B84306f72007F36F2618A5634494",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
-    "oracleCrossQuote": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-LBTC-26JUN2025/LBTC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x0505C3f2B1c74ad84f4556a0b5a73386E6286d4E",
-    "chainId": 1,
-    "base": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
-    "cross": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xbaD0e1DA7D39A21455Acef570cF9F3A8881F5e23",
-    "oracleCrossQuote": "0x990Ec39Ab55cFB15A3d326359045E982977132ef",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xc653F79de1274eE65674BeFda54986020d6f8FC1 is PT-EBTC-26JUN2025 (PT ether.fi eBTC 26JUN2025) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-EBTC-26JUN2025/eBTC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
     "name": "ChainlinkInfrequentOracle",
     "address": "0xAfa2995d5D027E4E47C82B620B257A3CE8BB8823",
     "chainId": 1,
@@ -11149,65 +11268,6 @@
     "model": "Push",
     "provider": "Midas",
     "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xa3c3c8A2592273C9914cb972A7e1eF72a7E11DB4",
-    "chainId": 1,
-    "base": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
-    "cross": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x207917Fc8F66d222A82ACa7ba5068c346a97A95c",
-    "oracleCrossQuote": "0xe4DBAfc12733c571B9437a544756B7bc7A6d7250",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0 is cUSDO (Compounding Open Dollar) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PENDLE-LPT/cUSDO/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
   },
   {
     "name": "FixedRateOracle",
@@ -11667,15 +11727,14 @@
     "whitelisted": true
   },
   {
-    "address": "0xB0361d730BC0F2C6f3ee66538e4eB91b846c5ee8"
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0xBd154793659D1E6ea0C58754cEd6807059A421b0",
+    "name": "CrossAdapter",
+    "address": "0xa3c3c8A2592273C9914cb972A7e1eF72a7E11DB4",
     "chainId": 1,
-    "base": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+    "base": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
+    "cross": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
     "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
+    "oracleBaseCross": "0x207917Fc8F66d222A82ACa7ba5068c346a97A95c",
+    "oracleCrossQuote": "0xe4DBAfc12733c571B9437a544756B7bc7A6d7250",
     "checks": [
       {
         "id": "Adapter existence",
@@ -11704,66 +11763,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USN/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xB3DF99fff1f803f1a505AF97F18FBf6C5B28aC8F",
-    "chainId": 1,
-    "base": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
-    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5",
-    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755 is PT-cUSDO-19JUN2025 (PT Compounding Open Dollar 19JUN2025) with 18 decimals.",
+        "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
       },
       {
@@ -11775,15 +11775,15 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+        "message": "Asset 0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0 is cUSDO (Compounding Open Dollar) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-cUSDO-19JUN2025/USDO/USD",
+    "label": "PENDLE-LPT/cUSDO/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": true
+    "whitelisted": false
   },
   {
     "address": "0x76d048e47E1d77940416B656D8D7FEd34931a393"
