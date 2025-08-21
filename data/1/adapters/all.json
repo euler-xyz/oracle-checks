@@ -11151,6 +11151,65 @@
     "whitelisted": true
   },
   {
+    "name": "CrossAdapter",
+    "address": "0xa3c3c8A2592273C9914cb972A7e1eF72a7E11DB4",
+    "chainId": 1,
+    "base": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
+    "cross": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x207917Fc8F66d222A82ACa7ba5068c346a97A95c",
+    "oracleCrossQuote": "0xe4DBAfc12733c571B9437a544756B7bc7A6d7250",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0 is cUSDO (Compounding Open Dollar) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PENDLE-LPT/cUSDO/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "FixedRateOracle",
     "address": "0xB92B9341be191895e8C68b170aC4528839fFe0b2",
     "chainId": 1,
@@ -11665,65 +11724,6 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xa3c3c8A2592273C9914cb972A7e1eF72a7E11DB4",
-    "chainId": 1,
-    "base": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
-    "cross": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x207917Fc8F66d222A82ACa7ba5068c346a97A95c",
-    "oracleCrossQuote": "0xe4DBAfc12733c571B9437a544756B7bc7A6d7250",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0 is cUSDO (Compounding Open Dollar) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PENDLE-LPT/cUSDO/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
     "whitelisted": false
   },
   {
