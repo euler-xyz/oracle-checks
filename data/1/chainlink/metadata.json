@@ -3371,7 +3371,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "bgBTC Proof of Reserves",
+    "name": "BGBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -10450,6 +10450,43 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xcd2D4e80aA0E93d4e788f037A79ab597E0857917",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "cusd-aum",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "cUSD AUM",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "cusd-aum",
+    "proxyAddress": "0x16caE6d6ffb4AE01e206b928de925Ac0C8C8116A",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Cap USD",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Stablecoin",
+      "baseAsset": "cUSD",
+      "blockchainName": "Ethereum",
+      "deliveryChannelCode": "DF",
+      "issuer": "Cap",
+      "porAuditor": "Wallet Address Manager",
+      "porSource": "Cap",
+      "productType": "SmartData",
+      "productTypeCode": "SmartAUM"
     },
     "decimals": 8
   },
