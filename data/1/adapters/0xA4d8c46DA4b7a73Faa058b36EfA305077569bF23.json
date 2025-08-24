@@ -46,13 +46,13 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Adapter's maximum staleness (7200 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "message": "Feed heartbeat is unknown",
       "pass": false
     }
   ],
-  "label": "SUSHI / USD (1%, 86400s)",
-  "methodology": "Market Price",
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
   "model": "Push",
-  "provider": "Chainlink",
+  "provider": "Unknown",
   "whitelisted": true
 }
