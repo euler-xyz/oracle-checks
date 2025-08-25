@@ -842,6 +842,76 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x3D4C272Ef16e19D84BA1ce15ce21571c994A4C5c",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "real-gdp-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real GDP — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-percentage",
+    "proxyAddress": "0x3Eb06AE1Ef3adE7B529Fcce522611c6A044697cC",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x3d055bd7140dDe26AaB5fD00EB25Ac97b511Df75",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "real-gdp-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real GDP - Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-level",
+    "proxyAddress": "0x665Fa131DE7af7606c785F26e66d07cA43a274D9",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x3de683f981469069D0d5C30b0C7763ceC543221d",
     "contractType": "",
     "contractVersion": 6,
@@ -1005,6 +1075,41 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x50110aA52b0686E8dD7E85cbd0a956c99e526b5C",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-percentage",
+    "proxyAddress": "0x273e7833604F74a6f80f6B25568D29DE33570e99",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
   },
   {
     "compareOffchain": "",
@@ -1252,6 +1357,41 @@
       "reserveAssetClic": "LINK_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x61a7956EBDa4356c2482aF3B9f59b6255ECfCa1C",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real Final Sales to Private Domestic Purchasers — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-level",
+    "proxyAddress": "0x982057Fd0A53d52E558A722ba53Ad95E702Da0dF",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
   },
   {
     "compareOffchain": "",
@@ -2258,6 +2398,41 @@
       "quoteAssetClic": "USDC_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xB0BE176247438D0142785421Fb558E035cC30e63",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "PCE Price Index — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-level",
+    "proxyAddress": "0x962Aba596fe6842D644c51b2F112190e6B6e94B4",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
   },
   {
     "compareOffchain": "",
@@ -3400,6 +3575,41 @@
       "productTypeCode": "PoR"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xeF64D0B43E579559771695758178f6AfA0045102",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "PCE Price Index — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-percentage",
+    "proxyAddress": "0x9A9587Da4Fd5DD3C9AD47C12aFeec5073C8cFc2a",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
   },
   {
     "compareOffchain": "",
