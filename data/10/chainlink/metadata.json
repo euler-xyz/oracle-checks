@@ -252,6 +252,41 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x070c58467E2a9b55B094936F500c297C84020c68",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "PCE Price Index — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-percentage",
+    "proxyAddress": "0x8158d24603296Ce54ba903c7D5299E3B6744b555",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x0C1272d2aC652D10d03bb4dEB0D31F15ea3EAb2b",
     "contractType": "",
     "contractVersion": 4,
@@ -529,6 +564,76 @@
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x1343bCF0AD22235f5673B4C172b43401b31e95F8",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-percentage",
+    "proxyAddress": "0xc3cda94d924Eb5c1b0b64e05F01487d30dA3f235",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x137b5b4502a65C15171a0Ce784483Aa82c740c5b",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-gdp-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real GDP — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-level",
+    "proxyAddress": "0xfBe83018d075bDD6AffBe85E5F1E37f0b43bf1F6",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
   },
   {
     "compareOffchain": "",
@@ -1261,6 +1366,41 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x2b6efc1eA650d5D566D1d4A7C1BE988bEF60A559",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-gdp-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real GDP — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-percentage",
+    "proxyAddress": "0xA369969F522Fda5Ce1D3823d07A393C27b74f723",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
   },
   {
     "compareOffchain": "",
@@ -2863,6 +3003,41 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x6cF3c03cc87b7fbA793d6cFcA6B36173a757D48E",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real Final Sales to Private Domestic Purchasers — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-level",
+    "proxyAddress": "0xE036C2B215B2533BCE1c9D0436728cE8ABE5665D",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6f0D003A0743F5acea5680B1D128bd433B07ffCE",
     "contractType": "",
     "contractVersion": 4,
@@ -3023,6 +3198,41 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x79D80df3432A4352b5CA2f4ed8262c2A0D63CA1e",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "PCE Price Index — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-level",
+    "proxyAddress": "0x3E75C48A27b54dEEc3381689CfA9Ce41Ca55C050",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Optimism",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
   },
   {
     "compareOffchain": "",
