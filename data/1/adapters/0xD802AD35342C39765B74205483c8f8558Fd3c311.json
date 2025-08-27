@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0xD802AD35342C39765B74205483c8f8558Fd3c311",
+  "chainId": 1,
+  "base": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+  "quote": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+  "rate": "100000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568 is uniBTC (uniBTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 is WBTC (Wrapped BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
+    }
+  ],
+  "label": "1:1 uniBTC/WBTC",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}
