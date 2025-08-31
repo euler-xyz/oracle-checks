@@ -645,11 +645,11 @@
   },
   {
     "name": "ChainlinkOracle",
-    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
+    "address": "0x4d7e1Da95A407b28b17715ceCE2f3E1B101ecDFd",
     "chainId": 42161,
-    "base": "0xdDb46999F8891663a8F2828d25298f70416d7610",
-    "quote": "0x6491c05A82219b8D1479057361ff1654749b876b",
-    "feed": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
+    "base": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x3fd49f2146FE0e10c4AE7E3fE04b3d5126385Ac4",
     "maxStaleness": "90000",
     "checks": [
       {
@@ -679,13 +679,13 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0xdDb46999F8891663a8F2828d25298f70416d7610 is sUSDS (Savings USDS) with 18 decimals.",
+        "message": "Asset 0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9 is USD₮0 (USD₮0) with 6 decimals.",
         "pass": true
       },
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x6491c05A82219b8D1479057361ff1654749b876b is USDS (USDS Stablecoin) with 18 decimals.",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
@@ -695,10 +695,10 @@
         "pass": true
       }
     ],
-    "label": "sUSDS / USDS Exchange Rate (0.05%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "USDT (0.5%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink",
+    "provider": "RedStone",
     "whitelisted": false
   },
   {
@@ -755,6 +755,731 @@
     ],
     "label": "USDS / USD (0.5%, 86400s)",
     "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x86220C3dC4AdA691E0b09ff8f371bFfE6eFd8C75",
+    "chainId": 42161,
+    "base": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xF09C4691954E62365B9B9eBFd0Fac0C7F3Fa2634",
+    "chainId": 42161,
+    "base": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x88AC7Bca36567525A866138F03a6F6844868E0Bc",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDe / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xaA61564FDa1322799B595024B3A65F5ADDFA99c1",
+    "chainId": 42161,
+    "base": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xBafDf5307EaEF8dCd18c4b7b3977BEEB73b4AFE4",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "USR / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xae80AadE8Ff7cc7fE8493338898073fB1A4FB057",
+    "chainId": 42161,
+    "base": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF is USDai (USDai) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDai/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xe58e5cae9D6871b2c2188Bacf680FB01Bf84B2ee",
+    "chainId": 42161,
+    "base": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a",
+    "cross": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x8503441080c639AC94FCd98eDF16E77d6106688f",
+    "oracleCrossQuote": "0x86220C3dC4AdA691E0b09ff8f371bFfE6eFd8C75",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a is thBILL (thBILL) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "thBILL/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x13466A36f647FA4092833378d500f40753928D04",
+    "chainId": 42161,
+    "base": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "cross": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x3d9EFBE6390cb541401fbdA4d2c208A363640c8d",
+    "oracleCrossQuote": "0xF09C4691954E62365B9B9eBFd0Fac0C7F3Fa2634",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSDe/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x9f1C774764Bb825b0d59863f202b94db35ea52E7",
+    "chainId": 42161,
+    "base": "0x41CA7586cC1311807B4605fBB748a3B8862b42b5",
+    "cross": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x6Fc7D6e17DE09d30545d20f6fB2Cddb42359d1FE",
+    "oracleCrossQuote": "0x86220C3dC4AdA691E0b09ff8f371bFfE6eFd8C75",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x41CA7586cC1311807B4605fBB748a3B8862b42b5 is syrupUSDC (Syrup USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "syrupUSDC/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x4B60F47D69Cbd7847A75B0f0cd657BEc8243F030",
+    "chainId": 42161,
+    "base": "0x66CFbD79257dC5217903A36293120282548E2254",
+    "cross": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x7D4658acC9Cc54a6A6cf003d2dfd5ADfB8fB2094",
+    "oracleCrossQuote": "0xaA61564FDa1322799B595024B3A65F5ADDFA99c1",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66CFbD79257dC5217903A36293120282548E2254 is wstUSR (Wrapped Staked USR) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "wstUSR/USR/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xA542Dbb6E827cA64A409558976ae04f86928bd68",
+    "chainId": 42161,
+    "base": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xff1a0f4744e8582DF1aE09D5611b887B6a12925C",
+    "feedId": "0x796bcb684fdfbba2b071c165251511ab61f08c8949afd9e05665a26f69d9a839",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is RLP (Resolv Liquidity Provider Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: RLP/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (RLP) corresponds to the Pyth feed's base asset from metadata (RLP).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.RLP/USD.RR (120s, ±300bps)",
+    "methodology": "Exchange Rate",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x394Ad562F638C80917b01Be6FFE63c858104eD46",
+    "chainId": 42161,
+    "base": "0x8b4Ca42bB3B1d789859f106222CF7DC5EEd48CCb",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0x8E101C690390De722163d4dC3F76043beBBbCadd",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8b4Ca42bB3B1d789859f106222CF7DC5EEd48CCb is PT-USDai-20NOV2025 (PT USDai 20NOV2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8E101C690390De722163d4dC3F76043beBBbCadd is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x83bAB8b13cb87Ab7f80Fece53F340F0714CeFeeF",
+    "chainId": 42161,
+    "base": "0x936F210d277bf489A3211CeF9AB4BC47a7B69C96",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0x43023675c804A759cBf900Da83DBcc97ee2afbe7",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x936F210d277bf489A3211CeF9AB4BC47a7B69C96 is PT-sUSDai-20NOV2025 (PT Staked USDai 20NOV2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x43023675c804A759cBf900Da83DBcc97ee2afbe7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
+    "chainId": 42161,
+    "base": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "quote": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "feed": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdDb46999F8891663a8F2828d25298f70416d7610 is sUSDS (Savings USDS) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6491c05A82219b8D1479057361ff1654749b876b is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "sUSDS / USDS Exchange Rate (0.05%, 86400s)",
+    "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
     "whitelisted": false
@@ -1047,6 +1772,264 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x8503441080c639AC94FCd98eDF16E77d6106688f",
+    "chainId": 42161,
+    "base": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a",
+    "quote": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "feed": "0x6A1c87d11dDe3D1d52c24f8EC59B91019f14170D",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a is thBILL (thBILL) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "thBILL_FUNDAMENTAL (0.5%, 21600s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x3d9EFBE6390cb541401fbdA4d2c208A363640c8d",
+    "chainId": 42161,
+    "base": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "quote": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "feed": "0x3A236F67Fce401D87D7215695235e201966576E4",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "sUSDe_RATE_PROVIDER (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x6Fc7D6e17DE09d30545d20f6fB2Cddb42359d1FE",
+    "chainId": 42161,
+    "base": "0x41CA7586cC1311807B4605fBB748a3B8862b42b5",
+    "quote": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "feed": "0xF8722c901675C4F2F7824E256B8A6477b2c105FB",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x41CA7586cC1311807B4605fBB748a3B8862b42b5 is syrupUSDC (Syrup USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "syrupUSDC / USDC Exchange Rate (0.05%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x7D4658acC9Cc54a6A6cf003d2dfd5ADfB8fB2094",
+    "chainId": 42161,
+    "base": "0x66CFbD79257dC5217903A36293120282548E2254",
+    "quote": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+    "pyth": "0xff1a0f4744e8582DF1aE09D5611b887B6a12925C",
+    "feedId": "0xb74c2bc175c2dab850ce5a5451608501c293fe8410cb4aba7449dd1c355ab706",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66CFbD79257dC5217903A36293120282548E2254 is wstUSR (Wrapped Staked USR) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: WSTUSR/USR",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (wstUSR) corresponds to the Pyth feed's base asset from metadata (WSTUSR).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USR) corresponds to the Pyth feed's quote asset from metadata (USR).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.WSTUSR/USR.RR (120s, ±300bps)",
+    "methodology": "Exchange Rate",
+    "model": "Pull",
+    "provider": "Pyth",
     "whitelisted": false
   }
 ]
