@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xf676D2599Bf6A313Abdfc79c23CF0ddAA7D01555",
+  "chainId": 146,
+  "base": "0x67A298e5B65dB2b4616E05C3b455E017275f53cB",
+  "cross": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x379B70EF4aF6cBB548b210730082841EEEE30805",
+  "oracleCrossQuote": "0x463E84a78E92544638d6c9F1792A4904FdE3E644",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x67A298e5B65dB2b4616E05C3b455E017275f53cB is lstRZR (Liquid Staked Rezerve.money) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5 is RZR (Rezerve.money) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "lstRZR/RZR/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
