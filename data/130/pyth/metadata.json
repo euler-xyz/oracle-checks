@@ -25458,6 +25458,19 @@
     }
   },
   {
+    "id": "0x11726bd2ac3b355408e1d5ea8e2ae5b3c4961f72ac8444f0d400b5d7e69813c1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FDIT",
+      "description": "FIDELITY DIGITAL INTEREST TOKEN / US DOLLAR",
+      "display_symbol": "FDIT/USD",
+      "generic_symbol": "FDITUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FDIT/USD"
+    }
+  },
+  {
     "id": "0x741f2ecf4436868e4642db088fa33f9858954b992285129c9b03917dcb067ecc",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -29095,51 +29108,6 @@
     }
   },
   {
-    "id": "0xeb13b0aa7c1c079c0817e7340772e34a080d76f2bada76618a47468e244a0a3e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "BMW",
-      "country": "DE",
-      "description": "BAY MOTOREN WERKE AG ST / EURO",
-      "display_symbol": "BMW/EUR",
-      "publish_interval": "5",
-      "quote_currency": "EUR",
-      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
-      "symbol": "Equity.DE.BMW/EUR"
-    }
-  },
-  {
-    "id": "0xe045f185730daa0a656655aed1317710b047bda0a7e74d74b24f112d37bcde53",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "ATO",
-      "cms_symbol": "ATO",
-      "country": "US",
-      "cqs_symbol": "ATO",
-      "description": "ATMOS ENERGY CORPORATION / US DOLLAR",
-      "display_symbol": "ATO/USD",
-      "nasdaq_symbol": "ATO",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.ATO/USD"
-    }
-  },
-  {
-    "id": "0x29d791d343bf0744b54b1c36a4814453f18e8fdd2ca032a9f2a142128a0c94bd",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "326030",
-      "country": "KR",
-      "description": "SK BIOPHARMACEUTICALS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.326030/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.326030/KRW"
-    }
-  },
-  {
     "id": "0xb1c83a8ccff0a1a79a174f94c58bc5a4932ad408ce4c2ac3137a02e5230021c1",
     "attributes": {
       "asset_type": "Equity",
@@ -29154,20 +29122,6 @@
     }
   },
   {
-    "id": "0xdb72ba7ccc360b102f83727c63c8292952fc937bae5757969adebe94db59e8a7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "9766",
-      "country": "JP",
-      "description": "KONAMI GROUP CORPORATION / JAPANESE YEN",
-      "display_symbol": "9766/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.9766/JPY"
-    }
-  },
-  {
     "id": "0x22a54087e443d4d1db5bd018923337c72c818a99ca521ead71f72fa058f1ccf1",
     "attributes": {
       "asset_type": "Crypto",
@@ -29178,19 +29132,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.VINE/USD"
-    }
-  },
-  {
-    "id": "0xe7f14a58b2ce19f896b0d4f88d93933ec55e7a91cea94d9dbb43ad3fd6350440",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SYUSD",
-      "description": "SYNNAX US DOLLAR / US DOLLAR",
-      "display_symbol": "SYUSD/USD",
-      "generic_symbol": "SYUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SYUSD/USD"
     }
   },
   {
@@ -29238,6 +29179,91 @@
     }
   },
   {
+    "id": "0xe045f185730daa0a656655aed1317710b047bda0a7e74d74b24f112d37bcde53",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ATO",
+      "cms_symbol": "ATO",
+      "country": "US",
+      "cqs_symbol": "ATO",
+      "description": "ATMOS ENERGY CORPORATION / US DOLLAR",
+      "display_symbol": "ATO/USD",
+      "nasdaq_symbol": "ATO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.ATO/USD"
+    }
+  },
+  {
+    "id": "0x06d9fa501fd2bef47265361ca0eaf6e0a97c3b226cea5ab760240f70818581ad",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OMI",
+      "description": "ECOMI / US DOLLAR",
+      "display_symbol": "OMI/USD",
+      "generic_symbol": "OMIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OMI/USD"
+    }
+  },
+  {
+    "id": "0xeb13b0aa7c1c079c0817e7340772e34a080d76f2bada76618a47468e244a0a3e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BMW",
+      "country": "DE",
+      "description": "BAY MOTOREN WERKE AG ST / EURO",
+      "display_symbol": "BMW/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BMW/EUR"
+    }
+  },
+  {
+    "id": "0x29d791d343bf0744b54b1c36a4814453f18e8fdd2ca032a9f2a142128a0c94bd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "326030",
+      "country": "KR",
+      "description": "SK BIOPHARMACEUTICALS / SOUTH KOREAN WON",
+      "display_symbol": "KQ.326030/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
+      "symbol": "Equity.KR.326030/KRW"
+    }
+  },
+  {
+    "id": "0xdb72ba7ccc360b102f83727c63c8292952fc937bae5757969adebe94db59e8a7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9766",
+      "country": "JP",
+      "description": "KONAMI GROUP CORPORATION / JAPANESE YEN",
+      "display_symbol": "9766/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.9766/JPY"
+    }
+  },
+  {
+    "id": "0xe7f14a58b2ce19f896b0d4f88d93933ec55e7a91cea94d9dbb43ad3fd6350440",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SYUSD",
+      "description": "SYNNAX US DOLLAR / US DOLLAR",
+      "display_symbol": "SYUSD/USD",
+      "generic_symbol": "SYUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SYUSD/USD"
+    }
+  },
+  {
     "id": "0xb167b163565d841b1477cb942bf3b2d28214f3eedf343de7536d6e5b6250d45b",
     "attributes": {
       "asset_type": "Equity",
@@ -29263,19 +29289,6 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.7202/JPY"
-    }
-  },
-  {
-    "id": "0x06d9fa501fd2bef47265361ca0eaf6e0a97c3b226cea5ab760240f70818581ad",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "OMI",
-      "description": "ECOMI / US DOLLAR",
-      "display_symbol": "OMI/USD",
-      "generic_symbol": "OMIUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.OMI/USD"
     }
   },
   {
