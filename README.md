@@ -210,7 +210,6 @@ The system uses `chainConfigs.ts` to define settings for each supported chain. E
 ```
 
 ### Example Configuration
-
 ```typescript
 [mainnet.id]: {
   publicClient: getClient(mainnet),
