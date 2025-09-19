@@ -991,6 +991,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ASTER/USD-Datalink-CexPrice-mainnet-production",
+    "pair": [
+      "ASTER",
+      "USD"
+    ],
+    "path": "aster-usd-datalink-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ASTERION",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "ASTERION",
+      "attributeType": "CexPrice",
+      "baseAsset": "ASTER",
+      "baseAssetClic": "ASTER_CR",
+      "clicProductName": "ASTER/USD-Datalink-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x00023e19f636b9334114a1db35638af4cb712ded7ece00be7fb5b7a3b1be7ef3",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "DRG/USD-RefPrice-mainnet-production",
     "pair": [
       "DRG",
