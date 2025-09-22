@@ -454,14 +454,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (46800 s) is sufficient for the feed's heartbeat (43200 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "weETH_FUNDAMENTAL (0.5%, 43200s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
