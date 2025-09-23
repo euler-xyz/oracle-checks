@@ -67,6 +67,10 @@ export const chainConfigs: Record<number, CheckConfig> = {
         provider: "Resolv",
         description: "Resolv RLP/USD Oracle",
       },
+      "0x1A808d3c2ac8bA00D7edA27124Ea3f392B52663E": {
+        provider: "DIA",
+        description: "DIA RZR/USD Oracle",
+      }
     },
     ...defaultBounds,
     ...getAddressesForChain(mainnet.id),
