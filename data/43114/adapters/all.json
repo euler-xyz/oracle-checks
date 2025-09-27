@@ -47,14 +47,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (3720 s) is sufficient for the feed's heartbeat (120 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "AVAX / USD (0.1%, 120s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -105,14 +105,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "USDC / USD (0.1%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -163,14 +163,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "USDT / USD (0.1%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -221,14 +221,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "AUSD / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -279,14 +279,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "BTC / USD (0.1%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -337,14 +337,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (5400 s) is sufficient for the feed's heartbeat (1800 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "JOE / USD (0.5%, 1800s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -395,14 +395,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (3720 s) is sufficient for the feed's heartbeat (120 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "Calculated SAVAX / USD (0.1%, 120s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -453,14 +453,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "ETH / USD (0.1%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -511,14 +511,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "BTC / USD (0.1%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {
@@ -569,14 +569,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "SolvBTC.BBN / SolvBTC Exchange Rate (0.01%, 86400s)",
+    "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Chainlink",
     "whitelisted": false
   },
   {

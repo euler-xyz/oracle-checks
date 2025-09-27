@@ -46,13 +46,13 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter's maximum staleness (3660 s) is sufficient for the feed's heartbeat (60 s).",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
-  "methodology": "Unknown",
+  "label": "CAKE / USD (0.2%, 60s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "Chainlink",
   "whitelisted": false
 }
