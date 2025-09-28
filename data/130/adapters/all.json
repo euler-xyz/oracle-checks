@@ -1,180 +1,6 @@
 [
   {
     "name": "ChainlinkInfrequentOracle",
-    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
-    "chainId": 130,
-    "base": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-    "maxStaleness": "25200",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x927B51f251480a681271180DA4de28D44EC4AfB8 is WBTC (Wrapped BTC) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
-      }
-    ],
-    "label": "BTC (0.5%, 21600s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xF5C2DfD1740D18aD7cf23FBA76cc11d877802937",
-    "chainId": 130,
-    "base": "0x4200000000000000000000000000000000000006",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2",
-    "maxStaleness": "25200",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
-      }
-    ],
-    "label": "ETH (0.5%, 21600s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0x5939Ee098eB6d411C3727b78Ee665771F5cB0501",
-    "chainId": 130,
-    "base": "0x9151434b16b9763660705744891fA906F660EcC5",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x58fa68A373956285dDfb340EDf755246f8DfCA16",
-    "maxStaleness": "14400",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x9151434b16b9763660705744891fA906F660EcC5 is USD₮0 (USD₮0) with 6 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (14400 s) is sufficient for the feed's heartbeat (10800 s).",
-        "pass": true
-      }
-    ],
-    "label": "USDT (0.5%, 10800s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
     "address": "0xD544CcB6f2231bd1cCAC0258cbA89E8A13D4a421",
     "chainId": 130,
     "base": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
@@ -191,8 +17,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -229,16 +55,16 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
-    "address": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "address": "0x5939Ee098eB6d411C3727b78Ee665771F5cB0501",
     "chainId": 130,
-    "base": "0x8f187aA05619a017077f5308904739877ce9eA21",
+    "base": "0x9151434b16b9763660705744891fA906F660EcC5",
     "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xf1454949C6dEdfb500ae63Aa6c784Aa1Dde08A6c",
-    "maxStaleness": "90000",
+    "feed": "0x58fa68A373956285dDfb340EDf755246f8DfCA16",
+    "maxStaleness": "14400",
     "checks": [
       {
         "id": "Adapter existence",
@@ -249,8 +75,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -267,7 +93,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x8f187aA05619a017077f5308904739877ce9eA21 is UNI (Uniswap) with 18 decimals.",
+        "message": "Asset 0x9151434b16b9763660705744891fA906F660EcC5 is USD₮0 (USD₮0) with 6 decimals.",
         "pass": true
       },
       {
@@ -279,24 +105,24 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "message": "Adapter's maximum staleness (14400 s) is sufficient for the feed's heartbeat (10800 s).",
         "pass": true
       }
     ],
-    "label": "UNI (1%, 86400s)",
+    "label": "USDT (0.5%, 10800s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
-    "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
+    "address": "0xF5C2DfD1740D18aD7cf23FBA76cc11d877802937",
     "chainId": 130,
-    "base": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
-    "quote": "0x4200000000000000000000000000000000000006",
-    "feed": "0xC3346631E0A9720582fB9CAbdBEA22BC2F57741b",
-    "maxStaleness": "90000",
+    "base": "0x4200000000000000000000000000000000000006",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2",
+    "maxStaleness": "25200",
     "checks": [
       {
         "id": "Adapter existence",
@@ -307,8 +133,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -325,201 +151,27 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0xc02fE7317D4eb8753a02c35fe019786854A92001 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
         "pass": true
       },
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
         "pass": true
       }
     ],
-    "label": "wstETH/stETH (0.5%, 86400s)",
+    "label": "ETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
-    "chainId": 130,
-    "base": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
-    "quote": "0x4200000000000000000000000000000000000006",
-    "feed": "0xBf3bA2b090188B40eF83145Be0e9F30C6ca63689",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7 is weETH (Wrapped eETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "weETH_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
-    "chainId": 130,
-    "base": "0xc3eACf0612346366Db554C991D7858716db09f58",
-    "quote": "0x4200000000000000000000000000000000000006",
-    "feed": "0x85C4F855Bc0609D2584405819EdAEa3aDAbfE97D",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xc3eACf0612346366Db554C991D7858716db09f58 is rsETH (KelpDao Restaked ETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "rsETH_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
-    "chainId": 130,
-    "base": "0x2416092f143378750bb29b79eD961ab195CcEea5",
-    "quote": "0x4200000000000000000000000000000000000006",
-    "feed": "0xa0f2EF6ceC437a4e5F6127d6C51E1B0d3A746911",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x2416092f143378750bb29b79eD961ab195CcEea5 is ezETH (Renzo Restaked ETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "ezETH_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -540,8 +192,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -578,7 +230,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -599,8 +251,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -637,7 +289,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -658,8 +310,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -696,7 +348,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -717,8 +369,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -755,7 +407,123 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
+    "chainId": 130,
+    "base": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x927B51f251480a681271180DA4de28D44EC4AfB8 is WBTC (Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "BTC (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "chainId": 130,
+    "base": "0x8f187aA05619a017077f5308904739877ce9eA21",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xf1454949C6dEdfb500ae63Aa6c784Aa1Dde08A6c",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8f187aA05619a017077f5308904739877ce9eA21 is UNI (Uniswap) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "UNI (1%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -775,8 +543,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -813,15 +581,15 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
-    "name": "ChronicleOracle",
-    "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
     "chainId": 130,
-    "base": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "base": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
     "quote": "0x4200000000000000000000000000000000000006",
-    "feed": "0x70B9de72955ef9dC97192d2ac2e69597A1b54bB8",
+    "feed": "0xC3346631E0A9720582fB9CAbdBEA22BC2F57741b",
     "maxStaleness": "90000",
     "checks": [
       {
@@ -833,14 +601,14 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -851,7 +619,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x2416092f143378750bb29b79eD961ab195CcEea5 is ezETH (Renzo Restaked ETH) with 18 decimals.",
+        "message": "Asset 0xc02fE7317D4eb8753a02c35fe019786854A92001 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
         "pass": true
       },
       {
@@ -859,13 +627,19 @@
         "severity": "High",
         "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "EZETH/ETH",
-    "methodology": "Unknown",
+    "label": "wstETH/stETH (0.5%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chronicle",
-    "whitelisted": false
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -885,8 +659,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -917,6 +691,423 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
+    "whitelisted": true
+  },
+  {
+    "name": "ChronicleOracle",
+    "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
+    "chainId": 130,
+    "base": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "feed": "0x70B9de72955ef9dC97192d2ac2e69597A1b54bB8",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2416092f143378750bb29b79eD961ab195CcEea5 is ezETH (Renzo Restaked ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "EZETH/ETH",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Chronicle",
+    "whitelisted": true
+  },
+  {
+    "address": "0xc345c11c7e9a4c57081e3074F59F3d6263F96273"
+  },
+  {
+    "address": "0x54bd666eA7FD8d5404c0593Eab3Dcf9b6E2A3aC4"
+  },
+  {
+    "address": "0xc36B72a858dD42C5bF736832C40bc6838acB8dFb"
+  },
+  {
+    "address": "0xA0A977406E02f6d6B86a4aa7e1e5B3dF3555C614"
+  },
+  {
+    "address": "0x48b2f620a0D9768f510DaB4347355b89F3C60886"
+  },
+  {
+    "address": "0xFaDD663Db28D5AC846bc1c501dEc28054E08EC4e"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x0830cF28e35C9E856d33Cba555CAd9c4d540bc2C",
+    "chainId": 130,
+    "base": "0x9C383Fa23Dd981b361F0495Ba53dDeB91c750064",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xD15862FC3D5407A03B696548b6902D6464A69b8c",
+    "maxStaleness": "14400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Failed to extract metadata hash from bytecode.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9C383Fa23Dd981b361F0495Ba53dDeB91c750064 is VII-eUSDC-5 (VII Finance Wrapped EVK Vault eUSDC-5) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (14400 s) is sufficient for the feed's heartbeat (10800 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC (0.5%, 10800s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
     "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x4B19446cb25760d788678960741dEef78e5DCEAa",
+    "chainId": 130,
+    "base": "0x7b793B1388e14F03e19dc562470e7D25B2Ae9b97",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x58fa68A373956285dDfb340EDf755246f8DfCA16",
+    "maxStaleness": "14400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Failed to extract metadata hash from bytecode.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7b793B1388e14F03e19dc562470e7D25B2Ae9b97 is VII-eUSD₮0-2 (VII Finance Wrapped EVK Vault eUSD₮0-2) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (14400 s) is sufficient for the feed's heartbeat (10800 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDT (0.5%, 10800s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x6F8a97Ebc65C331d5c559f4648b187D62F6e13FD",
+    "chainId": 130,
+    "base": "0x86d13463ce48504375d956dF07147eF0FCF2F19E",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Failed to extract metadata hash from bytecode.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Onchain indexing failed for asset 0x86d13463ce48504375d956dF07147eF0FCF2F19E: could not get symbol.",
+        "pass": false
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 undefined/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+    "chainId": 130,
+    "base": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "feed": "0xBf3bA2b090188B40eF83145Be0e9F30C6ca63689",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7 is weETH (Wrapped eETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "weETH_FUNDAMENTAL (0.5%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+    "chainId": 130,
+    "base": "0xc3eACf0612346366Db554C991D7858716db09f58",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "feed": "0x85C4F855Bc0609D2584405819EdAEa3aDAbfE97D",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xc3eACf0612346366Db554C991D7858716db09f58 is rsETH (KelpDao Restaked ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "rsETH_FUNDAMENTAL (0.5%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
+    "chainId": 130,
+    "base": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "feed": "0xa0f2EF6ceC437a4e5F6127d6C51E1B0d3A746911",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2416092f143378750bb29b79eD961ab195CcEea5 is ezETH (Renzo Restaked ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "ezETH_FUNDAMENTAL (0.5%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": true
   }
 ]
