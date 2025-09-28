@@ -10,6 +10,7 @@ import {
   ink,
   mainnet,
   optimism,
+  plasma,
   polygon,
   sonic,
   swellchain,
@@ -278,5 +279,13 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(tac.id),
+  },
+  [plasma.id]: {
+    publicClient: getClient(plasma),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(plasma.id),
   },
 };
