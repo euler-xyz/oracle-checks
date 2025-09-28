@@ -60,12 +60,7 @@ jobs:
 
       - name: Generate .env file
         run: |
-          echo '${{ secrets.RPC_URLS }}' > rpc_urls.json
-          for KEY in $(jq -r 'keys[]' rpc_urls.json); do
-            VALUE=$(jq -r ".[\"$KEY\"]" rpc_urls.json)
-            echo "RPC_URL_$KEY=$VALUE" >> .env
-          done
-          rm rpc_urls.json
+          echo '${{ secrets.RPC_URLS }}' > .env
           echo "EULER_DATA_API_URL=${{ secrets.EULER_DATA_API_URL }}" >> .env
 
       - name: Install dependencies
