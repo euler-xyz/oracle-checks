@@ -290,7 +290,7 @@ export const chainConfigs: Record<number, CheckConfig> = {
     ...getAddressesForChain(plasma.id),
   },
   [linea.id]: {
-    publicClient: getClient(plasma),
+    publicClient: getClient(linea),
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
