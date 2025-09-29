@@ -16,6 +16,7 @@ import {
   swellchain,
   tac,
   unichain,
+  linea,
 } from "viem/chains";
 
 import { fallbackAssets } from "./fallbackAssets";
@@ -287,5 +288,13 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(plasma.id),
+  },
+  [linea.id]: {
+    publicClient: getClient(plasma),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(linea.id),
   },
 };
