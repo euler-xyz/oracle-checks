@@ -3996,6 +3996,65 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0xc0f0f07418b87480Ce06Ea284D3850EE3539e9C5",
+    "chainId": 8453,
+    "base": "0x51fD99761f2027cA1172d614614c899f61B130A0",
+    "cross": "0x4200000000000000000000000000000000000006",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x7B0fD1d287Adfce133d43e293d3C75c7bAC231Be",
+    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x51fD99761f2027cA1172d614614c899f61B130A0 is BasedPlasma (XPL) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "BasedPlasma/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x1f00Cc333ccdCD1B8a9809D859338218d7ABC52b",
     "chainId": 8453,
@@ -5640,5 +5699,49 @@
   },
   {
     "address": "0x95d0555e0D9d426a22e3cD7F6597255260F59083"
+  },
+  {
+    "name": "UniswapV3Oracle",
+    "address": "0x7B0fD1d287Adfce133d43e293d3C75c7bAC231Be",
+    "chainId": 8453,
+    "twapWindow": "600",
+    "pool": "0xe5B1f2899e9Ce6E9965FA5f41F643BaA9b617Dd0",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Onchain indexing failed for asset 0xe5B1f2899e9Ce6E9965FA5f41F643BaA9b617Dd0: could not get symbol.",
+        "pass": false
+      }
+    ],
+    "label": "undefined/undefined",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Uniswap V3",
+    "whitelisted": false
   }
 ]
