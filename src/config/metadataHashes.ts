@@ -63,6 +63,7 @@ export const metadataHashes: Record<string, string[]> = {
     "0x1220b3cc7c3e75fe99bb5e9a0e8f23d607f853121df1e1192f9fd45f19150f355547",
     "0x1220a4262c82170fd0c0dc9e86ea7fbbf1c91e7f88bef6d30fac44879b5dc3732581",
     "0x12207735f11546112ad626f2e4f3fcd4f405f93df57007773515566100ca3f8fb273",
+    "0x12205d986332033c49eff6d2b840e64f5de8536c7f6c8cbf5ce942ad6aebcaab038a",
   ],
   FixedRateOracle: [
     "0x12206f7a3c8b1db06a65d27e867d185d6386d05ef62075907d338c6fe11d460a65cb",
@@ -89,9 +90,11 @@ export const metadataHashes: Record<string, string[]> = {
     "0x122026b1cc67ec90e1ad83c8d4904cf6465d6dc98db94d42b5764a34817d7d54b183",
     "0x12204b2f608da04885c43f1bd83139f5773c54982ecf78961a563ffcebc616596863",
     "0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7",
-    "0x12202aac02a6335c3962b03bda456310c4cb657c87cb0b1d1d5cdc5f534e881a4948"
   ],
-  PendleUniversalOracle: ["0x122045d742e7b9ae55402108a9e67b0fca704eb81acbd9384323edd31ea4f0fdfa3a"],
+  PendleUniversalOracle: [
+    "0x122045d742e7b9ae55402108a9e67b0fca704eb81acbd9384323edd31ea4f0fdfa3a",
+    "0x12202aac02a6335c3962b03bda456310c4cb657c87cb0b1d1d5cdc5f534e881a4948",
+  ],
   SwaapSafeguardOracle: ["0x"],
   UniswapV3Oracle: ["0x"],
   IdleTranchesOracle: ["0x12205fab90911f9465e9f90d80ef81361680dedc1af9c5ec17910c1ac452ebbcb893"],
