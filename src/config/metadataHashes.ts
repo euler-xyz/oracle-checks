@@ -89,6 +89,7 @@ export const metadataHashes: Record<string, string[]> = {
     "0x122026b1cc67ec90e1ad83c8d4904cf6465d6dc98db94d42b5764a34817d7d54b183",
     "0x12204b2f608da04885c43f1bd83139f5773c54982ecf78961a563ffcebc616596863",
     "0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7",
+    "0x12202aac02a6335c3962b03bda456310c4cb657c87cb0b1d1d5cdc5f534e881a4948"
   ],
   PendleUniversalOracle: ["0x122045d742e7b9ae55402108a9e67b0fca704eb81acbd9384323edd31ea4f0fdfa3a"],
   SwaapSafeguardOracle: ["0x"],
