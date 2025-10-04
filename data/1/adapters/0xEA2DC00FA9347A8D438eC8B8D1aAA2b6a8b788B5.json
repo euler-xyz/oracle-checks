@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xEA2DC00FA9347A8D438eC8B8D1aAA2b6a8b788B5",
+  "chainId": 1,
+  "base": "0x3A70F0C696dcB3A4aB3833cD9726397dD61AC85e",
+  "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x0cf5d0444502291Bc61314019b56Ed501EB61c42",
+  "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3A70F0C696dcB3A4aB3833cD9726397dD61AC85e is PT-RLP-4DEC2025 (PT Resolv Liquidity Provider Token 4DEC2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-RLP-4DEC2025/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
