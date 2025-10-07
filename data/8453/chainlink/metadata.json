@@ -1345,6 +1345,48 @@
     "decimals": 18
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x29633dce259AAcfccf8F26B97B05EE7fD921dE7F",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "dola-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "DOLA / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "dola-usd",
+    "proxyAddress": "0x4aEE0164400FE35B6b400F2d767A618Bcb96a02D",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "DOLA",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DOLA",
+      "baseAssetClic": "DOLA_CR",
+      "blockchainName": "Base",
+      "clicProductName": "DOLA/USD-RefPrice-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x29a0BF5D5e677d38f7AbBd4d292895a3574796C0",
     "contractType": "",
