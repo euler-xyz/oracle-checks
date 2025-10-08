@@ -35399,6 +35399,306 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "CRCLx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "CRCLx",
+      "POR"
+    ],
+    "path": "crclx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Circle Internet Group Inc xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Circle Internet Group Inc xStock",
+      "attributeType": "NAV",
+      "baseAsset": "CRCLx",
+      "baseAssetClic": "CRCL_EQ",
+      "clicProductName": "CRCLx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x00095cb8c8e17b9480ccdeae1308f50e22f900c02d3f9ee4285552c6f71d392b",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SPYx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "SPYx",
+      "POR"
+    ],
+    "path": "spyx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "S&P 500 xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "S&P 500 xStock",
+      "attributeType": "NAV",
+      "baseAsset": "SPYx",
+      "baseAssetClic": "SPY_EQ",
+      "clicProductName": "SPYx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x00096e6f955a3059dcf44d8e4af44ed7eba00707fb0e9f31c017e603f5c8f489",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "AAPLx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "AAPLx",
+      "POR"
+    ],
+    "path": "aaplx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Apple xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Apple xStock",
+      "attributeType": "NAV",
+      "baseAsset": "AAPLx",
+      "baseAssetClic": "AAPL_EQ",
+      "clicProductName": "AAPLx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x00099110a6d7ea475658acbfd05b8669dc2ba7805d99ffc34665cc1c9a71e0eb",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "ONRE-NAV/USD-Streams-NetAssetValue-mainnet-production",
     "pair": [
@@ -35432,6 +35732,406 @@
     "feedId": "0x0009a5831badbd7ca44834d9943b0d4a7ea28ebad0e5119f6855b80acb84ec25",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "MSTRx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "MSTRx",
+      "POR"
+    ],
+    "path": "mstrx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Microstrategy Inc Class A xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Microstrategy Inc Class A xStock",
+      "attributeType": "NAV",
+      "baseAsset": "MSTRx",
+      "baseAssetClic": "MSTR_EQ",
+      "clicProductName": "MSTRx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009b670c100cdda89aa2e2e3110f61ad6a3a4c1afbf95be32d763972008c14e",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "NVDAx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "NVDAx",
+      "POR"
+    ],
+    "path": "nvdax-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "NVIDIA xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "NVIDIA xStock",
+      "attributeType": "NAV",
+      "baseAsset": "NVDAx",
+      "baseAssetClic": "NVDA_EQ",
+      "clicProductName": "NVDAx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009c2e09f1db3a14295a9d7600ea5fe8ae16d864f87889e74b37fd4de3db1c6",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "METAx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "METAx",
+      "POR"
+    ],
+    "path": "metax-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Meta Platforms Inc xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Meta Platforms Inc xStock",
+      "attributeType": "NAV",
+      "baseAsset": "METAx",
+      "baseAssetClic": "META_EQ",
+      "clicProductName": "METAx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009c9a2d25f1e91f6f23ea8e2073756df15d795b8bf641818f6b1366667ce5e",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "COINx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "COINx",
+      "POR"
+    ],
+    "path": "coinx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Coinbase Global Inc xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Coinbase Global Inc xStock",
+      "attributeType": "NAV",
+      "baseAsset": "COINx",
+      "baseAssetClic": "COIN_EQ",
+      "clicProductName": "COINx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009d14cb07e095c09ed954d8eb9e0281d9942fae6d5fbe18d6f2ab5a251432a",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -35528,6 +36228,306 @@
     "feedId": "0x0009de5ffad036d889d1bef8f402ee67370b1fbdfd491d07bf0a8666b031552a",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "GOOGLx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "GOOGLx",
+      "POR"
+    ],
+    "path": "googlx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Alphabet xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Alphabet xStock",
+      "attributeType": "NAV",
+      "baseAsset": "GOOGLx",
+      "baseAssetClic": "GOOGL_EQ",
+      "clicProductName": "GOOGLx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009e8abcd6a8bbf6bae24d8665e99d4aecbd757f714deeba781574456f81923",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "TSLAx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "TSLAx",
+      "POR"
+    ],
+    "path": "tslax-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Tesla Inc xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Tesla Inc xStock",
+      "attributeType": "NAV",
+      "baseAsset": "TSLAx",
+      "baseAssetClic": "TSLA_EQ",
+      "clicProductName": "TSLAx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009f112fd88e132c5071126e3ebf6e2dee9148f78b88806827f8d5f9e65a9f2",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "QQQx/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "QQQx",
+      "POR"
+    ],
+    "path": "qqqx-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "QQQ xStock",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "QQQ xStock",
+      "attributeType": "NAV",
+      "baseAsset": "QQQx",
+      "baseAssetClic": "QQQ_EQ",
+      "clicProductName": "QQQx/POR-Datalink-ProofOfReserves-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Equities",
+      "issuer": "Uranium Digital",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "porAuditor": "LedgerLens",
+      "porSource": "Third-Party",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009f6496534d798ed08ddada565dec18d9a712bf71b1de6cc7a24b751d10143",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
