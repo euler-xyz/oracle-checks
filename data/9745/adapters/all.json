@@ -1804,6 +1804,63 @@
     "whitelisted": false
   },
   {
+    "name": "FixedRateOracle",
+    "address": "0x760aAD84Ce0200E93823dd2d5c7A43Fa5436a06f",
+    "chainId": 9745,
+    "base": "0xA29420057F3e3B9512D4786df135Da1674BD74D4",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1212682004744734399026770271951613801910899805108",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA29420057F3e3B9512D4786df135Da1674BD74D4 is savUSD (Staked avUSD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has an unusual fixed rate: 1212682004744734399026770271951.613801910899805108.",
+        "pass": false
+      }
+    ],
+    "label": "1:1212682004744734399026770271951.613801910899805108 savUSD/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xFc86d1a7c8CF37Fc1cb27BcaAA218cf93Bf4985d",
     "chainId": 9745,
