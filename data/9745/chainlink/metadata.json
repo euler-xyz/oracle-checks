@@ -598,6 +598,47 @@
     "decimals": 18
   },
   {
+    "compareOffchain": "",
+    "contractAddress": "0x8c8604a1B05c259EDE0ac5D0Cb261b962984317D",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "yusdusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "YUSD-USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "yusd-usd-exchange-rate",
+    "proxyAddress": "0x0ddafE0232Fb36791bCe65afD7268f77E69a2077",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "yUSD / USD Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "yUSD",
+      "baseAssetClic": "yUSD_CR",
+      "blockchainName": "Plasma",
+      "clicProductName": "yUSD/USD-ExRate-DF-Plasma-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
+  },
+  {
     "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x90f5131DF5EBfB54E27C6C89F542ef2b4A399b6e",
@@ -885,6 +926,47 @@
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xD9178b80d4aA81bCa659380BFdD5676C62Ba1Fb3",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "wstethsteth-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "WSTETH-STETH Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wsteth-steth-exchange-rate",
+    "proxyAddress": "0xd64d26cAd5f672463c33f91cE5b243d24cF7a903",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "wstETH / stETH Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "wstETH",
+      "baseAssetClic": "wstETH_CR",
+      "blockchainName": "Plasma",
+      "clicProductName": "wstETH/stETH-ExRate-DF-Plasma-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "stETH",
+      "quoteAssetClic": "stETH_CR"
+    },
+    "decimals": 18
   },
   {
     "benchmark": "dex-state",
