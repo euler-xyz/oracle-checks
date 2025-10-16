@@ -1836,14 +1836,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: GGAVAX/AVAX",
+        "message": "Adapter is connected to an official Pyth feed: STAVAX/AVAX",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (stAVAX) does not correspond to the Pyth feed's base asset from metadata (GGAVAX).",
-        "pass": false
+        "message": "Adapter's base asset (stAVAX) corresponds to the Pyth feed's base asset from metadata (STAVAX).",
+        "pass": true
       },
       {
         "id": "Pyth quote correspondence",
@@ -1864,7 +1864,7 @@
         "pass": true
       }
     ],
-    "label": "Crypto.GGAVAX/AVAX.RR (120s, ±300bps)",
+    "label": "Crypto.STAVAX/AVAX.RR (120s, ±300bps)",
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
