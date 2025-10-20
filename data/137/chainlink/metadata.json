@@ -3742,7 +3742,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Maker",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3756,7 +3756,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "shutdownDate": "October 31st, 2025"
     },
     "decimals": 8
   },
@@ -4635,7 +4636,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Maker",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4649,7 +4650,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "shutdownDate": "October 31st, 2025"
     },
     "decimals": 18
   },

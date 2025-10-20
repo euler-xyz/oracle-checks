@@ -826,7 +826,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Maker",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -840,7 +840,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "shutdownDate": "October 31st, 2025"
     },
     "decimals": 8
   },
