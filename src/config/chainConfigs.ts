@@ -268,6 +268,10 @@ export const chainConfigs: Record<number, CheckConfig> = {
         provider: "Midas",
         description: "Midas mBASIS/USD Oracle",
       },
+      "0x67a3226e69A1a8316eF1807a44f077AF80071926": {
+        provider: "Re Protocol",
+        description: "Re Protocol ReUSD/USD Custom Feed",
+      },
     },
     ...defaultBounds,
     ...getAddressesForChain(base.id),
