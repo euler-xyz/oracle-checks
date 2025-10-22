@@ -289,7 +289,12 @@ export const chainConfigs: Record<number, CheckConfig> = {
     publicClient: getClient(plasma),
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {},
+    otherRecognizedAggregatorV3Feeds: {
+      "0xfC3E47c4Da8F3a01ac76c3C5ecfBfC302e1A08F0": {
+        provider: "Midas mHYPER/USD Oracle",
+        description: "Midas Custom Feed",
+      },
+    },
     ...defaultBounds,
     ...getAddressesForChain(plasma.id),
   },
