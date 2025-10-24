@@ -10,7 +10,6 @@ on:
   schedule:
     # Runs every 1 hours
     - cron: "0 */1 * * *"
-  # Allows manual trigger from GitHub UI
   workflow_dispatch:
 
 jobs:
@@ -28,27 +27,19 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-          # Remove submodule from index and working tree
           git rm -f euler-interfaces || true
-
-          # Remove the submodule directory and .git/modules
           rm -rf euler-interfaces
           rm -rf .git/modules/euler-interfaces
 
-          # Remove the entry from .gitmodules and commit
           rm -f .gitmodules
           git commit -m "Remove old submodule" || true
 
-          # Create new .gitmodules file
           echo '[submodule "euler-interfaces"]' > .gitmodules
           echo '    path = euler-interfaces' >> .gitmodules
           echo '    url = https://github.com/euler-xyz/euler-interfaces' >> .gitmodules
           echo '    branch = master' >> .gitmodules
 
-          # Add and initialize the submodule
           git submodule add -f -b master https://github.com/euler-xyz/euler-interfaces
-
-          # Commit the changes if any
           git add .gitmodules euler-interfaces
           git diff --quiet && git diff --staged --quiet || (git commit -m "Reset euler-interfaces submodule" && git push)
 
@@ -78,12 +69,21 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-
-          # Stage only the data directory
           git add -f data/
-
-          # Only commit and push if there are changes
           if ! git diff --cached --quiet; then
             git commit -m "Update adapter check results"
             git push origin HEAD:master
           fi
+
+      # 🆕 NEW STEP: Sync /data folder to AWS S3
+      - name: Sync data to S3
+        if: success()  # only run if all previous steps passed
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          SOURCE_DIR: data
