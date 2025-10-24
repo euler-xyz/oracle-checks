@@ -26846,42 +26846,41 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000",
-    "name": "FLP.1/SOL-Streams-ExchangeRate-mainnet-production",
+    "name": "FLP.1/USD-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "FLP.1",
-      "SOL"
+      "USD"
     ],
-    "path": "flp-sol-streams-exchangerate-mainnet-production",
+    "path": "flp-usd-streams-exchangerate-mainnet-production",
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "FLP.1 / SOL Exchange Rate",
+    "assetName": "FLP.1 / USD Exchange Rate",
     "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "FLP.1 / SOL Exchange Rate",
+      "assetName": "FLP.1 / USD Exchange Rate",
       "attributeType": "ExchangeRate",
       "baseAsset": "FLP.1",
       "baseAssetClic": "FLP.1_CR",
-      "clicProductName": "FLP.1/SOL-Streams-ExchangeRate-DS-Premium-Global-007",
+      "clicProductName": "FLP.1/USD-Streams-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
       "feedCategory": "medium",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
       "productType": "Price",
       "productTypeCode": "ExRate",
-      "quoteAsset": "SOL",
-      "quoteAssetClic": "SOL_CR",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
       "serviceLevel": "Streams"
     },
     "decimals": 12,
     "feedId": "0x00077ef7de7d01c963a308e30168d14722c91b2280d5cc62c1a200f27ad95430",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -27064,7 +27063,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "medium",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
       "productType": "Price",
@@ -27076,7 +27074,7 @@
     "decimals": 18,
     "feedId": "0x0007abcdb7774aca7141c2340d2fe4ab0728ddb24dadc897b815ea3b18ef4502",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -27174,6 +27172,104 @@
     "feedId": "0x0007c129e624689953a2636c014531b2f0bd0c15f9a22211f53023354f309fa6",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "INF/USD-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "INF",
+      "USD"
+    ],
+    "path": "inf-usd-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "INF / USD Exchange Rate",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "INF / USD Exchange Rate",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "INF",
+      "baseAssetClic": "INF_CR",
+      "clicProductName": "INF/USD-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0007c16283be2710bbee4a95c3fda87f5047c57ea9b95a2828d92fea4a71f334",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -27430,42 +27526,41 @@
     "healthPrice": "",
     "history": null,
     "multiply": "100000000",
-    "name": "ALP/SOL-Streams-ExchangeRate-mainnet-production",
+    "name": "ALP/USD-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "ALP",
-      "SOL"
+      "USD"
     ],
-    "path": "alp-sol-streams-exchangerate-mainnet-production",
+    "path": "alp-usd-streams-exchangerate-mainnet-production",
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "ALP / SOL Exchange Rate",
+    "assetName": "ALP / USD Exchange Rate",
     "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "ALP / SOL Exchange Rate",
+      "assetName": "ALP / USD Exchange Rate",
       "attributeType": "ExchangeRate",
       "baseAsset": "ALP",
       "baseAssetClic": "ALP_CR",
-      "clicProductName": "ALP/SOL-Streams-ExchangeRate-DS-Premium-Global-007",
+      "clicProductName": "ALP/USD-Streams-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
       "feedCategory": "medium",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
       "productType": "Price",
       "productTypeCode": "ExRate",
-      "quoteAsset": "SOL",
-      "quoteAssetClic": "SOL_CR",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
       "serviceLevel": "Streams"
     },
     "decimals": 8,
     "feedId": "0x0007edaf3718e79a9450b95b1c770390274dc22675f0fc94678529f16fbf0824",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
