@@ -16,9 +16,15 @@ export function chronicleFeedOfficial({ adapter, chronicleFeeds }: Params): {
 } {
   const matchingChronicleFeed = chronicleFeeds.find((feed) => feed.address === adapter.feed);
   if (matchingChronicleFeed) {
-    const description = hexToString(matchingChronicleFeed.wat as `0x${string}`, {
-      size: 32,
-    });
+    const wat = matchingChronicleFeed.wat as unknown as string | undefined;
+    let description = "Unknown";
+    try {
+      if (typeof wat === "string" && wat.startsWith("0x")) {
+        description = hexToString(wat as `0x${string}`, { size: 32 }).replace(/\0+$/g, "");
+      }
+    } catch (_) {
+      // ignore decoding errors and keep description as "Unknown"
+    }
     return {
       result: passCheck(
         CHECKS.OFFICIAL_CHRONICLE_FEED,

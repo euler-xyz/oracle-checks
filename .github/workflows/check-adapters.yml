@@ -87,3 +87,13 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: data
+
+      # 🆕 Notify Slack if the workflow fails
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          msg="❌ Check Adapters workflow failed on ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          payload=$(jq -n --arg text "$msg" '{text: $text}')
+          curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
