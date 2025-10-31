@@ -522,11 +522,23 @@
     "proxyAddress": "0x5e7B8000f967ada54eDb8696d21cCFEB7eC36EC6",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "SwapX",
+    "feedCategory": "deprecating",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "baseAsset": "SWPX",
+      "baseAssetClic": "SWPX_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "SWPX/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "shutdownDate": "November 17th, 2025"
     },
     "decimals": 8
   },
