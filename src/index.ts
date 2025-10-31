@@ -43,6 +43,13 @@ async function runChecksForAllChains(): Promise<void> {
     }
 
     saveJSON(allResults, `${dirPath}/adapters/all.json`);
+
+    // Filter and save Pyth adapters to pyth/all.json
+    const pythAdapters = allResults.filter(
+      (result) => result.provider === "Pyth"
+    );
+    saveJSON(pythAdapters, `${dirPath}/pyth/all.json`);
+
     console.log(`Wrote results to ${dirPath}`);
   }
 }
