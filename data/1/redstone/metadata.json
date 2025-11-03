@@ -102,12 +102,6 @@
     "heartbeat": 86400
   },
   {
-    "symbol": "rswETH/ETH",
-    "priceFeedAddress": "0x3A236F67Fce401D87D7215695235e201966576E4",
-    "deviationPercentage": 1,
-    "heartbeat": 86400
-  },
-  {
     "symbol": "sfrxETH/ETH",
     "priceFeedAddress": "0xdd60c54115C19e0c6360AD4762B88BB8076D50a8",
     "deviationPercentage": 0.5,
@@ -373,7 +367,8 @@
   },
   {
     "symbol": "rswETH_FUNDAMENTAL",
-    "deviationPercentage": 0.5,
+    "priceFeedAddress": "0x3A236F67Fce401D87D7215695235e201966576E4",
+    "deviationPercentage": 1,
     "heartbeat": 86400
   },
   {

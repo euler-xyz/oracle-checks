@@ -20416,6 +20416,15 @@
     "whitelisted": false
   },
   {
+    "address": "0xDEAaB7057F1a4a248ca824A1912f0818f127C364"
+  },
+  {
+    "address": "0xed7f6DfE16c7b71bDCf97205935bfA716Ac8Ec54"
+  },
+  {
+    "address": "0xC808770Ce3A58F079529889386704DaC24f56475"
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
@@ -26623,8 +26632,8 @@
         "pass": true
       }
     ],
-    "label": "rswETH/ETH (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "rswETH_FUNDAMENTAL (1%, 86400s)",
+    "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
     "whitelisted": true
