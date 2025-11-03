@@ -6693,7 +6693,7 @@
       "asset_type": "Equity",
       "base": "GMBXF",
       "country": "US",
-      "description": "GRUPO MEXICO / US DOLLAR",
+      "description": "DEPRECATED FEED - GRUPO MEXICO / US DOLLAR",
       "display_symbol": "GMBXF/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -17556,7 +17556,7 @@
       "base": "SPY",
       "country": "US",
       "description": "SPY / US DOLLAR - OVERNIGHT HOURS",
-      "display_symbol": "SPY/USD POST OVERNIGHT",
+      "display_symbol": "SPY/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0901/C",
@@ -20681,6 +20681,20 @@
     }
   },
   {
+    "id": "0x1eb4f34fa6841c045fdb48db289fd300ce4d0a1c1e709e2594d650560852045a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DEFT",
+      "country": "US",
+      "description": "DEFI TECHNOLOGIES INC / US DOLLAR",
+      "display_symbol": "DEFT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.DEFT/USD"
+    }
+  },
+  {
     "id": "0x0a95b77e60cf7f6dbcb902225259741fe6a3aebe07221390e79fcb05bbfdabb8",
     "attributes": {
       "asset_type": "Equity",
@@ -21125,6 +21139,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.AGRI/USD"
+    }
+  },
+  {
+    "id": "0x1fc9127232d059b415f7b11989d06aa11a3563619e5b7a8e44ae440f0b95e4e1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MMT",
+      "description": "MOMENTUM / US DOLLAR",
+      "display_symbol": "MMT/USD",
+      "generic_symbol": "MMTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MMT/USD"
     }
   },
   {
@@ -31641,11 +31668,24 @@
     }
   },
   {
+    "id": "0x6abf75211b819e5933e96466760b0ae8c326c7057d8a681d229430347b0825f6",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SEDA",
+      "description": "SEDA / US DOLLAR",
+      "display_symbol": "SEDA/USD",
+      "generic_symbol": "SEDAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SEDA/USD"
+    }
+  },
+  {
     "id": "0x7e990daa483e54a9a2b25ed3312285c867a049b5b3c84d27fe8c2ad9e0d24c57",
     "attributes": {
       "asset_type": "Commodities",
       "base": "BRENTZ5",
-      "description": "PYTH BRENT 31 OCTOBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - PYTH BRENT 31 OCTOBER 2025 / US DOLLAR",
       "display_symbol": "BRENTZ5/USD",
       "generic_symbol": "BRENTZ5",
       "quote_currency": "USD",
@@ -36001,7 +36041,7 @@
       "asset_type": "Equity",
       "base": "GLCNF",
       "country": "US",
-      "description": "GLENCORE / US DOLLAR",
+      "description": "DEPRECATED FEED - GLENCORE / US DOLLAR",
       "display_symbol": "GLCNF/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
