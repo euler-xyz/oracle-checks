@@ -12131,6 +12131,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USOL/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "USOL",
+      "USD"
+    ],
+    "path": "usol-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unit Solana",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Unit Solana",
+      "attributeType": "CexPrice",
+      "baseAsset": "USOL",
+      "baseAssetClic": "USOL_CR",
+      "clicProductName": "USOL/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x00036b1a5b12e6cbf2c1dd1a6e0d3c96eb94d1a0980c456bacde0404116f2dea",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "PI/USD-RefPrice-mainnet-production",
     "pair": [
       "PI",
@@ -16125,6 +16223,104 @@
     "feedId": "0x00039cb85f87bb832fc699094f06ca0b9710856bf49cb241cfcf07e79a0ec9d1",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "UBTC/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "UBTC",
+      "USD"
+    ],
+    "path": "ubtc-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unit Bitcoin",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Unit Bitcoin",
+      "attributeType": "CexPrice",
+      "baseAsset": "UBTC",
+      "baseAssetClic": "UBTC_CR",
+      "clicProductName": "UBTC/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x00039f618e745f53270c9579127ccb647656daa4ff6b9469f9d256d4b61ddd7f",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -22325,6 +22521,104 @@
     "feedId": "0x0003e43f04392c627e3c0c5995ce21de5922eeaed126c4dceac99dc597fa96da",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "UETH/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "UETH",
+      "USD"
+    ],
+    "path": "ueth-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unit Ethereum",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Unit Ethereum",
+      "attributeType": "CexPrice",
+      "baseAsset": "UETH",
+      "baseAssetClic": "UETH_CR",
+      "clicProductName": "UETH/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0003e4d3d18206f35415362be8c5ba895859508c6908dd08474baff63eb28b06",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -56340,6 +56634,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x43C570dab5fE78bb255359Fa4E9d5cC1b7070062",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "aave-network-emergency-count-arbitrum",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "AAVE Network Emergency Count (Arbitrum)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-network-emergency-count-arbitrum",
+    "proxyAddress": "0x0d20576Fae18e89A28e75B63BFce5D1B8586d739",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "AAVE Network Emergency Count (Arbitrum)",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "blockchainName": "Arbitrum",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto"
+    },
+    "decimals": 0
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x44D3ab6c4b98A3F9f241E1753b2475ad7e502051",
     "contractType": "",
     "contractVersion": 4,
@@ -56951,6 +57277,49 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x506f87C9E3030715C67712bCc8E1Ca0d1748145C",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "glv-btcusdc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "GLV [BTC-USDC] / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "glv-btc-usdc-usd",
+    "proxyAddress": "0x88d7538A4cD2664FCd610FE2a39b9ac01E430d3e",
+    "threshold": 0.25,
+    "valuePrefix": "",
+    "assetName": "GLV [BTC-USDC]",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "GLV",
+      "baseAssetClic": "GLV_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "GLV-BTC-USDC/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "BTC-USDC",
+      "underlyingAssetClic": "BTC-USDC_CR"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
@@ -72275,6 +72644,47 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x5DDC9A020C34D00bE5fb042f797a89bEB0480dBE",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "syrupusdt-usd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SYRUPUSDT / USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "syrupusdt-usd-exchange-rate",
+    "proxyAddress": "0xdB0c64eFa0395063033b10769A80c62F885A620a",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "syrupUSDT-USD Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "syrupUSDT",
+      "baseAssetClic": "syrupUSDT_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "syrupUSDT/USD-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x5E4C65194F6F33a8BF7E9B95F1D0Ca9d611F6D62",
     "contractType": "",
     "contractVersion": 4,
@@ -74617,6 +75027,49 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x9d4E679Af57FaC9b64b1354EBff00DA293e2E3Cb",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "glv-wethusdc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "GLV [WETH-USDC] / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "glv-weth-usdc-usd",
+    "proxyAddress": "0xF9329B38084cbE893894F19a518Fc6Cd306D9930",
+    "threshold": 0.25,
+    "valuePrefix": "",
+    "assetName": "GLV [WETH-USDC]",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "GLV",
+      "baseAssetClic": "GLV_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "GLV-WETH-USDC/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "WETH-USDC",
+      "underlyingAssetClic": "WETH-USDC_CR"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",

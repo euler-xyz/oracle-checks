@@ -3458,6 +3458,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x7c37874298b38a1346080eE4aF33781EeBE8251B",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "aave-network-emergency-count-base",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "AAVE Network Emergency Count (Base)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-network-emergency-count-base",
+    "proxyAddress": "0xd9c5B59A913d75AC44EB51b7E0F3f5B58816ECAc",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "AAVE Network Emergency Count (Base)",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "blockchainName": "Base",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto"
+    },
+    "decimals": 0
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x801B6E7d186370EeE854F76481643c22c7d1da99",
     "contractType": "",
     "contractVersion": 4,
@@ -5634,6 +5666,44 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "shutdownDate": "November 12th, 2025"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xa1336EFDD45978B8aea9CAf66c73781F5C966e6B",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "gldy-reserves",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "GLDY Reserves",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "gldy-reserves",
+    "proxyAddress": "0xf488FA1B4Ac8210bf0b2d212176ca28c48F86708",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "Gold Yield Token",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Precious Metals",
+      "blockchainName": "Base",
+      "deliveryChannelCode": "DF",
+      "issuer": "Streamex",
+      "porSource": "Streamex",
+      "porType": "Off-chain",
+      "productSubType": "Off-chain",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR"
     },
     "decimals": 8
   },

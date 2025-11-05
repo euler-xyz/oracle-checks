@@ -206,6 +206,48 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x279Dbd934Bd20c0AF72CaA2cAF9005Ab70D8c7Ef",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "savbtc-avbtc-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "savBTC / avBTC Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "savbtc-avbtc-exchange-rate",
+    "proxyAddress": "0x8b65a2BA86D9aE89bFE4EA68e97B20e45ab05623",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "Avant Staked BTC",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "savBTC",
+      "baseAssetClic": "savBTC_CR",
+      "blockchainName": "Linea",
+      "clicProductName": "savBTC/avBTC-ExRate-DF-Linea-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "avBTC",
+      "quoteAssetClic": "avBTC_CR",
+      "underlyingAsset": "avBTC",
+      "underlyingAssetClic": "avBTC_CR"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2884F3d4fE39cD5c77b00900127a538Bc3Bb548B",
     "contractType": "",
     "contractVersion": 4,
@@ -683,6 +725,38 @@
       "productTypeCode": "NAV"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x6CA39855106dEc6beA3D37926a47C5886d96C32D",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "aave-network-emergency-count-linea",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "AAVE Network Emergency Count (Linea)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-network-emergency-count-linea",
+    "proxyAddress": "0x81F4d3052b034007cb5fA1D4CFb56D0732867f2a",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "AAVE Network Emergency Count (Linea)",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto"
+    },
+    "decimals": 0
   },
   {
     "compareOffchain": "",
@@ -1327,6 +1401,48 @@
       "quoteAssetClic": "ETH_CR",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xa872F1f102473205e202F5cd337487c1cc35B82d",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "savusd-avusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SAVUSD / AVUSD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "savusd-avusd-exchange-rate",
+    "proxyAddress": "0x0AAC940015d333b8E4f93fcE9c0f6f365d252741",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "Avant Staked USD",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "savUSD",
+      "baseAssetClic": "savUSD_CR",
+      "blockchainName": "Linea",
+      "clicProductName": "savUSD/avUSD-ExRate-DF-Linea-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "avUSD",
+      "quoteAssetClic": "avUSD_CR",
+      "underlyingAsset": "avUSD",
+      "underlyingAssetClic": "avUSD_CR"
     },
     "decimals": 18
   },
