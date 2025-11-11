@@ -1,3 +1,4 @@
+import { defineChain } from "viem";
 import {
   arbitrum,
   avalanche,
@@ -24,6 +25,30 @@ import { getAddressesForChain } from "./getAddressesForChain";
 import { getClient } from "./getClient";
 import { metadataHashes } from "./metadataHashes";
 import { CheckConfig } from "./types";
+
+const monad = defineChain({
+  id: 143,
+  name: "Monad",
+  nativeCurrency: {
+    decimals: 18,
+    name: "Monad",
+    symbol: "MON",
+  },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc2.euler.finance/143"],
+    },
+  },
+  blockExplorers: {
+    default: { name: "Monad Explorer", url: "https://mainnet-beta.monvision.io" },
+  },
+  contracts: {
+    multicall3: {
+      address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+      blockCreated: 1,
+    },
+  },
+});
 
 const defaultBounds = {
   minPushHeartbeatBuffer: 1800,
@@ -305,5 +330,13 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(linea.id),
+  },
+  [monad.id]: {
+    publicClient: getClient(monad),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(monad.id),
   },
 };

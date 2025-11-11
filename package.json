@@ -3,6 +3,7 @@
   "version": "0.1.6",
   "description": "Euler price oracle verification checks",
   "scripts": {
+    "prebuild": "npm install @objectivelabs/oracle-sdk@github:euler-xyz/oracle-sdk#main --force",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "clean": "rimraf dist",
     "lint": "eslint src --ext .ts --max-warnings 0",
