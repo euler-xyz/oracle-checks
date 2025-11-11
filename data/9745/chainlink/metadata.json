@@ -471,6 +471,48 @@
     "decimals": 8
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x3ff76748ab3ae6f04b990ed2Da82C84d49fA530C",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "dola-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "DOLA / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "dola-usd",
+    "proxyAddress": "0x020fa642774E3ef106e3e46d50526FF08c484161",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "DOLA",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DOLA",
+      "baseAssetClic": "DOLA_CR",
+      "blockchainName": "Plasma",
+      "clicProductName": "DOLA/USD-RefPrice-DF-Plasma-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x4a7e8A210Cc651642addDc34cb38452dE44AfCde",
