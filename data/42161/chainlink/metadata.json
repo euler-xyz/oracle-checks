@@ -40884,6 +40884,46 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x18230897e88bD26B47E4c8c472DB59849792c799",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "tac-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "TAC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "tac-usd",
+    "proxyAddress": "0x3815dd45CDe3BfAf1E3db6D7FF9EF3b437d6D0E0",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "TAC",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "TAC",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "TAC/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x1893d4951A6Bd8605B21fb4CD4B173e69d84688c",
     "contractType": "",
@@ -56983,6 +57023,46 @@
       "quoteAssetClic": "GHO_CR",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x42081A82Cbeab05b6FEeCF8beD1E200B23B48Ec2",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "0g-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "0G / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "0g-usd",
+    "proxyAddress": "0x47C38C695639aE97A00f57D6D9f5ece1DebB033C",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "0G",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "0G",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "0G/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -76674,6 +76754,47 @@
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 8
+  },
+  {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0xE837702F8D422f19A3FE9799FCADF8dab9c6EBEF",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "xpl-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XPL / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xpl-usd",
+    "proxyAddress": "0x1b47b4124b9A5094C59710E6b9126e5e32a4fb8E",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Plasma",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "XPL",
+      "baseAssetClic": "XPL_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "XPL/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
