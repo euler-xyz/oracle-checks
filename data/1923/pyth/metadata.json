@@ -10883,17 +10883,17 @@
     "id": "0xa41c677511649aaf529a1e5c30294849749e7b218c23bbcdaba602f9246e0c50",
     "attributes": {
       "asset_type": "Equity",
-      "base": "FORD",
-      "cms_symbol": "FORD",
+      "base": "FWDI",
+      "cms_symbol": "FWDI",
       "country": "US",
-      "cqs_symbol": "FORD",
+      "cqs_symbol": "FWDI",
       "description": "FORWARD INDSUTRIES INC / US DOLLAR",
-      "display_symbol": "FORD/USD",
-      "nasdaq_symbol": "FORD",
+      "display_symbol": "FWDI/USD",
+      "nasdaq_symbol": "FWDI",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
-      "symbol": "Equity.US.FORD/USD"
+      "symbol": "Equity.US.FWDI/USD"
     }
   },
   {
@@ -17433,13 +17433,14 @@
     "id": "0x84d8c84bfbe6f71af527493f9aaee09950ee3e09c8460b2b781ce65ea341c10a",
     "attributes": {
       "asset_type": "Crypto Index",
-      "base": "FORD",
+      "base": "FWDI",
+      "contract_id": "spl: 7GzQgf6DPo6ZANjnbhe9tNCpkGTv3zqHbsDx74jyQf9",
       "description": "SUPERSTATE FORWARD INDUSTRIES INC / US DOLLAR INDEX",
-      "display_symbol": "FORD/USD",
-      "generic_symbol": "FORDUSD",
+      "display_symbol": "FWDI/USD",
+      "generic_symbol": "FWDIUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.Index.FORD/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
+      "symbol": "Crypto.Index.FWDI/USD"
     }
   },
   {
@@ -26354,7 +26355,7 @@
       "display_symbol": "GLXY/USD",
       "generic_symbol": "GLXYUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Crypto.Index.GLXY/USD"
     }
   },
@@ -33900,14 +33901,14 @@
     "id": "0x648396a6bbb79029614d6ac90cc8fa5b38b169d6817ea742d646c544bb4e67be",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
-      "base": "FORD.SS",
+      "base": "FWDI.SS",
       "contract_id": "spl: 7GzQgf6DPo6ZANjnbhe9tNCpkGTv3zqHbsDx74jyQf9",
       "description": "SUPERSTATE FORWARD INDUSTRIES INC REDEMPTION RATE",
-      "display_symbol": "FORD.SS/FORD",
-      "generic_symbol": "FORD.SSFORD",
-      "quote_currency": "FORD",
+      "display_symbol": "FWDI.SS/FWDI",
+      "generic_symbol": "FWDI.SSFWDI",
+      "quote_currency": "FWDI",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FORD.SS/FORD.RR"
+      "symbol": "Crypto.FWDI.SS/FWDI.RR"
     }
   },
   {
