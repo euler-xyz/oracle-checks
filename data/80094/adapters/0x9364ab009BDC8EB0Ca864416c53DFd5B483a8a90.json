@@ -1,11 +1,10 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0x36398c15cCbE5Fa2874ffB07F12555f1e584b6FB",
-  "chainId": 60808,
-  "base": "0xecf21b335B41f9d5A89f6186A99c19a3c467871f",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x230057c84fACFC5358C500E5348E16D4D7Dc60f8",
-  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+  "name": "FixedRateOracle",
+  "address": "0x9364ab009BDC8EB0Ca864416c53DFd5B483a8a90",
+  "chainId": 80094,
+  "base": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+  "quote": "0x6969696969696969696969696969696969696969",
+  "rate": "1000000000000000000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +33,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xecf21b335B41f9d5A89f6186A99c19a3c467871f is satUSD (Satoshi Stablecoin V2) with 18 decimals.",
+      "message": "Asset 0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe is LBGT (Liquid BGT) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
-  "methodology": "Unknown",
+  "label": "1:1 LBGT/WBERA",
+  "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "Fixed Rate",
   "whitelisted": false
 }

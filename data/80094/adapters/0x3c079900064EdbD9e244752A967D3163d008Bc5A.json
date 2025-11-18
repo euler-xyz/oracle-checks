@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0x421B5623A02dE8B2E7A5F83279F12EB1fC81D19d",
-  "chainId": 60808,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "name": "CrossAdapter",
+  "address": "0x3c079900064EdbD9e244752A967D3163d008Bc5A",
+  "chainId": 80094,
+  "base": "0x69f1E971257419B1E9C405A553f252c64A29A30a",
+  "cross": "0x6969696969696969696969696969696969696969",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x8a6E27666CEA273958D1D39594f185F5411A2Fe4",
-  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+  "oracleBaseCross": "0xdfFa05BdD5E6CE71F4b9A136AE4dCfa132ca9B89",
+  "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,7 +35,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x69f1E971257419B1E9C405A553f252c64A29A30a is oriBGT (Origami iBGT Auto-Compounder) with 18 decimals.",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "oriBGT/WBERA/USD",
   "methodology": "Unknown",
-  "model": "Push",
-  "provider": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
   "whitelisted": false
 }
