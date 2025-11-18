@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x0B5F7f1d94d5f11aF40778d3F44d9Ab5cEC13D10",
+  "chainId": 59144,
+  "base": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+  "cross": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xBb91e02922ab31F17554BEFA65a581CE0EDE32eD",
+  "oracleCrossQuote": "0x4c35d57C745e30EfC57472659f52974913C569bf",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x2416092f143378750bb29b79eD961ab195CcEea5 is ezETH (Renzo Restaked ETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "ezETH/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xCA5B7044BE73671FD6707C2312cEC7C07556B85f",
+  "chainId": 1,
+  "base": "0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x15AfbE7Bd7F3C721D3231F377AD7f6C9a27688F2",
+  "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C is PT-pUSDe-16OCT2025 (PT Strata Pre-deposit Receipt Token 16OCT2025) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-pUSDe-16OCT2025/USDe/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
