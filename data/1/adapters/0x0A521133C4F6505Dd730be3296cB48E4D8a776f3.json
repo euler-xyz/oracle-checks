@@ -16,8 +16,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -50,9 +50,9 @@
       "pass": true
     }
   ],
-  "label": "hgETH",
+  "label": "Unknown pool",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle",
-  "whitelisted": true
+  "whitelisted": false
 }
