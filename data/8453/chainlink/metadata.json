@@ -86,6 +86,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x01c72AE058b71E8505CC5504Ad23238f2dCd1fc5",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "susdai-usdai-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SUSDAI / USDAI Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susdai-usdai-exchange-rate",
+    "proxyAddress": "0x1a42ec779Ed3e5249d9b83Ad6B51492953080Ad9",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x038fa58bd4DA1c938D2783941e657164D497C4B6",
     "contractType": "",
     "contractVersion": 4,
@@ -5554,6 +5581,36 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0xF498887CbB2AD354D187764680ED735f967b01fB",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "usdai-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDAI / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdai-usd",
+    "proxyAddress": "0xFCb2C36ac8A91cE9D3c94590ED239E1f683467fe",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
     },
     "decimals": 8
   },
