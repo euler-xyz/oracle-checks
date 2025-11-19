@@ -25995,7 +25995,7 @@
       "display_symbol": "WTIZ5/USD",
       "generic_symbol": "WTIZ5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1126/0000-1700&1800-2400,1127/0000-1430&1800-2400,1128/0000-1445",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1120/0000-1700,1121/C,1122/C",
       "symbol": "Commodities.WTIZ5/USD"
     }
   },
@@ -30551,6 +30551,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.RTX/USD"
+    }
+  },
+  {
+    "id": "0xda57db027e01bfad54b12833638a100923e5b637c012ab746d8a32f06c9b325c",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "US20Y",
+      "description": "UNITED STATES 20 YEAR GOVERNMENT BONDS YIELD",
+      "display_symbol": "US20Y %",
+      "generic_symbol": "US20Y",
+      "quote_currency": "%",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
+      "symbol": "Rates.US20Y"
     }
   },
   {
