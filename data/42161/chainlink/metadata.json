@@ -42913,8 +42913,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "AAPL",
       "baseAssetClic": "AAPL_EQ",
+      "baseAssetEntityId": "equity-AAPL",
       "blockchainName": "Arbitrum",
       "clicProductName": "AAPL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -42923,12 +42925,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x02F6bc122595651127Ffb89B1cD5bb4FfD942182",
     "contractType": "",
@@ -42954,8 +42956,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AB",
       "baseAssetClic": "AB_CR",
+      "baseAssetEntityId": "crypto-AB",
       "blockchainName": "Arbitrum",
       "clicProductName": "AB/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -42965,6 +42969,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -42997,8 +43002,10 @@
     "docs": {
       "assetClass": "ETF",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "SPY",
       "baseAssetClic": "SPY_EQ",
+      "baseAssetEntityId": "equity-SPY",
       "blockchainName": "Arbitrum",
       "clicProductName": "SPY/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43007,7 +43014,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43037,7 +43045,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "OP",
+      "baseAssetEntityId": "crypto-OP",
       "blockchainName": "Arbitrum",
       "clicProductName": "OP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43046,7 +43056,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43077,8 +43088,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "NVDA",
       "baseAssetClic": "NVDA_EQ",
+      "baseAssetEntityId": "equity-NVDA",
       "blockchainName": "Arbitrum",
       "clicProductName": "NVDA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43086,7 +43099,8 @@
       "productSubType": "Reference",
       "productType": "Price",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43117,17 +43131,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
+      "baseAssetEntityId": "commodity-XAG",
       "blockchainName": "Arbitrum",
       "clicProductName": "XAG/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43158,8 +43175,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "rETH",
       "baseAssetClic": "rETH_CR",
+      "baseAssetEntityId": "crypto-rETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "rETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43201,8 +43220,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "MIM",
       "baseAssetClic": "MIM_CR",
+      "baseAssetEntityId": "crypto-MIM",
       "blockchainName": "Arbitrum",
       "clicProductName": "MIM/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43213,6 +43234,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -43244,8 +43266,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "HYPE",
       "baseAssetClic": "HYPE_CR",
+      "baseAssetEntityId": "crypto-HYPE",
       "blockchainName": "Arbitrum",
       "clicProductName": "HYPE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43254,7 +43278,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43285,8 +43310,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstUSR",
       "baseAssetClic": "wstUSR_CR",
+      "baseAssetEntityId": "crypto-wstUSR",
       "blockchainName": "Arbitrum",
       "clicProductName": "wstUSR/stUSR-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43327,7 +43354,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Tokenized Fund",
+      "attributeType": "smartdata_por",
       "baseAsset": "AoABT",
+      "baseAssetEntityId": "tokenized fund-AoABT",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Asseto",
@@ -43363,12 +43392,14 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "glv",
+      "baseAssetEntityId": "crypto-GLV",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x0cA784A2A7Fa84f69021aacbf481bA899e79E732",
     "contractType": "",
@@ -43394,8 +43425,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WLFI",
       "baseAssetClic": "WLFI_CR",
+      "baseAssetEntityId": "crypto-WLFI",
       "blockchainName": "Arbitrum",
       "clicProductName": "WLFI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43404,7 +43437,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43434,8 +43468,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "HSK",
       "baseAssetClic": "HSK_CR",
+      "baseAssetEntityId": "crypto-HSK",
       "blockchainName": "Arbitrum",
       "clicProductName": "HSK/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43444,7 +43480,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43475,8 +43512,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "WSTETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43486,6 +43525,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "STETH",
       "underlyingAssetClic": "STETH_CR"
     },
@@ -43518,8 +43558,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "INSTETH",
       "baseAssetClic": "INSTETH_CR",
+      "baseAssetEntityId": "crypto-INSTETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "INSTETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43561,8 +43603,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "TSLA",
       "baseAssetClic": "TSLA_EQ",
+      "baseAssetEntityId": "equity-TSLA",
       "blockchainName": "Arbitrum",
       "clicProductName": "TSLA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43571,7 +43615,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43602,8 +43647,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDS",
       "baseAssetClic": "USDS_CR",
+      "baseAssetEntityId": "crypto-USDS",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43613,13 +43660,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x15cDF4FdbC7BD5207B8ba0960731e013e49c5bA9",
     "contractType": "",
@@ -43646,8 +43693,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USD1",
       "baseAssetClic": "USD1_CR",
+      "baseAssetEntityId": "crypto-USD1",
       "blockchainName": "Arbitrum",
       "clicProductName": "USD1/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43657,13 +43706,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x16C9299D2089Ba2e0FA7cdC082710Ad31A83B8c3",
     "contractType": "",
@@ -43690,8 +43739,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDG",
       "baseAssetClic": "USDG_CR",
+      "baseAssetEntityId": "crypto-USDG",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDG/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43701,13 +43752,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x17298e460F18f1380fe5Ed68985A566949B91d20",
     "contractType": "",
@@ -43733,8 +43784,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOLO",
       "baseAssetClic": "DOLO_CR",
+      "baseAssetEntityId": "crypto-DOLO",
       "blockchainName": "Arbitrum",
       "clicProductName": "DOLO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43743,12 +43796,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x18230897e88bD26B47E4c8c472DB59849792c799",
     "contractType": "",
@@ -43774,7 +43827,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TAC",
+      "baseAssetEntityId": "crypto-TAC",
       "blockchainName": "Arbitrum",
       "clicProductName": "TAC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43783,7 +43838,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43814,8 +43870,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "GOOGL",
       "baseAssetClic": "GOOGL_EQ",
+      "baseAssetEntityId": "equity-GOOGL",
       "blockchainName": "Arbitrum",
       "clicProductName": "GOOGL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43824,7 +43882,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43855,8 +43914,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "RETH",
       "baseAssetClic": "RETH_CR",
+      "baseAssetEntityId": "crypto-RETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "RETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43866,6 +43927,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -43898,8 +43960,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "WBTC/BTC-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43909,6 +43973,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -43940,8 +44005,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "STX",
       "baseAssetClic": "STX_CR",
+      "baseAssetEntityId": "crypto-STX",
       "blockchainName": "Arbitrum",
       "clicProductName": "STX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -43950,7 +44017,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -43981,8 +44049,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wOETH",
       "baseAssetClic": "wOETH_CR",
+      "baseAssetEntityId": "crypto-wOETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "wOETH/OETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44023,8 +44093,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XRP",
       "baseAssetClic": "XRP_CR",
+      "baseAssetEntityId": "crypto-XRP",
       "blockchainName": "Arbitrum",
       "clicProductName": "XRP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44033,7 +44105,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44063,22 +44136,24 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CNY",
       "baseAssetClic": "CNY_FX",
+      "baseAssetEntityId": "forex-CNY",
       "blockchainName": "Arbitrum",
       "clicProductName": "CNY/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Forex_CNY",
+      "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x1f4aBf0cDe2959FA199a16FC6E4c6BC15888E5FF",
     "contractType": "",
@@ -44104,8 +44179,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "KAIA",
       "baseAssetClic": "KAIA_CR",
+      "baseAssetEntityId": "crypto-KAIA",
       "blockchainName": "Arbitrum",
       "clicProductName": "KAIA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44114,7 +44191,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44144,8 +44222,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "KNC",
       "baseAssetClic": "KNC_CR",
+      "baseAssetEntityId": "crypto-KNC",
       "blockchainName": "Arbitrum",
       "clicProductName": "KNC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44154,7 +44234,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44185,8 +44266,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "LUSD",
       "baseAssetClic": "LUSD_CR",
+      "baseAssetEntityId": "crypto-LUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "LUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44196,6 +44279,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -44227,8 +44311,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "KRW",
       "baseAssetClic": "KRW_FX",
+      "baseAssetEntityId": "forex-KRW",
       "blockchainName": "Arbitrum",
       "clicProductName": "KRW/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44237,12 +44323,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x2829F6CC137Cf3552325f69b9FD215aCaCFd104c",
     "contractType": "",
@@ -44268,7 +44354,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUI",
+      "baseAssetEntityId": "crypto-SUI",
       "blockchainName": "Arbitrum",
       "clicProductName": "SUI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44277,7 +44365,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44308,8 +44397,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44319,6 +44410,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -44349,6 +44441,8 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
+      "attributeType": "smartdata_por",
+      "baseAssetEntityId": "nan-ABTC",
       "hidden": true
     },
     "decimals": 10
@@ -44379,8 +44473,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "APE",
       "baseAssetClic": "APE_CR",
+      "baseAssetEntityId": "crypto-APE",
       "blockchainName": "Arbitrum",
       "clicProductName": "APE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44389,7 +44485,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44419,8 +44516,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "Arbitrum",
       "clicProductName": "DOT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44429,7 +44528,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44460,8 +44560,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "SWETH",
       "baseAssetClic": "SWETH_CR",
+      "baseAssetEntityId": "crypto-SWETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "SWETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44503,8 +44605,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "DEUSD",
       "baseAssetClic": "DEUSD_CR",
+      "baseAssetEntityId": "crypto-DEUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "DEUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44514,6 +44618,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -44546,8 +44651,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "PAXG",
       "baseAssetClic": "PAXG_CR",
+      "baseAssetEntityId": "crypto-PAXG",
       "blockchainName": "Arbitrum",
       "clicProductName": "PAXG/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44557,6 +44664,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "XAU",
       "underlyingAssetClic": "XAU_CO"
     },
@@ -44588,8 +44696,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LTC",
       "baseAssetClic": "LTC_CR",
+      "baseAssetEntityId": "crypto-LTC",
       "blockchainName": "Matic",
       "clicProductName": "LTC/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
@@ -44598,12 +44708,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x30AdB11d64Ba2b98e19FdAE60B5e8469082EdA41",
     "contractType": "",
@@ -44629,8 +44739,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TON",
       "baseAssetClic": "TON_CR",
+      "baseAssetEntityId": "crypto-TON",
       "blockchainName": "Arbitrum",
       "clicProductName": "TON/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44639,7 +44751,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44669,8 +44782,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "ANON",
       "baseAssetClic": "ANON_CR",
+      "baseAssetEntityId": "crypto-ANON",
       "blockchainName": "Arbitrum",
       "clicProductName": "ANON/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44680,6 +44795,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "November 12th, 2025"
     },
     "decimals": 8
@@ -44711,8 +44827,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "EZETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44722,6 +44840,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -44756,6 +44875,7 @@
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
       "baseAsset": "RYT",
+      "baseAssetEntityId": "crypto-RYT",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "AlloyX",
@@ -44801,7 +44921,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "FBTC",
+      "baseAssetEntityId": "crypto-FBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Ignition",
@@ -44846,8 +44968,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "XUSD",
       "baseAssetClic": "XUSD_CR",
+      "baseAssetEntityId": "crypto-XUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "XUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44857,6 +44981,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -44889,8 +45014,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "stBTC",
       "baseAssetClic": "stBTC_CR",
+      "baseAssetEntityId": "crypto-stBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "stBTC/BTC-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44929,8 +45056,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "ETH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44939,7 +45068,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44969,8 +45099,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Arbitrum",
       "clicProductName": "SUSDE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -44980,6 +45112,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -45011,7 +45144,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SNX",
+      "baseAssetEntityId": "crypto-SNX",
       "blockchainName": "Arbitrum",
       "clicProductName": "SNX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45020,7 +45155,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -45051,7 +45187,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "SWETH",
+      "baseAssetEntityId": "crypto-SWETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "SWETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45062,6 +45200,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -45094,8 +45233,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
+      "baseAssetEntityId": "crypto-LBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "LBTC/BTC-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45104,7 +45245,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -45135,8 +45277,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yUSD",
       "baseAssetClic": "yUSD_CR",
+      "baseAssetEntityId": "crypto-yUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "yUSD/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45176,8 +45320,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "vyUSD",
       "baseAssetClic": "vyUSD_CR",
+      "baseAssetEntityId": "crypto-vyUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "vyUSD/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45217,8 +45363,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wrsETH",
       "baseAssetClic": "wrsETH_CR",
+      "baseAssetEntityId": "crypto-wrsETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "wrsETH/rsETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45259,8 +45407,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AAVE",
       "baseAssetClic": "AAVE_CR",
+      "baseAssetEntityId": "crypto-AAVE",
       "blockchainName": "Arbitrum",
       "clicProductName": "AAVE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45269,7 +45419,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -45299,8 +45450,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "BTC/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -45309,7 +45462,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -59839,8 +59993,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CVX",
       "baseAssetClic": "CVX_CR",
+      "baseAssetEntityId": "crypto-CVX",
       "blockchainName": "Arbitrum",
       "clicProductName": "CVX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -59849,7 +60005,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -59880,6 +60037,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real Final Sales to Private Domestic Purchasers — Level",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -59915,8 +60074,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "GHO",
       "baseAssetClic": "GHO_CR",
+      "baseAssetEntityId": "crypto-GHO",
       "blockchainName": "Arbitrum",
       "clicProductName": "GHO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -59926,13 +60087,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "GHO",
       "quoteAssetClic": "GHO_CR",
+      "quoteAssetEntityId": "crypto-GHO",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x42081A82Cbeab05b6FEeCF8beD1E200B23B48Ec2",
     "contractType": "",
@@ -59958,7 +60119,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "0G",
+      "baseAssetEntityId": "crypto-0G",
       "blockchainName": "Arbitrum",
       "clicProductName": "0G/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -59967,7 +60130,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -59997,8 +60161,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX",
+      "baseAssetEntityId": "forex-AUD",
       "blockchainName": "Arbitrum",
       "clicProductName": "AUD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60007,7 +60173,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60037,6 +60204,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -60069,7 +60237,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "RPL",
+      "baseAssetEntityId": "crypto-RPL",
       "blockchainName": "Arbitrum",
       "clicProductName": "RPL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60078,7 +60248,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60109,8 +60280,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "ANKRETH",
       "baseAssetClic": "ANKRETH_CR",
+      "baseAssetEntityId": "crypto-ANKRETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "ANKRETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60151,8 +60324,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Arbitrum",
       "clicProductName": "SUSDE/USDE-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60193,7 +60368,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ARB",
+      "baseAssetEntityId": "crypto-ARB",
       "blockchainName": "Arbitrum",
       "clicProductName": "ARB/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60202,7 +60379,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60232,8 +60410,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ORDER",
       "baseAssetClic": "ORDER_CR",
+      "baseAssetEntityId": "crypto-ORDER",
       "blockchainName": "Arbitrum",
       "clicProductName": "ORDER/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60242,7 +60422,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60273,8 +60454,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "agETH",
       "baseAssetClic": "agETH_CR",
+      "baseAssetEntityId": "crypto-agETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "agETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60316,8 +60499,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstUSR",
       "baseAssetClic": "wstUSR_CR",
+      "baseAssetEntityId": "crypto-wstUSR",
       "blockchainName": "Arbitrum",
       "clicProductName": "wstUSR/stUSR-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60358,7 +60543,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CAKE",
+      "baseAssetEntityId": "crypto-CAKE",
       "blockchainName": "Arbitrum",
       "clicProductName": "CAKE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60367,7 +60554,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60398,8 +60586,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "RSWETH",
       "baseAssetClic": "RSWETH_CR",
+      "baseAssetEntityId": "crypto-RSWETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "RSWETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60441,8 +60631,10 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Future",
+      "attributeType": "rwa_price",
       "baseAsset": "WTI",
       "baseAssetClic": "WTI_CO",
+      "baseAssetEntityId": "commodity-WTI",
       "blockchainName": "Arbitrum",
       "clicProductName": "WTI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60451,7 +60643,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60482,8 +60675,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yETH",
       "baseAssetClic": "yETH_CR",
+      "baseAssetEntityId": "crypto-yETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "yETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60524,8 +60719,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XTZ",
       "baseAssetClic": "XTZ_CR",
+      "baseAssetEntityId": "crypto-XTZ",
       "blockchainName": "Arbitrum",
       "clicProductName": "XTZ/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60534,7 +60731,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60564,7 +60762,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "gm",
       "baseAsset": "gmARB",
+      "baseAssetEntityId": "crypto-gmARB",
       "blockchainName": "Arbitrum",
       "clicProductName": "gmARB/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60573,7 +60773,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60603,8 +60804,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "STG",
       "baseAssetClic": "STG_CR",
+      "baseAssetEntityId": "crypto-STG",
       "blockchainName": "Arbitrum",
       "clicProductName": "STG/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60613,7 +60816,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60643,8 +60847,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "PENDLE",
       "baseAssetClic": "PENDLE_CR",
+      "baseAssetEntityId": "crypto-PENDLE",
       "blockchainName": "Arbitrum",
       "clicProductName": "PENDLE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60653,7 +60859,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60683,8 +60890,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "glv",
       "baseAsset": "GLV",
       "baseAssetClic": "GLV_CR",
+      "baseAssetEntityId": "crypto-GLV",
       "blockchainName": "Arbitrum",
       "clicProductName": "GLV-BTC-USDC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60695,6 +60904,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC-USDC",
       "underlyingAssetClic": "BTC-USDC_CR"
     },
@@ -60726,8 +60936,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GNS",
       "baseAssetClic": "GNS_CR",
+      "baseAssetEntityId": "crypto-GNS",
       "blockchainName": "Arbitrum",
       "clicProductName": "GNS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60736,7 +60948,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60765,6 +60978,7 @@
     "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
+      "baseAssetEntityId": "crypto-IBBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "hidden": true,
@@ -60774,7 +60988,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x5265846205081Df808b2111ebCE5899811b62Fc5",
     "contractType": "",
@@ -60801,8 +61014,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDAI",
       "baseAssetClic": "USDAI_CR",
+      "baseAssetEntityId": "crypto-USDAI",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDAI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60812,6 +61027,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -60843,8 +61059,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CAD",
       "baseAssetClic": "CAD_FX",
+      "baseAssetEntityId": "forex-CAD",
       "blockchainName": "Arbitrum",
       "clicProductName": "CAD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60853,7 +61071,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60883,8 +61102,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "COMP",
       "baseAssetClic": "COMP_CR",
+      "baseAssetEntityId": "crypto-COMP",
       "blockchainName": "Arbitrum",
       "clicProductName": "COMP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60893,7 +61114,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -60923,8 +61145,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BAL",
       "baseAssetClic": "BAL_CR",
+      "baseAssetEntityId": "crypto-BAL",
       "blockchainName": "Arbitrum",
       "clicProductName": "BAL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -60933,7 +61157,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -75759,7 +75984,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Money Market Fund",
+      "attributeType": "smartdata_nav",
       "baseAsset": "RYT",
+      "baseAssetEntityId": "money market fund-RYT",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "AlloyX",
@@ -75796,8 +76023,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "MKR",
       "baseAssetClic": "MKR_CR",
+      "baseAssetEntityId": "crypto-MKR",
       "blockchainName": "Arbitrum",
       "clicProductName": "MKR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -75806,7 +76035,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -75837,8 +76067,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate_high",
       "baseAsset": "frxETH",
       "baseAssetClic": "frxETH_CR",
+      "baseAssetEntityId": "crypto-frxETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "frxETH/ETH-ExRate_High-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -75880,8 +76112,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "AMZN",
       "baseAssetClic": "AMZN_EQ",
+      "baseAssetEntityId": "equity-AMZN",
       "blockchainName": "Arbitrum",
       "clicProductName": "AMZN/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -75890,7 +76124,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -75920,8 +76155,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "RSR",
       "baseAssetClic": "RSR_CR",
+      "baseAssetEntityId": "crypto-RSR",
       "blockchainName": "Arbitrum",
       "clicProductName": "RSR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -75930,7 +76167,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -75960,8 +76198,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MELANIA",
       "baseAssetClic": "MELANIA_CR",
+      "baseAssetEntityId": "crypto-MELANIA",
       "blockchainName": "Arbitrum",
       "clicProductName": "MELANIA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -75970,7 +76210,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76001,8 +76242,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "FRAX",
       "baseAssetClic": "FRAX_CR",
+      "baseAssetEntityId": "crypto-FRAX",
       "blockchainName": "Arbitrum",
       "clicProductName": "FRAX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76012,6 +76255,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -76044,8 +76288,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "syrupUSDT",
       "baseAssetClic": "syrupUSDT_CR",
+      "baseAssetEntityId": "crypto-syrupUSDT",
       "blockchainName": "Arbitrum",
       "clicProductName": "syrupUSDT/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76084,8 +76330,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "PHP",
       "baseAssetClic": "PHP_FX",
+      "baseAssetEntityId": "forex-PHP",
       "blockchainName": "Arbitrum",
       "clicProductName": "PHP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76094,7 +76342,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76125,8 +76374,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "MSFT",
       "baseAssetClic": "MSFT_EQ",
+      "baseAssetEntityId": "equity-MSFT",
       "blockchainName": "Arbitrum",
       "clicProductName": "MSFT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76135,7 +76386,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76166,7 +76418,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "iBTC",
+      "baseAssetEntityId": "crypto-iBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "iBTC",
@@ -76206,8 +76460,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MAGIC",
       "baseAssetClic": "MAGIC_CR",
+      "baseAssetEntityId": "crypto-MAGIC",
       "blockchainName": "Arbitrum",
       "clicProductName": "MAGIC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76216,7 +76472,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76247,8 +76504,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Arbitrum",
       "clicProductName": "USR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76258,6 +76517,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -76289,8 +76549,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "BRL",
       "baseAssetClic": "BRL_FX",
+      "baseAssetEntityId": "forex-BRL",
       "blockchainName": "Arbitrum",
       "clicProductName": "BRL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76299,7 +76561,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76330,8 +76593,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "sfrxETH",
       "baseAssetClic": "sfrxETH_CR",
+      "baseAssetEntityId": "crypto-sfrxETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "sfrxETH/frxETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76373,8 +76638,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "COIN",
       "baseAssetClic": "COIN_EQ",
+      "baseAssetEntityId": "equity-COIN",
       "blockchainName": "Arbitrum",
       "clicProductName": "COIN/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76382,7 +76649,8 @@
       "productSubType": "Reference",
       "productType": "Price",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76412,8 +76680,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SHIB",
       "baseAssetClic": "SHIB_CR",
+      "baseAssetEntityId": "crypto-SHIB",
       "blockchainName": "Arbitrum",
       "clicProductName": "SHIB/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76422,7 +76692,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -76452,8 +76723,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "YFI",
       "baseAssetClic": "YFI_CR",
+      "baseAssetEntityId": "crypto-YFI",
       "blockchainName": "Arbitrum",
       "clicProductName": "YFI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76462,7 +76735,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76493,8 +76767,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "FBTC",
       "baseAssetClic": "FBTC_CR",
+      "baseAssetEntityId": "crypto-FBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "FBTC/BTC-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76533,8 +76809,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GRASS",
       "baseAssetClic": "GRASS_CR",
+      "baseAssetEntityId": "crypto-GRASS",
       "blockchainName": "Arbitrum",
       "clicProductName": "GRASS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76543,7 +76821,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76573,7 +76852,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "PEPE",
+      "baseAssetEntityId": "crypto-PEPE",
       "blockchainName": "Arbitrum",
       "clicProductName": "PEPE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76582,7 +76863,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -76613,8 +76895,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yBTC",
       "baseAssetClic": "yBTC_CR",
+      "baseAssetEntityId": "crypto-yBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "yBTC/BTC-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76655,8 +76939,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AXL",
       "baseAssetClic": "AXL_CR",
+      "baseAssetEntityId": "crypto-AXL",
       "blockchainName": "Arbitrum",
       "clicProductName": "AXL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76665,7 +76951,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76695,8 +76982,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "IOTX",
       "baseAssetClic": "IOTX_CR",
+      "baseAssetEntityId": "crypto-IOTX",
       "blockchainName": "Arbitrum",
       "clicProductName": "IOTX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76706,6 +76995,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "December 1st, 2025"
     },
     "decimals": 8
@@ -76736,8 +77026,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "calculated",
       "baseAsset": "MVI",
       "baseAssetClic": "BEAM_CR",
+      "baseAssetEntityId": "crypto-MVI",
       "blockchainName": "Arbitrum",
       "clicProductName": "MVI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76747,6 +77039,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "November 12th, 2025"
     },
     "decimals": 8
@@ -76777,7 +77070,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WIF",
+      "baseAssetEntityId": "crypto-WIF",
       "blockchainName": "Arbitrum",
       "clicProductName": "WIF/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76786,7 +77081,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -76817,8 +77113,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "ynETH",
       "baseAssetClic": "ynETH_CR",
+      "baseAssetEntityId": "crypto-ynETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "ynETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76860,8 +77158,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "solvBTC",
       "baseAssetClic": "solvBTC_CR",
+      "baseAssetEntityId": "crypto-solvBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "solvBTC/BTC-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76870,7 +77170,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -76901,8 +77202,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "rETH",
       "baseAssetClic": "rETH_CR",
+      "baseAssetEntityId": "crypto-rETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "rETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76945,7 +77248,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "stBTC",
+      "baseAssetEntityId": "crypto-stBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Lorenzo",
@@ -76989,8 +77294,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GRT",
       "baseAssetClic": "GRT_CR",
+      "baseAssetEntityId": "crypto-GRT",
       "blockchainName": "Arbitrum",
       "clicProductName": "GRT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -76999,7 +77306,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77030,6 +77338,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -77064,8 +77374,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ATOM",
       "baseAssetClic": "ATOM_CR",
+      "baseAssetEntityId": "crypto-ATOM",
       "blockchainName": "Arbitrum",
       "clicProductName": "ATOM/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77074,12 +77386,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x78ac19A7c3c266dF5292F0d0a12Fa0FB2F74222a",
     "contractType": "",
@@ -77106,8 +77418,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ATH",
       "baseAssetClic": "ATH_CR",
+      "baseAssetEntityId": "crypto-ATH",
       "blockchainName": "Arbitrum",
       "clicProductName": "ATH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77116,7 +77430,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77146,8 +77461,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX",
+      "baseAssetEntityId": "forex-GBP",
       "blockchainName": "Arbitrum",
       "clicProductName": "GBP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77156,7 +77473,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77187,8 +77505,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "EGETH",
       "baseAssetClic": "EGETH_CR",
+      "baseAssetEntityId": "crypto-EGETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "EGETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77229,8 +77549,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRV",
       "baseAssetClic": "CRV_CR",
+      "baseAssetEntityId": "crypto-CRV",
       "blockchainName": "Arbitrum",
       "clicProductName": "CRV/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77239,7 +77561,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77269,8 +77592,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
+      "baseAssetEntityId": "forex-EUR",
       "blockchainName": "Arbitrum",
       "clicProductName": "EUR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77279,7 +77604,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77309,8 +77635,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SHIB",
       "baseAssetClic": "SHIB_CR",
+      "baseAssetEntityId": "crypto-SHIB",
       "blockchainName": "Arbitrum",
       "clicProductName": "SHIB/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77319,7 +77647,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -77349,6 +77678,7 @@
     "feedType": "Currency",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "total_marketcap",
       "baseAsset": "Total_Marketcap",
       "blockchainName": "Arbitrum",
       "clicProductName": "Total_Marketcap/USD-MCap-DF-Arbitrum-001",
@@ -77358,7 +77688,8 @@
       "productType": "Price",
       "productTypeCode": "MCap",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77388,8 +77719,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TIA",
       "baseAssetClic": "TIA_CR",
+      "baseAssetEntityId": "crypto-TIA",
       "blockchainName": "Arbitrum",
       "clicProductName": "TIA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77398,7 +77731,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77429,8 +77763,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "cbETH",
       "baseAssetClic": "cbETH_CR",
+      "baseAssetEntityId": "crypto-cbETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "cbETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77471,8 +77807,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "SGD",
       "baseAssetClic": "SGD_FX",
+      "baseAssetEntityId": "forex-SGD",
       "blockchainName": "Arbitrum",
       "clicProductName": "SGD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77481,7 +77819,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77512,8 +77851,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "syrupUSDC",
       "baseAssetClic": "syrupUSDC_CR",
+      "baseAssetEntityId": "crypto-syrupUSDC",
       "blockchainName": "Arbitrum",
       "clicProductName": "syrupUSDC/USDC-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77554,7 +77895,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "gm",
       "baseAsset": "gmBTC",
+      "baseAssetEntityId": "crypto-gmBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "gmBTC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77563,7 +77906,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77593,8 +77937,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WOO",
       "baseAssetClic": "WOO_CR",
+      "baseAssetEntityId": "crypto-WOO",
       "blockchainName": "Arbitrum",
       "clicProductName": "WOO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77603,7 +77949,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77633,8 +77980,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "marketcap",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "BTC/USD-MCap-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77644,6 +77993,7 @@
       "productTypeCode": "MCap",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "December 1st, 2025"
     },
     "decimals": 8
@@ -77675,8 +78025,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "FRXUSD",
       "baseAssetClic": "FRXUSD_CR",
+      "baseAssetEntityId": "crypto-FRXUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "FRXUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77686,6 +78038,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -77717,8 +78070,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "TRY",
       "baseAssetClic": "TRY_FX",
+      "baseAssetEntityId": "forex-TRY",
       "blockchainName": "Arbitrum",
       "clicProductName": "TRY/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77727,7 +78082,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77757,8 +78113,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ULTI",
       "baseAssetClic": "ULTI_CR",
+      "baseAssetEntityId": "crypto-ULTI",
       "blockchainName": "Arbitrum",
       "clicProductName": "ULTI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77767,7 +78125,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -77797,8 +78156,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ENA",
       "baseAssetClic": "ENA_CR",
+      "baseAssetEntityId": "crypto-ENA",
       "blockchainName": "Arbitrum",
       "clicProductName": "ENA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77807,7 +78168,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77837,8 +78199,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SOL",
       "baseAssetClic": "SOL_CR",
+      "baseAssetEntityId": "crypto-SOL",
       "blockchainName": "Arbitrum",
       "clicProductName": "SOL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77847,7 +78211,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -77877,7 +78242,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_nav",
       "baseAsset": "xSolvBTC",
+      "baseAssetEntityId": "crypto-xSolvBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Solv",
@@ -77889,7 +78256,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x8b48E1A576d47Eb8BfE13d54d30aC2251C9F1A8A",
     "contractType": "",
@@ -77915,8 +78281,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "PUMP",
       "baseAssetClic": "PUMP_CR",
+      "baseAssetEntityId": "crypto-PUMP",
       "blockchainName": "Ethereum",
       "clicProductName": "PUMP/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
@@ -77925,7 +78293,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -77955,8 +78324,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "sUSDS",
       "baseAssetClic": "sUSDS_CR",
+      "baseAssetEntityId": "crypto-sUSDS",
       "blockchainName": "Arbitrum",
       "clicProductName": "sUSDS/USDS-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -77997,8 +78368,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XVS",
       "baseAssetClic": "XVS_CR",
+      "baseAssetEntityId": "crypto-XVS",
       "blockchainName": "Arbitrum",
       "clicProductName": "XVS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78007,7 +78380,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78037,8 +78411,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "tBTC",
       "baseAssetClic": "tBTC_CR",
+      "baseAssetEntityId": "crypto-tBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "tBTC/BTC-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78047,7 +78423,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -78078,8 +78455,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "EZETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78120,8 +78499,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BERA",
       "baseAssetClic": "BERA_CR",
+      "baseAssetEntityId": "crypto-BERA",
       "blockchainName": "Arbitrum",
       "clicProductName": "BERA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78130,7 +78511,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78161,8 +78543,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "weETH/eETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78203,8 +78587,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "BTC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78213,7 +78599,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78243,7 +78630,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "RDNT",
+      "baseAssetEntityId": "crypto-RDNT",
       "blockchainName": "Arbitrum",
       "clicProductName": "RDNT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78252,7 +78641,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78282,8 +78672,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MLN",
       "baseAssetClic": "MLN_CR",
+      "baseAssetEntityId": "crypto-MLN",
       "blockchainName": "Arbitrum",
       "clicProductName": "MLN/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78292,7 +78684,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78322,8 +78715,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Arbitrum",
       "clicProductName": "LINK/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78332,7 +78727,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78361,7 +78757,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-USDX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78391,8 +78791,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BNB",
       "baseAssetClic": "BNB_CR",
+      "baseAssetEntityId": "crypto-BNB",
       "blockchainName": "Arbitrum",
       "clicProductName": "BNB/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78401,7 +78803,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78431,8 +78834,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "glv",
       "baseAsset": "GLV",
       "baseAssetClic": "GLV_CR",
+      "baseAssetEntityId": "crypto-GLV",
       "blockchainName": "Arbitrum",
       "clicProductName": "GLV-WETH-USDC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78443,6 +78848,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "WETH-USDC",
       "underlyingAssetClic": "WETH-USDC_CR"
     },
@@ -78475,8 +78881,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "weETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78486,6 +78894,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -78517,7 +78926,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Tokenized Fund",
+      "attributeType": "smartdata_nav",
       "baseAsset": "AoABT",
+      "baseAssetEntityId": "tokenized fund-AoABT",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Asseto",
@@ -78554,8 +78965,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AXS",
       "baseAssetClic": "AXS_CR",
+      "baseAssetEntityId": "crypto-AXS",
       "blockchainName": "Arbitrum",
       "clicProductName": "AXS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78564,7 +78977,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78594,8 +79008,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MATIC",
       "baseAssetClic": "MATIC_CR",
+      "baseAssetEntityId": "crypto-MATIC",
       "blockchainName": "Arbitrum",
       "clicProductName": "MATIC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78605,7 +79021,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78635,8 +79052,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "PLUME",
       "baseAssetClic": "PLUME_CR",
+      "baseAssetEntityId": "crypto-PLUME",
       "blockchainName": "Arbitrum",
       "clicProductName": "PLUME/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78645,7 +79064,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78675,8 +79095,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "ZAR",
       "baseAssetClic": "ZAR_FX",
+      "baseAssetEntityId": "forex-ZAR",
       "blockchainName": "Arbitrum",
       "clicProductName": "ZAR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78685,7 +79107,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78715,7 +79138,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TAO",
+      "baseAssetEntityId": "crypto-TAO",
       "blockchainName": "Arbitrum",
       "clicProductName": "TAO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78724,7 +79149,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78754,7 +79180,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "dlcBTC",
+      "baseAssetEntityId": "crypto-dlcBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "DLC.LINK",
@@ -78796,8 +79224,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "META",
       "baseAssetClic": "META_EQ",
+      "baseAssetEntityId": "equity-META",
       "blockchainName": "Arbitrum",
       "clicProductName": "META/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78806,7 +79236,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78836,7 +79267,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MNT",
+      "baseAssetEntityId": "crypto-MNT",
       "blockchainName": "Arbitrum",
       "clicProductName": "MNT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78845,7 +79278,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -78876,6 +79310,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real GDP — Level",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -78911,8 +79347,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "STETH",
       "baseAssetClic": "STETH_CR",
+      "baseAssetEntityId": "crypto-STETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "STETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78922,6 +79360,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -78954,8 +79393,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDE",
       "baseAssetClic": "USDE_CR",
+      "baseAssetEntityId": "crypto-USDE",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -78965,6 +79406,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -78997,8 +79439,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "UNIETH",
       "baseAssetClic": "UNIETH_CR",
+      "baseAssetEntityId": "crypto-UNIETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "UNIETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79039,8 +79483,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "fragSOL",
       "baseAssetClic": "fragSOL_CR",
+      "baseAssetEntityId": "crypto-fragSOL",
       "blockchainName": "Arbitrum",
       "clicProductName": "fragSOL/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79079,6 +79525,7 @@
     "feedCategory": "custom",
     "feedType": "",
     "docs": {
+      "attributeType": "l2_sequencer_uptime_status",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "hidden": true,
@@ -79115,7 +79562,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "ETHx",
+      "baseAssetEntityId": "crypto-ETHx",
       "blockchainName": "Arbitrum",
       "clicProductName": "ETHx/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79125,7 +79574,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -79155,8 +79605,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "marketcap",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "ETH/USD-MCap-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79166,6 +79618,7 @@
       "productTypeCode": "MCap",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "December 1st, 2025"
     },
     "decimals": 8
@@ -79196,8 +79649,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LDO",
       "baseAssetClic": "LDO_CR",
+      "baseAssetEntityId": "crypto-LDO",
       "blockchainName": "Arbitrum",
       "clicProductName": "LDO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79206,7 +79661,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79237,8 +79693,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Arbitrum",
       "clicProductName": "USR/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79277,7 +79735,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ZRO",
+      "baseAssetEntityId": "crypto-ZRO",
       "blockchainName": "Arbitrum",
       "clicProductName": "ZRO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79286,7 +79746,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79316,8 +79777,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRO",
       "baseAssetClic": "CRO_CR",
+      "baseAssetEntityId": "crypto-CRO",
       "blockchainName": "Arbitrum",
       "clicProductName": "CRO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79326,7 +79789,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79357,8 +79821,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "tBTC",
       "baseAssetClic": "tBTC_CR",
+      "baseAssetEntityId": "crypto-tBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "tBTC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79368,6 +79834,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -79400,8 +79867,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79411,6 +79880,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -79443,8 +79913,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "OSETH",
       "baseAssetClic": "OSETH_CR",
+      "baseAssetEntityId": "crypto-OSETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "OSETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79460,7 +79932,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xD542b9C755587D595CdD7DF808841D74585E194c",
     "contractType": "",
@@ -79485,7 +79956,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "marketHours": "Crypto"
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-S",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79515,8 +79989,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TRUMP",
       "baseAssetClic": "TRUMP_CR",
+      "baseAssetEntityId": "crypto-TRUMP",
       "blockchainName": "Arbitrum",
       "clicProductName": "TRUMP/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79525,7 +80001,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79557,7 +80034,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "zBTC",
+      "baseAssetEntityId": "crypto-zBTC",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Zeus Network",
@@ -79602,8 +80081,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "RSETH",
       "baseAssetClic": "RSETH_CR",
+      "baseAssetEntityId": "crypto-RSETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "RSETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79645,8 +80126,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "STETH",
       "baseAssetClic": "STETH_CR",
+      "baseAssetEntityId": "crypto-STETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "STETH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79656,13 +80139,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xE837702F8D422f19A3FE9799FCADF8dab9c6EBEF",
     "contractType": "",
@@ -79688,8 +80171,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XPL",
       "baseAssetClic": "XPL_CR",
+      "baseAssetEntityId": "crypto-XPL",
       "blockchainName": "Arbitrum",
       "clicProductName": "XPL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79698,7 +80183,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -79729,8 +80215,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "TUSD",
       "baseAssetClic": "TUSD_CR",
+      "baseAssetEntityId": "crypto-TUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "TUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79740,13 +80228,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xF32Aaecb1909EB672E96522e979c3c5b76a438bB",
     "contractType": "",
@@ -79773,8 +80261,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "EURC",
       "baseAssetClic": "EURC_CR",
+      "baseAssetEntityId": "crypto-EURC",
       "blockchainName": "Arbitrum",
       "clicProductName": "EURC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79784,6 +80274,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -79814,7 +80305,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "glv",
+      "baseAssetEntityId": "crypto-GLV",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 8
   },
@@ -79844,8 +80338,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
+      "baseAssetEntityId": "forex-CHF",
       "blockchainName": "Arbitrum",
       "clicProductName": "CHF/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79854,7 +80350,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79885,8 +80382,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "INETH",
       "baseAssetClic": "INETH_CR",
+      "baseAssetEntityId": "crypto-INETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "INETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79927,8 +80426,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GMX",
       "baseAssetClic": "GMX_CR",
+      "baseAssetEntityId": "crypto-GMX",
       "blockchainName": "Arbitrum",
       "clicProductName": "GMX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79937,7 +80438,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -79967,8 +80469,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "HKD",
       "baseAssetClic": "HKD_FX",
+      "baseAssetEntityId": "forex-HKD",
       "blockchainName": "Arbitrum",
       "clicProductName": "HKD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -79977,7 +80481,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80008,8 +80513,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "Arbitrum",
       "clicProductName": "DAI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80019,6 +80526,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -80050,8 +80558,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BONE",
       "baseAssetClic": "BONE_CR",
+      "baseAssetEntityId": "crypto-BONE",
       "blockchainName": "Arbitrum",
       "clicProductName": "BONE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80060,7 +80570,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80090,8 +80601,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XAI",
       "baseAssetClic": "XAI_CR",
+      "baseAssetEntityId": "crypto-XAI",
       "blockchainName": "Arbitrum",
       "clicProductName": "XAI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80100,7 +80613,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80131,8 +80645,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "CRVUSD",
       "baseAssetClic": "CRVUSD_CR",
+      "baseAssetEntityId": "crypto-CRVUSD",
       "blockchainName": "Arbitrum",
       "clicProductName": "CRVUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80142,6 +80658,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_CR",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -80173,8 +80690,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Arbitrum",
       "clicProductName": "LINK/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80183,7 +80702,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -80214,6 +80734,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real GDP — Percent Change (Annual Rate)",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -80248,8 +80770,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "JOE",
       "baseAssetClic": "JOE_CR",
+      "baseAssetEntityId": "crypto-JOE",
       "blockchainName": "Arbitrum",
       "clicProductName": "JOE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80258,7 +80782,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80289,8 +80814,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "ETHx",
       "baseAssetClic": "ETHx_CR",
+      "baseAssetEntityId": "crypto-ETHx",
       "blockchainName": "Arbitrum",
       "clicProductName": "ETHx/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80331,7 +80858,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Tokenized Fund",
+      "attributeType": "smartdata_nav",
       "baseAsset": "AoABTb",
+      "baseAssetEntityId": "tokenized fund-AoABTb",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Asseto",
@@ -80369,8 +80898,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "tETH",
       "baseAssetClic": "tETH_CR",
+      "baseAssetEntityId": "crypto-tETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "tETH/wstETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80411,8 +80942,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "1INCH",
       "baseAssetClic": "1INCH_CR",
+      "baseAssetEntityId": "crypto-1INCH",
       "blockchainName": "Arbitrum",
       "clicProductName": "1INCH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80421,12 +80954,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xaD81BC9887ab35B4aA05493E9B3C32cA7393c8b1",
     "contractType": "",
@@ -80452,8 +80985,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XDC",
       "baseAssetClic": "XDC_CR",
+      "baseAssetEntityId": "crypto-XDC",
       "blockchainName": "Arbitrum",
       "clicProductName": "XDC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80463,7 +80998,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80493,8 +81029,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
+      "baseAssetEntityId": "forex-JPY",
       "blockchainName": "Arbitrum",
       "clicProductName": "JPY/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80503,7 +81041,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80534,8 +81073,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "WBTC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80545,6 +81086,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -80577,8 +81119,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstETH",
       "baseAssetClic": "wstETH_CR",
+      "baseAssetEntityId": "crypto-wstETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "wstETH/stETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80620,6 +81164,8 @@
     "docs": {
       "assetClass": "Index",
       "assetSubClass": "Crypto",
+      "attributeType": "calculated",
+      "baseAssetEntityId": "index-CV Index",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "hidden": true,
@@ -80628,12 +81174,12 @@
       "productType": "Index",
       "productTypeCode": "CalcInidex",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xb5F3A4ac09d801Bdd3d2224B997CAdCeE1Cb2d17",
     "contractType": "",
@@ -80659,8 +81205,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "APT",
       "baseAssetClic": "APT_CR",
+      "baseAssetEntityId": "crypto-APT",
       "blockchainName": "Arbitrum",
       "clicProductName": "APT/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80669,12 +81217,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xb98512d5a21e13cf27b84Cc90eA118AE14134A76",
     "contractType": "",
@@ -80700,8 +81248,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDAI",
       "baseAssetClic": "SUSDAI_CR",
+      "baseAssetEntityId": "crypto-SUSDAI",
       "blockchainName": "Arbitrum",
       "clicProductName": "SUSDAI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80711,6 +81261,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -80742,8 +81293,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "NEAR",
       "baseAssetClic": "NEAR_CR",
+      "baseAssetEntityId": "crypto-NEAR",
       "blockchainName": "Arbitrum",
       "clicProductName": "NEAR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80752,7 +81305,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80782,8 +81336,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOGE",
       "baseAssetClic": "DOGE_CR",
+      "baseAssetEntityId": "crypto-DOGE",
       "blockchainName": "Arbitrum",
       "clicProductName": "DOGE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80792,7 +81348,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80823,8 +81380,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "CBETH",
       "baseAssetClic": "CBETH_CR",
+      "baseAssetEntityId": "crypto-CBETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "CBETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80834,6 +81393,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -80865,8 +81425,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "RON",
       "baseAssetClic": "RON_CR",
+      "baseAssetEntityId": "crypto-RON",
       "blockchainName": "Arbitrum",
       "clicProductName": "RON/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80875,7 +81437,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80905,8 +81468,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DODO",
       "baseAssetClic": "DODO_CR",
+      "baseAssetEntityId": "crypto-DODO",
       "blockchainName": "Arbitrum",
       "clicProductName": "DODO/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80915,7 +81480,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -80946,8 +81512,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "MIMATIC",
       "baseAssetClic": "MIMATIC_CR",
+      "baseAssetEntityId": "crypto-MIMATIC",
       "blockchainName": "Arbitrum",
       "clicProductName": "MIMATIC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -80958,6 +81526,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -80987,7 +81556,12 @@
     "assetName": "",
     "feedCategory": "high",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-USDL",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
     "decimals": 8
   },
   {
@@ -81017,8 +81591,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "RLP",
       "baseAssetClic": "RLP_CR",
+      "baseAssetEntityId": "crypto-RLP",
       "blockchainName": "Arbitrum",
       "clicProductName": "RLP/USD-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81057,8 +81633,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ORDI",
       "baseAssetClic": "ORDI_CR",
+      "baseAssetEntityId": "crypto-ORDI",
       "blockchainName": "Arbitrum",
       "clicProductName": "ORDI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81067,7 +81645,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81098,8 +81677,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "uniBTC",
       "baseAssetClic": "uniBTC_CR",
+      "baseAssetEntityId": "crypto-uniBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "uniBTC/BTC-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81138,8 +81719,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AVAX",
       "baseAssetClic": "AVAX_CR",
+      "baseAssetEntityId": "crypto-AVAX",
       "blockchainName": "Arbitrum",
       "clicProductName": "AVAX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81148,7 +81731,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81178,8 +81762,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "SEK",
       "baseAssetClic": "SEK_FX",
+      "baseAssetEntityId": "forex-SEK",
       "blockchainName": "Arbitrum",
       "clicProductName": "SEK/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81188,7 +81774,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81218,8 +81805,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SEI",
       "baseAssetClic": "SEI_CR",
+      "baseAssetEntityId": "crypto-SEI",
       "blockchainName": "Arbitrum",
       "clicProductName": "SEI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81228,7 +81817,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81259,17 +81849,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "Arbitrum",
       "clicProductName": "XAU/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81298,7 +81891,11 @@
     "feedCategory": "medium",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-JLP",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81328,8 +81925,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ASTR",
       "baseAssetClic": "ASTR_CR",
+      "baseAssetEntityId": "crypto-ASTR",
       "blockchainName": "Arbitrum",
       "clicProductName": "ASTR/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81338,7 +81937,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81369,8 +81969,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDD",
       "baseAssetClic": "USDD_CR",
+      "baseAssetEntityId": "crypto-USDD",
       "blockchainName": "Arbitrum",
       "clicProductName": "USDD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81380,6 +81982,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -81411,8 +82014,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "POL",
       "baseAssetClic": "POL_CR",
+      "baseAssetEntityId": "crypto-POL",
       "blockchainName": "Arbitrum",
       "clicProductName": "POL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81421,7 +82026,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81452,8 +82058,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "sFRAX",
       "baseAssetClic": "sFRAX_CR",
+      "baseAssetEntityId": "crypto-sFRAX",
       "blockchainName": "Arbitrum",
       "clicProductName": "sFRAX/FRAX-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81494,8 +82102,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUSHI",
       "baseAssetClic": "SUSHI_CR",
+      "baseAssetEntityId": "crypto-SUSHI",
       "blockchainName": "Arbitrum",
       "clicProductName": "SUSHI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81504,7 +82114,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81535,8 +82146,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "APXETH",
       "baseAssetClic": "APXETH_CR",
+      "baseAssetEntityId": "crypto-APXETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "APXETH/PXETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81577,8 +82190,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CORE",
       "baseAssetClic": "CORE_CR",
+      "baseAssetEntityId": "crypto-CORE",
       "blockchainName": "Arbitrum",
       "clicProductName": "CORE/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81587,7 +82202,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81618,8 +82234,10 @@
     "docs": {
       "assetClass": "Index",
       "assetSubClass": "Crypto",
+      "attributeType": "calculated",
       "baseAsset": "DPI",
       "baseAssetClic": "DPI_IX",
+      "baseAssetEntityId": "index-DPI",
       "blockchainName": "Arbitrum",
       "clicProductName": "DPI/USD-CalcInidex-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81628,7 +82246,8 @@
       "productType": "Index",
       "productTypeCode": "CalcInidex",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81659,7 +82278,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "RSETH",
+      "baseAssetEntityId": "crypto-RSETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "RSETH/ETH-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81670,6 +82291,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -81701,7 +82323,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "gm",
       "baseAsset": "gmWBTC",
+      "baseAssetEntityId": "crypto-gmWBTC",
       "blockchainName": "Arbitrum",
       "clicProductName": "gmWBTC/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81710,7 +82334,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81741,6 +82366,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-PCE Price Index — Percent Change (Annual Rate)",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -81775,7 +82402,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "gm",
       "baseAsset": "gmETH",
+      "baseAssetEntityId": "crypto-gmETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "gmETH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81784,7 +82413,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81814,8 +82444,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ADA",
       "baseAssetClic": "ADA_CR",
+      "baseAssetEntityId": "crypto-ADA",
       "blockchainName": "Arbitrum",
       "clicProductName": "ADA/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81824,7 +82456,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81854,8 +82487,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "Arbitrum",
       "clicProductName": "UNI/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81864,7 +82499,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -81895,8 +82531,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "ynETHx",
       "baseAssetClic": "ynETHx_CR",
+      "baseAssetEntityId": "crypto-ynETHx",
       "blockchainName": "Arbitrum",
       "clicProductName": "ynETHx/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -81937,7 +82575,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Stablecoin",
+      "attributeType": "smartdata_nav",
       "baseAsset": "MN",
+      "baseAssetEntityId": "stablecoin-MN",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "M^0 Protocol",
@@ -81975,8 +82615,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "ultraETHs",
       "baseAssetClic": "ultraETHs_CR",
+      "baseAssetEntityId": "crypto-ultraETHs",
       "blockchainName": "Arbitrum",
       "clicProductName": "ultraETHs/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82015,7 +82657,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "gm",
       "baseAsset": "gmWETH",
+      "baseAssetEntityId": "crypto-gmWETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "gmWETH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82024,7 +82668,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -82054,6 +82699,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-PCE Price Index — Level",
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -82088,8 +82735,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SPELL",
       "baseAssetClic": "SPELL_CR",
+      "baseAssetEntityId": "crypto-SPELL",
       "blockchainName": "Arbitrum",
       "clicProductName": "SPELL/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82098,7 +82747,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -82128,8 +82778,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FXS",
       "baseAssetClic": "FXS_CR",
+      "baseAssetEntityId": "crypto-FXS",
       "blockchainName": "Arbitrum",
       "clicProductName": "FXS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82138,7 +82790,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -82168,8 +82821,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WEMIX",
       "baseAssetClic": "WEMIX_CR",
+      "baseAssetEntityId": "crypto-WEMIX",
       "blockchainName": "Arbitrum",
       "clicProductName": "WEMIX/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82179,12 +82834,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xf94463c077c828b4EFB82e07f1525027fA296255",
     "contractType": "",
@@ -82210,8 +82865,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GAS",
       "baseAssetClic": "GAS_CR",
+      "baseAssetEntityId": "crypto-GAS",
       "blockchainName": "Arbitrum",
       "clicProductName": "GAS/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -82220,7 +82877,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -82251,8 +82909,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "frxETH",
       "baseAssetClic": "frxETH_CR",
+      "baseAssetEntityId": "crypto-frxETH",
       "blockchainName": "Arbitrum",
       "clicProductName": "frxETH/ETH-ExRate-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",

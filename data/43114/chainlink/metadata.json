@@ -27,7 +27,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "WBTC_e",
+      "baseAssetEntityId": "crypto-WBTC_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -70,8 +72,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yETH",
       "baseAssetClic": "yETH_CR",
+      "baseAssetEntityId": "crypto-yETH",
       "blockchainName": "Avalanche",
       "clicProductName": "yETH/ETH-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -112,8 +116,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SAND",
       "baseAssetClic": "SAND_CR",
+      "baseAssetEntityId": "crypto-SAND",
       "blockchainName": "Avalanche",
       "clicProductName": "SAND/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -122,7 +128,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -152,8 +159,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "savUSD",
       "baseAssetClic": "savUSD_CR",
+      "baseAssetEntityId": "crypto-savUSD",
       "blockchainName": "Avalanche",
       "clicProductName": "savUSD/avUSD-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -194,8 +203,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SNX",
       "baseAssetClic": "SNX_CR",
+      "baseAssetEntityId": "crypto-SNX",
       "blockchainName": "Avalanche",
       "clicProductName": "SNX/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -204,7 +215,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -235,17 +247,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "Avalanche",
       "clicProductName": "XAU/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -276,8 +291,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "Avalanche",
       "clicProductName": "WSTETH/ETH-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -287,6 +304,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "STETH",
       "underlyingAssetClic": "STETH_CR"
     },
@@ -318,8 +336,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ALPHA",
       "baseAssetClic": "ALPHA_CR",
+      "baseAssetEntityId": "crypto-ALPHA",
       "blockchainName": "Avalanche",
       "clicProductName": "ALPHA/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -328,7 +348,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -358,8 +379,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SHIB",
       "baseAssetClic": "SHIB_CR",
+      "baseAssetEntityId": "crypto-SHIB",
       "blockchainName": "Avalanche",
       "clicProductName": "SHIB/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -368,7 +391,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -398,8 +422,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CVX",
       "baseAssetClic": "CVX_CR",
+      "baseAssetEntityId": "crypto-CVX",
       "blockchainName": "Avalanche",
       "clicProductName": "CVX/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -408,7 +434,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -439,8 +466,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "WSRUSD",
       "baseAssetClic": "WSRUSD_CR",
+      "baseAssetEntityId": "crypto-WSRUSD",
       "blockchainName": "Avalanche",
       "clicProductName": "WSRUSD/RUSD-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -480,7 +509,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-GGAVAX",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 18
   },
@@ -511,7 +543,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "DAI_e",
+      "baseAssetEntityId": "crypto-DAI_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -554,8 +588,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "DEUSD",
       "baseAssetClic": "DEUSD_CR",
+      "baseAssetEntityId": "crypto-DEUSD",
       "blockchainName": "Avalanche",
       "clicProductName": "DEUSD/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -565,6 +601,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -596,8 +633,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "QI",
       "baseAssetClic": "QI_CR",
+      "baseAssetEntityId": "crypto-QI",
       "blockchainName": "Avalanche",
       "clicProductName": "QI/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -606,7 +645,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -637,8 +677,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "MIM",
       "baseAssetClic": "MIM_CR",
+      "baseAssetEntityId": "crypto-MIM",
       "blockchainName": "Avalanche",
       "clicProductName": "MIM/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -649,6 +691,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -680,8 +723,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
+      "baseAssetEntityId": "forex-EUR",
       "blockchainName": "Avalanche",
       "clicProductName": "EUR/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -690,7 +735,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -720,8 +766,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BAT",
       "baseAssetClic": "BAT_CR",
+      "baseAssetEntityId": "crypto-BAT",
       "blockchainName": "Avalanche",
       "clicProductName": "BAT/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -730,7 +778,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -760,7 +809,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Reinsurance",
+      "attributeType": "smartdata_por",
       "baseAsset": "Re",
+      "baseAssetEntityId": "reinsurance-Re",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "footer": "The data provided via API to this Chainlink Oracle Network (the “Balance Data”) is a non-attest service sourced entirely from third parties and neither The Network Firm (“TNF”) nor any Chainlink service provider has knowledge of and does not attest to its accuracy as reported on the LedgerLens™ On-Chain Proof of Reserves API and shall have no liability to any Chainlink users or third parties regarding the Balance Data. Nothing in the Balance Data relates to the balance of any individual holder’s tokens. Neither TNF nor any Chainlink service provider is providing investment, financial, legal or tax advice in making the Balance Data available via the Chainlink Network and encourages all users of the Balance Data to conduct their own diligence regarding the accuracy of the Balance Data, the tax impacts, and legal/governmental regulatory framework related to cryptocurrency.",
@@ -798,8 +849,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WOO",
       "baseAssetClic": "WOO_CR",
+      "baseAssetEntityId": "crypto-WOO",
       "blockchainName": "Avalanche",
       "clicProductName": "WOO/ETH-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -808,7 +861,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -838,8 +892,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
+      "baseAssetEntityId": "forex-CHF",
       "blockchainName": "Avalanche",
       "clicProductName": "CHF/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -848,7 +904,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -878,6 +935,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -910,8 +968,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "KNC",
       "baseAssetClic": "KNC_CR",
+      "baseAssetEntityId": "crypto-KNC",
       "blockchainName": "Avalanche",
       "clicProductName": "KNC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -920,7 +980,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -950,8 +1011,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "SGD",
       "baseAssetClic": "SGD_FX",
+      "baseAssetEntityId": "forex-SGD",
       "blockchainName": "Avalanche",
       "clicProductName": "SGD/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -960,7 +1023,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -991,6 +1055,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1026,6 +1091,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1061,8 +1127,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "Avalanche",
       "clicProductName": "WBTC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1072,6 +1140,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -1103,8 +1172,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ADA",
       "baseAssetClic": "ADA_CR",
+      "baseAssetEntityId": "crypto-ADA",
       "blockchainName": "Avalanche",
       "clicProductName": "ADA/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1113,7 +1184,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1144,7 +1216,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "BTC.b",
+      "baseAssetEntityId": "crypto-BTC.b",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -1187,8 +1261,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "AUSD",
       "baseAssetClic": "AUSD_CR",
+      "baseAssetEntityId": "crypto-AUSD",
       "blockchainName": "Avalanche",
       "clicProductName": "AUSD/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1197,7 +1273,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1228,6 +1305,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1262,8 +1340,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XAVA",
       "baseAssetClic": "XAVA_CR",
+      "baseAssetEntityId": "crypto-XAVA",
       "blockchainName": "Avalanche",
       "clicProductName": "XAVA/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1273,7 +1353,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1303,8 +1384,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UST",
       "baseAssetClic": "UST_CR",
+      "baseAssetEntityId": "crypto-UST",
       "blockchainName": "Avalanche",
       "clicProductName": "UST/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1314,7 +1397,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1344,8 +1428,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AXS",
       "baseAssetClic": "AXS_CR",
+      "baseAssetEntityId": "crypto-AXS",
       "blockchainName": "Avalanche",
       "clicProductName": "AXS/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1354,7 +1440,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1385,8 +1472,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "FRAX",
       "baseAssetClic": "FRAX_CR",
+      "baseAssetEntityId": "crypto-FRAX",
       "blockchainName": "Avalanche",
       "clicProductName": "FRAX/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1396,6 +1485,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1427,8 +1517,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FXS",
       "baseAssetClic": "FXS_CR",
+      "baseAssetEntityId": "crypto-FXS",
       "blockchainName": "Avalanche",
       "clicProductName": "FXS/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1437,7 +1529,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1468,8 +1561,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wrsETH",
       "baseAssetClic": "wrsETH_CR",
+      "baseAssetEntityId": "crypto-wrsETH",
       "blockchainName": "Avalanche",
       "clicProductName": "wrsETH/rsETH-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1510,8 +1605,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "JOE",
       "baseAssetClic": "JOE_CR",
+      "baseAssetEntityId": "crypto-JOE",
       "blockchainName": "Avalanche",
       "clicProductName": "JOE/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1520,7 +1617,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1551,8 +1649,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "Wrapped Staked LINK",
       "baseAssetClic": "WSTLINK_CR",
+      "baseAssetEntityId": "crypto-WSTLINK",
       "blockchainName": "Avalanche",
       "clicProductName": "WSTLINK/LINK-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1594,7 +1694,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "LINK_e",
+      "baseAssetEntityId": "crypto-LINK_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -1637,6 +1739,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1672,8 +1775,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Avalanche",
       "clicProductName": "USDC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1683,6 +1788,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1714,8 +1820,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "calculated",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Avalanche",
       "clicProductName": "LINK/AVAX-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1724,7 +1832,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "AVAX",
-      "quoteAssetClic": "AVAX_CR"
+      "quoteAssetClic": "AVAX_CR",
+      "quoteAssetEntityId": "crypto-AVAX"
     },
     "decimals": 18
   },
@@ -1754,8 +1863,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUSHI",
       "baseAssetClic": "SUSHI_CR",
+      "baseAssetEntityId": "crypto-SUSHI",
       "blockchainName": "Avalanche",
       "clicProductName": "SUSHI/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1764,7 +1875,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1794,8 +1906,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CZK",
       "baseAssetClic": "CZK_FX",
+      "baseAssetEntityId": "forex-CZK",
       "blockchainName": "Avalanche",
       "clicProductName": "CZK/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1804,7 +1918,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1834,8 +1949,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BEAM",
       "baseAssetClic": "BEAM_CR",
+      "baseAssetEntityId": "crypto-BEAM",
       "blockchainName": "Avalanche",
       "clicProductName": "BEAM/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1844,7 +1961,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1875,8 +1993,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "Avalanche",
       "clicProductName": "WSTETH/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1886,6 +2006,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "STETH",
       "underlyingAssetClic": "STETH_CR"
     },
@@ -1917,8 +2038,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "POL",
       "baseAssetClic": "POL_CR",
+      "baseAssetEntityId": "crypto-POL",
       "blockchainName": "Avalanche",
       "clicProductName": "POL/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1927,7 +2050,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1957,8 +2081,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SPELL",
       "baseAssetClic": "SPELL_CR",
+      "baseAssetEntityId": "crypto-SPELL",
       "blockchainName": "Avalanche",
       "clicProductName": "SPELL/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -1967,7 +2093,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1997,8 +2124,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "TRY",
       "baseAssetClic": "TRY_FX",
+      "baseAssetEntityId": "forex-TRY",
       "blockchainName": "Avalanche",
       "clicProductName": "TRY/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2007,7 +2136,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2038,8 +2168,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstETH",
       "baseAssetClic": "wstETH_CR",
+      "baseAssetEntityId": "crypto-wstETH",
       "blockchainName": "Avalanche",
       "clicProductName": "wstETH/stETH-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2081,8 +2213,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "SYRUPUSDT",
       "baseAssetClic": "SYRUPUSDT_CR",
+      "baseAssetEntityId": "crypto-SYRUPUSDT",
       "blockchainName": "Avalanche",
       "clicProductName": "SYRUPUSDT/USD-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2122,7 +2256,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "fsBTC",
+      "baseAssetEntityId": "crypto-fsBTC",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto",
@@ -2162,8 +2298,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "SolvBTC.BBN",
       "baseAssetClic": "SolvBTC.BBN_CR",
+      "baseAssetEntityId": "crypto-SolvBTC.BBN",
       "blockchainName": "Avalanche",
       "clicProductName": "SolvBTC.BBN/SolvBTC-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2202,8 +2340,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FIL",
       "baseAssetClic": "FIL_CR",
+      "baseAssetEntityId": "crypto-FIL",
       "blockchainName": "Avalanche",
       "clicProductName": "FIL/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2212,7 +2352,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2243,8 +2384,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "GHO",
       "baseAssetClic": "GHO_CR",
+      "baseAssetEntityId": "crypto-GHO",
       "blockchainName": "Avalanche",
       "clicProductName": "GHO/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2254,6 +2397,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "GHO",
       "quoteAssetClic": "GHO_CR",
+      "quoteAssetEntityId": "crypto-GHO",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -2286,8 +2430,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "solvBTC",
       "baseAssetClic": "solvBTC_CR",
+      "baseAssetEntityId": "crypto-solvBTC",
       "blockchainName": "Avalanche",
       "clicProductName": "solvBTC/BTC-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2296,7 +2442,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -2326,8 +2473,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Avalanche",
       "clicProductName": "SUSDE/USDE-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2368,8 +2517,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GMX",
       "baseAssetClic": "GMX_CR",
+      "baseAssetEntityId": "crypto-GMX",
       "blockchainName": "Avalanche",
       "clicProductName": "GMX/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2378,7 +2529,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2408,8 +2560,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ARB",
       "baseAssetClic": "ARB_CR",
+      "baseAssetEntityId": "crypto-ARB",
       "blockchainName": "Avalanche",
       "clicProductName": "ARB/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2418,7 +2572,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2449,6 +2604,7 @@
     "feedType": "Commodities",
     "docs": {
       "assetClass": "Commodity",
+      "attributeType": "smartdata_por",
       "baseAsset": "Ion_Digital",
       "blockchainName": "Avalanche",
       "issuer": "Ion Digital",
@@ -2487,8 +2643,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "Avalanche",
       "clicProductName": "DAI/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2498,6 +2656,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -2529,8 +2688,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Avalanche",
       "clicProductName": "LINK/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2539,7 +2700,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2569,8 +2731,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Avalanche",
       "clicProductName": "ETH/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2579,7 +2743,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2608,7 +2773,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "calculated",
+      "baseAssetEntityId": "crypto-MATICX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -2639,8 +2808,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "syrupUSDC",
       "baseAssetClic": "syrupUSDC_CR",
+      "baseAssetEntityId": "crypto-syrupUSDC",
       "blockchainName": "Avalanche",
       "clicProductName": "syrupUSDC/USDC-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2679,6 +2850,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -2713,8 +2885,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "Avalanche",
       "clicProductName": "DOT/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2723,7 +2897,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2754,7 +2929,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "AAVE_e",
+      "baseAssetEntityId": "crypto-AAVE_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -2796,8 +2973,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "Avalanche",
       "clicProductName": "UNI/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2806,7 +2985,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2836,6 +3016,7 @@
     "feedType": "Commodities",
     "docs": {
       "assetClass": "Commodity",
+      "attributeType": "smartdata_por",
       "baseAsset": "Ion_Digital",
       "blockchainName": "Avalanche",
       "hidden": true,
@@ -2873,8 +3054,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "MIMATIC",
       "baseAssetClic": "MIMATIC_CR",
+      "baseAssetEntityId": "crypto-MIMATIC",
       "blockchainName": "Avalanche",
       "clicProductName": "MIMATIC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2885,6 +3068,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -2917,7 +3101,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "WETH_e",
+      "baseAssetEntityId": "crypto-WETH_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -2959,8 +3145,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "NEAR",
       "baseAssetClic": "NEAR_CR",
+      "baseAssetEntityId": "crypto-NEAR",
       "blockchainName": "Avalanche",
       "clicProductName": "NEAR/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -2969,7 +3157,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3000,17 +3189,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
+      "baseAssetEntityId": "commodity-XAG",
       "blockchainName": "Avalanche",
       "clicProductName": "XAG/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3040,8 +3232,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MATIC",
       "baseAssetClic": "MATIC_CR",
+      "baseAssetEntityId": "crypto-MATIC",
       "blockchainName": "Avalanche",
       "clicProductName": "MATIC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3051,7 +3245,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3082,8 +3277,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "Wrapped Staked POL",
       "baseAssetClic": "WSTPOL_CR",
+      "baseAssetEntityId": "crypto-WSTPOL",
       "blockchainName": "Avalanche",
       "clicProductName": "WSTPOL/POL-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3124,8 +3321,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
+      "baseAssetEntityId": "forex-JPY",
       "blockchainName": "Avalanche",
       "clicProductName": "JPY/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3134,7 +3333,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3164,8 +3364,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "COMP",
       "baseAssetClic": "COMP_CR",
+      "baseAssetEntityId": "crypto-COMP",
       "blockchainName": "Avalanche",
       "clicProductName": "COMP/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3174,7 +3376,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3204,7 +3407,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_nav",
       "baseAsset": "xSolvBTC",
+      "baseAssetEntityId": "crypto-xSolvBTC",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Solv",
@@ -3242,8 +3447,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "TUSD",
       "baseAssetClic": "TUSD_CR",
+      "baseAssetEntityId": "crypto-TUSD",
       "blockchainName": "Avalanche",
       "clicProductName": "TUSD/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3253,13 +3460,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xFd436ad484d29bd75D0917777a8d7b183255212b",
     "contractType": "",
@@ -3286,8 +3493,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "YBTC.B",
       "baseAssetClic": "YBTC.B_CR",
+      "baseAssetEntityId": "crypto-YBTC.B",
       "blockchainName": "Avalanche",
       "clicProductName": "YBTC.B/BTC-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3296,7 +3505,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -3326,8 +3536,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BNB",
       "baseAssetClic": "BNB_CR",
+      "baseAssetEntityId": "crypto-BNB",
       "blockchainName": "Avalanche",
       "clicProductName": "BNB/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3336,12 +3548,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xa89e19ab2B8d10F638b2e2F5a1eEa7A92704F836",
     "contractType": "",
@@ -3367,8 +3579,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Avalanche",
       "clicProductName": "SUSDE/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3378,6 +3592,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -3409,8 +3624,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Avalanche",
       "clicProductName": "BTC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3419,7 +3636,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3450,8 +3668,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "calculated",
       "baseAsset": "SAVAX",
       "baseAssetClic": "SAVAX_CR",
+      "baseAssetEntityId": "crypto-SAVAX",
       "blockchainName": "Avalanche",
       "clicProductName": "SAVAX/USD-CalcPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3461,6 +3681,7 @@
       "productTypeCode": "CalcPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "AVAX",
       "underlyingAssetClic": "AVAX_CR"
     },
@@ -3492,8 +3713,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "COQ",
       "baseAssetClic": "COQ_CR",
+      "baseAssetEntityId": "crypto-COQ",
       "blockchainName": "Avalanche",
       "clicProductName": "COQ/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3502,7 +3725,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -3532,8 +3756,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MANA",
       "baseAssetClic": "MANA_CR",
+      "baseAssetEntityId": "crypto-MANA",
       "blockchainName": "Avalanche",
       "clicProductName": "MANA/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3542,7 +3768,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3572,8 +3799,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AAVE",
       "baseAssetClic": "AAVE_CR",
+      "baseAssetEntityId": "crypto-AAVE",
       "blockchainName": "Avalanche",
       "clicProductName": "AAVE/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3582,7 +3811,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3612,8 +3842,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "YFI",
       "baseAssetClic": "YFI_CR",
+      "baseAssetEntityId": "crypto-YFI",
       "blockchainName": "Avalanche",
       "clicProductName": "YFI/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3622,7 +3854,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3653,8 +3886,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yBTC",
       "baseAssetClic": "yBTC_CR",
+      "baseAssetEntityId": "crypto-yBTC",
       "blockchainName": "Avalanche",
       "clicProductName": "yBTC/BTC-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3695,8 +3930,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AVAX",
       "baseAssetClic": "AVAX_CR",
+      "baseAssetEntityId": "crypto-AVAX",
       "blockchainName": "Avalanche",
       "clicProductName": "AVAX/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3705,7 +3942,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3736,8 +3974,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "EURC",
       "baseAssetClic": "EURC_CR",
+      "baseAssetEntityId": "crypto-EURC",
       "blockchainName": "Avalanche",
       "clicProductName": "EURC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3747,6 +3987,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -3778,7 +4019,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "USDT_e",
+      "baseAssetEntityId": "crypto-USDT_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -3821,8 +4064,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Avalanche",
       "clicProductName": "USDT/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3832,6 +4077,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -3863,8 +4109,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRV",
       "baseAssetClic": "CRV_CR",
+      "baseAssetEntityId": "crypto-CRV",
       "blockchainName": "Avalanche",
       "clicProductName": "CRV/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3873,7 +4121,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3903,8 +4152,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "savBTC",
       "baseAssetClic": "savBTC_CR",
+      "baseAssetEntityId": "crypto-savBTC",
       "blockchainName": "Avalanche",
       "clicProductName": "savBTC/avBTC-ExRate-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -3946,10 +4197,13 @@
     "feedType": "",
     "docs": {
       "assetClass": "Tokenized Commodities",
+      "attributeType": "smartdata_por",
       "baseAsset": "EmCH",
+      "baseAssetEntityId": "crypto-EmCH",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "GEMx AG",
+      "marketHours": "Crypto",
       "porAuditor": "Grant Thornton",
       "porSource": "The Network Firm",
       "porType": "Off-chain",
@@ -3986,6 +4240,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -4020,7 +4275,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
       "baseAsset": "USDC_e",
+      "baseAssetEntityId": "crypto-USDC_e",
       "blockchainName": "Avalanche",
       "deliveryChannelCode": "DF",
       "issuer": "Ava Labs",
@@ -4062,8 +4319,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CHZ",
       "baseAssetClic": "CHZ_CR",
+      "baseAssetEntityId": "crypto-CHZ",
       "blockchainName": "Avalanche",
       "clicProductName": "CHZ/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
@@ -4072,7 +4331,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   }

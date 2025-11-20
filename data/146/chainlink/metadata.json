@@ -26,8 +26,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "GHO",
       "baseAssetClic": "GHO_CR",
+      "baseAssetEntityId": "crypto-GHO",
       "blockchainName": "Sonic",
       "clicProductName": "GHO/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -37,6 +39,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -69,8 +72,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "sdUSD",
       "baseAssetClic": "sdUSD_CR",
+      "baseAssetEntityId": "crypto-sdUSD",
       "blockchainName": "Sonic",
       "clicProductName": "sdUSD/DUSD-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -110,8 +115,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "Sonic",
       "clicProductName": "DAI/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -121,6 +128,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -151,7 +159,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-mooBIFI",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -180,6 +192,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
+      "attributeType": "aave_network_emergency_count",
       "hidden": true
     },
     "decimals": 0
@@ -210,8 +223,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "S",
       "baseAssetClic": "S_CR",
+      "baseAssetEntityId": "crypto-S",
       "blockchainName": "Sonic",
       "clicProductName": "BTC/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -220,7 +235,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -250,8 +266,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "scETH",
       "baseAssetClic": "scETH_CR",
+      "baseAssetEntityId": "crypto-scETH",
       "blockchainName": "Sonic",
       "clicProductName": "scETH/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -260,7 +278,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -290,8 +309,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "sfrxUSD",
       "baseAssetClic": "sfrxUSD_CR",
+      "baseAssetEntityId": "crypto-sfrxUSD",
       "blockchainName": "Sonic",
       "clicProductName": "sfrxUSD/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -300,7 +321,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -330,8 +352,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Sonic",
       "clicProductName": "LINK/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -340,7 +364,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -371,8 +396,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
+      "baseAssetEntityId": "crypto-LBTC",
       "blockchainName": "Sonic",
       "clicProductName": "LBTC/BTC-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -381,7 +408,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -411,8 +439,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Sonic",
       "clicProductName": "BTC/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -421,7 +451,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -452,8 +483,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstkscUSD",
       "baseAssetClic": "wstkscUSD_CR",
+      "baseAssetEntityId": "crypto-wstkscUSD",
       "blockchainName": "Sonic",
       "clicProductName": "wstkscUSD/stkscUSD-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -493,6 +526,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -527,8 +561,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SWPX",
       "baseAssetClic": "SWPX_CR",
+      "baseAssetEntityId": "crypto-SWPX",
       "blockchainName": "Sonic",
       "clicProductName": "SWPX/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -538,6 +574,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "November 17th, 2025"
     },
     "decimals": 8
@@ -568,8 +605,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "ANON",
       "baseAssetClic": "ANON_CR",
+      "baseAssetEntityId": "crypto-ANON",
       "blockchainName": "Sonic",
       "clicProductName": "ANON/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -579,6 +618,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "shutdownDate": "November 12th, 2025"
     },
     "decimals": 8
@@ -610,8 +650,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "Sonic",
       "clicProductName": "WBTC/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -621,6 +663,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -653,8 +696,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstkscBTC",
       "baseAssetClic": "wstkscBTC_CR",
+      "baseAssetEntityId": "crypto-wstkscBTC",
       "blockchainName": "Sonic",
       "clicProductName": "wstkscBTC/stkscBTC-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -692,7 +737,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-xSolvBTC",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 18
   },
@@ -723,8 +771,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yETH",
       "baseAssetClic": "yETH_CR",
+      "baseAssetEntityId": "crypto-yETH",
       "blockchainName": "Sonic",
       "clicProductName": "yETH/ETH-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -765,8 +815,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Sonic",
       "clicProductName": "ETH/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -775,7 +827,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -804,7 +857,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-X33",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -835,8 +892,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Sonic",
       "clicProductName": "USDC/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -846,6 +905,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -878,8 +938,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "beS",
       "baseAssetClic": "beS_CR",
+      "baseAssetEntityId": "crypto-beS",
       "blockchainName": "Sonic",
       "clicProductName": "beS/S-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -919,6 +981,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -954,8 +1017,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "scUSD",
       "baseAssetClic": "SCUSD_CR",
+      "baseAssetEntityId": "crypto-scUSD",
       "blockchainName": "Sonic",
       "clicProductName": "SCUSD/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -965,13 +1030,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "finalto",
     "compareOffchain": "",
     "contractAddress": "0xA0259d0e5f4C451326921Ef9B990A52403F9C216",
     "contractType": "",
@@ -997,8 +1062,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
+      "baseAssetEntityId": "forex-EUR",
       "blockchainName": "Sonic",
       "clicProductName": "EUR/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1007,7 +1074,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1037,6 +1105,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1072,6 +1141,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1107,8 +1177,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "oUSDT",
       "baseAssetClic": "oUSDT_CR",
+      "baseAssetEntityId": "crypto-oUSDT",
       "blockchainName": "Sonic",
       "clicProductName": "oUSDT/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1118,6 +1190,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1150,8 +1223,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "solvBTC",
       "baseAssetClic": "solvBTC_CR",
+      "baseAssetEntityId": "crypto-solvBTC",
       "blockchainName": "Sonic",
       "clicProductName": "solvBTC/BTC-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1160,7 +1235,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -1191,8 +1267,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "vyUSD",
       "baseAssetClic": "vyUSD_CR",
+      "baseAssetEntityId": "crypto-vyUSD",
       "blockchainName": "Sonic",
       "clicProductName": "vyUSD/USD-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1232,8 +1310,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "stS",
       "baseAssetClic": "stS_CR",
+      "baseAssetEntityId": "crypto-stS",
       "blockchainName": "Sonic",
       "clicProductName": "stS/S-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1273,8 +1353,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstkscETH",
       "baseAssetClic": "wstkscETH_CR",
+      "baseAssetEntityId": "crypto-wstkscETH",
       "blockchainName": "Sonic",
       "clicProductName": "wstkscETH/stkscETH-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1314,6 +1396,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1349,8 +1432,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": " yBTC",
       "baseAssetClic": "yBTC_CR",
+      "baseAssetEntityId": "crypto- yBTC",
       "blockchainName": "Sonic",
       "clicProductName": "yBTC/BTC-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1390,8 +1475,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "sdUSD",
       "baseAssetClic": "sdUSD_CR",
+      "baseAssetEntityId": "crypto-sdUSD",
       "blockchainName": "Sonic",
       "clicProductName": "sdUSD/DUSD-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1430,8 +1517,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "stS",
       "baseAssetClic": "stS_CR",
+      "baseAssetEntityId": "crypto-stS",
       "blockchainName": "Sonic",
       "clicProductName": "stS/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1440,7 +1529,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1470,7 +1560,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_nav",
       "baseAsset": "xSolvBTC",
+      "baseAssetEntityId": "crypto-xSolvBTC",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "issuer": "Solv",
@@ -1508,8 +1600,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wanS",
       "baseAssetClic": "wanS_CR",
+      "baseAssetEntityId": "crypto-wanS",
       "blockchainName": "Sonic",
       "clicProductName": "wanS/anS-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1549,6 +1643,7 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
       "blockchainName": "Sonic",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1584,8 +1679,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wrsETH",
       "baseAssetClic": "wrsETH_CR",
+      "baseAssetEntityId": "crypto-wrsETH",
       "blockchainName": "Sonic",
       "clicProductName": "wrsETH/rsETH-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1627,8 +1724,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yUSD",
       "baseAssetClic": "yUSD_CR",
+      "baseAssetEntityId": "crypto-yUSD",
       "blockchainName": "Sonic",
       "clicProductName": "yUSD/USD-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1668,8 +1767,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "PumpBTC",
       "baseAssetClic": "PumpBTC_CR",
+      "baseAssetEntityId": "crypto-PumpBTC",
       "blockchainName": "Sonic",
       "clicProductName": "PumpBTC/BTC-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1683,7 +1784,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xb35dC10BF66F82D3efD8f08BE49c3BEC31c6efe4",
     "contractType": "",
@@ -1709,8 +1809,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "OS",
       "baseAssetClic": "OS_CR",
+      "baseAssetEntityId": "crypto-OS",
       "blockchainName": "Sonic",
       "clicProductName": "OS/S-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1719,12 +1821,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "S",
-      "quoteAssetClic": "S_CR"
+      "quoteAssetClic": "S_CR",
+      "quoteAssetEntityId": "crypto-S"
     },
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xc40650248C96027e8A7a86Cf96aA492004873E5d",
     "contractType": "",
@@ -1751,8 +1853,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "EURC",
       "baseAssetClic": "EURC_CR",
+      "baseAssetEntityId": "crypto-EURC",
       "blockchainName": "Sonic",
       "clicProductName": "EURC/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1762,13 +1866,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xc7E2Ac28F7cdB250aEe24E1bfadd5FfbC234C979",
     "contractType": "",
@@ -1795,8 +1899,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USD1",
       "baseAssetClic": "USD1_CR",
+      "baseAssetEntityId": "crypto-USD1",
       "blockchainName": "Sonic",
       "clicProductName": "USD1/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1806,6 +1912,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1838,8 +1945,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "uniBTC",
       "baseAssetClic": "uniBTC_CR",
+      "baseAssetEntityId": "crypto-uniBTC",
       "blockchainName": "Sonic",
       "clicProductName": "uniBTC/BTC-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1853,7 +1962,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xd1B3e5248aF8781c1338D1Ea278618fB58955017",
     "contractType": "",
@@ -1878,7 +1986,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-scBTC",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -1909,8 +2021,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Sonic",
       "clicProductName": "USDT/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1920,6 +2034,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1951,8 +2066,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SHADOW",
       "baseAssetClic": "SHADOW_CR",
+      "baseAssetEntityId": "crypto-SHADOW",
       "blockchainName": "Sonic",
       "clicProductName": "SHADOW/USD-RefPrice-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -1961,7 +2078,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1992,8 +2110,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wOS",
       "baseAssetClic": "wOS_CR",
+      "baseAssetEntityId": "crypto-wOS",
       "blockchainName": "Sonic",
       "clicProductName": "wOS/OS-ExRate-DF-Sonic-001",
       "deliveryChannelCode": "DF",
@@ -2031,7 +2151,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "calculated",
+      "baseAssetEntityId": "crypto-STS",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   }

@@ -25,8 +25,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "xDai",
       "clicProductName": "ETH/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -35,7 +37,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -65,8 +68,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GRT",
       "baseAssetClic": "GRT_CR",
+      "baseAssetEntityId": "crypto-GRT",
       "blockchainName": "xDai",
       "clicProductName": "GRT/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -75,7 +80,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -106,8 +112,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "GHO",
       "baseAssetClic": "GHO_CR",
+      "baseAssetEntityId": "crypto-GHO",
       "blockchainName": "xDai",
       "clicProductName": "GHO/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -117,6 +125,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "GHO",
       "quoteAssetClic": "GHO_CR",
+      "quoteAssetEntityId": "crypto-GHO",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -148,8 +157,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SOL",
       "baseAssetClic": "SOL_CR",
+      "baseAssetEntityId": "crypto-SOL",
       "blockchainName": "xDai",
       "clicProductName": "SOL/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -158,7 +169,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -188,8 +200,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "xDai",
       "clicProductName": "UNI/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -198,7 +212,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -229,8 +244,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "xDai",
       "clicProductName": "USDC/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -240,6 +257,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -271,8 +289,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUSHI",
       "baseAssetClic": "SUSHI_CR",
+      "baseAssetEntityId": "crypto-SUSHI",
       "blockchainName": "xDai",
       "clicProductName": "SUSHI/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -281,7 +301,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -311,8 +332,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SNX",
       "baseAssetClic": "SNX_CR",
+      "baseAssetEntityId": "crypto-SNX",
       "blockchainName": "xDai",
       "clicProductName": "SNX/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -321,7 +344,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -351,8 +375,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "xDai",
       "clicProductName": "DOT/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -361,7 +387,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -392,17 +419,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "xDai",
       "clicProductName": "XAU/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -433,8 +463,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "xDai",
       "clicProductName": "WBTC/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -444,6 +476,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -475,8 +508,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "YFI",
       "baseAssetClic": "YFI_CR",
+      "baseAssetEntityId": "crypto-YFI",
       "blockchainName": "xDai",
       "clicProductName": "YFI/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -485,7 +520,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -515,8 +551,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
+      "baseAssetEntityId": "forex-CHF",
       "blockchainName": "xDai",
       "clicProductName": "CHF/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -525,7 +563,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -556,8 +595,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "xDai",
       "clicProductName": "WSTETH/ETH-ExRate-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -598,8 +639,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
+      "baseAssetEntityId": "forex-EUR",
       "blockchainName": "xDai",
       "clicProductName": "EUR/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -608,7 +651,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -638,6 +682,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "xDai",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -670,8 +715,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FTT",
       "baseAssetClic": "FTT_CR",
+      "baseAssetEntityId": "crypto-FTT",
       "blockchainName": "xDai",
       "clicProductName": "FTT/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -680,7 +727,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -710,8 +758,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "COMP",
       "baseAssetClic": "COMP_CR",
+      "baseAssetEntityId": "crypto-COMP",
       "blockchainName": "xDai",
       "clicProductName": "COMP/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -720,7 +770,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -750,8 +801,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "xDai",
       "clicProductName": "LINK/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -760,7 +813,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -790,8 +844,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOGE",
       "baseAssetClic": "DOGE_CR",
+      "baseAssetEntityId": "crypto-DOGE",
       "blockchainName": "xDai",
       "clicProductName": "DOGE/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -800,7 +856,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -830,8 +887,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRV",
       "baseAssetClic": "CRV_CR",
+      "baseAssetEntityId": "crypto-CRV",
       "blockchainName": "xDai",
       "clicProductName": "CRV/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -840,7 +899,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -870,8 +930,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BNB",
       "baseAssetClic": "BNB_CR",
+      "baseAssetEntityId": "crypto-BNB",
       "blockchainName": "xDai",
       "clicProductName": "BNB/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -880,7 +942,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -910,8 +973,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "REN",
       "baseAssetClic": "REN_CR",
+      "baseAssetEntityId": "crypto-REN",
       "blockchainName": "xDai",
       "clicProductName": "REN/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -921,7 +986,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -951,8 +1017,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ZIL",
       "baseAssetClic": "ZIL_CR",
+      "baseAssetEntityId": "crypto-ZIL",
       "blockchainName": "xDai",
       "clicProductName": "ZIL/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -961,7 +1029,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -991,8 +1060,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AVAX",
       "baseAssetClic": "AVAX_CR",
+      "baseAssetEntityId": "crypto-AVAX",
       "blockchainName": "xDai",
       "clicProductName": "AVAX/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1001,7 +1072,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1032,8 +1104,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "OSETH",
       "baseAssetClic": "OSETH_CR",
+      "baseAssetEntityId": "crypto-OSETH",
       "blockchainName": "xDai",
       "clicProductName": "OSETH/ETH-ExRate-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1074,8 +1148,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AAVE",
       "baseAssetClic": "AAVE_CR",
+      "baseAssetEntityId": "crypto-AAVE",
       "blockchainName": "xDai",
       "clicProductName": "AAVE/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1084,7 +1160,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1114,8 +1191,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "MXN",
       "baseAssetClic": "MXN_FX",
+      "baseAssetEntityId": "forex-MXN",
       "blockchainName": "xDai",
       "clicProductName": "MXN/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1124,7 +1203,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1154,8 +1234,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BAL",
       "baseAssetClic": "BAL_CR",
+      "baseAssetEntityId": "crypto-BAL",
       "blockchainName": "xDai",
       "clicProductName": "BAL/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1164,7 +1246,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1194,8 +1277,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
+      "baseAssetEntityId": "forex-JPY",
       "blockchainName": "xDai",
       "clicProductName": "JPY/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1204,7 +1289,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1234,8 +1320,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "xDai",
       "clicProductName": "BTC/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1244,7 +1332,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1274,8 +1363,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "PERP",
       "baseAssetClic": "PERP_CR",
+      "baseAssetEntityId": "crypto-PERP",
       "blockchainName": "xDai",
       "clicProductName": "PERP/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1284,7 +1375,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1314,8 +1406,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UMA",
       "baseAssetClic": "UMA_CR",
+      "baseAssetEntityId": "crypto-UMA",
       "blockchainName": "xDai",
       "clicProductName": "UMA/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1324,7 +1418,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1355,8 +1450,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "xDai",
       "clicProductName": "DAI/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1366,6 +1463,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1398,8 +1496,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "xDai",
       "clicProductName": "USDT/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1409,6 +1509,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1440,8 +1541,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GNO",
       "baseAssetClic": "GNO_CR",
+      "baseAssetEntityId": "crypto-GNO",
       "blockchainName": "xDai",
       "clicProductName": "GNO/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1450,7 +1553,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1481,8 +1585,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "STETH",
       "baseAssetClic": "STETH_CR",
+      "baseAssetEntityId": "crypto-STETH",
       "blockchainName": "xDai",
       "clicProductName": "STETH/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1492,6 +1598,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -1523,8 +1630,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "calculated",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "xDai",
       "clicProductName": "LINK/DAI-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1533,7 +1642,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "DAI",
-      "quoteAssetClic": "DAI_CR"
+      "quoteAssetClic": "DAI_CR",
+      "quoteAssetEntityId": "crypto-DAI"
     },
     "decimals": 18
   },
@@ -1563,8 +1673,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "1INCH",
       "baseAssetClic": "1INCH_CR",
+      "baseAssetEntityId": "crypto-1INCH",
       "blockchainName": "xDai",
       "clicProductName": "1INCH/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
@@ -1573,7 +1685,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   }

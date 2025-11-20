@@ -26,8 +26,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "RLP",
       "baseAssetClic": "RLP_CR",
+      "baseAssetEntityId": "crypto-RLP",
       "blockchainName": "Plasma",
       "clicProductName": "RLP/USD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -66,8 +68,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Plasma",
       "clicProductName": "SUSDE/USDE-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -109,8 +113,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "syrupUSDT",
       "baseAssetClic": "syrupUSDT_CR",
+      "baseAssetEntityId": "crypto-syrupUSDT",
       "blockchainName": "Plasma",
       "clicProductName": "syrupUSDT/USDT-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -151,8 +157,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "savUSD",
       "baseAssetClic": "savUSD_CR",
+      "baseAssetEntityId": "crypto-savUSD",
       "blockchainName": "Plasma",
       "clicProductName": "savUSD/avUSD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -168,7 +176,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x0d93026017541308FaB4b7e35DF282f96b2c0634",
     "contractType": "",
@@ -195,8 +202,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDS",
       "baseAssetClic": "USDS_CR",
+      "baseAssetEntityId": "crypto-USDS",
       "blockchainName": "Plasma",
       "clicProductName": "USDS/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -206,6 +215,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -238,8 +248,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wrsETH",
       "baseAssetClic": "wrsETH_CR",
+      "baseAssetEntityId": "crypto-wrsETH",
       "blockchainName": "Plasma",
       "clicProductName": "wrsETH/rsETH-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -255,7 +267,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x2D85199bB9b602Bb5f3Aa6ead7C29a4686aeFE6F",
     "contractType": "",
@@ -282,8 +293,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Plasma",
       "clicProductName": "weETH/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -293,6 +306,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -325,8 +339,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstUSR",
       "baseAssetClic": "wstUSR_CR",
+      "baseAssetEntityId": "crypto-wstUSR",
       "blockchainName": "Plasma",
       "clicProductName": "wstUSR/stUSR-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -342,7 +358,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x332100778DcC828216a184F0D72F9f49570287c3",
     "contractType": "",
@@ -369,8 +384,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "GHO",
       "baseAssetClic": "GHO_CR",
+      "baseAssetEntityId": "crypto-GHO",
       "blockchainName": "Plasma",
       "clicProductName": "GHO/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -380,13 +397,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "GHO",
       "quoteAssetClic": "GHO_CR",
+      "quoteAssetEntityId": "crypto-GHO",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x389444Fce2130A690009F6D7111e461855FC91e3",
     "contractType": "",
@@ -413,8 +430,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USX",
       "baseAssetClic": "USX_CR",
+      "baseAssetEntityId": "crypto-USX",
       "blockchainName": "Plasma",
       "clicProductName": "USX/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -424,13 +443,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x3CC4960062e2f98a9A5389018588715Bb1386632",
     "contractType": "",
@@ -456,8 +475,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Plasma",
       "clicProductName": "BTC/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -466,12 +487,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x3ff76748ab3ae6f04b990ed2Da82C84d49fA530C",
     "contractType": "",
@@ -498,8 +519,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "DOLA",
       "baseAssetClic": "DOLA_CR",
+      "baseAssetEntityId": "crypto-DOLA",
       "blockchainName": "Plasma",
       "clicProductName": "DOLA/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -508,12 +531,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x4a7e8A210Cc651642addDc34cb38452dE44AfCde",
     "contractType": "",
@@ -539,8 +562,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ENA",
       "baseAssetClic": "ENA_CR",
+      "baseAssetEntityId": "crypto-ENA",
       "blockchainName": "Plasma",
       "clicProductName": "ENA/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -549,7 +574,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -580,8 +606,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Plasma",
       "clicProductName": "USR/USD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -597,7 +625,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x62Be52920F008f981979F946d76c8364Cf09421c",
     "contractType": "",
@@ -624,8 +651,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDf",
       "baseAssetClic": "USDf_CR",
+      "baseAssetEntityId": "crypto-USDf",
       "blockchainName": "Plasma",
       "clicProductName": "USDf/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -635,6 +664,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -667,8 +697,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "sUSDai",
       "baseAssetClic": "sUSDai_CR",
+      "baseAssetEntityId": "crypto-sUSDai",
       "blockchainName": "Plasma",
       "clicProductName": "sUSDai/USDai-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -710,8 +742,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "splUSD",
       "baseAssetClic": "splUSD_CR",
+      "baseAssetEntityId": "crypto-splUSD",
       "blockchainName": "Plasma",
       "clicProductName": "splUSD/plUSD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -751,8 +785,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yUSD",
       "baseAssetClic": "yUSD_CR",
+      "baseAssetEntityId": "crypto-yUSD",
       "blockchainName": "Plasma",
       "clicProductName": "yUSD/USD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -766,7 +802,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x90f5131DF5EBfB54E27C6C89F542ef2b4A399b6e",
     "contractType": "",
@@ -793,8 +828,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDE",
       "baseAssetClic": "USDE_CR",
+      "baseAssetEntityId": "crypto-USDE",
       "blockchainName": "Plasma",
       "clicProductName": "USDE/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -804,13 +841,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x92e509Bd6e24A3CdeD00D6e681664aA5b2BE9Fcd",
     "contractType": "",
@@ -837,8 +874,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Plasma",
       "clicProductName": "USR/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -848,6 +887,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -879,6 +919,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "Plasma",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -911,8 +952,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XPL",
       "baseAssetClic": "XPL_CR",
+      "baseAssetEntityId": "crypto-XPL",
       "blockchainName": "Plasma",
       "clicProductName": "XPL/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -921,12 +964,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xB4332C3Ad3aDc0B349Cd7166B8A65515AE1e8560",
     "contractType": "",
@@ -953,8 +996,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "AUSD",
       "baseAssetClic": "AUSD_CR",
+      "baseAssetEntityId": "crypto-AUSD",
       "blockchainName": "Plasma",
       "clicProductName": "AUSD/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -963,7 +1008,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -994,8 +1040,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "CUSDO",
       "baseAssetClic": "CUSDO_CR",
+      "baseAssetEntityId": "crypto-CUSDO",
       "blockchainName": "Plasma",
       "clicProductName": "CUSDO/USDO-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1011,7 +1059,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xB7BADbbC11C31d9bE570a77bc19fA1Af5E44C864",
     "contractType": "",
@@ -1038,8 +1085,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "CUSDO",
       "baseAssetClic": "CUSDO_CR",
+      "baseAssetEntityId": "crypto-CUSDO",
       "blockchainName": "Plasma",
       "clicProductName": "CUSDO/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1049,6 +1098,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1081,8 +1131,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstETH",
       "baseAssetClic": "wstETH_CR",
+      "baseAssetEntityId": "crypto-wstETH",
       "blockchainName": "Plasma",
       "clicProductName": "wstETH/stETH-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1096,7 +1148,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xD9cFc4F283a7A29d1dbe88B536C1e7551ecB9E19",
     "contractType": "",
@@ -1123,8 +1174,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Plasma",
       "clicProductName": "EZETH/ETH-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1134,13 +1187,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xDb2D1A8043FCd7958738678E6e6De788f10A9025",
     "contractType": "",
@@ -1167,8 +1220,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDAI",
       "baseAssetClic": "USDAI_CR",
+      "baseAssetEntityId": "crypto-USDAI",
       "blockchainName": "Plasma",
       "clicProductName": "USDAI/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1178,13 +1233,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xE19b0643D89f1D9119d610B3aB9022A899d3d629",
     "contractType": "",
@@ -1211,8 +1266,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Plasma",
       "clicProductName": "USDC/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1222,13 +1279,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xE2e165a64965082dc323eC8A60482071bDb0C876",
     "contractType": "",
@@ -1254,8 +1311,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDAI",
       "baseAssetClic": "SUSDAI_CR",
+      "baseAssetEntityId": "crypto-SUSDAI",
       "blockchainName": "Plasma",
       "clicProductName": "SUSDAI/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1265,13 +1324,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xE63662C518b738905D99bD234e2F118E546BF76e",
     "contractType": "",
@@ -1297,8 +1356,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Plasma",
       "clicProductName": "ETH/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1307,7 +1368,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1338,8 +1400,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Plasma",
       "clicProductName": "EZETH/ETH-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1381,16 +1445,19 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "Plasma",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1421,8 +1488,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "WSRUSD",
       "baseAssetClic": "WSRUSD_CR",
+      "baseAssetEntityId": "crypto-WSRUSD",
       "blockchainName": "Plasma",
       "clicProductName": "WSRUSD/RUSD-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1438,7 +1507,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xa9d4dB6Dd100697C45F44b94d55ED53330c111B6",
     "contractType": "",
@@ -1464,8 +1532,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Plasma",
       "clicProductName": "SUSDE/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1475,13 +1545,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xadFca737eDB0F3a4B8d681760AB1573EfDC52c23",
     "contractType": "",
@@ -1507,8 +1577,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Plasma",
       "clicProductName": "LINK/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1517,12 +1589,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xb59c000F4F5109BA3Dc83Ec81619f38C113aEA1B",
     "contractType": "",
@@ -1549,8 +1621,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Plasma",
       "clicProductName": "USDT/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1560,13 +1634,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xc819C6D8745FC03d8b90A2a38795ca5ef8CF1fCF",
     "contractType": "",
@@ -1592,8 +1666,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XAUT",
       "baseAssetClic": "XAUT_CR",
+      "baseAssetEntityId": "crypto-XAUT",
       "blockchainName": "Plasma",
       "clicProductName": "XAUT/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1602,7 +1678,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1633,8 +1710,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "plUSD",
       "baseAssetClic": "plUSD_CR",
+      "baseAssetEntityId": "crypto-plUSD",
       "blockchainName": "Plasma",
       "clicProductName": "plUSD/USDT-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1674,8 +1753,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Plasma",
       "clicProductName": "weETH/eETH-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1717,8 +1798,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "exchange_rate",
       "baseAsset": "sUSDf",
       "baseAssetClic": "sUSDf_CR",
+      "baseAssetEntityId": "crypto-sUSDf",
       "blockchainName": "Plasma",
       "clicProductName": "sUSDf/USDf-ExRate-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1734,7 +1817,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xe244ae82e1d498B33B7615a649b84a22011b500c",
     "contractType": "",
@@ -1761,8 +1843,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDT0",
       "baseAssetClic": "USDT0_CR",
+      "baseAssetEntityId": "crypto-USDT0",
       "blockchainName": "Plasma",
       "clicProductName": "USDT0/USD-RefPrice-DF-Plasma-001",
       "deliveryChannelCode": "DF",
@@ -1772,6 +1856,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },

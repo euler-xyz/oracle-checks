@@ -26,7 +26,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "SolvBTC",
+      "baseAssetEntityId": "crypto-SolvBTC",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Solv Protocol",
@@ -71,8 +73,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "Binance",
       "clicProductName": "DOT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -81,7 +85,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -111,8 +116,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TRX",
       "baseAssetClic": "TRX_CR",
+      "baseAssetEntityId": "crypto-TRX",
       "blockchainName": "Binance",
       "clicProductName": "TRX/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -121,7 +128,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -151,8 +159,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
+      "baseAssetEntityId": "forex-JPY",
       "blockchainName": "Binance",
       "clicProductName": "JPY/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -161,7 +171,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -191,8 +202,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AXS",
       "baseAssetClic": "AXS_CR",
+      "baseAssetEntityId": "crypto-AXS",
       "blockchainName": "Binance",
       "clicProductName": "AXS/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -201,7 +214,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -232,8 +246,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "uniBTC",
       "baseAssetClic": "uniBTC_CR",
+      "baseAssetEntityId": "crypto-uniBTC",
       "blockchainName": "Binance",
       "clicProductName": "uniBTC/BTC-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -272,8 +288,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "INR",
       "baseAssetClic": "INR_FX",
+      "baseAssetEntityId": "forex-INR",
       "blockchainName": "Binance",
       "clicProductName": "INR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -282,7 +300,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -312,8 +331,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LTC",
       "baseAssetClic": "LTC_CR",
+      "baseAssetEntityId": "crypto-LTC",
       "blockchainName": "Binance",
       "clicProductName": "LTC/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -322,12 +343,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x11597064EE0934DF245b48913d486836fc6B5DbF",
     "contractType": "",
@@ -352,7 +373,10 @@
     "feedCategory": "medium",
     "feedType": "",
     "docs": {
-      "marketHours": "Crypto"
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-USDf",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -384,7 +408,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "enzoBTC",
+      "baseAssetEntityId": "crypto-enzoBTC",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Lorenzo",
@@ -428,8 +454,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FIL",
       "baseAssetClic": "FIL_CR",
+      "baseAssetEntityId": "crypto-FIL",
       "blockchainName": "Binance",
       "clicProductName": "FIL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -438,7 +466,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -468,8 +497,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "savBTC",
       "baseAssetClic": "savBTC_CR",
+      "baseAssetEntityId": "crypto-savBTC",
       "blockchainName": "Binance",
       "clicProductName": "savBTC/avBTC-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -510,8 +541,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WING",
       "baseAssetClic": "WING_CR",
+      "baseAssetEntityId": "crypto-WING",
       "blockchainName": "Binance",
       "clicProductName": "WING/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -521,7 +554,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -551,8 +585,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Binance",
       "clicProductName": "SUSDE/USDE-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -594,8 +630,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "COIN",
       "baseAssetClic": "COIN_EQ",
+      "baseAssetEntityId": "equity-COIN",
       "blockchainName": "Binance",
       "clicProductName": "COIN/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -604,7 +642,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -635,8 +674,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yUSD",
       "baseAssetClic": "yUSD_CR",
+      "baseAssetEntityId": "crypto-yUSD",
       "blockchainName": "Binance",
       "clicProductName": "yUSD/USD-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -675,8 +716,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRV",
       "baseAssetClic": "CRV_CR",
+      "baseAssetEntityId": "crypto-CRV",
       "blockchainName": "Binance",
       "clicProductName": "CRV/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -685,7 +728,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -716,8 +760,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "BUSD",
       "baseAssetClic": "BUSD_CR",
+      "baseAssetEntityId": "crypto-BUSD",
       "blockchainName": "Binance",
       "clicProductName": "BUSD/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -728,6 +774,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
       "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -759,8 +806,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "Binance",
       "clicProductName": "UNI/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -769,7 +818,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -800,8 +850,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "solvBTC",
       "baseAssetClic": "solvBTC_CR",
+      "baseAssetEntityId": "crypto-solvBTC",
       "blockchainName": "Binance",
       "clicProductName": "solvBTC/BTC-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -810,7 +862,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -840,8 +893,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "YFI",
       "baseAssetClic": "YFI_CR",
+      "baseAssetEntityId": "crypto-YFI",
       "blockchainName": "Binance",
       "clicProductName": "YFI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -850,7 +905,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -880,8 +936,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOGE",
       "baseAssetClic": "DOGE_CR",
+      "baseAssetEntityId": "crypto-DOGE",
       "blockchainName": "Binance",
       "clicProductName": "DOGE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -890,7 +948,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -921,8 +980,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
+      "baseAssetEntityId": "crypto-LBTC",
       "blockchainName": "Binance",
       "clicProductName": "LBTC/BTC-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -931,7 +992,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC"
     },
     "decimals": 8
   },
@@ -961,8 +1023,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "1INCH",
       "baseAssetClic": "1INCH_CR",
+      "baseAssetEntityId": "crypto-1INCH",
       "blockchainName": "Binance",
       "clicProductName": "1INCH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -971,7 +1035,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1000,7 +1065,11 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-USDX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1030,8 +1099,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CHR",
       "baseAssetClic": "CHR_CR",
+      "baseAssetEntityId": "crypto-CHR",
       "blockchainName": "Binance",
       "clicProductName": "CHR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1040,7 +1111,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1071,6 +1143,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real GDP — Percent Change (Annual Rate)",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -1106,8 +1180,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "Binance",
       "clicProductName": "DAI/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1117,6 +1193,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
       "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1149,8 +1226,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "NVDA",
       "baseAssetClic": "NVDA_EQ",
+      "baseAssetEntityId": "equity-NVDA",
       "blockchainName": "Binance",
       "clicProductName": "NVDA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1159,7 +1238,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1189,8 +1269,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "Binance",
       "clicProductName": "DOT/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1199,7 +1281,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -1229,8 +1312,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BAND",
       "baseAssetClic": "BAND_CR",
+      "baseAssetEntityId": "crypto-BAND",
       "blockchainName": "Binance",
       "clicProductName": "BAND/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1239,7 +1324,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -1269,8 +1355,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LISTA",
       "baseAssetClic": "LISTA_CR",
+      "baseAssetEntityId": "crypto-LISTA",
       "blockchainName": "Binance",
       "clicProductName": "LISTA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1279,7 +1367,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1310,17 +1399,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
+      "baseAssetEntityId": "commodity-XAG",
       "blockchainName": "Binance",
       "clicProductName": "XAG/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1350,8 +1442,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "calculated",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Binance",
       "clicProductName": "LINK/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1360,7 +1454,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -1391,8 +1486,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Binance",
       "clicProductName": "weETH/eETH-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1434,8 +1531,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "TSLA",
       "baseAssetClic": "TSLA_EQ",
+      "baseAssetEntityId": "equity-TSLA",
       "blockchainName": "Binance",
       "clicProductName": "TSLA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1444,7 +1543,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1474,8 +1574,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ADA",
       "baseAssetClic": "ADA_CR",
+      "baseAssetEntityId": "crypto-ADA",
       "blockchainName": "Binance",
       "clicProductName": "ADA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1484,7 +1586,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1515,8 +1618,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Binance",
       "clicProductName": "USDC/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1526,6 +1631,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1556,7 +1662,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-sUSDX",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 18
   },
@@ -1586,8 +1695,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WIN",
       "baseAssetClic": "WIN_CR",
+      "baseAssetEntityId": "crypto-WIN",
       "blockchainName": "Binance",
       "clicProductName": "WIN/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1596,7 +1707,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1627,8 +1739,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "Binance",
       "clicProductName": "WSTETH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1638,6 +1752,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "STETH",
       "underlyingAssetClic": "STETH_CR"
     },
@@ -1669,8 +1784,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "Binance",
       "clicProductName": "UNI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1679,7 +1796,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1709,8 +1827,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
+      "baseAssetEntityId": "forex-EUR",
       "blockchainName": "Binance",
       "clicProductName": "EUR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1719,7 +1839,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1750,8 +1871,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "PFE",
       "baseAssetClic": "PFE_EQ",
+      "baseAssetEntityId": "equity-PFE",
       "blockchainName": "Binance",
       "clicProductName": "PFE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1760,7 +1883,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1790,8 +1914,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XVS",
       "baseAssetClic": "XVS_CR",
+      "baseAssetEntityId": "crypto-XVS",
       "blockchainName": "Binance",
       "clicProductName": "XVS/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1800,12 +1926,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x48dB0aDEABFaCc84d567CD520e48c1F677d05311",
     "contractType": "",
@@ -1832,8 +1958,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USD1",
       "baseAssetClic": "USD1_CR",
+      "baseAssetEntityId": "crypto-USD1",
       "blockchainName": "Binance",
       "clicProductName": "USD1/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1843,6 +1971,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1875,8 +2004,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Binance",
       "clicProductName": "USDT/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1886,6 +2017,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
       "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1917,8 +2049,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "KAVA",
       "baseAssetClic": "KAVA_CR",
+      "baseAssetEntityId": "crypto-KAVA",
       "blockchainName": "Binance",
       "clicProductName": "KAVA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -1927,7 +2061,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1957,7 +2092,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Money Market Fund",
+      "attributeType": "smartdata_nav",
       "baseAsset": "CASH+",
+      "baseAssetEntityId": "money market fund-CASH+",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Asseto",
@@ -1994,8 +2131,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Binance",
       "clicProductName": "ETH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2004,7 +2143,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2075,8 +2215,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ONT",
       "baseAssetClic": "ONT_CR",
+      "baseAssetEntityId": "crypto-ONT",
       "blockchainName": "Binance",
       "clicProductName": "ONT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2085,7 +2227,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2115,8 +2258,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Binance",
       "clicProductName": "BTC/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2125,7 +2270,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -2156,8 +2302,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "PAXG",
       "baseAssetClic": "PAXG_CR",
+      "baseAssetEntityId": "crypto-PAXG",
       "blockchainName": "Binance",
       "clicProductName": "PAXG/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2167,6 +2315,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "XAU",
       "underlyingAssetClic": "XAU_CO"
     },
@@ -2198,8 +2347,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "MXN",
       "baseAssetClic": "MXN_FX",
+      "baseAssetEntityId": "forex-MXN",
       "blockchainName": "Binance",
       "clicProductName": "MXN/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2208,7 +2359,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2238,8 +2390,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BETH",
       "baseAssetClic": "BETH_CR",
+      "baseAssetEntityId": "crypto-BETH",
       "blockchainName": "Binance",
       "clicProductName": "BETH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2249,7 +2403,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2279,8 +2434,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "KNC",
       "baseAssetClic": "KNC_CR",
+      "baseAssetEntityId": "crypto-KNC",
       "blockchainName": "Binance",
       "clicProductName": "KNC/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2289,7 +2446,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2320,8 +2478,10 @@
     "docs": {
       "assetClass": "ETF",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "SPY",
       "baseAssetClic": "SPY_EQ",
+      "baseAssetEntityId": "equity-SPY",
       "blockchainName": "Binance",
       "clicProductName": "SPY/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2330,7 +2490,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2360,8 +2521,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ATOM",
       "baseAssetClic": "ATOM_CR",
+      "baseAssetEntityId": "crypto-ATOM",
       "blockchainName": "Binance",
       "clicProductName": "ATOM/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2370,7 +2533,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2400,8 +2564,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SPELL",
       "baseAssetClic": "SPELL_CR",
+      "baseAssetEntityId": "crypto-SPELL",
       "blockchainName": "Binance",
       "clicProductName": "SPELL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2410,7 +2576,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2440,8 +2607,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "SUSD1+",
       "baseAssetClic": "SUSD1+_CR",
+      "baseAssetEntityId": "crypto-SUSD1+",
       "blockchainName": "Binance",
       "clicProductName": "SUSD1+/USD1-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2482,8 +2651,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUSHI",
       "baseAssetClic": "SUSHI_CR",
+      "baseAssetEntityId": "crypto-SUSHI",
       "blockchainName": "Binance",
       "clicProductName": "SUSHI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2492,7 +2663,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2522,8 +2694,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Binance",
       "clicProductName": "BTC/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2532,7 +2706,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2562,8 +2737,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "C98",
       "baseAssetClic": "C98_CR",
+      "baseAssetEntityId": "crypto-C98",
       "blockchainName": "Binance",
       "clicProductName": "C98/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2572,7 +2749,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2600,7 +2778,10 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "attributeType": "smartdata_nav",
+      "baseAssetEntityId": "nan-JAAA"
+    },
     "decimals": 6
   },
   {
@@ -2629,7 +2810,9 @@
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "smartdata_nav",
       "baseAsset": "xSolvBTC",
+      "baseAssetEntityId": "crypto-xSolvBTC",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Solv",
@@ -2666,8 +2849,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TWT",
       "baseAssetClic": "TWT_CR",
+      "baseAssetEntityId": "crypto-TWT",
       "blockchainName": "Binance",
       "clicProductName": "TWT/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2676,7 +2861,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -2706,8 +2892,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SHIB",
       "baseAssetClic": "SHIB_CR",
+      "baseAssetEntityId": "crypto-SHIB",
       "blockchainName": "Binance",
       "clicProductName": "SHIB/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2716,7 +2904,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2747,8 +2936,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Binance",
       "clicProductName": "EZETH/ETH-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2758,6 +2949,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -2790,8 +2982,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yETH",
       "baseAssetClic": "yETH_CR",
+      "baseAssetEntityId": "crypto-yETH",
       "blockchainName": "Binance",
       "clicProductName": "yETH/ETH-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2832,8 +3026,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "PHP",
       "baseAssetClic": "PHP_FX",
+      "baseAssetEntityId": "forex-PHP",
       "blockchainName": "Binance",
       "clicProductName": "PHP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2842,7 +3038,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2872,8 +3069,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SOL",
       "baseAssetClic": "SOL_CR",
+      "baseAssetEntityId": "crypto-SOL",
       "blockchainName": "Binance",
       "clicProductName": "SOL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2882,7 +3081,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2912,8 +3112,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CAKE",
       "baseAssetClic": "CAKE_CR",
+      "baseAssetEntityId": "crypto-CAKE",
       "blockchainName": "Binance",
       "clicProductName": "CAKE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2922,7 +3124,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2952,8 +3155,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CFX",
       "baseAssetClic": "CFX_CR",
+      "baseAssetEntityId": "crypto-CFX",
       "blockchainName": "Binance",
       "clicProductName": "CFX/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -2962,7 +3167,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -2993,8 +3199,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Binance",
       "clicProductName": "EZETH/ETH-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3035,8 +3243,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "INJ",
       "baseAssetClic": "INJ_CR",
+      "baseAssetEntityId": "crypto-INJ",
       "blockchainName": "Binance",
       "clicProductName": "INJ/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3045,7 +3255,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3074,7 +3285,10 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-slisBNB",
+      "hidden": true,
+      "marketHours": "Crypto"
     },
     "decimals": 18
   },
@@ -3105,6 +3319,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-PCE Price Index — Percent Change (Annual Rate)",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -3140,8 +3356,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "calculated",
       "baseAsset": "SAVAX",
       "baseAssetClic": "SAVAX_CR",
+      "baseAssetEntityId": "crypto-SAVAX",
       "blockchainName": "Binance",
       "clicProductName": "SAVAX/USD-CalcPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3151,6 +3369,7 @@
       "productTypeCode": "CalcPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "AVAX",
       "underlyingAssetClic": "AVAX_CR"
     },
@@ -3182,8 +3401,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX",
+      "baseAssetEntityId": "forex-GBP",
       "blockchainName": "Binance",
       "clicProductName": "GBP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3192,7 +3413,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3222,8 +3444,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BAND",
       "baseAssetClic": "BAND_CR",
+      "baseAssetEntityId": "crypto-BAND",
       "blockchainName": "Binance",
       "clicProductName": "BAND/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3232,7 +3456,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3262,8 +3487,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Binance",
       "clicProductName": "ETH/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3272,7 +3499,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -3302,8 +3530,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "POL",
       "baseAssetClic": "POL_CR",
+      "baseAssetEntityId": "crypto-POL",
       "blockchainName": "Binance",
       "clicProductName": "POL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3312,7 +3542,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3342,8 +3573,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DODO",
       "baseAssetClic": "DODO_CR",
+      "baseAssetEntityId": "crypto-DODO",
       "blockchainName": "Binance",
       "clicProductName": "DODO/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3352,7 +3585,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3382,8 +3616,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Binance",
       "clicProductName": "BTC/ETH-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3392,7 +3628,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR"
+      "quoteAssetClic": "ETH_CR",
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -3423,8 +3660,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "BUSD",
       "baseAssetClic": "BUSD_CR",
+      "baseAssetEntityId": "crypto-BUSD",
       "blockchainName": "Binance",
       "clicProductName": "BUSD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3435,6 +3674,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -3466,18 +3706,21 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "THB",
       "baseAssetClic": "THB_FX",
+      "baseAssetEntityId": "forex-THB",
       "blockchainName": "Binance",
       "clicProductName": "THB/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
       "hidden": true,
-      "marketHours": "Forex_THB",
+      "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3507,8 +3750,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XTZ",
       "baseAssetClic": "XTZ_CR",
+      "baseAssetEntityId": "crypto-XTZ",
       "blockchainName": "Binance",
       "clicProductName": "XTZ/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3517,7 +3762,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -3547,8 +3793,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SXP",
       "baseAssetClic": "SXP_CR",
+      "baseAssetEntityId": "crypto-SXP",
       "blockchainName": "Binance",
       "clicProductName": "SXP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3557,7 +3805,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3587,8 +3836,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WOO",
       "baseAssetClic": "WOO_CR",
+      "baseAssetEntityId": "crypto-WOO",
       "blockchainName": "Binance",
       "clicProductName": "WOO/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3597,7 +3848,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3627,6 +3879,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-PCE Price Index — Level",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -3662,8 +3916,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstUSR",
       "baseAssetClic": "wstUSR_CR",
+      "baseAssetEntityId": "crypto-wstUSR",
       "blockchainName": "Binance",
       "clicProductName": "wstUSR/stUSR-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3705,8 +3961,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "MS",
       "baseAssetClic": "MS_EQ",
+      "baseAssetEntityId": "equity-MS",
       "blockchainName": "Binance",
       "clicProductName": "MS/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3715,7 +3973,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3746,8 +4005,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "exchange_rate",
       "baseAsset": "sUSDf",
       "baseAssetClic": "sUSDf_CR",
+      "baseAssetEntityId": "crypto-sUSDf",
       "blockchainName": "Binance",
       "clicProductName": "sUSDf/USDf-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3763,7 +4024,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x91d5fFD8e7060a137925ceD9ad80Dd1979254107",
     "contractType": "",
@@ -3790,8 +4050,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Binance",
       "clicProductName": "USR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3801,6 +4063,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -3832,8 +4095,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XRP",
       "baseAssetClic": "XRP_CR",
+      "baseAssetEntityId": "crypto-XRP",
       "blockchainName": "Binance",
       "clicProductName": "XRP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3842,7 +4107,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3872,8 +4138,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
       "baseAssetClic": "LINK_CR",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Binance",
       "clicProductName": "LINK/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3882,7 +4150,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3912,8 +4181,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AAVE",
       "baseAssetClic": "AAVE_CR",
+      "baseAssetEntityId": "crypto-AAVE",
       "blockchainName": "Binance",
       "clicProductName": "AAVE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3922,7 +4193,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3952,8 +4224,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX",
+      "baseAssetEntityId": "forex-AUD",
       "blockchainName": "Binance",
       "clicProductName": "AUD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -3962,7 +4236,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -3992,8 +4267,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TREE",
       "baseAssetClic": "TREE_CR",
+      "baseAssetEntityId": "crypto-TREE",
       "blockchainName": "Binance",
       "clicProductName": "TREE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4002,7 +4279,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4033,8 +4311,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "VAI",
       "baseAssetClic": "VAI_CR",
+      "baseAssetEntityId": "crypto-VAI",
       "blockchainName": "Binance",
       "clicProductName": "VAI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4045,6 +4325,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -4076,8 +4357,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "ZBU",
       "baseAssetClic": "ZBU_CR",
+      "baseAssetEntityId": "crypto-ZBU",
       "blockchainName": "Binance",
       "clicProductName": "ZBU/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4086,7 +4369,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4117,7 +4401,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "SolvBTC",
+      "baseAssetEntityId": "crypto-SolvBTC",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Solv Protocol",
@@ -4161,8 +4447,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FET",
       "baseAssetClic": "FET_CR",
+      "baseAssetEntityId": "crypto-FET",
       "blockchainName": "Binance",
       "clicProductName": "FET/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4171,7 +4459,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4200,12 +4489,15 @@
     "feedCategory": "high",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "attributeType": "dex_state_price",
+      "baseAssetEntityId": "crypto-LISUSD",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xA688159231ff28B279a7C0a3dFcb50de83AF9875",
     "contractType": "",
@@ -4231,8 +4523,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "BR",
       "baseAssetClic": "BR_CR",
+      "baseAssetEntityId": "crypto-BR",
       "blockchainName": "Binance",
       "clicProductName": "BR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4241,7 +4535,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18
   },
@@ -4271,8 +4566,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "VET",
       "baseAssetClic": "VET_CR",
+      "baseAssetEntityId": "crypto-VET",
       "blockchainName": "Binance",
       "clicProductName": "VET/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4281,7 +4578,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4311,8 +4609,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
+      "baseAssetEntityId": "forex-CHF",
       "blockchainName": "Binance",
       "clicProductName": "CHF/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4321,7 +4621,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4352,8 +4653,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "WSRUSD",
       "baseAssetClic": "WSRUSD_CR",
+      "baseAssetEntityId": "crypto-WSRUSD",
       "blockchainName": "Binance",
       "clicProductName": "WSRUSD/RUSD-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4394,8 +4697,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "ZAR",
       "baseAssetClic": "ZAR_FX",
+      "baseAssetEntityId": "forex-ZAR",
       "blockchainName": "Binance",
       "clicProductName": "ZAR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4404,7 +4709,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4434,6 +4740,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -4467,8 +4774,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "GME",
       "baseAssetClic": "GME_EQ",
+      "baseAssetEntityId": "equity-GME",
       "blockchainName": "Binance",
       "clicProductName": "GME/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4477,7 +4786,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4507,8 +4817,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ADA",
       "baseAssetClic": "ADA_CR",
+      "baseAssetEntityId": "crypto-ADA",
       "blockchainName": "Binance",
       "clicProductName": "ADA/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4517,7 +4829,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -4548,8 +4861,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "TUSD",
       "baseAssetClic": "TUSD_CR",
+      "baseAssetEntityId": "crypto-TUSD",
       "blockchainName": "Binance",
       "clicProductName": "TUSD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4559,6 +4874,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -4590,8 +4906,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "FXS",
       "baseAssetClic": "FXS_CR",
+      "baseAssetEntityId": "crypto-FXS",
       "blockchainName": "Binance",
       "clicProductName": "FXS/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4600,7 +4918,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4631,8 +4950,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "wstETH",
       "baseAssetClic": "wstETH_CR",
+      "baseAssetEntityId": "crypto-wstETH",
       "blockchainName": "Binance",
       "clicProductName": "wstETH/stETH-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4672,8 +4993,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "SolvBTC.BBN",
       "baseAssetClic": "SolvBTC.BBN_CR",
+      "baseAssetEntityId": "crypto-SolvBTC.BBN",
       "blockchainName": "Binance",
       "clicProductName": "SolvBTC.BBN/SolvBTC-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4712,8 +5035,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XRP",
       "baseAssetClic": "XRP_CR",
+      "baseAssetEntityId": "crypto-XRP",
       "blockchainName": "Binance",
       "clicProductName": "XRP/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4722,7 +5047,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -4753,6 +5079,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real Final Sales to Private Domestic Purchasers — Level",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -4788,8 +5116,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "FDUSD",
       "baseAssetClic": "FDUSD_CR",
+      "baseAssetEntityId": "crypto-FDUSD",
       "blockchainName": "Binance",
       "clicProductName": "FDUSD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4799,6 +5129,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -4830,8 +5161,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MASK",
       "baseAssetClic": "MASK_CR",
+      "baseAssetEntityId": "crypto-MASK",
       "blockchainName": "Binance",
       "clicProductName": "MASK/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4840,7 +5173,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4870,8 +5204,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XVS",
       "baseAssetClic": "XVS_CR",
+      "baseAssetEntityId": "crypto-XVS",
       "blockchainName": "Binance",
       "clicProductName": "XVS/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4880,7 +5216,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4910,8 +5247,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ONG",
       "baseAssetClic": "ONG_CR",
+      "baseAssetEntityId": "crypto-ONG",
       "blockchainName": "Binance",
       "clicProductName": "ONG/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4920,7 +5259,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4950,8 +5290,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ICP",
       "baseAssetClic": "ICP_CR",
+      "baseAssetEntityId": "crypto-ICP",
       "blockchainName": "Binance",
       "clicProductName": "ICP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -4960,7 +5302,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -4992,7 +5335,9 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "smartdata_por",
       "baseAsset": "stBTC",
+      "baseAssetEntityId": "crypto-stBTC",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "issuer": "Lorenzo",
@@ -5037,8 +5382,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDE",
       "baseAssetClic": "USDE_CR",
+      "baseAssetEntityId": "crypto-USDE",
       "blockchainName": "Binance",
       "clicProductName": "USDE/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5048,6 +5395,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -5080,8 +5428,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "JPM",
       "baseAssetClic": "JPM_EQ",
+      "baseAssetEntityId": "equity-JPM",
       "blockchainName": "Binance",
       "clicProductName": "JPM/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5090,12 +5440,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xE32a07284c55691f0a0A8F87AB45C88119Ca5CB1",
     "contractType": "",
@@ -5121,8 +5471,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ASTER",
       "baseAssetClic": "ASTER_CR",
+      "baseAssetEntityId": "crypto-ASTER",
       "blockchainName": "Binance",
       "clicProductName": "ASTER/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5131,12 +5483,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xE8E834A995E428eDcf4A8D321a917DCfe945c987",
     "contractType": "",
@@ -5162,8 +5514,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "WLFI",
       "baseAssetClic": "WLFI_CR",
+      "baseAssetEntityId": "crypto-WLFI",
       "blockchainName": "Binance",
       "clicProductName": "WLFI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5172,12 +5526,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xEb2Fb95866285e731E2666669Cb6C362C3Ad06CD",
     "contractType": "",
@@ -5204,8 +5558,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "MUSD",
       "baseAssetClic": "MUSD_CR",
+      "baseAssetEntityId": "crypto-MUSD",
       "blockchainName": "Binance",
       "clicProductName": "MUSD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5215,6 +5571,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -5246,8 +5603,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "RDNT",
       "baseAssetClic": "RDNT_CR",
+      "baseAssetEntityId": "crypto-RDNT",
       "blockchainName": "Binance",
       "clicProductName": "RDNT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5256,7 +5615,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5287,8 +5647,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "GOOGL",
       "baseAssetClic": "GOOGL_EQ",
+      "baseAssetEntityId": "equity-GOOGL",
       "blockchainName": "Binance",
       "clicProductName": "GOOGL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5297,7 +5659,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5328,8 +5691,10 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Future",
+      "attributeType": "rwa_price",
       "baseAsset": "WTI",
       "baseAssetClic": "WTI_CO",
+      "baseAssetEntityId": "commodity-WTI",
       "blockchainName": "Binance",
       "clicProductName": "WTI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5338,7 +5703,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5368,8 +5734,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "HIGH",
       "baseAssetClic": "HIGH_CR",
+      "baseAssetEntityId": "crypto-HIGH",
       "blockchainName": "Binance",
       "clicProductName": "HIGH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5378,7 +5746,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5406,7 +5775,10 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "attributeType": "smartdata_nav",
+      "baseAssetEntityId": "nan-JTRSY"
+    },
     "decimals": 6
   },
   {
@@ -5435,8 +5807,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BCH",
       "baseAssetClic": "BCH_CR",
+      "baseAssetEntityId": "crypto-BCH",
       "blockchainName": "Binance",
       "clicProductName": "BCH/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5445,7 +5819,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -5475,8 +5850,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "MATIC",
       "baseAssetClic": "MATIC_CR",
+      "baseAssetEntityId": "crypto-MATIC",
       "blockchainName": "Binance",
       "clicProductName": "MATIC/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5486,7 +5863,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5516,8 +5894,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BSW",
       "baseAssetClic": "BSW_CR",
+      "baseAssetEntityId": "crypto-BSW",
       "blockchainName": "Binance",
       "clicProductName": "BSW/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5526,7 +5906,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5595,8 +5976,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BNB",
       "baseAssetClic": "BNB_CR",
+      "baseAssetEntityId": "crypto-BNB",
       "blockchainName": "Binance",
       "clicProductName": "BNB/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5605,7 +5988,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5636,8 +6020,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "AMZN",
       "baseAssetClic": "AMZN_EQ",
+      "baseAssetEntityId": "equity-AMZN",
       "blockchainName": "Binance",
       "clicProductName": "AMZN/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5646,7 +6032,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5677,8 +6064,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "calculated",
       "baseAsset": "BNBX",
       "baseAssetClic": "BNBX_CR",
+      "baseAssetEntityId": "crypto-BNBX",
       "blockchainName": "Binance",
       "clicProductName": "BNBX/USD-CalcPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5688,6 +6077,7 @@
       "productTypeCode": "CalcPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BNB",
       "underlyingAssetClic": "BNB_CR"
     },
@@ -5719,8 +6109,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AVAX",
       "baseAssetClic": "AVAX_CR",
+      "baseAssetEntityId": "crypto-AVAX",
       "blockchainName": "Binance",
       "clicProductName": "AVAX/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5729,7 +6121,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5760,8 +6153,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "AAPL",
       "baseAssetClic": "AAPL_EQ",
+      "baseAssetEntityId": "equity-AAPL",
       "blockchainName": "Binance",
       "clicProductName": "AAPL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5770,7 +6165,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5801,8 +6197,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "FRAX",
       "baseAssetClic": "FRAX_CR",
+      "baseAssetEntityId": "crypto-FRAX",
       "blockchainName": "Binance",
       "clicProductName": "FRAX/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5812,6 +6210,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -5843,8 +6242,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "COMP",
       "baseAssetClic": "COMP_CR",
+      "baseAssetEntityId": "crypto-COMP",
       "blockchainName": "Binance",
       "clicProductName": "COMP/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5853,7 +6254,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -5884,8 +6286,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "STONE",
       "baseAssetClic": "STONE_CR",
+      "baseAssetEntityId": "crypto-STONE",
       "blockchainName": "Binance",
       "clicProductName": "STONE/ETH-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5927,8 +6331,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Binance",
       "clicProductName": "USDC/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5938,6 +6344,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
       "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -5969,8 +6376,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XTZ",
       "baseAssetClic": "XTZ_CR",
+      "baseAssetEntityId": "crypto-XTZ",
       "blockchainName": "Binance",
       "clicProductName": "XTZ/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -5979,7 +6388,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6009,8 +6419,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "GMT",
       "baseAssetClic": "GMT_CR",
+      "baseAssetEntityId": "crypto-GMT",
       "blockchainName": "Binance",
       "clicProductName": "GMT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6019,7 +6431,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6049,8 +6462,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "NEAR",
       "baseAssetClic": "NEAR_CR",
+      "baseAssetEntityId": "crypto-NEAR",
       "blockchainName": "Binance",
       "clicProductName": "NEAR/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6059,7 +6474,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6090,8 +6506,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "MSFT",
       "baseAssetClic": "MSFT_EQ",
+      "baseAssetEntityId": "equity-MSFT",
       "blockchainName": "Binance",
       "clicProductName": "MSFT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6100,7 +6518,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6131,8 +6550,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Binance",
       "clicProductName": "USDT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6142,6 +6563,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -6174,8 +6596,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "META",
       "baseAssetClic": "META_EQ",
+      "baseAssetEntityId": "equity-META",
       "blockchainName": "Binance",
       "clicProductName": "META/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6184,7 +6608,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6255,8 +6680,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CAKE",
       "baseAssetClic": "CAKE_CR",
+      "baseAssetEntityId": "crypto-CAKE",
       "blockchainName": "Binance",
       "clicProductName": "CAKE/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6265,7 +6692,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -6296,8 +6724,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
+      "baseAssetEntityId": "crypto-DAI",
       "blockchainName": "Binance",
       "clicProductName": "DAI/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6307,6 +6737,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -6339,8 +6770,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "NFLX",
       "baseAssetClic": "NFLX_EQ",
+      "baseAssetEntityId": "equity-NFLX",
       "blockchainName": "Binance",
       "clicProductName": "NFLX/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6349,7 +6782,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6379,8 +6813,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "SGD",
       "baseAssetClic": "SGD_FX",
+      "baseAssetEntityId": "forex-SGD",
       "blockchainName": "Binance",
       "clicProductName": "SGD/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6389,7 +6825,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6419,8 +6856,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BCH",
       "baseAssetClic": "BCH_CR",
+      "baseAssetEntityId": "crypto-BCH",
       "blockchainName": "Binance",
       "clicProductName": "BCH/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6429,7 +6868,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6459,8 +6899,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "YFI",
       "baseAssetClic": "YFI_CR",
+      "baseAssetEntityId": "crypto-YFI",
       "blockchainName": "Binance",
       "clicProductName": "YFI/BNB-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6469,7 +6911,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "BNB",
-      "quoteAssetClic": "BNB_CR"
+      "quoteAssetClic": "BNB_CR",
+      "quoteAssetEntityId": "crypto-BNB"
     },
     "decimals": 18
   },
@@ -6500,8 +6943,10 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "MRNA",
       "baseAssetClic": "MRNA_EQ",
+      "baseAssetEntityId": "equity-MRNA",
       "blockchainName": "Binance",
       "clicProductName": "MRNA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6510,7 +6955,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6541,6 +6987,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -6575,8 +7023,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XLM",
       "baseAssetClic": "XLM_CR",
+      "baseAssetEntityId": "crypto-XLM",
       "blockchainName": "Binance",
       "clicProductName": "XLM/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6585,7 +7035,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6616,8 +7067,10 @@
     "docs": {
       "assetClass": "ETF",
       "assetSubClass": "US",
+      "attributeType": "rwa_price",
       "baseAsset": "QQQ",
       "baseAssetClic": "QQQ_EQ",
+      "baseAssetEntityId": "equity-QQQ",
       "blockchainName": "Binance",
       "clicProductName": "QQQ/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6626,7 +7079,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6657,8 +7111,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "yBTC",
       "baseAssetClic": "yBTC_CR",
+      "baseAssetEntityId": "crypto-yBTC",
       "blockchainName": "Binance",
       "clicProductName": "yBTC/BTC-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6699,8 +7155,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "exchange_rate",
       "baseAsset": "savUSD",
       "baseAssetClic": "savUSD_CR",
+      "baseAssetEntityId": "crypto-savUSD",
       "blockchainName": "Binance",
       "clicProductName": "savUSD/avUSD-ExRate-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6742,17 +7200,20 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "Binance",
       "clicProductName": "XAU/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6783,6 +7244,8 @@
     "feedType": "Macroeconomics",
     "docs": {
       "assetClass": "Macroeconomics",
+      "attributeType": "macroeconomics",
+      "baseAssetEntityId": "macroeconomics-Real GDP ",
       "blockchainName": "Binance",
       "deliveryChannelCode": "DF",
       "productSubType": "Reference",
@@ -6817,8 +7280,10 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
+      "attributeType": "rwa_price",
       "baseAsset": "BRL",
       "baseAssetClic": "BRL_FX",
+      "baseAssetEntityId": "forex-BRL",
       "blockchainName": "Binance",
       "clicProductName": "BRL/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6827,7 +7292,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -6857,8 +7323,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LTC",
       "baseAssetClic": "LTC_CR",
+      "baseAssetEntityId": "crypto-LTC",
       "blockchainName": "Binance",
       "clicProductName": "LTC/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
@@ -6867,7 +7335,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   }

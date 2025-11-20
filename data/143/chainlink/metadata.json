@@ -1,6 +1,5 @@
 [
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x0087d34545e1A9a62051c023A31B2193C21Cbf4F",
     "contractType": "",
@@ -27,8 +26,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDT",
       "baseAssetClic": "USDT_CR",
+      "baseAssetEntityId": "crypto-USDT",
       "blockchainName": "Monad",
       "clicProductName": "USDT/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -39,13 +40,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x060728Ec2e1e132279EBa0a79b2ffFE26AbAD65C",
     "contractType": "",
@@ -71,8 +72,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AVAX",
       "baseAssetClic": "AVAX_CR",
+      "baseAssetEntityId": "crypto-AVAX",
       "blockchainName": "Monad",
       "clicProductName": "AVAX/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -82,12 +85,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x097d4088e99c1a01a5713B079C898Fad852b9920",
     "contractType": "",
@@ -113,7 +116,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SUI",
+      "baseAssetEntityId": "crypto-SUI",
       "blockchainName": "Monad",
       "clicProductName": "SUI/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -123,12 +128,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x10da0c6188A7d74d8556e1d6A193D58721e5E102",
     "contractType": "",
@@ -154,8 +159,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SOL",
       "baseAssetClic": "SOL_CR",
+      "baseAssetEntityId": "crypto-SOL",
       "blockchainName": "Monad",
       "clicProductName": "SOL/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -165,12 +172,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x14ef5938Cb0D1164516DD71fC656A8294570Ca7e",
     "contractType": "",
@@ -197,8 +204,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "CBBTC",
       "baseAssetClic": "CBBTC_CR",
+      "baseAssetEntityId": "crypto-CBBTC",
       "blockchainName": "Monad",
       "clicProductName": "CBBTC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -209,13 +218,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x18d19FECf754B2F16301B9Cd9A4F3d3A3540Aaa2",
     "contractType": "",
@@ -241,8 +250,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOT",
       "baseAssetClic": "DOT_CR",
+      "baseAssetEntityId": "crypto-DOT",
       "blockchainName": "Monad",
       "clicProductName": "DOT/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -252,12 +263,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x19d7FD9167597e0338dece5F3DE95f1BE61FAc40",
     "contractType": "",
@@ -283,8 +294,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "RSETH",
       "baseAssetClic": "RSETH_CR",
+      "baseAssetEntityId": "crypto-RSETH",
       "blockchainName": "Monad",
       "clicProductName": "RSETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -294,12 +307,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x1d6533DdC0E46514afbeAB55a013D6ded720307C",
     "contractType": "",
@@ -326,8 +339,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "blockchainName": "Monad",
       "clicProductName": "WBTC/BTC-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -338,13 +353,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
+      "quoteAssetEntityId": "crypto-BTC",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x23c377a8f4d153803a9D7869d56d0A4aEFdEeA93",
     "contractType": "",
@@ -370,8 +385,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "POL",
       "baseAssetClic": "POL_CR",
+      "baseAssetEntityId": "crypto-POL",
       "blockchainName": "Monad",
       "clicProductName": "POL/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -381,12 +398,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x24b8BEAD860e19fA9650c349eC496eb4b09F7f9E",
     "contractType": "",
@@ -413,8 +430,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "weETH",
       "baseAssetClic": "weETH_CR",
+      "baseAssetEntityId": "crypto-weETH",
       "blockchainName": "Monad",
       "clicProductName": "weETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -425,13 +444,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x24f29BB8ec47674F1A0a9011116c41F867a94337",
     "contractType": "",
@@ -457,8 +476,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LTC",
       "baseAssetClic": "LTC_CR",
+      "baseAssetEntityId": "crypto-LTC",
       "blockchainName": "Monad",
       "clicProductName": "LTC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -468,12 +489,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x3b126914ad2f884A68b8C182129109eF2Bf97ab7",
     "contractType": "",
@@ -499,8 +520,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BERA",
       "baseAssetClic": "BERA_CR",
+      "baseAssetEntityId": "crypto-BERA",
       "blockchainName": "Monad",
       "clicProductName": "BERA/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -510,12 +533,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x3d21E2E680E2a60b440da427820aEe2391375EB7",
     "contractType": "",
@@ -541,8 +564,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ETH",
       "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
       "blockchainName": "Monad",
       "clicProductName": "ETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -552,12 +577,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x449aeeE17b0447Af2D2Cdf3334EBF1e15C886Fb9",
     "contractType": "",
@@ -584,8 +609,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USDC",
       "baseAssetClic": "USDC_CR",
+      "baseAssetEntityId": "crypto-USDC",
       "blockchainName": "Monad",
       "clicProductName": "USDC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -596,13 +623,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x44b9e53236b95Ca6Cfc1dAED893C5b312e596477",
     "contractType": "",
@@ -628,7 +655,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "LINK",
+      "baseAssetEntityId": "crypto-LINK",
       "blockchainName": "Monad",
       "clicProductName": "LINK/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -638,12 +667,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x4E14B7f0744a757F3c04Bfd7980721AEE3b7ea9F",
     "contractType": "",
@@ -670,8 +699,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "dex_state_price",
       "baseAsset": "WSTETH",
       "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
       "blockchainName": "Monad",
       "clicProductName": "WSTETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -682,13 +713,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "STETH",
       "underlyingAssetClic": "STETH_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x4b1DFE1e642d8786Af6D19d63CEAf0D5475EDdF8",
     "contractType": "",
@@ -715,8 +746,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "blockchainName": "Monad",
       "clicProductName": "USR/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -727,13 +760,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x5075Ea68c3D769723BC9CC23120A60e4026dD70F",
     "contractType": "",
@@ -759,8 +792,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "UNI",
       "baseAssetClic": "UNI_CR",
+      "baseAssetEntityId": "crypto-UNI",
       "blockchainName": "Monad",
       "clicProductName": "UNI/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -770,12 +805,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x5658EC04E7e6EF42B1C567AafC33Cd92751E1730",
     "contractType": "",
@@ -801,8 +836,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "NEAR",
       "baseAssetClic": "NEAR_CR",
+      "baseAssetEntityId": "crypto-NEAR",
       "blockchainName": "Monad",
       "clicProductName": "NEAR/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -812,12 +849,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x638405174C766b9d1797860fDF696732921179F5",
     "contractType": "",
@@ -844,8 +881,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "PYUSD",
       "baseAssetClic": "PYUSD_CR",
+      "baseAssetEntityId": "crypto-PYUSD",
       "blockchainName": "Monad",
       "clicProductName": "PYUSD/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -856,13 +895,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x68bA3f3b52b17bFCc8cFB9cB97Df14D6A0f96E5E",
     "contractType": "",
@@ -888,8 +927,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "HYPE",
       "baseAssetClic": "HYPE_CR",
+      "baseAssetEntityId": "crypto-HYPE",
       "blockchainName": "Monad",
       "clicProductName": "HYPE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -899,7 +940,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -930,8 +972,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Monad",
       "clicProductName": "EZETH/ETH-ExRate-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -947,7 +991,6 @@
     "decimals": 18
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x7bA2142854c5116D610AD2Eb45eB5435b875D08a",
     "contractType": "",
@@ -974,8 +1017,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDE",
       "baseAssetClic": "USDE_CR",
+      "baseAssetEntityId": "crypto-USDE",
       "blockchainName": "Monad",
       "clicProductName": "USDE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -986,13 +1031,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x7d12A857FB76396b3fF8749f6F832908E2DC55f5",
     "contractType": "",
@@ -1018,8 +1063,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
+      "baseAssetEntityId": "crypto-EZETH",
       "blockchainName": "Monad",
       "clicProductName": "EZETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1029,12 +1076,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x81Bf4bbD9910F95c18cf661752bD9a07629fe191",
     "contractType": "",
@@ -1060,8 +1107,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "AAVE",
       "baseAssetClic": "AAVE_CR",
+      "baseAssetEntityId": "crypto-AAVE",
       "blockchainName": "Monad",
       "clicProductName": "AAVE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1071,7 +1120,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1102,23 +1152,25 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
+      "baseAssetEntityId": "commodity-XAG",
       "blockchainName": "Monad",
       "clicProductName": "XAG/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
       "hidden": true,
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x8fB6979CCB8Cbe1596Ad712955aF201e0A29c26f",
     "contractType": "",
@@ -1144,8 +1196,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CAKE",
       "baseAssetClic": "CAKE_CR",
+      "baseAssetEntityId": "crypto-CAKE",
       "blockchainName": "Monad",
       "clicProductName": "CAKE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1155,12 +1209,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x900f68B165443A4aa1F8071471DFb8000df3bfF2",
     "contractType": "",
@@ -1186,8 +1240,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ADA",
       "baseAssetClic": "ADA_CR",
+      "baseAssetEntityId": "crypto-ADA",
       "blockchainName": "Monad",
       "clicProductName": "ADA/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1197,12 +1253,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0x91E70e5E0eAc9F07E3abd7B4b62173e6b67c30d8",
     "contractType": "",
@@ -1228,8 +1284,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "CRO",
       "baseAssetClic": "CRO_CR",
+      "baseAssetEntityId": "crypto-CRO",
       "blockchainName": "Monad",
       "clicProductName": "CRO/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1239,12 +1297,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xB5bE9cb264D299710F98c03f2604157E33E2c4cc",
     "contractType": "",
@@ -1270,7 +1328,9 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "OP",
+      "baseAssetEntityId": "crypto-OP",
       "blockchainName": "Monad",
       "clicProductName": "OP/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1279,12 +1339,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xB983b1b6f1Fc04030F9d8935DBBFd2a1239D00d9",
     "contractType": "",
@@ -1310,8 +1370,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SEI",
       "baseAssetClic": "SEI_CR",
+      "baseAssetEntityId": "crypto-SEI",
       "blockchainName": "Monad",
       "clicProductName": "SEI/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1321,12 +1383,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xBAf3aaECB1A4f8468D88c74cD014a3550F204970",
     "contractType": "",
@@ -1352,8 +1414,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BNB",
       "baseAssetClic": "BNB_CR",
+      "baseAssetEntityId": "crypto-BNB",
       "blockchainName": "Monad",
       "clicProductName": "BNB/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1363,12 +1427,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xBE1442Ec0a67D37D1e57c4940e0C0747cf7d55b9",
     "contractType": "",
@@ -1395,8 +1459,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
+      "attributeType": "cex_price",
       "baseAsset": "STETH",
       "baseAssetClic": "STETH_CR",
+      "baseAssetEntityId": "crypto-STETH",
       "blockchainName": "Monad",
       "clicProductName": "STETH/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1407,13 +1473,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xBb911c169033289187f70Af5c0DD8E6f643e4ADc",
     "contractType": "",
@@ -1439,8 +1505,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ARB",
       "baseAssetClic": "ARB_CR",
+      "baseAssetEntityId": "crypto-ARB",
       "blockchainName": "Monad",
       "clicProductName": "ARB/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1450,12 +1518,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xC64012057A58b91bF42361c7D50bA36C0255cb73",
     "contractType": "",
@@ -1481,8 +1549,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "TIA",
       "baseAssetClic": "TIA_CR",
+      "baseAssetEntityId": "crypto-TIA",
       "blockchainName": "Monad",
       "clicProductName": "TIA/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1492,12 +1562,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xC6D6f57EFe5Ce2769aF0e0D8708477e4819F92d0",
     "contractType": "",
@@ -1523,8 +1593,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "BTC",
       "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
       "blockchainName": "Monad",
       "clicProductName": "BTC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1534,12 +1606,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xCc973DAEf0A2d92BC99c21561b3FEa74DA033796",
     "contractType": "",
@@ -1566,8 +1638,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "cex_price",
       "baseAsset": "USD1",
       "baseAssetClic": "USD1_CR",
+      "baseAssetEntityId": "crypto-USD1",
       "blockchainName": "Monad",
       "clicProductName": "USD1/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1578,13 +1652,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xDfFa1693B3DDBE1A6a26c29B727e073a1D2A4Be5",
     "contractType": "",
@@ -1611,8 +1685,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDS",
       "baseAssetClic": "USDS_CR",
+      "baseAssetEntityId": "crypto-USDS",
       "blockchainName": "Monad",
       "clicProductName": "USDS/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1623,13 +1699,13 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xDfc4441DBBeD5F2A743C001F722BD8d4f587C8fb",
     "contractType": "",
@@ -1655,8 +1731,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "DOGE",
       "baseAssetClic": "DOGE_CR",
+      "baseAssetEntityId": "crypto-DOGE",
       "blockchainName": "Monad",
       "clicProductName": "DOGE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1666,12 +1744,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xE4DE4f111f6a015963589256A0EcC2F70Cb29BdA",
     "contractType": "",
@@ -1697,8 +1775,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "solvBTC",
       "baseAssetClic": "solvBTC_CR",
+      "baseAssetEntityId": "crypto-solvBTC",
       "blockchainName": "Monad",
       "clicProductName": "solvBTC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1708,12 +1788,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xF007B6D353302A6C49D18C35809faa031E94eFbB",
     "contractType": "",
@@ -1739,8 +1819,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "SHIB",
       "baseAssetClic": "SHIB_CR",
+      "baseAssetEntityId": "crypto-SHIB",
       "blockchainName": "Monad",
       "clicProductName": "SHIB/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1750,12 +1832,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xF43deF45aCd1C1c54937937591dDA64b43DD87C2",
     "contractType": "",
@@ -1781,8 +1863,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "APT",
       "baseAssetClic": "APT_CR",
+      "baseAssetEntityId": "crypto-APT",
       "blockchainName": "Monad",
       "clicProductName": "APT/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1792,12 +1876,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xF73F65C2DF4E1CB89f31DeE710A00627E6B9bbbC",
     "contractType": "",
@@ -1823,8 +1907,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
+      "baseAssetEntityId": "crypto-LBTC",
       "blockchainName": "Monad",
       "clicProductName": "LBTC/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1834,12 +1920,12 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0xFe3165008F7FFfc27cc2649c18FfcbB959F0495a",
     "contractType": "",
@@ -1865,8 +1951,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "dex_state_price",
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
+      "baseAssetEntityId": "crypto-SUSDE",
       "blockchainName": "Monad",
       "clicProductName": "SUSDE/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1877,6 +1965,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1909,23 +1998,25 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
+      "attributeType": "rwa_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
+      "baseAssetEntityId": "commodity-XAU",
       "blockchainName": "Monad",
       "clicProductName": "XAU/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
       "hidden": true,
-      "marketHours": "Precious_Metals",
+      "marketHours": "Precious_metals",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xd3f27362D951Cfb596242FFbA9c71E6c7d5d09AF",
     "contractType": "",
@@ -1951,8 +2042,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "S",
       "baseAssetClic": "S_CR",
+      "baseAssetEntityId": "crypto-S",
       "blockchainName": "Monad",
       "clicProductName": "S/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -1962,7 +2055,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1992,6 +2086,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "aave_network_emergency_count",
       "blockchainName": "Monad",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto"
@@ -1999,7 +2094,6 @@
     "decimals": 0
   },
   {
-    "benchmark": "cex-lwba",
     "compareOffchain": "",
     "contractAddress": "0xfd03e1bd18b11fA56c55582a91e8fc0bB0A1c27E",
     "contractType": "",
@@ -2025,8 +2119,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "XRP",
       "baseAssetClic": "XRP_CR",
+      "baseAssetEntityId": "crypto-XRP",
       "blockchainName": "Monad",
       "clicProductName": "XRP/USD-RefPrice-DF-Monad-001",
       "deliveryChannelCode": "DF",
@@ -2036,7 +2132,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   }
