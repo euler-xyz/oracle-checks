@@ -39135,6 +39135,303 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "FSXE/EUR-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "FSXE",
+      "EUR"
+    ],
+    "path": "fsxe-eur-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Micro-EURO STOXX 50 Index Futures | Expiry: 2025-DEC-19",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Micro-EURO STOXX 50 Index Futures | Expiry: 2025-DEC-19",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "FSXE",
+      "baseAssetClic": "FSXE_FU",
+      "clicProductName": "FSXE/EUR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Eurex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "EUR",
+      "quoteAssetClic": "EUR_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b16e74aae22dab50f13a4c6f6d10b7124fa83c6a82682d9a80593551093e5",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/TRY-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "TRY"
+    ],
+    "path": "usd-try-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Turkish lira",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Turkish lira",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/TRY-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "TRY",
+      "quoteAssetClic": "TRY_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b1a2c225c6789fbd2e25b1d85cc5d65cc12f0223d494725a0d12b22c07377",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/CNH-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "CNH"
+    ],
+    "path": "usd-cnh-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Chinese Yuan Renminbi Offshore",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Chinese Yuan Renminbi Offshore",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CNH-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "CNH",
+      "quoteAssetClic": "CNH_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b1cf526c8a45934ba30c0799fa49a6a3857b3ce8eeb2a9adb887292447d52",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "EUN5/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
       "EUN5",
@@ -39469,6 +39766,105 @@
     "feedId": "0x000b42ee57731b32d1d490c1424e819faf7bd8a65d3e08a4ea72d5f230222198",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/THB-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "THB"
+    ],
+    "path": "usd-thb-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Thai Baht",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Thai Baht",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/THB-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "THB",
+      "quoteAssetClic": "THB_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b54a1a4fc4489c50c4a38b690d7d94fe83c2c21d67e1b0e6b2b3477bbdc40",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -39927,6 +40323,699 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "EUR/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "EUR",
+      "USD"
+    ],
+    "path": "eur-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Euro",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Euro",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX",
+      "clicProductName": "EUR/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b73270ff3b97c1588b84d043baebf77d49adbf8a74d0801853469193c9153",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAU/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "XAU",
+      "USD"
+    ],
+    "path": "xau-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Gold",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Gold",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "XAU",
+      "baseAssetClic": "XAU_PM",
+      "clicProductName": "XAU/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "360T",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b742fc57739ab8b4e3b2cc44f84d7e5f059abe4325343af362b7d4872bb3d",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/JPY-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "JPY"
+    ],
+    "path": "usd-jpy-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Japanese Yen",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Japanese Yen",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/JPY-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b77970877e21c949f10b528e98e85c13bd4e1898f825316452aa03a6d752f",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/ILS-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "ILS"
+    ],
+    "path": "usd-ils-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Israeli Shekel",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Israeli Shekel",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ILS-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "ILS",
+      "quoteAssetClic": "ILS_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b7d27cd65f95c82e1f2cc52c9fbbb1a1db5931aac7dd2713a824a7b65dcb5",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/SEK-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "SEK"
+    ],
+    "path": "usd-sek-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Swedish Krona",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Swedish Krona",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/SEK-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "SEK",
+      "quoteAssetClic": "SEK_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b8ade6440c55e81b4fd81f38590f99d899af47f7314b8234d250170a56a63",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/PLN-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "PLN"
+    ],
+    "path": "usd-pln-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Polish złoty",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Polish złoty",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/PLN-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "PLN",
+      "quoteAssetClic": "PLN_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b918a43606d57c51ca83ea60b7ccd834c66ef33e91419ec459479c07e445c",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XPD/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "XPD",
+      "USD"
+    ],
+    "path": "xpd-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Palladium",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Palladium",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "XPD",
+      "baseAssetClic": "XPD_PM",
+      "clicProductName": "XPD/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "360T",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b93b6345567c79ecc8ac9e35589433d8360449c056516e573fda5c6c37e16",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "IS3N/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
       "IS3N",
@@ -39964,6 +41053,402 @@
     "feedId": "0x000b97b692470023467885f78f42ed8cb3a63a832c044230491b05430701759c",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "FSMS/EUR-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "FSMS",
+      "EUR"
+    ],
+    "path": "fsms-eur-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Micro-SMI Futures | Expiry: 2025-DEC-19",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Micro-SMI Futures | Expiry: 2025-DEC-19",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "FSMS",
+      "baseAssetClic": "FSMS_FU",
+      "clicProductName": "FSMS/EUR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Eurex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "EUR",
+      "quoteAssetClic": "EUR_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b9bc3f55599028285ec4371e8d174b2b9e59e8530d146d935daf057a90fe6",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/CAD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "CAD"
+    ],
+    "path": "usd-cad-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Canadian Dollar",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Canadian Dollar",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CAD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "CAD",
+      "quoteAssetClic": "CAD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000b9d6e8fcf17a4ac5ec8d5bed658b92447d354d21cae3fb0294ec822bf6ebd",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/INR-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "INR"
+    ],
+    "path": "usd-inr-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Indian Rupee",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Indian Rupee",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/INR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "INR",
+      "quoteAssetClic": "INR_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000ba826ccc07dfeef19bd927dc21a9f59ec12efa0006e53960cdb239b1c6ea1",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/SGD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "SGD"
+    ],
+    "path": "usd-sgd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Singapore Dollar",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Singapore Dollar",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/SGD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "SGD",
+      "quoteAssetClic": "SGD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000baa564ca72838e72face7375b72dcafc33bf95e12c91aa1a6ba0ea6a4b777",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -40125,6 +41610,402 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/ZAR-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "ZAR"
+    ],
+    "path": "usd-zar-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "South African Rand",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "South African Rand",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ZAR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "ZAR",
+      "quoteAssetClic": "ZAR_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bbbcdc52ebfe555f277ff2435a7940356503c14734034a24f1aa16e8b0183",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/HKD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "HKD"
+    ],
+    "path": "usd-hkd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hong Kong Dollar",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Hong Kong Dollar",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/HKD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "HKD",
+      "quoteAssetClic": "HKD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bbf046d2397f67477ee23f4a3ba78ed792a6544c59af1eb99b55e240d2ba7",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/NOK-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "NOK"
+    ],
+    "path": "usd-nok-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Norwegian Krone",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Norwegian Krone",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/NOK-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "NOK",
+      "quoteAssetClic": "NOK_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bbf45c2a6bf50c1f32fa0ecf7a63abc991377408591a71181b2f3f298bb87",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/DKK-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "DKK"
+    ],
+    "path": "usd-dkk-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Danish Krone",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Danish Krone",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/DKK-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "DKK",
+      "quoteAssetClic": "DKK_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bbfcf787363b237808f7ca87774dbfad950e88cd004c6f059d6574f60d0ef",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "IES/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
       "IES",
@@ -40162,6 +42043,699 @@
     "feedId": "0x000bc3d68259d5e111e7486a777b6af4019a514b27135790a7ad8fc588dbc4cb",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/CHF-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "CHF"
+    ],
+    "path": "usd-chf-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Swiss Franc",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Swiss Franc",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CHF-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "CHF",
+      "quoteAssetClic": "CHF_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bc42b83a9c927c593869342dcf94ab605600deda9e04a60eec951b5d6b9bf",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/CZK-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "CZK"
+    ],
+    "path": "usd-czk-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Czech Koruna",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Czech Koruna",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CZK-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "CZK",
+      "quoteAssetClic": "CZK_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bcef5f5f2d056ec07418c3c1be5483297c7a276784a8077748a8b5e65a3ec",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/MXN-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "USD",
+      "MXN"
+    ],
+    "path": "usd-mxn-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Mexican Peso",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Mexican Peso",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/MXN-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "MXN",
+      "quoteAssetClic": "MXN",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bd1243712c0d93c03e3f649c43f95cc99d2c047efd310bc070230a49ff3ac",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAG/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "XAG",
+      "USD"
+    ],
+    "path": "xag-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Silver",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Silver",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "XAG",
+      "baseAssetClic": "XAG_PM",
+      "clicProductName": "XAG/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "360T",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bd4825214ced01721d6f4c7c95b306d7ed90caa34daaeb58c739f1276d595",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XPT/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "XPT",
+      "USD"
+    ],
+    "path": "xpt-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Platinum",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Platinum",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "XPT",
+      "baseAssetClic": "XPT_PM",
+      "clicProductName": "XPT/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "360T",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bdb20ae745061d6ff81b59ac03701b92a9d1af1e1443ee8c9312cdc9b9d7b",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "FDXS/EUR-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "FDXS",
+      "EUR"
+    ],
+    "path": "fdxs-eur-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Micro-DAX Futures | Expiry: 2025-DEC-19",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Micro-DAX Futures | Expiry: 2025-DEC-19",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "FDXS",
+      "baseAssetClic": "FDXS_FU",
+      "clicProductName": "FDXS/EUR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Eurex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "EUR",
+      "quoteAssetClic": "EUR_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bde2374190e72f1810a4140f6d27a6df6ea5c90ce8cd1e3d8f38d2c358b22",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "GBP/USD-Datalink-DeutscheBoerse-mainnet-production",
+    "pair": [
+      "GBP",
+      "USD"
+    ],
+    "path": "gbp-usd-datalink-deutscheboerse-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "British Pound Sterling",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "British Pound Sterling",
+      "attributeType": "DeutscheBoerse",
+      "baseAsset": "GBP",
+      "baseAssetClic": "GBP_FX",
+      "clicProductName": "GBP/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Equities",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v11",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000bde8b1a91c8e225b7095d3fbfce113a3b70357848a594d2de165172266f0b",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
