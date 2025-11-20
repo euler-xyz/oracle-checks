@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x1003f197D740F759Ba3928820A9DF91C58Eb7D9A",
+  "chainId": 9745,
+  "base": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x3205B49b3C8c5D593589e1e70567993f72C5F845",
+  "maxStaleness": "22000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USDT0 (USDT0) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (22000 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "pass": false
+    }
+  ],
+  "label": "USDT0 / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}
