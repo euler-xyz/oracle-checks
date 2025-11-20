@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0xFBb43A0a68f52a60Cb9dF4A542c1020b2d0C3934",
+  "chainId": 1,
+  "base": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+  "quote": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+  "pendleMarket": "0x307c15f808914Df5a5DbE17E5608f84953fFa023",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x545A490f9ab534AdF409A2E682bc4098f49952e3 is PT-cUSD-29JAN2026 (PT cap USD 29JAN2026) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC is cUSD (cap USD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x307c15f808914Df5a5DbE17E5608f84953fFa023 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "cUSD",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

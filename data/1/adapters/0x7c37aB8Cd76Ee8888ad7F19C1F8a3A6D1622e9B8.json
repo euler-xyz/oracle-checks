@@ -15,8 +15,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
+      "message": "Adapter is whitelisted in the adapter registry.",
+      "pass": true
     },
     {
       "id": "Source code provenance",
@@ -59,5 +59,5 @@
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Lido Fundamental",
-  "whitelisted": false
+  "whitelisted": true
 }
