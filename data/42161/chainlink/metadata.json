@@ -44697,7 +44697,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Elixir deUSD",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -44716,6 +44716,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 1st, 2025",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -78851,14 +78852,14 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-USDX",
-      "hidden": true,
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 1st, 2025"
     },
     "decimals": 8
   },
