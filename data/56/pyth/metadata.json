@@ -2281,6 +2281,19 @@
     }
   },
   {
+    "id": "0xab7fce8eccc9b1ab1e1050efd235bbe53c61936698de3c4ad6f9ebd7814cfd8d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AUDD",
+      "description": "AUSTRALIAN DIGITAL DOLLAR / US DOLLAR",
+      "display_symbol": "AUDD/USD",
+      "generic_symbol": "AUDDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AUDD/USD"
+    }
+  },
+  {
     "id": "0x78cbd5130f1aab8120fa38d87c73852c1a2e59cf875b02e8bdca8b1960237c7b",
     "attributes": {
       "asset_type": "Equity",
@@ -8725,6 +8738,20 @@
     }
   },
   {
+    "id": "0xc55e7d4d6caae221f6244d0879532230cfc436b102742a8870c92d7d88a67d95",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SOLVBTC",
+      "contract_id": "eth: 0x4e25cfdc5f53c2CdeD13c1472E628eFd35c99C83",
+      "description": "SOLV PROTOCOL BITCOIN / BITCOIN REDEMPTION RATE",
+      "display_symbol": "SOLVBTC/BTC",
+      "generic_symbol": "SOLVBTCBTC",
+      "quote_currency": "BTC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SOLVBTC/BTC.RR"
+    }
+  },
+  {
     "id": "0x1a03ab0d591077fa67ad1bcf842942981de6ecb65e86309967e7a2b5b86d2025",
     "attributes": {
       "asset_type": "FX",
@@ -10276,6 +10303,19 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.GBP/JPY",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0xc6e12cd46d605b3762d21373d04f3a3ca81c321a48329a5e6e1c27c26f743c8d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "XSGD",
+      "description": "STRAITSX SINGAPORE DOLLAR / US DOLLAR",
+      "display_symbol": "XSGD/USD",
+      "generic_symbol": "XSGDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XSGD/USD"
     }
   },
   {
@@ -12334,6 +12374,20 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;1224/0930-1200,1225/C,1226/C,1231/0930-1200,0101/C",
       "symbol": "Equity.HK.2057-HK/HKD"
+    }
+  },
+  {
+    "id": "0x7fbf66b9b4e8b0e5723fc7001b00848c7d25225982ab33f6a5d111fdbf528001",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SMON",
+      "contract_id": "mon: 0xA3227C5969757783154C60bF0bC1944180ed81B9",
+      "description": "KINTSU STAKED MONAD / MONAD REDEMPTION RATE ",
+      "display_symbol": "SMON/MON",
+      "generic_symbol": "SMONMON",
+      "quote_currency": "MON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SMON/MON.RR"
     }
   },
   {
@@ -14946,6 +15000,20 @@
       "quote_currency": "ETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LSETH/ETH.RR"
+    }
+  },
+  {
+    "id": "0x57d1e11bea1316c2f7263a39c2780685691585aae34eff39300f5db564501b17",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "NALPHA",
+      "contract_id": "plume: 0x2Ed2f77a961fc92F73D1087786099c39C894Ed1D",
+      "description": "NEST ALPHA / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "NALPHA/USD",
+      "generic_symbol": "NALPHAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NALPHA/USD.RR"
     }
   },
   {
@@ -22981,6 +23049,19 @@
     }
   },
   {
+    "id": "0x28d8b5b2f29bf1cdfd3721c587e0cef8405553b237364c72f547d562aa2b267e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KNTQ",
+      "description": "KINETIQ / US DOLLAR",
+      "display_symbol": "KNTQ/USD",
+      "generic_symbol": "KNTQUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KNTQ/USD"
+    }
+  },
+  {
     "id": "0xb6d70f140303cf639be7f265964604d3557f94c1cc6f307fee30e3fd136cfde1",
     "attributes": {
       "asset_type": "Equity",
@@ -25482,7 +25563,7 @@
       "asset_type": "Crypto NAV",
       "base": "CHUSD",
       "contract_id": "plasma: 0x22222215d4EdC5510d23D0886133E7ece7F5fdC1",
-      "description": "CHATEAU US DOLLAR / USDT0 NET ASSET VALUE",
+      "description": "CHATEAU US DOLLAR / USDT0 COLLATERALIZATION",
       "display_symbol": "CHUSD/USDT0",
       "generic_symbol": "CHUSDUSDT0",
       "quote_currency": "USDT0",
@@ -26026,6 +26107,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.EEMV/USD"
+    }
+  },
+  {
+    "id": "0xf03015f29e6c90d5fe62da7d1a13c912c8bf7523d90c981387f82ee0c83332bd",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "NTBILL",
+      "contract_id": "plume: 0x0b738cd187872b265a689e8e4130c336e76892ec",
+      "description": "NEST TBILL / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "NTBILL/USD",
+      "generic_symbol": "NTBILLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NTBILL/USD.RR"
     }
   },
   {
@@ -29371,6 +29466,20 @@
     }
   },
   {
+    "id": "0xfd9397e6dfc968ff8eaa652c6e4b7dfdeb6fdc940afe90c23ca5acfa45d408e1",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "NBASIS",
+      "contract_id": "plume: 0xa67d20A49e6Fe68Cf97E556DB6b2f5DE1dF4dC2ff",
+      "description": "NEST BASIS / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "NBASIS/USD",
+      "generic_symbol": "NBASISUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NBASIS/USD.RR"
+    }
+  },
+  {
     "id": "0x91fc07facc1b1ec2e8336dfa66e2b5f0892af06f491c606f67690bf4c55aaee6",
     "attributes": {
       "asset_type": "Equity",
@@ -32166,6 +32275,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.FIGR/USD"
+    }
+  },
+  {
+    "id": "0x8858dfaa8998ff44681aa145a8aa5b7772979b1d044a1bbf3cf5d971168baa85",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "NOPAL",
+      "contract_id": "plume: 0xe0CF451d6E373FF04e8eE3c50340F18AFa6421E1",
+      "description": "NEST OPAL / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "NOPAL/USD",
+      "generic_symbol": "NOPALUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NOPAL/USD.RR"
     }
   },
   {
@@ -39110,6 +39233,19 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;1124/C,1231/C,0101/C,0102/C,0112/C",
       "symbol": "Equity.JP.6361/JPY"
+    }
+  },
+  {
+    "id": "0x2151936ba57b50e75a6798ad156edc88ce3ed8d04ed2df0a572fc02585b93d14",
+    "attributes": {
+      "asset_type": "Crypto NAV",
+      "base": "RCUSD+",
+      "description": "R25 STAKED US DOLLAR NAV / R25 US DOLLAR",
+      "display_symbol": "RCUSD+/RCUSD",
+      "generic_symbol": "RCUSD+RCUSD",
+      "quote_currency": "RCUSD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NAV.RCUSD+/RCUSD"
     }
   },
   {
