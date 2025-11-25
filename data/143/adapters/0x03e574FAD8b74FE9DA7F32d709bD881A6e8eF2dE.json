@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x03e574FAD8b74FE9DA7F32d709bD881A6e8eF2dE",
+  "chainId": 143,
+  "base": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x1C9582E87eD6E99bc23EC0e6Eb52eE9d7C0D6bcd",
+  "maxStaleness": "3600",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A is WMON (Wrapped MON) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "MON (0.5%, undefineds)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}

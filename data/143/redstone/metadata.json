@@ -10,6 +10,11 @@
     "deviationPercentage": 0.5
   },
   {
+    "symbol": "MON",
+    "priceFeedAddress": "0x1C9582E87eD6E99bc23EC0e6Eb52eE9d7C0D6bcd",
+    "deviationPercentage": 0.5
+  },
+  {
     "symbol": "USDC",
     "priceFeedAddress": "0x7A9b672fc20b5C89D6774514052b3e0899E5E263",
     "deviationPercentage": 0.05,
@@ -90,7 +95,7 @@
     "symbol": "aprMON_FUNDAMENTAL",
     "priceFeedAddress": "0x096073133355F874A7D0a857Ffac314dda4e0551",
     "deviationPercentage": 0.5,
-    "heartbeat": 86400
+    "heartbeat": 43200
   },
   {
     "symbol": "yzUSD_FUNDAMENTAL",
@@ -99,8 +104,8 @@
     "heartbeat": 86400
   },
   {
-    "symbol": "syzUSD_FUNDAMENTAL",
-    "priceFeedAddress": "0x92F0Bc1a73C721dd0d244B98eAbE251c3B96AD8e",
+    "symbol": "syzUSD_FUNDAMENTAL/USD",
+    "priceFeedAddress": "0xa79F7363FCa5118B4141eCeff6dd2A83d5047344",
     "deviationPercentage": 0.05,
     "heartbeat": 86400
   },
@@ -125,6 +130,12 @@
   {
     "symbol": "earnAUSD_FUNDAMENTAL",
     "priceFeedAddress": "0xD1136a8C1E5a8Ff204d6875b51158b5Ef1858f60",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "gMON_FUNDAMENTAL",
+    "priceFeedAddress": "0x8C9f39f0D08EE284a4Fe0198524fE7C28630CEAb",
     "deviationPercentage": 0.5,
     "heartbeat": 86400
   }
