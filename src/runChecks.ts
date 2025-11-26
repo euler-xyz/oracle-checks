@@ -106,6 +106,7 @@ export function runChecks({
         chainlinkMetadata,
         redstoneMetadata,
         eoracleMetadata,
+        quoteAsset: assets.find((asset) => asset.address === adapter.quote),
         otherRecognizedAggregatorV3Feeds,
       });
       label = aggregatorV3FeedCheck.label;

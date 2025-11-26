@@ -1,4 +1,5 @@
 import {
+  Asset,
   ChainlinkMetadata,
   ChainlinkInfrequentOracle,
   ChainlinkOracle,
@@ -16,6 +17,7 @@ type Params = {
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
   eoracleMetadata?: EOracleMetadata;
+  quoteAsset?: Asset;
   otherRecognizedAggregatorV3Feeds: Record<
     Address,
     { provider: string; description: string; threshold?: number; heartbeat?: number }
@@ -27,6 +29,7 @@ export function knownAggregatorV3Feed({
   chainlinkMetadata,
   redstoneMetadata,
   eoracleMetadata,
+  quoteAsset,
   otherRecognizedAggregatorV3Feeds,
 }: Params): {
   result: CheckResultWithId;
@@ -66,12 +69,26 @@ export function knownAggregatorV3Feed({
     };
   } else if (matchingRedstoneFeed) {
     const isExchangeRate = matchingRedstoneFeed.symbol.includes("FUNDAMENTAL");
+
+    const heartbeatLabel =
+      matchingRedstoneFeed.heartbeat !== undefined
+        ? `${matchingRedstoneFeed.heartbeat}s`
+        : "Unknown";
+
+    // If the adapter's quote asset is a special designator (e.g. USD, EUR, TRY, BTC),
+    // append it to the RedStone symbol like "ETH/USD".
+    const specialDesignatorSymbols = ["USD", "EUR", "TRY", "BTC"];
+    const symbolWithQuote =
+      quoteAsset && specialDesignatorSymbols.includes(quoteAsset.symbol)
+        ? `${matchingRedstoneFeed.symbol}/${quoteAsset.symbol}`
+        : matchingRedstoneFeed.symbol;
+
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
         `Adapter is connected to an official RedStone Push feed: ${matchingRedstoneFeed.symbol}.`,
       ),
-      label: `${matchingRedstoneFeed.symbol} (${matchingRedstoneFeed.deviationPercentage}%, ${matchingRedstoneFeed.heartbeat}s)`,
+      label: `${symbolWithQuote} (${matchingRedstoneFeed.deviationPercentage}%, ${heartbeatLabel})`,
       heartbeat: matchingRedstoneFeed.heartbeat,
       methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
       provider: "RedStone",
