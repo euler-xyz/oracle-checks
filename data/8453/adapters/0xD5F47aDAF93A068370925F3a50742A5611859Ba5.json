@@ -1,9 +1,9 @@
 {
-  "name": "FixedRateOracle",
-  "address": "0x6b66cAE30A826303dd597C98Aa78F702cD9fA692",
+  "name": "UniswapV3Oracle",
+  "address": "0xD5F47aDAF93A068370925F3a50742A5611859Ba5",
   "chainId": 8453,
-  "base": "0x0000000000000000000000000000000000000348",
-  "quote": "0xa681432113FAeF36F48761489c39D7336cf6526a",
+  "twapWindow": "300",
+  "pool": "0xE8f16fbf4eaFEC04bcf0C06d768E7bA325F9d6DE",
   "checks": [
     {
       "id": "Adapter existence",
@@ -32,25 +32,13 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-      "pass": true
-    },
-    {
-      "id": "Consistent asset",
-      "severity": "High",
-      "message": "Onchain indexing failed for asset 0xa681432113FAeF36F48761489c39D7336cf6526a: could not get decimals.",
-      "pass": false
-    },
-    {
-      "id": "Sane fixed rate",
-      "severity": "High",
-      "message": "Error checking fixed rate.",
+      "message": "Onchain indexing failed for asset 0xE8f16fbf4eaFEC04bcf0C06d768E7bA325F9d6DE: could not get symbol.",
       "pass": false
     }
   ],
-  "label": "Unknown Fixed Rate Oracle",
-  "methodology": "Exchange Rate",
+  "label": "undefined/undefined",
+  "methodology": "TWAP",
   "model": "Push",
-  "provider": "Fixed Rate",
+  "provider": "Uniswap V3",
   "whitelisted": false
 }
