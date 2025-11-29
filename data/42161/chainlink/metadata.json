@@ -27047,6 +27047,103 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "SOL/POR-Datalink-ExchangeRate-mainnet-production",
+    "pair": [
+      "SOL",
+      "POR"
+    ],
+    "path": "sol-por-datalink-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Anchorage Solana Reserves",
+    "feedCategory": "custom",
+    "feedType": "SmartData",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Anchorage Solana Reserves",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SOL",
+      "baseAssetClic": "SOL_CR",
+      "clicProductName": "Anchorage-Solana-Reserves/POR-ProofOfReserves-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "SmartData",
+      "hidden": true,
+      "porAuditor": "Anchorage",
+      "porSource": "Anchorage",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x00073131cbbe65221e457a0e14cf3ce60684ad174fd96bc35d9192b6b23845cd",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "SUSDC/USD-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "sUSDC",
@@ -27955,6 +28052,104 @@
     "feedId": "0x0007871d69486cc753c6fefc76cf39fe083cac7c23bf8e5d4344308cf4945320",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SOLVBTC/BTC-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "SOLVBTC",
+      "BTC"
+    ],
+    "path": "solvbtc-btc-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SOLVBTC / BTC Exchange Rate",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "SOLVBTC / BTC Exchange Rate",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SOLVBTC",
+      "baseAssetClic": "SOLVBTC_CR",
+      "clicProductName": "SOLVBTC/BTC-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "BTC",
+      "quoteAssetClic": "BTC_CR",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0007a67c9e22beb4bc76ecc198f27132c5e1eb386d4530a6d73c161df60cca8d",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -30871,6 +31066,105 @@
     "feedId": "0x000848a2421249aff43585f6cfd977412ff6c37b65bd872add3af6f0b40b5a43",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/ARS-Streams-ForexPrice-Timestamped-mainnet-production",
+    "pair": [
+      "USD",
+      "ARS"
+    ],
+    "path": "usd-ars-streams-forexprice-timestamped-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "USD",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "USD",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "ARS/USD-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "ARS",
+      "quoteAssetClic": "ARS_FX_Spot",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x000848d3adb3429cb99a6392b6679fc45852536a17f3353356825c4eb282c765",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
