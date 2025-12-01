@@ -49,20 +49,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -77,8 +77,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USDC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
@@ -133,20 +133,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: AVAX/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WAVAX) does not correspond to the Pyth feed's base asset from metadata (AVAX).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -161,8 +161,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.AVAX/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -217,20 +217,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH.e) does not correspond to the Pyth feed's base asset from metadata (ETH).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -245,8 +245,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.ETH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": false
@@ -301,19 +301,19 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: STAVAX/AVAX",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (stAVAX) corresponds to the Pyth feed's base asset from metadata (STAVAX).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (WAVAX) does not correspond to the Pyth feed's quote asset from metadata (AVAX).",
+        "message": "Feed is unknown",
         "pass": false
       },
       {
@@ -329,8 +329,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.STAVAX/AVAX.RR (120s, ±300bps)",
-    "methodology": "Exchange Rate",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
