@@ -450,12 +450,12 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (3600 s) is within the recommended limit (< 4200 s) for RedStone Bolt feeds.",
+        "pass": true
       }
     ],
     "label": "ETH/USD (0.5%, Unknown)",
-    "methodology": "Market Price",
+    "methodology": "Market Price (Bolt)",
     "model": "Push",
     "provider": "RedStone",
     "whitelisted": false
@@ -625,12 +625,12 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (3600 s) is within the recommended limit (< 4200 s) for RedStone Bolt feeds.",
+        "pass": true
       }
     ],
     "label": "MON/USD (0.5%, Unknown)",
-    "methodology": "Market Price",
+    "methodology": "Market Price (Bolt)",
     "model": "Push",
     "provider": "RedStone",
     "whitelisted": false
