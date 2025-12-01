@@ -83,6 +83,14 @@ export function knownAggregatorV3Feed({
         ? `${matchingRedstoneFeed.symbol}/${quoteAsset.symbol}`
         : matchingRedstoneFeed.symbol;
 
+    const methodology: OracleMethodology =
+      !isExchangeRate &&
+      (matchingRedstoneFeed.heartbeat === 0 || matchingRedstoneFeed.heartbeat === undefined)
+        ? "Market Price (Bolt)"
+        : isExchangeRate
+          ? "Exchange Rate"
+          : "Market Price";
+
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
@@ -90,7 +98,7 @@ export function knownAggregatorV3Feed({
       ),
       label: `${symbolWithQuote} (${matchingRedstoneFeed.deviationPercentage}%, ${heartbeatLabel})`,
       heartbeat: matchingRedstoneFeed.heartbeat,
-      methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
+      methodology,
       provider: "RedStone",
     };
   } else if (matchingEoracleFeed) {

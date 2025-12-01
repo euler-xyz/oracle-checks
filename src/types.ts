@@ -43,7 +43,12 @@ export type CollectedData = {
 
 export type OracleModel = "Unknown" | "Push" | "Pull";
 
-export type OracleMethodology = "Market Price" | "Exchange Rate" | "TWAP" | "Unknown";
+export type OracleMethodology =
+  | "Market Price"
+  | "Market Price (Bolt)"
+  | "Exchange Rate"
+  | "TWAP"
+  | "Unknown";
 
 export type AdapterToResults = Record<
   Address,

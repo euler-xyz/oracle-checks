@@ -6,12 +6,15 @@ import {
   assetsDistinct,
   CheckResult,
   chronicleFeedOfficial,
+  CHECKS,
   existence,
+  failCheck,
   fixedRateOne,
   knownAggregatorV3Feed,
   knownMetadataHash,
   lidoFundamentalOfficial,
   lidoOfficial,
+  passCheck,
   pushHeartbeat,
   pythBaseCorrespondence,
   pythFeedOfficial,
@@ -114,12 +117,33 @@ export function runChecks({
       provider = aggregatorV3FeedCheck.provider;
       model = "Push";
 
-      const heartbeatCheck = pushHeartbeat({
-        maxStaleness: adapter.maxStaleness,
-        heartbeat: aggregatorV3FeedCheck.heartbeat,
-        minHeartbeatBuffer: minPushHeartbeatBuffer,
-      });
-      checks.push(heartbeatCheck);
+      if (
+        aggregatorV3FeedCheck.provider === "RedStone" &&
+        (aggregatorV3FeedCheck.heartbeat === 0 ||
+          aggregatorV3FeedCheck.heartbeat === undefined)
+      ) {
+        const seventyMinutesInSeconds = 70n * 60n; // 70 minutes
+        const stalenessOk = adapter.maxStaleness < seventyMinutesInSeconds;
+
+        const heartbeatCheck = stalenessOk
+          ? passCheck(
+              CHECKS.PUSH_STALENESS_BUFFER,
+              `Adapter's maximum staleness (${adapter.maxStaleness} s) is within the recommended limit (< ${seventyMinutesInSeconds} s) for RedStone Bolt feeds.`,
+            )
+          : failCheck(
+              CHECKS.PUSH_STALENESS_BUFFER,
+              `Adapter's maximum staleness (${adapter.maxStaleness} s) exceeds the recommended limit (${seventyMinutesInSeconds} s) for RedStone Bolt feeds.`,
+            );
+
+        checks.push(heartbeatCheck);
+      } else {
+        const heartbeatCheck = pushHeartbeat({
+          maxStaleness: adapter.maxStaleness,
+          heartbeat: aggregatorV3FeedCheck.heartbeat,
+          minHeartbeatBuffer: minPushHeartbeatBuffer,
+        });
+        checks.push(heartbeatCheck);
+      }
     } else if (name === "ChronicleOracle") {
       const chronicleFeedCheck = chronicleFeedOfficial({
         adapter,
