@@ -9143,6 +9143,19 @@
     }
   },
   {
+    "id": "0x7a072b799215196b0ecb6a58636ec312bce8461dcc33c28c3a046b1e636d121d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "T",
+      "description": "THRESHOLD NETWORK / US DOLLAR",
+      "display_symbol": "T/USD",
+      "generic_symbol": "TUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.T/USD"
+    }
+  },
+  {
     "id": "0xa63586143073186f23c7f8439ab75b558b9be60f37f395feae47d4329f509ee2",
     "attributes": {
       "asset_type": "Equity",
@@ -14810,6 +14823,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MYRO/USD"
+    }
+  },
+  {
+    "id": "0x384986c9655ec6887dbd7f7430d864992f872db2c77ba5781a26b78dad277adc",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "NWISDOM",
+      "contract_id": "plume: 0x5f57AE7Bf41806b2c8F5ddBf1E6a09D7a6D916f6",
+      "description": "NEST WISDOM / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "NWISDOM/USD",
+      "generic_symbol": "NWISDOMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NWISDOM/USD.RR"
     }
   },
   {
@@ -32635,7 +32662,7 @@
     "attributes": {
       "asset_type": "Commodities",
       "base": "BRENTF6",
-      "description": "PYTH BRENT 28 NOVEMBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - PYTH BRENT 28 NOVEMBER 2025 / US DOLLAR",
       "display_symbol": "BRENTF6/USD",
       "generic_symbol": "BRENTF6",
       "quote_currency": "USD",
