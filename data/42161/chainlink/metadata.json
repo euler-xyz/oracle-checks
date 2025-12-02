@@ -28212,6 +28212,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "PRIMEWLYDS/WLYDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "PRIME",
+      "wYLDS"
+    ],
+    "path": "primewlyds-wlyds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Figure Markets Democratized Prime",
+    "feedCategory": "medium",
+    "feedType": "Tokenized Asset",
+    "docs": {
+      "assetClass": "Tokenized Debt",
+      "assetSubClass": "Pegged Asset",
+      "assetName": "Figure Markets Democratized Prime",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "PRIME",
+      "baseAssetClic": "PRIME_D",
+      "clicProductName": "PRIME/wYLDS-Streams-ExchangeRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Tokenized Asset",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "wYLDS",
+      "quoteAssetClic": "wLYDS_CR",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x0007a3d8f2c1e6b9d4a7f3c8e2b5d9a6f1c4e7b2d8a3f6c9e1b4d7a2f5c8e1b6",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "SOLVBTC/BTC-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "SOLVBTC",
