@@ -20,7 +20,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Broccoli",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -31,7 +31,7 @@
       "baseAssetClic": "BROCCOLI_CR",
       "clicProductName": "BROCCOLI/USD-RefPrice-DSStaging-Premium-Global-002",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -40,7 +40,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0002044eba1449edd2b3cd1392bf74f6d3b286dd4cb1e3acf9eb2f0b2092a1f8",
@@ -412,7 +413,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Broccoli",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -423,7 +424,7 @@
       "baseAssetClic": "BROCCOLI_CR",
       "clicProductName": "BROCCOLI/USD-RefPrice-DS-Premium-Global-002",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -432,7 +433,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00021824cc050335946d85e6c150be9fe49ca7da6f61b7c24670d864e2b1fbe5",
@@ -805,7 +807,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Pain",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -816,7 +818,7 @@
       "baseAssetClic": "PAIN_CR",
       "clicProductName": "PAIN/USD-RefPrice-DSStaging-Premium-Global-002",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -825,7 +827,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00022e7f045cf08946568de4d21dfd31993352ae1abf8e378e387184ef2351a3",
@@ -1001,7 +1004,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "ASTERION",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1012,7 +1015,7 @@
       "baseAssetClic": "ASTER_CR",
       "clicProductName": "ASTER/USD-Datalink-CexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -1021,7 +1024,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00023e19f636b9334114a1db35638af4cb712ded7ece00be7fb5b7a3b1be7ef3",
@@ -1687,13 +1691,15 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "DexPrice",
       "clicProductName": "JELLYJELLY/USD-Datalink-DexPrice",
+      "feedCategory": "deprecating",
       "hidden": true,
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000279f7245ade8f6e03ebd0c7a0aa649ad6a6f9822b6585919c1568ca42f191",
@@ -1869,7 +1875,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "uniBTC / BTC Exchange Rate",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1880,7 +1886,7 @@
       "baseAssetClic": "uniBTC_CR",
       "clicProductName": "uniBTC/BTC-ExRate-DS-Premium-Global-002",
       "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -1889,7 +1895,8 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0002871d69486cc753c6fefc76cf39fe083cac7c23bf8e5d4344308cf4945320",
@@ -2557,13 +2564,15 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "DexPrice",
       "clicProductName": "JELLYJELLY/USD-Datalink-DexPrice",
+      "feedCategory": "deprecating",
       "hidden": true,
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0002e7a1805e11597d832a81294de2cc133147692f10d0f64c7ca1542c9fd960",
@@ -2739,7 +2748,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Pain",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2750,7 +2759,7 @@
       "baseAssetClic": "PAIN_CR",
       "clicProductName": "PAIN/USD-RefPrice-DS-Premium-Global-002",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -2759,7 +2768,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0002eafa63c47ae1e9be46d39551fe59b7c52a9a495736187849f9a5b5add847",
@@ -3519,7 +3529,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "kyros Restaked SOL",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
@@ -3530,7 +3540,7 @@
       "baseAssetClic": "KYSOL_CR",
       "clicProductName": "KYSOL/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto-DEX",
       "hidden": true,
       "marketHours": "Crypto",
@@ -3539,7 +3549,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0003056064c25d266f1fbb59b2f46f00776f65be4d18806a0d5ae4755574ec69",
@@ -7475,7 +7486,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Restaked Swell ETH",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7486,7 +7497,7 @@
       "baseAssetClic": "RSWETH_CR",
       "clicProductName": "RSWETH/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -7495,7 +7506,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00032bd41ff16334a25e12f8e9f5e855bda0938798b18eaf43ba8d96aff09b6d",
@@ -9517,7 +9529,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Frax Ether",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -9528,7 +9540,7 @@
       "baseAssetClic": "FRXETH_CR",
       "clicProductName": "FRXETH/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -9537,7 +9549,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000344ad9de9f4d03e043dd4564eac2852b43d1f2a8e37e4c675e56e07b2902d",
@@ -11267,7 +11280,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Aergo",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -11278,7 +11291,7 @@
       "baseAssetClic": "AERGO_CR",
       "clicProductName": "AERGO/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -11287,7 +11300,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000357632b1a7d842d8d98ea8ceda76300a49fbe941da27d367980be8091b495",
@@ -15809,7 +15823,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Swell Ethereum",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -15820,7 +15834,7 @@
       "baseAssetClic": "SWETH_CR",
       "clicProductName": "SWETH/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -15829,7 +15843,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000392793b376b0a7be392399e78981ffc7f1204d27570d6fb6a6051d4e41c6b",
@@ -16102,7 +16117,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "ASTERION",
-    "feedCategory": "low",
+    "feedCategory": "verified",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -16113,7 +16128,7 @@
       "baseAssetClic": "ASTER_CR",
       "clicProductName": "ASTER/USD-Streams-CexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "verified",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -24536,7 +24551,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Zebec Network",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -24547,7 +24562,7 @@
       "baseAssetClic": "ZBCN_CR",
       "clicProductName": "ZBCN/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "hidden": true,
       "marketHours": "Crypto",
@@ -24556,7 +24571,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0003f74d93d9dba106d605175d5b90b2355acd84a64490f4c4257fba8b27d658",
@@ -27545,7 +27561,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "sUSDC / USD Exchange Rate",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -27556,7 +27572,7 @@
       "baseAssetClic": "sUSDC_CR",
       "clicProductName": "sUSDC/USD-Streams-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
@@ -27564,7 +27580,8 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_CR",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 0,
     "feedId": "0x00073560faaca66234a6e85844ad5e888f304328119a9c759f717a9ef8768c11",
@@ -28030,7 +28047,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "SDEUSD / DEUSD Exchange Rate",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -28041,7 +28058,7 @@
       "baseAssetClic": "SDEUSD_CR",
       "clicProductName": "SDEUSD/DEUSD-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
@@ -28049,7 +28066,8 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "DEUSD",
       "quoteAssetClic": "DEUSD_CR",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 0,
     "feedId": "0x00074fd8762cf13953128af59873a17c464457919bcc91eb58bd0f9623698137",
@@ -28418,7 +28436,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "uniBTC / BTC Exchange Rate",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -28429,7 +28447,7 @@
       "baseAssetClic": "uniBTC_CR",
       "clicProductName": "uniBTC/BTC-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
@@ -28437,7 +28455,8 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 0,
     "feedId": "0x0007871d69486cc753c6fefc76cf39fe083cac7c23bf8e5d4344308cf4945320",
@@ -28904,7 +28923,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "UNIBTC / BTC Exchange Rate",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -28915,7 +28934,7 @@
       "baseAssetClic": "UNIBTC_CR",
       "clicProductName": "UNIBTC/BTC-Streams-ExchangeRate-DS-Premium-Global-007",
       "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
@@ -28923,7 +28942,8 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 0,
     "feedId": "0x0007c39c5f58aa4112c2de394d9467122694bfd6a21e56d7faef34e4d63efb1b",
@@ -29486,7 +29506,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Adobe Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -29497,7 +29517,7 @@
       "baseAssetClic": "ADBE_EQ",
       "clicProductName": "ADBE-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -29505,7 +29525,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00080890e2d329e5eec3adc54cae7a1f36e9e887dd17159b89162b3a5cd13815",
@@ -29583,7 +29604,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Abbott Laboratories",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -29594,7 +29615,7 @@
       "baseAssetClic": "ABT_EQ",
       "clicProductName": "ABT-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -29602,7 +29623,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00080ab1382bf68c32bd224481284c69bc6c1ee22dd4ddefb9a02f24e9ee1a71",
@@ -29680,7 +29702,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Union Pacific Corp",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -29691,7 +29713,7 @@
       "baseAssetClic": "UNP_EQ",
       "clicProductName": "UNP-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -29699,7 +29721,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00080c4b4713b3d2b45b70e90aea5cf933df95a599ae92239b6e107cde29a12c",
@@ -29971,7 +29994,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "American Express Co",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -29982,7 +30005,7 @@
       "baseAssetClic": "AXP_EQ",
       "clicProductName": "AXP-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -29990,7 +30013,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000813d0d31b80d98b528e79c53779cf1d79f96282ecd638c6df92c5ac3617fd",
@@ -30165,7 +30189,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iPath Series B S&P 500 VIX Short-Term Futures ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -30176,7 +30200,7 @@
       "baseAssetClic": "VXX_EQ",
       "clicProductName": "VXX/USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -30184,7 +30208,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00081e632466558337b929d0198322284217d139fe3fb08740b5dad9b479d9d2",
@@ -30457,7 +30482,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Vanguard Value ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -30468,7 +30493,7 @@
       "baseAssetClic": "VTV_EQ",
       "clicProductName": "VTV-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -30476,7 +30501,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008237560e200bbf30ab667e6c796739e4199a079f81fbee7905939f984259d",
@@ -30554,7 +30580,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Goldman Sachs Group Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -30565,7 +30591,7 @@
       "baseAssetClic": "GS_EQ",
       "clicProductName": "GS-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -30573,7 +30599,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000825e358fba26fc5a468684217df111307d4e7c1b6fb309b27b5a9d29ed908",
@@ -30943,7 +30970,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Verizon Communications Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -30954,7 +30981,7 @@
       "baseAssetClic": "VZ_EQ",
       "clicProductName": "VZ-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -30962,7 +30989,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00082d7e13e1be047353abd354d4be1d7acf2be9f16893d680295bd068aa92b2",
@@ -31040,7 +31068,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares Bitcoin Trust ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -31051,7 +31079,7 @@
       "baseAssetClic": "IBIT_EQ",
       "clicProductName": "IBIT/USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -31059,7 +31087,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00082f466b4105548ce930e35c218ff91df54826158d94a12cd35dccaa318cc8",
@@ -31528,7 +31557,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares MSCI Eurozone ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -31539,7 +31568,7 @@
       "baseAssetClic": "EZU_EQ",
       "clicProductName": "EZU-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -31547,7 +31576,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000848a2421249aff43585f6cfd977412ff6c37b65bd872add3af6f0b40b5a43",
@@ -31724,7 +31754,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "QUALCOMM Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -31735,7 +31765,7 @@
       "baseAssetClic": "QCOM_EQ",
       "clicProductName": "QCOM-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -31743,7 +31773,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00084d5ac9c49d6626323166bafac72c49d9cccdee83cec22b57d8a2a87aac07",
@@ -31918,7 +31949,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Philip Morris International",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -31929,7 +31960,7 @@
       "baseAssetClic": "PM_EQ",
       "clicProductName": "PM-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -31937,7 +31968,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00084fbcf61f753559f1a2966cc7653070a910c948275822a4468751cd579f1c",
@@ -32403,7 +32435,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares Core U.S. Aggregate Bond ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -32414,7 +32446,7 @@
       "baseAssetClic": "AGG_EQ",
       "clicProductName": "AGG-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -32422,7 +32454,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000866d23cd0e99b746e565e1771eb6e5edb3daa256f815824976576c8ed8b78",
@@ -32793,7 +32826,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Coca-Cola Co",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -32804,7 +32837,7 @@
       "baseAssetClic": "KO_EQ",
       "clicProductName": "KO-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -32812,7 +32845,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00087b24f3b9ac1bea3e3f7b966e93ae85fc8cc0b27b68d6d152be033025c3bd",
@@ -32890,7 +32924,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "PEP",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -32901,7 +32935,7 @@
       "baseAssetClic": "PEP_EQ",
       "clicProductName": "PEP/USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -32910,7 +32944,8 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "schema": "v8",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00087cd53478099ee6f8fb4f5b47336719f27013971516db1413debcfd1340c1",
@@ -33474,7 +33509,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "General Electric Co",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -33485,7 +33520,7 @@
       "baseAssetClic": "GE_EQ",
       "clicProductName": "GE-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -33493,7 +33528,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x00089813c1e71c40f93f81a3ae22ee37f433e530aafba921679f15e90e8f9b2b",
@@ -33863,7 +33899,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "McDonald's Corp",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -33874,7 +33910,7 @@
       "baseAssetClic": "MCD_EQ",
       "clicProductName": "MCD-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -33882,7 +33918,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008a533682f475cc83e46c0c317b7812fdbcfa77bd1946a56feaf7bf5f3453b",
@@ -34057,7 +34094,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "T-Mobile US Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -34068,7 +34105,7 @@
       "baseAssetClic": "TMUS_EQ",
       "clicProductName": "TMUS-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -34076,7 +34113,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008aadb24bbe6a74c6963fc5ae1e48b0449a8fadfaf81421befc1458de03839",
@@ -34640,7 +34678,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Vanguard FTSE Developed Mkts ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -34651,7 +34689,7 @@
       "baseAssetClic": "VEA_EQ",
       "clicProductName": "VEA-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -34659,7 +34697,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008ba85468b4614b88ecd373001b40f01073b0f2cc2a5f9cf183b3f6ef96f98",
@@ -35028,7 +35067,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "International Business Machines Corp",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -35039,7 +35078,7 @@
       "baseAssetClic": "IBM_EQ",
       "clicProductName": "IBM-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -35047,7 +35086,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008c14940cca67105b05401ddfe41f2fc352e2f4b5e1541ceb8c41ddbcc3a7b",
@@ -35125,7 +35165,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares MSCI EAFE ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -35136,7 +35176,7 @@
       "baseAssetClic": "EFA_EQ",
       "clicProductName": "EFA-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -35144,7 +35184,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008c423e105ccc72f99723317faed7e93cd8f488aa6bc3be37bd2fdd2717420",
@@ -35319,7 +35360,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Vanguard S&P 500 ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -35330,7 +35371,7 @@
       "baseAssetClic": "VOO_EQ",
       "clicProductName": "VOO-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -35338,7 +35379,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008c69f969d191a502a2ffc9bacfd21f1e22fde611f0cb4318cda3b3459f700",
@@ -35416,7 +35458,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares Core S&P 500 ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -35427,7 +35469,7 @@
       "baseAssetClic": "IVV_EQ",
       "clicProductName": "IVV-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -35435,7 +35477,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008c9e04f74d9120b1b6c4d0e3a7a3f8873e013783a5931fe884303b26542f6",
@@ -35513,7 +35556,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Caterpillar Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -35524,7 +35567,7 @@
       "baseAssetClic": "CAT_EQ",
       "clicProductName": "CAT-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -35532,7 +35575,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008cdd239e99817ab6a4777bae4885badc663756d0cb36abc83cfbd596f288f",
@@ -36001,7 +36045,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Texas Instruments Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36012,7 +36056,7 @@
       "baseAssetClic": "TXN_EQ",
       "clicProductName": "TXN-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36020,7 +36064,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008d7ae222b8442711c5d0969bbf406dee493651696cd1fbc284c85d446f0ac",
@@ -36196,7 +36241,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "iShares MSCI Japan ETF",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36207,7 +36252,7 @@
       "baseAssetClic": "EWJ_EQ",
       "clicProductName": "EWJ-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36215,7 +36260,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008d9a039c26729cae90134d55a78ac09efd8cc53bc6493ed90da1f0938c884",
@@ -36391,7 +36437,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Morgan Stanley",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36402,7 +36448,7 @@
       "baseAssetClic": "MS_EQ",
       "clicProductName": "MS-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36410,7 +36456,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008e1af2f54037388a9b513f5ec678ae6a6ad269feaa286711a75b28e34fd6a",
@@ -36488,7 +36535,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Amgen Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36499,7 +36546,7 @@
       "baseAssetClic": "AMGN_EQ",
       "clicProductName": "AMGN-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36507,7 +36554,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008e224637b91755334a2bd84f3d8efaeb90d2d68c1b48c20d7f593bb219f39",
@@ -36585,7 +36633,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Cisco Systems Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36596,7 +36644,7 @@
       "baseAssetClic": "CSCO_EQ",
       "clicProductName": "CSCO-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36604,7 +36652,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008e3e27cefa09855c2e535b9849b12e9b39747d2b083fb587098c947169382",
@@ -36876,7 +36925,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Lowe's Cos Inc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -36887,7 +36936,7 @@
       "baseAssetClic": "LOW_EQ",
       "clicProductName": "LOW-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -36895,7 +36944,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008ef70640a03463dde9683032d0176d5f55d49a49d15ca5dc931e1113afc4a",
@@ -37167,7 +37217,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Wells Fargo & Co",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equities",
@@ -37178,7 +37228,7 @@
       "baseAssetClic": "WFC_EQ",
       "clicProductName": "WFC-USD-Streams-EquityPrice-DS-Premium-Global-008",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Equities",
       "marketHours": "NYSE",
       "productSubType": "Reference",
@@ -37186,7 +37236,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x0008f8cfbfa06633ca7fe14b79c14151299b64aba0ff0d2da02e2f58d7a4e487",
@@ -41310,7 +41361,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Gold",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Equities",
@@ -41321,7 +41372,7 @@
       "baseAssetClic": "XAU_PM",
       "clicProductName": "XAU/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "hidden": true,
       "marketHours": "360T",
@@ -41331,7 +41382,8 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "schema": "v11",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000b742fc57739ab8b4e3b2cc44f84d7e5f059abe4325343af362b7d4872bb3d",
@@ -41409,7 +41461,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Japanese Yen",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Equities",
@@ -41420,7 +41472,7 @@
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/JPY-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "hidden": true,
       "marketHours": "Forex",
@@ -41430,7 +41482,8 @@
       "quoteAsset": "JPY",
       "quoteAssetClic": "JPY_FX",
       "schema": "v11",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000b77970877e21c949f10b528e98e85c13bd4e1898f825316452aa03a6d752f",
@@ -42993,7 +43046,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Swiss Franc",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Equities",
@@ -43004,7 +43057,7 @@
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/CHF-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "hidden": true,
       "marketHours": "Forex",
@@ -43014,7 +43067,8 @@
       "quoteAsset": "CHF",
       "quoteAssetClic": "CHF_FX",
       "schema": "v11",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000bc42b83a9c927c593869342dcf94ab605600deda9e04a60eec951b5d6b9bf",
@@ -43290,7 +43344,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Silver",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Equities",
@@ -43301,7 +43355,7 @@
       "baseAssetClic": "XAG_PM",
       "clicProductName": "XAG/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "hidden": true,
       "marketHours": "360T",
@@ -43311,7 +43365,8 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "schema": "v11",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000bd4825214ced01721d6f4c7c95b306d7ed90caa34daaeb58c739f1276d595",
@@ -43587,7 +43642,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "British Pound Sterling",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Equities",
@@ -43598,7 +43653,7 @@
       "baseAssetClic": "GBP_FX",
       "clicProductName": "GBP/USD-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "hidden": true,
       "marketHours": "Forex",
@@ -43608,7 +43663,8 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "schema": "v11",
-      "serviceLevel": "Datalink"
+      "serviceLevel": "Datalink",
+      "shutdownDate": "December 2025"
     },
     "decimals": 18,
     "feedId": "0x000bde8b1a91c8e225b7095d3fbfce113a3b70357848a594d2de165172266f0b",
@@ -43850,6 +43906,39 @@
       "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0309C05449070AC1aB244B99955EA5fEdEB79E6A",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "GHO / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "gho-usd-svr",
+    "proxyAddress": "0xAE0d73C9a489084531deEdCa6765fA3396db49c1",
+    "secondaryProxyAddress": "0x72B424C9A254481626535dBb1Aa3175C08F15943",
+    "threshold": 0.2,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-GHO",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -44500,6 +44589,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x12b8916e7B6297f31C99e3A8e2BDa661f27c676A",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDT / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdt-usd-svr",
+    "proxyAddress": "0xfF6B58D50dADf1EcC69101B2784b2ebb2edc30F6",
+    "secondaryProxyAddress": "0x21E1a03da332F9277A6839d1EF182d07644d1875",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-USDT",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x13A3651dfF754e279CB2139Dbd848054B993d797",
     "contractType": "",
     "contractVersion": 4,
@@ -44633,6 +44755,39 @@
       "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x16c0e73906CDa7AC1F137B0F513a00b84c8f7A4E",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdc-usd-svr",
+    "proxyAddress": "0x0D0FaDDd42C53fc6d1b933C7ccccCFaF9B79B571",
+    "secondaryProxyAddress": "0xDbFF913E9058C1E60446150D23Bb0fFE9144d531",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-USDC",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -45817,6 +45972,39 @@
       "reserveAssetClic": "BTC_CR",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x333399F03B84678Ec22842Cd467c8Fe089E3Ef27",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "EURC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eurc-usd-svr",
+    "proxyAddress": "0x671eE94eCE3c0D19D0F69CB1718aa9150daA8Ea6",
+    "secondaryProxyAddress": "0x86e5D529Cb7cAeF5C475Aab0727a84739E12EA3F",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-EURC",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -61696,6 +61884,39 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x4c76F02E484e8ce9B6C2358CF9624BabC5531E9e",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "100000000",
+    "name": "LINK / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "link-usd-svr",
+    "proxyAddress": "0xF04bf09a664745c0a6404c885aCfe4f395335aB5",
+    "secondaryProxyAddress": "0x2C1C5eaB455A91cEAD280B12650faaA7bfDd59e6",
+    "threshold": 0.2,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-LINK",
+      "marketHours": "Crypto",
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
@@ -77707,6 +77928,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x674a6D60637891C63116218c38a9a49BE07D21bc",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "FRAX / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "frax-usd-svr",
+    "proxyAddress": "0x6AB8414a33065d4889049F6EBd202F1cb5e45537",
+    "secondaryProxyAddress": "0xB49b8beB7b57E92416a122a495244D7cf2fE0bd4",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-FRAX",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x67db13c76Ce77E8FEef9B500616162eC142597ac",
     "contractType": "",
     "contractVersion": 4,
@@ -80164,6 +80418,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xB72359B2dc04Ff363e094648DF78247c98297c20",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "ARB / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "arb-usd-svr",
+    "proxyAddress": "0xa631dEfF664Da5A42642c3E1A4a8d5b4F99Ee28D",
+    "secondaryProxyAddress": "0x339a66699167D8bc7105C4B9772492D2576E5183",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-ARB",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xBC81b4E883375c387db454aCaE322196Ae07a481",
     "contractType": "",
     "contractVersion": 4,
@@ -81026,6 +81313,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xE7c522c60bA7f1b5E398D2312593713e2B19aeb0",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "BTC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usd-svr",
+    "proxyAddress": "0xd0e9220a422bA14676DC34042f5f70c6fbc3F7AF",
+    "secondaryProxyAddress": "0xDe4Af8b4747192Ea29339D0FeB36d9830d399134",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-BTC",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xE837702F8D422f19A3FE9799FCADF8dab9c6EBEF",
     "contractType": "",
     "contractVersion": 4,
@@ -81318,6 +81638,39 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xFBe1C9F4297d509b4D0ECcbc098df7Db29DA2918",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "DAI / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "dai-usd-svr",
+    "proxyAddress": "0x103C63BdD0497422f4DfD6BdC14F6799d24B29a5",
+    "secondaryProxyAddress": "0x368B55bEb0d85aBe2bD04C7cba5Bd640A53fCF37",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-DAI",
+      "marketHours": "Crypto",
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
@@ -81883,6 +82236,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xa821e9cD8490ad5Cb398FBaeA8BAEEDa27AA6f93",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "LUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "lusd-usd-svr",
+    "proxyAddress": "0x7A8A9aD4AeE9B8cF491de61c03834eb364A4EED1",
+    "secondaryProxyAddress": "0xb39082aA764c8EbEb91F196E31cE0E570b1A268C",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-LUSD",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xaD81BC9887ab35B4aA05493E9B3C32cA7393c8b1",
     "contractType": "",
     "contractVersion": 4,
@@ -82360,6 +82746,39 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xc1720A8240Dbd992d95D6c865A15e490901879B1",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "AAVE / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-usd-svr",
+    "proxyAddress": "0xd01d5e889659d33AAF01B34b1D41123F07B11B57",
+    "secondaryProxyAddress": "0xf97eEAac36bdd096bb2445c7582F9095bfCE04C7",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-AAVE",
+      "marketHours": "Crypto",
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
