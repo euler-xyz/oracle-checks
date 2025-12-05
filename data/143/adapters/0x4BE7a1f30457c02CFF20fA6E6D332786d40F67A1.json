@@ -1,10 +1,11 @@
 {
-  "name": "FixedRateOracle",
-  "address": "0x3E35E10E104EA34ECf354251969f2C3f4d929fdF",
-  "chainId": 146,
-  "base": "0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D",
+  "name": "ChainlinkOracle",
+  "address": "0x4BE7a1f30457c02CFF20fA6E6D332786d40F67A1",
+  "chainId": 143,
+  "base": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
   "quote": "0x0000000000000000000000000000000000000348",
-  "rate": "1000000",
+  "feed": "0x7A9b672fc20b5C89D6774514052b3e0899E5E263",
+  "maxStaleness": "7200",
   "checks": [
     {
       "id": "Adapter existence",
@@ -33,7 +34,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D is msUSD (Main Street USD) with 18 decimals.",
+      "message": "Asset 0x754704Bc059F8C67012fEd69BC8A327a5aafb603 is USDC (USDC) with 6 decimals.",
       "pass": true
     },
     {
@@ -43,15 +44,15 @@
       "pass": true
     },
     {
-      "id": "Sane fixed rate",
-      "severity": "High",
-      "message": "Adapter has an unusual fixed rate: 0.000000000001.",
-      "pass": false
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (7200 s) is sufficient for the feed's heartbeat (3600 s).",
+      "pass": true
     }
   ],
-  "label": "1:0.000000000001 msUSD/USD",
-  "methodology": "Exchange Rate",
+  "label": "USDC/USD (0.05%, 3600s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "Fixed Rate",
+  "provider": "RedStone",
   "whitelisted": false
 }
