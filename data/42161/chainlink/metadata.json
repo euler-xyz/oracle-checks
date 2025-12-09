@@ -26391,6 +26391,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "BTC/USDT-Datalink-OKX-FundingRate-mainnet-production",
+    "pair": [
+      "BTC",
+      "USDT"
+    ],
+    "path": "btc-usdt-datalink-okx-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "BTC",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "BTC",
+      "attributeType": "FundingRate",
+      "baseAsset": "BTC",
+      "baseAssetClic": "BTC_CR",
+      "clicProductName": "BTC/USDT-Datalink-OKX-FundingRate-DSSepolia-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x00059d3a7f2e8c1b6a4f9e2d5c8a1b4e7f9c3a6d2e5b8f1a4c7d9e2f5a8b1c4e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "ETH/USDT-Datalink-Hyperliquid-FundingRate-mainnet-production",
     "pair": [
       "ETH",
@@ -26523,6 +26621,104 @@
     "feedId": "0x0005c22da1aae1dececc2e06ff6c14a9e8fa1ff207b72713eef26ab86b183b87",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH/USDT-Datalink-OKX-FundingRate-mainnet-production",
+    "pair": [
+      "ETH",
+      "USDT"
+    ],
+    "path": "eth-usdt-datalink-okx-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ETH",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "ETH",
+      "attributeType": "FundingRate",
+      "baseAsset": "ETH",
+      "baseAssetClic": "ETH_CR",
+      "clicProductName": "ETH/USDT-Datalink-OKX-FundingRate-DSSepolia-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x0005e8b4a1f6c9d3e7a2f5b8c1d4e9a6f3b7d2e5c8a1f4b9e6d3a7c2f5e8b1a4",
+    "sourceChain": 42161,
+    "status": "testing",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -27161,6 +27357,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "Chainlink-Internal-CPI-U-Headline-1MT-Change-ExchangeRate-mainnet-production",
+    "pair": [
+      "CPIU-1M",
+      "USD"
+    ],
+    "path": "chainlink-internal-cpi-u-headline-1mt-change-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CPI-U Headline - 1-Month Percent Change",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "assetSubClass": "Reference",
+      "assetName": "CPI-U Headline - 1-Month Percent Change",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "CPIU-1M",
+      "baseAssetClic": "CPIU-1M_E",
+      "clicProductName": "cpi-u-headline-percent-change-1month-BEA",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Macroeconomics",
+      "hidden": true,
+      "marketHours": "Monthly Update",
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v7",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x000711c4a765420817a24fe8d58048e5a79f27db78c1fbeaee0203a49fb8935e",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "WSTUSR/STUSR-Streams-ExRate-mainnet-production",
     "pair": [
       "WSTUSR",
@@ -27390,6 +27685,105 @@
     "feedId": "0x00073131cbbe65221e457a0e14cf3ce60684ad174fd96bc35d9192b6b23845cd",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "Chainlink-Internal-CPI-U-Headline-12MT-Change-ExchangeRate-mainnet-production",
+    "pair": [
+      "CPIU-12M",
+      "USD"
+    ],
+    "path": "chainlink-internal-cpi-u-headline-12mt-change-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CPI-U Headline - 12-Month Percent Change",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "assetSubClass": "Reference",
+      "assetName": "CPI-U Headline - 12-Month Percent Change",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "CPIU-12M",
+      "baseAssetClic": "CPIU-12M_E",
+      "clicProductName": "cpi-u-headline-percent-change-12month-BEA",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Macroeconomics",
+      "hidden": true,
+      "marketHours": "Monthly Update",
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v7",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0007344a2fa8a9e901804de77ce54c2889d2cdd5ba67d63270990640c15786df",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -28168,6 +28562,105 @@
     "feedId": "0x000764a7e8b01c535c00ecdf4a7f62d882f905c2441de4b0bcf855b81b5e6073",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "Chainlink-Internal-CPI-U-Headline-Index-Level-ExchangeRate-mainnet-production",
+    "pair": [
+      "CPIU",
+      "USD"
+    ],
+    "path": "chainlink-internal-cpi-u-headline-index-level-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CPI-U Headline - Index Level",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "assetSubClass": "Reference",
+      "assetName": "CPI-U Headline - Index Level",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "CPIU",
+      "baseAssetClic": "CPIU_E",
+      "clicProductName": "cpi-u-headline-index-level-BEA",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Macroeconomics",
+      "hidden": true,
+      "marketHours": "Monthly Update",
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v7",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x00077948916f4f1466b579384d23f8156d74428b86efc631e1e71facd9971a80",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
