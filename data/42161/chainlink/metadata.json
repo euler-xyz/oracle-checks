@@ -42097,6 +42097,103 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SWEEP-NAV/USD-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "SWEEP",
+      "USD"
+    ],
+    "path": "sweep-nav-usd-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "State Street Galaxy Onchain Liquidity Sweep Master Fund",
+    "feedCategory": "low",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "NAV",
+      "assetSubClass": "US",
+      "assetName": "State Street Galaxy Onchain Liquidity Sweep Master Fund",
+      "attributeType": "NAV",
+      "baseAsset": "SWEEP",
+      "baseAssetClic": "SWEEP_CR",
+      "clicProductName": "SWEEP-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-012",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v12",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x000c9b7eba62841efc5a29cc6a00e4600e59647d622a249f83afe2353606da7e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x01DD3Cf6118069DB13A2d64d7e1A09FECd587EDD",
     "contractType": "",
     "contractVersion": 4,
