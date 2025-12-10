@@ -7132,7 +7132,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -7150,8 +7150,8 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USD0++) corresponds to the Pyth feed's base asset from metadata (USD0++).",
-        "pass": true
+        "message": "Adapter's base asset (bUSD0) does not correspond to the Pyth feed's base asset from metadata (USD0++).",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -7522,11 +7522,11 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-USD0++-27MAR2025/USD0++/USD",
+    "label": "PT-USD0++-27MAR2025/bUSD0/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7581,11 +7581,11 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-USD0++-26JUN2025/USD0++/USD",
+    "label": "PT-USD0++-26JUN2025/bUSD0/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8779,11 +8779,11 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-USD0++-30JAN2025/USD0++/USD",
+    "label": "PT-USD0++-30JAN2025/bUSD0/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9936,7 +9936,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -9952,7 +9952,7 @@
         "pass": true
       }
     ],
-    "label": "1:1 USD0++/USD",
+    "label": "1:1 bUSD0/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -13621,11 +13621,11 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-USD0++-27NOV2025/USD0++/USD",
+    "label": "PT-USD0++-27NOV2025/bUSD0/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -31071,7 +31071,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -31129,7 +31129,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -31411,7 +31411,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -33029,7 +33029,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -34210,7 +34210,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {

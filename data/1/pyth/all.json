@@ -1885,7 +1885,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is bUSD0 (Bond USD0) with 18 decimals.",
         "pass": true
       },
       {
@@ -1903,8 +1903,8 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USD0++) corresponds to the Pyth feed's base asset from metadata (USD0++).",
-        "pass": true
+        "message": "Adapter's base asset (bUSD0) does not correspond to the Pyth feed's base asset from metadata (USD0++).",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
