@@ -46,11 +46,11 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-      "pass": true
+      "message": "Adapter's maximum staleness (25200 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "pass": false
     }
   ],
-  "label": "SWELL/ETH (0.5%, 21600s)",
+  "label": "SWELL/ETH (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",
