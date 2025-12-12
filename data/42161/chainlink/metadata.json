@@ -15531,6 +15531,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "TREX/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "TREX",
+      "USD"
+    ],
+    "path": "trex-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Tea-REX",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Tea-REX",
+      "attributeType": "DexPrice",
+      "baseAsset": "TREX",
+      "baseAssetClic": "TREX_CR",
+      "clicProductName": "TREX/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0003ae872021f22a347a059c98d5b456abf28727e398dc84365f46da728cee33",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "wBTC/USD-RefPrice-mainnet-staging",
     "pair": [
       "wBTC",
@@ -25723,6 +25821,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "wstETH/stETH-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "wstETH",
+      "stETH"
+    ],
+    "path": "wsteth-steth-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "wstETH / stETH Exchange Rate",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "wstETH / stETH Exchange Rate",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "wstETH",
+      "baseAssetClic": "wstETH_CR",
+      "clicProductName": "wstETH/stETH-ExchangeRate-DS-Premium-Global-007-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "stETH",
+      "quoteAssetClic": "stETH_CR",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x0007621b6f5eb0b5bd5a8bb3d52902b3e19498ba45781e5ddf92ce7e03d7ecef",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "LBTC/BTC-Streams-ExRate-mainnet-production",
     "pair": [
       "LBTC",
@@ -26634,6 +26830,104 @@
     "feedId": "0x0007edaf3718e79a9450b95b1c770390274dc22675f0fc94678529f16fbf0824",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "cUSDO/USDO-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "cUSDO",
+      "USDO"
+    ],
+    "path": "cusdo-usdo-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "cUSDO / USDO Exchange Rate",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "cUSDO / USDO Exchange Rate",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "cUSDO",
+      "baseAssetClic": "cUSDO_CR",
+      "clicProductName": "cUSDO/USDO-ExchangeRate-DS-Premium-Global-007-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USDO",
+      "quoteAssetClic": "USDO_CR",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x0007f560ce83745e427c990a2cad66fcc7d1d8cfe60aff12e958368269c30535",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -28193,6 +28487,105 @@
     "feedId": "0x00084edc844a6f88449c59c8cfcdb2225799a2330503472cb0bc4f9369a717fa",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "TRY/USD-Streams-ForexPrice-Timestamped-mainnet-production",
+    "pair": [
+      "TRY",
+      "USD"
+    ],
+    "path": "try-usd-streams-forexprice-timestamped-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "TRY",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "TRY",
+      "attributeType": "ForexPrice",
+      "baseAsset": "TRY",
+      "baseAssetClic": "TRY_FX_Spot",
+      "clicProductName": "TRY/USD-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x000851bb513278c0dc059cafa29703114b6841abebc9176ddb4a56efdffa1289",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -33045,6 +33438,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ROLYPOLYx/USD-Datalink-TotalReturnMultiplier-mainnet-production",
+    "pair": [
+      "ROLYPOLYx",
+      "USD"
+    ],
+    "path": "rolypolyx-usd-datalink-totalreturnmultiplier-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ROLYPOLYx",
+    "feedCategory": "low",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "ROLYPOLYx",
+      "attributeType": "TotalReturnMultiplier",
+      "baseAsset": "ROLYPOLYx",
+      "baseAssetClic": "ROLYPOLYx_EQ",
+      "clicProductName": "ROLYPOLYx/USD-Datalink-TotalReturnMultiplier",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Tokenized Equities",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TokenizedPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v10",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x000a1a412b4dcf4b893174c513290cfd29a4843a688fd0d400682f52176184d2",
+    "sourceChain": 42161,
+    "status": "testing",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "QQQX/USD-Datalink-Backed-TotalReturnMultiplier-Timestamped-mainnet-production",
     "pair": [
       "QQQx",
@@ -34416,6 +34908,300 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "PLTR/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "PLTR",
+      "USD"
+    ],
+    "path": "pltr-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Palantir Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Palantir Technologies Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "PLTR",
+      "baseAssetClic": "PLTR_EQ_EXT",
+      "clicProductName": "PLTR/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b074755a84b1919f59f6130fa7286c2358f16c8f2e5ff4ce9f3d772add438",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "PLTR/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "PLTR",
+      "USD"
+    ],
+    "path": "pltr-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Palantir Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Palantir Technologies Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "PLTR",
+      "baseAssetClic": "PLTR_EQ_REG",
+      "clicProductName": "PLTR/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b0a2a7bd663521a7e191c71c9e120825c0419445ac614fb9dcd3eafeb6298",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "UNH/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "UNH",
+      "USD"
+    ],
+    "path": "unh-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "UnitedHealth Group Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "UnitedHealth Group Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "UNH",
+      "baseAssetClic": "UNH_EQ_REG",
+      "clicProductName": "UNH/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b0b5b8e2e6e3bc7a72e9e8ab3c60102cae351134cd2f28531f0e33c0fd30f",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "DB1/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -35206,6 +35992,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "BMNR/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BMNR",
+      "USD"
+    ],
+    "path": "bmnr-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitmine Immersion Technologies",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Bitmine Immersion Technologies",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "BMNR",
+      "baseAssetClic": "BMNR_EQ_REG",
+      "clicProductName": "BMNR/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b1e682d4d0ee0f7b7bdf7ec0fa281633dc5354a9dfdd19f4181afc71a5c66",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "AMZN/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "AMZN",
@@ -35695,6 +36579,104 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "BMNR/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BMNR",
+      "USD"
+    ],
+    "path": "bmnr-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitmine Immersion Technologies",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Bitmine Immersion Technologies",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "BMNR",
+      "baseAssetClic": "BMNR_EQ_EXT",
+      "clicProductName": "BMNR/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b33334573822a45ae475e5b4ce184e47b7c7bdd0f7a590888634877afaeee",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "EUN5/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -35993,6 +36975,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "BMNR/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BMNR",
+      "USD"
+    ],
+    "path": "bmnr-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitmine Immersion Technologies",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Bitmine Immersion Technologies",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "BMNR",
+      "baseAssetClic": "BMNR_EQ_ON",
+      "clicProductName": "BMNR/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b3c3bbb44524b3638a218f506da340b2d1bebee8d0771d8f2ee9eafd915a6",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "CRCL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "CRCL",
@@ -36029,6 +37109,104 @@
     "feedId": "0x000b409e5d173b2245fdf0062721ff45d88421a99e2b7838084aa7c6870f10cc",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ABBV/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ABBV",
+      "USD"
+    ],
+    "path": "abbv-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "AbbVie Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "AbbVie Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "ABBV",
+      "baseAssetClic": "ABBV_EQ_ON",
+      "clicProductName": "ABBV/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b41166e01e84ad5fa577c571c6be8f12ab7fcc92634d46c5da017b1b3a622",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -36879,6 +38057,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "UNH/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "UNH",
+      "USD"
+    ],
+    "path": "unh-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "UnitedHealth Group Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "UnitedHealth Group Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "UNH",
+      "baseAssetClic": "UNH_EQ_ON",
+      "clicProductName": "UNH/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b5d4ba577db1f8e93db7c3d0884023ac9f0b00e3e1faa15be60d5a9e87aaf",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "MSTR/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "MSTR",
@@ -37567,6 +38843,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "PLTR/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "PLTR",
+      "USD"
+    ],
+    "path": "pltr-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Palantir Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Palantir Technologies Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "PLTR",
+      "baseAssetClic": "PLTR_EQ_ON",
+      "clicProductName": "PLTR/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b6f2c5fc8dc743481fc713ed92f48a4a3f2faf5d9590b8bce06183f5dcaf8",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "HOOD/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "HOOD",
@@ -37963,6 +39337,202 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "MRK/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRK",
+      "USD"
+    ],
+    "path": "mrk-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Merck & Co Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Merck & Co Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "MRK",
+      "baseAssetClic": "MRK_EQ_ON",
+      "clicProductName": "MRK/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b7a7c2018db26afa770191c94655397706245befe73a9a44f62859e1e5d49",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "UNH/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "UNH",
+      "USD"
+    ],
+    "path": "unh-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "UnitedHealth Group Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "UnitedHealth Group Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "UNH",
+      "baseAssetClic": "UNH_EQ_EXT",
+      "clicProductName": "UNH/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b7c6532a20a7da048e2836a680d55ce163f7bf9f6cce7e0f4260040270b88",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "USD/ILS-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -38160,6 +39730,104 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "ORCL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ORCL",
+      "USD"
+    ],
+    "path": "orcl-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Oracle Corp",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Oracle Corp",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "ORCL",
+      "baseAssetClic": "ORCL_EQ_EXT",
+      "clicProductName": "ORCL/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b82e0b8ead28661ed37a6ab1c3befd5a7f4bef6e05293cd100f569576382c",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "USD/SEK-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -38296,6 +39964,104 @@
     "feedId": "0x000b8b9394931d376dbfd988ab3e459b1954ca10880d6a2ec706cd2573910b5b",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "MRK/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRK",
+      "USD"
+    ],
+    "path": "mrk-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Merck & Co Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Merck & Co Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "MRK",
+      "baseAssetClic": "MRK_EQ_EXT",
+      "clicProductName": "MRK/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b8fdb07c94077059f4a7e49a69a6aa337d23ae29d905487c2ff654f577d86",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -39049,6 +40815,104 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "MRK/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRK",
+      "USD"
+    ],
+    "path": "mrk-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Merck & Co Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Merck & Co Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "MRK",
+      "baseAssetClic": "MRK_EQ_REG",
+      "clicProductName": "MRK/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000b9ea915ca15c33cb5ddd84c75637093c2540d8cd09b470570d1d32bea2652",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "GOOGL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "GOOGL",
@@ -39085,6 +40949,104 @@
     "feedId": "0x000ba0be5e4c3746e3ebccec37362d9640ae6e9fee07bbb95ebdfd37d0220355",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ABBV/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ABBV",
+      "USD"
+    ],
+    "path": "abbv-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "AbbVie Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "AbbVie Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "ABBV",
+      "baseAssetClic": "ABBV_EQ_REG",
+      "clicProductName": "ABBV/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000ba36ef643a4fec73d068a85bc0fd0643cde7e1a62842fdbfc79ce90ddfdf5",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -40268,6 +42230,104 @@
     "feedId": "0x000bbfcf787363b237808f7ca87774dbfad950e88cd004c6f059d6574f60d0ef",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ORCL/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ORCL",
+      "USD"
+    ],
+    "path": "orcl-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Oracle Corp",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Oracle Corp",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "ORCL",
+      "baseAssetClic": "ORCL_EQ_REG",
+      "clicProductName": "ORCL/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000bc155a482d51136a7b004d971698c6593d3e02002981e6d67d42e8cbb8837",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -41651,6 +43711,202 @@
     "feedId": "0x000bde8b1a91c8e225b7095d3fbfce113a3b70357848a594d2de165172266f0b",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ORCL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ORCL",
+      "USD"
+    ],
+    "path": "orcl-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Oracle Corp",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Oracle Corp",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "ORCL",
+      "baseAssetClic": "ORCL_EQ_ON",
+      "clicProductName": "ORCL/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000be0a29b3b9651736e5b80cac41be569ef9a0614aea7ba527d5c529574a334",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ABBV/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ABBV",
+      "USD"
+    ],
+    "path": "abbv-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "AbbVie Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "AbbVie Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "ABBV",
+      "baseAssetClic": "ABBV_EQ_EXT",
+      "clicProductName": "ABBV/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000bf27728eaba79b2ae4ad465aceb4ee96d9de53300d8475c3b4aa2a084a8ea",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
