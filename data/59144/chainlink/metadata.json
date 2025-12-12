@@ -1856,7 +1856,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kelp DAO Restaked ETH",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1867,7 +1867,6 @@
       "blockchainName": "Linea",
       "clicProductName": "RSETH/ETH-RefPrice-DF-Linea-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -1875,6 +1874,7 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -1947,7 +1947,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Polygon (MATIC)",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1958,14 +1958,14 @@
       "blockchainName": "Linea",
       "clicProductName": "MATIC/USD-RefPrice-DF-Linea-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   }

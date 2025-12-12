@@ -1903,7 +1903,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stader ETHx",
-    "feedCategory": "hidden",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1914,7 +1914,6 @@
       "blockchainName": "Optimism",
       "clicProductName": "ETHx/ETH-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -1922,6 +1921,7 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -6174,7 +6174,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Frax",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6193,6 +6193,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -6612,7 +6613,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6629,7 +6630,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },

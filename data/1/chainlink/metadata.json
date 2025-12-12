@@ -113,7 +113,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Restaked Swell ETH",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -125,7 +125,6 @@
       "blockchainName": "Ethereum",
       "clicProductName": "RSWETH/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -133,6 +132,7 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -3310,7 +3310,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "pufETH",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3329,6 +3329,7 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -6451,13 +6452,14 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-USDL",
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },
@@ -9042,7 +9044,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Level USD",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -9061,6 +9063,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },

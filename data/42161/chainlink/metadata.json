@@ -78829,7 +78829,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Bone ShibaSwap",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -78846,7 +78846,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },
@@ -79084,7 +79085,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "ETHx",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -79102,6 +79103,7 @@
       "productTypeCode": "ExRate",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -79963,13 +79965,14 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-USDL",
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },
@@ -80638,7 +80641,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "DefiPulse Index",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Index",
@@ -80656,7 +80659,8 @@
       "productTypeCode": "CalcInidex",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },

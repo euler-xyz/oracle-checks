@@ -3097,7 +3097,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Meta",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "Equity",
@@ -3115,7 +3115,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025"
     },
     "decimals": 8
   },
@@ -5313,7 +5314,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Angle Protocol",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5325,7 +5326,6 @@
       "blockchainName": "Matic",
       "clicProductName": "AGEUR/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5333,6 +5333,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "December 22nd, 2025",
       "underlyingAsset": "EUR",
       "underlyingAssetClic": "EUR_FX"
     },
