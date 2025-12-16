@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0x24E65270E65d96Aeb12675FaD5FB1fc0CA91FCF7",
+  "chainId": 42161,
+  "base": "0x9b3924f9652cabf3Db48B7B4C92E474c571B3Ab4",
+  "quote": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+  "pendleMarket": "0xfAD63f0a2Ff618EdDE23561dfF212EDfeddBE89d",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x9b3924f9652cabf3Db48B7B4C92E474c571B3Ab4 is PT-thBILL-19FEB2026 (PT thBILL 19FEB2026) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xfAD63f0a2Ff618EdDE23561dfF212EDfeddBE89d is PLP-thBILL-19FEB2026 (PLP thBILL 19FEB2026) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "thBILL",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}

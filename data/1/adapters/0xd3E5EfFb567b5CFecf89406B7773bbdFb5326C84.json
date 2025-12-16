@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xd3E5EfFb567b5CFecf89406B7773bbdFb5326C84",
+  "chainId": 1,
+  "base": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+  "cross": "0x0000000000000000000000000000000000000348",
+  "quote": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "oracleBaseCross": "0x26bDa7a7A660a5e9Ac70f64b69f56EF1e2275a07",
+  "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "eBTC/USD/USDC",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
