@@ -3,6 +3,7 @@
   "version": "0.1.6",
   "description": "Euler price oracle verification checks",
   "scripts": {
+    "postinstall": "patch-package",
     "prebuild": "npm install @objectivelabs/oracle-sdk@github:euler-xyz/oracle-sdk#main --force",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "clean": "rimraf dist",
@@ -31,6 +32,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
+    "patch-package": "^8.0.1",
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "tsup": "^8.5.0",
@@ -41,6 +43,6 @@
     "cbor-x": "^1.6.0",
     "dotenv": "^16.4.7",
     "express": "^4.19.2",
-    "viem": "^2.37.9"
+    "viem": "^2.40.0"
   }
 }

@@ -18,6 +18,8 @@ import {
   tac,
   unichain,
   linea,
+  monad,
+  hyperEvm,
 } from "viem/chains";
 
 import { fallbackAssets } from "./fallbackAssets";
@@ -26,29 +28,29 @@ import { getClient } from "./getClient";
 import { metadataHashes } from "./metadataHashes";
 import { CheckConfig } from "./types";
 
-const monad = defineChain({
-  id: 143,
-  name: "Monad",
-  nativeCurrency: {
-    decimals: 18,
-    name: "Monad",
-    symbol: "MON",
-  },
-  rpcUrls: {
-    default: {
-      http: ["https://rpc2.euler.finance/143"],
-    },
-  },
-  blockExplorers: {
-    default: { name: "Monad Explorer", url: "https://mainnet-beta.monvision.io" },
-  },
-  contracts: {
-    multicall3: {
-      address: "0xcA11bde05977b3631167028862bE2a173976CA11",
-      blockCreated: 1,
-    },
-  },
-});
+// const monad = defineChain({
+//   id: 143,
+//   name: "Monad",
+//   nativeCurrency: {
+//     decimals: 18,
+//     name: "Monad",
+//     symbol: "MON",
+//   },
+//   rpcUrls: {
+//     default: {
+//       http: ["https://rpc2.euler.finance/143"],
+//     },
+//   },
+//   blockExplorers: {
+//     default: { name: "Monad Explorer", url: "https://mainnet-beta.monvision.io" },
+//   },
+//   contracts: {
+//     multicall3: {
+//       address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+//       blockCreated: 1,
+//     },
+//   },
+// });
 
 const defaultBounds = {
   minPushHeartbeatBuffer: 1800,
@@ -338,5 +340,13 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(monad.id),
+  },
+  [hyperEvm.id]: {
+    publicClient: getClient(hyperEvm),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(hyperEvm.id),
   },
 };
