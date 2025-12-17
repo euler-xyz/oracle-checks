@@ -1,9 +1,9 @@
 {
   "name": "FixedRateOracle",
-  "address": "0x73BF80c6E9812F8Ebc3dc4cBE45247e631d8c44c",
+  "address": "0x9364ab009BDC8EB0Ca864416c53DFd5B483a8a90",
   "chainId": 80094,
-  "base": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
-  "quote": "0x0000000000000000000000000000000000000348",
+  "base": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+  "quote": "0x6969696969696969696969696969696969696969",
   "rate": "1000000000000000000",
   "checks": [
     {
@@ -15,8 +15,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -33,13 +33,13 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23 is NECT/USDC/HONEY (NECT/USDC/HONEY) with 18 decimals.",
+      "message": "Asset 0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe is LBGT (Liquid BGT) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
       "pass": true
     },
     {
@@ -49,9 +49,9 @@
       "pass": true
     }
   ],
-  "label": "1:1 NECT/USDC/HONEY/USD",
+  "label": "1:1 LBGT/WBERA",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",
-  "whitelisted": true
+  "whitelisted": false
 }

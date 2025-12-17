@@ -1,11 +1,11 @@
 {
   "name": "PythOracle",
-  "address": "0xFaAF6eD6dCD936dA3F4EF105d326D6464529206f",
+  "address": "0x910255302Cc6Ef7210182C2f27419c2d44CF3bdD",
   "chainId": 80094,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "base": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
   "quote": "0x0000000000000000000000000000000000000348",
   "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
-  "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+  "feedId": "0xddf0dd319060db4561b5aa8f84a94816d33579f8dc2af2d8f74583bce20cd260",
   "maxStaleness": "120",
   "maxConfWidth": "300",
   "checks": [
@@ -18,8 +18,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -36,7 +36,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
       "pass": true
     },
     {
@@ -48,14 +48,14 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+      "message": "Adapter is connected to an official Pyth feed: NECT/USD",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (WBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
-      "pass": false
+      "message": "Adapter's base asset (NECT) corresponds to the Pyth feed's base asset from metadata (NECT).",
+      "pass": true
     },
     {
       "id": "Pyth quote correspondence",
@@ -76,9 +76,9 @@
       "pass": true
     }
   ],
-  "label": "Crypto.BTC/USD (120s, ±300bps)",
+  "label": "Crypto.NECT/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",
-  "whitelisted": true
+  "whitelisted": false
 }

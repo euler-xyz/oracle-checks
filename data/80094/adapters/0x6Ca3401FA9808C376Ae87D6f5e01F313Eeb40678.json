@@ -1,10 +1,9 @@
 {
   "name": "FixedRateOracle",
-  "address": "0x73BF80c6E9812F8Ebc3dc4cBE45247e631d8c44c",
+  "address": "0x6Ca3401FA9808C376Ae87D6f5e01F313Eeb40678",
   "chainId": 80094,
-  "base": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "rate": "1000000000000000000",
+  "base": "0x0000000000000000000000000000000000000348",
+  "quote": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
   "checks": [
     {
       "id": "Adapter existence",
@@ -15,14 +14,14 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
       "severity": "High",
-      "message": "Contract metadata hash matches a known hash.",
-      "pass": true
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
     },
     {
       "id": "Distinct assets",
@@ -33,25 +32,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23 is NECT/USDC/HONEY (NECT/USDC/HONEY) with 18 decimals.",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Sane fixed rate",
       "severity": "High",
-      "message": "Adapter has a fixed rate of 1.",
-      "pass": true
+      "message": "Error checking fixed rate.",
+      "pass": false
     }
   ],
-  "label": "1:1 NECT/USDC/HONEY/USD",
+  "label": "Unknown Fixed Rate Oracle",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",
-  "whitelisted": true
+  "whitelisted": false
 }

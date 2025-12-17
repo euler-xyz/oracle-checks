@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x5ad9C6117ceB1981CfCB89BEb6Bd29c9157aB5b3",
+  "name": "CrossAdapter",
+  "address": "0x3c079900064EdbD9e244752A967D3163d008Bc5A",
   "chainId": 80094,
-  "base": "0x549943e04f40284185054145c6E4e9568C1D3241",
+  "base": "0x69f1E971257419B1E9C405A553f252c64A29A30a",
+  "cross": "0x6969696969696969696969696969696969696969",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
-  "maxStaleness": "90000",
+  "oracleBaseCross": "0xdfFa05BdD5E6CE71F4b9A136AE4dCfa132ca9B89",
+  "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
   "checks": [
     {
       "id": "Adapter existence",
@@ -16,8 +17,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -34,7 +35,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
+      "message": "Asset 0x69f1E971257419B1E9C405A553f252c64A29A30a is oriBGT (Origami iBGT Auto-Compounder) with 18 decimals.",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "USDC/USD (0.1%, 86400s)",
-  "methodology": "Market Price",
-  "model": "Push",
-  "provider": "RedStone",
-  "whitelisted": true
+  "label": "oriBGT/WBERA/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
 }
