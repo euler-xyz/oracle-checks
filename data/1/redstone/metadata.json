@@ -24,12 +24,6 @@
     "heartbeat": 86400
   },
   {
-    "symbol": "deUSD",
-    "priceFeedAddress": "0x89F48f6671Ec1B1C4f6abE964EBdd21F4eb7076f",
-    "deviationPercentage": 0.1,
-    "heartbeat": 43200
-  },
-  {
     "symbol": "eBTC/WBTC",
     "priceFeedAddress": "0xe5867B1d421f0b52697F16e2ac437e87d66D5fbF",
     "deviationPercentage": 0.5,
@@ -120,12 +114,6 @@
     "heartbeat": 86400
   },
   {
-    "symbol": "USDX",
-    "priceFeedAddress": "0x6205DCc41329fb5dE3FB01e272eD49F8771cC715",
-    "deviationPercentage": 0.5,
-    "heartbeat": 86400
-  },
-  {
     "symbol": "sUSDX_ETH_FUNDAMENTAL",
     "priceFeedAddress": "0x5708d924Fc996EDee46962CdB6815f90639974e1",
     "deviationPercentage": 0.5,
@@ -176,13 +164,7 @@
   {
     "symbol": "BUIDL_FUNDAMENTAL",
     "priceFeedAddress": "0xb9BD795BB71012c0F3cd1D9c9A4c686F2d3524A4",
-    "deviationPercentage": 0.1,
-    "heartbeat": 86400
-  },
-  {
-    "symbol": "deUSD_FUNDAMENTAL",
-    "priceFeedAddress": "0xcA727511c9d542AAb9eF406d24E5bbbE4567c22d",
-    "deviationPercentage": 0.2,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
@@ -206,25 +188,19 @@
   {
     "symbol": "HLScope_FUNDAMENTAL",
     "priceFeedAddress": "0x1f14a50bA904A28CF6088e71B6a15561074398d7",
-    "deviationPercentage": 0.5,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
     "symbol": "ACRED_FUNDAMENTAL",
     "priceFeedAddress": "0xD6BcbbC87bFb6c8964dDc73DC3EaE6d08865d51C",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
     "symbol": "USUAL",
     "priceFeedAddress": "0x2240AE461B34CC56D654ba5FA5830A243Ca54840",
     "deviationPercentage": 0.5,
-    "heartbeat": 86400
-  },
-  {
-    "symbol": "USDtb_FUNDAMENTAL",
-    "priceFeedAddress": "0x692F045EFaC629a4d3C54DE4d8dDb1D225b5A976",
-    "deviationPercentage": 0.1,
     "heartbeat": 86400
   },
   {
@@ -272,25 +248,25 @@
   {
     "symbol": "BUIDL_DAILY_INTEREST_ACCRUAL",
     "priceFeedAddress": "0x9c303927dC4939692CC60641D6ceABa9185d687a",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
     "symbol": "BUIDL_I_ETHEREUM_FUNDAMENTAL",
     "priceFeedAddress": "0xf2db7b3455077Fb177215d45D62d441DF3C17bf3",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
     "symbol": "BUIDL_I_ETHEREUM_DAILY_ACCRUAL",
     "priceFeedAddress": "0xd6156F8177aA1a6E0c5278CE437A9BDB32F203ef",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
     "symbol": "VBILL_ETHEREUM_FUNDAMENTAL",
     "priceFeedAddress": "0xA569E68B5D110F2A255482c2997DFDBe1b2ab912",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
@@ -338,7 +314,7 @@
   {
     "symbol": "VBILL_ETHEREUM_DAILY_ACCRUAL",
     "priceFeedAddress": "0x5cC480aeCAd8F52ebd25b9B427737e401E47e8B0",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
@@ -380,7 +356,7 @@
   {
     "symbol": "STAC_FUNDAMENTAL",
     "priceFeedAddress": "0xEdC6287D3D41b322AF600317628D7E226DD3add4",
-    "deviationPercentage": 0.1,
+    "deviationPercentage": 0.01,
     "heartbeat": 86400
   },
   {
@@ -406,6 +382,18 @@
     "priceFeedAddress": "0x1102D8C7A6021e45cCddEC4912dc998Bc5ebD8e5",
     "deviationPercentage": 0.5,
     "heartbeat": 86400
+  },
+  {
+    "symbol": "MSUSD_FUNDAMENTAL",
+    "priceFeedAddress": "0xdC3FE501c1842953b85f5208dA69dc84Ff71A311",
+    "deviationPercentage": 0.25,
+    "heartbeat": 43200
+  },
+  {
+    "symbol": "MSY_FUNDAMENTAL/USD",
+    "priceFeedAddress": "0xcB62f468B5724B7748293fc78E42C3DA840a8338",
+    "deviationPercentage": 0.25,
+    "heartbeat": 43200
   },
   {
     "symbol": "apxETH/ETH",
