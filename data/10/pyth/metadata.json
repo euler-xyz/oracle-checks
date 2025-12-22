@@ -6364,6 +6364,20 @@
     }
   },
   {
+    "id": "0x815c34236119a175219c1d9f92bc190961d2c3773728c7186b6c187915074eb3",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "USD*",
+      "contract_id": "",
+      "description": "USD STAR / USD REDEMPTION RATE",
+      "display_symbol": "USD*/USD",
+      "generic_symbol": "USD*USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USD*/USD.RR"
+    }
+  },
+  {
     "id": "0x1dcf38b0206d27849b0fcb8d2df21aff4f95873cce223f49d7c1ea3c5145ec63",
     "attributes": {
       "asset_type": "Crypto",
@@ -7574,6 +7588,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ITW/USD"
+    }
+  },
+  {
+    "id": "0x69db9d152d73874c4b9906c12573528944affa45db56e93a44d0813c6372e9d9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - POST MARKET HOURS",
+      "display_symbol": "BOTZ/USD POST MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/C,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.BOTZ/USD.POST"
     }
   },
   {
@@ -12996,6 +13024,20 @@
     }
   },
   {
+    "id": "0xafd990ecdff7bc5d905ec2820c4ef285b4338bbc7d2464ce0e262f4cf484411d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "3887-HK",
+      "country": "HK",
+      "description": "HASHKEY HLDGS / HONG KONG DOLLAR",
+      "display_symbol": "HK.3887/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;1224/0930-1200,1225/C,1226/C,1231/0930-1200,0101/C",
+      "symbol": "Equity.HK.3887-HK/HKD"
+    }
+  },
+  {
     "id": "0x894e9c429f83fe4f35fda679568348418bafe5a0a68e1cccc8e51a137e879ce9",
     "attributes": {
       "asset_type": "Equity",
@@ -16195,7 +16237,7 @@
       "base": "BOTZ",
       "country": "US",
       "cqs_symbol": "BOTZ",
-      "description": "GLOBAL X ROBOTICS & ARTIFICIAL INTELLIGENCE ETF / US DOLLAR",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR",
       "display_symbol": "BOTZ/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -17415,6 +17457,19 @@
     }
   },
   {
+    "id": "0x197091dd0a6fdb99a1d094404e9dc63b63095f5b7f829509b3265131e9a56053",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TIBBIR",
+      "description": "RIBBITA BY VIRTUALS / US DOLLAR",
+      "display_symbol": "TIBBIR/USD",
+      "generic_symbol": "TIBBIRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TIBBIR/USD"
+    }
+  },
+  {
     "id": "0x19b27827b96e6e8517183e137e13237093922eb1c0c876f65f6e38ef9012ac45",
     "attributes": {
       "asset_type": "Crypto",
@@ -17712,6 +17767,20 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
       "symbol": "Equity.DE.BEI/EUR"
+    }
+  },
+  {
+    "id": "0x35c2835226f9994cf2cf745a70de2fbccd60f45fa33079ec4f8e1d0b902ea35d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - OVERNIGHT HOURS",
+      "display_symbol": "BOTZ/USD OVERNIGHT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/C,0101/C",
+      "symbol": "Equity.US.BOTZ/USD.ON"
     }
   },
   {
@@ -19971,6 +20040,20 @@
     }
   },
   {
+    "id": "0x696f2bdc5ea029939745c1c0c1c32f5ae90f704e1fd75c4c10ccb7441727c42c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "BOTZ/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.BOTZ/USD.PRE"
+    }
+  },
+  {
     "id": "0x1146c2a0a350b59854b5dfa9e9764654848b36936deeab01b521c296cadd2b62",
     "attributes": {
       "asset_type": "Equity",
@@ -20944,6 +21027,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ROL/USD"
+    }
+  },
+  {
+    "id": "0xe0c1fd6edbdd70d570d383d2c889c1f74314608145da58b68e2e7cd573a55c60",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "EXOD.SS",
+      "contract_id": "spl: 3DBudkWQNbXGAjzEAtpjMKorb76sjozcHCzc8ZtkHDAQ",
+      "description": "SUPERSTATE EXODUS MOVEMENT INC REDEMPTION RATE",
+      "display_symbol": "EXOD.SS/EXOD",
+      "generic_symbol": "EXOD.SSEXOD",
+      "quote_currency": "EXOD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EXOD.SS/EXOD.RR"
     }
   },
   {
@@ -30086,6 +30183,19 @@
     }
   },
   {
+    "id": "0xbcbbd0da95e8b3ef0c71e3e31bb871219e6b221328e5902b50ee2ae8c83c2c1e",
+    "attributes": {
+      "asset_type": "Crypto Index",
+      "base": "EXOD",
+      "description": "SUPERSTATE EXODUS MOVEMENT INC / US DOLLAR INDEX",
+      "display_symbol": "EXOD/USD",
+      "generic_symbol": "EXODUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.Index.EXOD/USD"
+    }
+  },
+  {
     "id": "0x1286070fae36dc773774de6e51d490bb70c84e3c541766125677ae5f8795dcb9",
     "attributes": {
       "asset_type": "Equity",
@@ -32089,6 +32199,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.IP/USD"
+    }
+  },
+  {
+    "id": "0xeb177413dfa4a455737b1427643ad43842f054625f85379eb154a3c790745d18",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EXOD",
+      "country": "US",
+      "description": "EXODUS MOVEMENT INC / US DOLLAR",
+      "display_symbol": "EXOD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.EXOD/USD"
     }
   },
   {
@@ -34855,6 +34979,19 @@
     }
   },
   {
+    "id": "0x2047d3b6ae5252c4394d576ad25f873d1360cd4f3e666af80e503c34d34901fc",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NIGHT",
+      "description": "MIDNIGHT / US DOLLAR",
+      "display_symbol": "NIGHT/USD",
+      "generic_symbol": "NIGHTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NIGHT/USD"
+    }
+  },
+  {
     "id": "0x671a121a8f83e67fb6bcd784136d086d25941fad095e85e7f62139e4a1e71730",
     "attributes": {
       "asset_type": "Equity",
@@ -35579,6 +35716,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.FRAX/USD"
+    }
+  },
+  {
+    "id": "0xc0c83f00c39165892d55dcd17ade2191e289697e2ac132d9ab721e20834e2a9e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LIT",
+      "description": "LIGHTER / US DOLLAR",
+      "display_symbol": "LIT/USD",
+      "generic_symbol": "LITUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LIT/USD"
     }
   },
   {
