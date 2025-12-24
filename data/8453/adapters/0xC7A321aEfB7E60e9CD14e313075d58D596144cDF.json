@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xC7A321aEfB7E60e9CD14e313075d58D596144cDF",
+  "chainId": 8453,
+  "base": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+  "cross": "0x4200000000000000000000000000000000000006",
+  "quote": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "oracleBaseCross": "0x917E579f27CBD19c1e97e6A03501198D6740c6A8",
+  "oracleCrossQuote": "0x2f5FACEAA8A06BDa66439E5EB9CB87f3ed7FB83a",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3 is superOETHb (Super OETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "superOETHb/WETH/USDC",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
