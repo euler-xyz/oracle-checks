@@ -55,7 +55,7 @@
       "display_symbol": "WTIJ6/USD",
       "generic_symbol": "WTIJ6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1127/0000-1430&1800-2400,1128/0000-1445",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1226/0000-1700,1231/0000-1700,0101/1800-2400",
       "symbol": "Commodities.WTIJ6/USD"
     }
   },
@@ -986,7 +986,7 @@
       "display_symbol": "UKOILSPOT/USD",
       "generic_symbol": "UKOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0000-2100,0000-2100,0000-2100,0000-2100,0000-2045,C,C;1127/0000-1830,1128/0100-2000",
+      "schedule": "GMT;0000-2100,0000-2100,0000-2100,0000-2100,0000-2045,C,C;1224/0000-1900,1225/C,1226/0700-2045,1231/0000-1900,0101/C,0102/0700-2045",
       "symbol": "Commodities.UKOILSPOT"
     }
   },
@@ -1363,7 +1363,7 @@
       "display_symbol": "MSFT/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.MSFT/USD.ON"
     }
   },
@@ -2199,6 +2199,19 @@
     }
   },
   {
+    "id": "0xa782aa53a79a0aaa311e50f6631577bdc972781fdc75ab95f357ba8fb61d2d0d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NIDM6",
+      "description": "NID M6 11 JUNE 2026 / US DOLLAR",
+      "display_symbol": "NIDM6/USD",
+      "generic_symbol": "NIDM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1315,1225/1800-2400,1231/0000-1700,0101/1800-2400",
+      "symbol": "Equity.US.NIDM6/USD"
+    }
+  },
+  {
     "id": "0xec167f44ca11ffa937c7fe55c407d7103abef9a4548bd769db2c5aacaebc6b95",
     "attributes": {
       "asset_type": "Equity",
@@ -2208,7 +2221,7 @@
       "display_symbol": "LMT/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.LMT/USD.ON"
     }
   },
@@ -2779,7 +2792,7 @@
       "display_symbol": "HOOD/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.HOOD/USD.PRE"
     }
   },
@@ -2884,7 +2897,7 @@
       "display_symbol": "NFLX/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.NFLX/USD.ON"
     }
   },
@@ -3786,7 +3799,7 @@
       "display_symbol": "META/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.META/USD.POST"
     }
   },
@@ -4242,7 +4255,7 @@
       "display_symbol": "NVDA/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.NVDA/USD.PRE"
     }
   },
@@ -4813,7 +4826,7 @@
       "display_symbol": "WTIH6/USD",
       "generic_symbol": "WTIH6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1127/0000-1430&1800-2400,1128/0000-1445",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1226/0000-1700,1231/0000-1700,0101/1800-2400",
       "symbol": "Commodities.WTIH6/USD"
     }
   },
@@ -5141,7 +5154,7 @@
       "display_symbol": "BA/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BA/USD.PRE"
     }
   },
@@ -5155,7 +5168,7 @@
       "display_symbol": "MSTR/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MSTR/USD.POST"
     }
   },
@@ -5424,7 +5437,7 @@
       "display_symbol": "COST/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.COST/USD.PRE"
     }
   },
@@ -5906,7 +5919,7 @@
       "display_symbol": "BMNR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.BMNR/USD.ON"
     }
   },
@@ -6351,6 +6364,20 @@
     }
   },
   {
+    "id": "0x815c34236119a175219c1d9f92bc190961d2c3773728c7186b6c187915074eb3",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "USD*",
+      "contract_id": "",
+      "description": "USD STAR / USD REDEMPTION RATE",
+      "display_symbol": "USD*/USD",
+      "generic_symbol": "USD*USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USD*/USD.RR"
+    }
+  },
+  {
     "id": "0x1dcf38b0206d27849b0fcb8d2df21aff4f95873cce223f49d7c1ea3c5145ec63",
     "attributes": {
       "asset_type": "Crypto",
@@ -6552,7 +6579,7 @@
       "display_symbol": "COIN/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.COIN/USD.POST"
     }
   },
@@ -6915,6 +6942,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.YBTC/USD"
+    }
+  },
+  {
+    "id": "0xcd1e6e9da2f301a64debfc04138914ac95247542dd44f9542ff2031977fd3603",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FCDM6",
+      "description": "FCD M6 29 JUNE 2026 / US DOLLAR",
+      "display_symbol": "FCDM6/USD",
+      "generic_symbol": "FCDM6",
+      "quote_currency": "USD",
+      "schedule": "",
+      "symbol": "Equity.US.FCDM6/USD"
     }
   },
   {
@@ -7529,7 +7569,7 @@
       "display_symbol": "PLTR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.PLTR/USD.ON"
     }
   },
@@ -7548,6 +7588,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ITW/USD"
+    }
+  },
+  {
+    "id": "0x69db9d152d73874c4b9906c12573528944affa45db56e93a44d0813c6372e9d9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - POST MARKET HOURS",
+      "display_symbol": "BOTZ/USD POST MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/C,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.BOTZ/USD.POST"
     }
   },
   {
@@ -8450,7 +8504,7 @@
       "display_symbol": "COIN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.COIN/USD.ON"
     }
   },
@@ -8464,7 +8518,7 @@
       "display_symbol": "ASML/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ASML/USD.POST"
     }
   },
@@ -8651,7 +8705,7 @@
       "display_symbol": "MU/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MU/USD.PRE"
     }
   },
@@ -8697,7 +8751,7 @@
       "display_symbol": "CRWV/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.CRWV/USD.PRE"
     }
   },
@@ -8883,7 +8937,7 @@
       "display_symbol": "LMT/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.LMT/USD.POST"
     }
   },
@@ -9097,7 +9151,7 @@
       "display_symbol": "SPY/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.SPY/USD.POST"
     }
   },
@@ -9111,7 +9165,7 @@
       "display_symbol": "BABA/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BABA/USD.PRE"
     }
   },
@@ -9224,7 +9278,7 @@
       "display_symbol": "INTC/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.INTC/USD.POST"
     }
   },
@@ -9440,7 +9494,7 @@
       "display_symbol": "XOM/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.XOM/USD.POST"
     }
   },
@@ -9868,7 +9922,7 @@
       "display_symbol": "CRWV/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.CRWV/USD.POST"
     }
   },
@@ -10234,7 +10288,7 @@
       "display_symbol": "AAPL/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AAPL/USD.POST"
     }
   },
@@ -10780,7 +10834,7 @@
       "display_symbol": "RGTI/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.RGTI/USD.ON"
     }
   },
@@ -10951,7 +11005,7 @@
       "display_symbol": "OPEN/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.OPEN/USD.PRE"
     }
   },
@@ -11283,7 +11337,7 @@
       "display_symbol": "GOOGL/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.GOOGL/USD.POST"
     }
   },
@@ -12135,7 +12189,7 @@
       "display_symbol": "MSTR/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MSTR/USD.PRE"
     }
   },
@@ -12180,7 +12234,7 @@
       "display_symbol": "OPEN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.OPEN/USD.ON"
     }
   },
@@ -12970,6 +13024,20 @@
     }
   },
   {
+    "id": "0xafd990ecdff7bc5d905ec2820c4ef285b4338bbc7d2464ce0e262f4cf484411d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "3887-HK",
+      "country": "HK",
+      "description": "HASHKEY HLDGS / HONG KONG DOLLAR",
+      "display_symbol": "HK.3887/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;1224/0930-1200,1225/C,1226/C,1231/0930-1200,0101/C",
+      "symbol": "Equity.HK.3887-HK/HKD"
+    }
+  },
+  {
     "id": "0x894e9c429f83fe4f35fda679568348418bafe5a0a68e1cccc8e51a137e879ce9",
     "attributes": {
       "asset_type": "Equity",
@@ -12995,7 +13063,7 @@
       "display_symbol": "USOILSPOT/USD",
       "generic_symbol": "USOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2045,C,2200-2400;1127/0000-1930&2300-2400,1128/0000-1945",
+      "schedule": "GMT;0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2045,C,2200-2400;1224/0000-1845,1225/C,1226/0700-2045,1231/0000-1900,0101/C,0102/0700-2045",
       "symbol": "Commodities.USOILSPOT"
     }
   },
@@ -13046,6 +13114,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.IXUS/USD"
+    }
+  },
+  {
+    "id": "0x7561853a241258b29ccb3aeeb176834feb168566319f7455a9dc6f05e2511268",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NIDU6",
+      "description": "NID U6 10 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "NIDU6/USD",
+      "generic_symbol": "NIDU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1315,1225/1800-2400,1231/0000-1700,0101/1800-2400",
+      "symbol": "Equity.US.NIDU6/USD"
     }
   },
   {
@@ -13463,7 +13544,7 @@
       "display_symbol": "PLTR/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.PLTR/USD.PRE"
     }
   },
@@ -14566,7 +14647,7 @@
       "display_symbol": "MAGS/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MAGS/USD.POST"
     }
   },
@@ -14593,7 +14674,7 @@
       "display_symbol": "ORCL/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ORCL/USD.PRE"
     }
   },
@@ -14624,7 +14705,7 @@
       "display_symbol": "JPM/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.JPM/USD.ON"
     }
   },
@@ -14662,7 +14743,7 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "EMZ5",
-      "description": "EM Z5 19 DECEMBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - EM Z5 19 DECEMBER 2025 / US DOLLAR",
       "display_symbol": "EMZ5/USD",
       "generic_symbol": "EMZ5",
       "quote_currency": "USD",
@@ -15146,7 +15227,7 @@
       "display_symbol": "LLY/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.LLY/USD.POST"
     }
   },
@@ -15465,7 +15546,7 @@
       "display_symbol": "QBTS/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.QBTS/USD.PRE"
     }
   },
@@ -15633,7 +15714,7 @@
       "display_symbol": "MSFT/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MSFT/USD.PRE"
     }
   },
@@ -16156,7 +16237,7 @@
       "base": "BOTZ",
       "country": "US",
       "cqs_symbol": "BOTZ",
-      "description": "GLOBAL X ROBOTICS & ARTIFICIAL INTELLIGENCE ETF / US DOLLAR",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR",
       "display_symbol": "BOTZ/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -16339,7 +16420,7 @@
       "display_symbol": "MSTR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.MSTR/USD.ON"
     }
   },
@@ -16545,7 +16626,7 @@
       "display_symbol": "CRCL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.CRCL/USD.ON"
     }
   },
@@ -17031,7 +17112,7 @@
       "display_symbol": "AAL/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AAL/USD.PRE"
     }
   },
@@ -17376,6 +17457,19 @@
     }
   },
   {
+    "id": "0x197091dd0a6fdb99a1d094404e9dc63b63095f5b7f829509b3265131e9a56053",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TIBBIR",
+      "description": "RIBBITA BY VIRTUALS / US DOLLAR",
+      "display_symbol": "TIBBIR/USD",
+      "generic_symbol": "TIBBIRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TIBBIR/USD"
+    }
+  },
+  {
     "id": "0x19b27827b96e6e8517183e137e13237093922eb1c0c876f65f6e38ef9012ac45",
     "attributes": {
       "asset_type": "Crypto",
@@ -17540,7 +17634,7 @@
       "display_symbol": "NFLX/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.NFLX/USD.PRE"
     }
   },
@@ -17612,7 +17706,7 @@
       "display_symbol": "CRWV/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.CRWV/USD.ON"
     }
   },
@@ -17673,6 +17767,20 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
       "symbol": "Equity.DE.BEI/EUR"
+    }
+  },
+  {
+    "id": "0x35c2835226f9994cf2cf745a70de2fbccd60f45fa33079ec4f8e1d0b902ea35d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - OVERNIGHT HOURS",
+      "display_symbol": "BOTZ/USD OVERNIGHT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/C,0101/C",
+      "symbol": "Equity.US.BOTZ/USD.ON"
     }
   },
   {
@@ -18057,7 +18165,7 @@
       "display_symbol": "AMZN/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AMZN/USD.PRE"
     }
   },
@@ -18157,7 +18265,7 @@
       "display_symbol": "SPY/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.SPY/USD.ON"
     }
   },
@@ -18384,7 +18492,7 @@
       "display_symbol": "TSLA/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.TSLA/USD.PRE"
     }
   },
@@ -18398,7 +18506,7 @@
       "display_symbol": "AAL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.AAL/USD.ON"
     }
   },
@@ -18666,7 +18774,7 @@
       "display_symbol": "META/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.META/USD.ON"
     }
   },
@@ -18693,7 +18801,7 @@
       "display_symbol": "IREN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.IREN/USD.ON"
     }
   },
@@ -18769,7 +18877,7 @@
       "display_symbol": "BMNR/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BMNR/USD.PRE"
     }
   },
@@ -18927,7 +19035,7 @@
       "display_symbol": "MSFT/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MSFT/USD.POST"
     }
   },
@@ -19170,7 +19278,7 @@
       "display_symbol": "ORCL/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ORCL/USD.POST"
     }
   },
@@ -19932,6 +20040,20 @@
     }
   },
   {
+    "id": "0x696f2bdc5ea029939745c1c0c1c32f5ae90f704e1fd75c4c10ccb7441727c42c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BOTZ",
+      "country": "US",
+      "description": "GLOBAL X BOTZ ETF / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "BOTZ/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.BOTZ/USD.PRE"
+    }
+  },
+  {
     "id": "0x1146c2a0a350b59854b5dfa9e9764654848b36936deeab01b521c296cadd2b62",
     "attributes": {
       "asset_type": "Equity",
@@ -20204,7 +20326,7 @@
       "display_symbol": "QBTS/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.QBTS/USD.ON"
     }
   },
@@ -20283,7 +20405,7 @@
       "display_symbol": "SNDK/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.SNDK/USD.PRE"
     }
   },
@@ -20565,6 +20687,19 @@
     }
   },
   {
+    "id": "0x7ae937c05fa6253145b8fc494a88a1de0ea48bdce86466fd491e84000b4cb5fa",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HKHF6",
+      "description": "HKH F6 29 JANUARY 2026 / HONG KONG DOLLAR",
+      "display_symbol": "HKHF6/HKD",
+      "generic_symbol": "HKHF6",
+      "quote_currency": "HKD",
+      "schedule": "",
+      "symbol": "Equity.HK.HKHF6/HKD"
+    }
+  },
+  {
     "id": "0x60bd1ddb5b55fc99af50cba723ceeecc68067a8e23cc2df420df5b36873744e2",
     "attributes": {
       "asset_type": "Equity",
@@ -20591,7 +20726,7 @@
       "display_symbol": "HOOD/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.HOOD/USD.POST"
     }
   },
@@ -20829,7 +20964,7 @@
       "display_symbol": "SNDK/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.SNDK/USD.ON"
     }
   },
@@ -20895,6 +21030,20 @@
     }
   },
   {
+    "id": "0xe0c1fd6edbdd70d570d383d2c889c1f74314608145da58b68e2e7cd573a55c60",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "EXOD.SS",
+      "contract_id": "spl: 3DBudkWQNbXGAjzEAtpjMKorb76sjozcHCzc8ZtkHDAQ",
+      "description": "SUPERSTATE EXODUS MOVEMENT INC REDEMPTION RATE",
+      "display_symbol": "EXOD.SS/EXOD",
+      "generic_symbol": "EXOD.SSEXOD",
+      "quote_currency": "EXOD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EXOD.SS/EXOD.RR"
+    }
+  },
+  {
     "id": "0xab5ac3a797d02f0159cea2097c4576ebb29afd60f7b7a6845617e8295a206d20",
     "attributes": {
       "asset_type": "Equity",
@@ -20944,7 +21093,7 @@
       "display_symbol": "TSLA/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.TSLA/USD.POST"
     }
   },
@@ -21311,7 +21460,7 @@
       "display_symbol": "BA/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BA/USD.POST"
     }
   },
@@ -21445,7 +21594,7 @@
       "display_symbol": "BMNR/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BMNR/USD.POST"
     }
   },
@@ -21750,7 +21899,7 @@
       "display_symbol": "AAL/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AAL/USD.POST"
     }
   },
@@ -21764,7 +21913,7 @@
       "display_symbol": "BA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.BA/USD.ON"
     }
   },
@@ -21920,7 +22069,7 @@
       "display_symbol": "JPM/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.JPM/USD.PRE"
     }
   },
@@ -21971,6 +22120,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.STRD/USD"
+    }
+  },
+  {
+    "id": "0xde41393d78804e2bd7c1c9c695eff06c7110600badf4ccca662363f37c2a0467",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HKHG6",
+      "description": "HKH G6 29 FEBRUARY 2026 / HONG KONG DOLLAR",
+      "display_symbol": "HKHG6/HKD",
+      "generic_symbol": "HKHG6",
+      "quote_currency": "HKD",
+      "schedule": "",
+      "symbol": "Equity.HK.HKHG6/HKD"
     }
   },
   {
@@ -22588,7 +22750,7 @@
       "display_symbol": "WTIG6/USD",
       "generic_symbol": "WTIG6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1127/0000-1430&1800-2400,1128/0000-1445",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1226/0000-1700,1231/0000-1700,0101/1800-2400",
       "symbol": "Commodities.WTIG6/USD"
     }
   },
@@ -23185,7 +23347,7 @@
       "display_symbol": "INTC/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.INTC/USD.ON"
     }
   },
@@ -23258,7 +23420,7 @@
       "display_symbol": "AAPL/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AAPL/USD.PRE"
     }
   },
@@ -23684,7 +23846,7 @@
       "display_symbol": "ORCL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.ORCL/USD.ON"
     }
   },
@@ -23773,7 +23935,7 @@
       "display_symbol": "AVGO/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AVGO/USD.PRE"
     }
   },
@@ -23843,7 +24005,7 @@
       "display_symbol": "AMD/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.AMD/USD.ON"
     }
   },
@@ -24598,7 +24760,7 @@
       "display_symbol": "GOOGL/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.GOOGL/USD.PRE"
     }
   },
@@ -24641,7 +24803,7 @@
       "display_symbol": "MU/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.MU/USD.ON"
     }
   },
@@ -24884,7 +25046,7 @@
       "display_symbol": "PLTR/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.PLTR/USD.POST"
     }
   },
@@ -24924,7 +25086,7 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "NIDH6",
-      "description": "NID H6 20 MARCH 2026 / US DOLLAR",
+      "description": "NID H6 12 MARCH 2026 / US DOLLAR",
       "display_symbol": "NIDH6/USD",
       "generic_symbol": "NIDH6",
       "quote_currency": "USD",
@@ -24942,7 +25104,7 @@
       "display_symbol": "RGTI/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.RGTI/USD.PRE"
     }
   },
@@ -25011,7 +25173,7 @@
       "display_symbol": "RGTI/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.RGTI/USD.POST"
     }
   },
@@ -25025,7 +25187,7 @@
       "display_symbol": "COST/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.COST/USD.POST"
     }
   },
@@ -25518,7 +25680,7 @@
       "display_symbol": "HOOD/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.HOOD/USD.ON"
     }
   },
@@ -25796,7 +25958,7 @@
       "display_symbol": "AMD/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AMD/USD.PRE"
     }
   },
@@ -25909,7 +26071,7 @@
       "display_symbol": "PURR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0930-1300,1225/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.PURR/USD.ON"
     }
   },
@@ -26201,7 +26363,7 @@
       "display_symbol": "LMT/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.LMT/USD.PRE"
     }
   },
@@ -26486,7 +26648,7 @@
       "display_symbol": "LLY/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.LLY/USD.ON"
     }
   },
@@ -26970,7 +27132,7 @@
       "display_symbol": "XOM/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.XOM/USD.ON"
     }
   },
@@ -26998,7 +27160,7 @@
       "display_symbol": "QQQ/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.QQQ/USD.PRE"
     }
   },
@@ -27314,7 +27476,7 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "DMZ5",
-      "description": "DM Z5 19 DECEMBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - DM Z5 19 DECEMBER 2025 / US DOLLAR",
       "display_symbol": "DMZ5/USD",
       "generic_symbol": "DMZ5",
       "quote_currency": "USD",
@@ -28037,7 +28199,7 @@
       "display_symbol": "XOM/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.XOM/USD.PRE"
     }
   },
@@ -28894,7 +29056,7 @@
       "display_symbol": "QQQ/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.QQQ/USD.POST"
     }
   },
@@ -29115,7 +29277,7 @@
       "display_symbol": "BABA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.BABA/USD.ON"
     }
   },
@@ -29174,7 +29336,7 @@
       "display_symbol": "NVDA/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.NVDA/USD.POST"
     }
   },
@@ -29356,7 +29518,7 @@
       "display_symbol": "QBTS/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.QBTS/USD.POST"
     }
   },
@@ -29451,7 +29613,7 @@
     "attributes": {
       "asset_type": "Commodities",
       "base": "WTIF6",
-      "description": "PYTH WTI 19 DECEMBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - PYTH WTI 19 DECEMBER 2025 / US DOLLAR",
       "display_symbol": "WTIF6/USD",
       "generic_symbol": "WTIF6",
       "quote_currency": "USD",
@@ -29714,7 +29876,7 @@
       "display_symbol": "COST/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.COST/USD.ON"
     }
   },
@@ -29956,7 +30118,7 @@
       "display_symbol": "ASML/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.ASML/USD.ON"
     }
   },
@@ -30021,6 +30183,19 @@
     }
   },
   {
+    "id": "0xbcbbd0da95e8b3ef0c71e3e31bb871219e6b221328e5902b50ee2ae8c83c2c1e",
+    "attributes": {
+      "asset_type": "Crypto Index",
+      "base": "EXOD",
+      "description": "SUPERSTATE EXODUS MOVEMENT INC / US DOLLAR INDEX",
+      "display_symbol": "EXOD/USD",
+      "generic_symbol": "EXODUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.Index.EXOD/USD"
+    }
+  },
+  {
     "id": "0x1286070fae36dc773774de6e51d490bb70c84e3c541766125677ae5f8795dcb9",
     "attributes": {
       "asset_type": "Equity",
@@ -30030,7 +30205,7 @@
       "display_symbol": "INTC/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.INTC/USD.PRE"
     }
   },
@@ -30297,7 +30472,7 @@
       "display_symbol": "CRCL/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.CRCL/USD.PRE"
     }
   },
@@ -30775,7 +30950,7 @@
       "display_symbol": "ASML/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.ASML/USD.PRE"
     }
   },
@@ -30957,7 +31132,7 @@
       "display_symbol": "SNDK/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.SNDK/USD.POST"
     }
   },
@@ -31089,7 +31264,7 @@
       "display_symbol": "SPY/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.SPY/USD.PRE"
     }
   },
@@ -31296,6 +31471,19 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;1124/C,1231/C,0101/C,0102/C,0112/C",
       "symbol": "Equity.JP.4901/JPY"
+    }
+  },
+  {
+    "id": "0x68cb4a22c5a4187efbe816033df2a6cc3b0e67af215fc0dd35b2b573646621b4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HKHZ5",
+      "description": "HKH Z5 30 DECEMBER 2025 / HONG KONG DOLLAR",
+      "display_symbol": "HKHZ5/HKD",
+      "generic_symbol": "HKHZ5",
+      "quote_currency": "HKD",
+      "schedule": "",
+      "symbol": "Equity.HK.HKHZ5/HKD"
     }
   },
   {
@@ -32014,6 +32202,20 @@
     }
   },
   {
+    "id": "0xeb177413dfa4a455737b1427643ad43842f054625f85379eb154a3c790745d18",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EXOD",
+      "country": "US",
+      "description": "EXODUS MOVEMENT INC / US DOLLAR",
+      "display_symbol": "EXOD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.EXOD/USD"
+    }
+  },
+  {
     "id": "0x4244d07890e4610f46bbde67de8f43a4bf8b569eebe904f136b469f148503b7f",
     "attributes": {
       "asset_type": "Crypto",
@@ -32293,7 +32495,7 @@
       "display_symbol": "TSLA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.TSLA/USD.ON"
     }
   },
@@ -32457,7 +32659,7 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "NMZ5",
-      "description": "NM Z5 19 DECEMBER 2025 / US DOLLAR",
+      "description": "DEPRECATED FEED - NM Z5 19 DECEMBER 2025 / US DOLLAR",
       "display_symbol": "NMZ5/USD",
       "generic_symbol": "NMZ5",
       "quote_currency": "USD",
@@ -33064,6 +33266,19 @@
     }
   },
   {
+    "id": "0xf584db2cce5b309a8767f852d4b4a67d96cadf8da10c064e77319a42c8fd0362",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FCDU6",
+      "description": "FCD U6 29 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "FCDU6/USD",
+      "generic_symbol": "FCDU6",
+      "quote_currency": "USD",
+      "schedule": "",
+      "symbol": "Equity.US.FCDU6/USD"
+    }
+  },
+  {
     "id": "0x1782b93c1fa65fe091e0bc504080cb4f4f1c39bf8350de952473a9b3c9a151b1",
     "attributes": {
       "asset_type": "FX",
@@ -33394,7 +33609,7 @@
       "display_symbol": "BRENTG6/USD",
       "generic_symbol": "BRENTG6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1128/0000-1500,1225/C,0101/C",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400,1225/C,0101/C",
       "symbol": "Commodities.BRENTG6/USD"
     }
   },
@@ -34006,7 +34221,7 @@
       "display_symbol": "NFLX/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.NFLX/USD.POST"
     }
   },
@@ -34020,7 +34235,7 @@
       "display_symbol": "AMZN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.AMZN/USD.ON"
     }
   },
@@ -34110,7 +34325,7 @@
       "display_symbol": "AVGO/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AVGO/USD.POST"
     }
   },
@@ -34196,7 +34411,7 @@
       "display_symbol": "GOOGL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.GOOGL/USD.ON"
     }
   },
@@ -34224,7 +34439,7 @@
       "display_symbol": "AAPL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.AAPL/USD.ON"
     }
   },
@@ -34265,7 +34480,7 @@
       "display_symbol": "BABA/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.BABA/USD.POST"
     }
   },
@@ -34759,8 +34974,21 @@
       "display_symbol": "AVGO/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.AVGO/USD.ON"
+    }
+  },
+  {
+    "id": "0x2047d3b6ae5252c4394d576ad25f873d1360cd4f3e666af80e503c34d34901fc",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NIGHT",
+      "description": "MIDNIGHT / US DOLLAR",
+      "display_symbol": "NIGHT/USD",
+      "generic_symbol": "NIGHTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NIGHT/USD"
     }
   },
   {
@@ -35053,7 +35281,7 @@
       "display_symbol": "OPEN/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.OPEN/USD.POST"
     }
   },
@@ -35135,7 +35363,7 @@
       "display_symbol": "META/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.META/USD.PRE"
     }
   },
@@ -35425,7 +35653,7 @@
       "display_symbol": "WTIK6/USD",
       "generic_symbol": "WTIK6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1127/0000-1430&1800-2400,1128/0000-1445",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1226/0000-1700,1231/0000-1700,0101/1800-2400",
       "symbol": "Commodities.WTIK6/USD"
     }
   },
@@ -35488,6 +35716,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.FRAX/USD"
+    }
+  },
+  {
+    "id": "0xc0c83f00c39165892d55dcd17ade2191e289697e2ac132d9ab721e20834e2a9e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LIT",
+      "description": "LIGHTER / US DOLLAR",
+      "display_symbol": "LIT/USD",
+      "generic_symbol": "LITUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LIT/USD"
     }
   },
   {
@@ -36060,7 +36301,7 @@
       "display_symbol": "MAGS/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MAGS/USD.PRE"
     }
   },
@@ -36300,7 +36541,7 @@
       "display_symbol": "CRCL/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.CRCL/USD.POST"
     }
   },
@@ -36619,7 +36860,7 @@
       "display_symbol": "IREN/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.IREN/USD.POST"
     }
   },
@@ -37069,7 +37310,7 @@
       "display_symbol": "QQQ/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.QQQ/USD.ON"
     }
   },
@@ -37589,7 +37830,7 @@
       "display_symbol": "AMZN/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AMZN/USD.POST"
     }
   },
@@ -37901,8 +38142,21 @@
       "display_symbol": "LLY/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.LLY/USD.PRE"
+    }
+  },
+  {
+    "id": "0x7bdbdf81701816941e28e581a7789fbbc36153ec4a4d6abaa0622381cef0ccc5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FCDH6",
+      "description": "FCD H6 30 MARCH 2026 / US DOLLAR",
+      "display_symbol": "FCDH6/USD",
+      "generic_symbol": "FCDH6",
+      "quote_currency": "USD",
+      "schedule": "",
+      "symbol": "Equity.US.FCDH6/USD"
     }
   },
   {
@@ -38430,7 +38684,7 @@
       "display_symbol": "COIN/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.COIN/USD.PRE"
     }
   },
@@ -39023,7 +39277,7 @@
       "display_symbol": "BRENTH6/USD",
       "generic_symbol": "BRENTH6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1128/0000-1500,1225/C,0101/C",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400,1225/C,0101/C",
       "symbol": "Commodities.BRENTH6/USD"
     }
   },
@@ -39254,7 +39508,7 @@
       "display_symbol": "JPM/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.JPM/USD.POST"
     }
   },
@@ -39727,7 +39981,7 @@
       "display_symbol": "MAGS/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.MAGS/USD.ON"
     }
   },
@@ -39942,7 +40196,7 @@
       "display_symbol": "NVDA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1126/0000-0400,1127/2000-2400,1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
       "symbol": "Equity.US.NVDA/USD.ON"
     }
   },
@@ -40202,7 +40456,7 @@
       "display_symbol": "AMD/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.AMD/USD.POST"
     }
   },
@@ -40271,7 +40525,7 @@
       "display_symbol": "MU/USD POST MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1127/C,1128/C,1224/C,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.MU/USD.POST"
     }
   },
@@ -40832,7 +41086,7 @@
       "display_symbol": "IREN/USD PRE MARKET",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1127/C,1128/0400-0930,1224/0400-0930,1225/C,0101/C,0119/C",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
       "symbol": "Equity.US.IREN/USD.PRE"
     }
   },

@@ -418,7 +418,7 @@
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
       "assetName": "Renzo Restaked ETH",
-      "attributeType": "CexPrice",
+      "attributeType": "ExchangeRate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
       "clicProductName": "EZETH/ETH-ExchangeRate-DS-Premium-Global-002",
@@ -1693,7 +1693,7 @@
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
       "assetName": "Renzo Restaked ETH",
-      "attributeType": "CexPrice",
+      "attributeType": "ExchangeRate",
       "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
       "clicProductName": "EZETH/ETH-ExchangeRate-DSStaging-Premium-Global-002",
@@ -11802,6 +11802,104 @@
     },
     "decimals": 18,
     "feedId": "0x000378614790083d134c016c6b464bf8bc8b8c0e86d25dd00ca8e90ddeb51188",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC.B/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "BTC.B",
+      "USD"
+    ],
+    "path": "btc-b-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Avalanche Bridged BTC",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Avalanche Bridged BTC",
+      "attributeType": "DexPrice",
+      "baseAsset": "BTC.B",
+      "baseAssetClic": "BTC.B_CR",
+      "clicProductName": "BTC.B/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0003789de471c089e388aa56ae58b398ac25dbcca7e5b4acb06ab06935c5367c",
     "sourceChain": 42161,
     "status": "deployed",
     "oracles": [
@@ -45156,14 +45254,28 @@
     "secondaryProxyAddress": "0xe4c892BE702F8e0771122CCaAA0E50BF9639e2Fd",
     "threshold": 0.1,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Circle USD",
+    "feedCategory": "low",
+    "feedType": "Crypto",
     "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
       "attributeType": "cex_price",
+      "baseAsset": "USDC",
+      "baseAssetClic": "USDC_CR",
       "baseAssetEntityId": "crypto-USDC",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "USDC/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
     },
     "decimals": 18
   },
@@ -47046,53 +47158,6 @@
   },
   {
     "compareOffchain": "",
-    "contractAddress": "0x2e28a984aac100130F97B112e48E163d525bb398",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "deusd-usd",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "100000000",
-    "name": "deUSD / USD",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "deusd-usd",
-    "proxyAddress": "0xa2b9BFb5CE1c7ABBC6609de17e5968eA2c20a5f1",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "Elixir deUSD",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Stablecoin",
-      "attributeType": "dex_state_price",
-      "baseAsset": "DEUSD",
-      "baseAssetClic": "DEUSD_CR",
-      "baseAssetEntityId": "crypto-DEUSD",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "DEUSD/USD-RefPrice-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "December 1st, 2025",
-      "underlyingAsset": "USD",
-      "underlyingAssetClic": "USD_FX"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
     "contractAddress": "0x2e4c363449E2EC7E93cd9ed4F3843c2CA4497108",
     "contractType": "",
     "contractVersion": 4,
@@ -47220,50 +47285,6 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x30De7e208Cc038673a42EA9F90b7de0F744F6C79",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "anon-usd",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "100000000",
-    "name": "ANON / USD",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "anon-usd",
-    "proxyAddress": "0x38ACD8CA9612737D2Ba42881b544626A8E18b061",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "Hey Anon",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "attributeType": "dex_state_price",
-      "baseAsset": "ANON",
-      "baseAssetClic": "ANON_CR",
-      "baseAssetEntityId": "crypto-ANON",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "ANON/USD-RefPrice-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "November 12th, 2025"
     },
     "decimals": 8
   },
@@ -47489,6 +47510,7 @@
       "blockchainName": "Arbitrum",
       "clicProductName": "XUSD/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -78252,94 +78274,6 @@
   },
   {
     "compareOffchain": "",
-    "contractAddress": "0x69Ff5b330f579229F9a842B9DD215B8E6833301d",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "iotx-usd",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": false,
-    "multiply": "100000000",
-    "name": "IOTX / USD",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "iotx-usd",
-    "proxyAddress": "0x484A1b29ED1Ea038dBd75D7c7293714343363122",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "IoTeX",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "attributeType": "cex_price",
-      "baseAsset": "IOTX",
-      "baseAssetClic": "IOTX_CR",
-      "baseAssetEntityId": "crypto-IOTX",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "IOTX/USD-RefPrice-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "December 1st, 2025"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x6A5ce916A240e2B2c6780Fb1761e93ccD53F4e36",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "mvi-usd",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "100000000",
-    "name": "MVI-USD",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "mvi-usd",
-    "proxyAddress": "0x87B679C03e9672Af516a9E08085e1F4FA1722A3D",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "Metaverse Index",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "attributeType": "calculated",
-      "baseAsset": "MVI",
-      "baseAssetClic": "BEAM_CR",
-      "baseAssetEntityId": "crypto-MVI",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "MVI/USD-RefPrice-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "November 12th, 2025"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
     "contractAddress": "0x6B37301D8723009dE204baf49e9AF6d4D37fe654",
     "contractType": "",
     "contractVersion": 4,
@@ -79297,50 +79231,6 @@
   },
   {
     "compareOffchain": "",
-    "contractAddress": "0x815d5838677F0f063f7589C1Da44f76241FD0C65",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "btcusd-total-marketcap",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": false,
-    "multiply": "100000000",
-    "name": "BTC-USD Total Marketcap",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "btc-usd-marketcap",
-    "proxyAddress": "0x7519bCA20e21725557Bb98d9032124f8885a26C2",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "Total cryptocurrency market cap",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "attributeType": "marketcap",
-      "baseAsset": "BTC",
-      "baseAssetClic": "BTC_CR",
-      "baseAssetEntityId": "crypto-BTC",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "BTC/USD-MCap-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Marketcap",
-      "productType": "Price",
-      "productTypeCode": "MCap",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "December 1st, 2025"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
     "contractAddress": "0x8334F7Df02E9e49f4aD630916f448766F498e9Dd",
     "contractType": "",
     "contractVersion": 4,
@@ -80070,39 +79960,6 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD"
-    },
-    "decimals": 8
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x9b9b43029aA05729b5c391CfBB4150087eF42950",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "usdx-usd",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "100000000",
-    "name": "USDX / USD",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "usdx-usd",
-    "proxyAddress": "0x68148201f743eFE9AfC2Bc62F9d6D5672d118Bb3",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "deprecating",
-    "feedType": "",
-    "docs": {
-      "attributeType": "dex_state_price",
-      "baseAssetEntityId": "crypto-USDX",
-      "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "December 1st, 2025"
     },
     "decimals": 8
   },
@@ -81006,50 +80863,6 @@
       "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0xC38d4423efaD7D673b0cD47656ed33F8c15c6a57",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "ethusd-total-marketcap",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": false,
-    "multiply": "100000000",
-    "name": "ETH-USD Total Marketcap",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "eth-usd-marketcap",
-    "proxyAddress": "0xB1f70A229FE7cceD0428245db8B1f6C48c7Ea82a",
-    "threshold": 2,
-    "valuePrefix": "",
-    "assetName": "Total cryptocurrency market cap",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "attributeType": "marketcap",
-      "baseAsset": "ETH",
-      "baseAssetClic": "ETH_CR",
-      "baseAssetEntityId": "crypto-ETH",
-      "blockchainName": "Arbitrum",
-      "clicProductName": "ETH/USD-MCap-DF-Arbitrum-001",
-      "deliveryChannelCode": "DF",
-      "marketHours": "Crypto",
-      "productSubType": "Marketcap",
-      "productType": "Price",
-      "productTypeCode": "MCap",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "December 1st, 2025"
-    },
-    "decimals": 8
   },
   {
     "compareOffchain": "",
