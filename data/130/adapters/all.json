@@ -947,6 +947,64 @@
   },
   {
     "name": "ChainlinkInfrequentOracle",
+    "address": "0xCfF9f01515d630C81cB998aCA0B1Fe99EB473869",
+    "chainId": 130,
+    "base": "0xB6168F597Cd37A232cb7CB94CD1786Be20eAD156",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4782961880d251865c0d1C626140Cd78076BBb5A",
+    "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB6168F597Cd37A232cb7CB94CD1786Be20eAD156 is PT-cUSD-29JAN2026-(ETH) (PT cap USD 29JAN2026 (ETH)) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
     "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
     "chainId": 130,
     "base": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
