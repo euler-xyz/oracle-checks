@@ -60,6 +60,20 @@
     }
   },
   {
+    "id": "0x9d28afc7e3b9c7b5bc10270f2b6cbc880e6d0bdd3ff5475f623723b90d16e453",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RIVN",
+      "country": "US",
+      "description": "RIVIAN AUTOMOTIVE INC / US DOLLAR - POST MARKET HOURS",
+      "display_symbol": "RIVN/USD POST MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.RIVN/USD.POST"
+    }
+  },
+  {
     "id": "0x5ca9c34d00214bf9416439970caf29eb7f379536fcb82ee21e7d7cf69acadf2a",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -1363,7 +1377,7 @@
       "display_symbol": "MSFT/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.MSFT/USD.ON"
     }
   },
@@ -2177,7 +2191,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BUDDY",
-      "description": "ALRIGHT BUDDY / US DOLLAR",
+      "description": "DEPRECATED FEED - ALRIGHT BUDDY / US DOLLAR",
       "display_symbol": "BUDDY/USD",
       "generic_symbol": "BUDDYUSD",
       "quote_currency": "USD",
@@ -2221,7 +2235,7 @@
       "display_symbol": "LMT/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.LMT/USD.ON"
     }
   },
@@ -2367,7 +2381,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "GIGA",
-      "description": "GIGACHAD / US DOLLAR",
+      "description": "DEPRECATED FEED - GIGACHAD / US DOLLAR",
       "display_symbol": "GIGA/USD",
       "generic_symbol": "GIGAUSD",
       "quote_currency": "USD",
@@ -2488,7 +2502,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BELIEVE",
-      "description": "BELIEVE / US DOLLAR",
+      "description": "DEPRECATED FEED - BELIEVE / US DOLLAR",
       "display_symbol": "BELIEVE/USD",
       "generic_symbol": "BELIEVEUSD",
       "quote_currency": "USD",
@@ -2897,7 +2911,7 @@
       "display_symbol": "NFLX/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.NFLX/USD.ON"
     }
   },
@@ -5446,7 +5460,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "ODOS",
-      "description": "ODOS / US DOLLAR",
+      "description": "DEPRECATED FEED - ODOS / US DOLLAR",
       "display_symbol": "ODOS/USD",
       "generic_symbol": "ODOSUSD",
       "quote_currency": "USD",
@@ -5621,6 +5635,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1127/C,1128/0930-1300,1224/0930-1300,1225/C,0101/C,0119/C",
       "symbol": "Equity.US.TSLZ/USD"
+    }
+  },
+  {
+    "id": "0xfddb6af53630ad539f9a39afc2d7168a4924311a8d9905115ec55fad1790450f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RIVN",
+      "country": "US",
+      "description": "RIVIAN AUTOMOTIVE INC / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "RIVN/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.RIVN/USD.PRE"
     }
   },
   {
@@ -5857,7 +5885,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BLZE",
-      "description": "BLAZE / US DOLLAR",
+      "description": "DEPRECATED FEED - BLAZE / US DOLLAR",
       "display_symbol": "BLZE/USD",
       "generic_symbol": "BLZEUSD",
       "quote_currency": "USD",
@@ -5919,7 +5947,7 @@
       "display_symbol": "BMNR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.BMNR/USD.ON"
     }
   },
@@ -6017,7 +6045,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "ONE",
-      "description": "HARMONY / US DOLLAR",
+      "description": "DEPRECATED FEED - HARMONY / US DOLLAR",
       "display_symbol": "ONE/USD",
       "generic_symbol": "ONEUSD",
       "quote_currency": "USD",
@@ -7312,7 +7340,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "TURBOS",
-      "description": "TURBOS FINANCE / US DOLLAR",
+      "description": "DEPRECATED FEED - TURBOS FINANCE / US DOLLAR",
       "display_symbol": "TURBOS/USD",
       "generic_symbol": "TURBOSUSD",
       "quote_currency": "USD",
@@ -7470,7 +7498,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "4",
-      "description": "4 / US DOLLAR",
+      "description": "DEPRECATED FEED - 4 / US DOLLAR",
       "display_symbol": "4/USD",
       "generic_symbol": "4USD",
       "quote_currency": "USD",
@@ -7569,7 +7597,7 @@
       "display_symbol": "PLTR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.PLTR/USD.ON"
     }
   },
@@ -7766,6 +7794,20 @@
       "quote_currency": "%",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "ECO.US.COREPPIRATEY"
+    }
+  },
+  {
+    "id": "0x5f4b176844ef143055b83ee718f152b983af493ab69a84937cef777c33ca4fb0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMH",
+      "country": "US",
+      "description": "VANECK SEMICONDUCTOR ETF / US DOLLAR - POST MARKET HOURS",
+      "display_symbol": "SMH/USD POST MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;1600-2000,1600-2000,1600-2000,1600-2000,1600-2000,C,C;1224/1300-1700,1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.SMH/USD.POST"
     }
   },
   {
@@ -8504,7 +8546,7 @@
       "display_symbol": "COIN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.COIN/USD.ON"
     }
   },
@@ -8588,7 +8630,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "LOFI",
-      "description": "LOFI THE YETI / US DOLLAR",
+      "description": "DEPRECATED FEED - LOFI THE YETI / US DOLLAR",
       "display_symbol": "LOFI/USD",
       "generic_symbol": "LOFIUSD",
       "quote_currency": "USD",
@@ -8787,7 +8829,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "LOOKS",
-      "description": "LOOKSRARE / US DOLLAR",
+      "description": "DEPRECATED FEED - LOOKSRARE / US DOLLAR",
       "display_symbol": "LOOKS/USD",
       "generic_symbol": "LOOKSUSD",
       "quote_currency": "USD",
@@ -10136,7 +10178,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "OUSDT",
-      "description": "OPEN USDT / US DOLLAR",
+      "description": "DEPRECATED FEED - OPEN USDT / US DOLLAR",
       "display_symbol": "OUSDT/USD",
       "generic_symbol": "OUSDTUSD",
       "quote_currency": "USD",
@@ -10217,7 +10259,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "URANUS",
-      "description": "URANUS COIN / US DOLLAR",
+      "description": "DEPRECATED FEED - URANUS COIN / US DOLLAR",
       "display_symbol": "URANUS/USD",
       "generic_symbol": "URANUSUSD",
       "quote_currency": "USD",
@@ -10718,7 +10760,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "HFUN",
-      "description": "HYPURR FUN / US DOLLAR",
+      "description": "DEPRECATED FEED - HYPURR FUN / US DOLLAR",
       "display_symbol": "HFUN/USD",
       "generic_symbol": "HFUNUSD",
       "quote_currency": "USD",
@@ -10834,7 +10876,7 @@
       "display_symbol": "RGTI/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.RGTI/USD.ON"
     }
   },
@@ -11046,7 +11088,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "THAPT",
-      "description": "THALA APT / US DOLLAR",
+      "description": "DEPRECATED FEED - THALA APT / US DOLLAR",
       "display_symbol": "THAPT/USD",
       "generic_symbol": "THAPTUSD",
       "quote_currency": "USD",
@@ -12234,7 +12276,7 @@
       "display_symbol": "OPEN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.OPEN/USD.ON"
     }
   },
@@ -12723,7 +12765,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "ATLAS",
-      "description": "STAR ATLAS / US DOLLAR",
+      "description": "DEPRECATED FEED - STAR ATLAS / US DOLLAR",
       "display_symbol": "ATLAS/USD",
       "generic_symbol": "ATLASUSD",
       "quote_currency": "USD",
@@ -12858,7 +12900,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "MODE",
-      "description": "MODE NETWORK / US DOLLAR",
+      "description": "DEPRECATED FEED - MODE NETWORK / US DOLLAR",
       "display_symbol": "MODE/USD",
       "generic_symbol": "MODEUSD",
       "quote_currency": "USD",
@@ -13148,7 +13190,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "WOM",
-      "description": "WOMBAT EXCHANGE / US DOLLAR",
+      "description": "DEPRECATED FEED - WOMBAT EXCHANGE / US DOLLAR",
       "display_symbol": "WOM/USD",
       "generic_symbol": "WOMUSD",
       "quote_currency": "USD",
@@ -13904,7 +13946,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "LBGT",
-      "description": "LIQUID BERA GOVERNANCE TOKEN / US DOLLAR",
+      "description": "DEPRECATED FEED - LIQUID BERA GOVERNANCE TOKEN / US DOLLAR",
       "display_symbol": "LBGT/USD",
       "generic_symbol": "LBGTUSD",
       "quote_currency": "USD",
@@ -14705,7 +14747,7 @@
       "display_symbol": "JPM/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.JPM/USD.ON"
     }
   },
@@ -14756,7 +14798,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "MANEKI",
-      "description": "MANEKI / US DOLLAR",
+      "description": "DEPRECATED FEED - MANEKI / US DOLLAR",
       "display_symbol": "MANEKI/USD",
       "generic_symbol": "MANEKIUSD",
       "quote_currency": "USD",
@@ -14898,7 +14940,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "MYRO",
-      "description": "MYRO / US DOLLAR",
+      "description": "DEPRECATED FEED - MYRO / US DOLLAR",
       "display_symbol": "MYRO/USD",
       "generic_symbol": "MYROUSD",
       "quote_currency": "USD",
@@ -15455,7 +15497,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "TAC",
-      "description": "TAC PROTOCOL / US DOLLAR",
+      "description": "DEPRECATED FEED - TAC PROTOCOL / US DOLLAR",
       "display_symbol": "TAC/USD",
       "generic_symbol": "TACUSD",
       "quote_currency": "USD",
@@ -15723,7 +15765,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "AERGO",
-      "description": "AERGO / US DOLLAR",
+      "description": "DEPRECATED FEED - AERGO / US DOLLAR",
       "display_symbol": "AERGO/USD",
       "generic_symbol": "AERGOUSD",
       "quote_currency": "USD",
@@ -16420,7 +16462,7 @@
       "display_symbol": "MSTR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.MSTR/USD.ON"
     }
   },
@@ -16626,7 +16668,7 @@
       "display_symbol": "CRCL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.CRCL/USD.ON"
     }
   },
@@ -17474,7 +17516,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "LUCE",
-      "description": "LUCE / US DOLLAR",
+      "description": "DEPRECATED FEED - LUCE / US DOLLAR",
       "display_symbol": "LUCE/USD",
       "generic_symbol": "LUCEUSD",
       "quote_currency": "USD",
@@ -17706,7 +17748,7 @@
       "display_symbol": "CRWV/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.CRWV/USD.ON"
     }
   },
@@ -17779,7 +17821,7 @@
       "display_symbol": "BOTZ/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/C,0101/C",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.BOTZ/USD.ON"
     }
   },
@@ -18265,7 +18307,7 @@
       "display_symbol": "SPY/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.SPY/USD.ON"
     }
   },
@@ -18506,7 +18548,7 @@
       "display_symbol": "AAL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.AAL/USD.ON"
     }
   },
@@ -18774,7 +18816,7 @@
       "display_symbol": "META/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.META/USD.ON"
     }
   },
@@ -18801,7 +18843,7 @@
       "display_symbol": "IREN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.IREN/USD.ON"
     }
   },
@@ -18859,7 +18901,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "USDAF",
-      "description": "ASYMMETRY USDAF / US DOLLAR",
+      "description": "DEPRECATED FEED - ASYMMETRY USDAF / US DOLLAR",
       "display_symbol": "USDAF/USD",
       "generic_symbol": "USDAFUSD",
       "quote_currency": "USD",
@@ -18914,7 +18956,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "WFRAGSOL",
-      "description": "WRAPPED FRAGMETRIC RESTAKED SOLANA / US DOLLAR",
+      "description": "DEPRECATED FEED - WRAPPED FRAGMETRIC RESTAKED SOLANA / US DOLLAR",
       "display_symbol": "WFRAGSOL/USD",
       "generic_symbol": "WFRAGSOLUSD",
       "quote_currency": "USD",
@@ -19905,6 +19947,20 @@
     }
   },
   {
+    "id": "0x04739281464c96bd5d2af91d681694905f0393f173d586e2c087316127793cf8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMH",
+      "country": "US",
+      "description": "VANECK SEMICONDUCTOR ETF / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "SMH/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;1225/C,0101/C,0119/C",
+      "symbol": "Equity.US.SMH/USD.PRE"
+    }
+  },
+  {
     "id": "0x3c0d13cb9c8b9f9bc05c3b5335a9b2e5de451aadf4864b397fb47f6fadac9953",
     "attributes": {
       "asset_type": "Equity",
@@ -20326,7 +20382,7 @@
       "display_symbol": "QBTS/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.QBTS/USD.ON"
     }
   },
@@ -20873,7 +20929,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "GOGLZ",
-      "description": "GOGGLES / US DOLLAR",
+      "description": "DEPRECATED FEED - GOGGLES / US DOLLAR",
       "display_symbol": "GOGLZ/USD",
       "generic_symbol": "GOGLZUSD",
       "quote_currency": "USD",
@@ -20964,7 +21020,7 @@
       "display_symbol": "SNDK/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.SNDK/USD.ON"
     }
   },
@@ -21075,7 +21131,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "DOGINME",
-      "description": "DOGINME / US DOLLAR",
+      "description": "DEPRECATED FEED - DOGINME / US DOLLAR",
       "display_symbol": "DOGINME/USD",
       "generic_symbol": "DOGINMEUSD",
       "quote_currency": "USD",
@@ -21913,7 +21969,7 @@
       "display_symbol": "BA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.BA/USD.ON"
     }
   },
@@ -23253,7 +23309,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "MBTC",
-      "description": "MERLIN SEAL BITCOIN / US DOLLAR",
+      "description": "DEPRECATED FEED - MERLIN SEAL BITCOIN / US DOLLAR",
       "display_symbol": "MBTC/USD",
       "generic_symbol": "MBTCUSD",
       "quote_currency": "USD",
@@ -23347,7 +23403,7 @@
       "display_symbol": "INTC/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.INTC/USD.ON"
     }
   },
@@ -23846,7 +23902,7 @@
       "display_symbol": "ORCL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.ORCL/USD.ON"
     }
   },
@@ -24005,7 +24061,7 @@
       "display_symbol": "AMD/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.AMD/USD.ON"
     }
   },
@@ -24780,6 +24836,20 @@
     }
   },
   {
+    "id": "0xd1a9b32cdadfbb9f4eb7def053bd27cc280927a6652874df56efbfce28feae9f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RIVN",
+      "country": "US",
+      "description": "RIVIAN AUTOMOTIVE INC / US DOLLAR - OVERNIGHT HOURS",
+      "display_symbol": "RIVN/USD OVERNIGHT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
+      "symbol": "Equity.US.RIVN/USD.ON"
+    }
+  },
+  {
     "id": "0xff09ca694c1bf379b06b556b9a7d2b2d96fd0f16f012e68056390c7db19816ec",
     "attributes": {
       "asset_type": "Equity",
@@ -24803,7 +24873,7 @@
       "display_symbol": "MU/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.MU/USD.ON"
     }
   },
@@ -25324,7 +25394,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "OS",
-      "description": "ORIGIN STAKED SONIC / US DOLLAR",
+      "description": "DEPRECATED FEED - ORIGIN STAKED SONIC / US DOLLAR",
       "display_symbol": "OS/USD",
       "generic_symbol": "OSUSD",
       "quote_currency": "USD",
@@ -25680,7 +25750,7 @@
       "display_symbol": "HOOD/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.HOOD/USD.ON"
     }
   },
@@ -25717,7 +25787,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "SCETH",
-      "description": "SONIC ETH / US DOLLAR",
+      "description": "DEPRECATED FEED - SONIC ETH / US DOLLAR",
       "display_symbol": "SCETH/USD",
       "generic_symbol": "SCETHUSD",
       "quote_currency": "USD",
@@ -26071,7 +26141,7 @@
       "display_symbol": "PURR/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.PURR/USD.ON"
     }
   },
@@ -26109,7 +26179,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "USDU",
-      "description": "UNITAS US DOLLAR / US DOLLAR",
+      "description": "DEPRECATED FEED - UNITAS US DOLLAR / US DOLLAR",
       "display_symbol": "USDU/USD",
       "generic_symbol": "USDUUSD",
       "quote_currency": "USD",
@@ -26558,7 +26628,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "FOXY",
-      "description": "FOXY / US DOLLAR",
+      "description": "DEPRECATED FEED - FOXY / US DOLLAR",
       "display_symbol": "FOXY/USD",
       "generic_symbol": "FOXYUSD",
       "quote_currency": "USD",
@@ -26648,7 +26718,7 @@
       "display_symbol": "LLY/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.LLY/USD.ON"
     }
   },
@@ -27132,7 +27202,7 @@
       "display_symbol": "XOM/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.XOM/USD.ON"
     }
   },
@@ -29159,7 +29229,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "SEND2",
-      "description": "SENDCOIN / US DOLLAR",
+      "description": "DEPRECATED FEED - SENDCOIN / US DOLLAR",
       "display_symbol": "SEND/USD",
       "generic_symbol": "SEND2USD",
       "quote_currency": "USD",
@@ -29277,7 +29347,7 @@
       "display_symbol": "BABA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.BABA/USD.ON"
     }
   },
@@ -29876,7 +29946,7 @@
       "display_symbol": "COST/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.COST/USD.ON"
     }
   },
@@ -30029,7 +30099,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "PERP",
-      "description": "PERPETUAL PROTOCOL / US DOLLAR",
+      "description": "DEPRECATED FEED - PERPETUAL PROTOCOL / US DOLLAR",
       "display_symbol": "PERP/USD",
       "generic_symbol": "PERPUSD",
       "quote_currency": "USD",
@@ -30118,7 +30188,7 @@
       "display_symbol": "ASML/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.ASML/USD.ON"
     }
   },
@@ -30227,7 +30297,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "SCUSD",
-      "description": "SONIC USD / US DOLLAR",
+      "description": "DEPRECATED FEED - SONIC USD / US DOLLAR",
       "display_symbol": "SCUSD/USD",
       "generic_symbol": "SCUSDUSD",
       "quote_currency": "USD",
@@ -30524,7 +30594,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "USDB",
-      "description": "BLAST STABLECOIN / US DOLLAR",
+      "description": "DEPRECATED FEED - BLAST STABLECOIN / US DOLLAR",
       "display_symbol": "USDB/USD",
       "generic_symbol": "USDBUSD",
       "quote_currency": "USD",
@@ -30982,6 +31052,20 @@
     }
   },
   {
+    "id": "0x998a5fdcb48ba132105e3444839f708fc542a2eecf8175fdeb323fe7f995527b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMH",
+      "country": "US",
+      "description": "VANECK SEMICONDUCTOR ETF / US DOLLAR - OVERNIGHT",
+      "display_symbol": "SMH/USD OVERNIGHT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
+      "symbol": "Equity.US.SMH/USD.ON"
+    }
+  },
+  {
     "id": "0xc9a2320d42eec4ba0fcfa753c97676330486854c27b4ee812bc4a9b4635e210d",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -31043,7 +31127,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "THL",
-      "description": "THALA / US DOLLAR",
+      "description": "DEPRECATED FEED - THALA / US DOLLAR",
       "display_symbol": "THL/USD",
       "generic_symbol": "THLUSD",
       "quote_currency": "USD",
@@ -32495,7 +32579,7 @@
       "display_symbol": "TSLA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.TSLA/USD.ON"
     }
   },
@@ -33172,7 +33256,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BYUSD",
-      "description": "BERACHAIN PYUSD / US DOLLAR",
+      "description": "DEPRECATED FEED - BERACHAIN PYUSD / US DOLLAR",
       "display_symbol": "BYUSD/USD",
       "generic_symbol": "BYUSDUSD",
       "quote_currency": "USD",
@@ -33609,7 +33693,7 @@
       "display_symbol": "BRENTG6/USD",
       "generic_symbol": "BRENTG6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1128/0000-1500,1225/C,0101/C",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1230/0000-1800,1231/C,0101/C,0102/C,0103/C,0104/C,0105/C",
       "symbol": "Commodities.BRENTG6/USD"
     }
   },
@@ -34235,7 +34319,7 @@
       "display_symbol": "AMZN/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.AMZN/USD.ON"
     }
   },
@@ -34379,7 +34463,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "FRAG",
-      "description": "FRAGMETRIC / US DOLLAR",
+      "description": "DEPRECATED FEED - FRAGMETRIC / US DOLLAR",
       "display_symbol": "FRAG/USD",
       "generic_symbol": "FRAGUSD",
       "quote_currency": "USD",
@@ -34411,7 +34495,7 @@
       "display_symbol": "GOOGL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.GOOGL/USD.ON"
     }
   },
@@ -34439,7 +34523,7 @@
       "display_symbol": "AAPL/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.AAPL/USD.ON"
     }
   },
@@ -34974,7 +35058,7 @@
       "display_symbol": "AVGO/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.AVGO/USD.ON"
     }
   },
@@ -36283,7 +36367,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "COQ",
-      "description": "COQ INU / US DOLLAR",
+      "description": "DEPRECATED FEED - COQ INU / US DOLLAR",
       "display_symbol": "COQ/USD",
       "generic_symbol": "COQUSD",
       "quote_currency": "USD",
@@ -36523,7 +36607,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "FIDA",
-      "description": "BONFIDA / US DOLLAR",
+      "description": "DEPRECATED FEED - BONFIDA / US DOLLAR",
       "display_symbol": "FIDA/USD",
       "generic_symbol": "FIDAUSD",
       "quote_currency": "USD",
@@ -37310,7 +37394,7 @@
       "display_symbol": "QQQ/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.QQQ/USD.ON"
     }
   },
@@ -37391,7 +37475,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "SYUSD",
-      "description": "SYNNAX US DOLLAR / US DOLLAR",
+      "description": "DEPRECATED FEED - SYNNAX US DOLLAR / US DOLLAR",
       "display_symbol": "SYUSD/USD",
       "generic_symbol": "SYUSDUSD",
       "quote_currency": "USD",
@@ -38043,7 +38127,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "SKI",
-      "description": "SKI MASK DOG / US DOLLAR",
+      "description": "DEPRECATED FEED - SKI MASK DOG / US DOLLAR",
       "display_symbol": "SKI/USD",
       "generic_symbol": "SKIUSD",
       "quote_currency": "USD",
@@ -39277,7 +39361,7 @@
       "display_symbol": "BRENTH6/USD",
       "generic_symbol": "BRENTH6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1128/0000-1500,1225/C,0101/C",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1231/0000-1500,0101/C",
       "symbol": "Commodities.BRENTH6/USD"
     }
   },
@@ -39286,7 +39370,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "LUSD",
-      "description": "LIQUITY USD / US DOLLAR",
+      "description": "DEPRECATED FEED - LIQUITY USD / US DOLLAR",
       "display_symbol": "LUSD/USD",
       "generic_symbol": "LUSDUSD",
       "quote_currency": "USD",
@@ -39358,7 +39442,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "NECT",
-      "description": "BERABORROW NECTAR / US DOLLAR",
+      "description": "DEPRECATED FEED - BERABORROW NECTAR / US DOLLAR",
       "display_symbol": "NECT/USD",
       "generic_symbol": "NECTUSD",
       "quote_currency": "USD",
@@ -39981,7 +40065,7 @@
       "display_symbol": "MAGS/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.MAGS/USD.ON"
     }
   },
@@ -40196,7 +40280,7 @@
       "display_symbol": "NVDA/USD OVERNIGHT",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1224/0000-0400,1225/2000-2400,1231/0000-0400",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;1231/0000-0400,0101/2000-2400",
       "symbol": "Equity.US.NVDA/USD.ON"
     }
   },
@@ -40383,7 +40467,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BENJI",
-      "description": "BASENJI / US DOLLAR",
+      "description": "DEPRECATED FEED - BASENJI / US DOLLAR",
       "display_symbol": "BENJI/USD",
       "generic_symbol": "BENJIUSD",
       "quote_currency": "USD",
@@ -40493,7 +40577,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "GRAIL",
-      "description": "CAMELOT TOKEN / US DOLLAR",
+      "description": "DEPRECATED FEED - CAMELOT TOKEN / US DOLLAR",
       "display_symbol": "GRAIL/USD",
       "generic_symbol": "GRAILUSD",
       "quote_currency": "USD",
