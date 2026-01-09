@@ -33032,6 +33032,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "CBTC/POR-Datalink-ProofOfReserves-mainnet-production",
+    "pair": [
+      "CBTC",
+      "POR"
+    ],
+    "path": "cbtc-por-datalink-proofofreserves-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CBTC Proof of Reserves",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Asset",
+    "docs": {
+      "assetClass": "Tokenized Commodities",
+      "assetSubClass": "Bitcoin",
+      "assetName": "CBTC Proof of Reserves",
+      "attributeType": "NAV",
+      "baseAsset": "CBTC",
+      "baseAssetClic": "CBTC_CR",
+      "clicProductName": "CBTC/POR-Datalink-ProofOfReserves",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Asset",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 0,
+    "feedId": "0x0009085e2373527f637e022d6e02dba63877a75bc81183ceff94a4af78e2dce2",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "CRCLx/POR-Datalink-ProofOfReserves-mainnet-production",
     "pair": [
       "CRCLx",
