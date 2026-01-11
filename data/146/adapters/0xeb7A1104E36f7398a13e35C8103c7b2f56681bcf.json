@@ -1,10 +1,10 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0x5777baB47b2705C8576aBc4995589157E59384a1",
-  "chainId": 239,
-  "base": "0x7048c9e4aBD0cf0219E95a17A8C6908dfC4f0Ee4",
+  "name": "ChainlinkOracle",
+  "address": "0xeb7A1104E36f7398a13e35C8103c7b2f56681bcf",
+  "chainId": 146,
+  "base": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xaE5Dc951d55535679252Cff49E89Af8cEcbf5E1f",
+  "feed": "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
   "maxStaleness": "90000",
   "checks": [
     {
@@ -16,8 +16,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -34,7 +34,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x7048c9e4aBD0cf0219E95a17A8C6908dfC4f0Ee4 is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC (USDC) with 6 decimals.",
       "pass": true
     },
     {
@@ -50,9 +50,9 @@
       "pass": true
     }
   ],
-  "label": "cbBTC/USD (0.5, 86400s)",
-  "methodology": "Unknown",
+  "label": "USDC / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "eOracle",
-  "whitelisted": true
+  "provider": "Chainlink",
+  "whitelisted": false
 }
