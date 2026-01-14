@@ -21421,6 +21421,124 @@
     "address": "0xedcd4bdb70d8F4920EE640918158dac8939ece04"
   },
   {
+    "name": "CrossAdapter",
+    "address": "0xb0BAa4DC6AF4f2C1541Ee4eA4AfE01A4183254F0",
+    "chainId": 1,
+    "base": "0x9Bf45ab47747F4B4dD09B3C2c73953484b4eB375",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x14048e5a4216144992c45073D491778E1893b597",
+    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9Bf45ab47747F4B4dD09B3C2c73953484b4eB375 is PT-srUSDe-2APR2026 (PT Strata Senior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-srUSDe-2APR2026/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x566C246475B853B7DaFf705ad5c5E78753EeF5Dd",
+    "chainId": 1,
+    "base": "0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x865E30219be002Ac588a1A134F6aC268a58c6329",
+    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1 is PT-jrUSDe-2APR2026 (PT Strata Junior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-jrUSDe-2APR2026/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
@@ -35890,6 +36008,122 @@
       }
     ],
     "label": "cUSDO",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x14048e5a4216144992c45073D491778E1893b597",
+    "chainId": 1,
+    "base": "0x9Bf45ab47747F4B4dD09B3C2c73953484b4eB375",
+    "quote": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "pendleMarket": "0xAFB7d6d1e9BcA5B675aDC9b4f52F0CDfDdec9654",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9Bf45ab47747F4B4dD09B3C2c73953484b4eB375 is PT-srUSDe-2APR2026 (PT Strata Senior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xAFB7d6d1e9BcA5B675aDC9b4f52F0CDfDdec9654 is PLP-srUSDe-2APR2026 (PLP Strata Senior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "srUSDe",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x865E30219be002Ac588a1A134F6aC268a58c6329",
+    "chainId": 1,
+    "base": "0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1",
+    "quote": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "pendleMarket": "0xfAbEEFC5369aA5270B401f4Ee062D17fb5f1EC2A",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1 is PT-jrUSDe-2APR2026 (PT Strata Junior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfAbEEFC5369aA5270B401f4Ee062D17fb5f1EC2A is PLP-jrUSDe-2APR2026 (PLP Strata Junior USDe 2APR2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "jrUSDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
