@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xb4c3c70C0A0001923fbADEe5AB20086D671eE225",
+  "chainId": 999,
+  "base": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38",
+  "cross": "0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
+  "quote": "0x5555555555555555555555555555555555555555",
+  "oracleBaseCross": "0xBe889866475055E2D216716da80D976Bfc8D4c1F",
+  "oracleCrossQuote": "0x327BB5bC0ECf3Ca06Ae7e1d620489B12DecFFE6c",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x94e8396e0869c9F2200760aF0621aFd240E1CF38 is wstHYPE (Staked HYPE Shares) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1 is stHYPE (Staked HYPE) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "wstHYPE/stHYPE/WHYPE",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x65E45D2f3f43b613416614c73f18fDD3AA2b8391",
+  "chainId": 999,
+  "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x4C89968338b75551243C99B452c84a01888282fD",
+  "maxStaleness": "25200",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+      "pass": true
+    }
+  ],
+  "label": "USDC/USD (0.5%, 21600s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "RedStone",
+  "whitelisted": false
+}
