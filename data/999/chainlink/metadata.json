@@ -241,7 +241,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Hyper USD",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -260,6 +260,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "January 27th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -784,7 +785,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Purr",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -801,7 +802,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 8
   },
