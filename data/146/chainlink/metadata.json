@@ -1595,7 +1595,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Origin Sonic",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1612,7 +1612,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "S",
       "quoteAssetClic": "S_CR",
-      "quoteAssetEntityId": "crypto-S"
+      "quoteAssetEntityId": "crypto-S",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 18
   },
@@ -1773,14 +1774,14 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-scBTC",
-      "hidden": true,
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "crypto-BTC"
+      "quoteAssetEntityId": "crypto-BTC",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 8
   },

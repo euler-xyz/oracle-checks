@@ -1236,7 +1236,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Perpetual Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1253,7 +1253,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
-      "quoteAssetEntityId": "crypto-ETH"
+      "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 18
   },
@@ -6982,7 +6983,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Wrapped Ampleforth",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6999,7 +7000,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 8
   },
@@ -7115,7 +7117,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Badger DAO",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7132,7 +7134,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
-      "quoteAssetEntityId": "crypto-ETH"
+      "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 18
   },
@@ -9178,7 +9181,7 @@
     "threshold": 1e-7,
     "valuePrefix": "",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
@@ -9191,7 +9194,8 @@
       "porAuditor": "Solv",
       "porSource": "Asset Issuer",
       "productType": "NAVLink",
-      "productTypeCode": "NAV"
+      "productTypeCode": "NAV",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 18
   },
@@ -10486,7 +10490,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Aethir",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -10504,7 +10508,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 8
   },
@@ -10697,7 +10702,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Ren",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -10708,14 +10713,14 @@
       "blockchainName": "Ethereum",
       "clicProductName": "REN/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
-      "quoteAssetEntityId": "crypto-ETH"
+      "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "January 27th, 2026"
     },
     "decimals": 18
   },
@@ -11349,7 +11354,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "FRAX",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -11368,6 +11373,7 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH",
+      "shutdownDate": "January 27th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
