@@ -80,14 +80,10 @@ The GitHub Action:
 ### Setting up GitHub Actions
 
 1. Go to repository Settings > Secrets and Variables > Actions
-2. Create a new repository secret called `RPC_URLS` with JSON of RPC endpoints:
+2. Create a new repository secret called `RPC_URLS` with a list of RPC endpoints:
 
-```json
-{
-  "1": "https://eth-mainnet.example.com/...",
-  "137": "https://polygon-mainnet.example.com/...",
-  "42161": "https://arbitrum-one.example.com/..."
-}
+```
+RPC_URL_999=your-hyperevm-rpc
 ```
 
 3. Ensure GitHub Actions has write permissions:
@@ -96,9 +92,10 @@ The GitHub Action:
 
 ## Adding a New Chain
 
-1. Add the chain's RPC URL to your environment:
+1. Add the chain's RPC URL to your `RPC_URLS` repository secret:
 
    ```
+   RPC_URL_999=your-hyperevm-rpc
    RPC_URL_<chainId>=your-rpc-url
    ```
 
@@ -148,9 +145,7 @@ The GitHub Action:
 
 Results are saved to chain-specific files:
 
-- `data/1/results.json` for Ethereum
-- `data/137/results.json` for Polygon
-- `data/42161/results.json` for Arbitrum
+- `data/999/results.json` for HyperEVM
 
 Each file contains a mapping of adapter addresses to their check results.
 
