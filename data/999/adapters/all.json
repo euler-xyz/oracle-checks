@@ -24,8 +24,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -82,8 +82,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -140,8 +140,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -198,8 +198,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -256,8 +256,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -314,8 +314,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -338,14 +338,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
+    "label": "USDH/USD (0.5%, 21600s)",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "RedStone",
     "whitelisted": false
   },
   {
@@ -373,8 +373,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -432,8 +432,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -491,8 +491,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -550,8 +550,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -608,8 +608,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -666,8 +666,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -724,8 +724,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -748,14 +748,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (1 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
+    "label": "PT-kHYPE/kHYPE (1s)",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "Pendle",
     "whitelisted": false
   },
   {
@@ -783,8 +783,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -841,8 +841,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -899,8 +899,8 @@
       {
         "id": "Source code provenance",
         "severity": "High",
-        "message": "Contract metadata hash is not recognized.",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
       },
       {
         "id": "Distinct assets",
@@ -923,14 +923,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
+    "label": "beHYPE_MAIN_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "RedStone",
     "whitelisted": false
   }
 ]

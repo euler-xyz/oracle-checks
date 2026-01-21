@@ -272,6 +272,25 @@ const hyperEvmRedStoneFeeds: Record<
     heartbeat: 21600,
     threshold: 0.5,
   },
+  // Additional RedStone feeds not in official manifest
+  "0xE18aAD6733D1db21e19cb83B697082D3d4eE5170": {
+    provider: "RedStone",
+    description: "USDH/USD",
+    heartbeat: 21600,
+    threshold: 0.5,
+  },
+  "0x5016c48F36f7e4C83b5C4D4b7227BFEf35Ae7688": {
+    provider: "RedStone",
+    description: "beHYPE_MAIN_FUNDAMENTAL",
+    heartbeat: 21600,
+    threshold: 0.5,
+  },
+  "0xe6bBfb3c7e7FaC46425F37aCaD0FF4CDB32CC96b": {
+    provider: "Pendle",
+    description: "PT-kHYPE/kHYPE",
+    heartbeat: 1,
+    threshold: 0,
+  },
 };
 
 export const chainConfigs: Record<number, CheckConfig> = {
