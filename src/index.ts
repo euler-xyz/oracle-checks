@@ -1,7 +1,25 @@
+import fs from "fs";
+import path from "path";
 import { collectData } from "./collectData";
 import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
 import { runChecks } from "./runChecks";
+
+function copyWhitelistCsv(chainId: number, dirPath: string): void {
+  const srcPath = path.join(__dirname, `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`);
+  const destPath = `${dirPath}/whitelist.csv`;
+  
+  try {
+    if (fs.existsSync(srcPath)) {
+      const destDir = path.dirname(destPath);
+      fs.mkdirSync(destDir, { recursive: true });
+      fs.copyFileSync(srcPath, destPath);
+      console.log(`[${chainId}] Copied whitelist CSV`);
+    }
+  } catch (err) {
+    console.log(`[${chainId}] No whitelist CSV found in euler-interfaces`);
+  }
+}
 
 async function runChecksForAllChains(): Promise<void> {
   cleanDataDir();
@@ -49,6 +67,8 @@ async function runChecksForAllChains(): Promise<void> {
       (result) => result.provider === "Pyth"
     );
     saveJSON(pythAdapters, `${dirPath}/pyth/all.json`);
+
+    copyWhitelistCsv(+chainId, dirPath);
 
     console.log(`Wrote results to ${dirPath}`);
   }
