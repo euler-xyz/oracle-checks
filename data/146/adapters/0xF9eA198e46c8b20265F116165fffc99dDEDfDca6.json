@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xF9eA198e46c8b20265F116165fffc99dDEDfDca6",
+  "chainId": 146,
+  "base": "0x0Fb682C9692AddCc1769f4D4d938c54420D54fA3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xA9c049C601a26f72EC91bd9F291B9a7A4A48B5Ae",
+  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0Fb682C9692AddCc1769f4D4d938c54420D54fA3 is PT-wstkscUSD-18DEC2025 (PT Wrapped stkscUSD 18DEC2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Unknown",
+  "whitelisted": false
+}
