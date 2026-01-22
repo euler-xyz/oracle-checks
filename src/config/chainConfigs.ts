@@ -291,6 +291,12 @@ const hyperEvmRedStoneFeeds: Record<
     heartbeat: 1,
     threshold: 0,
   },
+  "0xe6E8baDBB469d16e2060e1Ebeb60F92B2a1250A9": {
+    provider: "Pyth",
+    description: "wstHYPE/stHYPE",
+    heartbeat: 60,
+    threshold: 0,
+  },
 };
 
 export const chainConfigs: Record<number, CheckConfig> = {
