@@ -31277,6 +31277,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "GLXY/USD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "GLXY",
+      "USD"
+    ],
+    "path": "glxy-usd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "GLXY",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "GLXY",
+      "attributeType": "EquityPrice",
+      "baseAsset": "GLXY",
+      "baseAssetClic": "GLXY_EQ",
+      "clicProductName": "GLXY/USD-Streams-EquityPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x000897d41afa91e483baed7e83520eab8ff6b1a43fb579bfac752eed9e171838",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "XAU/USD-RefPrice-Timestamped-mainnet-production",
     "pair": [
       "XAU",
@@ -33419,6 +33518,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "FWDI/USD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "FWDI",
+      "USD"
+    ],
+    "path": "fwdi-usd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "FWDI",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "FWDI",
+      "attributeType": "EquityPrice",
+      "baseAsset": "FWDI",
+      "baseAssetClic": "FWDI_EQ",
+      "clicProductName": "FWDI/USD-Streams-EquityPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "feedId": "0x0008eb58c4e351de75f3c9bc34422010a9b9bb451697825945203c7a0201dd20",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "INTU/USD-Streams-EquityPrice-Timestamped-mainnet-production",
     "pair": [
       "INTU",
@@ -35290,6 +35488,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "GLXY/USD-Superstate-TotalReturnMultiplier-mainnet-production",
+    "pair": [
+      "GLXY",
+      "USD"
+    ],
+    "path": "glxy-usd-superstate-totalreturnmultiplier-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Superstate Galaxy Digital Inc.",
+    "feedCategory": "medium",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Superstate Galaxy Digital Inc.",
+      "attributeType": "TotalReturnMultiplier",
+      "baseAsset": "GLXY",
+      "baseAssetClic": "GLXY_EQ",
+      "clicProductName": "GLXY/USD-Superstate-TotalReturnMultiplier-DS-Premium-Global-010",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Tokenized Equities",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TokenizedPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v10",
+      "serviceLevel": "DataStreams"
+    },
+    "decimals": 0,
+    "feedId": "0x000a1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "QQQX/USD-Datalink-Backed-TotalReturnMultiplier-Timestamped-mainnet-production",
     "pair": [
       "QQQx",
@@ -35424,6 +35721,105 @@
     "feedId": "0x000a2349781696825299ea1610f3ed0f47c5e7585003a271417f6e94778020fe",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "FWDI/USD-Superstate-TotalReturnMultiplier-mainnet-production",
+    "pair": [
+      "FWDI",
+      "USD"
+    ],
+    "path": "fwdi-usd-superstate-totalreturnmultiplier-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Superstate Forward Industries Inc.",
+    "feedCategory": "medium",
+    "feedType": "Tokenized Equities",
+    "docs": {
+      "assetClass": "TokenizedEquities",
+      "assetSubClass": "TokenizedEquities",
+      "assetName": "Superstate Forward Industries Inc.",
+      "attributeType": "TotalReturnMultiplier",
+      "baseAsset": "FWDI",
+      "baseAssetClic": "FWDI_EQ",
+      "clicProductName": "FWDI/USD-Superstate-TotalReturnMultiplier-DS-Premium-Global-010",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Tokenized Equities",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TokenizedPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v10",
+      "serviceLevel": "DataStreams"
+    },
+    "decimals": 0,
+    "feedId": "0x000a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
