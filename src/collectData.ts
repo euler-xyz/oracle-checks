@@ -33,11 +33,13 @@ import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
 import { fallbackAssets } from "./config/fallbackAssets";
 import {
+  AdapterEntry,
   fetchEulerApiDeployedRouters,
   fetchEulerApiHistoricalAdapters,
   fetchEulerApiWhitelistedAdapters,
 } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
+import { readWhitelistCsv } from "./readWhitelistCsv";
 import { CollectedData } from "./types";
 
 loadEnv();
@@ -55,8 +57,25 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const historicalAdapters = await fetchEulerApiHistoricalAdapters(chainId);
   console.log(`${logPrefix} Fetched ${historicalAdapters.length} historical adapters`);
 
-  const whitelistedAdapters = await fetchEulerApiWhitelistedAdapters(chainId);
-  console.log(`${logPrefix} Fetched ${whitelistedAdapters.length} whitelisted adapters`);
+  const apiWhitelistedAdapters = await fetchEulerApiWhitelistedAdapters(chainId);
+  console.log(
+    `${logPrefix} Fetched ${apiWhitelistedAdapters.length} whitelisted adapters from API`,
+  );
+
+  const csvWhitelistedAdapters = readWhitelistCsv(chainId);
+  console.log(
+    `${logPrefix} Fetched ${csvWhitelistedAdapters.length} whitelisted adapters from CSV`,
+  );
+
+  const apiAdapterSet = new Set(apiWhitelistedAdapters.map((a) => a.element.toLowerCase()));
+  const csvFallbackAdapters = csvWhitelistedAdapters.filter(
+    (a) => !apiAdapterSet.has(a.element.toLowerCase()),
+  );
+
+  const whitelistedAdapters: AdapterEntry[] = [...apiWhitelistedAdapters, ...csvFallbackAdapters];
+  console.log(
+    `${logPrefix} Total whitelisted adapters (API + CSV fallback): ${whitelistedAdapters.length}`,
+  );
 
   const deployedRouters = await fetchEulerApiDeployedRouters(chainId);
   console.log(`${logPrefix} Fetched ${deployedRouters.length} routers`);
