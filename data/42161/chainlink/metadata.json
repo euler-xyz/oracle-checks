@@ -2290,7 +2290,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -2874,7 +2873,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3069,7 +3067,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5762,7 +5759,7 @@
       "attributeType": "GLVCustomPrice",
       "baseAsset": " GLV WAVAX",
       "baseAssetClic": "WAVAX_CR",
-      "clicProductName": "GLV [WAVAX-USDC}/USD-Streams-CexPrice",
+      "clicProductName": "GLV [WAVAX-USDC}/USD-Streams-CexPrice-DS-Premium-Global-003",
       "feedType": "Crypto",
       "hidden": true,
       "productSubType": "Reference",
@@ -5775,7 +5772,7 @@
     "decimals": 18,
     "feedId": "0x0003231133ca217327dbd8036eee33e947f749f7f9bd63db398f0d599e143a9b",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -11022,103 +11019,6 @@
     },
     "decimals": 18,
     "feedId": "0x0003686329f38081e9b198fd171ec7693a9e5f7c4a36fb7b2828dbf1effd5567",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "LEO/USD-RefPrice-mainnet-production",
-    "pair": [
-      "LEO",
-      "USD"
-    ],
-    "path": "leo-usd-refprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "LEO Token",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "LEO Token",
-      "attributeType": "CexPrice",
-      "baseAsset": "LEO",
-      "baseAssetClic": "LEO_CR",
-      "clicProductName": "LEO/USD-RefPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x000368a3fb6d6ac9648fd87ee9f539dbe3c7137dfdc8eff5ac9517f52fe0614e",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -18169,7 +18069,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -20400,7 +20299,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -31352,7 +31250,7 @@
     "decimals": 0,
     "feedId": "0x000897d41afa91e483baed7e83520eab8ff6b1a43fb579bfac752eed9e171838",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -33593,7 +33491,7 @@
     "decimals": 0,
     "feedId": "0x0008eb58c4e351de75f3c9bc34422010a9b9bb451697825945203c7a0201dd20",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -33970,7 +33868,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "custom",
       "feedType": "Tokenized Asset",
-      "hidden": true,
       "marketHours": "Crypto",
       "productType": "Proof of Reserve",
       "productTypeCode": "PoR",
@@ -34067,7 +33964,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Net Asset Value",
-      "hidden": true,
       "marketHours": "Crypto",
       "productType": "NAVLink",
       "productTypeCode": "NAV",
@@ -34764,7 +34660,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Net Asset Value",
-      "hidden": true,
       "marketHours": "Crypto",
       "productType": "NAVLink",
       "productTypeCode": "NAV",
@@ -35576,7 +35471,7 @@
     "decimals": 0,
     "feedId": "0x000a1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -35871,7 +35766,7 @@
     "decimals": 0,
     "feedId": "0x000a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
     "sourceChain": 42161,
-    "status": "deployed",
+    "status": "live",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
@@ -50399,104 +50294,6 @@
     "healthPrice": "",
     "history": true,
     "multiply": "1000000000000000000",
-    "name": "COQ/USD-RefPrice-DSstaging-Premium-Global-003",
-    "pair": [
-      "COQ",
-      "USD"
-    ],
-    "path": "coq-usd-premium-staging-experimental-v03",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "COQ",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "COQ",
-      "attributeType": "CexPrice",
-      "baseAsset": "COQ",
-      "baseAssetClic": "COQ_CR",
-      "clicProductName": "COQ/USD-Streams-CexPrice",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x000313e2ac7daa8cce14eaeec3321bc32aaf282f5b0778f48c90b273e4b1db41",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-3"
-      },
-      {
-        "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-dexTrac-3"
-      },
-      {
-        "operator": "mercury-fiews-3"
-      },
-      {
-        "operator": "mercury-inotel-3"
-      },
-      {
-        "operator": "mercury-linkForest-3"
-      },
-      {
-        "operator": "mercury-linkPool-3"
-      },
-      {
-        "operator": "mercury-linkRiver-3"
-      },
-      {
-        "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-validationCloud-3"
-      },
-      {
-        "operator": "mercury-tiingo-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
-      },
-      {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x3caF678232f500b05864dBaDDD9F9dB8760bE072",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": true,
-    "multiply": "1000000000000000000",
     "name": "ORDER/USD-RefPrice-DSstaging-Premium-Global-003",
     "pair": [
       "ORDER",
@@ -51368,97 +51165,6 @@
     },
     "decimals": 18,
     "feedId": "0x000325c75a4a51aeebbfbb51a3c990c5104b97a2308c1dcbf96e0ee75c8a2ad8",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-3"
-      },
-      {
-        "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-dexTrac-3"
-      },
-      {
-        "operator": "mercury-fiews-3"
-      },
-      {
-        "operator": "mercury-inotel-3"
-      },
-      {
-        "operator": "mercury-linkForest-3"
-      },
-      {
-        "operator": "mercury-linkPool-3"
-      },
-      {
-        "operator": "mercury-linkRiver-3"
-      },
-      {
-        "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-validationCloud-3"
-      },
-      {
-        "operator": "mercury-tiingo-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
-      },
-      {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x3caF678232f500b05864dBaDDD9F9dB8760bE072",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "FLOW/USD-RefPrice-DSstaging-Premium-Global-003-dead",
-    "pair": [
-      "FLOW",
-      "USD"
-    ],
-    "path": "flow-usd-premium-staging-experimental-dead",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "FLOW (dapper labs)",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "FLOW (dapper labs)",
-      "attributeType": "CexPrice",
-      "baseAssetClic": "FLOW_CR",
-      "clicProductName": "FLOW/USD-Streams-CexPrice",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "hidden": true,
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x000326d639ef951c35d1f9cded8e60528ad4fd7b455c1371f7c2da88bc48a97b",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -54450,104 +54156,6 @@
     },
     "decimals": 18,
     "feedId": "0x00035c32f616232f3e0354d8dfd63019f0665fbb726fceaa6d00b1db0a13696e",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-3"
-      },
-      {
-        "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-dexTrac-3"
-      },
-      {
-        "operator": "mercury-fiews-3"
-      },
-      {
-        "operator": "mercury-inotel-3"
-      },
-      {
-        "operator": "mercury-linkForest-3"
-      },
-      {
-        "operator": "mercury-linkPool-3"
-      },
-      {
-        "operator": "mercury-linkRiver-3"
-      },
-      {
-        "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-validationCloud-3"
-      },
-      {
-        "operator": "mercury-tiingo-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
-      },
-      {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x3caF678232f500b05864dBaDDD9F9dB8760bE072",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": true,
-    "multiply": "1000000000000000000",
-    "name": "FXS/USD-RefPrice-DSstaging-Premium-Global-003",
-    "pair": [
-      "FXS",
-      "USD"
-    ],
-    "path": "fxs-usd-premium-staging-experimental-v03",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "FXS",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "FXS",
-      "attributeType": "CexPrice",
-      "baseAsset": "FXS",
-      "baseAssetClic": "FXS_CR",
-      "clicProductName": "FXS/USD-Streams-CexPrice",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x00035ef9ce01dcc8b3fb4d3528dbd873ddfe0de86bafbad01ea9da21d4394dd8",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -65986,103 +65594,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "FLOW/USD-RefPrice-DS-Premium-Global-003",
-    "pair": [
-      "FLOW",
-      "USD"
-    ],
-    "path": "flow-usd-premium-prod",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "FLOW (dapper labs)",
-    "feedCategory": "medium",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "FLOW (dapper labs)",
-      "attributeType": "CexPrice",
-      "baseAsset": "FLOW",
-      "baseAssetClic": "FLOW_CR",
-      "clicProductName": "FLOW/USD-RefPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "medium",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x000314efa527b625ffef6234ebcd1561b6d7b80f31c7c1e7b0118074f86717d5",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x534a7FF707Bc862cAB0Dda546F1B817Be5235b66",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "AXS/USD-RefPrice-DS-Premium-Global-003",
     "pair": [
       "AXS",
@@ -67191,105 +66702,6 @@
     },
     "decimals": 18,
     "feedId": "0x0003258e92ffbf866678055aaddb9a70c6077c45e2ed47314e19ed2749fb3f99",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x534a7FF707Bc862cAB0Dda546F1B817Be5235b66",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": true,
-    "multiply": "1000000000000000000",
-    "name": "COQ/USD-RefPrice-DS-Premium-Global-003",
-    "pair": [
-      "COQ",
-      "USD"
-    ],
-    "path": "coq-usd-premium-prod-v03",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Coq Inu",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Coq Inu",
-      "attributeType": "CexPrice",
-      "baseAsset": "COQ",
-      "baseAssetClic": "COQ_CR",
-      "blockchainName": "Global",
-      "clicProductName": "COQ/USD-RefPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "schema": "Premium",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x0003260a2148f13501c9fac852ef96306dbff622b96e8c6c6d9c70fc2e2647d5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -71206,105 +70618,6 @@
     },
     "decimals": 18,
     "feedId": "0x000365f820b0633946b78232bb91a97cf48100c426518e732465c3a050edb9f1",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x534a7FF707Bc862cAB0Dda546F1B817Be5235b66",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": true,
-    "multiply": "1000000000000000000",
-    "name": "FXS/USD-RefPrice-DS-Premium-Global-003",
-    "pair": [
-      "FXS",
-      "USD"
-    ],
-    "path": "fxs-usd-premium-prod-v03",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Frax Share",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Frax Share",
-      "attributeType": "CexPrice",
-      "baseAsset": "FXS",
-      "baseAssetClic": "FXS_CR",
-      "blockchainName": "Global",
-      "clicProductName": "FXS/USD-RefPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "schema": "Premium",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "feedId": "0x000367105c805d062331515a54ccddf01e4cbb603222a8761817d3d2ec9a2838",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
