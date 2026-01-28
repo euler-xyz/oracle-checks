@@ -21824,6 +21824,63 @@
     "whitelisted": false
   },
   {
+    "name": "FixedRateOracle",
+    "address": "0xe5eb27A3eA5cf91291db070ea81b883a26ece6b2",
+    "chainId": 1,
+    "base": "0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "431000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xf6b1117ec07684D3958caD8BEb1b302bfD21103f is TSLAon (Tesla (Ondo Tokenized)) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has an unusual fixed rate: 431.",
+        "pass": false
+      }
+    ],
+    "label": "1:431 TSLAon/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
