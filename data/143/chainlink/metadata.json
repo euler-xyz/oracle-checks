@@ -705,6 +705,37 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x3752FdB642A2da0e01007212b3ccD62b546Cf1df",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "supermon-mon-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "superMON / MON Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "supermon-mon-exchange-rate",
+    "proxyAddress": "0xef7E638496F923ccCBc44ACAA3467381150A692C",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-superMON",
+      "quoteAssetEntityId": "crypto-MON"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x3b126914ad2f884A68b8C182129109eF2Bf97ab7",
     "contractType": "",
     "contractVersion": 6,
@@ -1103,6 +1134,37 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x595C9D7C5140Add66dAD19F1449B9015756F0482",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "syzusd-yzusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SYZUSD / YZUSD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "syzusd-yzusd-exchange-rate",
+    "proxyAddress": "0x1Bd7e3865Bba838524bCCAe84A7a0cA635D65071",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-SYZUSD",
+      "quoteAssetEntityId": "crypto-YZUSD"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x638405174C766b9d1797860fDF696732921179F5",
     "contractType": "",
     "contractVersion": 6,
@@ -1496,6 +1558,37 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x8ABac2dDBE08ED7CC26a5275355e8231AdBE7501",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "savusd-avusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SAVUSD / AVUSD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "savusd-avusd-exchange-rate",
+    "proxyAddress": "0x9F6ba235CFfFdEB32CfB38E3100D5f775bB1094E",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-SAVUSD",
+      "quoteAssetEntityId": "crypto-AVUSD"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
@@ -2196,6 +2289,68 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xCfD17C35353F207B3e5caC2e8641D79b71EBBE5D",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "stone-usd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "STONE / USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "stone-usd-exchange-rate",
+    "proxyAddress": "0x000124f10139d9C5f74C5F5Dbd7aE2b70BCEa347",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-STONE",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xD65fff29F2E4EccF7400aeDaA563c45B9D9D7de5",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "yzusd-usd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "YZUSD / USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "yzusd-usd-exchange-rate",
+    "proxyAddress": "0xA0E2bEC2B69dAf7e1037bb9999110CAfBd779Ab5",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-YZUSD",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xDfFa1693B3DDBE1A6a26c29B727e073a1D2A4Be5",
     "contractType": "",
     "contractVersion": 6,
@@ -2368,6 +2523,37 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xF1Cd3E33a089bd0b962bE007D07a805FF5246767",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "wsrusd-rusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "WSRUSD / RUSD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wsrusd-rusd-exchange-rate",
+    "proxyAddress": "0x99bb13E956ba6e25624cAe95A41ED705AeA2557d",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-WSRUSD",
+      "quoteAssetEntityId": "crypto-RUSD"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
