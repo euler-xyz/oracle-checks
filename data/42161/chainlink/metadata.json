@@ -25051,6 +25051,202 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "XAU/USDT-Datalink-Okx-FundingRate-mainnet-production",
+    "pair": [
+      "XAU",
+      "USDT"
+    ],
+    "path": "xau-usdt-datalink-okx-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Gold",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Gold",
+      "attributeType": "FundingRate",
+      "baseAsset": "XAU",
+      "baseAssetClic": "XAU_M",
+      "clicProductName": "XAU/USDT-Datalink-Okx-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x00056681ef632f13203836ffd210f93cf35dbb92c18d43cdb3c8446e1381363f",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAU/USDT-Datalink-Binance-FundingRate-mainnet-production",
+    "pair": [
+      "XAU",
+      "USDT"
+    ],
+    "path": "xau-usdt-datalink-binance-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Gold",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Gold",
+      "attributeType": "FundingRate",
+      "baseAsset": "XAU",
+      "baseAssetClic": "XAU_M",
+      "clicProductName": "XAU/USDT-Datalink-Binance-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x00058ca0e2b0c7c6e2b9bbd1309fc1048e939dba28ae067372a11624c2bc5596",
+    "sourceChain": 42161,
+    "status": "deployed",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "ETH/USDT-Binance-FundingRate-mainnet-staging",
     "pair": [
       "",
@@ -25480,6 +25676,104 @@
     "feedId": "0x0005c22da1aae1dececc2e06ff6c14a9e8fa1ff207b72713eef26ab86b183b87",
     "sourceChain": 42161,
     "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAG/USDT-Datalink-Binance-FundingRate-mainnet-production",
+    "pair": [
+      "XAG",
+      "USDT"
+    ],
+    "path": "xag-usdt-datalink-binance-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Gold",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Gold",
+      "attributeType": "FundingRate",
+      "baseAsset": "XAG",
+      "baseAssetClic": "XAG_M",
+      "clicProductName": "XAG/USDT-Datalink-Binance-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "feedId": "0x0005e741cf38cace9fbbf3c7e6f30d99207a6bb41dd70e23c6286b2c18d786e2",
+    "sourceChain": 42161,
+    "status": "deployed",
     "oracles": [
       {
         "operator": "mercury-chainlayer-2"
