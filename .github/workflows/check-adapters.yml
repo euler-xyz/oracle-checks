@@ -22,26 +22,21 @@ jobs:
           submodules: false
           fetch-depth: 0
 
-      - name: Reset and update submodule
+      - name: Update submodule
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-
-          git rm -f euler-interfaces || true
-          rm -rf euler-interfaces
-          rm -rf .git/modules/euler-interfaces
-
-          rm -f .gitmodules
-          git commit -m "Remove old submodule" || true
-
-          echo '[submodule "euler-interfaces"]' > .gitmodules
-          echo '    path = euler-interfaces' >> .gitmodules
-          echo '    url = https://github.com/lastdotnet/euler-interfaces' >> .gitmodules
-          echo '    branch = master' >> .gitmodules
-
-          git submodule add -f -b master https://github.com/lastdotnet/euler-interfaces
-          git add .gitmodules euler-interfaces
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Reset euler-interfaces submodule" && git push)
+          # Read the branch from .gitmodules (default to master if not found)
+          SUBMODULE_BRANCH=$(git config -f .gitmodules submodule.euler-interfaces.branch || echo "master")
+          echo "Using euler-interfaces branch: $SUBMODULE_BRANCH"
+          
+          # Initialize and update submodule to the specified branch
+          git submodule sync
+          git submodule update --init --remote euler-interfaces
+          
+          # Verify the submodule is on the correct branch
+          cd euler-interfaces
+          git fetch origin "$SUBMODULE_BRANCH"
+          git checkout "origin/$SUBMODULE_BRANCH"
+          cd ..
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
