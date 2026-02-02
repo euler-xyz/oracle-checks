@@ -18,6 +18,7 @@ import {
 import { Address, Hex } from "viem";
 
 import { CheckResult } from "./checks";
+import { CsvAdapterMetadata } from "./readWhitelistCsv";
 
 // Adapter sources - add new sources here as needed
 export type AdapterSource =
@@ -40,6 +41,7 @@ export type CollectedData = {
   chainId: number;
   adapterAddresses: Address[];
   adapterSources: Record<Address, AdapterSource[]>;
+  csvMetadata: Map<Address, CsvAdapterMetadata>;
   routerAddresses: Address[];
   adapterRegistryEntries: Record<Address, RegistryEntry>;
   chainlinkMetadata: ChainlinkMetadata;

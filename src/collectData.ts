@@ -39,7 +39,13 @@ import {
   fetchEulerApiWhitelistedAdapters,
 } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
-import { readPooledCsv, readWhitelistCsv } from "./readWhitelistCsv";
+import {
+  CsvAdapterMetadata,
+  readPooledCsv,
+  readPooledCsvWithMetadata,
+  readWhitelistCsv,
+  readWhitelistCsvWithMetadata,
+} from "./readWhitelistCsv";
 import { AdapterSource, CollectedData } from "./types";
 
 loadEnv();
@@ -62,15 +68,23 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     `${logPrefix} Fetched ${apiWhitelistedAdapters.length} whitelisted adapters from API`,
   );
 
-  const csvWhitelistedAdapters = readWhitelistCsv(chainId);
+  const { entries: csvWhitelistedAdapters, metadata: whitelistMetadata } =
+    readWhitelistCsvWithMetadata(chainId);
   console.log(
     `${logPrefix} Fetched ${csvWhitelistedAdapters.length} whitelisted adapters from CSV`,
   );
 
-  const csvPooledAdapters = readPooledCsv(chainId);
+  const { entries: csvPooledAdapters, metadata: pooledMetadata } =
+    readPooledCsvWithMetadata(chainId);
   console.log(
     `${logPrefix} Fetched ${csvPooledAdapters.length} pooled adapters from CSV`,
   );
+
+  // Merge CSV metadata (pooled takes precedence if duplicate)
+  const csvMetadata = new Map<Address, CsvAdapterMetadata>([
+    ...whitelistMetadata,
+    ...pooledMetadata,
+  ]);
 
   const apiAdapterSet = new Set(apiWhitelistedAdapters.map((a) => a.element.toLowerCase()));
   const csvFallbackAdapters = csvWhitelistedAdapters.filter(
@@ -344,6 +358,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     chainId,
     adapterAddresses,
     adapterSources,
+    csvMetadata,
     adapters,
     adapterRegistryEntries,
     bytecodes,

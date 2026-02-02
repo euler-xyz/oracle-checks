@@ -58,8 +58,23 @@ async function runChecksForAllChains(): Promise<void> {
         new Set(sources.flatMap((source) => SOURCE_TO_TAGS[source] || [])),
       );
 
+      // Get CSV metadata for fallback when on-chain data is missing
+      const csvMeta = data.csvMetadata.get(address);
+      const csvFallback = csvMeta
+        ? {
+            base: csvMeta.base,
+            quote: csvMeta.quote,
+            label: csvMeta.adapterName || `${csvMeta.assetSymbol}/${csvMeta.quoteSymbol}`,
+            provider: csvMeta.provider,
+            chainId: data.chainId,
+          }
+        : {};
+
+      // Use on-chain data if available, otherwise fall back to CSV metadata
+      const adapterData = data.adapters[i] || csvFallback;
+
       const combined = {
-        ...data.adapters[i],
+        ...adapterData,
         ...checkResults[address],
         address,
         tags,
