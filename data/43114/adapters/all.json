@@ -1259,14 +1259,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25000 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "sUSDe/USD (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -1544,14 +1544,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (86760 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "message": "Feed heartbeat is unknown",
         "pass": false
       }
     ],
-    "label": "EUR/USD (0.15%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -1984,14 +1984,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "weETH_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
