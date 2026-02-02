@@ -39,7 +39,7 @@ import {
   fetchEulerApiWhitelistedAdapters,
 } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
-import { readWhitelistCsv } from "./readWhitelistCsv";
+import { readPooledCsv, readWhitelistCsv } from "./readWhitelistCsv";
 import { AdapterSource, CollectedData } from "./types";
 
 loadEnv();
@@ -65,6 +65,11 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const csvWhitelistedAdapters = readWhitelistCsv(chainId);
   console.log(
     `${logPrefix} Fetched ${csvWhitelistedAdapters.length} whitelisted adapters from CSV`,
+  );
+
+  const csvPooledAdapters = readPooledCsv(chainId);
+  console.log(
+    `${logPrefix} Fetched ${csvPooledAdapters.length} pooled adapters from CSV`,
   );
 
   const apiAdapterSet = new Set(apiWhitelistedAdapters.map((a) => a.element.toLowerCase()));
@@ -108,6 +113,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
+  const pooledAdapterAddresses = csvPooledAdapters.map((a) => a.element);
   const adapterRegistryAddresses = whitelistedAdapters.map((adapter) => adapter.element);
   const historicalAdapterAddresses = historicalAdapters;
   const adapterRegistryEntries = whitelistedAdapters.reduce(
@@ -147,16 +153,20 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     .filter((a) => a !== zeroAddress)
     .forEach((a) => addSource(a, "csv-whitelist"));
 
+  pooledAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "csv-pooled"));
+
   const adapterAddresses = Array.from(
     new Set(
-      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses]
+      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses, ...pooledAdapterAddresses]
         .filter((a) => a !== zeroAddress)
         .map((a) => getAddress(a)),
     ),
   );
 
   console.log(
-    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${adapterRegistryAddresses.length} in adapter registry)`,
+    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${pooledAdapterAddresses.length} pooled, ${adapterRegistryAddresses.length} in adapter registry)`,
   );
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);

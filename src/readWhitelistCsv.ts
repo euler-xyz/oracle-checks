@@ -3,12 +3,7 @@ import path from "path";
 import { Address, getAddress } from "viem";
 import { AdapterEntry } from "./eulerApi";
 
-export function readWhitelistCsv(chainId: number): AdapterEntry[] {
-  const csvPath = path.join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
-  );
-
+function readAdaptersCsv(csvPath: string): AdapterEntry[] {
   if (!fs.existsSync(csvPath)) {
     return [];
   }
@@ -50,4 +45,20 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
   }
 
   return entries;
+}
+
+export function readWhitelistCsv(chainId: number): AdapterEntry[] {
+  const csvPath = path.join(
+    __dirname,
+    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
+  );
+  return readAdaptersCsv(csvPath);
+}
+
+export function readPooledCsv(chainId: number): AdapterEntry[] {
+  const csvPath = path.join(
+    __dirname,
+    `../euler-interfaces/addresses/${chainId}/pooled/OracleAdaptersAddresses.csv`,
+  );
+  return readAdaptersCsv(csvPath);
 }

@@ -24,6 +24,7 @@ export type AdapterSource =
   | "euler-api-historical"
   | "euler-api-whitelisted"
   | "csv-whitelist"
+  | "csv-pooled"
   | "cross-adapter-discovery";
 
 // Map of source to tags - add new tag mappings here
@@ -31,6 +32,7 @@ export const SOURCE_TO_TAGS: Record<AdapterSource, string[]> = {
   "euler-api-historical": ["Mewler"],
   "euler-api-whitelisted": ["Mewler"],
   "csv-whitelist": ["Mewler"],
+  "csv-pooled": ["Pooled"],
   "cross-adapter-discovery": ["Mewler"],
 };
 
