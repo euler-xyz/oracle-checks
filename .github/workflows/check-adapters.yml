@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+      - '**'  # Run on all branches
   schedule:
     # Runs every 1 hours
     - cron: "0 */1 * * *"
@@ -66,6 +67,7 @@ jobs:
         run: npm run start
 
       - name: Commit and push if changed
+        if: github.ref == 'refs/heads/master'
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
@@ -75,25 +77,42 @@ jobs:
             git push origin HEAD:master
           fi
 
-      # 🆕 NEW STEP: Sync /data folder to AWS S3
-      - name: Sync data to S3
-        if: success()  # only run if all previous steps passed
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --follow-symlinks --delete
+      # Sync full /data folder to S3 (master only)
+      # - name: Sync data to S3 (master)
+      #   if: success() && github.ref == 'refs/heads/master'
+      #   uses: jakejarvis/s3-sync-action@v0.5.1
+      #   with:
+      #     args: --follow-symlinks --delete
+      #   env:
+      #     AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     AWS_REGION: ${{ secrets.AWS_REGION }}
+      #     SOURCE_DIR: data
+
+      # Upload branch-specific all.json to S3 (non-master branches only, not tags)
+      - name: Sync data to S3 (non-master branches)
+        if: success() && github.ref != 'refs/heads/master' && startsWith(github.ref, 'refs/heads/')
+        run: |
+          # Extract branch name from refs/heads/branch-name
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          
+          # Sanitize branch name for filename (replace / with -)
+          SAFE_BRANCH_NAME=$(echo "$BRANCH_NAME" | sed 's/\//-/g')
+
+          # Sync data to S3 (--delete only affects files within this branch folder)
+          aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/${SAFE_BRANCH_NAME}/" --delete
         env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
-          SOURCE_DIR: data
 
       # 🆕 Notify Slack if the workflow fails
-      - name: Notify Slack on failure
-        if: failure()
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          msg="❌ Check Adapters workflow failed on ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          payload=$(jq -n --arg text "$msg" '{text: $text}')
-          curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
+      # - name: Notify Slack on failure
+      #   if: failure()
+      #   env:
+      #     SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      #   run: |
+      #     msg="❌ Check Adapters workflow failed on ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      #     payload=$(jq -n --arg text "$msg" '{text: $text}')
+      #     curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
