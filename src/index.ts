@@ -4,6 +4,7 @@ import { collectData } from "./collectData";
 import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
 import { runChecks } from "./runChecks";
+import { SOURCE_TO_TAGS } from "./types";
 
 function copyWhitelistCsv(chainId: number, dirPath: string): void {
   const srcPath = path.join(__dirname, `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`);
@@ -50,10 +51,18 @@ async function runChecksForAllChains(): Promise<void> {
     const allResults = [];
     for (let i = 0; i < data.adapterAddresses.length; i++) {
       const address = data.adapterAddresses[i];
+
+      // Get tags from adapter sources
+      const sources = data.adapterSources[address] || [];
+      const tags = Array.from(
+        new Set(sources.flatMap((source) => SOURCE_TO_TAGS[source] || [])),
+      );
+
       const combined = {
         ...data.adapters[i],
         ...checkResults[address],
         address,
+        tags,
       };
 
       saveJSON(combined, `${dirPath}/adapters/${address}.json`);

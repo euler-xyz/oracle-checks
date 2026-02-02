@@ -40,7 +40,7 @@ import {
 } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { readWhitelistCsv } from "./readWhitelistCsv";
-import { CollectedData } from "./types";
+import { AdapterSource, CollectedData } from "./types";
 
 loadEnv();
 
@@ -121,6 +121,32 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     {} as Record<`0x${string}`, RegistryEntry>,
   );
 
+  // Track sources for each adapter address
+  const adapterSources: Record<Address, AdapterSource[]> = {};
+
+  const addSource = (address: Address, source: AdapterSource) => {
+    const normalizedAddress = getAddress(address);
+    if (!adapterSources[normalizedAddress]) {
+      adapterSources[normalizedAddress] = [];
+    }
+    if (!adapterSources[normalizedAddress].includes(source)) {
+      adapterSources[normalizedAddress].push(source);
+    }
+  };
+
+  // Track sources for each address
+  historicalAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "euler-api-historical"));
+
+  adapterRegistryAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "euler-api-whitelisted"));
+
+  csvAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "csv-whitelist"));
+
   const adapterAddresses = Array.from(
     new Set(
       [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses]
@@ -170,6 +196,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   );
 
   if (newAdapterAddresses.length > 0) {
+    // Track source for cross-adapter discovered addresses
+    newAdapterAddresses.forEach((a) => addSource(a, "cross-adapter-discovery"));
+
     adapterAddresses.push(...newAdapterAddresses);
     const newAdapters = await indexAdapters({
       adapterAddresses: newAdapterAddresses,
@@ -304,6 +333,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   return {
     chainId,
     adapterAddresses,
+    adapterSources,
     adapters,
     adapterRegistryEntries,
     bytecodes,

@@ -19,9 +19,25 @@ import { Address, Hex } from "viem";
 
 import { CheckResult } from "./checks";
 
+// Adapter sources - add new sources here as needed
+export type AdapterSource =
+  | "euler-api-historical"
+  | "euler-api-whitelisted"
+  | "csv-whitelist"
+  | "cross-adapter-discovery";
+
+// Map of source to tags - add new tag mappings here
+export const SOURCE_TO_TAGS: Record<AdapterSource, string[]> = {
+  "euler-api-historical": ["Mewler"],
+  "euler-api-whitelisted": ["Mewler"],
+  "csv-whitelist": ["Mewler"],
+  "cross-adapter-discovery": ["Mewler"],
+};
+
 export type CollectedData = {
   chainId: number;
   adapterAddresses: Address[];
+  adapterSources: Record<Address, AdapterSource[]>;
   routerAddresses: Address[];
   adapterRegistryEntries: Record<Address, RegistryEntry>;
   chainlinkMetadata: ChainlinkMetadata;
