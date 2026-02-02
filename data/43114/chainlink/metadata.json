@@ -1797,6 +1797,37 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x67EF31b67A2500A0ADCD0Fb96b140593D1D8e544",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "spsei-sei-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SPSEI / SEI Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "spsei-sei-exchange-rate",
+    "proxyAddress": "0x7CFb9D83BD42e4522BE2B9032Bcf21fBA9313C51",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-SPSEI",
+      "quoteAssetEntityId": "crypto-SEI"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6C63b7B14380a4840B32c787f2842e27cdD0188a",
     "contractType": "",
     "contractVersion": 6,
@@ -2534,6 +2565,38 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x8f988c184DaFD3AbCfA292B41784D96DeF8a7A44",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xcu-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XCU / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xcu-usd",
+    "proxyAddress": "0x32543Ad9dDAC8f883eE4d3c0a21a24E095A9E1B0",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "other",
+      "baseAssetEntityId": "commodity-XCU",
+      "marketHours": "Precious_Metals",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
