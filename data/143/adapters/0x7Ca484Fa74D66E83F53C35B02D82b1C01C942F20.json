@@ -46,13 +46,13 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter's maximum staleness (3600 s) is within the recommended limit (< 4200 s) for RedStone Bolt feeds.",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
-  "methodology": "Unknown",
+  "label": "ETH/USD (0.5%, Unknown)",
+  "methodology": "Market Price (Bolt)",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "RedStone",
   "whitelisted": false
 }
