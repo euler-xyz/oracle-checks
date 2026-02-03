@@ -72,17 +72,15 @@ jobs:
           fi
 
       # Sync full /data folder to S3 (master only)
+      # Syncs to master/ folder so --delete doesn't affect other branch folders
       # - name: Sync data to S3 (master)
       #   if: success() && github.ref == 'refs/heads/master'
-      #   uses: jakejarvis/s3-sync-action@v0.5.1
-      #   with:
-      #     args: --follow-symlinks --delete
+      #   run: |
+      #     aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/master/" --delete
       #   env:
-      #     AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
       #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       #     AWS_REGION: ${{ secrets.AWS_REGION }}
-      #     SOURCE_DIR: data
 
       # Upload branch-specific all.json to S3 (non-master branches only, not tags)
       - name: Sync data to S3 (non-master branches)
