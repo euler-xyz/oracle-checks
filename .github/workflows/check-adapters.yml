@@ -71,20 +71,9 @@ jobs:
             git push origin HEAD:master
           fi
 
-      # Sync full /data folder to S3 (master only)
-      # Syncs to master/ folder so --delete doesn't affect other branch folders
-      # - name: Sync data to S3 (master)
-      #   if: success() && github.ref == 'refs/heads/master'
-      #   run: |
-      #     aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/master/" --delete
-      #   env:
-      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      #     AWS_REGION: ${{ secrets.AWS_REGION }}
-
-      # Upload branch-specific all.json to S3 (non-master branches only, not tags)
-      - name: Sync data to S3 (non-master branches)
-        if: success() && github.ref != 'refs/heads/master' && startsWith(github.ref, 'refs/heads/')
+      # Upload branch-specific all.json to S3
+      - name: Sync data to S3
+        if: success() && startsWith(github.ref, 'refs/heads/')
         run: |
           # Extract branch name from refs/heads/branch-name
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
@@ -100,11 +89,11 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
 
       # 🆕 Notify Slack if the workflow fails
-      # - name: Notify Slack on failure
-      #   if: failure()
-      #   env:
-      #     SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-      #   run: |
-      #     msg="❌ Check Adapters workflow failed on ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-      #     payload=$(jq -n --arg text "$msg" '{text: $text}')
-      #     curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
+      - name: Notify Slack on failure
+        if: failure() && github.ref == 'refs/heads/master'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          msg="❌ Check Adapters workflow failed on ${{ github.ref_name }} in ${{ github.repository }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          payload=$(jq -n --arg text "$msg" '{text: $text}')
+          curl -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
