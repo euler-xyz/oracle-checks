@@ -1006,6 +1006,19 @@
     }
   },
   {
+    "id": "0x8cead549d0e770dea8fdf5e018a85d59585265cf8bff16ba83962fc7996dbb7f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SUIUSDE",
+      "description": "ESUI DOLLAR / US DOLLAR",
+      "display_symbol": "SUIUSDE/USD",
+      "generic_symbol": "SUIUSDEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUIUSDE/USD"
+    }
+  },
+  {
     "id": "0x27f0d5e09a830083e5491795cac9ca521399c8f7fd56240d09484b14e614d57a",
     "attributes": {
       "asset_type": "Commodities",
@@ -27234,20 +27247,6 @@
     }
   },
   {
-    "id": "0xcad40ad24c0d3ba0f7bb62e9605aa2b7c51e11ab1e8e07a4ebd5b722d4f6101c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "009150",
-      "country": "KR",
-      "description": "SAMSUNG ELECTROMECHANICS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.009150/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
-      "symbol": "Equity.KR.009150/KRW"
-    }
-  },
-  {
     "id": "0x4871d73dd24d2c92a531ce571d48da9a5f22ff946bd5b37bc38c6f479c7df158",
     "attributes": {
       "asset_type": "Crypto",
@@ -27258,6 +27257,21 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CSPR/USD"
+    }
+  },
+  {
+    "id": "0x9898aa7f08a1ed39d930640595a03f4aaf638c1875763fb94eab70cc0c6d3ed5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "XPEV",
+      "country": "US",
+      "cqs_symbol": "XPEV",
+      "description": "XPENG INC / US DOLLAR",
+      "display_symbol": "XPEV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.XPEV/USD"
     }
   },
   {
@@ -27275,20 +27289,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.RBLX/USD"
-    }
-  },
-  {
-    "id": "0x46fff1ecbf80ef6e33ee09846033ad5977ee715cef6c9b6742d083894ae3223c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6526",
-      "country": "JP",
-      "description": "SOCIONEXT INC / JAPANESE YEN",
-      "display_symbol": "6526/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.6526/JPY"
     }
   },
   {
@@ -27336,36 +27336,6 @@
     }
   },
   {
-    "id": "0x9898aa7f08a1ed39d930640595a03f4aaf638c1875763fb94eab70cc0c6d3ed5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "XPEV",
-      "country": "US",
-      "cqs_symbol": "XPEV",
-      "description": "XPENG INC / US DOLLAR",
-      "display_symbol": "XPEV/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.XPEV/USD"
-    }
-  },
-  {
-    "id": "0x92e03dac647ec6733f61f208a89115ecee4442653736a66008032f4ae588f304",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "MP",
-      "country": "US",
-      "cqs_symbol": "MP",
-      "description": "MP MATERIALS CORP / US DOLLAR",
-      "display_symbol": "MP/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.MP/USD"
-    }
-  },
-  {
     "id": "0xd31cf7d2e7a6a971b74c72815830c642d10a3c4cb170163b30833db9fb1d3d60",
     "attributes": {
       "asset_type": "Equity",
@@ -27383,21 +27353,6 @@
     }
   },
   {
-    "id": "0x08737ff301366cae496cd92c59f5aaa1d7b154d1e07e7ced28fa20a5c5ef0134",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "WIX",
-      "country": "US",
-      "cqs_symbol": "WIX",
-      "description": "WIXCOM LTD / US DOLLAR",
-      "display_symbol": "WIX/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.WIX/USD"
-    }
-  },
-  {
     "id": "0x45bfbcaaf6bd4d0dd0e5e528baeefd7009b11100808fe16e4b11799289537185",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -27409,20 +27364,6 @@
       "quote_currency": "USDC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MPST/USDC.RR"
-    }
-  },
-  {
-    "id": "0x5fe0ad9fd9bd888bbdfb609dbe8a6233248fa3dee25755f986f473c43938c7ca",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "QQQX",
-      "contract_id": "sol: Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
-      "description": "NASDAQ XSTOCK / NASDAQ REDEMPTION RATE",
-      "display_symbol": "QQQX/QQQ",
-      "generic_symbol": "QQQXQQQ",
-      "quote_currency": "QQQ",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.QQQX/QQQ.RR"
     }
   },
   {
@@ -27440,20 +27381,17 @@
     }
   },
   {
-    "id": "0x21debc1718a4b76ff74dadf801c261d76c46afaafb74d9645b65e00b80f5ee3e",
+    "id": "0xd01b28d6935d09544006f31827f98d7a4a44d907a45a2fb688663ec7bcd75389",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "BAC",
-      "cms_symbol": "BAC",
-      "country": "US",
-      "cqs_symbol": "BAC",
-      "description": "BANK OF AMERICA CORPORATION / US DOLLAR",
-      "display_symbol": "BAC/USD",
-      "nasdaq_symbol": "BAC",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.BAC/USD"
+      "asset_type": "FX",
+      "base": "NZD",
+      "description": "NEW ZEALAND DOLLAR / HONG KONG DOLLAR",
+      "display_symbol": "NZD/HKD",
+      "generic_symbol": "NZDHKD",
+      "quote_currency": "HKD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
+      "symbol": "FX.NZD/HKD",
+      "tenor": "Spot"
     }
   },
   {
@@ -27474,20 +27412,6 @@
     }
   },
   {
-    "id": "0xfd986c5e3ab94ecca751f3281ee1f88a1118c21e664ae35c8a47d2da0838a096",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "7186",
-      "country": "JP",
-      "description": "CONCORDIA FINANCIAL GROUP LTD / JAPANESE YEN",
-      "display_symbol": "7186/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.7186/JPY"
-    }
-  },
-  {
     "id": "0x53f95ba4e23ed15ea56083e2ee9a5eec48055d6f59033d4bb95f1ca2a2349c28",
     "attributes": {
       "asset_type": "Crypto",
@@ -27498,40 +27422,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MSTRX/USD"
-    }
-  },
-  {
-    "id": "0x246401ffdc5ec97b405e871267c73e6e744d1cdcd96b1fe8526da993111c580e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CAG",
-      "cms_symbol": "CAG",
-      "country": "US",
-      "cqs_symbol": "CAG",
-      "description": "CONAGRA BRANDS INC / US DOLLAR",
-      "display_symbol": "CAG/USD",
-      "nasdaq_symbol": "CAG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.CAG/USD"
-    }
-  },
-  {
-    "id": "0x37a782cf9bb6061d4cca34a419fb1ae5a8edf71ae8843206ea88b4ba696d4706",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "WDC",
-      "cms_symbol": "WDC",
-      "country": "US",
-      "cqs_symbol": "WDC",
-      "description": "WESTERN DIGITAL CORPORATION / US DOLLAR",
-      "display_symbol": "WDC/USD",
-      "nasdaq_symbol": "WDC",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.WDC/USD"
     }
   },
   {
@@ -27546,47 +27436,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0215/C,0216/2000-2400,0402/0000-0400,0403/C",
       "symbol": "Equity.US.XOM/USD.ON"
-    }
-  },
-  {
-    "id": "0xd01b28d6935d09544006f31827f98d7a4a44d907a45a2fb688663ec7bcd75389",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "NZD",
-      "description": "NEW ZEALAND DOLLAR / HONG KONG DOLLAR",
-      "display_symbol": "NZD/HKD",
-      "generic_symbol": "NZDHKD",
-      "quote_currency": "HKD",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
-      "symbol": "FX.NZD/HKD",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0xfbbbc98c9d0591ad0ca0b0e53ff2efb955fef8958ffa6890f5a3599e91ec1d49",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "QQQ",
-      "country": "US",
-      "description": "INVESCO QQQ TRUST SERIES 1 / US DOLLAR - PRE MARKET HOURS",
-      "display_symbol": "QQQ/USD PRE MARKET",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.QQQ/USD.PRE"
-    }
-  },
-  {
-    "id": "0x583015352f5936e099fa7149d496ac087c5bfbfc386ce875be27dc4d69c2e023",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "REX33",
-      "description": "ETHEREX LIQUID STAKING TOKEN / US DOLLAR",
-      "display_symbol": "REX33/USD",
-      "generic_symbol": "REX33USD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.REX33/USD"
     }
   },
   {
@@ -27637,6 +27486,183 @@
     }
   },
   {
+    "id": "0x67aed5a24fdad045475e7195c98a98aea119c763f272d4523f5bac93a4f33c2b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TRX",
+      "description": "TRON / US DOLLAR",
+      "display_symbol": "TRX/USD",
+      "generic_symbol": "TRXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TRX/USD"
+    }
+  },
+  {
+    "id": "0xcad40ad24c0d3ba0f7bb62e9605aa2b7c51e11ab1e8e07a4ebd5b722d4f6101c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "009150",
+      "country": "KR",
+      "description": "SAMSUNG ELECTROMECHANICS / SOUTH KOREAN WON",
+      "display_symbol": "KQ.009150/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
+      "symbol": "Equity.KR.009150/KRW"
+    }
+  },
+  {
+    "id": "0x46fff1ecbf80ef6e33ee09846033ad5977ee715cef6c9b6742d083894ae3223c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6526",
+      "country": "JP",
+      "description": "SOCIONEXT INC / JAPANESE YEN",
+      "display_symbol": "6526/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.6526/JPY"
+    }
+  },
+  {
+    "id": "0x92e03dac647ec6733f61f208a89115ecee4442653736a66008032f4ae588f304",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MP",
+      "country": "US",
+      "cqs_symbol": "MP",
+      "description": "MP MATERIALS CORP / US DOLLAR",
+      "display_symbol": "MP/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.MP/USD"
+    }
+  },
+  {
+    "id": "0x08737ff301366cae496cd92c59f5aaa1d7b154d1e07e7ced28fa20a5c5ef0134",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WIX",
+      "country": "US",
+      "cqs_symbol": "WIX",
+      "description": "WIXCOM LTD / US DOLLAR",
+      "display_symbol": "WIX/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.WIX/USD"
+    }
+  },
+  {
+    "id": "0x5fe0ad9fd9bd888bbdfb609dbe8a6233248fa3dee25755f986f473c43938c7ca",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "QQQX",
+      "contract_id": "sol: Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+      "description": "NASDAQ XSTOCK / NASDAQ REDEMPTION RATE",
+      "display_symbol": "QQQX/QQQ",
+      "generic_symbol": "QQQXQQQ",
+      "quote_currency": "QQQ",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.QQQX/QQQ.RR"
+    }
+  },
+  {
+    "id": "0xfd986c5e3ab94ecca751f3281ee1f88a1118c21e664ae35c8a47d2da0838a096",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7186",
+      "country": "JP",
+      "description": "CONCORDIA FINANCIAL GROUP LTD / JAPANESE YEN",
+      "display_symbol": "7186/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.7186/JPY"
+    }
+  },
+  {
+    "id": "0x21debc1718a4b76ff74dadf801c261d76c46afaafb74d9645b65e00b80f5ee3e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BAC",
+      "cms_symbol": "BAC",
+      "country": "US",
+      "cqs_symbol": "BAC",
+      "description": "BANK OF AMERICA CORPORATION / US DOLLAR",
+      "display_symbol": "BAC/USD",
+      "nasdaq_symbol": "BAC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.BAC/USD"
+    }
+  },
+  {
+    "id": "0x246401ffdc5ec97b405e871267c73e6e744d1cdcd96b1fe8526da993111c580e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CAG",
+      "cms_symbol": "CAG",
+      "country": "US",
+      "cqs_symbol": "CAG",
+      "description": "CONAGRA BRANDS INC / US DOLLAR",
+      "display_symbol": "CAG/USD",
+      "nasdaq_symbol": "CAG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.CAG/USD"
+    }
+  },
+  {
+    "id": "0xfbbbc98c9d0591ad0ca0b0e53ff2efb955fef8958ffa6890f5a3599e91ec1d49",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QQQ",
+      "country": "US",
+      "description": "INVESCO QQQ TRUST SERIES 1 / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "QQQ/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.QQQ/USD.PRE"
+    }
+  },
+  {
+    "id": "0x37a782cf9bb6061d4cca34a419fb1ae5a8edf71ae8843206ea88b4ba696d4706",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WDC",
+      "cms_symbol": "WDC",
+      "country": "US",
+      "cqs_symbol": "WDC",
+      "description": "WESTERN DIGITAL CORPORATION / US DOLLAR",
+      "display_symbol": "WDC/USD",
+      "nasdaq_symbol": "WDC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.WDC/USD"
+    }
+  },
+  {
+    "id": "0x583015352f5936e099fa7149d496ac087c5bfbfc386ce875be27dc4d69c2e023",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "REX33",
+      "description": "ETHEREX LIQUID STAKING TOKEN / US DOLLAR",
+      "display_symbol": "REX33/USD",
+      "generic_symbol": "REX33USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.REX33/USD"
+    }
+  },
+  {
     "id": "0xcf23446db046d7e7768c13f207382c043b46d77e3cb8562c533249090b9d2886",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -27678,19 +27704,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BGB/USD"
-    }
-  },
-  {
-    "id": "0x67aed5a24fdad045475e7195c98a98aea119c763f272d4523f5bac93a4f33c2b",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "TRX",
-      "description": "TRON / US DOLLAR",
-      "display_symbol": "TRX/USD",
-      "generic_symbol": "TRXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TRX/USD"
     }
   },
   {
