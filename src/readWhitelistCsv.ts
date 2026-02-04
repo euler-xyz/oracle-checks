@@ -64,7 +64,7 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
       element: adapterAddress,
       asset0: safeGetAddress(base),
       asset1: safeGetAddress(quote),
-      addedAt: "0",
+      addedAt: "1",
     });
   }
 
