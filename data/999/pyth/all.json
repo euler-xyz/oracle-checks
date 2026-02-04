@@ -17,8 +17,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter was revoked from the adapter registry at 1970-01-01T00:00:00.000Z.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -55,6 +55,6 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   }
 ]
