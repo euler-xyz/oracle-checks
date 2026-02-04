@@ -661,7 +661,7 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
+        "message": "Adapter was revoked from the adapter registry at 1970-01-01T00:00:00.000Z.",
         "pass": false
       },
       {
@@ -993,6 +993,9 @@
     "whitelisted": false
   },
   {
+    "address": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xBe889866475055E2D216716da80D976Bfc8D4c1F",
     "chainId": 999,
@@ -1107,8 +1110,5 @@
     "model": "Push",
     "provider": "RedStone",
     "whitelisted": false
-  },
-  {
-    "address": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757"
   }
 ]
