@@ -48,6 +48,7 @@ export type OracleMethodology =
   | "Market Price (Bolt)"
   | "Exchange Rate"
   | "TWAP"
+  | "Composite"
   | "Unknown";
 
 export type AdapterToResults = Record<

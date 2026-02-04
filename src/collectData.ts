@@ -112,7 +112,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const historicalAdapterAddresses = historicalAdapters;
   const adapterRegistryEntries = whitelistedAdapters.reduce(
     (acc, adapter) => {
-      acc[adapter.element] = {
+      acc[adapter.element.toLowerCase() as `0x${string}`] = {
         addedAt: BigInt(adapter.addedAt),
         revokedAt: 0n,
       };

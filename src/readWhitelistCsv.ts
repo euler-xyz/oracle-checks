@@ -1,7 +1,18 @@
 import fs from "fs";
 import path from "path";
-import { Address, getAddress } from "viem";
+import { Address, getAddress, isAddress, zeroAddress } from "viem";
 import { AdapterEntry } from "./eulerApi";
+
+function safeGetAddress(value: string): Address {
+  if (!value || !isAddress(value)) {
+    return zeroAddress;
+  }
+  try {
+    return getAddress(value) as Address;
+  } catch {
+    return zeroAddress;
+  }
+}
 
 export function readWhitelistCsv(chainId: number): AdapterEntry[] {
   const csvPath = path.join(
@@ -37,14 +48,22 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
 
     if (!adapter || !adapter.startsWith("0x")) continue;
     if (wl !== "yes" && wl !== "true") continue;
+    if (!isAddress(adapter)) continue;
+
+    let adapterAddress: Address;
+    try {
+      adapterAddress = getAddress(adapter) as Address;
+    } catch {
+      continue;
+    }
 
     const base = baseIdx !== -1 ? (row[baseIdx] || "").trim() : "";
     const quote = quoteIdx !== -1 ? (row[quoteIdx] || "").trim() : "";
 
     entries.push({
-      element: getAddress(adapter) as Address,
-      asset0: base.startsWith("0x") ? (getAddress(base) as Address) : ("0x" as Address),
-      asset1: quote.startsWith("0x") ? (getAddress(quote) as Address) : ("0x" as Address),
+      element: adapterAddress,
+      asset0: safeGetAddress(base),
+      asset1: safeGetAddress(quote),
       addedAt: "0",
     });
   }

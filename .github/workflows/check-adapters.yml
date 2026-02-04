@@ -6,9 +6,9 @@ permissions:
 on:
   push:
     branches:
-      - master
+      - "**" # Run on all branches
   schedule:
-    # Runs every 1 hours
+    # Runs every 1 hour (schedule always runs on default branch, i.e. master)
     - cron: "0 */1 * * *"
   workflow_dispatch:
 
@@ -22,26 +22,21 @@ jobs:
           submodules: false
           fetch-depth: 0
 
-      - name: Reset and update submodule
+      - name: Update submodule
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          # Read the branch from .gitmodules (default to master if not found)
+          SUBMODULE_BRANCH=$(git config -f .gitmodules submodule.euler-interfaces.branch || echo "master")
+          echo "Using euler-interfaces branch: $SUBMODULE_BRANCH"
 
-          git rm -f euler-interfaces || true
-          rm -rf euler-interfaces
-          rm -rf .git/modules/euler-interfaces
+          # Initialize and update submodule to the specified branch
+          git submodule sync
+          git submodule update --init --remote euler-interfaces
 
-          rm -f .gitmodules
-          git commit -m "Remove old submodule" || true
-
-          echo '[submodule "euler-interfaces"]' > .gitmodules
-          echo '    path = euler-interfaces' >> .gitmodules
-          echo '    url = https://github.com/lastdotnet/euler-interfaces' >> .gitmodules
-          echo '    branch = master' >> .gitmodules
-
-          git submodule add -f -b master https://github.com/lastdotnet/euler-interfaces
-          git add .gitmodules euler-interfaces
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Reset euler-interfaces submodule" && git push)
+          # Verify the submodule is on the correct branch
+          cd euler-interfaces
+          git fetch origin "$SUBMODULE_BRANCH"
+          git checkout "origin/$SUBMODULE_BRANCH"
+          cd ..
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -66,6 +61,7 @@ jobs:
         run: npm run start
 
       - name: Commit and push if changed
+        if: github.ref == 'refs/heads/master'
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
@@ -75,22 +71,28 @@ jobs:
             git push origin HEAD:master
           fi
 
-      # 🆕 NEW STEP: Sync /data folder to AWS S3
-      - name: Sync data to S3
-        if: success()  # only run if all previous steps passed
-        uses: jakejarvis/s3-sync-action@v0.5.1
+      - name: Configure AWS credentials
+        if: success() && startsWith(github.ref, 'refs/heads/')
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          args: --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          SOURCE_DIR: data
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Sync data to S3
+        if: success() && startsWith(github.ref, 'refs/heads/')
+        run: |
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          if [ "$BRANCH_NAME" = "master" ]; then
+            aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/" --delete
+          else
+            BRANCH_HASH=$(echo -n "$BRANCH_NAME" | sha256sum | cut -c1-12)
+            aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/branches/${BRANCH_HASH}/" --delete
+          fi
 
       # 🆕 Notify Slack if the workflow fails
       - name: Notify Slack on failure
-        if: failure()
+        if: failure() && github.ref == 'refs/heads/master'
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
