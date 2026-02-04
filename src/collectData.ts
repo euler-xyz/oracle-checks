@@ -331,8 +331,14 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     console.log(`${logPrefix} Indexed ${idleTranches.length} IdleTranches`);
   }
 
+  // Extract asset addresses from indexed adapters
+  const adapterAssetAddresses = adapters.flatMap((adapter) => extractAssetAddresses(adapter));
+  
+  // Also extract asset addresses from CSV metadata (for pooled adapters that aren't indexed on-chain)
+  const csvAssetAddresses = Array.from(csvMetadata.values()).flatMap((meta) => [meta.base, meta.quote]);
+  
   const assetAddresses = Array.from(
-    new Set(adapters.flatMap((adapter) => extractAssetAddresses(adapter))),
+    new Set([...adapterAssetAddresses, ...csvAssetAddresses]),
   );
 
   let assets: Asset[] = [];
