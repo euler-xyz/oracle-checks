@@ -585,64 +585,6 @@
     "whitelisted": true
   },
   {
-    "name": "ChainlinkOracle",
-    "address": "0x37e9049314646C9EbF7bfb409347F1b66CE76263",
-    "chainId": 999,
-    "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
-    "maxStaleness": "25200",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
-      }
-    ],
-    "label": "ETH/USD (0.5%, 21600s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": true
-  },
-  {
     "name": "CrossAdapter",
     "address": "0x02b333e4c4f0862eF8066a7c5e30cA3B3793C9e8",
     "chainId": 999,
@@ -699,6 +641,64 @@
     "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x37e9049314646C9EbF7bfb409347F1b66CE76263",
+    "chainId": 999,
+    "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "ETH/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
     "whitelisted": true
   },
   {
