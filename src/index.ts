@@ -4,6 +4,7 @@ import { collectData } from "./collectData";
 import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
 import { runChecks } from "./runChecks";
+import { SOURCE_TO_TAGS } from "./types";
 
 function copyWhitelistCsv(chainId: number, dirPath: string): void {
   const srcPath = path.join(__dirname, `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`);
@@ -50,10 +51,34 @@ async function runChecksForAllChains(): Promise<void> {
     const allResults = [];
     for (let i = 0; i < data.adapterAddresses.length; i++) {
       const address = data.adapterAddresses[i];
+
+      // Get tags from adapter sources
+      const sources = data.adapterSources[address] || [];
+      const tags = Array.from(
+        new Set(sources.flatMap((source) => SOURCE_TO_TAGS[source] || [])),
+      );
+
+      // Get CSV metadata for fallback when on-chain data is missing (pooled adapters)
+      const csvMeta = data.csvMetadata.get(address);
+      const csvFallback = csvMeta
+        ? {
+            name: csvMeta.adapterName,
+            base: csvMeta.base,
+            quote: csvMeta.quote,
+            label: `${csvMeta.assetSymbol}/${csvMeta.quoteSymbol}`,
+            provider: csvMeta.provider,
+            chainId: data.chainId,
+          }
+        : {};
+
+      // Use on-chain data if available, otherwise fall back to CSV metadata
+      const adapterData = data.adapters[i] || csvFallback;
+
       const combined = {
-        ...data.adapters[i],
+        ...adapterData,
         ...checkResults[address],
         address,
+        tags,
       };
 
       saveJSON(combined, `${dirPath}/adapters/${address}.json`);
