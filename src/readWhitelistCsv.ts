@@ -14,28 +14,43 @@ function safeGetAddress(value: string): Address {
   }
 }
 
-export function readWhitelistCsv(chainId: number): AdapterEntry[] {
-  const csvPath = path.join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
-  );
+// Extended CSV metadata for richer adapter info
+export type CsvAdapterMetadata = {
+  address: Address;
+  base: Address;
+  quote: Address;
+  assetSymbol: string;
+  quoteSymbol: string;
+  provider: string;
+  adapterName: string;
+};
+
+function readAdaptersCsvWithMetadata(csvPath: string): {
+  entries: AdapterEntry[];
+  metadata: Map<Address, CsvAdapterMetadata>;
+} {
+  const metadata = new Map<Address, CsvAdapterMetadata>();
 
   if (!fs.existsSync(csvPath)) {
-    return [];
+    return { entries: [], metadata };
   }
 
   const content = fs.readFileSync(csvPath, "utf-8");
   const lines = content.split(/\r?\n/).filter((l) => l.trim().length > 0);
 
-  if (lines.length === 0) return [];
+  if (lines.length === 0) return { entries: [], metadata };
 
   const header = lines[0].split(",").map((h) => h.trim().toLowerCase());
+  const assetSymbolIdx = header.indexOf("asset");
+  const quoteSymbolIdx = header.findIndex((h, i) => h === "quote" && i < 4); // First "quote" column (symbol)
+  const providerIdx = header.indexOf("provider");
+  const adapterNameIdx = header.indexOf("adapter name");
   const adapterIdx = header.indexOf("adapter");
   const baseIdx = header.indexOf("base");
-  const quoteIdx = header.indexOf("quote");
+  const quoteIdx = header.lastIndexOf("quote"); // Last "quote" column (address)
   const whitelistIdx = header.indexOf("whitelist");
 
-  if (adapterIdx === -1 || whitelistIdx === -1) return [];
+  if (adapterIdx === -1 || whitelistIdx === -1) return { entries: [], metadata };
 
   const entries: AdapterEntry[] = [];
 
@@ -50,12 +65,8 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
     if (wl !== "yes" && wl !== "true") continue;
     if (!isAddress(adapter)) continue;
 
-    let adapterAddress: Address;
-    try {
-      adapterAddress = getAddress(adapter) as Address;
-    } catch {
-      continue;
-    }
+    const adapterAddress = safeGetAddress(adapter);
+    if (adapterAddress === zeroAddress) continue;
 
     const base = baseIdx !== -1 ? (row[baseIdx] || "").trim() : "";
     const quote = quoteIdx !== -1 ? (row[quoteIdx] || "").trim() : "";
@@ -66,7 +77,42 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
       asset1: safeGetAddress(quote),
       addedAt: "1",
     });
+
+    // Store rich metadata
+    metadata.set(adapterAddress, {
+      address: adapterAddress,
+      base: safeGetAddress(base),
+      quote: safeGetAddress(quote),
+      assetSymbol: assetSymbolIdx !== -1 ? (row[assetSymbolIdx] || "").trim() : "",
+      quoteSymbol: quoteSymbolIdx !== -1 ? (row[quoteSymbolIdx] || "").trim() : "",
+      provider: providerIdx !== -1 ? (row[providerIdx] || "").trim() : "",
+      adapterName: adapterNameIdx !== -1 ? (row[adapterNameIdx] || "").trim() : "",
+    });
   }
 
-  return entries;
+  return { entries, metadata };
+}
+
+// Legacy function for backward compatibility
+function readAdaptersCsv(csvPath: string): AdapterEntry[] {
+  return readAdaptersCsvWithMetadata(csvPath).entries;
+}
+
+export function readWhitelistCsv(chainId: number): AdapterEntry[] {
+  const csvPath = path.join(
+    __dirname,
+    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
+  );
+  return readAdaptersCsv(csvPath);
+}
+
+export function readPooledCsvWithMetadata(chainId: number): {
+  entries: AdapterEntry[];
+  metadata: Map<Address, CsvAdapterMetadata>;
+} {
+  const csvPath = path.join(
+    __dirname,
+    `../euler-interfaces/addresses/${chainId}/pooled/OracleAdaptersAddresses.csv`,
+  );
+  return readAdaptersCsvWithMetadata(csvPath);
 }

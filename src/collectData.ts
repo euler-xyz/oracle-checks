@@ -39,8 +39,11 @@ import {
   fetchEulerApiWhitelistedAdapters,
 } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
-import { readWhitelistCsv } from "./readWhitelistCsv";
-import { CollectedData } from "./types";
+import {
+  readPooledCsvWithMetadata,
+  readWhitelistCsv,
+} from "./readWhitelistCsv";
+import { AdapterSource, CollectedData } from "./types";
 
 loadEnv();
 
@@ -65,6 +68,13 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const csvWhitelistedAdapters = readWhitelistCsv(chainId);
   console.log(
     `${logPrefix} Fetched ${csvWhitelistedAdapters.length} whitelisted adapters from CSV`,
+  );
+
+  // Only pooled adapters need CSV metadata (they're not Euler adapters, so can't be indexed on-chain)
+  const { entries: csvPooledAdapters, metadata: csvMetadata } =
+    readPooledCsvWithMetadata(chainId);
+  console.log(
+    `${logPrefix} Fetched ${csvPooledAdapters.length} pooled adapters from CSV`,
   );
 
   const apiAdapterSet = new Set(apiWhitelistedAdapters.map((a) => a.element.toLowerCase()));
@@ -108,6 +118,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
+  const pooledAdapterAddresses = csvPooledAdapters.map((a) => a.element);
   const adapterRegistryAddresses = whitelistedAdapters.map((adapter) => adapter.element);
   const historicalAdapterAddresses = historicalAdapters;
   const adapterRegistryEntries = whitelistedAdapters.reduce(
@@ -121,16 +132,46 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     {} as Record<`0x${string}`, RegistryEntry>,
   );
 
+  // Track sources for each adapter address
+  const adapterSources: Record<Address, AdapterSource[]> = {};
+
+  const addSource = (address: Address, source: AdapterSource) => {
+    const normalizedAddress = getAddress(address);
+    if (!adapterSources[normalizedAddress]) {
+      adapterSources[normalizedAddress] = [];
+    }
+    if (!adapterSources[normalizedAddress].includes(source)) {
+      adapterSources[normalizedAddress].push(source);
+    }
+  };
+
+  // Track sources for each address
+  historicalAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "euler-api-historical"));
+
+  adapterRegistryAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "euler-api-whitelisted"));
+
+  csvAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "csv-whitelist"));
+
+  pooledAdapterAddresses
+    .filter((a) => a !== zeroAddress)
+    .forEach((a) => addSource(a, "csv-pooled"));
+
   const adapterAddresses = Array.from(
     new Set(
-      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses]
+      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses, ...pooledAdapterAddresses]
         .filter((a) => a !== zeroAddress)
         .map((a) => getAddress(a)),
     ),
   );
 
   console.log(
-    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${adapterRegistryAddresses.length} in adapter registry)`,
+    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${pooledAdapterAddresses.length} pooled, ${adapterRegistryAddresses.length} in adapter registry)`,
   );
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
@@ -170,6 +211,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   );
 
   if (newAdapterAddresses.length > 0) {
+    // Track source for cross-adapter discovered addresses
+    newAdapterAddresses.forEach((a) => addSource(a, "cross-adapter-discovery"));
+
     adapterAddresses.push(...newAdapterAddresses);
     const newAdapters = await indexAdapters({
       adapterAddresses: newAdapterAddresses,
@@ -287,8 +331,17 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     console.log(`${logPrefix} Indexed ${idleTranches.length} IdleTranches`);
   }
 
+  // Extract asset addresses from indexed adapters
+  const adapterAssetAddresses = adapters.flatMap((adapter) => extractAssetAddresses(adapter));
+  
+  // Also extract asset addresses from CSV metadata (for pooled adapters that aren't indexed on-chain).
+  // Exclude zero/invalid placeholders so we don't pass them to indexAssets (avoids RPC/validation errors).
+  const csvAssetAddresses = Array.from(csvMetadata.values())
+    .flatMap((meta) => [meta.base, meta.quote])
+    .filter((a): a is Address => isAddress(a) && a !== zeroAddress);
+
   const assetAddresses = Array.from(
-    new Set(adapters.flatMap((adapter) => extractAssetAddresses(adapter))),
+    new Set([...adapterAssetAddresses, ...csvAssetAddresses]),
   );
 
   let assets: Asset[] = [];
@@ -304,6 +357,8 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   return {
     chainId,
     adapterAddresses,
+    adapterSources,
+    csvMetadata,
     adapters,
     adapterRegistryEntries,
     bytecodes,
