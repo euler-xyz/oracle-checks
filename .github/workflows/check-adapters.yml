@@ -79,16 +79,28 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Sync data to S3
-        if: success() && startsWith(github.ref, 'refs/heads/')
+      # Sync data to S3 (master branch - sync each chainId folder to root to avoid deleting branch folders)
+      - name: Sync data to S3 (master)
+        if: success() && github.ref == 'refs/heads/master'
+        run: |
+          # Sync each chainId folder individually with --delete
+          # This avoids deleting other root-level folders (like branch folders)
+          for chainDir in data/*/; do
+            chainId=$(basename "$chainDir")
+            echo "Syncing chain $chainId to root..."
+            aws s3 sync "$chainDir" "s3://${{ secrets.AWS_S3_BUCKET }}/${chainId}/" --delete
+          done
+
+      # Sync data to S3 (non-master branches - sync under branches/ prefix for namespace isolation)
+      # Using branches/ prefix avoids collision with root-level chain IDs (e.g. branch "999" must not overwrite s3://bucket/999/)
+      - name: Sync data to S3 (non-master branches)
+        if: success() && github.ref != 'refs/heads/master' && startsWith(github.ref, 'refs/heads/')
         run: |
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
-          if [ "$BRANCH_NAME" = "master" ]; then
-            aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/" --delete
-          else
-            BRANCH_HASH=$(echo -n "$BRANCH_NAME" | sha256sum | cut -c1-12)
-            aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/branches/${BRANCH_HASH}/" --delete
-          fi
+          # Sanitize branch name (replace / with -)
+          SAFE_BRANCH_NAME=$(echo "$BRANCH_NAME" | sed 's/\//-/g')
+          echo "Syncing to branch folder: branches/$SAFE_BRANCH_NAME"
+          aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/branches/${SAFE_BRANCH_NAME}/" --delete
 
       # 🆕 Notify Slack if the workflow fails
       - name: Notify Slack on failure
