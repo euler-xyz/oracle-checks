@@ -91,15 +91,16 @@ jobs:
             aws s3 sync "$chainDir" "s3://${{ secrets.AWS_S3_BUCKET }}/${chainId}/" --delete
           done
 
-      # Sync data to S3 (non-master branches - sync to branch folder)
+      # Sync data to S3 (non-master branches - sync under branches/ prefix for namespace isolation)
+      # Using branches/ prefix avoids collision with root-level chain IDs (e.g. branch "999" must not overwrite s3://bucket/999/)
       - name: Sync data to S3 (non-master branches)
         if: success() && github.ref != 'refs/heads/master' && startsWith(github.ref, 'refs/heads/')
         run: |
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
           # Sanitize branch name (replace / with -)
           SAFE_BRANCH_NAME=$(echo "$BRANCH_NAME" | sed 's/\//-/g')
-          echo "Syncing to branch folder: $SAFE_BRANCH_NAME"
-          aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/${SAFE_BRANCH_NAME}/" --delete
+          echo "Syncing to branch folder: branches/$SAFE_BRANCH_NAME"
+          aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/branches/${SAFE_BRANCH_NAME}/" --delete
 
       # 🆕 Notify Slack if the workflow fails
       - name: Notify Slack on failure

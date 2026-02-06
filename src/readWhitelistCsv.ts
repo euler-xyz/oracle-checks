@@ -106,25 +106,6 @@ export function readWhitelistCsv(chainId: number): AdapterEntry[] {
   return readAdaptersCsv(csvPath);
 }
 
-export function readPooledCsv(chainId: number): AdapterEntry[] {
-  const csvPath = path.join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/pooled/OracleAdaptersAddresses.csv`,
-  );
-  return readAdaptersCsv(csvPath);
-}
-
-export function readWhitelistCsvWithMetadata(chainId: number): {
-  entries: AdapterEntry[];
-  metadata: Map<Address, CsvAdapterMetadata>;
-} {
-  const csvPath = path.join(
-    __dirname,
-    `../euler-interfaces/addresses/${chainId}/OracleAdaptersAddresses.csv`,
-  );
-  return readAdaptersCsvWithMetadata(csvPath);
-}
-
 export function readPooledCsvWithMetadata(chainId: number): {
   entries: AdapterEntry[];
   metadata: Map<Address, CsvAdapterMetadata>;
