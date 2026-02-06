@@ -334,9 +334,12 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   // Extract asset addresses from indexed adapters
   const adapterAssetAddresses = adapters.flatMap((adapter) => extractAssetAddresses(adapter));
   
-  // Also extract asset addresses from CSV metadata (for pooled adapters that aren't indexed on-chain)
-  const csvAssetAddresses = Array.from(csvMetadata.values()).flatMap((meta) => [meta.base, meta.quote]);
-  
+  // Also extract asset addresses from CSV metadata (for pooled adapters that aren't indexed on-chain).
+  // Exclude zero/invalid placeholders so we don't pass them to indexAssets (avoids RPC/validation errors).
+  const csvAssetAddresses = Array.from(csvMetadata.values())
+    .flatMap((meta) => [meta.base, meta.quote])
+    .filter((a): a is Address => isAddress(a) && a !== zeroAddress);
+
   const assetAddresses = Array.from(
     new Set([...adapterAssetAddresses, ...csvAssetAddresses]),
   );
