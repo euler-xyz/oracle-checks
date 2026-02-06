@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     branches:
-      - '**'  # Run on all branches
+      - "**" # Run on all branches
   schedule:
     # Runs every 1 hour (schedule always runs on default branch, i.e. master)
     - cron: "0 */1 * * *"
@@ -27,11 +27,11 @@ jobs:
           # Read the branch from .gitmodules (default to master if not found)
           SUBMODULE_BRANCH=$(git config -f .gitmodules submodule.euler-interfaces.branch || echo "master")
           echo "Using euler-interfaces branch: $SUBMODULE_BRANCH"
-          
+
           # Initialize and update submodule to the specified branch
           git submodule sync
           git submodule update --init --remote euler-interfaces
-          
+
           # Verify the submodule is on the correct branch
           cd euler-interfaces
           git fetch origin "$SUBMODULE_BRANCH"
@@ -71,7 +71,15 @@ jobs:
             git push origin HEAD:master
           fi
 
-      # Sync data to S3 (master branch - sync to root, per-chainId to avoid deleting branch folders)
+      - name: Configure AWS credentials
+        if: success() && startsWith(github.ref, 'refs/heads/')
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      # Sync data to S3 (master branch - sync each chainId folder to root to avoid deleting branch folders)
       - name: Sync data to S3 (master)
         if: success() && github.ref == 'refs/heads/master'
         run: |
@@ -82,27 +90,16 @@ jobs:
             echo "Syncing chain $chainId to root..."
             aws s3 sync "$chainDir" "s3://${{ secrets.AWS_S3_BUCKET }}/${chainId}/" --delete
           done
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
 
       # Sync data to S3 (non-master branches - sync to branch folder)
       - name: Sync data to S3 (non-master branches)
         if: success() && github.ref != 'refs/heads/master' && startsWith(github.ref, 'refs/heads/')
         run: |
-          # Extract branch name from refs/heads/branch-name
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
-          
-          # Sanitize branch name for filename (replace / with -)
+          # Sanitize branch name (replace / with -)
           SAFE_BRANCH_NAME=$(echo "$BRANCH_NAME" | sed 's/\//-/g')
-
-          # Sync data to S3 (--delete only affects files within this branch folder)
+          echo "Syncing to branch folder: $SAFE_BRANCH_NAME"
           aws s3 sync data/ "s3://${{ secrets.AWS_S3_BUCKET }}/${SAFE_BRANCH_NAME}/" --delete
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
 
       # 🆕 Notify Slack if the workflow fails
       - name: Notify Slack on failure

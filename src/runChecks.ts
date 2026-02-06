@@ -119,8 +119,7 @@ export function runChecks({
 
       if (
         aggregatorV3FeedCheck.provider === "RedStone" &&
-        (aggregatorV3FeedCheck.heartbeat === 0 ||
-          aggregatorV3FeedCheck.heartbeat === undefined)
+        (aggregatorV3FeedCheck.heartbeat === 0 || aggregatorV3FeedCheck.heartbeat === undefined)
       ) {
         const seventyMinutesInSeconds = 70n * 60n; // 70 minutes
         const stalenessOk = adapter.maxStaleness < seventyMinutesInSeconds;
@@ -282,7 +281,7 @@ export function runChecks({
       const crossSymbol = assets.find((asset) => asset.address === adapter.cross)?.symbol;
       const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
       label = `${baseSymbol}/${crossSymbol}/${quoteSymbol}`;
-      methodology = "Unknown";
+      methodology = "Composite";
       model = "Unknown";
       provider = "Cross";
     }

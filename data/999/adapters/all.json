@@ -18,8 +18,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -53,10 +53,10 @@
       }
     ],
     "label": "WHYPE/USDC/USD",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -76,8 +76,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -114,7 +114,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -134,8 +134,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -172,7 +172,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -192,8 +192,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -230,7 +230,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -250,8 +250,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -288,7 +288,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -308,8 +308,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -346,7 +346,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -367,8 +367,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -402,10 +402,10 @@
       }
     ],
     "label": "PT-kHYPE-19MAR2026/WHYPE/USD",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -426,8 +426,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -461,10 +461,10 @@
       }
     ],
     "label": "wstHYPE/WHYPE/USD",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -485,8 +485,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -520,10 +520,10 @@
       }
     ],
     "label": "lstHYPE/WHYPE/USD",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -544,8 +544,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -579,10 +579,69 @@
       }
     ],
     "label": "beHYPE/WHYPE/USD",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x02b333e4c4f0862eF8066a7c5e30cA3B3793C9e8",
+    "chainId": 999,
+    "base": "0x4DE03cA1F02591B717495cfA19913aD56a2f5858",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4DE03cA1F02591B717495cfA19913aD56a2f5858 is hwHYPE (Hyperwave HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "hwHYPE/WHYPE/USD",
+    "methodology": "Composite",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -602,8 +661,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -640,66 +699,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x02b333e4c4f0862eF8066a7c5e30cA3B3793C9e8",
-    "chainId": 999,
-    "base": "0x4DE03cA1F02591B717495cfA19913aD56a2f5858",
-    "cross": "0x5555555555555555555555555555555555555555",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757",
-    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4DE03cA1F02591B717495cfA19913aD56a2f5858 is hwHYPE (Hyperwave HYPE) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "hwHYPE/WHYPE/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -719,8 +719,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -757,7 +757,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -777,8 +777,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -815,7 +815,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -836,8 +836,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -871,10 +871,10 @@
       }
     ],
     "label": "wstHYPE/stHYPE/WHYPE",
-    "methodology": "Unknown",
+    "methodology": "Composite",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -894,8 +894,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -932,7 +932,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -952,8 +952,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -990,7 +990,10 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
+  },
+  {
+    "address": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757"
   },
   {
     "name": "ChainlinkOracle",
@@ -1010,8 +1013,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -1048,7 +1051,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1068,8 +1071,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -1106,9 +1109,6 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "address": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757"
+    "whitelisted": true
   }
 ]

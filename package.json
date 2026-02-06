@@ -4,7 +4,6 @@
   "description": "Euler price oracle verification checks",
   "scripts": {
     "postinstall": "patch-package",
-    "prebuild": "npm install @objectivelabs/oracle-sdk@github:euler-xyz/oracle-sdk#main --force",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "clean": "rimraf dist",
     "lint": "eslint src --ext .ts --max-warnings 0",
@@ -39,7 +38,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@objectivelabs/oracle-sdk": "github:euler-xyz/oracle-sdk#main",
+    "@objectivelabs/oracle-sdk": "file:./oracle-sdk",
     "cbor-x": "^1.6.0",
     "dotenv": "^16.4.7",
     "express": "^4.19.2",

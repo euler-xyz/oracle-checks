@@ -1,7 +1,18 @@
 import fs from "fs";
 import path from "path";
-import { Address, getAddress } from "viem";
+import { Address, getAddress, isAddress, zeroAddress } from "viem";
 import { AdapterEntry } from "./eulerApi";
+
+function safeGetAddress(value: string): Address {
+  if (!value || !isAddress(value)) {
+    return zeroAddress;
+  }
+  try {
+    return getAddress(value) as Address;
+  } catch {
+    return zeroAddress;
+  }
+}
 
 // Extended CSV metadata for richer adapter info
 export type CsvAdapterMetadata = {
@@ -52,23 +63,26 @@ function readAdaptersCsvWithMetadata(csvPath: string): {
 
     if (!adapter || !adapter.startsWith("0x")) continue;
     if (wl !== "yes" && wl !== "true") continue;
+    if (!isAddress(adapter)) continue;
+
+    const adapterAddress = safeGetAddress(adapter);
+    if (adapterAddress === zeroAddress) continue;
 
     const base = baseIdx !== -1 ? (row[baseIdx] || "").trim() : "";
     const quote = quoteIdx !== -1 ? (row[quoteIdx] || "").trim() : "";
-    const normalizedAddress = getAddress(adapter) as Address;
 
     entries.push({
-      element: normalizedAddress,
-      asset0: base.startsWith("0x") ? (getAddress(base) as Address) : ("0x" as Address),
-      asset1: quote.startsWith("0x") ? (getAddress(quote) as Address) : ("0x" as Address),
-      addedAt: "0",
+      element: adapterAddress,
+      asset0: safeGetAddress(base),
+      asset1: safeGetAddress(quote),
+      addedAt: "1",
     });
 
     // Store rich metadata
-    metadata.set(normalizedAddress, {
-      address: normalizedAddress,
-      base: base.startsWith("0x") ? (getAddress(base) as Address) : ("0x" as Address),
-      quote: quote.startsWith("0x") ? (getAddress(quote) as Address) : ("0x" as Address),
+    metadata.set(adapterAddress, {
+      address: adapterAddress,
+      base: safeGetAddress(base),
+      quote: safeGetAddress(quote),
       assetSymbol: assetSymbolIdx !== -1 ? (row[assetSymbolIdx] || "").trim() : "",
       quoteSymbol: quoteSymbolIdx !== -1 ? (row[quoteSymbolIdx] || "").trim() : "",
       provider: providerIdx !== -1 ? (row[providerIdx] || "").trim() : "",
