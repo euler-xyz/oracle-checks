@@ -21999,6 +21999,114 @@
     "address": "0xcB62f468B5724B7748293fc78E42C3DA840a8338"
   },
   {
+    "name": "RateProviderOracle",
+    "address": "0x02877a93Cf0469b65c83b35FA5dEcB267DfF66bf",
+    "chainId": 1,
+    "base": "0x890A5122Aa1dA30fEC4286DE7904Ff808F0bd74A",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rateProvider": "0xcB62f468B5724B7748293fc78E42C3DA840a8338",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x890A5122Aa1dA30fEC4286DE7904Ff808F0bd74A is msY (msY) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "msY/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x7C5b653566016175e1a0eF9bb6BF13CAa3371E59",
+    "chainId": 1,
+    "base": "0x4ba01f22827018b4772CD326C7627FB4956A7C00",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4ba01f22827018b4772CD326C7627FB4956A7C00 is msUSD (msUSD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has an unusual fixed rate: 0.000000000000000001.",
+        "pass": false
+      }
+    ],
+    "label": "1:0.000000000000000001 msUSD/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
