@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x1A726be873806c7E6dE55f899ED786ee6915d838",
+  "chainId": 42161,
+  "base": "0x5a791652f3b140d357df072d355a98ab754877D1",
+  "cross": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x7DDD6B7BC523a78C490063E0DbEFf0db07644178",
+  "oracleCrossQuote": "0x86220C3dC4AdA691E0b09ff8f371bFfE6eFd8C75",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5a791652f3b140d357df072d355a98ab754877D1 is PT-thBILL-27NOV2025 (PT thBILL 27NOV2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-thBILL-27NOV2025/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

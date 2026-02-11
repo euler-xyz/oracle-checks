@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x09cF29760fC258445C99e6D81127381dBaBf0eB3",
+  "chainId": 59144,
+  "base": "0x1F5790575381A560924518C959430Eb262771CC4",
+  "cross": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xB23fc49c0eA1BcD360c21EE1e31472e2b30D9524",
+  "oracleCrossQuote": "0x4c35d57C745e30EfC57472659f52974913C569bf",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Onchain indexing failed for asset 0x1F5790575381A560924518C959430Eb262771CC4: could not get symbol.",
+      "pass": false
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "undefined/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
