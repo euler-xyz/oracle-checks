@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x11B6AD08C979D186884b2af5055E307b7f3D1448",
+  "chainId": 9745,
+  "base": "0xceA23aB8FdE0b90e4D08EB68e8876E43933721D2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x2AD358a2972aD56937A18b5D90A4F087C007D08d",
+  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xceA23aB8FdE0b90e4D08EB68e8876E43933721D2 is PT-mHYPER-29JAN2026 (PT Midas Hyperithm 29JAN2026) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Unknown",
+  "whitelisted": false
+}

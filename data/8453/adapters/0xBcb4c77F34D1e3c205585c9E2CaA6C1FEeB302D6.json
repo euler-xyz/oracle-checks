@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xBcb4c77F34D1e3c205585c9E2CaA6C1FEeB302D6",
+  "chainId": 8453,
+  "base": "0x7D214438D0F27AfCcC23B3d1e1a53906aCE5CFEa",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x67a3226e69A1a8316eF1807a44f077AF80071926",
+  "maxStaleness": "86410",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7D214438D0F27AfCcC23B3d1e1a53906aCE5CFEa is reUSD (Re Protocol reUSD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Re Protocol ReUSD/USD Custom Feed ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Re Protocol",
+  "whitelisted": false
+}

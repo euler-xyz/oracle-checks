@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x0B2bF9999f73304eD6A62f8874017C2FA60C5772",
+  "chainId": 43114,
+  "base": "0x7bFd4CA2a6Cf3A3fDDd645D10B323031afe47FF0",
+  "cross": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xab5e7314Cb36dBdbC68D30A6869e3eb6161f8E85",
+  "oracleCrossQuote": "0x0505C3f2B1c74ad84f4556a0b5a73386E6286d4E",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7bFd4CA2a6Cf3A3fDDd645D10B323031afe47FF0 is wrsETH (rsETHWrapper) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB is WETH.e (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "wrsETH/WETH.e/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
