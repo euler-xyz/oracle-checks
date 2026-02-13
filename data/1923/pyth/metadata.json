@@ -5010,6 +5010,19 @@
     }
   },
   {
+    "id": "0xcc023ee1359ce903eefd0d7ed31d00038b2c14721486669a24957b1a3ee6b5d0",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "TIU6",
+      "description": "TIN 15 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "TIU6/USD",
+      "generic_symbol": "TIU6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.TIU6/USD"
+    }
+  },
+  {
     "id": "0x710659c5a68e2416ce4264ca8d50d34acc20041d91289110eea152c52ff3dc39",
     "attributes": {
       "asset_type": "Crypto",
@@ -5192,6 +5205,19 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
       "symbol": "FX.EUR/OMR",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x1db3cd0678b3544e54dad0fd8892cfc90c54f7753791ae55ea33821cbcb6b6d1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HKHJ6",
+      "description": "HKH J6 APRIL 2026 / HONG KONG DOLLAR",
+      "display_symbol": "HKHJ6/HKD",
+      "generic_symbol": "HKHJ6",
+      "quote_currency": "HKD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Equity.HK.HKHJ6/HKD"
     }
   },
   {
@@ -5525,6 +5551,20 @@
     }
   },
   {
+    "id": "0xa7829d8a4204b7cadef75695c0d76aef67b76392466a240af00dbb7d5f99217f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2823-HK",
+      "country": "HK",
+      "description": "ISHARES FTSE CHINA A50 ETF / HONG KONG DOLLAR",
+      "display_symbol": "HK.2823-HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C",
+      "symbol": "Equity.HK.2823-HK/HKD"
+    }
+  },
+  {
     "id": "0xbaa284eaf23edf975b371ba2818772f93dbae72836bbdea28b07d40f3cf8b485",
     "attributes": {
       "asset_type": "Crypto",
@@ -5773,6 +5813,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.TSLZ/USD"
+    }
+  },
+  {
+    "id": "0xffeb97dc9f9851663bb2ccad628e7dff955fa2d0959bc3e46710b34eda72089d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1321",
+      "country": "JP",
+      "description": "NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
+      "display_symbol": "1321-JP/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.1321-JP/JPY"
     }
   },
   {
@@ -7560,6 +7614,19 @@
     }
   },
   {
+    "id": "0x066df60f6f9eccef8d58c091f9f67bfedc2113797917c329c678963a17ebcb90",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "LEM6",
+      "description": "LEAD 16 JUNE 2026 / US DOLLAR",
+      "display_symbol": "LEM6/USD",
+      "generic_symbol": "LEM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.LEM6/USD"
+    }
+  },
+  {
     "id": "0x3112b03a41c910ed446852aacf67118cb1bec67b2cd0b9a214c58cc0eaa2ecca",
     "attributes": {
       "asset_type": "FX",
@@ -7919,6 +7986,19 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
       "symbol": "Equity.GB.SN/GBP"
+    }
+  },
+  {
+    "id": "0x2f99b6f1fc74227b450e091484b0418fdeae5b8976198b88b8e2035137058d6d",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "ALH6",
+      "description": "ALUMINIUM 27 MARCH 2026 / US DOLLAR",
+      "display_symbol": "ALH6/USD",
+      "generic_symbol": "ALH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.ALH6/USD"
     }
   },
   {
@@ -8791,6 +8871,19 @@
     }
   },
   {
+    "id": "0x77ae4c174e982ef3344d7368fe0ba15e71ab24fe37e083ce90079ed7a637b2c7",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "LEH6",
+      "description": "LEAD 17 MARCH 2026 / US DOLLAR",
+      "display_symbol": "LEH6/USD",
+      "generic_symbol": "LEH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.LEH6/USD"
+    }
+  },
+  {
     "id": "0x82eebc2c47490ba9c0f9bc35ea9fb57a7e2bbf69b84a04ea2a3525153b8090ea",
     "attributes": {
       "asset_type": "Crypto",
@@ -9656,6 +9749,19 @@
     }
   },
   {
+    "id": "0xcfb4b9276e8f86485a0a3f3dfb5f30e8b27f38d7576d2a9dda1326918a965f17",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOJ6",
+      "description": "LS GASOIL 10 APRIL 2026 / US DOLLAR",
+      "display_symbol": "GOJ6/USD",
+      "generic_symbol": "GOJ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.GOJ6/USD"
+    }
+  },
+  {
     "id": "0x3bc8e45f9c09ecaa06154bcaf654366de1a496cb1b403f658b43dc47bfc02de7",
     "attributes": {
       "asset_type": "FX",
@@ -10205,6 +10311,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.INCY/USD"
+    }
+  },
+  {
+    "id": "0xf39ddf4e7f133c8cc4d4a09de352fe3faa1e122e4c8697e2925bf4ce1ad4e94e",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGH6",
+      "description": "HH NATURAL GAS 25 FEBRUARY 2026 / US DOLLAR",
+      "display_symbol": "NGH6/USD",
+      "generic_symbol": "NGH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGH6/USD"
     }
   },
   {
@@ -11677,6 +11796,19 @@
     }
   },
   {
+    "id": "0x539fa4855c858f0282b530cea381460085ea512978eb6ecc5ace8a7c51626280",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HKHH6",
+      "description": "HKH H6 MARCH 2026 / HONG KONG DOLLAR",
+      "display_symbol": "HKHH6/HKD",
+      "generic_symbol": "HKHH6",
+      "quote_currency": "HKD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Equity.HK.HKHH6/HKD"
+    }
+  },
+  {
     "id": "0x2a24f9bf70d9a9ff2397c99a47d1c5df919d7c1533252c5dd7406e41a550c258",
     "attributes": {
       "asset_type": "Equity",
@@ -11918,6 +12050,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0119/0000-1430&1800-2400,0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
       "symbol": "Commodities.CCH6/USD"
+    }
+  },
+  {
+    "id": "0xfbc11c7e9e320d833ee90ebc2002c36cf1bf6f501786c8cf1730ee85cc1705d9",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGM6",
+      "description": "HH NATURAL GAS 27 MAY 2026 / US DOLLAR",
+      "display_symbol": "NGM6/USD",
+      "generic_symbol": "NGM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGM6/USD"
     }
   },
   {
@@ -12247,6 +12392,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.INX/USD"
+    }
+  },
+  {
+    "id": "0x7c87a4d514d0274b25039d4a5074142f6a1e6476c4760d6bb9eb96ee28106c1c",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "LEU6",
+      "description": "LEAD 16 SEPTEMBER 2026 / US DOLLARR",
+      "display_symbol": "LEU6/USD",
+      "generic_symbol": "LEU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.LEU6/USD"
     }
   },
   {
@@ -14636,6 +14794,19 @@
     }
   },
   {
+    "id": "0xcde5ae55ddfe9e7d5f75019e86506f59cb29b07249a3ad1a20924edecf767b97",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "URG6",
+      "description": "URANIUM 23 FEBRUARY 2026 / US DOLLAR",
+      "display_symbol": "URG6/USD",
+      "generic_symbol": "URG6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0402/0000-1700,0403/C,0525/0000-1430&1800-2400",
+      "symbol": "Commodities.URG6/USD"
+    }
+  },
+  {
     "id": "0xf4481e13c8640b78f48407c2db150f42a2e6861e173bb54ed50abe142d5cf62d",
     "attributes": {
       "asset_type": "Equity",
@@ -16075,6 +16246,19 @@
     }
   },
   {
+    "id": "0xb4ff2169fbc38c38c767af02d48e9c9439f0fbb22d8751c978874055b6fe029b",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOH6",
+      "description": "LS GASOIL 12 MARCH 2026 / US DOLLAR",
+      "display_symbol": "GOH6/USD",
+      "generic_symbol": "GOH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.GOH6/USD"
+    }
+  },
+  {
     "id": "0xe8da97162840e7d6170094e0722900b1f2577dd1cc63cff10f91fc68a17eb2c9",
     "attributes": {
       "asset_type": "Equity",
@@ -17237,6 +17421,19 @@
     }
   },
   {
+    "id": "0x0bd82229bc26af207a17c24949bf1a2ed70600377adada64597ca418028777f5",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "RSN6",
+      "description": "RAW SUGAR 30 JUNE 2O26 / US DOLLAR",
+      "display_symbol": "RSN6/USD",
+      "generic_symbol": "RSN6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.RSN6/USD"
+    }
+  },
+  {
     "id": "0xf51570985c642c49c2d6e50156390fdba80bb6d5f7fa389d2f012ced4f7d208f",
     "attributes": {
       "asset_type": "Crypto",
@@ -18243,6 +18440,19 @@
     }
   },
   {
+    "id": "0xbb14197492ff63d6f3ad1e19d6827b43097c72ded09ed729cb97cbfeec525b4f",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "URJ6",
+      "description": "URANIUM 27 APRIL 2026 / US DOLLAR",
+      "display_symbol": "URJ6/USD",
+      "generic_symbol": "URJ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0402/0000-1700,0403/C,0525/0000-1430&1800-2400",
+      "symbol": "Commodities.URJ6/USD"
+    }
+  },
+  {
     "id": "0x1c6173846b80789f181fa67b0cd149f3103eef48e770bd3224516763974b379c",
     "attributes": {
       "asset_type": "Equity",
@@ -18844,6 +19054,19 @@
     }
   },
   {
+    "id": "0x906b2cf5b7767bfe96609824edd0d6d4d40874545c8be1dedc5943450f9b902f",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "ALK6",
+      "description": "ALUMINIUM 27 MAY 2026 / US DOLLAR",
+      "display_symbol": "ALK6/USD",
+      "generic_symbol": "ALK6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.ALK6/USD"
+    }
+  },
+  {
     "id": "0x88232bfe2ca44449224f24fc862d4b4fed9144e53f6cf9f0a939f88b82b4f8cd",
     "attributes": {
       "asset_type": "Equity",
@@ -18907,6 +19130,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.D/USD"
+    }
+  },
+  {
+    "id": "0x3c9d8e2de11a40a33c6e46f33e16265606abbe542dd00db72d9885d5c498b963",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "TIH6",
+      "description": "TIN 17 MARCH 2026 / US DOLLAR",
+      "display_symbol": "TIH6/USD",
+      "generic_symbol": "TIH6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.TIH6/USD"
     }
   },
   {
@@ -19188,6 +19424,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.FUTU/USD"
+    }
+  },
+  {
+    "id": "0x8805823f20690f7b1b138d912a1e6988dca4ed166c813118f8d05cbf00d61dce",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGU6",
+      "description": "HH NATURAL GAS 27 AUGUST 2026 / US DOLLAR",
+      "display_symbol": "NGU6/USD",
+      "generic_symbol": "NGU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGU6/USD"
     }
   },
   {
@@ -21408,6 +21657,19 @@
     }
   },
   {
+    "id": "0x4a7c532952fed05460501086a0293b44c6e8b78c863e93878b3602fb88203b80",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "TIM6",
+      "description": "TIN 16 JUNE 2026 / US DOLLAR",
+      "display_symbol": "TIM6/USD",
+      "generic_symbol": "TIM6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.TIM6/USD"
+    }
+  },
+  {
     "id": "0x82465d1155ddbb2c73bf3491457163000f8e8d02dea90c548b1b7e56ae9fe4b1",
     "attributes": {
       "asset_type": "Crypto",
@@ -21580,6 +21842,19 @@
       "quote_currency": "EXOD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.EXOD.SS/EXOD.RR"
+    }
+  },
+  {
+    "id": "0x6dfc2f1dd90f947ed01053a325d58a3ae47a23fdd3836a41751f8b4347238dbc",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOK6",
+      "description": "LS GASOIL 12 MAY 2026 / US DOLLAR",
+      "display_symbol": "GOK6/USD",
+      "generic_symbol": "GOK6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.GOK6/USD"
     }
   },
   {
@@ -22997,6 +23272,20 @@
     }
   },
   {
+    "id": "0xcdf8e84d7dbec5d8aed6997f0d6d0da7454426d8e6a3afbf85a13a44b9f5a678",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HL",
+      "country": "GB",
+      "description": "HARGREAVES LANSDOWN PLC / BRITISH POUND",
+      "display_symbol": "HL/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.HL/GBP"
+    }
+  },
+  {
     "id": "0xc9907d786c5821547777780a1e4f89484f3417cb14dd244f2b0a34ea7a554d67",
     "attributes": {
       "asset_type": "Crypto",
@@ -23785,6 +24074,19 @@
     }
   },
   {
+    "id": "0x5f042335ca301fd60937721c36d5f1e320155f7a8e65958d49102b342761ec96",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "RSK6",
+      "description": "RAW SUGAR 30 APRIL 2O26 / US DOLLAR",
+      "display_symbol": "RSK6/USD",
+      "generic_symbol": "RSK6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.RSK6/USD"
+    }
+  },
+  {
     "id": "0xe9f11baaade6cf979251d4c9e6c30657ed29275952a04b125915e475c31a5e63",
     "attributes": {
       "asset_type": "Equity",
@@ -24456,6 +24758,19 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
       "symbol": "Equity.JP.6305/JPY"
+    }
+  },
+  {
+    "id": "0x2cf5cd9186761a0c667f50ff7bd345ce87ff3de91803dda8613398378c3aa97b",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "COK6",
+      "description": "CORN 14 MAY 2026 / US DOLLAR",
+      "display_symbol": "COK6/USD",
+      "generic_symbol": "COK6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.COK6/USD"
     }
   },
   {
@@ -25136,6 +25451,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "KLP.KXMLB_25_TOR/USD"
+    }
+  },
+  {
+    "id": "0xe89181f85868042f2da8358ebac02e1223cb0db2580d42db123d7ba1319ecbd3",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "URH6",
+      "description": "URANIUM 30 MARCH 2026 / US DOLLAR",
+      "display_symbol": "URH6/USD",
+      "generic_symbol": "URH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0402/0000-1700,0403/C,0525/0000-1430&1800-2400",
+      "symbol": "Commodities.URH6/USD"
     }
   },
   {
@@ -26693,6 +27021,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0215/C,0216/2000-2400,0402/0000-0400,0403/C",
       "symbol": "Equity.US.PURR/USD.ON"
+    }
+  },
+  {
+    "id": "0xe0a315d0fadbfcf706515ebcedcd506aeb00139af35cd319825ca8df05e19c1d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMDS",
+      "country": "GB",
+      "description": "SMITH DS / BRITISH POUND",
+      "display_symbol": "SMDS/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.SMDS/GBP"
     }
   },
   {
@@ -30404,6 +30746,19 @@
     }
   },
   {
+    "id": "0x6a6dddec2580c6a0f9237350aaf832957c416ac35bc551dea196f9de7c0aef64",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "RSH6",
+      "description": "RAW SUGAR 27 FEBRUARY 2026 / US DOLLAR",
+      "display_symbol": "RSH6/USD",
+      "generic_symbol": "RSH6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.RSH6/USD"
+    }
+  },
+  {
     "id": "0x0cb5822ffa7443a58afb6f9d483a9c1a9a1f89737b4b851523ab2bf86d049755",
     "attributes": {
       "asset_type": "Equity",
@@ -30993,6 +31348,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.F/USD"
+    }
+  },
+  {
+    "id": "0xfafacefa9dbab943d0bcbfb14bbdb6d37657220ff756b1328edfb6c4aef80c8a",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "CON6",
+      "description": "CORN 14 JULY 2026 / US DOLLAR",
+      "display_symbol": "CON6/USD",
+      "generic_symbol": "CON6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.CON6/USD"
     }
   },
   {
@@ -32043,33 +32411,6 @@
     }
   },
   {
-    "id": "0x34f6ef70940cb9b6a37e030689612bf454f59f4a2fc5d3e03bdf2b330a088107",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SPY",
-      "country": "US",
-      "description": "SPY / US DOLLAR - PRE MARKET HOURS",
-      "display_symbol": "SPY/USD PRE MARKET",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.SPY/USD.PRE"
-    }
-  },
-  {
-    "id": "0xee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "THETA",
-      "description": "THETA NETWORK / US DOLLAR",
-      "display_symbol": "THETA/USD",
-      "generic_symbol": "THETAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.THETA/USD"
-    }
-  },
-  {
     "id": "0x4406726402cea1fe47506298f4c263f4ba7def97ad48e3f29b468e7b27027f61",
     "attributes": {
       "asset_type": "Equity",
@@ -32111,23 +32452,6 @@
     }
   },
   {
-    "id": "0x19182efb2c0ed89266ee1db3a1e8d3e46c9af1542232ed168e88bcb38db3b64f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SYF",
-      "cms_symbol": "SYF",
-      "country": "US",
-      "cqs_symbol": "SYF",
-      "description": "SYNCHRONY FINANCIAL / US DOLLAR",
-      "display_symbol": "SYF/USD",
-      "nasdaq_symbol": "SYF",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.SYF/USD"
-    }
-  },
-  {
     "id": "0x10948bcc05eb7ca7f9254f5ac8f2b7171edfc3868b4fd6f0b330255f26d58920",
     "attributes": {
       "asset_type": "Crypto",
@@ -32141,18 +32465,18 @@
     }
   },
   {
-    "id": "0x8f34213f987d9adb26c8a2fdbb6e10912d205235155e2183ce49de494e84935a",
+    "id": "0x73560d1ee6daf7f322314d58dd8d0eed720fffcab390c1c1d54b5088d92497a2",
     "attributes": {
       "asset_type": "Equity",
-      "base": "HYDB",
+      "base": "EWJ",
       "country": "US",
-      "cqs_symbol": "HYDB",
-      "description": "ISHARES HIGH YIELD SYSTEMATIC BOND ETF / US DOLLAR",
-      "display_symbol": "HYDB/USD",
+      "description": "ISHARES MSCI JAPAN ETF / US DOLLAR",
+      "display_symbol": "EWJ/USD",
+      "generic_symbol": "EWJ",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.HYDB/USD"
+      "symbol": "Equity.US.EWJ/USD"
     }
   },
   {
@@ -32170,21 +32494,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.GFS/USD"
-    }
-  },
-  {
-    "id": "0x73560d1ee6daf7f322314d58dd8d0eed720fffcab390c1c1d54b5088d92497a2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "EWJ",
-      "country": "US",
-      "description": "ISHARES MSCI JAPAN ETF / US DOLLAR",
-      "display_symbol": "EWJ/USD",
-      "generic_symbol": "EWJ",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.EWJ/USD"
     }
   },
   {
@@ -32218,23 +32527,6 @@
     }
   },
   {
-    "id": "0x113967e03bb7a347e3669bcb49cf0c6cd27ddc38439c9f009dec0bf9f0edb137",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "OMC",
-      "cms_symbol": "OMC",
-      "country": "US",
-      "cqs_symbol": "OMC",
-      "description": "OMNICOM GROUP INC / US DOLLAR",
-      "display_symbol": "OMC/USD",
-      "nasdaq_symbol": "OMC",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.OMC/USD"
-    }
-  },
-  {
     "id": "0x04d503017a3c604e90c29defcad264f907cfefe0212ec50dca82da8ac3cdb184",
     "attributes": {
       "asset_type": "Equity",
@@ -32246,20 +32538,6 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
       "symbol": "Equity.JP.2802/JPY"
-    }
-  },
-  {
-    "id": "0x8c242b1092457afd82c7426ef7b832ebd37406f4c52f49abdf3b36611b1f3dbc",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6723",
-      "country": "JP",
-      "description": "RENESAS ELECTRONICS CORP / JAPANESE YEN",
-      "display_symbol": "6723/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.6723/JPY"
     }
   },
   {
@@ -32277,6 +32555,123 @@
     }
   },
   {
+    "id": "0x34f6ef70940cb9b6a37e030689612bf454f59f4a2fc5d3e03bdf2b330a088107",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPY",
+      "country": "US",
+      "description": "SPY / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "SPY/USD PRE MARKET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.SPY/USD.PRE"
+    }
+  },
+  {
+    "id": "0x9a10fcdb3a9f0f210effa27df802e385b370275eb96b02951c46f62b0e10776a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "BMTON",
+      "contract_id": "ton: EQCSxGZPHqa3TtnODgMan8CEM0jf6HpY-uon_NMeFgjKqkEY",
+      "description": "BEMO STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "BMTON/TON",
+      "generic_symbol": "BMTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BMTON/TON.RR"
+    }
+  },
+  {
+    "id": "0xee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "THETA",
+      "description": "THETA NETWORK / US DOLLAR",
+      "display_symbol": "THETA/USD",
+      "generic_symbol": "THETAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.THETA/USD"
+    }
+  },
+  {
+    "id": "0x422714ce5c05f1b9592916c5d996acb2dd00d8128c6e3a0655ddba51a81e6ac4",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "COH6",
+      "description": "CORN 13 MARCH 2026 / US DOLLAR",
+      "display_symbol": "COH6/USD",
+      "generic_symbol": "COH6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.COH6/USD"
+    }
+  },
+  {
+    "id": "0x19182efb2c0ed89266ee1db3a1e8d3e46c9af1542232ed168e88bcb38db3b64f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SYF",
+      "cms_symbol": "SYF",
+      "country": "US",
+      "cqs_symbol": "SYF",
+      "description": "SYNCHRONY FINANCIAL / US DOLLAR",
+      "display_symbol": "SYF/USD",
+      "nasdaq_symbol": "SYF",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.SYF/USD"
+    }
+  },
+  {
+    "id": "0x8f34213f987d9adb26c8a2fdbb6e10912d205235155e2183ce49de494e84935a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HYDB",
+      "country": "US",
+      "cqs_symbol": "HYDB",
+      "description": "ISHARES HIGH YIELD SYSTEMATIC BOND ETF / US DOLLAR",
+      "display_symbol": "HYDB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.HYDB/USD"
+    }
+  },
+  {
+    "id": "0x113967e03bb7a347e3669bcb49cf0c6cd27ddc38439c9f009dec0bf9f0edb137",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OMC",
+      "cms_symbol": "OMC",
+      "country": "US",
+      "cqs_symbol": "OMC",
+      "description": "OMNICOM GROUP INC / US DOLLAR",
+      "display_symbol": "OMC/USD",
+      "nasdaq_symbol": "OMC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.OMC/USD"
+    }
+  },
+  {
+    "id": "0x8c242b1092457afd82c7426ef7b832ebd37406f4c52f49abdf3b36611b1f3dbc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6723",
+      "country": "JP",
+      "description": "RENESAS ELECTRONICS CORP / JAPANESE YEN",
+      "display_symbol": "6723/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.6723/JPY"
+    }
+  },
+  {
     "id": "0x68cb4a22c5a4187efbe816033df2a6cc3b0e67af215fc0dd35b2b573646621b4",
     "attributes": {
       "asset_type": "Equity",
@@ -32287,6 +32682,21 @@
       "quote_currency": "HKD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Equity.HK.HKHZ5/HKD"
+    }
+  },
+  {
+    "id": "0x7be2b3f9f9d02b1ffcf61fc26ad5cc6aff4dd02044f9abc22ee57f37b3b5d2e5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EWY",
+      "country": "US",
+      "cqs_symbol": "EWY",
+      "description": "ISHARES MSCI SOUTH KOREA ETF / US DOLLAR",
+      "display_symbol": "EWY/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.EWY/USD"
     }
   },
   {
@@ -32313,35 +32723,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BODEN/USD"
-    }
-  },
-  {
-    "id": "0x7be2b3f9f9d02b1ffcf61fc26ad5cc6aff4dd02044f9abc22ee57f37b3b5d2e5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "EWY",
-      "country": "US",
-      "cqs_symbol": "EWY",
-      "description": "ISHARES MSCI SOUTH KOREA ETF / US DOLLAR",
-      "display_symbol": "EWY/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.EWY/USD"
-    }
-  },
-  {
-    "id": "0x9a10fcdb3a9f0f210effa27df802e385b370275eb96b02951c46f62b0e10776a",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "BMTON",
-      "contract_id": "ton: EQCSxGZPHqa3TtnODgMan8CEM0jf6HpY-uon_NMeFgjKqkEY",
-      "description": "BEMO STAKED TON / TON REDEMPTION RATE",
-      "display_symbol": "BMTON/TON",
-      "generic_symbol": "BMTONTON",
-      "quote_currency": "TON",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BMTON/TON.RR"
     }
   },
   {
@@ -33058,6 +33439,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0215/C,0216/2000-2400,0402/0000-0400,0403/C",
       "symbol": "Equity.US.SHLD/USD.ON"
+    }
+  },
+  {
+    "id": "0xcbbe4de47ffd7681b33db9ebdf22eeb899046cbe566be06e875bf088324787ce",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGK6",
+      "description": "HH NATURAL GAS 28 APRIL 2026 / US DOLLAR",
+      "display_symbol": "NGK6/USD",
+      "generic_symbol": "NGK6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGK6/USD"
     }
   },
   {
@@ -33997,6 +34391,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SEDA/USD"
+    }
+  },
+  {
+    "id": "0x1c597df8d6db7b35d20eb6ca5430e462425eddfe84ebc63530118d7389a43318",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGN6",
+      "description": "HH NATURAL GAS 26 JUNE 2026 / US DOLLAR",
+      "display_symbol": "NGN6/USD",
+      "generic_symbol": "NGN6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGN6/USD"
     }
   },
   {
@@ -39429,6 +39836,19 @@
     }
   },
   {
+    "id": "0x59cc2c539fd36b03c6f5329590f8fe42125106861e7a7f45c26761e88fe88318",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGJ6",
+      "description": "HH NATURAL GAS 27 MARCH 2026 / US DOLLAR",
+      "display_symbol": "NGJ6/USD",
+      "generic_symbol": "NGJ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGJ6/USD"
+    }
+  },
+  {
     "id": "0xa521273e173ca6170ebe2cb1800eadcf12ad44680af61e6b6d45d87d8ccea4c4",
     "attributes": {
       "asset_type": "Equity",
@@ -40997,6 +41417,19 @@
     }
   },
   {
+    "id": "0x59cf9297864b2855ecbd005f43329e62d60ca58d28ad6e02f8453a2112f1e99b",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "ALJ6",
+      "description": "ALUMINIUM 28 APRIL 2026 / US DOLLAR",
+      "display_symbol": "ALJ6/USD",
+      "generic_symbol": "ALJ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.ALJ6/USD"
+    }
+  },
+  {
     "id": "0x835729056ca01908b62d9e5a2bd1c83cd7aa3cc7047af2db09d6fca3fa8b65bb",
     "attributes": {
       "asset_type": "Equity",
@@ -41037,6 +41470,19 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
       "symbol": "Equity.DE.DHL/EUR"
+    }
+  },
+  {
+    "id": "0x3ea3adf4dfa7eed79e357c9bdf8a15c6d4dc8fb5454cf71110c73390fb230436",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGQ6",
+      "description": "HH NATURAL GAS 29 JULY 2026 / US DOLLAR",
+      "display_symbol": "NGQ6/USD",
+      "generic_symbol": "NGQ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGQ6/USD"
     }
   },
   {
@@ -41400,6 +41846,20 @@
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1231/0000-1700",
       "symbol": "FX.USD/MXN",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x24b89eaca342e7caca8c6d59ff754cfcd82af34ca852aec9a7993ee034c5b91c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "3188-HK",
+      "country": "HK",
+      "description": "CHINAAMC CSI 300 INDEX ETF / HONG KONG DOLLAR",
+      "display_symbol": "HK.3188-HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C",
+      "symbol": "Equity.HK.3188-HK/HKD"
     }
   },
   {
