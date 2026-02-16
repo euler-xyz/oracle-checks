@@ -427,7 +427,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "BRL",
       "baseAssetClic": "BRL_FX",
       "baseAssetEntityId": "forex-BRL",
@@ -785,7 +785,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "ZAR",
       "baseAssetClic": "ZAR_FX",
       "baseAssetEntityId": "forex-ZAR",
@@ -872,7 +872,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "SGD",
       "baseAssetClic": "SGD_FX",
       "baseAssetEntityId": "forex-SGD",
@@ -1406,7 +1406,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "NGN",
       "baseAssetClic": "NGN_FX",
       "baseAssetEntityId": "forex-NGN",
@@ -1582,7 +1582,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "PHP",
       "baseAssetClic": "PHP_FX",
       "baseAssetEntityId": "forex-PHP",
@@ -1757,7 +1757,7 @@
       "attributeType": "cex_price",
       "baseAsset": "WMTx",
       "baseAssetClic": "WMTx_CR",
-      "baseAssetEntityId": "crypto-WMTx",
+      "baseAssetEntityId": "crypto-WMTX",
       "blockchainName": "Base",
       "clicProductName": "WMTx/USD-RefPrice-DF-Base-001",
       "deliveryChannelCode": "DF",
@@ -1872,7 +1872,7 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
       "baseAssetEntityId": "commodity-XAU",
@@ -1915,7 +1915,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX",
       "baseAssetEntityId": "forex-GBP",
@@ -2318,7 +2318,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
       "baseAssetEntityId": "forex-EUR",
@@ -2709,7 +2709,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "IDR",
       "baseAssetClic": "IDR_FX",
       "baseAssetEntityId": "forex-IDR",
@@ -2753,7 +2753,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "TRY",
       "baseAssetClic": "TRY_FX",
       "baseAssetEntityId": "forex-TRY",
@@ -3146,7 +3146,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX",
       "baseAssetEntityId": "forex-AUD",
@@ -3907,7 +3907,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "CAD",
       "baseAssetClic": "CAD_FX",
       "baseAssetEntityId": "forex-CAD",
@@ -5186,7 +5186,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
       "baseAssetEntityId": "forex-CHF",
@@ -5817,8 +5817,10 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDAI",
       "baseAssetClic": "USDAI_CR",
+      "baseAssetEntityId": "crypto-USDAI",
       "blockchainName": "Base",
       "clicProductName": "USDAI/USD-RefPrice-DF-Base-001",
       "deliveryChannelCode": "DF",
@@ -5828,6 +5830,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -6152,7 +6155,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "cex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "EURC",
       "baseAssetClic": "EURC_CR",
       "baseAssetEntityId": "crypto-EURC",
@@ -6242,7 +6245,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "MXN",
       "baseAssetClic": "MXN_FX",
       "baseAssetEntityId": "forex-MXN",
@@ -6679,7 +6682,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "NZD",
       "baseAssetClic": "NZD_FX",
       "baseAssetEntityId": "forex-NZD",

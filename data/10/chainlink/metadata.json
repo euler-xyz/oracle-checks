@@ -159,8 +159,10 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "attributeType": "cex_price",
       "baseAsset": "ONE",
       "baseAssetClic": "ONE_CR",
+      "baseAssetEntityId": "crypto-ONE",
       "blockchainName": "Optimism",
       "clicProductName": "ONE/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
@@ -169,7 +171,8 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
@@ -1436,7 +1439,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "INR",
       "baseAssetClic": "INR_FX",
       "baseAssetEntityId": "forex-INR",
@@ -2867,7 +2870,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX",
       "baseAssetEntityId": "forex-AUD",
@@ -3299,7 +3302,7 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
       "baseAssetEntityId": "commodity-XAU",
@@ -4506,7 +4509,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
       "baseAssetEntityId": "forex-EUR",
@@ -5113,7 +5116,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "BRL",
       "baseAssetClic": "BRL_FX",
       "baseAssetEntityId": "forex-BRL",
@@ -5870,7 +5873,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
       "baseAssetEntityId": "forex-JPY",
@@ -6263,7 +6266,7 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
       "baseAssetEntityId": "commodity-XAG",

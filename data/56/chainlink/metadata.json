@@ -159,7 +159,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "JPY",
       "baseAssetClic": "JPY_FX",
       "baseAssetEntityId": "forex-JPY",
@@ -288,7 +288,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "INR",
       "baseAssetClic": "INR_FX",
       "baseAssetEntityId": "forex-INR",
@@ -673,7 +673,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "COIN",
       "baseAssetClic": "COIN_EQ",
       "baseAssetEntityId": "equity-COIN",
@@ -1412,7 +1412,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "NVDA",
       "baseAssetClic": "NVDA_EQ",
       "baseAssetEntityId": "equity-NVDA",
@@ -1500,7 +1500,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "dex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "USDE",
       "baseAssetClic": "USDE_CR",
       "baseAssetEntityId": "crypto-USDE",
@@ -1720,7 +1720,7 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_CO",
       "baseAssetEntityId": "commodity-XAG",
@@ -1852,7 +1852,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "TSLA",
       "baseAssetClic": "TSLA_EQ",
       "baseAssetEntityId": "equity-TSLA",
@@ -2105,7 +2105,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX",
       "baseAssetEntityId": "forex-EUR",
@@ -2149,7 +2149,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "PFE",
       "baseAssetClic": "PFE_EQ",
       "baseAssetEntityId": "equity-PFE",
@@ -2669,7 +2669,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "MXN",
       "baseAssetClic": "MXN_FX",
       "baseAssetEntityId": "forex-MXN",
@@ -2800,7 +2800,7 @@
     "docs": {
       "assetClass": "ETF",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "SPY",
       "baseAssetClic": "SPY_EQ",
       "baseAssetEntityId": "equity-SPY",
@@ -3524,7 +3524,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "PHP",
       "baseAssetClic": "PHP_FX",
       "baseAssetEntityId": "forex-PHP",
@@ -3986,7 +3986,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX",
       "baseAssetEntityId": "forex-GBP",
@@ -4250,7 +4250,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "dex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
       "baseAssetEntityId": "crypto-DAI",
@@ -4295,7 +4295,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "THB",
       "baseAssetClic": "THB_FX",
       "baseAssetEntityId": "forex-THB",
@@ -4594,7 +4594,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "MS",
       "baseAssetClic": "MS_EQ",
       "baseAssetEntityId": "equity-MS",
@@ -4857,7 +4857,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX",
       "baseAssetEntityId": "forex-AUD",
@@ -4945,7 +4945,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "dex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "TUSD",
       "baseAssetClic": "TUSD_CR",
       "baseAssetEntityId": "crypto-TUSD",
@@ -5293,7 +5293,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "CHF",
       "baseAssetClic": "CHF_FX",
       "baseAssetEntityId": "forex-CHF",
@@ -5475,7 +5475,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "ZAR",
       "baseAssetClic": "ZAR_FX",
       "baseAssetEntityId": "forex-ZAR",
@@ -5552,7 +5552,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "GME",
       "baseAssetClic": "GME_EQ",
       "baseAssetEntityId": "equity-GME",
@@ -5639,7 +5639,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "dex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "U",
       "baseAssetClic": "U_CR",
       "baseAssetEntityId": "crypto-U",
@@ -6253,7 +6253,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "JPM",
       "baseAssetClic": "JPM_EQ",
       "baseAssetEntityId": "equity-JPM",
@@ -6561,7 +6561,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "GOOGL",
       "baseAssetClic": "GOOGL_EQ",
       "baseAssetEntityId": "equity-GOOGL",
@@ -6890,7 +6890,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "AMZN",
       "baseAssetClic": "AMZN_EQ",
       "baseAssetEntityId": "equity-AMZN",
@@ -7023,7 +7023,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "AAPL",
       "baseAssetClic": "AAPL_EQ",
       "baseAssetEntityId": "equity-AAPL",
@@ -7374,7 +7374,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "MSFT",
       "baseAssetClic": "MSFT_EQ",
       "baseAssetEntityId": "equity-MSFT",
@@ -7508,7 +7508,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "META",
       "baseAssetClic": "META_EQ",
       "baseAssetEntityId": "equity-META",
@@ -7637,7 +7637,7 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Stablecoin",
-      "attributeType": "dex_price",
+      "attributeType": "dex_state_price",
       "baseAsset": "USD1",
       "baseAssetClic": "USD1_CR",
       "baseAssetEntityId": "crypto-USD1",
@@ -7729,7 +7729,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "NFLX",
       "baseAssetClic": "NFLX_EQ",
       "baseAssetEntityId": "equity-NFLX",
@@ -7772,7 +7772,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "SGD",
       "baseAssetClic": "SGD_FX",
       "baseAssetEntityId": "forex-SGD",
@@ -7996,7 +7996,7 @@
     "docs": {
       "assetClass": "Equity",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "MRNA",
       "baseAssetClic": "MRNA_EQ",
       "baseAssetEntityId": "equity-MRNA",
@@ -8167,7 +8167,7 @@
     "docs": {
       "assetClass": "ETF",
       "assetSubClass": "US",
-      "attributeType": "rwa_price",
+      "attributeType": "equity_price",
       "baseAsset": "QQQ",
       "baseAssetClic": "QQQ_EQ",
       "baseAssetEntityId": "equity-QQQ",
@@ -8300,7 +8300,7 @@
     "docs": {
       "assetClass": "Commodity",
       "assetSubClass": "Spot",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_CO",
       "baseAssetEntityId": "commodity-XAU",
@@ -8380,7 +8380,7 @@
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
-      "attributeType": "rwa_price",
+      "attributeType": "forex_price",
       "baseAsset": "BRL",
       "baseAssetClic": "BRL_FX",
       "baseAssetEntityId": "forex-BRL",
