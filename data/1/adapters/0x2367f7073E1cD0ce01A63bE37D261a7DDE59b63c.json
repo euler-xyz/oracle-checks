@@ -1,10 +1,10 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x81D21c8f60dfD0f0c91013DCEa964E731f78665e",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x2367f7073E1cD0ce01A63bE37D261a7DDE59b63c",
   "chainId": 1,
-  "base": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-  "feed": "0x14d04Fff8D21bd62987a5cE9ce543d2F1edF5D3E",
+  "base": "0x2255718832bC9fD3bE1CaF75084F4803DA14FF01",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xA569E68B5D110F2A255482c2997DFDBe1b2ab912",
   "maxStaleness": "90000",
   "checks": [
     {
@@ -34,25 +34,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x853d955aCEf822Db058eb8505911ED77F175b99e is FRAX (Frax) with 18 decimals.",
+      "message": "Asset 0x2255718832bC9fD3bE1CaF75084F4803DA14FF01 is VBILL (VanEck Treasury Fund) with 6 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
-  "methodology": "Unknown",
+  "label": "VBILL_ETHEREUM_FUNDAMENTAL/USD (0.01%, 86400s)",
+  "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "RedStone",
   "whitelisted": false
 }
