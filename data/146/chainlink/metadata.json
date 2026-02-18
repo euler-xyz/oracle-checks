@@ -1859,14 +1859,14 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "calculated",
       "baseAssetEntityId": "crypto-STS",
-      "hidden": true,
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 4th, 2026"
     },
     "decimals": 18
   }

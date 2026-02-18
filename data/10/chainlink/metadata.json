@@ -5200,14 +5200,14 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-HAI",
-      "hidden": true,
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 4th, 2026"
     },
     "decimals": 8
   },
@@ -5448,7 +5448,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Maverick Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5465,7 +5465,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 4th, 2026"
     },
     "decimals": 8
   },
@@ -6523,7 +6524,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kyber Network Crystal",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6540,7 +6541,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 4th, 2026"
     },
     "decimals": 8
   },
