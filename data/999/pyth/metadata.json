@@ -3562,6 +3562,20 @@
     }
   },
   {
+    "id": "0xa5783fe023390e62b8a95d625c717e0274f37588f0d0fd45e9335dc359a729cc",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "DSUSDC",
+      "contract_id": "sui: 0x86cd17116a5c1bc95c25296a901eb5ea91531cb8ba59d01f64ee2018a14d6fa5",
+      "description": "DEEPBOOK USD COIN / USD COIN REDEMPTION RATE",
+      "display_symbol": "DBUSDC/USDC",
+      "generic_symbol": "DBUSDCUSDC",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DBUSDC/USDC.RR"
+    }
+  },
+  {
     "id": "0xfd56608887f89e91fb00176e7b0eeb6eb1c048c9afc0d615709295c65e893d5d",
     "attributes": {
       "asset_type": "Equity",
@@ -5671,6 +5685,19 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
       "symbol": "FX.USD/BHD",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x5519b89cd7b80d074113aae5d6555ddd74469222e331d9edc182c68153cf27b1",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTIM6",
+      "description": "PYTH WTI 19 MAY 2026 / US DOLLAR",
+      "display_symbol": "WTIM6/USD",
+      "generic_symbol": "WTIM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0402/0000-1700,0403/C",
+      "symbol": "Commodities.WTIM6/USD"
     }
   },
   {
@@ -9066,6 +9093,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SYRUPUSDC/USD"
+    }
+  },
+  {
+    "id": "0x04cc691c76057c7756eb6e479e8c4754e0c3ae39ba079ff58e5e7ab77e303c91",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EMM6",
+      "description": "EM M6 18 JUNE 2026 / US DOLLAR",
+      "display_symbol": "EMM6/USD",
+      "generic_symbol": "EMM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.EMM6/USD"
     }
   },
   {
@@ -12965,6 +13005,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.XBI/USD"
+    }
+  },
+  {
+    "id": "0x6e22a5245cb127b570610baad354dc9969214b81fa41510538f6cf47ce403356",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DMM6",
+      "description": "DM M6 18 JUNE 2026 / US DOLLAR",
+      "display_symbol": "DMM6/USD",
+      "generic_symbol": "DMM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.DMM6/USD"
     }
   },
   {
@@ -28779,6 +28832,19 @@
     }
   },
   {
+    "id": "0x56a457b9a6e6c8d5805a9beebe0f34ee78fc0f779c07cc1e996f8a05f4c9c849",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NMM6",
+      "description": "NM M6 18 JUNE 2026 / US DOLLAR",
+      "display_symbol": "NMM6/USD",
+      "generic_symbol": "NMM6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.NMM6/USD"
+    }
+  },
+  {
     "id": "0xdc85ae0ea74bb56972b162f1c9c48727015b774c25fd0e3c150cc18ce28bf2e5",
     "attributes": {
       "asset_type": "Equity",
@@ -39730,34 +39796,6 @@
     }
   },
   {
-    "id": "0xe10593860e9ee1c204e4f9569e877502f098dd1a4d84cc5bad06f23f77dcbfe2",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDXL",
-      "description": "LAST US DOLLAR / US DOLLAR",
-      "display_symbol": "USDXL/USD",
-      "generic_symbol": "USDXLUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USDXL/USD"
-    }
-  },
-  {
-    "id": "0x75d3938bd00764be2b2f007939dd9302c45ec129823ff882f34d1b7854c56ec7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "NVDW",
-      "country": "US",
-      "cqs_symbol": "NVDW",
-      "description": "ROUNDHILL NVDA WEEKLYPAY ETF / US DOLLAR",
-      "display_symbol": "NVDW/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.NVDW/USD"
-    }
-  },
-  {
     "id": "0x0b26c5677fdfadf315a1e306ea49790a797886816d0f8a2c336fc7145cfaf308",
     "attributes": {
       "asset_type": "Equity",
@@ -39802,99 +39840,6 @@
     }
   },
   {
-    "id": "0x3d35ab79cabfe67134efe88b5526ff9340121f4641d3f33728fb6801afdb07f2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "MTD",
-      "cms_symbol": "MTD",
-      "country": "US",
-      "cqs_symbol": "MTD",
-      "description": "METTLER-TOLEDO INTERNATIONAL INC / US DOLLAR",
-      "display_symbol": "MTD/USD",
-      "nasdaq_symbol": "MTD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.MTD/USD"
-    }
-  },
-  {
-    "id": "0x14226b55af532f2fdea5928cff806c6073f67da5b9333672f709e7cf1e5ee7c6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "GRMN",
-      "cms_symbol": "GRMN",
-      "country": "US",
-      "cqs_symbol": "GRMN",
-      "description": "GARMIN LTD / US DOLLAR",
-      "display_symbol": "GRMN/USD",
-      "nasdaq_symbol": "GRMN",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.GRMN/USD"
-    }
-  },
-  {
-    "id": "0x59cc2c539fd36b03c6f5329590f8fe42125106861e7a7f45c26761e88fe88318",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "NGDJ6",
-      "description": "HH NATURAL GAS 27 MARCH 2026 / US DOLLAR",
-      "display_symbol": "NGDJ6/USD",
-      "generic_symbol": "NGDJ6",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
-      "symbol": "Commodities.NGDJ6/USD"
-    }
-  },
-  {
-    "id": "0xa521273e173ca6170ebe2cb1800eadcf12ad44680af61e6b6d45d87d8ccea4c4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "FLOT",
-      "country": "US",
-      "cqs_symbol": "FLOT",
-      "description": "ISHARES $ FLOATING RATE BD UCITS ETF USD DIST / US DOLLAR",
-      "display_symbol": "FLOT/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.FLOT/USD"
-    }
-  },
-  {
-    "id": "0xa637b76c2fc7f928fab462a999fc65ecd8493142d8d6e1c67b96a352d0d20b08",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AZN",
-      "country": "GB",
-      "description": "ASTRAZENECA PLC / BRITISH POUND",
-      "display_symbol": "AZN/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.AZN/GBP"
-    }
-  },
-  {
-    "id": "0x806724043f1c85300d24b61da4e03ea9840c059d2cb8ea248f005e6314d27052",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CZR",
-      "cms_symbol": "CZR",
-      "country": "US",
-      "cqs_symbol": "CZR",
-      "description": "CAESARS ENTERTAINMENT INC / US DOLLAR",
-      "display_symbol": "CZR/USD",
-      "nasdaq_symbol": "CZR",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.CZR/USD"
-    }
-  },
-  {
     "id": "0x306740344da3af9d411f889eb68f04b25eb39aad8e3771b9c2947b9ff993e2e5",
     "attributes": {
       "asset_type": "Equity",
@@ -39922,20 +39867,6 @@
     }
   },
   {
-    "id": "0x04683feffb5f2d8ac5e274062075461094dd8bf504cffc80d19377ff043c68f6",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "EUR",
-      "description": "EURO / KAZAKHSTANI TENGE",
-      "display_symbol": "EUR/KZT",
-      "generic_symbol": "EURKZT",
-      "quote_currency": "KZT",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
-      "symbol": "FX.EUR/KZT",
-      "tenor": "Spot"
-    }
-  },
-  {
     "id": "0xd21c420077ba3c132b9f9f5615786db26cf5dcd334fab5475d600416b194eda2",
     "attributes": {
       "asset_type": "Equity",
@@ -39947,33 +39878,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
       "symbol": "Equity.GB.RIO/GBP"
-    }
-  },
-  {
-    "id": "0x44465e17d2e9d390e70c999d5a11fda4f092847fcd2e3e5aa089d96c98a30e67",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "XAUT",
-      "description": "TETHER GOLD / US DOLLAR",
-      "display_symbol": "XAUT/USD",
-      "generic_symbol": "XAUTUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.XAUT/USD"
-    }
-  },
-  {
-    "id": "0xa335efad7ebba8688fda455fb7245354104d1fcbe939c5b78234c8a30b81b234",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HEN3",
-      "country": "DE",
-      "description": "HENKEL AG+CO KGAA VZO / EURO",
-      "display_symbol": "HEN3/EUR",
-      "publish_interval": "5",
-      "quote_currency": "EUR",
-      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
-      "symbol": "Equity.DE.HEN3/EUR"
     }
   },
   {
@@ -39989,6 +39893,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.JCPB/USD"
+    }
+  },
+  {
+    "id": "0xa335efad7ebba8688fda455fb7245354104d1fcbe939c5b78234c8a30b81b234",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HEN3",
+      "country": "DE",
+      "description": "HENKEL AG+CO KGAA VZO / EURO",
+      "display_symbol": "HEN3/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
+      "symbol": "Equity.DE.HEN3/EUR"
     }
   },
   {
@@ -40051,6 +39969,19 @@
     }
   },
   {
+    "id": "0x59cc2c539fd36b03c6f5329590f8fe42125106861e7a7f45c26761e88fe88318",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "NGDJ6",
+      "description": "HH NATURAL GAS 27 MARCH 2026 / US DOLLAR",
+      "display_symbol": "NGDJ6/USD",
+      "generic_symbol": "NGDJ6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.NGDJ6/USD"
+    }
+  },
+  {
     "id": "0x99f0d376ff77efbabfa09202bf6f19a8716a1c43657b32c921e1bbd852b629c3",
     "attributes": {
       "asset_type": "Equity",
@@ -40076,6 +40007,141 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.COIN/USD.PRE"
+    }
+  },
+  {
+    "id": "0x75d3938bd00764be2b2f007939dd9302c45ec129823ff882f34d1b7854c56ec7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NVDW",
+      "country": "US",
+      "cqs_symbol": "NVDW",
+      "description": "ROUNDHILL NVDA WEEKLYPAY ETF / US DOLLAR",
+      "display_symbol": "NVDW/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.NVDW/USD"
+    }
+  },
+  {
+    "id": "0xe10593860e9ee1c204e4f9569e877502f098dd1a4d84cc5bad06f23f77dcbfe2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDXL",
+      "description": "LAST US DOLLAR / US DOLLAR",
+      "display_symbol": "USDXL/USD",
+      "generic_symbol": "USDXLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDXL/USD"
+    }
+  },
+  {
+    "id": "0x3d35ab79cabfe67134efe88b5526ff9340121f4641d3f33728fb6801afdb07f2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MTD",
+      "cms_symbol": "MTD",
+      "country": "US",
+      "cqs_symbol": "MTD",
+      "description": "METTLER-TOLEDO INTERNATIONAL INC / US DOLLAR",
+      "display_symbol": "MTD/USD",
+      "nasdaq_symbol": "MTD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.MTD/USD"
+    }
+  },
+  {
+    "id": "0x14226b55af532f2fdea5928cff806c6073f67da5b9333672f709e7cf1e5ee7c6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GRMN",
+      "cms_symbol": "GRMN",
+      "country": "US",
+      "cqs_symbol": "GRMN",
+      "description": "GARMIN LTD / US DOLLAR",
+      "display_symbol": "GRMN/USD",
+      "nasdaq_symbol": "GRMN",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.GRMN/USD"
+    }
+  },
+  {
+    "id": "0xa521273e173ca6170ebe2cb1800eadcf12ad44680af61e6b6d45d87d8ccea4c4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FLOT",
+      "country": "US",
+      "cqs_symbol": "FLOT",
+      "description": "ISHARES $ FLOATING RATE BD UCITS ETF USD DIST / US DOLLAR",
+      "display_symbol": "FLOT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.FLOT/USD"
+    }
+  },
+  {
+    "id": "0xa637b76c2fc7f928fab462a999fc65ecd8493142d8d6e1c67b96a352d0d20b08",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AZN",
+      "country": "GB",
+      "description": "ASTRAZENECA PLC / BRITISH POUND",
+      "display_symbol": "AZN/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.AZN/GBP"
+    }
+  },
+  {
+    "id": "0x806724043f1c85300d24b61da4e03ea9840c059d2cb8ea248f005e6314d27052",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CZR",
+      "cms_symbol": "CZR",
+      "country": "US",
+      "cqs_symbol": "CZR",
+      "description": "CAESARS ENTERTAINMENT INC / US DOLLAR",
+      "display_symbol": "CZR/USD",
+      "nasdaq_symbol": "CZR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.CZR/USD"
+    }
+  },
+  {
+    "id": "0x04683feffb5f2d8ac5e274062075461094dd8bf504cffc80d19377ff043c68f6",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "EUR",
+      "description": "EURO / KAZAKHSTANI TENGE",
+      "display_symbol": "EUR/KZT",
+      "generic_symbol": "EURKZT",
+      "quote_currency": "KZT",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
+      "symbol": "FX.EUR/KZT",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x44465e17d2e9d390e70c999d5a11fda4f092847fcd2e3e5aa089d96c98a30e67",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "XAUT",
+      "description": "TETHER GOLD / US DOLLAR",
+      "display_symbol": "XAUT/USD",
+      "generic_symbol": "XAUTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XAUT/USD"
     }
   },
   {
