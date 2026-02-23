@@ -18543,6 +18543,105 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USX/USD-Streams-RedemptionRate-mainnet-production",
+    "pair": [
+      "USX",
+      "USD"
+    ],
+    "path": "usx-usd-streams-redemptionrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "USX / USD Exchange Rate",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "assetName": "USX / USD Exchange Rate",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "USX",
+      "baseAssetClic": "USX_CR",
+      "clicProductName": "USX/USD-Streams-RedemptionRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "high",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "feedId": "0x0007083d49820e260592dec2b5acf0c1c9b778bc78e9c7c7853a0767e4937364",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "10000000000",
     "name": "MEVBTC/BTC-Streams-ExchangeRate-mainnet-production",
     "pair": [
