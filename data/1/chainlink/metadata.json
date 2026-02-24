@@ -28,7 +28,10 @@
       "attributeType": "smartdata_nav",
       "baseAsset": "JTRSY",
       "blockchainName": "Ethereum",
-      "hidden": true,
+      "deliveryChannelCode": "DF",
+      "issuer": "Centrifuge / Anemoy",
+      "porAuditor": "Centrifuge",
+      "porSource": "Asset Manager",
       "productType": "NAVLink",
       "productTypeCode": "NAV"
     },
@@ -2758,6 +2761,35 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x45D48aa93275c2274E1006BfdCb6406eF96a509B",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "wtgxx-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "WTGXX NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wtgxx-nav-24h",
+    "proxyAddress": "0xD13cB763C43B5C058E7Ec40176962c5030F4EB49",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "smartdata_-_nav"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x48afBeDF849449b7B9eea101EdAbdc81417b04c8",
     "contractType": "",
     "contractVersion": 6,
@@ -4393,6 +4425,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x6C659766386874a46dacd7a9aEf04818FD3b13F0",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "zec-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ZEC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "zec-usd",
+    "proxyAddress": "0x3f929667bdf783b99274F10465a89d6aF772736E",
+    "threshold": 2,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-ZEC",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6Cc5173Ffd8d674C64f2DC7237730Ff021829865",
     "contractType": "",
     "contractVersion": 6,
@@ -5723,6 +5787,35 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x89fB24e1c41c74c712500B86399751b1DA463697",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "crdyx-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "CRDYX NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "crdyx-nav",
+    "proxyAddress": "0x0b9bD3eAac381A1a6731ff6598a50638E5CFFD25",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "smartdata_-_nav"
     },
     "decimals": 8
   },
@@ -10296,7 +10389,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Ren",
-    "feedCategory": "deprecating",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -10313,8 +10406,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
-      "quoteAssetEntityId": "crypto-ETH",
-      "shutdownDate": "January 27th, 2026"
+      "quoteAssetEntityId": "crypto-ETH"
     },
     "decimals": 18
   },
@@ -10391,7 +10483,10 @@
       "attributeType": "smartdata_nav",
       "baseAsset": "JAAA",
       "blockchainName": "Ethereum",
-      "hidden": true,
+      "deliveryChannelCode": "DF",
+      "issuer": "Centrifuge / Anemoy",
+      "porAuditor": "Centrifuge",
+      "porSource": "Asset Manager",
       "productType": "NAVLink",
       "productTypeCode": "NAV"
     },

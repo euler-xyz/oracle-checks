@@ -3455,6 +3455,35 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x66815140e049C986Ca00fae75591958c4c322a5e",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xaum-reference-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAUM Reference Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xaum-reference-rate",
+    "proxyAddress": "0xfa54C1c5F62ea3a5653a0b1b7148E26008eA1501",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "smartdata_-_nav"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x67AF9BF189380E91bF59a4EA0c7cCd9B710d6786",
     "contractType": "",
     "contractVersion": 6,
@@ -6513,7 +6542,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Radiant Capital",
-    "feedCategory": "deprecating",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6530,8 +6559,7 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "January 27th, 2026"
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
   },
