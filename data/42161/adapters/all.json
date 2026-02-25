@@ -3452,6 +3452,238 @@
     "whitelisted": false
   },
   {
+    "name": "PendleUniversalOracle",
+    "address": "0xbdEF9552bdd5C1f5FDC578d99724eeFa133cF613",
+    "chainId": 42161,
+    "base": "0x07bc5bD6cE9A17f0e7aa91E0Adbc9070dcB1d1dE",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0x299674F6Da858f903D77486FBA50Bc9F2e0Db24D",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x07bc5bD6cE9A17f0e7aa91E0Adbc9070dcB1d1dE is PT-sUSDai-18JUN2026 (PT Staked USDai 18JUN2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x299674F6Da858f903D77486FBA50Bc9F2e0Db24D is PLP-sUSDai-18JUN2026 (PLP Staked USDai 18JUN2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0xe6eB9F33dF6F1D335D454d740f40E12D8972dBEF",
+    "chainId": 42161,
+    "base": "0xB459dB106f645d698E74027eeF6019A26a0675Cc",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0xcbF629C8d396b1261F81F55175Afa010E94787d8",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB459dB106f645d698E74027eeF6019A26a0675Cc is PT-sUSDai-15OCT2026 (PT Staked USDai 15OCT2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbF629C8d396b1261F81F55175Afa010E94787d8 is PLP-sUSDai-15OCT2026 (PLP Staked USDai 15OCT2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0xBB93649C600aD4F97F72A99c1776C6Be3632f7Fc",
+    "chainId": 42161,
+    "base": "0x1cdDE40e29dA213f42A7fA109CcADCA372d9Ee1B",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0x8A8A557b90eC79496a18a1f9C9DA8Bbd7DB86Fd3",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1cdDE40e29dA213f42A7fA109CcADCA372d9Ee1B is PT-USDai-18JUN2026 (PT USDai 18JUN2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8A8A557b90eC79496a18a1f9C9DA8Bbd7DB86Fd3 is PLP-USDai-18JUN2026 (PLP USDai 18JUN2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x709f4705C8AC6DFA54e73D0dC1c1A65b1Ae7c551",
+    "chainId": 42161,
+    "base": "0xC9d24aD0bB25F34098e226a8C5192Dea7bacccaE",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pendleMarket": "0xA8a0DEA40174CfC30fEA9e3A77f182aB33f46E25",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC9d24aD0bB25F34098e226a8C5192Dea7bacccaE is PT-USDai-15OCT2026 (PT USDai 15OCT2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA8a0DEA40174CfC30fEA9e3A77f182aB33f46E25 is PLP-USDai-15OCT2026 (PLP USDai 15OCT2026) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USDai",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
     "chainId": 42161,
