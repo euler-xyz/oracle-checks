@@ -3474,11 +3474,21 @@
     "proxyAddress": "0xfa54C1c5F62ea3a5653a0b1b7148E26008eA1501",
     "threshold": 0.1,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
+    "assetName": "XAUM Reference Rate",
+    "feedCategory": "custom",
     "feedType": "",
     "docs": {
-      "attributeType": "smartdata_-_nav"
+      "assetClass": "Tokenized Commodities",
+      "attributeType": "smartdata_-_nav",
+      "baseAsset": "XAUM",
+      "baseAssetEntityId": "tokenized commodoties-XAUM",
+      "blockchainName": "Binance",
+      "deliveryChannelCode": "DF",
+      "issuer": "Matrixdock",
+      "porAuditor": "Matrixdock",
+      "porSource": "Asset Issuer API",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
     },
     "decimals": 18
   },
