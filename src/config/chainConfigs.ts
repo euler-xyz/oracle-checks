@@ -272,6 +272,12 @@ const hyperEvmRedStoneFeeds: Record<
     heartbeat: 21600,
     threshold: 0.5,
   },
+  "0xD15862FC3D5407A03B696548b6902D6464A69b8c": {
+    provider: "RedStone",
+    description: "sUSDp_HYPEREVM_FUNDAMENTAL/USD",
+    heartbeat: 21600,
+    threshold: 0.5,
+  },
   // Additional RedStone feeds not in official manifest
   "0xE18aAD6733D1db21e19cb83B697082D3d4eE5170": {
     provider: "RedStone",
