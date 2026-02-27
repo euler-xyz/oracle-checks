@@ -2041,7 +2041,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "MAG7.ssi",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2058,7 +2058,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "February 23rd, 2026"
     },
     "decimals": 8
   },
@@ -3276,7 +3277,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "dogwifhat",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3292,7 +3293,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 12th, 2026"
     },
     "decimals": 8
   },
@@ -5948,14 +5950,14 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "dex_state_price",
       "baseAssetEntityId": "crypto-MOOBIFI",
-      "hidden": true,
       "marketHours": "Crypto",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "February 23rd, 2026"
     },
     "decimals": 8
   },
@@ -6109,7 +6111,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Official Melania Meme",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6126,7 +6128,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 12th, 2026"
     },
     "decimals": 8
   },
@@ -6195,7 +6198,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Solv Protocol SolvBTC",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6213,7 +6216,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "BTC",
       "quoteAssetClic": "BTC_CR",
-      "quoteAssetEntityId": "crypto-BTC"
+      "quoteAssetEntityId": "crypto-BTC",
+      "shutdownDate": "March 12th, 2026"
     },
     "decimals": 8
   },
@@ -6642,7 +6646,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Compounding OpenDollar",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6661,6 +6665,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 12th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },

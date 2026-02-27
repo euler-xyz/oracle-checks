@@ -1461,7 +1461,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Felix feUSD",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1480,6 +1480,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 12th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -1553,7 +1554,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Staked HYPE Shares",
-    "feedCategory": "new",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1571,7 +1572,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "March 12th, 2026"
     },
     "decimals": 8
   },
