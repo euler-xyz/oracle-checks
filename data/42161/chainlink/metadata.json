@@ -3336,6 +3336,204 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/ARS-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "ARS"
+    ],
+    "path": "usd-ars-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Argentine Peso - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Argentine Peso - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ARS-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "ARS",
+      "quoteAssetClic": "ARS_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00030d7ebdbf091e41ed603d406b146e983f05802efdb17e04b1806cf8382d44",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "EUR/USD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "EUR",
+      "USD"
+    ],
+    "path": "eur-usd-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Euro - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Euro - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX",
+      "clicProductName": "EUR/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00030e0f77839f2284de44a3dd960be48ac7c798cad5b7d79c4f5809ee624fe2",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "EURC/USD-Streams-DexPrice-mainnet-production",
     "pair": [
       "EURC",
@@ -5928,6 +6126,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/KRW-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "KRW"
+    ],
+    "path": "usd-krw-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Won - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Won - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/KRW-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x000331e83c5f48d14cf8fd5f28335ecda9c79a35c024238ad7bd4b7b4fcec839",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "CUSDO/USD-Streams-DexPrice-mainnet-production",
     "pair": [
       "CUSDO",
@@ -6805,6 +7102,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/CHF-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "CHF"
+    ],
+    "path": "usd-chf-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Swiss Franc - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Swiss Franc - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CHF-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "CHF",
+      "quoteAssetClic": "CHF_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00034640cf936e2c8c8fc07566afea6f24f7606b81c8c9f7850ef67098531dfc",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USDF/USD-Streams-DexPrice-mainnet-production",
     "pair": [
       "USDF",
@@ -7193,6 +7589,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/ZAR-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "ZAR"
+    ],
+    "path": "usd-zar-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Rand - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Rand - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ZAR-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "ZAR",
+      "quoteAssetClic": "ZAR_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00034d1251253fbe48103823243fc7ae6450179a50282a6cde7c888eb1e2d47f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "LBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "LBTC",
@@ -7421,6 +7916,105 @@
     },
     "decimals": 18,
     "feedId": "0x000355d06b40dff314c9a283f9fd647690f5ebdce666453af72e3fbf08fdce5e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/CAD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "CAD"
+    ],
+    "path": "usd-cad-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Canadian Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Canadian Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CAD-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "CAD",
+      "quoteAssetClic": "CAD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00035a74e9c547ea65f09501afa8c555936f2c868f860cfe93985aaf1cb6608e",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -7811,6 +8405,105 @@
     },
     "decimals": 18,
     "feedId": "0x00035f6b71a4acd6833f1e63a32d8150839888116ae48587bcb0c95cba207577",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/MXN-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "MXN"
+    ],
+    "path": "usd-mxn-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Mexican Peso - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Mexican Peso - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/MXN-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "MXN",
+      "quoteAssetClic": "MXN_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00036309532f22679d96835e7a96252fe1bcc9ab4e66cb3cdd9a498e107008f2",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -8459,6 +9152,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/SGD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "SGD"
+    ],
+    "path": "usd-sgd-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Singapore Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Singapore Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/SGD-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "SGD",
+      "quoteAssetClic": "SGD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00036d919b0a9a126ff62b41ae52362d2c92a5598db91295c7c3c9e550029b2a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "PI/USD-RefPrice-mainnet-production",
     "pair": [
       "PI",
@@ -8880,6 +9672,105 @@
     },
     "decimals": 18,
     "feedId": "0x000379fc738f892559f44e923b3191acb2166a0876f5e89a836946ca7aeedf65",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AUD/USD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "AUD",
+      "USD"
+    ],
+    "path": "aud-usd-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Australian Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Australian Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "AUD",
+      "baseAssetClic": "AUD_FX",
+      "clicProductName": "AUD/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00037abb8e3350e25882ca9baa00c1d9dd7b5654d74d30dbe0971bb12cefc767",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -9803,6 +10694,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/TRY-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "TRY"
+    ],
+    "path": "usd-try-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Turkish Lira - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Turkish Lira - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/TRY-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "TRY",
+      "quoteAssetClic": "TRY_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x0003854901aa241a123fd055686d0378a300bd820008c2de49000460ba502797",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "JITOSOL/USD-RefPrice-mainnet-production",
     "pair": [
       "JITOSOL",
@@ -9836,6 +10826,105 @@
     },
     "decimals": 18,
     "feedId": "0x000385536e9b3b137562f1ac4a82d242be8778933b43648024d6cb264aade8b0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/BRL-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "BRL"
+    ],
+    "path": "usd-brl-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brazilian Real - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Brazilian Real - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/BRL-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "BRL",
+      "quoteAssetClic": "BRL_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00038567a86223d3ace4411befe6b22cfab7f773c81f228bccfe1a5d85f0d453",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -10663,6 +11752,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "USD/JPY-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "JPY"
+    ],
+    "path": "usd-jpy-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Yen - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Yen - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/JPY-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x000398b50399ad46aa4ad9c938e2ec63e2dcc90865d95e2894c6587562b8de03",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "ZBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "ZBTC",
@@ -10696,6 +11884,105 @@
     },
     "decimals": 18,
     "feedId": "0x00039b2adfe0ac0b2bfe22af2caf91659e5a48058d662cbfd39ddfffb170059f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/AED-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "AED"
+    ],
+    "path": "usd-aed-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "UAE Dirham - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "UAE Dirham - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/AED-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "AED",
+      "quoteAssetClic": "AED_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x00039f2448977cdcbb3ce0b4da62660c21b7574f168cd367912d7b6a085875ca",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -10891,6 +12178,105 @@
     },
     "decimals": 0,
     "feedId": "0x0003a22193e4732e22af473c6712928af89dfe72481a39c844559573012d7973",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "GBP/USD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "GBP",
+      "USD"
+    ],
+    "path": "gbp-usd-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Pound Sterling - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Pound Sterling - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "GBP",
+      "baseAssetClic": "GBP_FX",
+      "clicProductName": "GBP/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x0003a5c29a97438acad6982c8d3ef4292a9d5b8eac94f1aa235eb23361d9cd91",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -12388,6 +13774,105 @@
       },
       {
         "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/UAH-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "UAH"
+    ],
+    "path": "usd-uah-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hryvnia - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Hryvnia - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/UAH-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "UAH",
+      "quoteAssetClic": "UAH_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x0003c2ae0402f304e798c1cd76a130fa4fe52598dc2f7d2b10d20d349de37255",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
       }
     ]
   },
@@ -14466,6 +15951,105 @@
     },
     "decimals": 18,
     "feedId": "0x0003e4d3d18206f35415362be8c5ba895859508c6908dd08474baff63eb28b06",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD/PLN-Datalink-NCFX-ForexPrice-V3-mainnet-production",
+    "pair": [
+      "USD",
+      "PLN"
+    ],
+    "path": "usd-pln-datalink-ncfx-forexprice-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Zloty - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Zloty - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/PLN-Datalink-NCFX-ForexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "PLN",
+      "quoteAssetClic": "PLN_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 18,
+    "feedId": "0x0003e4d78ab230af73b95bf7df21868aea43b23e701a68f8c009ab97a33e8236",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -32934,6 +34518,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "AUD/USD-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "AUD",
+      "USD"
+    ],
+    "path": "aud-usd-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Australian Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Australian Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "AUD",
+      "baseAssetClic": "AUD_FX",
+      "clicProductName": "AUD/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b2420045f6603e6cd2905cf0bc77f6bb53760aea8972b47be9c952a7444db",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "AMZN/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "AMZN",
@@ -36354,6 +38037,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/ARS-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "ARS"
+    ],
+    "path": "usd-ars-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Argentine Peso - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Argentine Peso - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ARS-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "ARS",
+      "quoteAssetClic": "ARS_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b4ecbcdb3a9cbb1207b45c8744c42ca551677757d9e87c273f3f705c7e4e2",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "NBIS/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "NBIS",
@@ -38702,6 +40484,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "GBP/USD-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "GBP",
+      "USD"
+    ],
+    "path": "gbp-usd-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Pound Sterling - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Pound Sterling - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "GBP",
+      "baseAssetClic": "GBP_FX",
+      "clicProductName": "GBP/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b71b5ed8c180f95c39310fbb7b61b44239e243d59ce26919b64093644b1a0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "TSM/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "TSM",
@@ -39031,6 +40912,105 @@
     },
     "decimals": 0,
     "feedId": "0x000b760f479dcbdb07e79596ae1ccad619569561424634854533c13b5d290dfc",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/MXN-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "MXN"
+    ],
+    "path": "usd-mxn-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Mexican Peso - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Mexican Peso - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/MXN-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "MXN",
+      "quoteAssetClic": "MXN_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b771b565d3810f07dad59b9c3fe470f229e3e12fca44713b5723b983bf91a",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -40267,6 +42247,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/UAH-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "UAH"
+    ],
+    "path": "usd-uah-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hryvnia - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Hryvnia - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/UAH-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "UAH",
+      "quoteAssetClic": "UAH_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b85754745262dfd701ca72bd7c095ddacf41b66734afa7a5bff19d17d649d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "KWEB/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "KWEB",
@@ -40692,6 +42771,105 @@
     },
     "decimals": 0,
     "feedId": "0x000b8fdb07c94077059f4a7e49a69a6aa337d23ae29d905487c2ff654f577d86",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/KRW-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "KRW"
+    ],
+    "path": "usd-krw-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Won - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Won - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/KRW-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b901fd1e43cb32129536cdfd419b69bbc9a90d1d2a905840da1fa61256502",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -41377,6 +43555,204 @@
     },
     "decimals": 18,
     "feedId": "0x000b97b692470023467885f78f42ed8cb3a63a832c044230491b05430701759c",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/ZAR-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "ZAR"
+    ],
+    "path": "usd-zar-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Rand - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Rand - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/ZAR-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "ZAR",
+      "quoteAssetClic": "ZAR_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b985c24d837ef93a9437ba49ce47417ebba4c03e8fdfd0a6bd8485efdf0b9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/CAD-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "CAD"
+    ],
+    "path": "usd-cad-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Canadian Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Canadian Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CAD-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "CAD",
+      "quoteAssetClic": "CAD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000b998a81d3bf94afc8a0d57dbfff86ae0a7df9a4d052216f4ff97e677d3f19",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -43888,6 +46264,204 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "EUR/USD-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "EUR",
+      "USD"
+    ],
+    "path": "eur-usd-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Euro - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Euro - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX",
+      "clicProductName": "EUR/USD-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bbdd3ea9a476d305bc68560506dc7f3346b000f76ad1650b84f395e6dc20e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/BRL-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "BRL"
+    ],
+    "path": "usd-brl-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brazilian Real - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Brazilian Real - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/BRL-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "BRL",
+      "quoteAssetClic": "BRL_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bbed7290f5ac546440e1a5a8e017a580091df68f068e44fecf2c978eb5751",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "USD/HKD-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -45259,6 +47833,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/TRY-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "TRY"
+    ],
+    "path": "usd-try-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Turkish Lira - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Turkish Lira - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/TRY-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "TRY",
+      "quoteAssetClic": "TRY_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bc7bcbf2e2dbc662b78e63886805bccd44a3dd0b98c1a31c09b1e0f66f846",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "SPY/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "SPY",
@@ -45293,6 +47966,303 @@
     },
     "decimals": 0,
     "feedId": "0x000bc7e431fcd497f06b9e1dea869bcda3d05049d0601f3d1e56e64c8cdd05ac",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/SGD-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "SGD"
+    ],
+    "path": "usd-sgd-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Singapore Dollar - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Singapore Dollar - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/SGD-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "SGD",
+      "quoteAssetClic": "SGD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bca32a44f8a31d67cb7b607421f60f44fd64750f1ef76d562b9f802dd0ce6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/PLN-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "PLN"
+    ],
+    "path": "usd-pln-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Zloty - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Zloty - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/PLN-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "PLN",
+      "quoteAssetClic": "PLN_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bcc6eb0bc4b05baaf5cd81015e6fc3e1c4e639553fe892109bf2e4f0c3c24",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/AED-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "AED"
+    ],
+    "path": "usd-aed-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "UAE Dirham - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "UAE Dirham - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/AED-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "AED",
+      "quoteAssetClic": "AED_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000bcea59ff761c3c09845ecec565546fe73f7fbcd2492f26dd5deea47794115",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -47114,6 +50084,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/JPY-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "JPY"
+    ],
+    "path": "usd-jpy-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Yen - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Yen - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/JPY-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000be3c728a48ce4642685099399b7040b744388029af70d1173cddb560061a0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "BABA/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "BABA",
@@ -47147,6 +50216,105 @@
     },
     "decimals": 0,
     "feedId": "0x000be785c79fe3c2b177191874c474481cda21221c0febb74062654079a46384",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/CHF-Datalink-NCFX-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "CHF"
+    ],
+    "path": "usd-chf-datalink-ncfx-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Swiss Franc - NCFX 24/7 Forex Price",
+    "feedCategory": "custom",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Swiss Franc - NCFX 24/7 Forex Price",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX",
+      "clicProductName": "USD/CHF-Datalink-NCFX-ForexPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "Forex",
+      "quoteAsset": "CHF",
+      "quoteAssetClic": "CHF_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "ncfx"
+    },
+    "decimals": 0,
+    "feedId": "0x000be8e375b378825404ee88bfed22cca54bb2b63696b85f08fbe9667bed2e4a",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
