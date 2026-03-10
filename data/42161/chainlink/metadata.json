@@ -33298,6 +33298,129 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USDU/NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "USDU",
+      "USD"
+    ],
+    "path": "usdu-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unitas USDu",
+    "feedCategory": "low",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "NAV",
+      "assetSubClass": "US",
+      "assetName": "Unitas USDu",
+      "attributeType": "NAV",
+      "baseAsset": "USDu",
+      "baseAssetClic": "USDu_CR",
+      "clicProductName": "USDu-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v9",
+      "serviceLevel": "Datalink"
+    },
+    "decimals": 18,
+    "streamValuesMetadata": [
+      {
+        "name": "USDU-NAV/USD-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000004483,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USDU-NAV/USD-SmartData-NetAssetValue-navDate",
+        "streamID": 1000004484,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "USDU-NAV/USD-SmartData-NetAssetValue-aum",
+        "streamID": 1000004485,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USDU-NAV/USD-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000004486,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0009ca3ddacce71bd978381f4960e32bedc456cdda233c8c0f04dbc6f9295a2e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "COINx/POR-Datalink-ProofOfReserves-mainnet-production",
     "pair": [
@@ -33485,131 +33608,6 @@
       }
     ],
     "feedId": "0x0009de5ffad036d889d1bef8f402ee67370b1fbdfd491d07bf0a8666b031552a",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "USDU/NAV-SmartData-NetAssetValue-mainnet-production",
-    "pair": [
-      "USDu",
-      "USD"
-    ],
-    "path": "usdu-nav-smartdata-netassetvalue-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Unitas USDu",
-    "feedCategory": "low",
-    "feedType": "Net Asset Value",
-    "docs": {
-      "assetClass": "NAV",
-      "assetSubClass": "US",
-      "assetName": "Unitas USDu",
-      "attributeType": "NAV",
-      "baseAsset": "USDu",
-      "baseAssetClic": "USDu_CR",
-      "clicProductName": "USDu-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-009",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Net Asset Value",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "NAVLink",
-      "productTypeCode": "NAV",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "schema": "v9",
-      "serviceLevel": "Datalink"
-    },
-    "decimals": 18,
-    "streamValuesMetadata": [
-      {
-        "name": "USDU/NAV-SmartData-NetAssetValue-benchmark",
-        "streamID": 1000004457,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "USDU/NAV-SmartData-NetAssetValue-navDate",
-        "streamID": 1000004458,
-        "type": "uint64",
-        "multiplier": "1"
-      },
-      {
-        "name": "USDU/NAV-SmartData-NetAssetValue-aum",
-        "streamID": 1000004459,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "USDU/NAV-SmartData-NetAssetValue-ripcord",
-        "streamID": 1000004460,
-        "type": "uint32",
-        "multiplier": "1"
-      }
-    ],
-    "feedId": "0x0009e8a3ad3464e90e046b89d59ca4a9e11d1ef9464bfdc1ea2d8d28dcc73732",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
