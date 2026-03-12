@@ -24961,6 +24961,19 @@
     }
   },
   {
+    "id": "0x67784f72e95ac01337edb7d7bd5bbd1c03669101b7068a620df228ed4e52ef14",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "PYTHWTI",
+      "description": "PYTH WTI 24:7 / US DOLLAR",
+      "display_symbol": "PYTHWTI/USD",
+      "generic_symbol": "PYTHWTI",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Commodities.PYTHWTI/USD"
+    }
+  },
+  {
     "id": "0x39d6113025efb65b116726281dc70b917fd43391e26a5e06c76b9e9e606b5da9",
     "attributes": {
       "asset_type": "Equity",
@@ -35076,6 +35089,156 @@
     }
   },
   {
+    "id": "0xc4a65222664b8d0bc79d100fff3cd864933d9780dd30dd3c2a291f314962c112",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "EUR",
+      "description": "EURO / ROMANIAN LEU",
+      "display_symbol": "EUR/RON",
+      "generic_symbol": "EURRON",
+      "quote_currency": "RON",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
+      "symbol": "FX.EUR/RON",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x0169b040900764f5ec0d1c54861057c2696ed5dee8814c0a711c7e4385e6a151",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "BRENTG6",
+      "description": "DEPRECATED FEED - PYTH BRENT 30 DECEMBER 2025 / US DOLLAR",
+      "display_symbol": "BRENTG6/USD",
+      "generic_symbol": "BRENTG6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1230/0000-1800,1231/C,0101/C,0102/C,0103/C,0104/C,0105/C",
+      "symbol": "Commodities.BRENTG6/USD"
+    }
+  },
+  {
+    "id": "0xab3a0f9d8e8565e58225a4e8bbe6bdf0ae8894aa3a1081aec1cf728fa61d7e4f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HAS",
+      "cms_symbol": "HAS",
+      "country": "US",
+      "cqs_symbol": "HAS",
+      "description": "HASBRO INC / US DOLLAR",
+      "display_symbol": "HAS/USD",
+      "nasdaq_symbol": "HAS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.HAS/USD"
+    }
+  },
+  {
+    "id": "0x0a9ad2666c0bf241cf67a83ee8f3ac7ae38dfbc24d83bc00675fee5569f72074",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HLN",
+      "country": "GB",
+      "description": "HALEON PLC / BRITISH POUND",
+      "display_symbol": "HLN/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.HLN/GBP"
+    }
+  },
+  {
+    "id": "0x1a0ab11f6df1b2ff257776a746782243a1dc9bb0597cfc8c4a07ac772b03dc5e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SVT",
+      "country": "GB",
+      "description": "SEVERN TRENT PLC / BRITISH POUND",
+      "display_symbol": "SVT/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.SVT/GBP"
+    }
+  },
+  {
+    "id": "0xd0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AVGO",
+      "cms_symbol": "AVGO",
+      "country": "US",
+      "cqs_symbol": "AVGO",
+      "description": "BROADCOM INC / US DOLLAR",
+      "display_symbol": "AVGO/USD",
+      "nasdaq_symbol": "AVGO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.AVGO/USD"
+    }
+  },
+  {
+    "id": "0xdcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "DOGE",
+      "description": "DOGECOIN / US DOLLAR",
+      "display_symbol": "DOGE/USD",
+      "generic_symbol": "DOGEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DOGE/USD"
+    }
+  },
+  {
+    "id": "0x2792f57bf9f228b8e0d12053938e5eb1002f00c4fd76e0f21679b0b5ea576428",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BKR",
+      "cms_symbol": "BKR",
+      "country": "US",
+      "cqs_symbol": "BKR",
+      "description": "BAKER HUGHES COMPANY / US DOLLAR",
+      "display_symbol": "BKR/USD",
+      "nasdaq_symbol": "BKR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.BKR/USD"
+    }
+  },
+  {
+    "id": "0x8da11d224f395cea6d99b5bce91950bc81a95d8791600a2637790fb333f99e67",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMIN",
+      "country": "GB",
+      "description": "SMITHS GROUP PLC / BRITISH POUND",
+      "display_symbol": "SMIN/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.SMIN/GBP"
+    }
+  },
+  {
+    "id": "0x7f4f157e57bfcccd934c566df536f34933e74338fe241a5425ce561acdab164e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "JPM",
+      "cms_symbol": "JPM",
+      "country": "US",
+      "cqs_symbol": "JPM",
+      "description": "JPMORGAN CHASE & CO / US DOLLAR",
+      "display_symbol": "JPM/USD",
+      "nasdaq_symbol": "JPM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.JPM/USD"
+    }
+  },
+  {
     "id": "0xa62d605821e58128b42cd0d711319400c4e7a3a19400a3ee5a06222e0a3b9269",
     "attributes": {
       "asset_type": "Equity",
@@ -35101,20 +35264,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.AAVE/USD"
-    }
-  },
-  {
-    "id": "0xc4a65222664b8d0bc79d100fff3cd864933d9780dd30dd3c2a291f314962c112",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "EUR",
-      "description": "EURO / ROMANIAN LEU",
-      "display_symbol": "EUR/RON",
-      "generic_symbol": "EURRON",
-      "quote_currency": "RON",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
-      "symbol": "FX.EUR/RON",
-      "tenor": "Spot"
     }
   },
   {
@@ -35160,36 +35309,6 @@
     }
   },
   {
-    "id": "0x0169b040900764f5ec0d1c54861057c2696ed5dee8814c0a711c7e4385e6a151",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "BRENTG6",
-      "description": "DEPRECATED FEED - PYTH BRENT 30 DECEMBER 2025 / US DOLLAR",
-      "display_symbol": "BRENTG6/USD",
-      "generic_symbol": "BRENTG6",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1230/0000-1800,1231/C,0101/C,0102/C,0103/C,0104/C,0105/C",
-      "symbol": "Commodities.BRENTG6/USD"
-    }
-  },
-  {
-    "id": "0xab3a0f9d8e8565e58225a4e8bbe6bdf0ae8894aa3a1081aec1cf728fa61d7e4f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HAS",
-      "cms_symbol": "HAS",
-      "country": "US",
-      "cqs_symbol": "HAS",
-      "description": "HASBRO INC / US DOLLAR",
-      "display_symbol": "HAS/USD",
-      "nasdaq_symbol": "HAS",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.HAS/USD"
-    }
-  },
-  {
     "id": "0x2c5f61268bc35d4c249ae8b2c67ef83d8566f8922a415dd5152d7572826466b5",
     "attributes": {
       "asset_type": "Equity",
@@ -35229,20 +35348,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WELL/USD"
-    }
-  },
-  {
-    "id": "0x0a9ad2666c0bf241cf67a83ee8f3ac7ae38dfbc24d83bc00675fee5569f72074",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HLN",
-      "country": "GB",
-      "description": "HALEON PLC / BRITISH POUND",
-      "display_symbol": "HLN/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.HLN/GBP"
     }
   },
   {
@@ -35319,50 +35424,6 @@
     }
   },
   {
-    "id": "0x1a0ab11f6df1b2ff257776a746782243a1dc9bb0597cfc8c4a07ac772b03dc5e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SVT",
-      "country": "GB",
-      "description": "SEVERN TRENT PLC / BRITISH POUND",
-      "display_symbol": "SVT/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.SVT/GBP"
-    }
-  },
-  {
-    "id": "0xd0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AVGO",
-      "cms_symbol": "AVGO",
-      "country": "US",
-      "cqs_symbol": "AVGO",
-      "description": "BROADCOM INC / US DOLLAR",
-      "display_symbol": "AVGO/USD",
-      "nasdaq_symbol": "AVGO",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.AVGO/USD"
-    }
-  },
-  {
-    "id": "0xdcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "DOGE",
-      "description": "DOGECOIN / US DOLLAR",
-      "display_symbol": "DOGE/USD",
-      "generic_symbol": "DOGEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.DOGE/USD"
-    }
-  },
-  {
     "id": "0xe3d85ed99184544b279f3b0da70601fa74162a541d0ea65aea96c730b56e8b23",
     "attributes": {
       "asset_type": "Equity",
@@ -35377,37 +35438,6 @@
     }
   },
   {
-    "id": "0x2792f57bf9f228b8e0d12053938e5eb1002f00c4fd76e0f21679b0b5ea576428",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "BKR",
-      "cms_symbol": "BKR",
-      "country": "US",
-      "cqs_symbol": "BKR",
-      "description": "BAKER HUGHES COMPANY / US DOLLAR",
-      "display_symbol": "BKR/USD",
-      "nasdaq_symbol": "BKR",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.BKR/USD"
-    }
-  },
-  {
-    "id": "0x8da11d224f395cea6d99b5bce91950bc81a95d8791600a2637790fb333f99e67",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SMIN",
-      "country": "GB",
-      "description": "SMITHS GROUP PLC / BRITISH POUND",
-      "display_symbol": "SMIN/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.SMIN/GBP"
-    }
-  },
-  {
     "id": "0xe10dc3fb35a64cd6cbc43661e817e120a999dce3fcf377f3edd977493052d7df",
     "attributes": {
       "asset_type": "FX",
@@ -35419,23 +35449,6 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
       "symbol": "FX.EUR/VND",
       "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x7f4f157e57bfcccd934c566df536f34933e74338fe241a5425ce561acdab164e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "JPM",
-      "cms_symbol": "JPM",
-      "country": "US",
-      "cqs_symbol": "JPM",
-      "description": "JPMORGAN CHASE & CO / US DOLLAR",
-      "display_symbol": "JPM/USD",
-      "nasdaq_symbol": "JPM",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.JPM/USD"
     }
   },
   {
