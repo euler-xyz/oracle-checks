@@ -9863,7 +9863,7 @@
       "display_symbol": "GOJ6/USD",
       "generic_symbol": "GOJ6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
       "symbol": "Commodities.GOJ6/USD"
     }
   },
@@ -12686,6 +12686,19 @@
     }
   },
   {
+    "id": "0x7ab842665dec5c28d345813e8b45ea131053227c31279ad918ad17fbc1f19550",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOQ6",
+      "description": "LS GASOIL 12 AUGUST 2026 / US DOLLAR",
+      "display_symbol": "GOQ6/USD",
+      "generic_symbol": "GOQ6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOQ6/USD"
+    }
+  },
+  {
     "id": "0x2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
     "attributes": {
       "asset_type": "Crypto",
@@ -12861,6 +12874,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.SNOU/USD"
+    }
+  },
+  {
+    "id": "0xafd2817717be86ecb0ed2a77850bf41d70a0c817d3d1bb6b49584b852fe6ad54",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOM6",
+      "description": "LS GASOIL 11 JUNE 2026 / US DOLLAR",
+      "display_symbol": "GOM6/USD",
+      "generic_symbol": "GOM6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOM6/USD"
     }
   },
   {
@@ -16396,11 +16422,11 @@
     "attributes": {
       "asset_type": "Commodities",
       "base": "GOH6",
-      "description": "LS GASOIL 12 MARCH 2026 / US DOLLAR",
+      "description": "DEPRECATED FEED - LS GASOIL 12 MARCH 2026 / US DOLLAR",
       "display_symbol": "GOH6/USD",
       "generic_symbol": "GOH6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
       "symbol": "Commodities.GOH6/USD"
     }
   },
@@ -17606,19 +17632,6 @@
     }
   },
   {
-    "id": "0xf51570985c642c49c2d6e50156390fdba80bb6d5f7fa389d2f012ced4f7d208f",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "INF",
-      "description": "SANCTUM INFINITY / US DOLLAR",
-      "display_symbol": "INF/USD",
-      "generic_symbol": "INFUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.INF/USD"
-    }
-  },
-  {
     "id": "0x20d096e088a9b85f8cf09278965b77aeb05c00769e2ddeda5ea2d07ea554b283",
     "attributes": {
       "asset_type": "Crypto",
@@ -17629,23 +17642,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MTRG/USD"
-    }
-  },
-  {
-    "id": "0x7b1525d880bf2d40d273c738036f3806bf9b0aef6688e16b246d7e37ec2923ed",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AON",
-      "cms_symbol": "AON",
-      "country": "US",
-      "cqs_symbol": "AON",
-      "description": "AON PLC / US DOLLAR",
-      "display_symbol": "AON/USD",
-      "nasdaq_symbol": "AON",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.AON/USD"
     }
   },
   {
@@ -17666,20 +17662,6 @@
     }
   },
   {
-    "id": "0x3d62c57781ffd439f1e50f175563dff64d344272b029061d7311e2ded52b0e76",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "5108",
-      "country": "JP",
-      "description": "BRIDGESTONE CORP / JAPANESE YEN",
-      "display_symbol": "5108/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.5108/JPY"
-    }
-  },
-  {
     "id": "0xccdeebc019c8cd28b81f47a03999f9e905e87cd9320c268908649e411be0bf2a",
     "attributes": {
       "asset_type": "Equity",
@@ -17691,36 +17673,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
       "symbol": "Equity.IE.VUSA/GBP"
-    }
-  },
-  {
-    "id": "0xe7e7aac1ac0524cd3666fae4ecafae5e1fee880c11f3a7b4b7ea61bd6e434a63",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "C",
-      "cms_symbol": "C",
-      "country": "US",
-      "cqs_symbol": "C",
-      "description": "CITIGROUP INC / US DOLLAR",
-      "display_symbol": "C/USD",
-      "nasdaq_symbol": "C",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.C/USD"
-    }
-  },
-  {
-    "id": "0x514aed52ca5294177f20187ae883cec4a018619772ddce41efcc36a6448f5d5d",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MEW",
-      "description": "CAT IN A DOGS WORLD / US DOLLAR",
-      "display_symbol": "MEW/USD",
-      "generic_symbol": "MEWUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MEW/USD"
     }
   },
   {
@@ -17760,19 +17712,6 @@
       "quote_currency": "%",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "ECO.US.GDPQ324"
-    }
-  },
-  {
-    "id": "0x846ae1bdb6300b817cee5fdee2a6da192775030db5615b94a465f53bd40850b5",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "STETH",
-      "description": "LIDO STAKED ETH / US DOLLAR",
-      "display_symbol": "STETH/USD",
-      "generic_symbol": "SETHUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STETH/USD"
     }
   },
   {
@@ -17831,19 +17770,6 @@
     }
   },
   {
-    "id": "0xdedebc9e4d916d10b76cfbc21ccaacaf622ab1fc7f7ba586a0de0eba76f12f3f",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "KSM",
-      "description": "KUSAMA / US DOLLAR",
-      "display_symbol": "KSM/USD",
-      "generic_symbol": "KSMUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.KSM/USD"
-    }
-  },
-  {
     "id": "0xe3d1723999820435ebab53003a542ff26847720692af92523eea613a9a28d500",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -17855,6 +17781,150 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.USDY/USD.RR"
+    }
+  },
+  {
+    "id": "0x422a22570abc29fa95d703c800909d7973d129fd6ae2d4e97ee73746b21ec4b8",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "GBP",
+      "description": "BRITISH POUND / VIETNAMESE DONG",
+      "display_symbol": "GBP/VND",
+      "generic_symbol": "GBPVND",
+      "quote_currency": "VND",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
+      "symbol": "FX.GBP/VND",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x25be29dc1eae3448537076cf0d14ef2c43dbfd5de043256ead46fa01a19b425b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CMS",
+      "cms_symbol": "CMS",
+      "country": "US",
+      "cqs_symbol": "CMS",
+      "description": "CMS ENERGY CORPORATION / US DOLLAR",
+      "display_symbol": "CMS/USD",
+      "nasdaq_symbol": "CMS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.CMS/USD"
+    }
+  },
+  {
+    "id": "0xf51570985c642c49c2d6e50156390fdba80bb6d5f7fa389d2f012ced4f7d208f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "INF",
+      "description": "SANCTUM INFINITY / US DOLLAR",
+      "display_symbol": "INF/USD",
+      "generic_symbol": "INFUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.INF/USD"
+    }
+  },
+  {
+    "id": "0x7b1525d880bf2d40d273c738036f3806bf9b0aef6688e16b246d7e37ec2923ed",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AON",
+      "cms_symbol": "AON",
+      "country": "US",
+      "cqs_symbol": "AON",
+      "description": "AON PLC / US DOLLAR",
+      "display_symbol": "AON/USD",
+      "nasdaq_symbol": "AON",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.AON/USD"
+    }
+  },
+  {
+    "id": "0x3d62c57781ffd439f1e50f175563dff64d344272b029061d7311e2ded52b0e76",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "5108",
+      "country": "JP",
+      "description": "BRIDGESTONE CORP / JAPANESE YEN",
+      "display_symbol": "5108/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.5108/JPY"
+    }
+  },
+  {
+    "id": "0xe7e7aac1ac0524cd3666fae4ecafae5e1fee880c11f3a7b4b7ea61bd6e434a63",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "C",
+      "cms_symbol": "C",
+      "country": "US",
+      "cqs_symbol": "C",
+      "description": "CITIGROUP INC / US DOLLAR",
+      "display_symbol": "C/USD",
+      "nasdaq_symbol": "C",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.C/USD"
+    }
+  },
+  {
+    "id": "0x514aed52ca5294177f20187ae883cec4a018619772ddce41efcc36a6448f5d5d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MEW",
+      "description": "CAT IN A DOGS WORLD / US DOLLAR",
+      "display_symbol": "MEW/USD",
+      "generic_symbol": "MEWUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MEW/USD"
+    }
+  },
+  {
+    "id": "0x7af1a84b1933530090c83f1500e2f53317cf50fd22c0d4e647f439e3c65de631",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOX6",
+      "description": "LS GASOIL 12 NOVEMBER 2026 / US DOLLAR",
+      "display_symbol": "GOX6/USD",
+      "generic_symbol": "GOX6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOX6/USD"
+    }
+  },
+  {
+    "id": "0x846ae1bdb6300b817cee5fdee2a6da192775030db5615b94a465f53bd40850b5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STETH",
+      "description": "LIDO STAKED ETH / US DOLLAR",
+      "display_symbol": "STETH/USD",
+      "generic_symbol": "SETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STETH/USD"
+    }
+  },
+  {
+    "id": "0xdedebc9e4d916d10b76cfbc21ccaacaf622ab1fc7f7ba586a0de0eba76f12f3f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KSM",
+      "description": "KUSAMA / US DOLLAR",
+      "display_symbol": "KSM/USD",
+      "generic_symbol": "KSMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KSM/USD"
     }
   },
   {
@@ -17885,51 +17955,6 @@
     }
   },
   {
-    "id": "0x84981567319029f78660d114bae42df7325ac30786e4dc47772d535ecfc1df30",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "7951",
-      "country": "JP",
-      "description": "YAMAHA CORP / JAPANESE YEN",
-      "display_symbol": "7951/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.7951/JPY"
-    }
-  },
-  {
-    "id": "0x25be29dc1eae3448537076cf0d14ef2c43dbfd5de043256ead46fa01a19b425b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CMS",
-      "cms_symbol": "CMS",
-      "country": "US",
-      "cqs_symbol": "CMS",
-      "description": "CMS ENERGY CORPORATION / US DOLLAR",
-      "display_symbol": "CMS/USD",
-      "nasdaq_symbol": "CMS",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.CMS/USD"
-    }
-  },
-  {
-    "id": "0x422a22570abc29fa95d703c800909d7973d129fd6ae2d4e97ee73746b21ec4b8",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "GBP",
-      "description": "BRITISH POUND / VIETNAMESE DONG",
-      "display_symbol": "GBP/VND",
-      "generic_symbol": "GBPVND",
-      "quote_currency": "VND",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
-      "symbol": "FX.GBP/VND",
-      "tenor": "Spot"
-    }
-  },
-  {
     "id": "0x100565abd1ea8c54119f8d65449661e24d2ab56fae22cebe8376321076e15b31",
     "attributes": {
       "asset_type": "Equity",
@@ -17942,6 +17967,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.FRDM/USD"
+    }
+  },
+  {
+    "id": "0x84981567319029f78660d114bae42df7325ac30786e4dc47772d535ecfc1df30",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "7951",
+      "country": "JP",
+      "description": "YAMAHA CORP / JAPANESE YEN",
+      "display_symbol": "7951/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.7951/JPY"
     }
   },
   {
@@ -22025,7 +22064,7 @@
       "display_symbol": "GOK6/USD",
       "generic_symbol": "GOK6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
       "symbol": "Commodities.GOK6/USD"
     }
   },
@@ -24015,6 +24054,19 @@
     }
   },
   {
+    "id": "0xe1e8a41da6e5563ec8217d8f608099d4bcf5f83cf71b08f6997829d04311d763",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GON6",
+      "description": "LS GASOIL 10 JULY 2026 / US DOLLAR",
+      "display_symbol": "GON6/USD",
+      "generic_symbol": "GON6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GON6/USD"
+    }
+  },
+  {
     "id": "0xa1077e132d8f09d266c22319edf5c2321ff870941b7bfd826da35c0ba19fbeac",
     "attributes": {
       "asset_type": "Equity",
@@ -24964,13 +25016,13 @@
     "id": "0x67784f72e95ac01337edb7d7bd5bbd1c03669101b7068a620df228ed4e52ef14",
     "attributes": {
       "asset_type": "Commodities",
-      "base": "PYTHWTI",
-      "description": "PYTH WTI 24:7 / US DOLLAR",
-      "display_symbol": "PYTHWTI/USD",
-      "generic_symbol": "PYTHWTI",
+      "base": "PYTHOIL",
+      "description": "PYTH OIL INDEX 24:7 / US DOLLAR",
+      "display_symbol": "PYTHOIL/USD",
+      "generic_symbol": "PYTHOIL",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Commodities.PYTHWTI/USD"
+      "symbol": "Commodities.Index.PYTHOIL/USD"
     }
   },
   {
@@ -38120,6 +38172,19 @@
     }
   },
   {
+    "id": "0xfd786c36413bc6b02d5c7462b15c5230d6ba1339ddf2b93d88f14125bae57390",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOU6",
+      "description": "LS GASOIL 10 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "GOU6/USD",
+      "generic_symbol": "GOU6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOU6/USD"
+    }
+  },
+  {
     "id": "0xb911b0329028cd0283e4259c33809d62942bd2716a58084e5f31d64c00b5424e",
     "attributes": {
       "asset_type": "Crypto",
@@ -41264,6 +41329,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.LULU/USD"
+    }
+  },
+  {
+    "id": "0x67ac99dbcd32ccfe426f959d26906d3ce66d96302fd812fb7a4a8cc03ccf5827",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOV6",
+      "description": "LS GASOIL 12 OCTOBER 2026 / US DOLLAR",
+      "display_symbol": "GOV6/USD",
+      "generic_symbol": "GOV6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOV6/USD"
     }
   },
   {
