@@ -31629,7 +31629,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "custom",
       "feedType": "Tokenized Asset",
-      "hidden": true,
       "marketHours": "Crypto",
       "productType": "Proof of Reserve",
       "productTypeCode": "PoR",
@@ -67365,6 +67364,38 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x1d32E3E9E3B97478abb24863d4C9c8B2dAd882B2",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "rlusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "RLUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "rlusd-usd",
+    "proxyAddress": "0x181976c209aB6CdBeA3e64374f2ecA0235F3BBe2",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "cex_price",
+      "baseAssetEntityId": "crypto-RLUSD",
+      "marketHours": "Crypto",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
