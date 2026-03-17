@@ -261,6 +261,44 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x05A75d586B0B06e3843517DBf470270cd92C27a9",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "uspc-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USPC NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "uspc-nav",
+    "proxyAddress": "0x02ae69C812DD749c32afb4F1723F6833EeF3d7a3",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Coinshift USPC",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "attributeType": "smartdata_nav",
+      "baseAsset": "USPC",
+      "blockchainName": "Ethereum",
+      "deliveryChannelCode": "DF",
+      "issuer": "Coinshift",
+      "porAuditor": "Accountable",
+      "porSource": "Third-Party",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x072eC2295E72815f4D0c6B378D67De0be9781100",
     "contractType": "",
     "contractVersion": 6,
@@ -12332,6 +12370,44 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xe902CD939A0605001257a5719B4d6D5478B490b4",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "btcy-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTCY NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btcy-nav",
+    "proxyAddress": "0x5a33E6CB085E2DdD0df558c0D7d71a27be6b9131",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "AARC BTCY",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Index Fund",
+      "attributeType": "smartdata_nav",
+      "baseAsset": "BTCY",
+      "blockchainName": "Ethereum",
+      "deliveryChannelCode": "DF",
+      "issuer": "AARC",
+      "porAuditor": "Accountable",
+      "porSource": "Third-Party",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
+    "decimals": 18
   },
   {
     "compareOffchain": "",
