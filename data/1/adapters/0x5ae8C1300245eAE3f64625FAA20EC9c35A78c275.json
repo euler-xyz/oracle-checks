@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x5ae8C1300245eAE3f64625FAA20EC9c35A78c275",
+  "chainId": 1,
+  "base": "0x1Fb3C5c35D95F48e48FFC8e36bCCe5CB5f29F57c",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xc3eAe84459E8Dc4CAcDBA2CF809e40Abc4b42994",
+  "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1Fb3C5c35D95F48e48FFC8e36bCCe5CB5f29F57c is PT-srUSDe-15JAN2026 (PT Strata Senior USDe 15JAN2026) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-srUSDe-15JAN2026/USDe/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
