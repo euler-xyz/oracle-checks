@@ -1,0 +1,52 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0x28E36Ea7481934a651DA81483358C67A51583b85",
+  "chainId": 1,
+  "base": "0xA3Ca88cfb7bBe9CfBd47df053ffA2130C7E6f770",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x27c0d69B99e4EA0BF99eBdc07dAcBE0b3F068917",
+  "maxStaleness": "45000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA3Ca88cfb7bBe9CfBd47df053ffA2130C7E6f770 is wstrBTC (Wrapped Stroom Bitcoin) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "WSTRBTC/USD",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Chronicle",
+  "whitelisted": false
+}

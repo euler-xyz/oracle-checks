@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x49103082675D7D52f799efd43e185486011883cC",
+  "chainId": 42161,
+  "base": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+  "quote": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+  "feed": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Onchain indexing failed for asset 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84: could not get symbol.",
+      "pass": false
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "STETH / ETH (1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
+}

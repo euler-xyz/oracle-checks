@@ -1,0 +1,58 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0xBB93649C600aD4F97F72A99c1776C6Be3632f7Fc",
+  "chainId": 42161,
+  "base": "0x1cdDE40e29dA213f42A7fA109CcADCA372d9Ee1B",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pendleMarket": "0x8A8A557b90eC79496a18a1f9C9DA8Bbd7DB86Fd3",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1cdDE40e29dA213f42A7fA109CcADCA372d9Ee1B is PT-USDai-18JUN2026 (PT USDai 18JUN2026) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x8A8A557b90eC79496a18a1f9C9DA8Bbd7DB86Fd3 is PLP-USDai-18JUN2026 (PLP USDai 18JUN2026) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "USDai",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle",
+  "whitelisted": false
+}
