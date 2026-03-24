@@ -20884,6 +20884,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "BRENTOIL/USDC-Datalink-Hyperliquid-FundingRate-mainnet-production",
+    "pair": [
+      "BRENTOIL",
+      "USDC"
+    ],
+    "path": "brentoil-usdc-datalink-hyperliquid-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "BRENTOIL",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "BRENTOIL",
+      "attributeType": "FundingRate",
+      "baseAsset": "BRENTOIL",
+      "baseAssetClic": "BRENTOIL_CR",
+      "clicProductName": "BRENTOIL/USDC-Datalink-Hyperliquid-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BRENTOIL/USDC-Datalink-Hyperliquid-FundingRate-fundingRate",
+        "streamID": 1000004506,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BRENTOIL/USDC-Datalink-Hyperliquid-FundingRate-fundingTimestamp",
+        "streamID": 1000004507,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "BRENTOIL/USDC-Datalink-Hyperliquid-FundingRate-epochDuration",
+        "streamID": 1000004505,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000593799cafb0e916b5f4398b3fa55bfe90755b96f147afbc2e8b41104be9c1",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "BTC/USDT-Datalink-OKX-FundingRate-mainnet-production",
     "pair": [
       "BTC",
@@ -22022,6 +22142,126 @@
       }
     ],
     "feedId": "0x0005f8d8e178d35a44d3594a52a93f5e3ff57fc315a88792b8cb68596941ffde",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "CL/USDC-Datalink-Hyperliquid-FundingRate-mainnet-production",
+    "pair": [
+      "CL",
+      "USDC"
+    ],
+    "path": "cl-usdc-datalink-hyperliquid-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CL",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "CL",
+      "attributeType": "FundingRate",
+      "baseAsset": "CL",
+      "baseAssetClic": "CL_CR",
+      "clicProductName": "CL/USDC-Datalink-Hyperliquid-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "CL/USDC-Datalink-Hyperliquid-FundingRate-fundingRate",
+        "streamID": 1000004502,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDC-Datalink-Hyperliquid-FundingRate-fundingTimestamp",
+        "streamID": 1000004503,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "CL/USDC-Datalink-Hyperliquid-FundingRate-epochDuration",
+        "streamID": 1000004501,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0005fbddb65d1bfca99404741e1455a54b94790519487ccd83fd87dd96fe88aa",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
