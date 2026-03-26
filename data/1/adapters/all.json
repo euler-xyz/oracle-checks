@@ -8021,181 +8021,6 @@
     "whitelisted": false
   },
   {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xA9A2CF56174528b84e8167f92048bE93DE349110",
-    "chainId": 1,
-    "base": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xAdb2c15Fde49D1A4294740aCb650de94184E66b2",
-    "maxStaleness": "31536000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4956b52aE2fF65D74CA2d61207523288e4528f96 is RLP (Resolv Liquidity Provider Token) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Resolv RLP/USD Oracle ",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Resolv",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xa0a9511fCb0FCC9Ea046abb417A2703D62F1Edd7",
-    "chainId": 1,
-    "base": "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x4F0585d46e23DBc50017E348d4D37dF3DED6e4b4",
-    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xb7de5dFCb74d25c2f21841fbd6230355C50d9308 is PT-sUSDE-29MAY2025 (PT Ethena sUSDE 29MAY2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-sUSDE-29MAY2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "PendleOracle",
-    "address": "0x098B76Fc7D7488C5d567D28540497cA7785c7A4c",
-    "chainId": 1,
-    "base": "0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8",
-    "quote": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
-    "pendleMarket": "0x353d0B2EFB5B3a7987fB06D30Ad6160522d08426",
-    "twapWindow": "900",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8 is PT-wstUSR-27MAR2025 (PT Wrapped stUSR 27MAR2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x353d0B2EFB5B3a7987fB06D30Ad6160522d08426 is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "Unknown pool",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Pendle",
-    "whitelisted": false
-  },
-  {
     "name": "CrossAdapter",
     "address": "0xc9775fb90053119Ac99C67f5536dbC02dFd28b2a",
     "chainId": 1,
@@ -8966,6 +8791,65 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0xa0a9511fCb0FCC9Ea046abb417A2703D62F1Edd7",
+    "chainId": 1,
+    "base": "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x4F0585d46e23DBc50017E348d4D37dF3DED6e4b4",
+    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb7de5dFCb74d25c2f21841fbd6230355C50d9308 is PT-sUSDE-29MAY2025 (PT Ethena sUSDE 29MAY2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-sUSDE-29MAY2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0x301a937a790dab07a3B59DbbB9AE9c4aF6C04685",
     "chainId": 1,
     "base": "0x8A47b431A7D947c6a3ED6E42d501803615a97EAa",
@@ -9018,65 +8902,6 @@
       }
     ],
     "label": "PT-USDe-27MAR2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xE8B7516715258aea8c3d3f83c5AbbdAbc14A5Bf3",
-    "chainId": 1,
-    "base": "0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8",
-    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x098B76Fc7D7488C5d567D28540497cA7785c7A4c",
-    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8 is PT-wstUSR-27MAR2025 (PT Wrapped stUSR 27MAR2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-wstUSR-27MAR2025/USR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9611,6 +9436,181 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xE8B7516715258aea8c3d3f83c5AbbdAbc14A5Bf3",
+    "chainId": 1,
+    "base": "0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8",
+    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x098B76Fc7D7488C5d567D28540497cA7785c7A4c",
+    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8 is PT-wstUSR-27MAR2025 (PT Wrapped stUSR 27MAR2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-wstUSR-27MAR2025/USR/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xA9A2CF56174528b84e8167f92048bE93DE349110",
+    "chainId": 1,
+    "base": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xAdb2c15Fde49D1A4294740aCb650de94184E66b2",
+    "maxStaleness": "31536000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4956b52aE2fF65D74CA2d61207523288e4528f96 is RLP (Resolv Liquidity Provider Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Resolv RLP/USD Oracle ",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Resolv",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleOracle",
+    "address": "0x098B76Fc7D7488C5d567D28540497cA7785c7A4c",
+    "chainId": 1,
+    "base": "0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8",
+    "quote": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "pendleMarket": "0x353d0B2EFB5B3a7987fB06D30Ad6160522d08426",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA8c8861b5ccF8CCe0ade6811CD2A7A7d3222B0B8 is PT-wstUSR-27MAR2025 (PT Wrapped stUSR 27MAR2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x353d0B2EFB5B3a7987fB06D30Ad6160522d08426 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "Unknown pool",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
     "whitelisted": false
   },
   {
