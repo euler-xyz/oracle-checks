@@ -46,13 +46,13 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter's maximum staleness (4500 s) is sufficient for the feed's heartbeat (900 s).",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
-  "methodology": "Unknown",
+  "label": "THE/USD (0.3%, 900s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "RedStone",
   "whitelisted": false
 }
