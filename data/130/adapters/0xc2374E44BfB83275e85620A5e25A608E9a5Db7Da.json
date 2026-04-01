@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xc2374E44BfB83275e85620A5e25A608E9a5Db7Da",
+  "chainId": 130,
+  "base": "0xbde4cb740F2A549B249E4fE12cDfeDFCD8d7B3ce",
+  "cross": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x012BFEF4c3ee9A345f63de78B5626df74290ECf0",
+  "oracleCrossQuote": "0xD544CcB6f2231bd1cCAC0258cbA89E8A13D4a421",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xbde4cb740F2A549B249E4fE12cDfeDFCD8d7B3ce is VII-eUSDC-5 (VII Finance Wrapped EVK Vault eUSDC-5) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x078D782b760474a361dDA0AF3839290b0EF57AD6 is USDC (USDC) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "VII-eUSDC-5/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
