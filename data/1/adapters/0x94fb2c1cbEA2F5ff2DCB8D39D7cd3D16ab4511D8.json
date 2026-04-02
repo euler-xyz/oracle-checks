@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x94fb2c1cbEA2F5ff2DCB8D39D7cd3D16ab4511D8",
+  "chainId": 1,
+  "base": "0xD1b5651E55D4CeeD36251c61c50C889B36F6abB5",
+  "cross": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x67e35295b9CF56dDb3919840e77b4958fa4d5b61",
+  "oracleCrossQuote": "0x9bf043B79b9BEFAF3b9839fFC51dF0c008BEFf9C",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD1b5651E55D4CeeD36251c61c50C889B36F6abB5 is sdCRV (Stake DAO CRV) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD533a949740bb3306d119CC777fa900bA034cd52 is CRV (Curve DAO Token) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "sdCRV/CRV/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}
