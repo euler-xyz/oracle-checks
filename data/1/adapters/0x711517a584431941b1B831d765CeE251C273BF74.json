@@ -1,11 +1,10 @@
 {
-  "name": "PendleUniversalOracle",
-  "address": "0x865E30219be002Ac588a1A134F6aC268a58c6329",
+  "name": "FixedRateOracle",
+  "address": "0x711517a584431941b1B831d765CeE251C273BF74",
   "chainId": 1,
-  "base": "0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1",
-  "quote": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-  "pendleMarket": "0xfAbEEFC5369aA5270B401f4Ee062D17fb5f1EC2A",
-  "twapWindow": "900",
+  "base": "0xd359082848c1027257616038A1CdFA2a54438561",
+  "quote": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "rate": "1000000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +33,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xd0609Ac13000d88B0BEbf5Bb21074916eDd92Bb1 is PT-jrUSDe-2APR2026 (PT Strata Junior USDe 2APR2026) with 18 decimals.",
+      "message": "Asset 0xd359082848c1027257616038A1CdFA2a54438561 is SL (SL Token) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
       "pass": true
     },
     {
-      "id": "Consistent asset",
+      "id": "Sane fixed rate",
       "severity": "High",
-      "message": "Asset 0xfAbEEFC5369aA5270B401f4Ee062D17fb5f1EC2A is PLP-jrUSDe-2APR2026 (PLP Strata Junior USDe 2APR2026) with 18 decimals.",
+      "message": "Adapter has a fixed rate of 1.",
       "pass": true
     }
   ],
-  "label": "Unknown pool",
-  "methodology": "TWAP",
+  "label": "1:1 SL/USDC",
+  "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Pendle",
+  "provider": "Fixed Rate",
   "whitelisted": false
 }
