@@ -24577,6 +24577,65 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x09CE649E910024dcBC6c1F88DB9c355FB4636DE9",
+    "chainId": 1,
+    "base": "0x22222222aEA0076fCA927a3f44dc0B4FdF9479D6",
+    "cross": "0x01791F726B4103694969820be083196cC7c045fF",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x57d5e498F5C00c38CceBA0Fa84287ebCF4ae668c",
+    "oracleCrossQuote": "0x0a6048E446074B511467c2B195d2AD6f1a7EEc1a",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x22222222aEA0076fCA927a3f44dc0B4FdF9479D6 is yYB (Yearn YB Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x01791F726B4103694969820be083196cC7c045fF is YB (Yield Basis) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "yYB/YB/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
@@ -39166,6 +39225,65 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x0a6048E446074B511467c2B195d2AD6f1a7EEc1a",
+    "chainId": 1,
+    "base": "0x01791F726B4103694969820be083196cC7c045fF",
+    "cross": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x04ac6f13CFA881c5e821Af3c5EC9337aE4e69E21",
+    "oracleCrossQuote": "0xc94089fA97FC47c4fCAADe24Fa0f745c66cfB6CF",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x01791F726B4103694969820be083196cC7c045fF is YB (Yield Basis) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E is crvUSD (Curve.Fi USD Stablecoin) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "YB/crvUSD/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
     "whitelisted": false
   }
 ]
