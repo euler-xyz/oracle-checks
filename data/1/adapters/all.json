@@ -24636,6 +24636,65 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x0a6048E446074B511467c2B195d2AD6f1a7EEc1a",
+    "chainId": 1,
+    "base": "0x01791F726B4103694969820be083196cC7c045fF",
+    "cross": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x04ac6f13CFA881c5e821Af3c5EC9337aE4e69E21",
+    "oracleCrossQuote": "0xc94089fA97FC47c4fCAADe24Fa0f745c66cfB6CF",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x01791F726B4103694969820be083196cC7c045fF is YB (Yield Basis) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E is crvUSD (Curve.Fi USD Stablecoin) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "YB/crvUSD/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
@@ -39228,14 +39287,13 @@
     "whitelisted": false
   },
   {
-    "name": "CrossAdapter",
-    "address": "0x0a6048E446074B511467c2B195d2AD6f1a7EEc1a",
+    "name": "ChainlinkOracle",
+    "address": "0xc94089fA97FC47c4fCAADe24Fa0f745c66cfB6CF",
     "chainId": 1,
-    "base": "0x01791F726B4103694969820be083196cC7c045fF",
-    "cross": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "base": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
     "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x04ac6f13CFA881c5e821Af3c5EC9337aE4e69E21",
-    "oracleCrossQuote": "0xc94089fA97FC47c4fCAADe24Fa0f745c66cfB6CF",
+    "feed": "0xEEf0C605546958c1f899b6fB336C20671f9cD49F",
+    "maxStaleness": "90000",
     "checks": [
       {
         "id": "Adapter existence",
@@ -39264,7 +39322,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x01791F726B4103694969820be083196cC7c045fF is YB (Yield Basis) with 18 decimals.",
+        "message": "Asset 0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E is crvUSD (Curve.Fi USD Stablecoin) with 18 decimals.",
         "pass": true
       },
       {
@@ -39274,16 +39332,16 @@
         "pass": true
       },
       {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E is crvUSD (Curve.Fi USD Stablecoin) with 18 decimals.",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
-    "label": "YB/crvUSD/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
+    "label": "CRVUSD / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
     "whitelisted": false
   }
 ]
