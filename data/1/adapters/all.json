@@ -24695,6 +24695,63 @@
     "whitelisted": false
   },
   {
+    "address": "0xEA3398da5f1c9df1E36d8756B6C0CF922d7ba89d"
+  },
+  {
+    "name": "RateProviderOracle",
+    "address": "0xBA60D55dBA49b2e703361Ced28Ff6913ABC1Ab54",
+    "chainId": 1,
+    "base": "0x0844C227b892be5d7c837000C096f64bFc316c2d",
+    "quote": "0x5Ee9606e5611Fd6CE14BD2BC12db70BD53dC9daA",
+    "rateProvider": "0xEA3398da5f1c9df1E36d8756B6C0CF922d7ba89d",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0844C227b892be5d7c837000C096f64bFc316c2d is yvCurve-yYB-f (Curve yYB Factory yVault) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5Ee9606e5611Fd6CE14BD2BC12db70BD53dC9daA is yYB-LP (YB/yYB) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "yvCurve-yYB-f/yYB-LP",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
+    "whitelisted": false
+  },
+  {
+    "address": "0xCB05AC48Bc1FaC637D03Bb63CAAa4aE9E3d5e0B2"
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
