@@ -23875,6 +23875,220 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "RSETH/ETH-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "RSETH",
+      "ETH"
+    ],
+    "path": "rseth-eth-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Kelp DAO rsETH",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Pegged Asset",
+      "assetName": "Kelp DAO rsETH",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "RSETH",
+      "baseAssetClic": "RSETH_CR",
+      "clicProductName": "RSETH/ETH-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ETH",
+      "quoteAssetClic": "ETH_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "RSETH/ETH-Streams-ExchangeRate",
+        "streamID": 1000004551,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00072c08aa6eea78065e1c58348339ca634bf6acc871082c3084fe4e34b33085",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SUSDE/USDE-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "SUSDE",
+      "USDE"
+    ],
+    "path": "susde-usde-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethena Staked USDE",
+    "feedCategory": "custom",
+    "feedType": "SmartData",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Staking Token",
+      "assetName": "Ethena Staked USDE",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SUSDE",
+      "baseAssetClic": "SUSDE_CR",
+      "clicProductName": "SUSDE/USDE-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "SmartData",
+      "hidden": true,
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "USDE",
+      "quoteAssetClic": "USDE_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SUSDE/USDE-Streams-ExchangeRate",
+        "streamID": 1000004550,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000732939c96518e6ee1b7ee7c18c31e02f74f193a7625a3795c11e84bf370ef",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "Chainlink-Internal-CPI-U-Headline-12MT-Change-ExchangeRate-mainnet-production",
     "pair": [
       "CPIU-12M",
