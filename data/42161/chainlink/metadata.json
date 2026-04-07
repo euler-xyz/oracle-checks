@@ -10,6 +10,114 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ONETOKEN/USD-Datalink-Tiingo-DexPrice-mainnet-production",
+    "pair": [
+      "ONETOKEN",
+      "USD"
+    ],
+    "path": "onetoken-usd-datalink-tiingo-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ONETOKEN",
+    "feedCategory": "High",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "ONETOKEN",
+      "attributeType": "DexPrice",
+      "baseAsset": "ONETOKEN",
+      "baseAssetClic": "TIINGO_ONETOKEN_CR",
+      "clicProductName": "ONETOKEN/USD-Datalink-Tiingo-DexPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "High",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "tiingo"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ONETOKEN/USD-Datalink-Tiingo-DexPrice",
+        "streamID": 1000005069,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00020c22cdd9ec47b5afb54b3db917a1b6cd1c4f35058178627e24cc06f59ef9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "RFC/USD-RefPrice-mainnet-production",
     "pair": [
       "RFC",
@@ -1091,6 +1199,114 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "LUCKYWALK/USD-Datalink-Tiingo-DexPrice-mainnet-production",
+    "pair": [
+      "LUCKYWALK",
+      "USD"
+    ],
+    "path": "luckywalk-usd-datalink-tiingo-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "LUCKYWALK",
+    "feedCategory": "High",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "LUCKYWALK",
+      "attributeType": "DexPrice",
+      "baseAsset": "LUCKYWALK",
+      "baseAssetClic": "TIINGO_LUCKYWALK_CR",
+      "clicProductName": "LUCKYWALK/USD-Datalink-Tiingo-DexPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "High",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "tiingo"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "LUCKYWALK/USD-Datalink-Tiingo-DexPrice",
+        "streamID": 1000005070,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00026f21212e4acff5dbca5266f7d3c7f7820ba17cb6e96c9b64a7f3b064819d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "ACRED/USD-RefPrice-mainnet-production",
     "pair": [
       "ACRED",
@@ -1243,6 +1459,114 @@
       }
     ],
     "feedId": "0x00027d6141b7947db3aec3e2bf1736e7d95d1cbb697299adba9c0c7a10a6de7c",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BINAI/USD-Datalink-Tiingo-DexPrice-mainnet-production",
+    "pair": [
+      "BINAI",
+      "USD"
+    ],
+    "path": "binai-usd-datalink-tiingo-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "BINAI",
+    "feedCategory": "High",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "BINAI",
+      "attributeType": "DexPrice",
+      "baseAsset": "BINAI",
+      "baseAssetClic": "TIINGO_BINAI_CR",
+      "clicProductName": "BINAI/USD-Datalink-Tiingo-DexPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "High",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "tiingo"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BINAI/USD-Datalink-Tiingo-DexPrice",
+        "streamID": 1000005068,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00028dd0c72f165fc0874c96f48b9f26bdcda7a749a7817da36058b23f7ecb54",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -2001,6 +2325,114 @@
       }
     ],
     "feedId": "0x0002e1bf92ee2c21793c06d18282a746347c97c3ca91287a1dc071cbaf781e13",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PUNCH/USD-Datalink-Tiingo-DexPrice-mainnet-production",
+    "pair": [
+      "PUNCH",
+      "USD"
+    ],
+    "path": "punch-usd-datalink-tiingo-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "PUNCH",
+    "feedCategory": "High",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "PUNCH",
+      "attributeType": "DexPrice",
+      "baseAsset": "PUNCH",
+      "baseAssetClic": "TIINGO_PUNCH_CR",
+      "clicProductName": "PUNCH/USD-Datalink-Tiingo-DexPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "High",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Datalink",
+      "dataProvider": "tiingo"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "PUNCH/USD-Datalink-Tiingo-DexPrice",
+        "streamID": 1000005067,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0002e2cdff44d1757192ff39dcab155487fa64691eb2a2d4d5c4b2e5b31d1187",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -8708,6 +9140,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "CL/USDT-Datalink-Binance-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "CL",
+      "USDT"
+    ],
+    "path": "cl-usdt-datalink-binance-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "West Texas Intermediate",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "West Texas Intermediate",
+      "attributeType": "TopOfBook",
+      "baseAsset": "CL",
+      "baseAssetClic": "WTI_CO",
+      "clicProductName": "CL/USDT-Datalink-TopOfBook-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "WTI",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004556,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004558,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004559,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00034a112217255cc022f9b1f8e504e38081698a141a963349cf53d0e3910a95",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "wBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "wBTC",
@@ -8862,6 +9414,126 @@
       }
     ],
     "feedId": "0x00034d1251253fbe48103823243fc7ae6450179a50282a6cde7c888eb1e2d47f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "NATGAS/USDT-Datalink-Binance-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "NATGAS",
+      "USDT"
+    ],
+    "path": "natgas-usdt-datalink-binance-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Natural Gas",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "Natural Gas",
+      "attributeType": "TopOfBook",
+      "baseAsset": "NG",
+      "baseAssetClic": "CO_NG",
+      "clicProductName": "NATGAS/USDT-Datalink-TopOfBook-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Commodity",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004566,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004568,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004569,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00035231c4651c67585a5b7526878b7bfa053ab59746c25d86e4f82c8693f4ee",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -15353,6 +16025,126 @@
       },
       {
         "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BZ/USDT-Datalink-Binance-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "BZ",
+      "USDT"
+    ],
+    "path": "bz-usdt-datalink-binance-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brent Crude",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "Brent Crude",
+      "attributeType": "TopOfBook",
+      "baseAsset": "BZ",
+      "baseAssetClic": "BZ_CO",
+      "clicProductName": "BZ/USDT-Datalink-TopOfBook-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Commodity",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004561,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004563,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004564,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003c1444945554474726cf719e4f91d7bec2eac5a851a7b1ab42e3f2ec1e9a6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
       }
     ]
   },
@@ -42476,6 +43268,156 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "CL/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "CL",
+      "USDT"
+    ],
+    "path": "cl-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "West Texas Intermediate",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "West Texas Intermediate",
+      "attributeType": "TopOfBook",
+      "baseAsset": "CL",
+      "baseAssetClic": "WTI_CO",
+      "clicProductName": "CL/USDT-Datalink-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "WTI",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004556,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "streamID": 1000004557,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004558,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004558,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004559,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004559,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004556,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "CL/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004556,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000b1f144123989d2e094890432d4c541f1a3a8cfc61a594c79a899abf949f02",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "CLSK/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "CLSK",
@@ -59911,6 +60853,156 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "BZ/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "BZ",
+      "USDT"
+    ],
+    "path": "bz-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brent Crude",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "Brent Crude",
+      "attributeType": "TopOfBook",
+      "baseAsset": "BZ",
+      "baseAssetClic": "BZ_CO",
+      "clicProductName": "BZ/USDT-Datalink-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Commodity",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004561,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "streamID": 1000004562,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004563,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004563,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004564,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004564,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004561,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "BZ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004561,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000b9be3b94f75146c34f24220fbc41b533382174792f01461fb309945213bb5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "PLUG/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "PLUG",
@@ -63126,6 +64218,156 @@
       }
     ],
     "feedId": "0x000bb32d2241caa7f571bf6aa112f31ff9ba62892819d120c551a376cef47e2b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "NATGAS/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "NATGAS",
+      "USDT"
+    ],
+    "path": "natgas-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Natural Gas",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "Natural Gas",
+      "attributeType": "TopOfBook",
+      "baseAsset": "NG",
+      "baseAssetClic": "CO_NG",
+      "clicProductName": "NATGAS/USDT-Datalink-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Commodity",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004566,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "streamID": 1000004567,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004568,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000004568,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004569,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000004569,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004566,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "NG/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000004566,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000bb5018f08239f8f4018d57bf108a5be31784172f7cdfbeb5a887dac5544d7",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
