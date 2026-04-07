@@ -73743,6 +73743,305 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC/USD-Streams-CexPrice-mainnet-production-HF",
+    "pair": [
+      "BTC",
+      "USD"
+    ],
+    "path": "btc-usd-streams-cexprice-mainnet-production-hf",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "CexPrice",
+      "baseAsset": "BTC",
+      "clicProductName": "BTC/USD-Streams-CexPrice-DS-Premium-Global-HF-003",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BTC/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000001465,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BTC/USD-Streams-CexPrice-bid",
+        "streamID": 1000001464,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BTC/USD-Streams-CexPrice-ask",
+        "streamID": 1000001463,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x100324c6e00cedd7cd4ea31bad462fbaadb4f8eed1890875a4069f6c074fc964",
+    "sourceChain": 42161,
+    "status": "testing",
+    "oracles": [
+      {
+        "operator": "cl-mercury-hf-mainnet-0"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-1"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-2"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SOL/USD-Streams-CexPrice-mainnet-production-HF",
+    "pair": [
+      "SOL",
+      "USD"
+    ],
+    "path": "sol-usd-streams-cexprice-mainnet-production-hf",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Solana",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Solana",
+      "attributeType": "CexPrice",
+      "baseAsset": "SOL",
+      "clicProductName": "SOL/USD-Streams-CexPrice-DS-Premium-Global-HF-003",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SOL/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000001471,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SOL/USD-Streams-CexPrice-bid",
+        "streamID": 1000001470,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SOL/USD-Streams-CexPrice-ask",
+        "streamID": 1000001469,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x100361a510721d9ccb681ec73c39140ba2d0d3943e59d65c90257d950c955ff0",
+    "sourceChain": 42161,
+    "status": "testing",
+    "oracles": [
+      {
+        "operator": "cl-mercury-hf-mainnet-0"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-1"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-2"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "LINK/USD-Streams-CexPrice-mainnet-production-HF",
+    "pair": [
+      "LINK",
+      "USD"
+    ],
+    "path": "link-usd-streams-cexprice-mainnet-production-hf",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Chainlink",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Chainlink",
+      "attributeType": "CexPrice",
+      "baseAsset": "LINK",
+      "clicProductName": "LINK/USD-Streams-CexPrice-DS-Premium-Global-HF-003",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "LINK/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000004346,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "LINK/USD-Streams-CexPrice-bid",
+        "streamID": 1000004345,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "LINK/USD-Streams-CexPrice-ask",
+        "streamID": 1000004344,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x1003bff855278659774e3b099448d07c49e2d9353a94ec3d319ef1d9851953d1",
+    "sourceChain": 42161,
+    "status": "testing",
+    "oracles": [
+      {
+        "operator": "cl-mercury-hf-mainnet-0"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-1"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-2"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH/USD-Streams-CexPrice-mainnet-production-HF",
+    "pair": [
+      "ETH",
+      "USD"
+    ],
+    "path": "eth-usd-streams-cexprice-mainnet-production-hf",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ethereum",
+      "attributeType": "CexPrice",
+      "baseAsset": "ETH",
+      "clicProductName": "ETH/USD-Streams-CexPrice-DS-Premium-Global-HF-003",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ETH/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000001468,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ETH/USD-Streams-CexPrice-bid",
+        "streamID": 1000001467,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ETH/USD-Streams-CexPrice-ask",
+        "streamID": 1000001466,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x1003cb4fbeae929ce9f9ae53e45d35095be85ae614c02f1d4e36f3e8ad9ed18c",
+    "sourceChain": 42161,
+    "status": "testing",
+    "oracles": [
+      {
+        "operator": "cl-mercury-hf-mainnet-0"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-1"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-2"
+      },
+      {
+        "operator": "cl-mercury-hf-mainnet-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x01065f4726bBbCE2ef1a4Bebc04Af3209357c71e",
     "contractType": "",
     "contractVersion": 6,
