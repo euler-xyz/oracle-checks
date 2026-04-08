@@ -24818,6 +24818,181 @@
     "address": "0xcF74D76dF73E03aFa95535480c5B21e6Cc2bf763"
   },
   {
+    "name": "CrossAdapter",
+    "address": "0xc6142F0B384fc80E5F0115ACF3496F34C21Fd5Cf",
+    "chainId": 1,
+    "base": "0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC",
+    "cross": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x6E4baa3F450faBc0A81f04C2fF8CBA7F3983fAa1",
+    "oracleCrossQuote": "0x1B965dB157027423b493328CbddeF2335063897b",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC is VII-SY-stETH (VII Finance Wrapped Smoothed Yield Liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 is stETH (Liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "VII-SY-stETH/stETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x688ca633f8d0E4d7fe9e9dF705baa69e614f7af4",
+    "chainId": 1,
+    "base": "0x5bfADf221F712A301c6B02c89D24B044777b67AB",
+    "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x994c01F32D8f003083DBF7a5Da09ac47A6984e73",
+    "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5bfADf221F712A301c6B02c89D24B044777b67AB is VII-eWETH-42 (VII Finance Wrapped EVK Vault eWETH-42) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "VII-eWETH-42/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x7BDB176a6b9733D3B4aD66D5D7b30Bb414B4AbBe",
+    "chainId": 1,
+    "base": "0x8D8965F830D434254D5C52AdAe4bc59E4Cec9B72",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Failed to extract metadata hash from bytecode.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Onchain indexing failed for asset 0x8D8965F830D434254D5C52AdAe4bc59E4Cec9B72: could not get symbol.",
+        "pass": false
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 undefined/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
@@ -39465,6 +39640,120 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x6E4baa3F450faBc0A81f04C2fF8CBA7F3983fAa1",
+    "chainId": 1,
+    "base": "0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC",
+    "quote": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC is VII-SY-stETH (VII Finance Wrapped Smoothed Yield Liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 is stETH (Liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 VII-SY-stETH/stETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x994c01F32D8f003083DBF7a5Da09ac47A6984e73",
+    "chainId": 1,
+    "base": "0x5bfADf221F712A301c6B02c89D24B044777b67AB",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5bfADf221F712A301c6B02c89D24B044777b67AB is VII-eWETH-42 (VII Finance Wrapped EVK Vault eWETH-42) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 VII-eWETH-42/WETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
     "whitelisted": false
   }
 ]
