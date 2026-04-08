@@ -3747,11 +3747,11 @@
   },
   {
     "name": "ChainlinkOracle",
-    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
+    "address": "0xDa0aC4135f4D29ca3E5c8F31c0836FD0E0648f33",
     "chainId": 42161,
-    "base": "0xdDb46999F8891663a8F2828d25298f70416d7610",
-    "quote": "0x6491c05A82219b8D1479057361ff1654749b876b",
-    "feed": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
+    "base": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "quote": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "feed": "0x3401DAF2b1f150Ef0c709Cc0283b5F2e55c3DF29",
     "maxStaleness": "90000",
     "checks": [
       {
@@ -3781,13 +3781,13 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0xdDb46999F8891663a8F2828d25298f70416d7610 is sUSDS (Savings USDS) with 18 decimals.",
+        "message": "Asset 0x5979D7b546E38E414F7E9822514be443A4800529 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
         "pass": true
       },
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x6491c05A82219b8D1479057361ff1654749b876b is USDS (USDS Stablecoin) with 18 decimals.",
+        "message": "Asset 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 is WETH (Wrapped Ether) with 18 decimals.",
         "pass": true
       },
       {
@@ -3797,10 +3797,10 @@
         "pass": true
       }
     ],
-    "label": "sUSDS / USDS Exchange Rate (0.05%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "wstETH/stETH (0.5%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink",
+    "provider": "RedStone",
     "whitelisted": false
   },
   {
@@ -3863,11 +3863,11 @@
   },
   {
     "name": "ChainlinkOracle",
-    "address": "0xDa0aC4135f4D29ca3E5c8F31c0836FD0E0648f33",
+    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
     "chainId": 42161,
-    "base": "0x5979D7b546E38E414F7E9822514be443A4800529",
-    "quote": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-    "feed": "0x3401DAF2b1f150Ef0c709Cc0283b5F2e55c3DF29",
+    "base": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "quote": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "feed": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
     "maxStaleness": "90000",
     "checks": [
       {
@@ -3897,13 +3897,13 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x5979D7b546E38E414F7E9822514be443A4800529 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "message": "Asset 0xdDb46999F8891663a8F2828d25298f70416d7610 is sUSDS (Savings USDS) with 18 decimals.",
         "pass": true
       },
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 is WETH (Wrapped Ether) with 18 decimals.",
+        "message": "Asset 0x6491c05A82219b8D1479057361ff1654749b876b is USDS (USDS Stablecoin) with 18 decimals.",
         "pass": true
       },
       {
@@ -3913,65 +3913,7 @@
         "pass": true
       }
     ],
-    "label": "wstETH/stETH (0.5%, 86400s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "RedStone",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkOracle",
-    "address": "0xa34f5bfd5A36605BBEb188Ce9Ff0C3D73Fa6bfDf",
-    "chainId": 42161,
-    "base": "0xd09ACb80C1E8f2291862c4978A008791c9167003",
-    "quote": "0x5979D7b546E38E414F7E9822514be443A4800529",
-    "feed": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xd09ACb80C1E8f2291862c4978A008791c9167003 is tETH (Treehouse ETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5979D7b546E38E414F7E9822514be443A4800529 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "tETH / wstETH Exchange Rate (0.0002%, 86400s)",
+    "label": "sUSDS / USDS Exchange Rate (0.05%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
@@ -4030,6 +3972,64 @@
       }
     ],
     "label": "rsETH / ETH Exchange Rate (0.05%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xa34f5bfd5A36605BBEb188Ce9Ff0C3D73Fa6bfDf",
+    "chainId": 42161,
+    "base": "0xd09ACb80C1E8f2291862c4978A008791c9167003",
+    "quote": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "feed": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd09ACb80C1E8f2291862c4978A008791c9167003 is tETH (Treehouse ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5979D7b546E38E414F7E9822514be443A4800529 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "tETH / wstETH Exchange Rate (0.0002%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
