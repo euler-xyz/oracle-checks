@@ -24129,6 +24129,113 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "TRUAPT/APT-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "TRUAPT",
+      "APT"
+    ],
+    "path": "truapt-apt-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "TruFin Staked APT",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "TruFin Staked APT",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "TRUAPT",
+      "baseAssetClic": "TRUAPT_CR",
+      "clicProductName": "TRUAPT/APT-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "APT",
+      "quoteAssetClic": "APT_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TRUAPT/APT-Streams-ExchangeRate",
+        "streamID": 1000004554,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00070cc7be059ddc819df53b43713dde0094fb805b14c4922a8645693df363e6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "10000000000",
     "name": "MEVBTC/BTC-Streams-ExchangeRate-mainnet-production",
     "pair": [
@@ -25523,6 +25630,113 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "eAPT/APT-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "eAPT",
+      "APT"
+    ],
+    "path": "eapt-apt-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Echo staked APT",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Echo staked APT",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "eAPT",
+      "baseAssetClic": "EAPT_CR",
+      "clicProductName": "eAPT/APT-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "APT",
+      "quoteAssetClic": "APT_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "eAPT/APT-Streams-ExchangeRate",
+        "streamID": 1000004552,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00075ec2deb6a0f719906f00a549a53a711ac85ac0a3400aaeee3af68f77e95f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "wstETH/stETH-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "wstETH",
@@ -25673,6 +25887,113 @@
       }
     ],
     "feedId": "0x000764a7e8b01c535c00ecdf4a7f62d882f905c2441de4b0bcf855b81b5e6073",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "STHAPT/APT-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "STHAPT",
+      "APT"
+    ],
+    "path": "sthapt-apt-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Staked Thala APT",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Staked Thala APT",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "STHAPT",
+      "baseAssetClic": "STHAPT_CR",
+      "clicProductName": "STHAPT/APT-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "APT",
+      "quoteAssetClic": "APT_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "STHAPT/APT-Streams-ExchangeRate",
+        "streamID": 1000004553,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000770987beae42d77b4ed03f9dbef21fd13a517efe31516e2f4d89fe571a186",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
