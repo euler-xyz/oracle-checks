@@ -237,7 +237,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const aggregatorV3Feeds = adapters
     .filter(
       (adapter) =>
-        adapter?.name === "ChainlinkOracle" || adapter?.name === "ChainlinkInfrequentOracle",
+        adapter?.name === "ChainlinkOracle" || adapter?.name === "ChainlinkInfrequentOracle" || adapter?.name === "StorkChainlinkOracle",
     )
     .map(({ feed }) => feed);
 

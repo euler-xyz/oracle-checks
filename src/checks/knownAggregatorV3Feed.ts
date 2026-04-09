@@ -3,6 +3,7 @@ import {
   ChainlinkMetadata,
   ChainlinkInfrequentOracle,
   ChainlinkOracle,
+  StorkChainlinkOracle,
   RedStoneMetadata,
   EOracleMetadata,
 } from "@objectivelabs/oracle-sdk";
@@ -13,7 +14,7 @@ import { CHECKS, failCheck, passCheck } from "./utils";
 import { OracleMethodology } from "../types";
 
 type Params = {
-  adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
+  adapter: ChainlinkOracle | ChainlinkInfrequentOracle | StorkChainlinkOracle;
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
   eoracleMetadata?: EOracleMetadata;

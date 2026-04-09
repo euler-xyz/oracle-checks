@@ -303,6 +303,18 @@ const hyperEvmRedStoneFeeds: Record<
     heartbeat: 60,
     threshold: 0,
   },
+  "0x9A137Fdbe8BbB6065626098818dC82D26c20659b": {
+    provider: "Stork",
+    description: "sUSN/USN",
+    heartbeat: 7200,
+    threshold: 0.5,
+  },
+  "0xf08C4a8f113c8a90788F02b8151085eb9bC01E0e": {
+    provider: "Stork",
+    description: "USN/USD",
+    heartbeat: 7200,
+    threshold: 0.5,
+  },
 };
 
 export const chainConfigs: Record<number, CheckConfig> = {

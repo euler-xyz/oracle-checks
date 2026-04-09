@@ -19,6 +19,9 @@ export const metadataHashes: Record<string, string[]> = {
     "0x12201a1facfa824d5a391b0477c34f49c299ebfc8387fc4d6b06e717ef09f4b63f82",
     "0x122036a2f23dc6318d7c978948bdc93d995cca90055b16a9d3e0f15ae25537f67e7e",
   ],
+  StorkChainlinkOracle: [
+    "0x1220f2cbe766d3d45cd884b2812d3d8f2b04de138d442badef71e4fc7e148fe09bf4",
+  ],
   ChainlinkInfrequentOracle: [
     "0x1220bbc39c409d4697c843913afb02e2a76062f903f0e904eb2b5790988f5a21482e",
     "0x1220f8ee89e91ed459a7edaf943852893c96be22808b8130aef97af88c71a71cdd5f",
@@ -66,6 +69,7 @@ export const metadataHashes: Record<string, string[]> = {
     "0x12207735f11546112ad626f2e4f3fcd4f405f93df57007773515566100ca3f8fb273",
     "0x12205d986332033c49eff6d2b840e64f5de8536c7f6c8cbf5ce942ad6aebcaab038a",
     "0x1220033fd5cd78a2aa60bef6625d59782065f0648d06f73c76713e6d0d98490788a2",
+    "0x1220e54252ad7c4540a0e3f090ced85ad47e262832e3d1403a1f99b77ac7e670dcc4",
   ],
   FixedRateOracle: [
     "0x12206f7a3c8b1db06a65d27e867d185d6386d05ef62075907d338c6fe11d460a65cb",

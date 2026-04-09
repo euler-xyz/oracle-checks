@@ -103,7 +103,7 @@ export function runChecks({
     });
 
     const name = adapter.name;
-    if (name === "ChainlinkOracle" || name === "ChainlinkInfrequentOracle") {
+    if (name === "ChainlinkOracle" || name === "ChainlinkInfrequentOracle" || name === "StorkChainlinkOracle") {
       const aggregatorV3FeedCheck = knownAggregatorV3Feed({
         adapter,
         chainlinkMetadata,
