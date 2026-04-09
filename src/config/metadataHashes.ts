@@ -18,7 +18,6 @@ export const metadataHashes: Record<string, string[]> = {
     "0x1220a4185d886b9662f147a997fcc018b62a1054bb89cf87f5822deb1f77b23c7481",
     "0x12201a1facfa824d5a391b0477c34f49c299ebfc8387fc4d6b06e717ef09f4b63f82",
     "0x1220f242a52dd3943d15ac2bec6442f3e29674845bdf0af4e9e14abc5c9e5b328646",
-    "0x1220c22ec488de8d2b4a37fac4fafa1c96af4c65e773eab83f3fa45fcd94703b4982"
   ],
   ChainlinkInfrequentOracle: [
     "0x1220bbc39c409d4697c843913afb02e2a76062f903f0e904eb2b5790988f5a21482e",
