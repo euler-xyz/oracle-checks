@@ -1,15 +1,58 @@
 [
   {
-    "id": "0xf788488fe2df341b10a498e0a789f03209c0938d9ed04bc521f8224748d6d236",
+    "id": "0x7563f17567427f18848c77f0b541f579baf1ac20852ecff67c2394d674b46404",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "DBR",
-      "description": "DEBRIDGE / US DOLLAR",
-      "display_symbol": "DBR/USD",
-      "generic_symbol": "DBRUSD",
+      "asset_type": "Equity",
+      "base": "KER",
+      "country": "FR",
+      "description": "KERING / EURO",
+      "display_symbol": "KER/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
+      "symbol": "Equity.FR.KER/EUR"
+    }
+  },
+  {
+    "id": "0x6a60b0d1ea6809b47dbe599f24a71c8bda335aa5c77e503e7260cde5ba2f4694",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTIJ6",
+      "description": "PYTH WTI 20 MARCH 2026 / US DOLLAR",
+      "display_symbol": "WTIJ6/USD",
+      "generic_symbol": "WTIJ6",
       "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0119/0000-1430&1800-2400,0216/0000-1430&1800-2400,0320/0000-1430,0402/0000-1700,0403/C",
+      "symbol": "Commodities.WTIJ6/USD"
+    }
+  },
+  {
+    "id": "0x8bc234389b5320e00f5c4230bd11f9a34dc93da47821ec469580373ba1990ce5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ICSH",
+      "country": "US",
+      "cqs_symbol": "ICSH",
+      "description": "ISHARES ULTRA SHORT DURATION BOND ACTIVE ETF / US DOLLAR",
+      "display_symbol": "ICSH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.ICSH/USD"
+    }
+  },
+  {
+    "id": "0x2609ed2b888000d024a138160b184a043a364e4637d273fd0565be24e0aee9b5",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ISEI",
+      "contract_id": "sei: sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc",
+      "description": "SILO STAKED SEI / SEI REDEMPTION RATE",
+      "display_symbol": "ISEI/SEI",
+      "generic_symbol": "ISEISEI",
+      "quote_currency": "SEI",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.DBR/USD"
+      "symbol": "Crypto.ISEI/SEI.RR"
     }
   },
   {
@@ -44,19 +87,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.FDX/USD"
-    }
-  },
-  {
-    "id": "0x6a60b0d1ea6809b47dbe599f24a71c8bda335aa5c77e503e7260cde5ba2f4694",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "WTIJ6",
-      "description": "PYTH WTI 20 MARCH 2026 / US DOLLAR",
-      "display_symbol": "WTIJ6/USD",
-      "generic_symbol": "WTIJ6",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0119/0000-1430&1800-2400,0216/0000-1430&1800-2400,0320/0000-1430,0402/0000-1700,0403/C",
-      "symbol": "Commodities.WTIJ6/USD"
     }
   },
   {
@@ -103,21 +133,6 @@
     }
   },
   {
-    "id": "0x8bc234389b5320e00f5c4230bd11f9a34dc93da47821ec469580373ba1990ce5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "ICSH",
-      "country": "US",
-      "cqs_symbol": "ICSH",
-      "description": "ISHARES ULTRA SHORT DURATION BOND ACTIVE ETF / US DOLLAR",
-      "display_symbol": "ICSH/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.ICSH/USD"
-    }
-  },
-  {
     "id": "0x3871d0ef1cf9e26005e4bbf7822f67a8883071a9d8a4e7a0125d2484cca7671f",
     "attributes": {
       "asset_type": "Crypto",
@@ -128,20 +143,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BEAM/USD"
-    }
-  },
-  {
-    "id": "0x2609ed2b888000d024a138160b184a043a364e4637d273fd0565be24e0aee9b5",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "ISEI",
-      "contract_id": "sei: sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc",
-      "description": "SILO STAKED SEI / SEI REDEMPTION RATE",
-      "display_symbol": "ISEI/SEI",
-      "generic_symbol": "ISEISEI",
-      "quote_currency": "SEI",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ISEI/SEI.RR"
     }
   },
   {
@@ -174,17 +175,16 @@
     }
   },
   {
-    "id": "0x7563f17567427f18848c77f0b541f579baf1ac20852ecff67c2394d674b46404",
+    "id": "0xf788488fe2df341b10a498e0a789f03209c0938d9ed04bc521f8224748d6d236",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "KER",
-      "country": "FR",
-      "description": "KERING / EURO",
-      "display_symbol": "KER/EUR",
-      "publish_interval": "5",
-      "quote_currency": "EUR",
-      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
-      "symbol": "Equity.FR.KER/EUR"
+      "asset_type": "Crypto",
+      "base": "DBR",
+      "description": "DEBRIDGE / US DOLLAR",
+      "display_symbol": "DBR/USD",
+      "generic_symbol": "DBRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DBR/USD"
     }
   },
   {
@@ -12829,34 +12829,6 @@
     }
   },
   {
-    "id": "0x0abe02fc6a8e3e580236a2fa684297d2f1d3633d87b37ccd4782ab703581f8b3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SCHX",
-      "country": "US",
-      "cqs_symbol": "SCHX",
-      "description": "SCHWAB US LARGE-CAP ETF / US DOLLAR",
-      "display_symbol": "SCHX/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.SCHX/USD"
-    }
-  },
-  {
-    "id": "0xe56a57faccd127587a8a530c1895453edd606e11bcc33fb9cc3c6488f877da5e",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "GOZ6",
-      "description": "LS GASOIL 10 DECEMBER 2026 / US DOLLAR",
-      "display_symbol": "GOZ6/USD",
-      "generic_symbol": "GOZ6",
-      "quote_currency": "USD",
-      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
-      "symbol": "Commodities.GOZ6/USD"
-    }
-  },
-  {
     "id": "0x10946973bfcc936b423d52ee2c5a538d96427626fe6d1a7dae14b1c401d1e794",
     "attributes": {
       "asset_type": "Equity",
@@ -12874,16 +12846,17 @@
     }
   },
   {
-    "id": "0x0781209c28fda797616212b7f94d77af3a01f3e94a5d421760aef020cf2bcb51",
+    "id": "0x1a11eb21c271f3127e4c9ec8a0e9b1042dc088ccba7a94a1a7d1aa37599a00f6",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "GALA",
-      "description": "GALA GAMES / US DOLLAR",
-      "display_symbol": "GALA/USD",
-      "generic_symbol": "GALAUSD",
+      "asset_type": "Equity",
+      "base": "MSTR",
+      "country": "US",
+      "description": "MICROSTRATEGY INC CLASS A / US DOLLAR - PRE MARKET HOURS",
+      "display_symbol": "MSTR/USD PRE MARKET",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GALA/USD"
+      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.MSTR/USD.PRE"
     }
   },
   {
@@ -12904,65 +12877,6 @@
     }
   },
   {
-    "id": "0x1a11eb21c271f3127e4c9ec8a0e9b1042dc088ccba7a94a1a7d1aa37599a00f6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "MSTR",
-      "country": "US",
-      "description": "MICROSTRATEGY INC CLASS A / US DOLLAR - PRE MARKET HOURS",
-      "display_symbol": "MSTR/USD PRE MARKET",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0400-0930,0400-0930,0400-0930,0400-0930,0400-0930,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.MSTR/USD.PRE"
-    }
-  },
-  {
-    "id": "0xf3b50961ff387a3d68217e2715637d0add6013e7ecb83c36ae8062f97c46929e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "DOW",
-      "cms_symbol": "DOW",
-      "country": "US",
-      "cqs_symbol": "DOW",
-      "description": "DOW INC / US DOLLAR",
-      "display_symbol": "DOW/USD",
-      "nasdaq_symbol": "DOW",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.DOW/USD"
-    }
-  },
-  {
-    "id": "0xba13c5c38ce15067ffa501a122304977e03a9d6a77cef685041f5ef8fe2076a7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "307950",
-      "country": "KR",
-      "description": "HYUNDAIAUTOEVER / SOUTH KOREAN WON",
-      "display_symbol": "KQ.307950/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
-      "symbol": "Equity.KR.307950/KRW"
-    }
-  },
-  {
-    "id": "0x33389720b83488303b9c4f6b6980a9bbcad5fd610ecc51f86a59533442b16428",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "OPEN",
-      "country": "US",
-      "description": "OPENDOOR TECHNOLOGIES INC - OVERNIGHT HOURS",
-      "display_symbol": "OPEN/USD OVERNIGHT",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0215/C,0216/2000-2400,0402/0000-0400,0403/C",
-      "symbol": "Equity.US.OPEN/USD.ON"
-    }
-  },
-  {
     "id": "0x5cb302308aa29c49bc3044764e4cdd8ffae053913a6f6ee5a3953cab65aab7ce",
     "attributes": {
       "asset_type": "Equity",
@@ -12978,35 +12892,6 @@
     }
   },
   {
-    "id": "0xfa0bff1c97b20e18f733b2e2706e2bc0b58e64660f2b9176980eb26da0707fe4",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "EXBTC",
-      "contract_id": "sui: 0x56589f5381303a763a62e79ac118e5242f83652f4c5a9448af75162d8cb7140c::exbtc::EXBTC",
-      "description": "EMBER XBTC / US DOLLAR REDEMPTION RATE",
-      "display_symbol": "EXBTC/USD",
-      "generic_symbol": "EXBTCUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.EXBTC/USD.RR"
-    }
-  },
-  {
-    "id": "0x88eaba5ebb411a48fe800047ecef5b854b03ed75cdf0b78633bf44dcedcb2aac",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SNOU",
-      "country": "US",
-      "cqs_symbol": "SNOU",
-      "description": "T-REX 2X LONG SNOW DAILY TARGET ETF / US DOLLAR",
-      "display_symbol": "SNOU/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.SNOU/USD"
-    }
-  },
-  {
     "id": "0xafd2817717be86ecb0ed2a77850bf41d70a0c817d3d1bb6b49584b852fe6ad54",
     "attributes": {
       "asset_type": "Commodities",
@@ -13017,34 +12902,6 @@
       "quote_currency": "USD",
       "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
       "symbol": "Commodities.GOM6/USD"
-    }
-  },
-  {
-    "id": "0x9c8400168d5e7ec0b7fc9bf04689d7e29850d7cc2d3bc88b4774ce86f2809768",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "KTON",
-      "contract_id": "ton: EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0",
-      "description": "K STAKED TON / TON REDEMPTION RATE",
-      "display_symbol": "KTON/TON",
-      "generic_symbol": "KTONTON",
-      "quote_currency": "TON",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.KTON/TON.RR"
-    }
-  },
-  {
-    "id": "0x9a7d7c6a726541f3587becf957645a6f76f35ba1133c4fd4cfe594f43ccf1f0c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "0322-HK",
-      "country": "HK",
-      "description": "TINGYICAYMAN ISLANDSHLDG CORP / HONG KONG DOLLAR",
-      "display_symbol": "HK.0322/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0101/C,0216/0930-1200,0217/C,0218/C,0219/C",
-      "symbol": "Equity.HK.0322-HK/HKD"
     }
   },
   {
@@ -13107,34 +12964,18 @@
     }
   },
   {
-    "id": "0xc81114e16ec3cbcdf20197ac974aed5a254b941773971260ce09e7caebd6af46",
+    "id": "0xfc1a193150860e172240515c79b72bfea0f5381971b1bdb730c1f2c559ac1bc0",
     "attributes": {
       "asset_type": "Equity",
-      "base": "MRK",
-      "cms_symbol": "MRK",
+      "base": "DUOL",
       "country": "US",
-      "cqs_symbol": "MRK",
-      "description": "MERCK & CO INC / US DOLLAR",
-      "display_symbol": "MRK/USD",
-      "nasdaq_symbol": "MRK",
+      "cqs_symbol": "DUOL",
+      "description": "DUOLINGO INC / US DOLLAR",
+      "display_symbol": "DUOL/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.MRK/USD"
-    }
-  },
-  {
-    "id": "0x1ce91489704e9636877742cc68cdd30bf9541c638aa1c111641ea2718546179f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SSE",
-      "country": "GB",
-      "description": "SSE PLC / BRITISH POUND",
-      "display_symbol": "SSE/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.SSE/GBP"
+      "symbol": "Equity.US.DUOL/USD"
     }
   },
   {
@@ -13183,21 +13024,6 @@
     }
   },
   {
-    "id": "0xfc1a193150860e172240515c79b72bfea0f5381971b1bdb730c1f2c559ac1bc0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "DUOL",
-      "country": "US",
-      "cqs_symbol": "DUOL",
-      "description": "DUOLINGO INC / US DOLLAR",
-      "display_symbol": "DUOL/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.DUOL/USD"
-    }
-  },
-  {
     "id": "0x6264a259e2cc90dfd3207f5831949eced2da6bf53965834c9160e4ceb9240947",
     "attributes": {
       "asset_type": "Equity",
@@ -13226,6 +13052,180 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
       "symbol": "Equity.KR.078930/KRW"
+    }
+  },
+  {
+    "id": "0x0abe02fc6a8e3e580236a2fa684297d2f1d3633d87b37ccd4782ab703581f8b3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHX",
+      "country": "US",
+      "cqs_symbol": "SCHX",
+      "description": "SCHWAB US LARGE-CAP ETF / US DOLLAR",
+      "display_symbol": "SCHX/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.SCHX/USD"
+    }
+  },
+  {
+    "id": "0xe56a57faccd127587a8a530c1895453edd606e11bcc33fb9cc3c6488f877da5e",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "GOZ6",
+      "description": "LS GASOIL 10 DECEMBER 2026 / US DOLLAR",
+      "display_symbol": "GOZ6/USD",
+      "generic_symbol": "GOZ6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0000-2200,0000-2200,0000-2200,0000-2200,C,2300-2400;0403/C,0525/0000-1830,0619/0000-1830",
+      "symbol": "Commodities.GOZ6/USD"
+    }
+  },
+  {
+    "id": "0x0781209c28fda797616212b7f94d77af3a01f3e94a5d421760aef020cf2bcb51",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GALA",
+      "description": "GALA GAMES / US DOLLAR",
+      "display_symbol": "GALA/USD",
+      "generic_symbol": "GALAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GALA/USD"
+    }
+  },
+  {
+    "id": "0xf3b50961ff387a3d68217e2715637d0add6013e7ecb83c36ae8062f97c46929e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DOW",
+      "cms_symbol": "DOW",
+      "country": "US",
+      "cqs_symbol": "DOW",
+      "description": "DOW INC / US DOLLAR",
+      "display_symbol": "DOW/USD",
+      "nasdaq_symbol": "DOW",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.DOW/USD"
+    }
+  },
+  {
+    "id": "0xba13c5c38ce15067ffa501a122304977e03a9d6a77cef685041f5ef8fe2076a7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "307950",
+      "country": "KR",
+      "description": "HYUNDAIAUTOEVER / SOUTH KOREAN WON",
+      "display_symbol": "KQ.307950/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
+      "symbol": "Equity.KR.307950/KRW"
+    }
+  },
+  {
+    "id": "0x33389720b83488303b9c4f6b6980a9bbcad5fd610ecc51f86a59533442b16428",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OPEN",
+      "country": "US",
+      "description": "OPENDOOR TECHNOLOGIES INC - OVERNIGHT HOURS",
+      "display_symbol": "OPEN/USD OVERNIGHT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400&2000-2400,0000-0400,C,2000-2400;0215/C,0216/2000-2400,0402/0000-0400,0403/C",
+      "symbol": "Equity.US.OPEN/USD.ON"
+    }
+  },
+  {
+    "id": "0xfa0bff1c97b20e18f733b2e2706e2bc0b58e64660f2b9176980eb26da0707fe4",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "EXBTC",
+      "contract_id": "sui: 0x56589f5381303a763a62e79ac118e5242f83652f4c5a9448af75162d8cb7140c::exbtc::EXBTC",
+      "description": "EMBER XBTC / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "EXBTC/USD",
+      "generic_symbol": "EXBTCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EXBTC/USD.RR"
+    }
+  },
+  {
+    "id": "0x88eaba5ebb411a48fe800047ecef5b854b03ed75cdf0b78633bf44dcedcb2aac",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SNOU",
+      "country": "US",
+      "cqs_symbol": "SNOU",
+      "description": "T-REX 2X LONG SNOW DAILY TARGET ETF / US DOLLAR",
+      "display_symbol": "SNOU/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.SNOU/USD"
+    }
+  },
+  {
+    "id": "0x9c8400168d5e7ec0b7fc9bf04689d7e29850d7cc2d3bc88b4774ce86f2809768",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "KTON",
+      "contract_id": "ton: EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0",
+      "description": "K STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "KTON/TON",
+      "generic_symbol": "KTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KTON/TON.RR"
+    }
+  },
+  {
+    "id": "0x9a7d7c6a726541f3587becf957645a6f76f35ba1133c4fd4cfe594f43ccf1f0c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0322-HK",
+      "country": "HK",
+      "description": "TINGYICAYMAN ISLANDSHLDG CORP / HONG KONG DOLLAR",
+      "display_symbol": "HK.0322/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0101/C,0216/0930-1200,0217/C,0218/C,0219/C",
+      "symbol": "Equity.HK.0322-HK/HKD"
+    }
+  },
+  {
+    "id": "0xc81114e16ec3cbcdf20197ac974aed5a254b941773971260ce09e7caebd6af46",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MRK",
+      "cms_symbol": "MRK",
+      "country": "US",
+      "cqs_symbol": "MRK",
+      "description": "MERCK & CO INC / US DOLLAR",
+      "display_symbol": "MRK/USD",
+      "nasdaq_symbol": "MRK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.MRK/USD"
+    }
+  },
+  {
+    "id": "0x1ce91489704e9636877742cc68cdd30bf9541c638aa1c111641ea2718546179f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SSE",
+      "country": "GB",
+      "description": "SSE PLC / BRITISH POUND",
+      "display_symbol": "SSE/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.SSE/GBP"
     }
   },
   {
@@ -29440,6 +29440,19 @@
     }
   },
   {
+    "id": "0xd2b78de5e07d7d29ea1a26a9cfc0a1dd3fb22619616cae0d9ad7debdd49d31e3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EMU6",
+      "description": "EM U6 18 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "EMU6/USD",
+      "generic_symbol": "EMU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.EMU6/USD"
+    }
+  },
+  {
     "id": "0x8368fd46956427525d67309c0580395d44d36a1e5dc4f529ca12da11a54ef32b",
     "attributes": {
       "asset_type": "Equity",
@@ -40359,6 +40372,19 @@
     }
   },
   {
+    "id": "0xa0c8478ea45f8d0ba73d0dae1f052221b0d0b20e24a88001c7afd8f8ec78c14e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DMU6",
+      "description": "DM U6 18 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "DMU6/USD",
+      "generic_symbol": "DMU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.DMU6/USD"
+    }
+  },
+  {
     "id": "0x4a9fa0a484bb7839e8e5e5ac0ee215cb723992d3cc4736f68abfc6d434ab1d6e",
     "attributes": {
       "asset_type": "Equity",
@@ -43175,6 +43201,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.XLV/USD"
+    }
+  },
+  {
+    "id": "0x3d79439c08ceecb2ecc182dabcb79212d8d8f10780671ef012daecd905923361",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NMU6",
+      "description": "NM U6 18 SEPTEMBER 2026 / US DOLLAR",
+      "display_symbol": "NMU6/USD",
+      "generic_symbol": "NMU6",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0403/0000-0915,0525/0000-1300&1800-2400",
+      "symbol": "Equity.US.NMU6/USD"
     }
   },
   {
