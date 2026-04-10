@@ -19537,23 +19537,6 @@
     }
   },
   {
-    "id": "0xa4102a6d0a6a6e5bf66fa3599411d688f8b253d38db982a266c5eec6ba042c8a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "D",
-      "cms_symbol": "D",
-      "country": "US",
-      "cqs_symbol": "D",
-      "description": "DOMINION ENERGY INC / US DOLLAR",
-      "display_symbol": "D/USD",
-      "nasdaq_symbol": "D",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.D/USD"
-    }
-  },
-  {
     "id": "0x3c9d8e2de11a40a33c6e46f33e16265606abbe542dd00db72d9885d5c498b963",
     "attributes": {
       "asset_type": "Commodities",
@@ -19578,6 +19561,121 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0101/C,0403/C,0406/C,0501/C",
       "symbol": "Equity.DE.ADS/EUR"
+    }
+  },
+  {
+    "id": "0x9b74e08055c0b6b10a7a3fa172c2932bef258dffd2028160780b01e8f4d00be0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "267250",
+      "country": "KR",
+      "description": "HD HYUNDAI / SOUTH KOREAN WON",
+      "display_symbol": "KQ.267250/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
+      "symbol": "Equity.KR.267250/KRW"
+    }
+  },
+  {
+    "id": "0xa8bea141eeaeb013b74e2d516a4bad8f54e851326ba9c822400ce9ccd7d8a754",
+    "attributes": {
+      "asset_type": "ECO",
+      "base": "TEST20",
+      "description": "TEST20",
+      "display_symbol": "TEST20 %",
+      "generic_symbol": "TEST20",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "ECO.US.TEST20"
+    }
+  },
+  {
+    "id": "0x2b15558960416fe4729569264c03522a94a03e380ab9a80a761be6f9609d73e3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6273",
+      "country": "JP",
+      "description": "SMC CORP / JAPANESE YEN",
+      "display_symbol": "6273/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.6273/JPY"
+    }
+  },
+  {
+    "id": "0x31273c7ad75ab53927a6393fc89129e77eb84e047b966ad15d0893401b3a83f5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NVVE",
+      "country": "US",
+      "cqs_symbol": "NVVE",
+      "description": "NUVVE HOLDING CORP / US DOLLAR",
+      "display_symbol": "NVVE/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.NVVE/USD"
+    }
+  },
+  {
+    "id": "0x8073e4919eb8fe4adb8fb2d7720db2608d258c3d8a16a6943acad745918e8007",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "4061",
+      "country": "JP",
+      "description": "DENKA COMPANY LIMITED / JAPANESE YEN",
+      "display_symbol": "4061/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
+      "symbol": "Equity.JP.4061/JPY"
+    }
+  },
+  {
+    "id": "0x0a7ad4ac33f4e4930bbfa7742516c8e66928916d339abc9a98129cf661475395",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "GBP",
+      "description": "BRITISH POUND / POLISH ZLOTY",
+      "display_symbol": "GBP/PLN",
+      "generic_symbol": "GBPPLN",
+      "quote_currency": "PLN",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
+      "symbol": "FX.GBP/PLN",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x5c1d2b8d904d8076cadda4310c5d0cb9dd41eef03850e07b16a7bec7cb256590",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CPG",
+      "country": "GB",
+      "description": "COMPASS GROUP PLC / BRITISH POUND",
+      "display_symbol": "CPG/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.CPG/GBP"
+    }
+  },
+  {
+    "id": "0xa4102a6d0a6a6e5bf66fa3599411d688f8b253d38db982a266c5eec6ba042c8a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "D",
+      "cms_symbol": "D",
+      "country": "US",
+      "cqs_symbol": "D",
+      "description": "DOMINION ENERGY INC / US DOLLAR",
+      "display_symbol": "D/USD",
+      "nasdaq_symbol": "D",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
+      "symbol": "Equity.US.D/USD"
     }
   },
   {
@@ -19626,20 +19724,6 @@
     }
   },
   {
-    "id": "0x9b74e08055c0b6b10a7a3fa172c2932bef258dffd2028160780b01e8f4d00be0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "267250",
-      "country": "KR",
-      "description": "HD HYUNDAI / SOUTH KOREAN WON",
-      "display_symbol": "KQ.267250/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0101/C,0216/C,0217/C,0218/C,0302/C",
-      "symbol": "Equity.KR.267250/KRW"
-    }
-  },
-  {
     "id": "0xa5fcd936b0178a425663f150dd87175bd8c374bff2ebc1e833ea73a67f721ca2",
     "attributes": {
       "asset_type": "Crypto",
@@ -19653,45 +19737,16 @@
     }
   },
   {
-    "id": "0xa8bea141eeaeb013b74e2d516a4bad8f54e851326ba9c822400ce9ccd7d8a754",
+    "id": "0x4a41250a5924a6a3459aaa617c081ce57480f0bfa1be2cac993a43aced4b61cc",
     "attributes": {
-      "asset_type": "ECO",
-      "base": "TEST20",
-      "description": "TEST20",
-      "display_symbol": "TEST20 %",
-      "generic_symbol": "TEST20",
-      "quote_currency": "%",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "ECO.US.TEST20"
-    }
-  },
-  {
-    "id": "0x2b15558960416fe4729569264c03522a94a03e380ab9a80a761be6f9609d73e3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6273",
-      "country": "JP",
-      "description": "SMC CORP / JAPANESE YEN",
-      "display_symbol": "6273/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.6273/JPY"
-    }
-  },
-  {
-    "id": "0x31273c7ad75ab53927a6393fc89129e77eb84e047b966ad15d0893401b3a83f5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "NVVE",
-      "country": "US",
-      "cqs_symbol": "NVVE",
-      "description": "NUVVE HOLDING CORP / US DOLLAR",
-      "display_symbol": "NVVE/USD",
-      "publish_interval": "5",
+      "asset_type": "Commodities",
+      "base": "CCM6",
+      "description": "COPPER 26 JUNE 2026 / US DOLLAR",
+      "display_symbol": "CCM6/USD",
+      "generic_symbol": "CCM6",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
-      "symbol": "Equity.US.NVVE/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
+      "symbol": "Commodities.CCM6/USD"
     }
   },
   {
@@ -19706,20 +19761,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.XPL/USD"
-    }
-  },
-  {
-    "id": "0x8073e4919eb8fe4adb8fb2d7720db2608d258c3d8a16a6943acad745918e8007",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "4061",
-      "country": "JP",
-      "description": "DENKA COMPANY LIMITED / JAPANESE YEN",
-      "display_symbol": "4061/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
-      "symbol": "Equity.JP.4061/JPY"
     }
   },
   {
@@ -19764,33 +19805,6 @@
     }
   },
   {
-    "id": "0x4a41250a5924a6a3459aaa617c081ce57480f0bfa1be2cac993a43aced4b61cc",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "CCM6",
-      "description": "COPPER 26 JUNE 2026 / US DOLLAR",
-      "display_symbol": "CCM6/USD",
-      "generic_symbol": "CCM6",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
-      "symbol": "Commodities.CCM6/USD"
-    }
-  },
-  {
-    "id": "0x0a7ad4ac33f4e4930bbfa7742516c8e66928916d339abc9a98129cf661475395",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "GBP",
-      "description": "BRITISH POUND / POLISH ZLOTY",
-      "display_symbol": "GBP/PLN",
-      "generic_symbol": "GBPPLN",
-      "quote_currency": "PLN",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1231/0000-1700",
-      "symbol": "FX.GBP/PLN",
-      "tenor": "Spot"
-    }
-  },
-  {
     "id": "0x061e40b146a88776a7c22b98a23dfd5cd7383e17ee45e3b14d0c9e803b745d72",
     "attributes": {
       "asset_type": "Equity",
@@ -19802,34 +19816,6 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0112/C,0211/C,0223/C,0320/C",
       "symbol": "Equity.JP.8233/JPY"
-    }
-  },
-  {
-    "id": "0x5c1d2b8d904d8076cadda4310c5d0cb9dd41eef03850e07b16a7bec7cb256590",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CPG",
-      "country": "GB",
-      "description": "COMPASS GROUP PLC / BRITISH POUND",
-      "display_symbol": "CPG/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.CPG/GBP"
-    }
-  },
-  {
-    "id": "0x6933a1dfe481cefd8f6d96c53e8d3260af5848f6793bc2c2bf0f9ef9a9ecd999",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AAL",
-      "country": "GB",
-      "description": "ANGLO AMERICAN / BRITISH POUND",
-      "display_symbol": "AAL/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
-      "symbol": "Equity.GB.AAL/GBP"
     }
   },
   {
@@ -19845,6 +19831,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0101/C,0119/C,0216/C,0403/C,0525/C,0619/C",
       "symbol": "Equity.US.FUTU/USD"
+    }
+  },
+  {
+    "id": "0x6933a1dfe481cefd8f6d96c53e8d3260af5848f6793bc2c2bf0f9ef9a9ecd999",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAL",
+      "country": "GB",
+      "description": "ANGLO AMERICAN / BRITISH POUND",
+      "display_symbol": "AAL/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C",
+      "symbol": "Equity.GB.AAL/GBP"
     }
   },
   {
@@ -31063,6 +31063,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LBTC/USD"
+    }
+  },
+  {
+    "id": "0x083ec5425198db3a08d69ac2ac97fd8382bef92cd957526130f2daa48c1f9059",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "RSV6",
+      "description": "RAW SUGAR 30 SEPTEMBER 2O26 / US DOLLAR",
+      "display_symbol": "RSV6/USD",
+      "generic_symbol": "RSV6",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0100-1900,0100-1900,0100-1900,0100-1900,0100-1900,C,C;0101/C,0403/C,0406/C,0504/C,0525/C,0831/C,1225/C,1228/C",
+      "symbol": "Commodities.RSV6/USD"
     }
   },
   {
