@@ -3831,6 +3831,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "SPY/USDT-Datalink-Binance-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "SPY",
+      "USDT"
+    ],
+    "path": "spy-usdt-datalink-binance-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "S&P 500 Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "S&P 500 Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "SPY",
+      "baseAssetClic": "SP500_CR",
+      "clicProductName": "SPY/USDT-Datalink-TopOfBook-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005078,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005080,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005081,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x000307276de1bfacc75a37382902237d2b75532ef7de22afe8a8796f43016fb9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USDT0/USD-Streams-DexPrice-mainnet-production",
     "pair": [
       "USDT0",
@@ -15349,6 +15469,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "QQQ/USDT-Datalink-Binance-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "QQQ",
+      "USDT"
+    ],
+    "path": "qqq-usdt-datalink-binance-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Invesco QQQ Trust Series 1 ETF",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Invesco QQQ Trust Series 1 ETF",
+      "attributeType": "TopOfBook",
+      "baseAsset": "QQQ",
+      "baseAssetClic": "QQQ_EQ",
+      "clicProductName": "QQQ/USDT-Datalink-TopOfBook-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005073,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005075,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005076,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003b4f19c5d8fb0511d7d9eae1dda38fc6831ed417bc42e5d8b1591ad6ccb54",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "BSV/USD-RefPrice-mainnet-production",
     "pair": [
       "BSV",
@@ -22822,6 +23062,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "SP500/USDC-Datalink-Hyperliquid-FundingRate-mainnet-production",
+    "pair": [
+      "CL",
+      "USDC"
+    ],
+    "path": "sp500-usdc-datalink-hyperliquid-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "CL",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "CL",
+      "attributeType": "FundingRate",
+      "baseAsset": "CL",
+      "baseAssetClic": "CL_CR",
+      "clicProductName": "SP500/USDC-Datalink-Hyperliquid-FundingRate-DS-Premium-Global-005-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SP500/USDC-Datalink-Hyperliquid-FundingRate-fundingRate",
+        "streamID": 1000005083,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SP500/USDC-Datalink-Hyperliquid-FundingRate-fundingTimestamp",
+        "streamID": 1000005084,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "SP500/USDC-Datalink-Hyperliquid-FundingRate-epochDuration",
+        "streamID": 1000005085,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0005aaaff25f56dd84ba195bdd7d3e1889d7e12239bccdca750bddec24f6bda7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "SOL/USDC-Datalink-Lighter-FundingRate-mainnet-production",
     "pair": [
       "SOL",
@@ -27162,6 +27522,114 @@
       }
     ],
     "feedId": "0x0007c505034a2b88e6fe4829ae1b559911856a28d0643c6af36c7d7a6de7add6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "TRUCPI/USD-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "TRUCPI.US",
+      "USD"
+    ],
+    "path": "trucpi-usd-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Truflation US CPI Inflation Index",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "assetSubClass": "Reference",
+      "assetName": "Truflation US CPI Inflation Index",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "TRUCPI.US",
+      "baseAssetClic": "TRUCPI.US_CR",
+      "clicProductName": "TRUCPI/USD-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Macroeconomics",
+      "hidden": true,
+      "marketHours": "Daily Update",
+      "productSubType": "Exchange rate",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v7",
+      "serviceLevel": "DataLink"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TRUCPI/USD-Streams-ExchangeRate",
+        "streamID": 1000005103,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0007c7c33f49a46298547e573dd832b7ac86c4448b8876b89868811cb3fdcf0f",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -72592,6 +73060,156 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "SPY/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "SPY",
+      "USDT"
+    ],
+    "path": "spy-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "S&P 500 Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "S&P 500 Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "SPY",
+      "baseAssetClic": "SP500_CR",
+      "clicProductName": "SPY/USDT-Datalink-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005078,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "streamID": 1000005079,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005080,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005080,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005081,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005081,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005078,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SPY/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005078,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000be506485a0a0581f5f792ce0170a0954be5cef517047cbe03e2777812a952",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "CLSK/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "CLSK",
@@ -74608,6 +75226,156 @@
       }
     ],
     "feedId": "0x000bf92a5a7fcfb038408e46e94face3cba9df002895d86c8a17966b5244655b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "QQQ/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "QQQ",
+      "USDT"
+    ],
+    "path": "qqq-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Invesco QQQ Trust Series 1 ETF",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Invesco QQQ Trust Series 1 ETF",
+      "attributeType": "TopOfBook",
+      "baseAsset": "QQQ",
+      "baseAssetClic": "QQQ_EQ",
+      "clicProductName": "QQQ/USDT-Datalink-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005073,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "streamID": 1000005074,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005075,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000005075,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005076,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000005076,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "QQQ/USDT-Datalink-Binance-TopOfBook-mid",
+        "streamID": 1000005073,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bfb1095184862166a9725c104a2fb8accf8f672a527398081dcb1b8f6dde1",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
