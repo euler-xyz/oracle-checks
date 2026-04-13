@@ -99,6 +99,14 @@ export const chainConfigs: Record<number, CheckConfig> = {
       "0x1A808d3c2ac8bA00D7edA27124Ea3f392B52663E": {
         provider: "DIA",
         description: "DIA RZR/USD Oracle",
+      },
+      "0xF8472D8D3Ef3f8aEb83A2B09aC69f40dF1ace66c": {
+        provider: "InfiniFi Custom Oracle",
+        description: "InfiniFi liUSD-4w/USD",
+      },
+      "0x8D5FFAa15730D87C90C34A4c2e80684043704417": {
+        provider: "InfiniFi Custom Oracle",
+        description: "InfiniFi liUSD-13w/USD",
       }
     },
     ...defaultBounds,
