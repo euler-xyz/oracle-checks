@@ -3951,6 +3951,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ONYC/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "ONYC",
+      "USD"
+    ],
+    "path": "onyc-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Onchain Yield Coin",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Onchain Yield Coin",
+      "attributeType": "DexPrice",
+      "baseAsset": "ONYC",
+      "baseAssetClic": "ONYC_CR",
+      "clicProductName": "ONYC/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x000309cdce14146847068a33550bd23cbc44a8d4fb85c4f3a5fc19fab65b8cf4",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USDT0/USD-Streams-DexPrice-mainnet-production",
     "pair": [
       "USDT0",
@@ -7577,6 +7676,105 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x00032f0dcc9c5ca2902b87fb3384538135429b53854ddff805f98b6f37132b22",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SYRUPUSDC/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "SYRUPUSDC",
+      "USD"
+    ],
+    "path": "syrupusdc-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Syrup USDC",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Syrup USDC",
+      "attributeType": "DexPrice",
+      "baseAsset": "SYRUPUSDC",
+      "baseAssetClic": "SYRUPUSDC_CR",
+      "clicProductName": "SYRUPUSDC/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x00032f1a624bc1a4e5e475257f0b8c93fad4b73c759f51c60cffa73f3ebedc92",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -11586,6 +11784,105 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x000370c7f5423368eee794e422189254ec5b1ec379f89206bf12028be7303671",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PSTUSDC/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "PSTUSDC",
+      "USD"
+    ],
+    "path": "pstusdc-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "PayFi Strategy Token USDC",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "PayFi Strategy Token USDC",
+      "attributeType": "DexPrice",
+      "baseAsset": "PSTUSDC",
+      "baseAssetClic": "PSTUSDC_CR",
+      "clicProductName": "PSTUSDC/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x000371ca94991f0e0a002db0323910a46acf304e84c89b3d2d66c0935b0f01e4",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -77297,6 +77594,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x0E6F449Ceed1e1a85843637Cf885cD2E451db721",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "lusd-usd-capped-test",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "LUSD / USD Capped Test",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "lusd-usd-test-capped",
+    "proxyAddress": "0x98Fe18B979ef3ba82E527bcBAb4Ec71CEaC79656",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-LUSD",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD",
+      "valueSecuring": "value-securing"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x0b6eaC11aAD4211AD686d1Ece56C071E306Bd29B",
     "contractType": "",
     "contractVersion": 6,
@@ -77882,39 +78212,6 @@
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x184Ed32D6dB6048a87091A8cAE63F54ebA3daaDe",
-    "contractType": "",
-    "contractVersion": 6,
-    "decimalPlaces": null,
-    "ens": "lusd-usd-capped-test",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "LUSD / USD Capped Test",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "lusd-usd-test-capped",
-    "proxyAddress": "0x98Fe18B979ef3ba82E527bcBAb4Ec71CEaC79656",
-    "threshold": 0.3,
-    "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {
-      "baseAssetEntityId": "crypto-LUSD",
-      "hidden": true,
-      "quoteAssetEntityId": "forex-USD",
-      "valueSecuring": "value-securing"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "1000000000000000000"
   },
   {
     "compareOffchain": "",
