@@ -29692,6 +29692,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/MXN-Streams-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "MXN"
+    ],
+    "path": "usd-mxn-streams-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "USD",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "USD",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX_Spot",
+      "clicProductName": "USD/MXN-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "MXN",
+      "quoteAssetClic": "MXN_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "USD/MXN-Streams-ForexPrice-benchmark-timestamp",
+        "streamID": 1000005160,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "USD/MXN-Streams-ForexPrice-benchmark",
+        "streamID": 1000005159,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Forex-Streams-MarketStatus",
+        "streamID": 1000001954,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0008105549bd85f333e42ca54fe1e55460710026c9f35820631532fed0d03266",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "HD/USD-Streams-EquityPrice-Timestamped-mainnet-production",
     "pair": [
       "HD",
@@ -35606,6 +35726,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "USD/BRL-Streams-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "BRL"
+    ],
+    "path": "usd-brl-streams-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "USD",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "USD",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX_Spot",
+      "clicProductName": "USD/BRL-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "BRL",
+      "quoteAssetClic": "BRL_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "USD/BRL-Streams-ForexPrice-benchmark-timestamp",
+        "streamID": 1000005157,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "USD/BRL-Streams-ForexPrice-benchmark",
+        "streamID": 1000005156,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Forex-Streams-MarketStatus",
+        "streamID": 1000001954,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0008d7ce83a4b9ebc4f4c4082c1273f3a87a75613c4a8ccd290a23f59d7c4f0e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "USD/CHF-RefPrice-Timestamped-mainnet-production",
     "pair": [
       "USD",
@@ -35899,6 +36139,126 @@
       }
     ],
     "feedId": "0x0008dfd202dbccd620e17a7a41083a14c89e0d995b4ace376276b18805024414",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USD/COP-Streams-ForexPrice-mainnet-production",
+    "pair": [
+      "USD",
+      "COP"
+    ],
+    "path": "usd-cop-streams-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "USD",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "USD",
+      "attributeType": "ForexPrice",
+      "baseAsset": "USD",
+      "baseAssetClic": "USD_FX_Spot",
+      "clicProductName": "USD/COP-Streams-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Forex",
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "COP",
+      "quoteAssetClic": "COP_FX",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "USD/COP-Streams-ForexPrice-benchmark-timestamp",
+        "streamID": 1000005163,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "USD/COP-Streams-ForexPrice-benchmark",
+        "streamID": 1000005162,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Forex-Streams-MarketStatus",
+        "streamID": 1000001954,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0008e19bf7781603e3308e0f7b9f64dbe73c78db89f9856aaec8be1deb558562",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
