@@ -10,6 +10,46 @@
     "version": "6"
   },
   {
+    "address": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x03de09a7EC7Ec33ddB67557eC0c73682eAe3CBa1",
+    "decimals": 18,
+    "description": "STETH / ETH",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "6"
+  },
+  {
+    "address": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x05b4a20a6Ef5a455AB49cB75821F8be1894b94EE",
+    "decimals": 18,
+    "description": "tETH / wstETH Exchange Rate",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "6"
+  },
+  {
+    "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x085a38e33a14b1e3078B0614380b4469AEA4E0f2",
+    "decimals": 8,
+    "description": "USDC / USD",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "6"
+  },
+  {
+    "address": "0xF8722c901675C4F2F7824E256B8A6477b2c105FB",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x0E6C138DA34CfE0a41397e9Fd21eE2EB4edF738f",
+    "decimals": 18,
+    "description": "syrupUSDC / USDC Exchange Rate",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "6"
+  },
+  {
     "address": "0xe4D040128CFdF03eC221832251caC9b6f0515E3f",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
@@ -20,24 +60,14 @@
     "version": "6"
   },
   {
-    "address": "0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB",
+    "address": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x13A3651dfF754e279CB2139Dbd848054B993d797",
+    "aggregator": "0x3CBDF88CD62A5532Db88Faba1a3B2043302BF655",
     "decimals": 8,
-    "description": "USDS / USD",
+    "description": "USDT / USD",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
-  },
-  {
-    "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
-    "chainId": 42161,
-    "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x2946220288DbBF77dF0030fCecc2a8348CbBE32C",
-    "decimals": 8,
-    "description": "USDC / USD",
-    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
     "address": "0xF3272CAfe65b190e76caAF483db13424a3e23dD2",
@@ -53,71 +83,41 @@
     "address": "0xBafDf5307EaEF8dCd18c4b7b3977BEEB73b4AFE4",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x5b1dfB31846D04Cd3A79baF842957F17634d0D5E",
+    "aggregator": "0x8a9276904efb32C92E67BF1957194565cbDD83De",
     "decimals": 8,
     "description": "USR / USD",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
-    "address": "0xF8722c901675C4F2F7824E256B8A6477b2c105FB",
+    "address": "0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x7F4a174E65c29146f8ed01f2Ef1484bE00454d44",
-    "decimals": 18,
-    "description": "syrupUSDC / USDC Exchange Rate",
+    "aggregator": "0x98F6B0332871f4528DD412067927D12b66A99350",
+    "decimals": 8,
+    "description": "USDS / USD",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
-    "address": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
+    "address": "0xB1552C5e96B312d0Bf8b554186F846C40614a540",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x8bc041b1FBDC6420d4ED6E8135F14a3B36E7b8ad",
+    "aggregator": "0x9EC305EfD5D1D139Fa00810Ce4b50CF147f0266C",
     "decimals": 18,
-    "description": "sUSDS / USDS Exchange Rate",
+    "description": "wstETH-stETH Exchange Rate",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
     "address": "0x6ce185860a4963106506C203335A2910413708e9",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0x942d00008D658dbB40745BBEc89A93c253f9B882",
+    "aggregator": "0xA8c2ad8Fc02733d758C0585478cdf6C53d6c9cB8",
     "decimals": 8,
     "description": "BTC / USD",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
-  },
-  {
-    "address": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
-    "chainId": 42161,
-    "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xBFf434a1B44677D4ce302da64d84bB4d305c0D49",
-    "decimals": 18,
-    "description": "STETH / ETH",
-    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
-  },
-  {
-    "address": "0x88AC7Bca36567525A866138F03a6F6844868E0Bc",
-    "chainId": 42161,
-    "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xBc78D5f22ae6a7B86ab716c5d2F7DC61a8c1b61e",
-    "decimals": 8,
-    "description": "USDe / USD",
-    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
-  },
-  {
-    "address": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
-    "chainId": 42161,
-    "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xCb35fE6E53e71b30301Ec4a3948Da4Ad3c65ACe4",
-    "decimals": 8,
-    "description": "USDT / USD",
-    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
     "address": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
@@ -130,14 +130,14 @@
     "version": "6"
   },
   {
-    "address": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
+    "address": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xDf8a3fc9bC6fA89F1b630e58f6eB4b874f24C165",
+    "aggregator": "0xDeB952D7F376e1489FEE6b889a69BD038Fb3c076",
     "decimals": 18,
-    "description": "rsETH / ETH Exchange Rate",
+    "description": "sUSDS / USDS Exchange Rate",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
     "address": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
@@ -160,24 +160,14 @@
     "version": "6"
   },
   {
-    "address": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
+    "address": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xa61465865E7EF347845741b0AB6f4cf42E30Ec9c",
+    "aggregator": "0xaF4C93D9257B64Cd4978A63dCC2E6d0027cb8C34",
     "decimals": 18,
-    "description": "tETH / wstETH Exchange Rate",
+    "description": "rsETH / ETH Exchange Rate",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
-  },
-  {
-    "address": "0xB1552C5e96B312d0Bf8b554186F846C40614a540",
-    "chainId": 42161,
-    "accessController": "0x0000000000000000000000000000000000000000",
-    "aggregator": "0xb39bfAD6295724E01E079Ee3aa78a378Eff6dEB0",
-    "decimals": 18,
-    "description": "wstETH-stETH Exchange Rate",
-    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
-    "version": "4"
+    "version": "6"
   },
   {
     "address": "0xb523AE262D20A936BC152e6023996e46FDC2A95D",
@@ -186,6 +176,16 @@
     "aggregator": "0xd099074f591cB41707fe8Bb8Bee16a7780Fb96E5",
     "decimals": 18,
     "description": "WSTETH / ETH",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "6"
+  },
+  {
+    "address": "0x88AC7Bca36567525A866138F03a6F6844868E0Bc",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0xf4A124fd3b2115913641038C6F437337b30B4a42",
+    "decimals": 8,
+    "description": "USDe / USD",
     "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
     "version": "6"
   }
