@@ -15916,7 +15916,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Helius Staked SOL",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
@@ -15927,7 +15927,7 @@
       "baseAssetClic": "HSOL_CR",
       "clicProductName": "HSOL/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto-DEX",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -15935,7 +15935,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams"
+      "serviceLevel": "Streams",
+      "shutdownDate": "April 29th, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
@@ -104281,7 +104282,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -104300,6 +104301,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "April 29th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX",
       "valueSecuring": "value-securing"
