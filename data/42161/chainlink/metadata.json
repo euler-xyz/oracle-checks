@@ -66737,6 +66737,155 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "STRC/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "STRC",
+      "USD"
+    ],
+    "path": "strc-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "STRC",
+      "baseAssetClic": "STRC_EQ_REG",
+      "clicProductName": "STRC/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005165,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005166,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005167,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005168,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005169,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005170,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005171,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bb474aba5280f2a84e5985e1bbb44f30f8b00198e696590c702b66789ce6f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "NATGAS/USDT-Datalink-Binance-TopOfBook-mainnet-production",
     "pair": [
       "NATGAS",
@@ -71213,6 +71362,155 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "STRC/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "STRC",
+      "USD"
+    ],
+    "path": "strc-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "STRC",
+      "baseAssetClic": "STRC_EQ_ON",
+      "clicProductName": "STRC/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000005173,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005174,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000005175,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000005176,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000005177,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000005178,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005179,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bce9fe8fa2c923f68effd53ede1980aaaf77aa83151a8d9827dd852820856",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "AMC/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "AMC",
@@ -75464,6 +75762,155 @@
       }
     ],
     "feedId": "0x000be9e685c129038a707801b82f986eb1c585d5f51fb5d59fcfb88e8d5f79ed",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "STRC",
+      "USD"
+    ],
+    "path": "strc-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Strategy Inc Variable Rate Perpetual Stretch Preferred Stock",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "STRC",
+      "baseAssetClic": "STRC_EQ_EXT",
+      "clicProductName": "STRC/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000005181,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005182,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000005183,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000005184,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000005185,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000005186,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "STRC/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005187,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bea70e5f223edc58407a382863a0f86b83eb3e8057ec73be78c707327d9cb",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
