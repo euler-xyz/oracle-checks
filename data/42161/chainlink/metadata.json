@@ -9912,6 +9912,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "xyz:BRENTOIL/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:BRENTOIL",
+      "USDC"
+    ],
+    "path": "xyz-brentoil-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brent Crude Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Brent Crude Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:BRENTOIL",
+      "baseAssetClic": "BRENTOIL_CR",
+      "clicProductName": "xyz:BRENTOIL/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:BRENTOIL/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005204,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:BRENTOIL/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005206,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:BRENTOIL/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005207,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003528955adff04c928fde88d7e221caa30934dd7ccc5666f7dad0270bfcbcf",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "LBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "LBTC",
@@ -12121,6 +12241,126 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x000371ca94991f0e0a002db0323910a46acf304e84c89b3d2d66c0935b0f01e4",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:GOLD",
+      "USDC"
+    ],
+    "path": "xyz-gold-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Gold Perpetual Futures",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Gold Perpetual Futures",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:GOLD",
+      "baseAssetClic": "GOLD_CR",
+      "clicProductName": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005189,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005191,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005192,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003770c761a631105f379b0fe31e0ae7601b071bc91f3beee4901924f8493e5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -15109,6 +15349,126 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:SILVER/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:SILVER",
+      "USDC"
+    ],
+    "path": "xyz-silver-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Silver Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Silver Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:SILVER",
+      "baseAssetClic": "SILVER_CR",
+      "clicProductName": "xyz:SILVER/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:SILVER/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005194,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:SILVER/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005196,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:SILVER/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005197,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003a0a3d7b50aeb90a11a48a590af135acb3a139ed1fc9229fbce193d8e78f3",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "STBTC/USD-DexCross-mainnet-production",
     "pair": [
@@ -15363,6 +15723,126 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x0003a6ec5b100c6b76e3e1d0c44256d1f653f0e6bf698df23a786d5c415541c6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:PALLADIUM/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:PALLADIUM",
+      "USDC"
+    ],
+    "path": "xyz-palladium-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Palladium Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Palladium Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:PALLADIUM",
+      "baseAssetClic": "PALLADIUM_CR",
+      "clicProductName": "xyz:PALLADIUM/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:PALLADIUM/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005219,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:PALLADIUM/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005221,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:PALLADIUM/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005222,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003a77bdc79a72b129f7dca6cae2fd3babe61b30c7c9e5ccdc21231ea74d48d",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -15890,6 +16370,126 @@
       },
       {
         "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:NATGAS/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:NATGAS",
+      "USDC"
+    ],
+    "path": "xyz-natgas-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Natural Gas Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Natural Gas Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:NATGAS",
+      "baseAssetClic": "NATGAS_CR",
+      "clicProductName": "xyz:NATGAS/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:NATGAS/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005209,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:NATGAS/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005211,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:NATGAS/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005212,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003b4347bfeca627f518b54d09e8e0b6e798c7b6d785fde9d4899ae7da46cea",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
       }
     ]
   },
@@ -20448,6 +21048,126 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "xyz:COPPER/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:COPPER",
+      "USDC"
+    ],
+    "path": "xyz-copper-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Copper Perpetual Future",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Copper Perpetual Future",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:COPPER",
+      "baseAssetClic": "COPPER_CR",
+      "clicProductName": "xyz:COPPER/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:COPPER/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005214,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:COPPER/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005216,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:COPPER/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005217,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003ea297d822f657b0110a8faac9c988f083d004ce616ed02924c1c316357e5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "TBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "TBTC",
@@ -21093,6 +21813,126 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x0003f418b2047519e482b4aa273a71d84e322f78fe7bba81e5e76c7b6b18eaba",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:CL/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:CL",
+      "USDC"
+    ],
+    "path": "xyz-cl-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "WTI Perpetual Futures",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "WTI Perpetual Futures",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:CL",
+      "baseAssetClic": "CL_CR",
+      "clicProductName": "xyz:CL/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:CL/USDC-Datalink-Hyperliquid-TopOfBook-mid",
+        "streamID": 1000005199,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:CL/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005201,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:CL/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005202,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003f4d6e197762bef696ca140276268d7c5160966c7d9b31118c7f667d01043",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
