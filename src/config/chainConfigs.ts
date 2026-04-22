@@ -315,6 +315,12 @@ const hyperEvmRedStoneFeeds: Record<
     heartbeat: 7200,
     threshold: 0.5,
   },
+  "0xBb86bCc951A62DF86826219d9251Ee05F2c1e286": {
+    provider: "Pyth",
+    description: "USDG0/USD",
+    heartbeat: 60,
+    threshold: 0,
+  },
 };
 
 export const chainConfigs: Record<number, CheckConfig> = {
