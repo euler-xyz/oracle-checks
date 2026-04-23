@@ -5,7 +5,7 @@ import { Address } from "viem";
 
 import { SystemAddresses } from "./types";
 
-export function getAddressesForChain(chainId: number): SystemAddresses {
+export function getAddressesForChain(chainId: number): SystemAddresses | null {
   const peripheryAddressesPath = join(
     process.cwd(),
     `euler-interfaces/addresses/${chainId}/PeripheryAddresses.json`,
@@ -21,8 +21,11 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
   try {
     peripheryAddresses = JSON.parse(readFileSync(peripheryAddressesPath, "utf-8"));
   } catch (error) {
-    console.error(error);
-    throw new Error(`No addresses found for chain ${chainId}`);
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+      return null;
+    }
+
+    throw error;
   }
 
   let oracleAdaptersAddresses: Address[] = [];

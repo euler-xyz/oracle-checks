@@ -26,7 +26,7 @@ import { fallbackAssets } from "./fallbackAssets";
 import { getAddressesForChain } from "./getAddressesForChain";
 import { getClient } from "./getClient";
 import { metadataHashes } from "./metadataHashes";
-import { CheckConfig } from "./types";
+import { CheckConfig, SystemAddresses } from "./types";
 
 // const monad = defineChain({
 //   id: 143,
@@ -58,7 +58,9 @@ const defaultBounds = {
   pythStalenessUpperBound: 300,
 };
 
-export const chainConfigs: Record<number, CheckConfig> = {
+type BaseCheckConfig = Omit<CheckConfig, keyof SystemAddresses>;
+
+const baseChainConfigs = {
   [mainnet.id]: {
     publicClient: getClient(mainnet),
     metadataHashes,
@@ -110,7 +112,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       }
     },
     ...defaultBounds,
-    ...getAddressesForChain(mainnet.id),
   },
   [optimism.id]: {
     publicClient: getClient(optimism),
@@ -118,7 +119,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(optimism.id),
   },
   [gnosis.id]: {
     publicClient: getClient(gnosis),
@@ -126,7 +126,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(gnosis.id),
   },
   [unichain.id]: {
     publicClient: getClient(unichain),
@@ -134,7 +133,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(unichain.id),
   },
   [polygon.id]: {
     publicClient: getClient(polygon),
@@ -142,7 +140,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(polygon.id),
   },
   [sonic.id]: {
     publicClient: getClient(sonic),
@@ -167,7 +164,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     },
     ...defaultBounds,
-    ...getAddressesForChain(sonic.id),
   },
   [swellchain.id]: {
     publicClient: getClient(swellchain),
@@ -175,7 +171,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(swellchain.id),
   },
   [corn.id]: {
     publicClient: getClient(corn),
@@ -183,7 +178,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(corn.id),
   },
   [arbitrum.id]: {
     publicClient: getClient(arbitrum),
@@ -191,7 +185,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(arbitrum.id),
   },
   [avalanche.id]: {
     publicClient: getClient(avalanche),
@@ -199,7 +192,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(avalanche.id),
   },
   [bsc.id]: {
     publicClient: getClient(bsc),
@@ -207,7 +199,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(bsc.id),
   },
   [ink.id]: {
     publicClient: getClient({
@@ -224,7 +215,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(ink.id),
   },
   [bob.id]: {
     publicClient: getClient(bob),
@@ -257,7 +247,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     },
     ...defaultBounds,
-    ...getAddressesForChain(bob.id),
   },
   [berachain.id]: {
     publicClient: getClient({
@@ -288,7 +277,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     },
     ...defaultBounds,
-    ...getAddressesForChain(berachain.id),
   },
   [base.id]: {
     publicClient: getClient(base),
@@ -317,7 +305,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     },
     ...defaultBounds,
-    ...getAddressesForChain(base.id),
   },
 
   [tac.id]: {
@@ -326,7 +313,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(tac.id),
   },
   [plasma.id]: {
     publicClient: getClient(plasma),
@@ -339,7 +325,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     },
     ...defaultBounds,
-    ...getAddressesForChain(plasma.id),
   },
   [linea.id]: {
     publicClient: getClient(linea),
@@ -347,7 +332,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(linea.id),
   },
   [monad.id]: {
     publicClient: getClient(monad),
@@ -358,7 +342,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
         description: "Midas mTBILL/USD Oracle",
       },},
     ...defaultBounds,
-    ...getAddressesForChain(monad.id),
   },
   [hyperEvm.id]: {
     publicClient: getClient(hyperEvm),
@@ -366,6 +349,18 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
-    ...getAddressesForChain(hyperEvm.id),
   },
-};
+} satisfies Record<number, BaseCheckConfig>;
+
+export const chainConfigs: Record<number, CheckConfig> = Object.fromEntries(
+  Object.entries(baseChainConfigs).flatMap(([chainId, config]) => {
+    const addresses = getAddressesForChain(Number(chainId));
+
+    if (!addresses) {
+      console.warn(`Skipping chain ${chainId}: no addresses found`);
+      return [];
+    }
+
+    return [[chainId, { ...config, ...addresses }]];
+  }),
+) as Record<number, CheckConfig>;
