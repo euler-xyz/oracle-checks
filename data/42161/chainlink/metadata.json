@@ -28892,7 +28892,7 @@
       "attributeType": "ExchangeRate",
       "baseAsset": "PRIME",
       "baseAssetClic": "PRIME_D",
-      "clicProductName": "PRIME/wYLDS-Streams-ExchangeRate",
+      "clicProductName": "PRIME-wYLDS-Streams-Calculated-ExchangeRate",
       "deliveryChannelCode": "DS",
       "feedCategory": "medium",
       "feedType": "Tokenized Asset",
@@ -29774,6 +29774,113 @@
       }
     ],
     "feedId": "0x0007c7c33f49a46298547e573dd832b7ac86c4448b8876b89868811cb3fdcf0f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "PRIME/WYLDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "PRIME",
+      "WYLDS"
+    ],
+    "path": "prime-wylds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hastra Prime",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hastra Prime",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "PRIME",
+      "baseAssetClic": "PRIME_CR",
+      "clicProductName": "PRIME/WYLDS-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "WYLDS",
+      "quoteAssetClic": "WYLDS_CR",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "PRIME/WYLDS-Streams-ExchangeRate",
+        "streamID": 1000005262,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0007c8ed155d952e003b1e15ce7666fea785cfbe216577d578fce3920e997271",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
