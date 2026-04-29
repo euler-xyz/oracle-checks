@@ -1,11 +1,15 @@
 {
-  "name": "ChainlinkInfrequentOracle",
+  "name": "ChainlinkInfrequentXStocksOracle",
   "address": "0xd1dcbC1CE1D3e528dE03DcFA534FeaF60Da7e8f9",
   "chainId": 1,
   "base": "0x3131B41b72bc37C3B2313E8c1edEEa90e0224324",
   "quote": "0x0000000000000000000000000000000000000348",
   "feed": "0x25efbA0d9b115D233cfA849F16BA743E8FFba2a1",
   "maxStaleness": "90000",
+  "pauseTimeBefore": "3600",
+  "pauseTimeAfter": "7200",
+  "maxAllowedMultiplierChange": "10000000000000000",
+  "xStocksToken": "0x3131B41b72bc37C3B2313E8c1edEEa90e0224324",
   "checks": [
     {
       "id": "Adapter existence",
@@ -22,8 +26,8 @@
     {
       "id": "Source code provenance",
       "severity": "High",
-      "message": "Contract metadata hash is not recognized.",
-      "pass": false
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
     },
     {
       "id": "Distinct assets",

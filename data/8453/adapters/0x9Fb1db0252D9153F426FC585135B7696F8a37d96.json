@@ -46,11 +46,11 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter's maximum staleness (14400 s) is sufficient for the feed's heartbeat (1800 s).",
+      "pass": true
     }
   ],
-  "label": "Chronicle deSPXA/USD 24/7 Price Proxy Feed ",
+  "label": "Chronicle deSPXA/USD 24/7 Price Proxy Feed (1800s)",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",
