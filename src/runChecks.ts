@@ -103,7 +103,11 @@ export function runChecks({
     });
 
     const name = adapter.name;
-    if (name === "ChainlinkOracle" || name === "ChainlinkInfrequentOracle") {
+    if (
+      name === "ChainlinkOracle" ||
+      name === "ChainlinkInfrequentOracle" ||
+      name === "ChainlinkInfrequentXStocksOracle"
+    ) {
       const aggregatorV3FeedCheck = knownAggregatorV3Feed({
         adapter,
         chainlinkMetadata,
@@ -119,8 +123,7 @@ export function runChecks({
 
       if (
         aggregatorV3FeedCheck.provider === "RedStone" &&
-        (aggregatorV3FeedCheck.heartbeat === 0 ||
-          aggregatorV3FeedCheck.heartbeat === undefined)
+        (aggregatorV3FeedCheck.heartbeat === 0 || aggregatorV3FeedCheck.heartbeat === undefined)
       ) {
         const seventyMinutesInSeconds = 70n * 60n; // 70 minutes
         const stalenessOk = adapter.maxStaleness < seventyMinutesInSeconds;

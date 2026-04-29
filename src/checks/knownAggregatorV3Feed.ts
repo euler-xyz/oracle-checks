@@ -2,6 +2,7 @@ import {
   Asset,
   ChainlinkMetadata,
   ChainlinkInfrequentOracle,
+  ChainlinkInfrequentXStocksOracle,
   ChainlinkOracle,
   RedStoneMetadata,
   EOracleMetadata,
@@ -13,7 +14,7 @@ import { CHECKS, failCheck, passCheck } from "./utils";
 import { OracleMethodology } from "../types";
 
 type Params = {
-  adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
+  adapter: ChainlinkOracle | ChainlinkInfrequentOracle | ChainlinkInfrequentXStocksOracle;
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
   eoracleMetadata?: EOracleMetadata;

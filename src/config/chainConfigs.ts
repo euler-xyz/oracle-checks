@@ -298,6 +298,7 @@ const baseChainConfigs = {
       "0x97165Ad36D96567a521958cc46914160B968752b": {
         provider: "Chronicle",
         description: "Chronicle deSPXA/USD 24/7 Price Proxy Feed",
+        heartbeat: 1800,
       },
       "0xEC41d6BA0fCdae0E41A521F510907BF7E4a87694": {
         provider: "Chronicle",

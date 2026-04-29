@@ -4,6 +4,7 @@ import {
   Adapter,
   Asset,
   ChainlinkFeed,
+  ChainlinkInfrequentXStocksOracle,
   ChronicleFeed,
   EOracleFeed,
   fetchChainlinkMetadata,
@@ -27,7 +28,7 @@ import {
   RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
 import { config as loadEnv } from "dotenv";
-import { Address, getAddress, Hex, isAddress, zeroAddress } from "viem";
+import { Address, getAddress, Hex, isAddress, type PublicClient, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
@@ -43,6 +44,42 @@ import { CollectedData } from "./types";
 loadEnv();
 
 const BATCH_SIZE = 50;
+
+const chainlinkInfrequentXStocksOracleAbi = [
+  {
+    type: "function",
+    name: "pauseTimeBefore",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "pauseTimeAfter",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "maxAllowedMultiplierChange",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "xStocksToken",
+    inputs: [],
+    outputs: [{ type: "address" }],
+    stateMutability: "view",
+  },
+] as const;
+
+const chainlinkInfrequentXStocksSelectors = [
+  "0914dbf1", // xStocksToken()
+  "0f743242", // maxAllowedMultiplierChange()
+];
 
 export async function collectData(chainId: number): Promise<CollectedData> {
   fs.mkdirSync(`./data/${chainId}`, { recursive: true });
@@ -121,7 +158,26 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const bytecodes: (Hex | undefined)[] = [];
   for (const [i, addressBatch] of addressBatches.entries()) {
     const adapterBatch = await indexAdapters({ adapterAddresses: addressBatch, publicClient });
-    adapterBatch.forEach((adapter) => {
+
+    const bytecodeBatch = await Promise.all(
+      addressBatch.map((address) =>
+        publicClient.getCode({
+          address,
+        }),
+      ),
+    );
+
+    const normalizedAdapterBatch = await Promise.all(
+      adapterBatch.map((adapter, adapterIndex) =>
+        normalizeChainlinkInfrequentXStocksOracle({
+          adapter,
+          code: bytecodeBatch[adapterIndex],
+          publicClient,
+        }),
+      ),
+    );
+
+    normalizedAdapterBatch.forEach((adapter) => {
       if (adapter?.name === "CrossAdapter") {
         if (isAddress(adapter.oracleBaseCross)) {
           newlyFoundUnderlyingAdapterAddresses.push(getAddress(adapter.oracleBaseCross));
@@ -131,15 +187,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
         }
       }
     });
-    adapters.push(...adapterBatch);
-
-    const bytecodeBatch = await Promise.all(
-      addressBatch.map((address) =>
-        publicClient.getCode({
-          address,
-        }),
-      ),
-    );
+    adapters.push(...normalizedAdapterBatch);
     bytecodes.push(...bytecodeBatch);
     console.log(`${logPrefix} Indexed adapters ${i + 1}/${addressBatches.length}`);
   }
@@ -156,8 +204,6 @@ export async function collectData(chainId: number): Promise<CollectedData> {
       adapterAddresses: newAdapterAddresses,
       publicClient,
     });
-    adapters.push(...newAdapters);
-
     const newBytecodes = await Promise.all(
       newAdapterAddresses.map((address) =>
         publicClient.getCode({
@@ -165,6 +211,16 @@ export async function collectData(chainId: number): Promise<CollectedData> {
         }),
       ),
     );
+    const normalizedNewAdapters = await Promise.all(
+      newAdapters.map((adapter, adapterIndex) =>
+        normalizeChainlinkInfrequentXStocksOracle({
+          adapter,
+          code: newBytecodes[adapterIndex],
+          publicClient,
+        }),
+      ),
+    );
+    adapters.push(...normalizedNewAdapters);
     bytecodes.push(...newBytecodes);
     console.log(
       `${logPrefix} Indexed ${newAdapterAddresses.length} newly found cross underlying adapters`,
@@ -174,7 +230,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const aggregatorV3Feeds = adapters
     .filter(
       (adapter) =>
-        adapter?.name === "ChainlinkOracle" || adapter?.name === "ChainlinkInfrequentOracle",
+        adapter?.name === "ChainlinkOracle" ||
+        adapter?.name === "ChainlinkInfrequentOracle" ||
+        adapter?.name === "ChainlinkInfrequentXStocksOracle",
     )
     .map(({ feed }) => feed);
 
@@ -303,4 +361,61 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     mevLinearDiscountFeeds,
     assets,
   };
+}
+
+async function normalizeChainlinkInfrequentXStocksOracle({
+  adapter,
+  code,
+  publicClient,
+}: {
+  adapter: Adapter | null;
+  code: Hex | undefined;
+  publicClient: PublicClient;
+}): Promise<Adapter | null> {
+  if (
+    adapter?.name !== "ChainlinkInfrequentOracle" ||
+    !isChainlinkInfrequentXStocksBytecode(code)
+  ) {
+    return adapter;
+  }
+
+  const [pauseTimeBefore, pauseTimeAfter, maxAllowedMultiplierChange, xStocksToken] =
+    await Promise.all([
+      publicClient.readContract({
+        address: adapter.address,
+        abi: chainlinkInfrequentXStocksOracleAbi,
+        functionName: "pauseTimeBefore",
+      }),
+      publicClient.readContract({
+        address: adapter.address,
+        abi: chainlinkInfrequentXStocksOracleAbi,
+        functionName: "pauseTimeAfter",
+      }),
+      publicClient.readContract({
+        address: adapter.address,
+        abi: chainlinkInfrequentXStocksOracleAbi,
+        functionName: "maxAllowedMultiplierChange",
+      }),
+      publicClient.readContract({
+        address: adapter.address,
+        abi: chainlinkInfrequentXStocksOracleAbi,
+        functionName: "xStocksToken",
+      }),
+    ]);
+
+  return {
+    ...adapter,
+    name: "ChainlinkInfrequentXStocksOracle",
+    pauseTimeBefore,
+    pauseTimeAfter,
+    maxAllowedMultiplierChange,
+    xStocksToken,
+  } satisfies ChainlinkInfrequentXStocksOracle;
+}
+
+function isChainlinkInfrequentXStocksBytecode(code: Hex | undefined): boolean {
+  if (!code || code === "0x") return false;
+
+  const normalizedCode = code.toLowerCase();
+  return chainlinkInfrequentXStocksSelectors.every((selector) => normalizedCode.includes(selector));
 }
