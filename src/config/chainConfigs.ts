@@ -296,11 +296,11 @@ const baseChainConfigs = {
         description: "Re Protocol ReUSD/USD Custom Feed",
       },
       "0x97165Ad36D96567a521958cc46914160B968752b": {
-        provider: "Chronicle deSPXA/USD",
+        provider: "Chronicle",
         description: "Chronicle deSPXA/USD 24/7 Price Proxy Feed",
       },
       "0xEC41d6BA0fCdae0E41A521F510907BF7E4a87694": {
-        provider: "Chronicle deJAAA/USD",
+        provider: "Chronicle",
         description: "Chronicle deJAAA/USD Proof of Asset Feed",
       },
     },
