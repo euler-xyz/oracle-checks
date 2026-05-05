@@ -1,0 +1,53 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0x6e23447000a924f5CF6a5748A2F14c36b2C65aec",
+  "chainId": 1,
+  "base": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feedId": "0x7075664554480000000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xD9A442856C234a39a81a089C06451EBAa4306a72 is pufETH (pufETH) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "pufETH/USD",
+  "methodology": "Unknown",
+  "model": "Pull",
+  "provider": "RedStone Pull",
+  "whitelisted": false
+}

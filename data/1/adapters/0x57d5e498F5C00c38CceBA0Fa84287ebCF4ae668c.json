@@ -1,0 +1,51 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0x57d5e498F5C00c38CceBA0Fa84287ebCF4ae668c",
+  "chainId": 1,
+  "base": "0x22222222aEA0076fCA927a3f44dc0B4FdF9479D6",
+  "quote": "0x01791F726B4103694969820be083196cC7c045fF",
+  "rateProvider": "0x07CFe004935B3aDCc82A4175B47136F714307166",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x22222222aEA0076fCA927a3f44dc0B4FdF9479D6 is yYB (Yearn YB Token) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x01791F726B4103694969820be083196cC7c045fF is YB (Yield Basis) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "yYB/YB",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Rate Provider",
+  "whitelisted": false
+}

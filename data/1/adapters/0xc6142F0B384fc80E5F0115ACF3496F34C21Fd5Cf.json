@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xc6142F0B384fc80E5F0115ACF3496F34C21Fd5Cf",
+  "chainId": 1,
+  "base": "0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC",
+  "cross": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x6E4baa3F450faBc0A81f04C2fF8CBA7F3983fAa1",
+  "oracleCrossQuote": "0x1B965dB157027423b493328CbddeF2335063897b",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6bf9Ed639Bae32095078A9f03F001735CAaF52BC is VII-SY-stETH (VII Finance Wrapped Smoothed Yield Liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 is stETH (Liquid staked Ether 2.0) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "VII-SY-stETH/stETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

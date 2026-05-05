@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x688ca633f8d0E4d7fe9e9dF705baa69e614f7af4",
+  "chainId": 1,
+  "base": "0x5bfADf221F712A301c6B02c89D24B044777b67AB",
+  "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x994c01F32D8f003083DBF7a5Da09ac47A6984e73",
+  "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5bfADf221F712A301c6B02c89D24B044777b67AB is VII-eWETH-42 (VII Finance Wrapped EVK Vault eWETH-42) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "VII-eWETH-42/WETH/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

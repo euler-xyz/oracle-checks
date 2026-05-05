@@ -1,0 +1,59 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xA5263145d8c9bfC89C7a55ea21Fb5B617c7b6cfF",
+  "chainId": 1,
+  "base": "0xd2E230f71CA8DB211067BC4070A94D268b313fA3",
+  "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x36E2DA987edcB09078ac992Ef9936DFABcC726d0",
+  "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xd2E230f71CA8DB211067BC4070A94D268b313fA3 is PT-alUSD-11DEC2025 (PT Autonomous Liquidity USD 11DEC2025) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-alUSD-11DEC2025/USDC/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
+}

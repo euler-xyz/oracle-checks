@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x68f58e7F99503b389cf8cbb53c1B6e57bB63640D",
+  "chainId": 1,
+  "base": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+  "quote": "0x0000000000000000000000000000000000000188",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29 is JPYC (JPY Coin) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Onchain indexing failed for asset 0x0000000000000000000000000000000000000188: could not get symbol.",
+      "pass": false
+    },
+    {
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
+      "pass": true
+    }
+  ],
+  "label": "1:0.1 JPYC/undefined",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}
