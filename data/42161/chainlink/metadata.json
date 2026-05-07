@@ -983,6 +983,116 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "BTC/USDT-Datalink-Binance-MarkPrice-mainnet-production",
+    "pair": [
+      "BTC",
+      "USDT"
+    ],
+    "path": "btc-usdt-datalink-binance-markprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitcoin",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Bitcoin",
+      "attributeType": "MarkPrice",
+      "baseAsset": "BTC",
+      "baseAssetClic": "BTC_CR",
+      "baseAssetEntityId": "crypto-BTC",
+      "clicProductName": "BTC/USDT-Datalink-Binance-MarkPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPrice",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BTC/USDT-Datalink-Binance-MarkPrice-benchmark",
+        "streamID": 1000005324,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00024aed2d5b6c89915b5f6e0efd923b43e186f85e254048508a0b3dd6930404",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "SKYAI/USD-RefPrice-mainnet-production",
     "pair": [
       "SKYAI",
@@ -1631,6 +1741,116 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "SOL/USDT-Datalink-Binance-MarkPrice-mainnet-production",
+    "pair": [
+      "SOL",
+      "USDT"
+    ],
+    "path": "sol-usdt-datalink-binance-markprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Solana",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Solana",
+      "attributeType": "MarkPrice",
+      "baseAsset": "SOL",
+      "baseAssetClic": "SOL_CR",
+      "baseAssetEntityId": "crypto-SOL",
+      "clicProductName": "SOL/USDT-Datalink-Binance-MarkPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPrice",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SOL/USDT-Datalink-Binance-MarkPrice-benchmark",
+        "streamID": 1000005322,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0002adcd09042c22d247ab800c7c73ae54ec5a854ae21f2f6a36720332bff9ed",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "TROLL/USD-RefPrice-mainnet-production",
     "pair": [
       "TROLL",
@@ -1999,6 +2219,116 @@
       }
     ],
     "feedId": "0x0002c945483316cea9053ce1f82df6d0f80adf07a201448b1a8255600a3c22f2",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH/USDT-Datalink-Binance-MarkPrice-mainnet-production",
+    "pair": [
+      "ETH",
+      "USDT"
+    ],
+    "path": "eth-usdt-datalink-binance-markprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ethereum",
+      "attributeType": "MarkPrice",
+      "baseAsset": "ETH",
+      "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
+      "clicProductName": "ETH/USDT-Datalink-Binance-MarkPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPrice",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ETH/USDT-Datalink-Binance-MarkPrice-benchmark",
+        "streamID": 1000005320,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0002cef11da39bb5a164911fda1c8ff9e6061f36655b1a29e7e9c08fab133c8d",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
