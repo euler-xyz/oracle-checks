@@ -10463,7 +10463,7 @@
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "ETH/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "ETH/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005128,
         "type": "int192",
         "multiplier": "1000000000000000000"
@@ -11000,7 +11000,7 @@
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "BNB/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BNB/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005133,
         "type": "int192",
         "multiplier": "1000000000000000000"
@@ -22285,7 +22285,7 @@
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "BTC/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BTC/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005123,
         "type": "int192",
         "multiplier": "1000000000000000000"
@@ -50314,7 +50314,7 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
-    "multiply": "1",
+    "multiply": "1000000000000000000",
     "name": "BNB/USDT-Datalink-Binance-TopOfBook-mainnet-production",
     "pair": [
       "BNB",
@@ -50348,17 +50348,17 @@
       "serviceLevel": "Datalink",
       "dataProvider": "coinpaprika"
     },
-    "decimals": 0,
+    "decimals": 18,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "BNB/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BNB/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005133,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "BNB/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "name": "BNB/USDT-Datalink-Binance-TopOfBook-benchmark-timestamp",
         "streamID": 1000005134,
         "type": "uint64",
         "multiplier": "1000000"
@@ -50388,13 +50388,13 @@
         "multiplier": "0"
       },
       {
-        "name": "BNB/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BNB/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005133,
         "type": "int192",
         "multiplier": "0"
       },
       {
-        "name": "BNB/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BNB/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005133,
         "type": "uint32",
         "multiplier": "1"
@@ -54038,7 +54038,7 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
-    "multiply": "1",
+    "multiply": "1000000000000000000",
     "name": "ETH/USDT-Datalink-Binance-TopOfBook-mainnet-production",
     "pair": [
       "ETH",
@@ -54072,17 +54072,17 @@
       "serviceLevel": "Datalink",
       "dataProvider": "coinpaprika"
     },
-    "decimals": 0,
+    "decimals": 18,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "ETH/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "ETH/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005128,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "ETH/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "name": "ETH/USDT-Datalink-Binance-TopOfBook-benchmark-timestamp",
         "streamID": 1000005129,
         "type": "uint64",
         "multiplier": "1000000"
@@ -54112,13 +54112,13 @@
         "multiplier": "0"
       },
       {
-        "name": "ETH/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "ETH/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005128,
         "type": "int192",
         "multiplier": "0"
       },
       {
-        "name": "ETH/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "ETH/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005128,
         "type": "uint32",
         "multiplier": "1"
@@ -64755,7 +64755,7 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
-    "multiply": "1",
+    "multiply": "1000000000000000000",
     "name": "BTC/USDT-Datalink-Binance-TopOfBook-mainnet-production",
     "pair": [
       "BTC",
@@ -64789,17 +64789,17 @@
       "serviceLevel": "Datalink",
       "dataProvider": "coinpaprika"
     },
-    "decimals": 0,
+    "decimals": 18,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "BTC/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BTC/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005123,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "BTC/USDT-Datalink-Binance-TopOfBook-mid-timestamp",
+        "name": "BTC/USDT-Datalink-Binance-TopOfBook-benchmark-timestamp",
         "streamID": 1000005124,
         "type": "uint64",
         "multiplier": "1000000"
@@ -64829,13 +64829,13 @@
         "multiplier": "0"
       },
       {
-        "name": "BTC/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BTC/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005123,
         "type": "int192",
         "multiplier": "0"
       },
       {
-        "name": "BTC/USDT-Datalink-Binance-TopOfBook-mid",
+        "name": "BTC/USDT-Datalink-Binance-TopOfBook-benchmark",
         "streamID": 1000005123,
         "type": "uint32",
         "multiplier": "1"
