@@ -1038,7 +1038,7 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "NFALCON",
       "contract_id": "plume: 0x519B031635e855Fc1D064c480820055c655E7737",
-      "description": "NEST FLACON / US DOLLAR REDEMPTION RATE",
+      "description": "NEST FALCON / US DOLLAR REDEMPTION RATE",
       "display_symbol": "NFALCON/USD",
       "generic_symbol": "NFALCONUSD",
       "quote_currency": "USD",
@@ -27665,6 +27665,20 @@
     }
   },
   {
+    "id": "0x886e6dbbca8cfcd2c5a07fac9eee4820e3f1af0043e51515e39c5ab8f14b888e",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "HEMIBTC",
+      "contract_id": "hemi: 0xaa40c0c7644e0b2b224509571e10ad20d9c4ef28",
+      "description": "HEMI BITCOIN / BITCOIN COLLATERALIZATION RATIO",
+      "display_symbol": "HEMIBTC/BTC",
+      "generic_symbol": "HEMIBTCBTC",
+      "quote_currency": "BTC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HEMIBTC/BTC.RR"
+    }
+  },
+  {
     "id": "0x5e8c65917af89ed66d03d082b1ae5ac93b8ed8e32363a61842c33f7d66cb2e00",
     "attributes": {
       "asset_type": "Crypto",
@@ -35479,6 +35493,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0216/0000-1430&1800-2400,0402/0000-1700,0403/C",
       "symbol": "Commodities.CCX6/USD"
+    }
+  },
+  {
+    "id": "0x2e8a8a3f69c0fb56b778ac79a6dc13a42d51cd8920a12ac2f9ffddce8cc13dac",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "LIMUSD",
+      "contract_id": "hype: 0x1822bd335489d84abdd0779a7dCAeDa0625e83c8",
+      "description": "LIMINAL US DOLLAR / USD COIN REDEMPTION RATE",
+      "display_symbol": "LIMUSD/USD",
+      "generic_symbol": "LIMUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LIMUSD/USD.RR"
     }
   },
   {
