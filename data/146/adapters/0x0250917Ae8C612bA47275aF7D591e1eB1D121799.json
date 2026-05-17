@@ -48,20 +48,20 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: WSTKSCUSD/SCUSD",
-      "pass": true
+      "message": "Could not find matching Pyth feed",
+      "pass": false
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (wstkscUSD) corresponds to the Pyth feed's base asset from metadata (WSTKSCUSD).",
-      "pass": true
+      "message": "Feed is unknown.",
+      "pass": false
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (scUSD) corresponds to the Pyth feed's quote asset from metadata (SCUSD).",
-      "pass": true
+      "message": "Feed is unknown",
+      "pass": false
     },
     {
       "id": "Recognized Pyth proxy",
@@ -76,8 +76,8 @@
       "pass": true
     }
   ],
-  "label": "Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
-  "methodology": "Exchange Rate",
+  "label": "unknown feed (60s, ±300bps)",
+  "methodology": "Unknown",
   "model": "Pull",
   "provider": "Pyth",
   "whitelisted": false
