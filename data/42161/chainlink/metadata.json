@@ -21576,6 +21576,127 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "NEX/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "NEX",
+      "USD"
+    ],
+    "path": "nex-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Nexus",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Nexus",
+      "attributeType": "CexPrice",
+      "baseAsset": "NEX",
+      "baseAssetClic": "NEX_CR",
+      "baseAssetEntityId": "crypto-NEX",
+      "clicProductName": "NEX/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "NEX/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000005362,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NEX/USD-Streams-CexPrice-bid",
+        "streamID": 1000005364,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NEX/USD-Streams-CexPrice-ask",
+        "streamID": 1000005363,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003e74f72eeac8bd3063a9771d9f811110eddeca306c6a908e69bdad9c27553",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "INF/USD-RefPrice-mainnet-production",
     "pair": [
       "INF",
@@ -50193,6 +50314,157 @@
       }
     ],
     "feedId": "0x000b278e62af558809356cad72916815687c6a1ccb245d3a3c8e8506d025e53d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "FLHY/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "FLHY",
+      "USD"
+    ],
+    "path": "flhy-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Franklin High Yield Corporate ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Franklin High Yield Corporate ETF",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "FLHY",
+      "baseAssetClic": "FLHY_EQ_REG",
+      "baseAssetEntityId": "equity-FLHY",
+      "clicProductName": "FLHY/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005366,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005367,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005368,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005369,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005370,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005371,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "FLHY/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005372,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b2838ada4fc187847d0e410bde351c659cae04f94a84716e3e7d562f9841e",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
