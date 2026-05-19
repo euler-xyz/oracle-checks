@@ -34143,6 +34143,127 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "UKOIL/USD-Datalink-ForexPrice-mainnet-production",
+    "pair": [
+      "UKOIL",
+      "USD"
+    ],
+    "path": "ukoil-usd-datalink-forexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Brent Crude Oil",
+    "feedCategory": "low",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Brent Crude Oil",
+      "attributeType": "ForexPrice",
+      "baseAsset": "UKOIL",
+      "baseAssetClic": "UKOIL_CO_Spot",
+      "clicProductName": "UKOIL/USD-Datalink-ForexPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Ice_Energy_Group",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v8",
+      "serviceLevel": "Datalink",
+      "dataProvider": "tiingo"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "UKOIL/USD-Datalink-ForexPrice-benchmark-timestamp",
+        "streamID": 1000005352,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "UKOIL/USD-Datalink-ForexPrice-benchmark",
+        "streamID": 1000005351,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Ice_Energy_Group-Streams-MarketStatus-marketStatus",
+        "streamID": 1000005349,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000842e6218954aaccb90d64dc427722c9fd012809dabf5e4424a0516bcaec9f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "XAG/USD-RefPrice-Timestamped-mainnet-production",
     "pair": [
       "XAG",
