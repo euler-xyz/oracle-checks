@@ -1366,7 +1366,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1385,6 +1385,7 @@
       "quoteAsset": "BNB",
       "quoteAssetClic": "BNB_CR",
       "quoteAssetEntityId": "crypto-BNB",
+      "shutdownDate": "June 3rd, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX",
       "valueSecuring": "value-securing"
@@ -4107,7 +4108,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Swipe",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4125,6 +4126,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "June 3rd, 2026",
       "valueSecuring": "value-securing"
     },
     "decimals": 8,
@@ -6334,13 +6336,21 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Thena",
-    "feedCategory": "",
-    "feedType": "",
+    "feedCategory": "new",
+    "feedType": "Crypto",
     "docs": {
+      "assetClass": "Crypto",
       "attributeType": "cex_price",
+      "baseAsset": "THE",
       "baseAssetClic": "THE_CR",
       "baseAssetEntityId": "crypto-THE",
+      "blockchainName": "Binance",
+      "clicProductName": "THE/USD-RefPrice-DF-Binance-001",
+      "deliveryChannelCode": "DF",
       "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
       "valueSecuring": "value-securing"
