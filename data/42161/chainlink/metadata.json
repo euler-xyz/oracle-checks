@@ -23272,7 +23272,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -54108,6 +54107,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "DELL",
+      "USD"
+    ],
+    "path": "dell-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dell Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Dell Technologies Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "DELL",
+      "baseAssetClic": "DELL_EQ_EXT",
+      "baseAssetEntityId": "equity-DELL",
+      "clicProductName": "DELL/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000005400,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005401,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000005402,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000005403,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000005404,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000005405,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005406,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b413792dc3fe553a09ff7237aec7c2d39987e1321363a39ff206242d1b716",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "XLRE/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "XLRE",
@@ -70638,6 +70788,157 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "DELL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "DELL",
+      "USD"
+    ],
+    "path": "dell-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dell Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Dell Technologies Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "DELL",
+      "baseAssetClic": "DELL_EQ_ON",
+      "baseAssetEntityId": "equity-DELL",
+      "clicProductName": "DELL/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000005392,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005393,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000005394,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000005395,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000005396,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000005397,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005398,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bb1cdb34de1b8b39be9c3f441ac548fedb8b4298a7764044f1d7ec625f50e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "ENI/EUR-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -77729,6 +78030,157 @@
       }
     ],
     "feedId": "0x000bd914268412318c1ab2585e957acea5d7faab84e14d3306ef04b6826ca056",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "DELL/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "DELL",
+      "USD"
+    ],
+    "path": "dell-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dell Technologies Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Dell Technologies Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "DELL",
+      "baseAssetClic": "DELL_EQ_REG",
+      "baseAssetEntityId": "equity-DELL",
+      "clicProductName": "DELL/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005384,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005385,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005386,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005387,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005388,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005389,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "DELL/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005390,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bd99a9378177987fe36508a0f99cec4db973130f5ccc5f16014814bb479bc",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -111769,7 +112221,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "deprecating",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -111788,7 +112240,6 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
-      "shutdownDate": "June 3rd, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX",
       "valueSecuring": "value-securing"
