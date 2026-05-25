@@ -25536,6 +25536,128 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ETH/USDC-Datalink-Lighter-FundingRate-mainnet-production",
+    "pair": [
+      "ETH",
+      "USDC"
+    ],
+    "path": "eth-usdc-datalink-lighter-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ethereum",
+      "attributeType": "FundingRate",
+      "baseAsset": "ETH",
+      "baseAssetClic": "ETH_CR",
+      "baseAssetEntityId": "crypto-ETH",
+      "clicProductName": "ETH/USDC-Datalink-Lighter-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "quoteAssetEntityId": "crypto-USDC",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ETH/USDC-Datalink-Lighter-FundingRate-fundingRate",
+        "streamID": 1000005420,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ETH/USDC-Datalink-Lighter-FundingRate-fundingTimestamp",
+        "streamID": 1000005421,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "ETH/USDC-Datalink-Lighter-FundingRate-epochDuration",
+        "streamID": 1000005422,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00055edecd856c32d0ff1714584975835cb938577b72792c890c513d5e4f4257",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "HYPE/USDT-Datalink-Binance-FundingRate-mainnet-production",
     "pair": [
       "HYPE",
