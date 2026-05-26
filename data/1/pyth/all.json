@@ -2363,6 +2363,912 @@
   },
   {
     "name": "PythOracle",
+    "address": "0xD648Bd39771e10F0BFBF69AFCd966642EE774a88",
+    "chainId": 1,
+    "base": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xc1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8 is PYUSD (PayPal USD) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: PYUSD/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (PYUSD) corresponds to the Pyth feed's base asset from metadata (PYUSD).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.PYUSD/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xD8311a3e5aBFDF1c5FFf4C4335C4f0B79315B8E5",
+    "chainId": 1,
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Could not find matching Pyth feed",
+        "pass": false
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Base asset is unknown.",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Quote asset is unknown",
+        "pass": false
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is not connected to the official Pyth proxy.",
+        "pass": false
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "unknown feed (undefineds, ±undefinedbps)",
+    "methodology": "Unknown",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
+    "chainId": 1,
+    "base": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (LBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xe16E7d93720B470C71e02CD2D483ba18aE0e3DF7",
+    "chainId": 1,
+    "base": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x710659c5a68e2416ce4264ca8d50d34acc20041d91289110eea152c52ff3dc39",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x83F20F44975D03b1b09e64809B757c47f942BEeA is sDAI (Savings Dai) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: SDAI/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (sDAI) corresponds to the Pyth feed's base asset from metadata (SDAI).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.SDAI/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xE46A0c83F8061DF2B372fe1579aB6CeAe75F4471",
+    "chainId": 1,
+    "base": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.WSTETH/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xe6BBD489B220b3FF3a3eE7eafAacbb9b775bB99a",
+    "chainId": 1,
+    "base": "0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x5e8c65917af89ed66d03d082b1ae5ac93b8ed8e32363a61842c33f7d66cb2e00",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5 is USD0 (Usual USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: USD0/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (USD0) corresponds to the Pyth feed's base asset from metadata (USD0).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.USD0/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xe737A44B9f5B3b4816cad0E20161AC5432E964c0",
+    "chainId": 1,
+    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xeB059be0bfD917d3B47F8bf0cF82eD2DCbe91b88",
+    "chainId": 1,
+    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xf21842C0dce883D02d0c62AB45AaA2C4dfA4e93C",
+    "chainId": 1,
+    "base": "0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649 is G (Gravity) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: G/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (G) corresponds to the Pyth feed's base asset from metadata (G).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.G/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xf6D8CcAa6677265F0A419F47539A7A87AA65C987",
+    "chainId": 1,
+    "base": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xca3ba9a619a4b3755c10ac7d5e760275aa95e9823d38a84fedd416856cdba37c",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497 is sUSDe (Staked USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: SUSDE/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (sUSDe) corresponds to the Pyth feed's base asset from metadata (SUSDE).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.SUSDE/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xfa6a85C68E762C94f05d9314e8214cA73F17E2b4",
+    "chainId": 1,
+    "base": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: USDS/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (USDS) corresponds to the Pyth feed's base asset from metadata (USDS).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.USDS/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xFE4f419D01e095284B401AE832978cf2742079E7",
+    "chainId": 1,
+    "base": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.ETH/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "PythOracle",
     "address": "0x92b172Bd476948d01f858Dd3FaAc4943e3BC775E",
     "chainId": 1,
     "base": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
@@ -2594,12 +3500,12 @@
   },
   {
     "name": "PythOracle",
-    "address": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
+    "address": "0xDCb7cF0bFe8a6D9b61d5c29DA4c4F3B48e0829e7",
     "chainId": 1,
-    "base": "0x8236a87084f8B84306f72007F36F2618A5634494",
-    "quote": "0x0000000000000000000000000000000000000348",
+    "base": "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
-    "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "feedId": "0xee279eeb2fec830e3f535ad4d6524eb35eb1c6890cb1afc0b64554d08c88727e",
     "maxStaleness": "120",
     "maxConfWidth": "300",
     "checks": [
@@ -2624,31 +3530,31 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "message": "Asset 0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa is mETH (mETH) with 18 decimals.",
         "pass": true
       },
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
         "pass": true
       },
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: METH/ETH",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
-        "pass": false
+        "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
+        "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (WETH) corresponds to the Pyth feed's quote asset from metadata (ETH).",
         "pass": true
       },
       {
@@ -2664,85 +3570,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.BTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
-    "model": "Pull",
-    "provider": "Pyth"
-  },
-  {
-    "name": "PythOracle",
-    "address": "0xfa6a85C68E762C94f05d9314e8214cA73F17E2b4",
-    "chainId": 1,
-    "base": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
-    "feedId": "0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
-    "maxStaleness": "120",
-    "maxConfWidth": "300",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Recognized Pyth feed",
-        "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDS/USD",
-        "pass": true
-      },
-      {
-        "id": "Pyth base correspondence",
-        "severity": "Info",
-        "message": "Adapter's base asset (USDS) corresponds to the Pyth feed's base asset from metadata (USDS).",
-        "pass": true
-      },
-      {
-        "id": "Pyth quote correspondence",
-        "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
-      },
-      {
-        "id": "Recognized Pyth proxy",
-        "severity": "High",
-        "message": "Adapter is connected to the official Pyth proxy.",
-        "pass": true
-      },
-      {
-        "id": "Sane Pyth staleness range",
-        "severity": "High",
-        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
-        "pass": true
-      }
-    ],
-    "label": "Crypto.USDS/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "Crypto.METH/ETH.RR (120s, ±300bps)",
+    "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth"
   }
