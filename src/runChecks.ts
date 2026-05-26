@@ -1,5 +1,5 @@
 import { chainIdToPythProxy } from "@objectivelabs/oracle-sdk";
-import { Address, formatUnits, parseUnits } from "viem";
+import { formatUnits, parseUnits } from "viem";
 
 import {
   assetConsistent,
@@ -22,7 +22,6 @@ import {
   pythQuoteCorrespondence,
   pythStalenessRange,
   pendlePoolOfficial,
-  registry,
 } from "./checks";
 import { chainConfigs } from "./config/chainConfigs";
 import { extractAssetAddresses } from "./extractAssetAddresses";
@@ -31,7 +30,6 @@ import { AdapterToResults, CollectedData, OracleMethodology, OracleModel } from 
 export function runChecks({
   chainId,
   adapterAddresses,
-  adapterRegistryEntries,
   adapters,
   bytecodes,
   assets,
@@ -71,12 +69,6 @@ export function runChecks({
       label = "Unknown adapter";
       return;
     }
-
-    const adapterAddressLower = adapterAddresses[index].toLowerCase() as Address;
-    const registryCheck = registry({
-      entry: adapterRegistryEntries[adapterAddressLower],
-    });
-    checks.push(registryCheck);
 
     checks.push(
       knownMetadataHash({
@@ -295,7 +287,6 @@ export function runChecks({
       methodology,
       model,
       provider,
-      whitelisted: registryCheck.pass,
     };
   });
 

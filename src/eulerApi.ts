@@ -1,37 +1,32 @@
 import { Address } from "viem";
 
-export type AdapterEntry = {
-  asset0: Address;
-  asset1: Address;
-  element: Address;
-  addedAt: string;
-};
+const DEFAULT_PAGE_SIZE = 100;
 
 export type DeployedRouter = {
-  router: `0x${string}`;
-  chainId: number;
-  deployer: `0x${string}`;
-  deployedAt: bigint;
-  configs: {
-    asset0: `0x${string}`;
-    asset1: `0x${string}`;
-    oracle: `0x${string}`;
-    timestamp: bigint;
-    logIndex: number;
-  }[];
-  vaults: {
-    vault: `0x${string}`;
-    asset: `0x${string}`;
-    timestamp: bigint;
-    logIndex: number;
-  }[];
+  router: Address;
+  chainId?: number;
+  deployer?: Address;
+  deployedAt?: string;
+  configs?: unknown[];
+  vaults?: unknown[];
 };
 
-type EulerApiHistoricalAdaptersResponse = Record<number, Address[]>;
+type HistoricalAdapter = {
+  chainId: number;
+  adapter: Address;
+  firstSeenTimestamp: string;
+  lastSeenTimestamp: string;
+};
 
-type EulerApiWhitelistedAdaptersResponse = Record<number, AdapterEntry[]>;
-
-type EulerApiDeployedRoutersResponse = DeployedRouter[];
+type EulerApiPaginatedResponse<T> = {
+  data: T[];
+  meta: {
+    total: number;
+    offset: number;
+    limit: number;
+    chainId: string;
+  };
+};
 
 function getEulerApiMetadata(): {
   url: string;
@@ -67,28 +62,45 @@ async function fetchEulerApi<T>(path: string): Promise<T | null> {
     });
 }
 
+async function fetchEulerApiPages<T>(path: string, chainId: number): Promise<T[]> {
+  const items: T[] = [];
+  let offset = 0;
+  let hasMore = true;
+
+  while (hasMore) {
+    const params = new URLSearchParams({
+      chainId: String(chainId),
+      limit: String(DEFAULT_PAGE_SIZE),
+      offset: String(offset),
+    });
+
+    const data = await fetchEulerApi<EulerApiPaginatedResponse<T>>(`${path}?${params}`);
+    if (!data || !Array.isArray(data.data)) {
+      return items;
+    }
+
+    items.push(...data.data);
+
+    const { total, limit } = data.meta;
+    if (items.length >= total || data.data.length === 0) {
+      hasMore = false;
+    } else {
+      offset += limit;
+    }
+  }
+
+  return items;
+}
+
 export async function fetchEulerApiHistoricalAdapters(chainId: number): Promise<Address[]> {
-  return fetchEulerApi<EulerApiHistoricalAdaptersResponse>(
-    `/v1/oracle/historical-adapters?chainId=${chainId}`,
-  ).then((data) => {
-    if (!data) return [];
-    const value = (data as EulerApiHistoricalAdaptersResponse)[chainId];
-    return Array.isArray(value) ? value : [];
-  });
+  const adapters = await fetchEulerApiPages<HistoricalAdapter>(
+    "/v3/oracles/historical-adapters",
+    chainId,
+  );
+
+  return adapters.map(({ adapter }) => adapter);
 }
 
 export async function fetchEulerApiDeployedRouters(chainId: number): Promise<DeployedRouter[]> {
-  return fetchEulerApi<EulerApiDeployedRoutersResponse>(
-    `/v1/oracle/routers?chainId=${chainId}`,
-  ).then((data) => (Array.isArray(data) ? data : []));
-}
-
-export async function fetchEulerApiWhitelistedAdapters(chainId: number): Promise<AdapterEntry[]> {
-  return fetchEulerApi<EulerApiWhitelistedAdaptersResponse>(
-    `/v1/oracle/whitelisted-adapters?chainId=${chainId}`,
-  ).then((data) => {
-    if (!data) return [];
-    const value = (data as EulerApiWhitelistedAdaptersResponse)[chainId];
-    return Array.isArray(value) ? value : [];
-  });
+  return fetchEulerApiPages<DeployedRouter>("/v3/oracles/routers", chainId);
 }

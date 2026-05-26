@@ -18,12 +18,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash matches a known hash.",
@@ -57,6 +51,5 @@
   "label": "STRC / USD (0.1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
-  "provider": "Chainlink",
-  "whitelisted": false
+  "provider": "Chainlink"
 }

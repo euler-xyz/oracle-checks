@@ -65,8 +65,4 @@ export const CHECKS: Record<string, CheckDefinition> = {
     id: "Sane fixed rate",
     severity: "High",
   },
-  ADAPTER_REGISTRY: {
-    id: "Adapter whitelist",
-    severity: "Med",
-  },
 };

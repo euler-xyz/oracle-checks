@@ -12,12 +12,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash matches a known hash.",
@@ -45,6 +39,5 @@
   "label": "AA_idle_Fasanara/USDC",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Idle",
-  "whitelisted": false
+  "provider": "Idle"
 }

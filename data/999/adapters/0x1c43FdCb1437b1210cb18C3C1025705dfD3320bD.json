@@ -1,0 +1,77 @@
+{
+  "name": "PythOracle",
+  "address": "0x1c43FdCb1437b1210cb18C3C1025705dfD3320bD",
+  "chainId": 999,
+  "base": "0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c",
+  "quote": "0x5555555555555555555555555555555555555555",
+  "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+  "feedId": "0x19aec77cb70be18c66df7afd33da651d7b376fd26f7c06f2e8b77536c820a281",
+  "maxStaleness": "3600",
+  "maxConfWidth": "500",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c is haHYPE (haHYPE) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: HAHYPE/HYPE",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (haHYPE) corresponds to the Pyth feed's base asset from metadata (HAHYPE).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (WHYPE) does not correspond to the Pyth feed's quote asset from metadata (HAHYPE).",
+      "pass": false
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+      "pass": false
+    }
+  ],
+  "label": "Crypto.HAHYPE/HYPE.RR (3600s, ±500bps)",
+  "methodology": "Exchange Rate",
+  "model": "Pull",
+  "provider": "Pyth"
+}

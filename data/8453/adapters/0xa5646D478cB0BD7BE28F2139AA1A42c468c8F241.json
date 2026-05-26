@@ -12,12 +12,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash is not recognized.",
@@ -39,6 +33,5 @@
   "label": "undefined/undefined",
   "methodology": "TWAP",
   "model": "Push",
-  "provider": "Uniswap V3",
-  "whitelisted": false
+  "provider": "Uniswap V3"
 }

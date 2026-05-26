@@ -14,6 +14,5 @@ export * from "./pythFeedOfficial";
 export * from "./pythProxyOfficial";
 export * from "./pythQuoteCorrespondence";
 export * from "./pythStalenessRange";
-export * from "./registry";
 export * from "./types";
 export * from "./utils";

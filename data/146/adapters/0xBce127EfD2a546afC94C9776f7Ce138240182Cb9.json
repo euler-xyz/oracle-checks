@@ -14,12 +14,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash matches a known hash.",
@@ -53,6 +47,5 @@
   "label": "MEV Linear Discount Oracle PT-wstkscETH-29MAY2025/USD ",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "MEV Linear Discount",
-  "whitelisted": false
+  "provider": "MEV Linear Discount"
 }

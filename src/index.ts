@@ -9,6 +9,7 @@ async function runChecksForAllChains(): Promise<void> {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);
+    saveJSON(data.routerAddresses, `${dirPath}/routers/all.json`);
     saveJSON(data.chainlinkFeeds, `${dirPath}/chainlink/feeds.json`);
     saveJSON(data.chainlinkMetadata, `${dirPath}/chainlink/metadata.json`);
     saveJSON(data.chronicleFeeds, `${dirPath}/chronicle/feeds.json`);
@@ -45,9 +46,7 @@ async function runChecksForAllChains(): Promise<void> {
     saveJSON(allResults, `${dirPath}/adapters/all.json`);
 
     // Filter and save Pyth adapters to pyth/all.json
-    const pythAdapters = allResults.filter(
-      (result) => result.provider === "Pyth"
-    );
+    const pythAdapters = allResults.filter((result) => result.provider === "Pyth");
     saveJSON(pythAdapters, `${dirPath}/pyth/all.json`);
 
     console.log(`Wrote results to ${dirPath}`);

@@ -25,7 +25,6 @@ import {
   indexRedStoneFeeds,
   MevLinearDiscountFeed,
   RedStoneFeed,
-  RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
 import { config as loadEnv } from "dotenv";
 import { Address, getAddress, Hex, isAddress, type PublicClient, zeroAddress } from "viem";
@@ -33,11 +32,7 @@ import { Address, getAddress, Hex, isAddress, type PublicClient, zeroAddress } f
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
 import { fallbackAssets } from "./config/fallbackAssets";
-import {
-  fetchEulerApiDeployedRouters,
-  fetchEulerApiHistoricalAdapters,
-  fetchEulerApiWhitelistedAdapters,
-} from "./eulerApi";
+import { fetchEulerApiDeployedRouters, fetchEulerApiHistoricalAdapters } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { CollectedData } from "./types";
 
@@ -92,9 +87,6 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const historicalAdapters = await fetchEulerApiHistoricalAdapters(chainId);
   console.log(`${logPrefix} Fetched ${historicalAdapters.length} historical adapters`);
 
-  const whitelistedAdapters = await fetchEulerApiWhitelistedAdapters(chainId);
-  console.log(`${logPrefix} Fetched ${whitelistedAdapters.length} whitelisted adapters`);
-
   const deployedRouters = await fetchEulerApiDeployedRouters(chainId);
   console.log(`${logPrefix} Fetched ${deployedRouters.length} routers`);
 
@@ -125,30 +117,14 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   pendleMetadata.sort((a, b) => a.pt.localeCompare(b.pt));
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
-  const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
-  const adapterRegistryAddresses = whitelistedAdapters.map((adapter) => adapter.element);
   const historicalAdapterAddresses = historicalAdapters;
-  const adapterRegistryEntries = whitelistedAdapters.reduce(
-    (acc, adapter) => {
-      acc[adapter.element] = {
-        addedAt: BigInt(adapter.addedAt),
-        revokedAt: 0n,
-      };
-      return acc;
-    },
-    {} as Record<`0x${string}`, RegistryEntry>,
-  );
 
   const adapterAddresses = Array.from(
-    new Set(
-      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses]
-        .filter((a) => a !== zeroAddress)
-        .map((a) => getAddress(a)),
-    ),
+    new Set(historicalAdapterAddresses.filter((a) => a !== zeroAddress).map((a) => getAddress(a))),
   );
 
   console.log(
-    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${adapterRegistryAddresses.length} in adapter registry)`,
+    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history)`,
   );
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
@@ -344,7 +320,6 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     chainId,
     adapterAddresses,
     adapters,
-    adapterRegistryEntries,
     bytecodes,
     routerAddresses: deployedRouters.map((router) => router.router),
     chainlinkMetadata,

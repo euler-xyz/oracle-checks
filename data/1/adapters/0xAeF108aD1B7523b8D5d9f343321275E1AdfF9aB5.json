@@ -15,12 +15,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash matches a known hash.",
@@ -48,6 +42,5 @@
   "label": "crvUSD/USD",
   "methodology": "Unknown",
   "model": "Pull",
-  "provider": "RedStone Pull",
-  "whitelisted": false
+  "provider": "RedStone Pull"
 }

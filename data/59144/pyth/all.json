@@ -17,12 +17,6 @@
         "pass": true
       },
       {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
         "id": "Source code provenance",
         "severity": "High",
         "message": "Contract metadata hash is not recognized.",
@@ -80,8 +74,7 @@
     "label": "Crypto.REX33/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth",
-    "whitelisted": false
+    "provider": "Pyth"
   },
   {
     "name": "PythOracle",
@@ -99,12 +92,6 @@
         "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
       },
       {
         "id": "Source code provenance",
@@ -164,7 +151,6 @@
     "label": "Crypto.DEUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth",
-    "whitelisted": false
+    "provider": "Pyth"
   }
 ]

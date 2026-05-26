@@ -10,7 +10,6 @@ import {
   IdleCDO,
   IdleTranche,
   PendleMetadata,
-  RegistryEntry,
   MevLinearDiscountFeed,
   EOracleMetadata,
   EOracleFeed,
@@ -23,7 +22,6 @@ export type CollectedData = {
   chainId: number;
   adapterAddresses: Address[];
   routerAddresses: Address[];
-  adapterRegistryEntries: Record<Address, RegistryEntry>;
   chainlinkMetadata: ChainlinkMetadata;
   redstoneMetadata: RedStoneMetadata;
   pythMetadata: PythMetadata;
@@ -55,7 +53,6 @@ export type AdapterToResults = Record<
   {
     label?: string;
     provider: string;
-    whitelisted: boolean;
     methodology: OracleMethodology;
     model: OracleModel;
     checks: CheckResult[];

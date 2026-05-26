@@ -16,12 +16,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash matches a known hash.",
@@ -79,6 +73,5 @@
   "label": "Crypto.STAVAX/AVAX.RR (120s, ±300bps)",
   "methodology": "Exchange Rate",
   "model": "Pull",
-  "provider": "Pyth",
-  "whitelisted": false
+  "provider": "Pyth"
 }

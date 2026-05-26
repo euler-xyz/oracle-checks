@@ -10,12 +10,6 @@
       "pass": true
     },
     {
-      "id": "Adapter whitelist",
-      "severity": "Med",
-      "message": "Adapter is not whitelisted in the adapter registry.",
-      "pass": false
-    },
-    {
       "id": "Source code provenance",
       "severity": "High",
       "message": "Contract metadata hash is not recognized.",
@@ -61,6 +55,5 @@
   "label": "unknown feed (undefineds, ±undefinedbps)",
   "methodology": "Unknown",
   "model": "Pull",
-  "provider": "Pyth",
-  "whitelisted": false
+  "provider": "Pyth"
 }
