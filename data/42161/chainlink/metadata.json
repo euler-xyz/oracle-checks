@@ -38849,6 +38849,128 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "MU/USD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "MU",
+      "USD"
+    ],
+    "path": "mu-usd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "MU",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "MU",
+      "attributeType": "EquityPrice",
+      "baseAsset": "MU",
+      "baseAssetClic": "MU_EQ",
+      "baseAssetEntityId": "equity-MU",
+      "clicProductName": "MU/USD-Streams-EquityPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "MU/USD-Streams-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005453,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "MU/USD-Streams-EquityPrice-benchmark",
+        "streamID": 1000005452,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatus",
+        "streamID": 1000001939,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0008c776288089a5d64aeb599c02192fc5476d0d27c69bcb9877fa884a73bd33",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "MRK/USD-Streams-EquityPrice-Timestamped-mainnet-production",
     "pair": [
       "MRK",
@@ -54374,7 +54496,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "US Equities Extended",
       "productSubType": "Reference",
       "productType": "Price",
@@ -71207,7 +71328,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "US Equities Overnight",
       "productSubType": "Reference",
       "productType": "Price",
@@ -78512,7 +78632,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "US Equities Regular",
       "productSubType": "Reference",
       "productType": "Price",
