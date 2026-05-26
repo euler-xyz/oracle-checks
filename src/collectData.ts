@@ -127,80 +127,71 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history)`,
   );
 
-  const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
+  const seenAdapterAddresses = new Set(adapterAddresses.map((address) => address.toLowerCase()));
+  let pendingAdapterAddresses = [...adapterAddresses];
 
-  const newlyFoundUnderlyingAdapterAddresses: Address[] = [];
   const adapters: (Adapter | null)[] = [];
   const bytecodes: (Hex | undefined)[] = [];
-  for (const [i, addressBatch] of addressBatches.entries()) {
-    const adapterBatch = await indexAdapters({ adapterAddresses: addressBatch, publicClient });
 
-    const bytecodeBatch = await Promise.all(
-      addressBatch.map((address) =>
-        publicClient.getCode({
-          address,
-        }),
-      ),
-    );
+  while (pendingAdapterAddresses.length > 0) {
+    const addressBatches = batchArray(pendingAdapterAddresses, BATCH_SIZE);
+    const discoveredUnderlyingAdapterAddresses: Address[] = [];
 
-    const normalizedAdapterBatch = await Promise.all(
-      adapterBatch.map((adapter, adapterIndex) =>
-        normalizeChainlinkInfrequentXStocksOracle({
-          adapter,
-          code: bytecodeBatch[adapterIndex],
-          publicClient,
-        }),
-      ),
-    );
+    for (const [i, addressBatch] of addressBatches.entries()) {
+      const adapterBatch = await indexAdapters({ adapterAddresses: addressBatch, publicClient });
 
-    normalizedAdapterBatch.forEach((adapter) => {
-      if (adapter?.name === "CrossAdapter") {
-        if (isAddress(adapter.oracleBaseCross)) {
-          newlyFoundUnderlyingAdapterAddresses.push(getAddress(adapter.oracleBaseCross));
+      const bytecodeBatch = await Promise.all(
+        addressBatch.map((address) =>
+          publicClient.getCode({
+            address,
+          }),
+        ),
+      );
+
+      const normalizedAdapterBatch = await Promise.all(
+        adapterBatch.map((adapter, adapterIndex) =>
+          normalizeChainlinkInfrequentXStocksOracle({
+            adapter,
+            code: bytecodeBatch[adapterIndex],
+            publicClient,
+          }),
+        ),
+      );
+
+      normalizedAdapterBatch.forEach((adapter) => {
+        if (adapter?.name !== "CrossAdapter") {
+          return;
         }
-        if (isAddress(adapter.oracleCrossQuote)) {
-          newlyFoundUnderlyingAdapterAddresses.push(getAddress(adapter.oracleCrossQuote));
-        }
-      }
-    });
-    adapters.push(...normalizedAdapterBatch);
-    bytecodes.push(...bytecodeBatch);
-    console.log(`${logPrefix} Indexed adapters ${i + 1}/${addressBatches.length}`);
-  }
 
-  const newAdapterAddresses = Array.from(
-    new Set(
-      newlyFoundUnderlyingAdapterAddresses.filter((address) => !adapterAddresses.includes(address)),
-    ),
-  );
+        [adapter.oracleBaseCross, adapter.oracleCrossQuote].forEach((underlyingAddress) => {
+          if (!isAddress(underlyingAddress) || underlyingAddress === zeroAddress) {
+            return;
+          }
 
-  if (newAdapterAddresses.length > 0) {
-    adapterAddresses.push(...newAdapterAddresses);
-    const newAdapters = await indexAdapters({
-      adapterAddresses: newAdapterAddresses,
-      publicClient,
-    });
-    const newBytecodes = await Promise.all(
-      newAdapterAddresses.map((address) =>
-        publicClient.getCode({
-          address,
-        }),
-      ),
-    );
-    const normalizedNewAdapters = await Promise.all(
-      newAdapters.map((adapter, adapterIndex) =>
-        normalizeChainlinkInfrequentXStocksOracle({
-          adapter,
-          code: newBytecodes[adapterIndex],
-          publicClient,
-        }),
-      ),
-    );
-    adapters.push(...normalizedNewAdapters);
-    bytecodes.push(...newBytecodes);
-    console.log(
-      `${logPrefix} Indexed ${newAdapterAddresses.length} newly found cross underlying adapters`,
-    );
+          const address = getAddress(underlyingAddress);
+          const lowerAddress = address.toLowerCase();
+          if (seenAdapterAddresses.has(lowerAddress)) {
+            return;
+          }
+
+          seenAdapterAddresses.add(lowerAddress);
+          adapterAddresses.push(address);
+          discoveredUnderlyingAdapterAddresses.push(address);
+        });
+      });
+
+      adapters.push(...normalizedAdapterBatch);
+      bytecodes.push(...bytecodeBatch);
+      console.log(`${logPrefix} Indexed adapters ${i + 1}/${addressBatches.length}`);
+    }
+
+    if (discoveredUnderlyingAdapterAddresses.length > 0) {
+      console.log(
+        `${logPrefix} Discovered ${discoveredUnderlyingAdapterAddresses.length} cross underlying adapters`,
+      );
+    }
+
+    pendingAdapterAddresses = discoveredUnderlyingAdapterAddresses;
   }
 
   const aggregatorV3Feeds = adapters
