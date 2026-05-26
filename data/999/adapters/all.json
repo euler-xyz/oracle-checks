@@ -1,1 +1,3150 @@
-[]
+[
+  {
+    "name": "CrossAdapter",
+    "address": "0x02b333e4c4f0862eF8066a7c5e30cA3B3793C9e8",
+    "chainId": 999,
+    "base": "0x4DE03cA1F02591B717495cfA19913aD56a2f5858",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4DE03cA1F02591B717495cfA19913aD56a2f5858 is hwHYPE (Hyperwave HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "hwHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x03322a6C93bb3CCFddd90679dF054bAaa7Ec7956",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xF2448DC04B1d3f1767D6f7C03da8a3933bdDD697",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "kHYPE/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x0B83Ab4E7C68938fd02e763956daDD68abEeCC61",
+    "chainId": 999,
+    "base": "0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03",
+    "quote": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0x4e3352e8f55536e85d7d9fcb4aa3393326ede1961f36c0bceb75fbb2f36d9b1f",
+    "maxStaleness": "3600",
+    "maxConfWidth": "100",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03 is xHYPE (xHYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: XHYPE/USDC",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (xHYPE) corresponds to the Pyth feed's base asset from metadata (XHYPE).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USDC) corresponds to the Pyth feed's quote asset from metadata (USDC).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.NAV.XHYPE/USDC (3600s, ±100bps)",
+    "methodology": "Unknown",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x0C13a59a95da229562eF8Fa47C9B117b2F3C51Bb",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x82721e2C5Ef2DF1796B09728376361892b155594",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "kHYPE_FUNDAMENTAL/USD/USD (0.5%, 21600s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x1DeDFdf8F20E6540d7663403DC24703e1607dcF1",
+    "chainId": 999,
+    "base": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xd7752D8831a209F5177de52b3b32b5098A7B56b8",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463 is UBTC (Unit Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "UBTC / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x1fE373DA81919E15bf20f8AA5991788F77975630",
+    "chainId": 999,
+    "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x54EdE484Bb0E589F5eE13e04c84f46eb787c9C6a",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "UETH / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x2277B1f18f5E56D4C8f3A96B52cC4cB3E36B1Fa0",
+    "chainId": 999,
+    "base": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x7d05cd5159F38694A7D4dBf58957146a63c8Ad5A",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463 is UBTC (Unit Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "UBTC/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x32bC6A14743d1473b9FF5CBe32795390b3017aeb",
+    "chainId": 999,
+    "base": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xb4c3c70C0A0001923fbADEe5AB20086D671eE225",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x94e8396e0869c9F2200760aF0621aFd240E1CF38 is wstHYPE (Staked HYPE Shares) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "wstHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x34f72433F8c884B375785262F9e95918791f5F11",
+    "chainId": 999,
+    "base": "0xd70659a6396285BF7214d7Ea9673184e7C72E07E",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0xec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd70659a6396285BF7214d7Ea9673184e7C72E07E is FXRP (FXRP) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: XRP/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (FXRP) does not correspond to the Pyth feed's base asset from metadata (XRP).",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.XRP/USD (3600s, ±500bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x37e9049314646C9EbF7bfb409347F1b66CE76263",
+    "chainId": 999,
+    "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "ETH/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x39D9445c5AA0430B4bbF04Ae3f45Ba9eA20F37af",
+    "chainId": 999,
+    "base": "0xdBA3B25643C11be9BDF457D6b3926992A735c523",
+    "cross": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0xF95c2F1BAe4B4dB81fa498bbD3C00aA627040D4d",
+    "oracleCrossQuote": "0x470Cfc33c0b8A816DCDbB3e3B39cddBF3F0A1C0c",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdBA3B25643C11be9BDF457D6b3926992A735c523 is hHyperEvmUETH (HyperLend HyperEVM UETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "hHyperEvmUETH/UETH/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x411fC26CDd60D1c58481190088418f1934bb2Ed1",
+    "chainId": 999,
+    "base": "0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03",
+    "cross": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xDCadFBF986a7F1cc32DC3f821f9227b7F178c880",
+    "oracleCrossQuote": "0x65E45D2f3f43b613416614c73f18fDD3AA2b8391",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03 is xHYPE (xHYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "xHYPE/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x41DBdfd03a44BA83A64EdE9716E270994F472DCe",
+    "chainId": 999,
+    "base": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0xe10593860e9ee1c204e4f9569e877502f098dd1a4d84cc5bad06f23f77dcbfe2",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xca79db4B49f608eF54a5CB813FbEd3a6387bC645 is USDXL (Last USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: USDXL/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (USDXL) corresponds to the Pyth feed's base asset from metadata (USDXL).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.USDXL/USD (3600s, ±500bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x470Cfc33c0b8A816DCDbB3e3B39cddBF3F0A1C0c",
+    "chainId": 999,
+    "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "cross": "0x0000000000000000000000000000000000000348",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0x1fE373DA81919E15bf20f8AA5991788F77975630",
+    "oracleCrossQuote": "0x75423551E165213ec9EBE1e3d9F836601181b8a2",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "UETH/USD/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x4d106c1982a425A52aFB58030F2E8AaE0238271E",
+    "chainId": 999,
+    "base": "0xea84ca9849D9e76a78B91F221F84e9Ca065FC9f5",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x0bC69985eaC6359468c5A507661221AAF6C9E854",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xea84ca9849D9e76a78B91F221F84e9Ca065FC9f5 is PT-kHYPE-19MAR2026 (PT Kinetiq Staked HYPE 19MAR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-kHYPE-19MAR2026/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x4E4636fCbFe1F6e6e4F2D308D188653BD8fCd033",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0xc569Ef17F517b867a44570f81153a6394190Fd55",
+    "oracleCrossQuote": "0xB9aB7B26FD9Fa58bF5CFA089dad3D5aB368F288a",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "kHYPE/WHYPE/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x518869a13fDf69463d02AbD3043A3bF8dC43b3a0",
+    "chainId": 999,
+    "base": "0x5748ae796AE46A4F1348a1693de4b50560485562",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x3114643dCC2b1D4adF8E58FE166396609b12D6DB",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5748ae796AE46A4F1348a1693de4b50560485562 is LHYPE (Looped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "LHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x5939Ee098eB6d411C3727b78Ee665771F5cB0501",
+    "chainId": 999,
+    "base": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "HYPE/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x5b41b141B2eC1C20f4d8186654a60D07b7711E14",
+    "chainId": 999,
+    "base": "0x81e064d0eB539de7c3170EDF38C1A42CBd752A76",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x6C5F3fBD7Ac4c42F09Db5A79d7CB557A965B1b74",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x81e064d0eB539de7c3170EDF38C1A42CBd752A76 is lstHYPE (Hyperbeat LST Vault) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "lstHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x5d4a156089bF6937ECf58eA58a9550Aaa7Bfb3eD",
+    "chainId": 999,
+    "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xA0Adc43ce7AfE3EE7d7eac3C994E178D0620223B",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "USDC / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x65E45D2f3f43b613416614c73f18fDD3AA2b8391",
+    "chainId": 999,
+    "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4C89968338b75551243C99B452c84a01888282fD",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x692aa5a8E27D7654324618Ee65d7cd4931c39DE9",
+    "chainId": 999,
+    "base": "0x9B3a8f7CEC208e247d97dEE13313690977e24459",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xD15862FC3D5407A03B696548b6902D6464A69b8c",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9B3a8f7CEC208e247d97dEE13313690977e24459 is sUSDp (Staked USDp) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x6d9aF225C9E071c24F4CfE5720C02f1A0D2E2ADA",
+    "chainId": 999,
+    "base": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xa5a72eF19F82A579431186402425593a559ed352",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "HYPE / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x72d0f2D6fCa0bc2F099F377613b1e815b22744EC",
+    "chainId": 999,
+    "base": "0x27eC642013bcB3D80CA3706599D3cdA04F6f4452",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0x7a01fca212788bba7c5bf8c9efd576a8a722f070d2c17596ff7bb609b8d5c3b9",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x27eC642013bcB3D80CA3706599D3cdA04F6f4452 is UPUMP (Unit Pump) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: PUMP/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (UPUMP) does not correspond to the Pyth feed's base asset from metadata (PUMP).",
+        "pass": false
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.PUMP/USD (3600s, ±500bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x743B20DDe734bF9E081124ea6B56eCE9E06962B8",
+    "chainId": 999,
+    "base": "0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03",
+    "cross": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0x0B83Ab4E7C68938fd02e763956daDD68abEeCC61",
+    "oracleCrossQuote": "0xB26C937030ce883442CfDe73A5f6BCA8c6f9e212",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xAc962FA04BF91B7fd0DC0c5C32414E0Ce3C51E03 is xHYPE (xHYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "xHYPE/USDC/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
+    "oracleCrossQuote": "0x5939Ee098eB6d411C3727b78Ee665771F5cB0501",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "kHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x75423551E165213ec9EBE1e3d9F836601181b8a2",
+    "chainId": 999,
+    "base": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x9114446540B4f8E0E310041981f7c1Be6181Ed07",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "USDT / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x75c082E8188E55fFf0f110edf3d877d655bB78b2",
+    "chainId": 999,
+    "base": "0x4bB19336C973506B9405Db586b7AEE302a7CbCFc",
+    "cross": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xa4C6C7f88D8091E9EDb0f068FC361A3D47C895e0",
+    "oracleCrossQuote": "0x65E45D2f3f43b613416614c73f18fDD3AA2b8391",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4bB19336C973506B9405Db586b7AEE302a7CbCFc is bbHLP (Blueberry HLP) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "bbHLP/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x770e617e5ee426Afbbb8F4e45e2bA09421af7248",
+    "chainId": 999,
+    "base": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+    "cross": "0x0000000000000000000000000000000000000348",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0x1DeDFdf8F20E6540d7663403DC24703e1607dcF1",
+    "oracleCrossQuote": "0x75423551E165213ec9EBE1e3d9F836601181b8a2",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463 is UBTC (Unit Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "UBTC/USD/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "chainId": 999,
+    "base": "0x111111a1a0667d36bD57c0A9f569b98057111111",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xE18aAD6733D1db21e19cb83B697082D3d4eE5170",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x111111a1a0667d36bD57c0A9f569b98057111111 is USDH (USDH) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x8ad2f87EDD0260d68036634Da697fB248FbD0818",
+    "chainId": 999,
+    "base": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x5e21f6530f656A38caE4F55500944753F662D184",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDT/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x8E1511d05EdaE7104251cdE8f0Ef57Ad1a32bDa8",
+    "chainId": 999,
+    "base": "0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F",
+    "cross": "0x6086d52F28c7b7481d8aE0FAdD4349cbB608C2Bd",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x25cFab4EB4F500Ffffa437D5B75c0c35fF3E61d6",
+    "oracleCrossQuote": "0x5979Ea105222FaF98364366C7e8304166CeDCC31",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F is sUSN (Staked USN) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6086d52F28c7b7481d8aE0FAdD4349cbB608C2Bd is USN (USN) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSN/USN/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x9652fbc3EeC791F826EC6aC5Fb9AcaD41a6a9F6b",
+    "chainId": 999,
+    "base": "0xd8FC8F0b03eBA61F64D08B0bef69d80916E5DdA9",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xA6a115FC9B0A4e0A04040ae6A6497314250816a8",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd8FC8F0b03eBA61F64D08B0bef69d80916E5DdA9 is beHYPE (hyperbeat x ether.fi HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "beHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x9B59020B12c247baBCFE2893a0c19bFa4A2DFbe5",
+    "chainId": 999,
+    "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4C89968338b75551243C99B452c84a01888282fD",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xaa2Cc93664b9cc4c83F479bE2b9c013a7BB278ab",
+    "chainId": 999,
+    "base": "0x9522133c663ba8C2a8A7b4F63Dd2aC8DccCe1505",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xBb86bCc951A62DF86826219d9251Ee05F2c1e286",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9522133c663ba8C2a8A7b4F63Dd2aC8DccCe1505 is USDG0 (USDG0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xAC557425Fbd38361196eE5B5641d551e07Bd88dc",
+    "chainId": 999,
+    "base": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x7d05cd5159F38694A7D4dBf58957146a63c8Ad5A",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463 is UBTC (Unit Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "UBTC/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xB26C937030ce883442CfDe73A5f6BCA8c6f9e212",
+    "chainId": 999,
+    "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "cross": "0x0000000000000000000000000000000000000348",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0x5d4a156089bF6937ECf58eA58a9550Aaa7Bfb3eD",
+    "oracleCrossQuote": "0x75423551E165213ec9EBE1e3d9F836601181b8a2",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "USDC/USD/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xB9aB7B26FD9Fa58bF5CFA089dad3D5aB368F288a",
+    "chainId": 999,
+    "base": "0x5555555555555555555555555555555555555555",
+    "cross": "0x0000000000000000000000000000000000000348",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "oracleBaseCross": "0x6d9aF225C9E071c24F4CfE5720C02f1A0D2E2ADA",
+    "oracleCrossQuote": "0x75423551E165213ec9EBE1e3d9F836601181b8a2",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "WHYPE/USD/USD₮0",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xc4F7d62FE7A9C401190a5391b509e53e1b53E312",
+    "chainId": 999,
+    "base": "0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c",
+    "cross": "0x5555555555555555555555555555555555555555",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x1c43FdCb1437b1210cb18C3C1025705dfD3320bD",
+    "oracleCrossQuote": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c is haHYPE (haHYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "haHYPE/WHYPE/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xc569Ef17F517b867a44570f81153a6394190Fd55",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "feed": "0x272deDc9fe4227027b027B016957CF6661120eCB",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "KHYPE-HYPE Exchange Rate (0.05%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xD544CcB6f2231bd1cCAC0258cbA89E8A13D4a421",
+    "chainId": 999,
+    "base": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4C89968338b75551243C99B452c84a01888282fD",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC/USD (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xD7a5e904837D1F1A17c5DBC1575f99677DEc6570",
+    "chainId": 999,
+    "base": "0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0xa210f55ff119d315002b5dc4f763b4e4114197028e45d6aca16498ab1433fb6d",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF is UFART (Unit Fartcoin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: UFART/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (UFART) corresponds to the Pyth feed's base asset from metadata (UFART).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.UFART/USD (3600s, ±500bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xDd957FbBdB549B957A1Db92b88bBA5297D0BbE99",
+    "chainId": 999,
+    "base": "0x5555555555555555555555555555555555555555",
+    "cross": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x17D099fc623bd06CFE4861d874704Af184773c75",
+    "oracleCrossQuote": "0x65E45D2f3f43b613416614c73f18fDD3AA2b8391",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "WHYPE/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xe0D89392ecb1e26e48E9D91738Bf0Bf31192B5f1",
+    "chainId": 999,
+    "base": "0x111111a1a0667d36bD57c0A9f569b98057111111",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xE18aAD6733D1db21e19cb83B697082D3d4eE5170",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x111111a1a0667d36bD57c0A9f569b98057111111 is USDH (USDH) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xE5F000D95879c438c7a783333EdB9463dC826129",
+    "chainId": 999,
+    "base": "0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0xe0154bf4dfbcf835fad3428c0d8c1078b83f687e4d6afafb827f7f9af70ec326",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E is PURR (Purr) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: PURR/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (PURR) corresponds to the Pyth feed's base asset from metadata (PURR).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.PURR/USD (3600s, ±500bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xe7aE946477370D1Bf736387bF21C348bC2Ee7CCF",
+    "chainId": 999,
+    "base": "0x5e105266db42f78FA814322Bce7f388B4C2e61eb",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "feed": "0x96572d32d699cE463Fdf36610273CC76B7d83f9b",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5e105266db42f78FA814322Bce7f388B4C2e61eb is hbUSDT (Hyperbeat USDT) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "hbUSDT_FUNDAMENTAL (0.5%, 21600s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xE8420D9484708E2C1023a14de331F58985f077Cc",
+    "chainId": 999,
+    "base": "0x10982ad645D5A112606534d8567418Cf64c14cB5",
+    "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "rate": "1000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x10982ad645D5A112606534d8567418Cf64c14cB5 is hHyperEvmUSDT0 (HyperLend HyperEVM USDT0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 hHyperEvmUSDT0/USD₮0",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xF5c7f08fB927fa8F00C5425E18E1Ec61F06CBE89",
+    "chainId": 999,
+    "base": "0x34C07f50c4f55B322E85DEeb265d278E6af112E4",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xB5B408A269217f414da4Bb01225F7b57664eAf6F",
+    "maxStaleness": "93600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x34C07f50c4f55B322E85DEeb265d278E6af112E4 is syzUSD (Staked Yuzu USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xF95c2F1BAe4B4dB81fa498bbD3C00aA627040D4d",
+    "chainId": 999,
+    "base": "0xdBA3B25643C11be9BDF457D6b3926992A735c523",
+    "quote": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdBA3B25643C11be9BDF457D6b3926992A735c523 is hHyperEvmUETH (HyperLend HyperEVM UETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 hHyperEvmUETH/UETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
+  },
+  {
+    "address": "0x3CD7B8E4BdEc9cD931c53020c561094DC8A15757"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xb4c3c70C0A0001923fbADEe5AB20086D671eE225",
+    "chainId": 999,
+    "base": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38",
+    "cross": "0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "oracleBaseCross": "0xBe889866475055E2D216716da80D976Bfc8D4c1F",
+    "oracleCrossQuote": "0x327BB5bC0ECf3Ca06Ae7e1d620489B12DecFFE6c",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x94e8396e0869c9F2200760aF0621aFd240E1CF38 is wstHYPE (Staked HYPE Shares) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1 is stHYPE (Staked HYPE) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "wstHYPE/stHYPE/WHYPE",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "address": "0xDCadFBF986a7F1cc32DC3f821f9227b7F178c880"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x0bC69985eaC6359468c5A507661221AAF6C9E854",
+    "chainId": 999,
+    "base": "0xea84ca9849D9e76a78B91F221F84e9Ca065FC9f5",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "feed": "0xe6bBfb3c7e7FaC46425F37aCaD0FF4CDB32CC96b",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xea84ca9849D9e76a78B91F221F84e9Ca065FC9f5 is PT-kHYPE-19MAR2026 (PT Kinetiq Staked HYPE 19MAR2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "address": "0x3114643dCC2b1D4adF8E58FE166396609b12D6DB"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x6C5F3fBD7Ac4c42F09Db5A79d7CB557A965B1b74",
+    "chainId": 999,
+    "base": "0x81e064d0eB539de7c3170EDF38C1A42CBd752A76",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "feed": "0xA569E68B5D110F2A255482c2997DFDBe1b2ab912",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x81e064d0eB539de7c3170EDF38C1A42CBd752A76 is lstHYPE (Hyperbeat LST Vault) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "lstHYPE_FUNDAMENTAL (0.5%, 21600s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
+    "chainId": 999,
+    "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "feed": "0xFfe5F5e9e18b88FBdD7e28d4A583a111C874fB47",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "kHYPE_FUNDAMENTAL (0.5%, 21600s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xa4C6C7f88D8091E9EDb0f068FC361A3D47C895e0",
+    "chainId": 999,
+    "base": "0x4bB19336C973506B9405Db586b7AEE302a7CbCFc",
+    "quote": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0xc9a2320d42eec4ba0fcfa753c97676330486854c27b4ee812bc4a9b4635e210d",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4bB19336C973506B9405Db586b7AEE302a7CbCFc is bbHLP (Blueberry HLP) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: BBHLP/USDC",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (bbHLP) corresponds to the Pyth feed's base asset from metadata (BBHLP).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USDC) corresponds to the Pyth feed's quote asset from metadata (USDC).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.BBHLP/USDC.RR (3600s, ±500bps)",
+    "methodology": "Exchange Rate",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "address": "0x25cFab4EB4F500Ffffa437D5B75c0c35fF3E61d6"
+  },
+  {
+    "address": "0x5979Ea105222FaF98364366C7e8304166CeDCC31"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xA6a115FC9B0A4e0A04040ae6A6497314250816a8",
+    "chainId": 999,
+    "base": "0xd8FC8F0b03eBA61F64D08B0bef69d80916E5DdA9",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "feed": "0x5016c48F36f7e4C83b5C4D4b7227BFEf35Ae7688",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xd8FC8F0b03eBA61F64D08B0bef69d80916E5DdA9 is beHYPE (hyperbeat x ether.fi HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x1c43FdCb1437b1210cb18C3C1025705dfD3320bD",
+    "chainId": 999,
+    "base": "0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c",
+    "quote": "0x5555555555555555555555555555555555555555",
+    "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+    "feedId": "0x19aec77cb70be18c66df7afd33da651d7b376fd26f7c06f2e8b77536c820a281",
+    "maxStaleness": "3600",
+    "maxConfWidth": "500",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c is haHYPE (haHYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: HAHYPE/HYPE",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (haHYPE) corresponds to the Pyth feed's base asset from metadata (HAHYPE).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (WHYPE) does not correspond to the Pyth feed's quote asset from metadata (HAHYPE).",
+        "pass": false
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+        "pass": false
+      }
+    ],
+    "label": "Crypto.HAHYPE/HYPE.RR (3600s, ±500bps)",
+    "methodology": "Exchange Rate",
+    "model": "Pull",
+    "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x17D099fc623bd06CFE4861d874704Af184773c75",
+    "chainId": 999,
+    "base": "0x5555555555555555555555555555555555555555",
+    "quote": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "feed": "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb88339CB7199b77E23DB6E890353E22632Ba630f is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+        "pass": true
+      }
+    ],
+    "label": "HYPE (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone"
+  }
+]

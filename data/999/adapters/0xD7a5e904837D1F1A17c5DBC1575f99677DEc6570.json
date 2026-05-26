@@ -1,0 +1,77 @@
+{
+  "name": "PythOracle",
+  "address": "0xD7a5e904837D1F1A17c5DBC1575f99677DEc6570",
+  "chainId": 999,
+  "base": "0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+  "feedId": "0xa210f55ff119d315002b5dc4f763b4e4114197028e45d6aca16498ab1433fb6d",
+  "maxStaleness": "3600",
+  "maxConfWidth": "500",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF is UFART (Unit Fartcoin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: UFART/USD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (UFART) corresponds to the Pyth feed's base asset from metadata (UFART).",
+      "pass": true
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+      "pass": false
+    }
+  ],
+  "label": "Crypto.UFART/USD (3600s, ±500bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth"
+}

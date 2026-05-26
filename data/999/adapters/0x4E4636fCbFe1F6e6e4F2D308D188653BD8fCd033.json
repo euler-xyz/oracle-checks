@@ -1,0 +1,52 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x4E4636fCbFe1F6e6e4F2D308D188653BD8fCd033",
+  "chainId": 999,
+  "base": "0xfD739d4e423301CE9385c1fb8850539D657C296D",
+  "cross": "0x5555555555555555555555555555555555555555",
+  "quote": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+  "oracleBaseCross": "0xc569Ef17F517b867a44570f81153a6394190Fd55",
+  "oracleCrossQuote": "0xB9aB7B26FD9Fa58bF5CFA089dad3D5aB368F288a",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xfD739d4e423301CE9385c1fb8850539D657C296D is kHYPE (Kinetiq Staked HYPE) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb is USD₮0 (USD₮0) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5555555555555555555555555555555555555555 is WHYPE (Wrapped HYPE) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "kHYPE/WHYPE/USD₮0",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross"
+}
