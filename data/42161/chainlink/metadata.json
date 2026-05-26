@@ -15589,6 +15589,127 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "RON/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "RON",
+      "USD"
+    ],
+    "path": "ron-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ronin",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ronin",
+      "attributeType": "CexPrice",
+      "baseAsset": "RON",
+      "baseAssetClic": "RON_CR",
+      "baseAssetEntityId": "crypto-RON",
+      "clicProductName": "RON/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "RON/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000005424,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "RON/USD-Streams-CexPrice-bid",
+        "streamID": 1000005426,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "RON/USD-Streams-CexPrice-ask",
+        "streamID": 1000005425,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003892129eeb6c0d5d33bd734b0ca0d409130f5984d6051452a777f103ce628",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "GLV [BTC-USDC]/USD-RefPrice-mainnet-production",
     "pair": [
       "",
@@ -65241,6 +65362,157 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EBAY",
+      "USD"
+    ],
+    "path": "ebay-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "eBay Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "eBay Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "EBAY",
+      "baseAssetClic": "EBAY_EQ_ON",
+      "baseAssetEntityId": "equity-EBAY",
+      "clicProductName": "EBAY/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000005444,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005445,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000005446,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000005447,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000005448,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000005449,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005450,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b8a796526b26f09ebbdf0a577ce804b124dd5b2dc00543f980c81165aeb98",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "USD/SEK-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -79858,6 +80130,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EBAY",
+      "USD"
+    ],
+    "path": "ebay-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "eBay Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "eBay Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "EBAY",
+      "baseAssetClic": "EBAY_EQ_EXT",
+      "baseAssetEntityId": "equity-EBAY",
+      "clicProductName": "EBAY/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000005436,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005437,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000005438,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000005439,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000005440,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000005441,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005442,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000be572a22ba51f20de9793d74ab3b527b4e93841c4ae8f7cca905b68e5b8ae",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "CLSK/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "CLSK",
@@ -81280,6 +81703,157 @@
       }
     ],
     "feedId": "0x000bf370130f600b381557504f54761d7cc8be6aac9b515be441465b649570db",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "EBAY/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EBAY",
+      "USD"
+    ],
+    "path": "ebay-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "eBay Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "eBay Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "EBAY",
+      "baseAssetClic": "EBAY_EQ_REG",
+      "baseAssetEntityId": "equity-EBAY",
+      "clicProductName": "EBAY/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005428,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005429,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005430,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005431,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005432,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005433,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EBAY/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005434,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bf50be1e7273121d1d42e4a12fa314391dff4aea626f4fb2f61e650e2ccd3",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
