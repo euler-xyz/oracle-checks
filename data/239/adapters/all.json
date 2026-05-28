@@ -44,6 +44,57 @@
     "provider": "Rate Provider"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0x085E7B30DAd14b9d9EeE6eA69d2F42A85150F5E7",
+    "chainId": 239,
+    "base": "0x35533f54740F1F1aA4179E57bA37039dfa16868B",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xb81131B6368b3F0a83af09dB4E39Ac23DA96C2Db",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35533f54740F1F1aA4179E57bA37039dfa16868B is RLP (Resolv Liquidity Provider Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
     "name": "ChainlinkInfrequentOracle",
     "address": "0x16666835B2184212c54948210197c56913E42C71",
     "chainId": 239,
@@ -142,6 +193,108 @@
       }
     ],
     "label": "tsTON/TON/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x3909cf29F9241DFc8A9d89855f2291dC886f035e",
+    "chainId": 239,
+    "base": "0xb1b385542B6E80F77B94393Ba8342c3Af699f15c",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb1b385542B6E80F77B94393Ba8342c3Af699f15c is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USR/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x447059E5c3F95F32DDe815499008af2134c592d3",
+    "chainId": 239,
+    "base": "0x2a52B289bA68bBd02676640aA9F605700c9e5699",
+    "cross": "0xb1b385542B6E80F77B94393Ba8342c3Af699f15c",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x789aEb5e77dF6183E710CebFDBfd4a442a1C32aE",
+    "oracleCrossQuote": "0x3909cf29F9241DFc8A9d89855f2291dC886f035e",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2a52B289bA68bBd02676640aA9F605700c9e5699 is wstUSR (Wrapped Staked USR) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb1b385542B6E80F77B94393Ba8342c3Af699f15c is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "wstUSR/USR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross"
@@ -801,6 +954,57 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x789aEb5e77dF6183E710CebFDBfd4a442a1C32aE",
+    "chainId": 239,
+    "base": "0x2a52B289bA68bBd02676640aA9F605700c9e5699",
+    "quote": "0xb1b385542B6E80F77B94393Ba8342c3Af699f15c",
+    "feed": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2a52B289bA68bBd02676640aA9F605700c9e5699 is wstUSR (Wrapped Staked USR) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xb1b385542B6E80F77B94393Ba8342c3Af699f15c is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
   },
   {
     "name": "ChainlinkInfrequentOracle",
