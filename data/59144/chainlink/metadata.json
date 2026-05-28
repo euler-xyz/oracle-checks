@@ -627,40 +627,6 @@
   },
   {
     "compareOffchain": "",
-    "contractAddress": "0x4B811db40C7d3673a0bd796c428de138c6085E40",
-    "contractType": "",
-    "contractVersion": 4,
-    "decimalPlaces": null,
-    "ens": "usdc-usd-test-capped",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "100000000",
-    "name": "USDC / USD TEST CAPPED",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "usdc-usd-capped-test",
-    "proxyAddress": "0x3b185d7e1Bca02566e5cbe104abDB50e32Fd7570",
-    "threshold": 0.5,
-    "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {
-      "baseAssetEntityId": "crypto-USDC",
-      "hidden": true,
-      "quoteAssetEntityId": "forex-USD",
-      "stablecoinCapped": true,
-      "valueSecuring": "non-value-securing"
-    },
-    "decimals": 8,
-    "maxSubmissionValue": "1050000000000000000"
-  },
-  {
-    "compareOffchain": "",
     "contractAddress": "0x50C7D9682b2FFA05405b2Ce16b62162D24bd5359",
     "contractType": "",
     "contractVersion": 4,
@@ -1769,6 +1735,39 @@
       "valueSecuring": "value-securing"
     },
     "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xc450e99e57Ff8316E6Eb93D03FB32D0abAeB6eCb",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "usdc-usd-test-capped",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDC / USD TEST CAPPED",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdc-usd-capped-test",
+    "proxyAddress": "0x3b185d7e1Bca02566e5cbe104abDB50e32Fd7570",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-USDC",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD",
+      "valueSecuring": "non-value-securing"
+    },
+    "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
