@@ -6898,106 +6898,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "WELL/USD-RefPrice-mainnet-production",
-    "pair": [
-      "WELL",
-      "USD"
-    ],
-    "path": "well-usd-refprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Moonwell",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Moonwell",
-      "attributeType": "CexPrice",
-      "baseAsset": "WELL",
-      "baseAssetClic": "WELL_CR",
-      "clicProductName": "WELL/USD-RefPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "deprecating",
-      "feedType": "Crypto",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "serviceLevel": "Streams",
-      "shutdownDate": "March 2026"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "feedId": "0x00032074a30ba476c45cf517868fca15c694813dae41fb795e95c10ae0023316",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "JLP/USD-RefPrice-mainnet-production",
     "pair": [
       "JLP",
@@ -27230,6 +27130,128 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "XRP/USDT-Datalink-Okx-FundingRate-mainnet-production",
+    "pair": [
+      "XRP",
+      "USDT"
+    ],
+    "path": "xrp-usdt-datalink-okx-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "XRP",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "XRP",
+      "attributeType": "FundingRate",
+      "baseAsset": "XRP",
+      "baseAssetClic": "XRP_CR",
+      "baseAssetEntityId": "crypto-XRP",
+      "clicProductName": "XRP/USDT-Datalink-Okx-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "XRP/USDT-Datalink-Okx-FundingRate-fundingRate",
+        "streamID": 1000005521,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "XRP/USDT-Datalink-Okx-FundingRate-fundingTimestamp",
+        "streamID": 1000005522,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "XRP/USDT-Datalink-Okx-FundingRate-epochDuration",
+        "streamID": 1000005523,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0005cf796d0cef6bfe5ddf59002c49c9e0afec08cb233b3a8c2431ac51dd6f38",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "XAG/USDT-Datalink-Binance-FundingRate-mainnet-production",
     "pair": [
       "XAG",
@@ -43041,6 +43063,131 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "KAI18-NAV-SmartData-Other-NetAssetValue-mainnet-production",
+    "pair": [
+      "KAI18",
+      ""
+    ],
+    "path": "kai18-nav-smartdata-other-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "KAI18",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Asset",
+    "docs": {
+      "assetClass": "Proof of Insurance",
+      "assetSubClass": "Proof of Insurance",
+      "assetName": "KAI18",
+      "attributeType": "NAV",
+      "baseAsset": "KAI18",
+      "baseAssetClic": "KAI18_CR",
+      "clicProductName": "KAI18-NAV-SmartData-Other-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Asset",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "schema": "v9",
+      "serviceLevel": "Datalink",
+      "dataProvider": "t-rize-proof-of-insurance"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "KAI18-NAV-SmartData-Other-NetAssetValue-benchmark",
+        "streamID": 1000005525,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "KAI18-NAV-SmartData-Other-NetAssetValue-navDate",
+        "streamID": 1000005526,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "KAI18-NAV-SmartData-Other-NetAssetValue-aum",
+        "streamID": 1000005527,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "KAI18-NAV-SmartData-Other-NetAssetValue-ripcord",
+        "streamID": 1000005528,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009ee577ecd71498d33ffe3c375e30837628cfa23da48bf4a8d44e4a7cff4ff",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "TSLAx/POR-Datalink-ProofOfReserves-mainnet-production",
     "pair": [
@@ -52535,6 +52682,157 @@
       }
     ],
     "feedId": "0x000b354e6b9d5c962615f97aa5f1e63efcf433da289e36f045ccd1792e142dff",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EWY",
+      "USD"
+    ],
+    "path": "ewy-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "EWY",
+      "baseAssetClic": "EWY_EQ_EXT",
+      "baseAssetEntityId": "equity-EWY",
+      "clicProductName": "EWY/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000005546,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005547,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000005548,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000005549,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000005550,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000005551,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005552,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b361ae3bcf59a9995ed594976902dd42c74d4f03ed0242570382e808054d5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -75846,6 +76144,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "EWY/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EWY",
+      "USD"
+    ],
+    "path": "ewy-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "EWY",
+      "baseAssetClic": "EWY_EQ_REG",
+      "baseAssetEntityId": "equity-EWY",
+      "clicProductName": "EWY/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005530,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005531,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005532,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005533,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005534,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005535,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005536,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bcb9e393132da9c8c380535790d7129d7f889d14dcc95273c3b3817691f29",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "USD/PLN-Datalink-NCFX-ForexPrice-mainnet-production",
     "pair": [
       "USD",
@@ -78312,6 +78761,157 @@
       }
     ],
     "feedId": "0x000bd872b1525fe758f57dc6e9bee0e33fc17fc06332df0a6ab2a3d3589d25d9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "EWY/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "EWY",
+      "USD"
+    ],
+    "path": "ewy-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "ISHARES MSCI SOUTH KOREA ETF",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "EWY",
+      "baseAssetClic": "EWY_EQ_ON",
+      "baseAssetEntityId": "equity-EWY",
+      "clicProductName": "EWY/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000005538,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005539,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000005540,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000005541,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000005542,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000005543,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "EWY/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005544,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bd895f3a08b04d97f7e87aa0943691d61da40d9d7a14cf12d30618aeb2ac7",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
