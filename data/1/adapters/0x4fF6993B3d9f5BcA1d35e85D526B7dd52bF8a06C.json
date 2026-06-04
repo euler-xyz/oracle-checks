@@ -35,14 +35,14 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: USDC/USD",
-      "pass": true
+      "message": "Could not find matching Pyth feed",
+      "pass": false
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-      "pass": true
+      "message": "Feed is unknown.",
+      "pass": false
     },
     {
       "id": "Pyth quote correspondence",
@@ -63,8 +63,8 @@
       "pass": true
     }
   ],
-  "label": "Crypto.USDC/USD (120s, ±300bps)",
-  "methodology": "Market Price",
+  "label": "unknown feed (120s, ±300bps)",
+  "methodology": "Unknown",
   "model": "Pull",
   "provider": "Pyth"
 }
