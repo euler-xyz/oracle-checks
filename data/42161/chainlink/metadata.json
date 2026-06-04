@@ -22515,6 +22515,128 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "xyz:SPCX/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
+    "pair": [
+      "xyz:SPCX",
+      "USDC"
+    ],
+    "path": "xyz-spcx-usdc-datalink-hyperliquid-topofbook-v3-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Space Exploration Technologies Corp. Perpetual Futures",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Space Exploration Technologies Corp. Perpetual Futures",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:SPCX",
+      "baseAssetClic": "SPCX_CR",
+      "baseAssetEntityId": "crypto-SPCX",
+      "clicProductName": "xyz:SPCX/USDC-Datalink-Hyperliquid-TopOfBook-V3-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "quoteAssetEntityId": "crypto-USDC",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:SPCX/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000005554,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:SPCX/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000005556,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:SPCX/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000005557,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003f769383ad721a5521200b1914c58371677b58c93b686f968dafcd38a7432",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "BSOL/USD-RefPrice-mainnet-production",
     "pair": [
       "BSOL",
