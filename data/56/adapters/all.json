@@ -947,6 +947,56 @@
     "provider": "Unknown"
   },
   {
+    "name": "FixedRateOracle",
+    "address": "0x969b93eE397B95fF155b2474A350a0800B91F6E0",
+    "chainId": 56,
+    "base": "0x55d398326f99059fF775485246999027B3197955",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x55d398326f99059fF775485246999027B3197955 is USDT (Tether USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDT/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xA436dF7C3a77D88D1eC9275B5744BdCC187982f2",
     "chainId": 56,
@@ -1686,6 +1736,9 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone"
+  },
+  {
+    "address": "0xf2c37aa072b980A7054bB281FDC894b64B6EC019"
   },
   {
     "name": "ChainlinkOracle",
