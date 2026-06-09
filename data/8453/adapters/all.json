@@ -1163,6 +1163,57 @@
     "provider": "Cross"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0x2fF05961514A7ACEB135ae6f166C4E2e6a7B2B45",
+    "chainId": 8453,
+    "base": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6985884C4392D348587B19cb9eAAf157F13271cd is ZRO (LayerZero) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "ZRO / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "name": "CrossAdapter",
     "address": "0x3114643dCC2b1D4adF8E58FE166396609b12D6DB",
     "chainId": 8453,
@@ -3581,6 +3632,57 @@
     "address": "0xAFd0BC3AA58414B05F689ed3bC9A7C94EB885510"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0xb0a51c4F391330Eca0818BC4A1497688c8c114f2",
+    "chainId": 8453,
+    "base": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b is VIRTUAL (Virtual Protocol) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "VIRTUAL / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "address": "0xB18965174A4298AB4D933cc47eCCd8AfeA88013f"
   },
   {
@@ -3689,6 +3791,57 @@
   },
   {
     "address": "0xb7Bf78D5EBc2416718458424354871AcaCcfC012"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xBb842caCb442341CDCe1Ad6c5C7Ce54d8Df00640",
+    "chainId": 8453,
+    "base": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xaABc55Ca55D70B034e4daA2551A224239890282F",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf is VVV (Venice Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "VVV / USD (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
