@@ -37283,6 +37283,129 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "SPCX/USD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "SPCX",
+      "USD"
+    ],
+    "path": "spcx-usd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SPCX",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "SPCX",
+      "attributeType": "EquityPrice",
+      "baseAsset": "SPCX",
+      "baseAssetClic": "SPCX_EQ",
+      "baseAssetEntityId": "equity-SPCX",
+      "benchmark": "nbbo",
+      "clicProductName": "SPCX/USD-Streams-EquityPrice-DS-Premium-Global-008",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "schema": "v8",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPCX/USD-Streams-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005620,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "SPCX/USD-Streams-EquityPrice-benchmark",
+        "streamID": 1000005619,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatus",
+        "streamID": 1000001939,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0008b6d97a50e7b36f8755eadf3ce420445a600392be0381c2a6200504776d33",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "EUR/USD-RefPrice-Timestamped-mainnet-production",
     "pair": [
       "EUR",
@@ -57051,6 +57174,158 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "SPCX/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "SpaceX",
+      "USD"
+    ],
+    "path": "spcx-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Space Exploration Technologies Corp.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Space Exploration Technologies Corp.",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "SpaceX",
+      "baseAssetClic": "SpaceX_EQ_REG",
+      "baseAssetEntityId": "equity-SPCX",
+      "benchmark": "nbbo",
+      "clicProductName": "SPACEX/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000005622,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005623,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000005624,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000005625,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000005626,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000005627,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005628,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b4f3c6cbfd4f0ba9c635b5dd3b188338c98a3f6b595615ddfdb3a75dee647",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "BBAI/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "BBAI",
@@ -57727,6 +58002,158 @@
       }
     ],
     "feedId": "0x000b534fd071c8eb6b093b49731123b0d95a10954ec21b0d050065e8ac7ab892",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "SpaceX",
+      "USD"
+    ],
+    "path": "spcx-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Space Exploration Technologies Corp.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Space Exploration Technologies Corp.",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "SpaceX",
+      "baseAssetClic": "SpaceX_EQ_ON",
+      "baseAssetEntityId": "equity-SPCX",
+      "benchmark": "nbbo",
+      "clicProductName": "SPACEX/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000005638,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005639,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000005640,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000005641,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000005642,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000005643,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005644,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b53937a4182eec79ce521f013ba39e131e93793fc52d8a3cc945d46960b19",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -77715,6 +78142,158 @@
       }
     ],
     "feedId": "0x000bcf5e87d8a73d40d3891ef0ef6580441cc1bd940ffac4d18b3da70120f756",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "SpaceX",
+      "USD"
+    ],
+    "path": "spcx-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Space Exploration Technologies Corp.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Space Exploration Technologies Corp.",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "SpaceX",
+      "baseAssetClic": "SpaceX_EQ_EXT",
+      "baseAssetEntityId": "equity-SPCX",
+      "benchmark": "nbbo",
+      "clicProductName": "SPACEX/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000005630,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000005631,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000005632,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000005633,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000005634,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000005635,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SPCX/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000005636,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bcf66e80f961c095712a769887183616a62ece4b44e45ed0c66d7d6ae84a8",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
