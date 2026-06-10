@@ -44,6 +44,7 @@ export type OracleModel = "Unknown" | "Push" | "Pull";
 export type OracleMethodology =
   | "Market Price"
   | "Market Price (Bolt)"
+  | "Smart Value Capture"
   | "Exchange Rate"
   | "TWAP"
   | "Unknown";

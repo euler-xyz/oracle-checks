@@ -13,6 +13,10 @@ import { CheckResultWithId } from "./types";
 import { CHECKS, failCheck, passCheck } from "./utils";
 import { OracleMethodology } from "../types";
 
+type ChainlinkFeedWithSecondaryProxy = ChainlinkMetadata[number] & {
+  secondaryProxyAddress?: string | null;
+};
+
 type Params = {
   adapter: ChainlinkOracle | ChainlinkInfrequentOracle | ChainlinkInfrequentXStocksOracle;
   chainlinkMetadata?: ChainlinkMetadata;
@@ -39,9 +43,12 @@ export function knownAggregatorV3Feed({
   provider: string;
   heartbeat?: number;
 } {
-  const matchingChainlinkFeed = chainlinkMetadata?.find(
-    (feed) => feed.proxyAddress?.toLowerCase() === adapter.feed.toLowerCase(),
-  );
+  const matchingChainlinkFeed = chainlinkMetadata?.find((feed) => {
+    const chainlinkFeed = feed as ChainlinkFeedWithSecondaryProxy;
+    return [chainlinkFeed.proxyAddress, chainlinkFeed.secondaryProxyAddress].some(
+      (address) => address?.toLowerCase() === adapter.feed.toLowerCase(),
+    );
+  });
 
   const matchingRedstoneFeed = redstoneMetadata?.find(
     (feed) => feed.priceFeedAddress === adapter.feed,
@@ -57,6 +64,7 @@ export function knownAggregatorV3Feed({
       matchingChainlinkFeed.docs?.productSubType === "Exchange Rate" ||
       matchingChainlinkFeed.path?.toLowerCase().endsWith("exchange-rate");
     matchingChainlinkFeed.name?.toLowerCase().endsWith("exchange rate");
+    const isSmartValueCapture = matchingChainlinkFeed.path?.toLowerCase().endsWith("-svr");
 
     return {
       result: passCheck(
@@ -65,7 +73,11 @@ export function knownAggregatorV3Feed({
       ),
       label: `${matchingChainlinkFeed.name} (${matchingChainlinkFeed.threshold}%, ${matchingChainlinkFeed.heartbeat}s)`,
       heartbeat: matchingChainlinkFeed.heartbeat,
-      methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
+      methodology: isSmartValueCapture
+        ? "Smart Value Capture"
+        : isExchangeRate
+          ? "Exchange Rate"
+          : "Market Price",
       provider: "Chainlink",
     };
   } else if (matchingRedstoneFeed) {

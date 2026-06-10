@@ -5,6 +5,7 @@ import {
   Asset,
   ChainlinkFeed,
   ChainlinkInfrequentXStocksOracle,
+  ChainlinkMetadata,
   ChronicleFeed,
   EOracleFeed,
   fetchChainlinkMetadata,
@@ -35,6 +36,10 @@ import { fallbackAssets } from "./config/fallbackAssets";
 import { fetchEulerApiDeployedRouters, fetchEulerApiHistoricalAdapters } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { CollectedData } from "./types";
+
+type ChainlinkFeedMetadataWithSecondaryProxy = ChainlinkMetadata[number] & {
+  secondaryProxyAddress?: Address | null;
+};
 
 loadEnv();
 
@@ -204,12 +209,18 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     .map(({ feed }) => feed);
 
   const chainlinkFeedAddresses = chainlinkMetadata
-    .map((metadata) => metadata.proxyAddress as Address)
-    .filter(
-      (proxyAddress) =>
-        !!proxyAddress &&
-        aggregatorV3Feeds.some((feed) => feed.toLowerCase() === proxyAddress.toLowerCase()),
-    );
+    .flatMap((metadata) => {
+      const chainlinkFeed = metadata as ChainlinkFeedMetadataWithSecondaryProxy;
+      return [chainlinkFeed.proxyAddress, chainlinkFeed.secondaryProxyAddress] as (
+        | Address
+        | null
+        | undefined
+      )[];
+    })
+    .filter((proxyAddress): proxyAddress is Address => {
+      if (!proxyAddress) return false;
+      return aggregatorV3Feeds.some((feed) => feed.toLowerCase() === proxyAddress.toLowerCase());
+    });
 
   let chainlinkFeeds: ChainlinkFeed[] = [];
   if (chainlinkFeedAddresses.length > 0) {
