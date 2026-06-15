@@ -50089,6 +50089,159 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "285A.JP/JPY-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "285A.JP",
+      "JPY"
+    ],
+    "path": "285a-jp-jpy-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Kioxia",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Kioxia",
+      "attributeType": "EquityPrice",
+      "baseAsset": "285A.JP",
+      "baseAssetClic": "285A.JP_EQ",
+      "baseAssetEntityId": "equity-285A.JP",
+      "clicProductName": "285A.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Tokyo",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "quoteAssetEntityId": "forex-JPY",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005674,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005675,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-bid",
+        "streamID": 1000005676,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005677,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-ask",
+        "streamID": 1000005678,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005679,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "285A.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005680,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Tokyo-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005306,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b25faaf56354ae70fb77e28bca3de2886165afdbe640fc176353056525e25",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "GOOGL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
@@ -57824,6 +57977,159 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "000660.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "000660.KR",
+      "KRW"
+    ],
+    "path": "000660-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SK hynix Inc.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "SK hynix Inc.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "000660.KR",
+      "baseAssetClic": "000660.KR_EQ",
+      "baseAssetEntityId": "equity-000660.KR",
+      "clicProductName": "000660.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005690,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005691,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005692,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005693,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005694,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005695,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "000660.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005696,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b52b77583af01f5fed4be15c90f44ed8e9be20766f0f612c36147286669fb",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "MEME/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
@@ -58804,6 +59110,159 @@
       }
     ],
     "feedId": "0x000b569d2e334dcce9ca5b80e102ca5391cfa224263b976dba9f373ee5830a05",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "005930.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "005930.KR",
+      "KRW"
+    ],
+    "path": "005930-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Samsung Electronics Co., Ltd.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Samsung Electronics Co., Ltd.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "005930.KR",
+      "baseAssetClic": "005930.KR_EQ",
+      "baseAssetEntityId": "equity-005930.KR",
+      "clicProductName": "005930.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005706,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005707,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005708,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005709,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005710,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005711,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005930.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005712,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b571827548d6d4770ee9379cdf6cc80a4aaf3d4d45269246a3b18e0064956",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -67053,6 +67512,159 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "035420.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "035420.KR",
+      "KRW"
+    ],
+    "path": "035420-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "NAVER Corp",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "NAVER Corp",
+      "attributeType": "EquityPrice",
+      "baseAsset": "035420.KR",
+      "baseAssetClic": "035420.KR_EQ",
+      "baseAssetEntityId": "equity-035420.KR",
+      "clicProductName": "035420.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005658,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005659,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005660,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005661,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005662,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005663,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035420.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005664,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b91113c178360e658ba89adf708eb04d288d3d4e8081c8a519dcfa338a573",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USD/PLN-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
       "USD",
@@ -71521,6 +72133,159 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "005380.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "005380.KR",
+      "KRW"
+    ],
+    "path": "005380-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hyundai Motor Company",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Hyundai Motor Company",
+      "attributeType": "EquityPrice",
+      "baseAsset": "005380.KR",
+      "baseAssetClic": "005380.KR_EQ",
+      "baseAssetEntityId": "equity-005380.KR",
+      "clicProductName": "005380.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005698,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005699,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005700,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005701,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005702,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005703,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "005380.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005704,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bae2080c0ead0471a6d442c72d9bab1ad3a06265d1826f9d57d6604ce50c6",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "MU/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
@@ -72949,6 +73714,159 @@
       }
     ],
     "feedId": "0x000bb69c5a70ca5e224bdb96b82f58bfae38d8753b5a20978a5643da5ac56496",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "9984.JP/JPY-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "9984.JP",
+      "JPY"
+    ],
+    "path": "9984-jp-jpy-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Softbank",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Softbank",
+      "attributeType": "EquityPrice",
+      "baseAsset": "9984.JP",
+      "baseAssetClic": "9984.JP_EQ",
+      "baseAssetEntityId": "equity-9984.JP",
+      "clicProductName": "9984.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Tokyo",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "quoteAssetEntityId": "forex-JPY",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005682,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005683,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-bid",
+        "streamID": 1000005684,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005685,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-ask",
+        "streamID": 1000005686,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005687,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9984.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005688,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Tokyo-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005306,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bb76bb25d39ee35af0d8fd03fd70098063f24d4dda949065ab0f725a2b4be",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -74884,6 +75802,159 @@
       }
     ],
     "feedId": "0x000bc0c049c1c3bde9b02756d02e2998587c68d54a0258fc471c871d70c6cfcb",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "6871.JP/JPY-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "6871.JP",
+      "JPY"
+    ],
+    "path": "6871-jp-jpy-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Micronics",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Micronics",
+      "attributeType": "EquityPrice",
+      "baseAsset": "6871.JP",
+      "baseAssetClic": "6871.JP_EQ",
+      "baseAssetEntityId": "equity-6871.JP",
+      "clicProductName": "6871.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Tokyo",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "JPY",
+      "quoteAssetClic": "JPY_FX",
+      "quoteAssetEntityId": "forex-JPY",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005666,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005667,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-bid",
+        "streamID": 1000005668,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005669,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-ask",
+        "streamID": 1000005670,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005671,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "6871.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005672,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Tokyo-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005306,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bc0d714f2f53f3efdc8496ae16f7d32b42158c02dd44f669a7553e3c523a3",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -83363,6 +84434,159 @@
       }
     ],
     "feedId": "0x000bf544892aeae8b32bab3c57dc3b951dbdddd5f068de39b90bb71d8550981a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "035720.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "035720.KR",
+      "KRW"
+    ],
+    "path": "035720-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Kakao Corp.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Kakao Corp.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "035720.KR",
+      "baseAssetClic": "035720.KR_EQ",
+      "baseAssetEntityId": "equity-035720.KR",
+      "clicProductName": "035720.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "Lo Tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005646,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005647,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005648,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005649,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005650,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005651,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "035720.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005652,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bf65f369eadb263b244e95ec1a9be0516b56793cbf45c1bdd80e1146f9e62",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
