@@ -29329,6 +29329,117 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "HASTRAAUTO/WYLDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "HASTRAAUTO",
+      "WYLDS"
+    ],
+    "path": "hastraauto-wylds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hastra Auto",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hastra Auto",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "HASTRAAUTO",
+      "baseAssetClic": "HASTRAAUTO_CR",
+      "baseAssetEntityId": "crypto-HASTRAAUTO",
+      "clicProductName": "HASTRAAUTO/WYLDS-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "WYLDS",
+      "quoteAssetClic": "WYLDS_CR",
+      "quoteAssetEntityId": "crypto-WYLDS",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "HASTRAAUTO/WYLDS-Streams-ExchangeRate",
+        "streamID": 1000005713,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00076185d4b7a4961db969a90353e84a18a0125388535e6dda0f0faeeb4e8f51",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "wstETH/stETH-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "wstETH",
@@ -29585,6 +29696,117 @@
       }
     ],
     "feedId": "0x000770987beae42d77b4ed03f9dbef21fd13a517efe31516e2f4d89fe571a186",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "APXUSD/USD-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "APXUSD",
+      "USD"
+    ],
+    "path": "apxusd-usd-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "apxUSD",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "apxUSD",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "APXUSD",
+      "baseAssetClic": "APXUSD_CR",
+      "baseAssetEntityId": "crypto-APXUSD",
+      "clicProductName": "APXUSD/USD-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "generic-api"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "APXUSD/USD-Streams-ExchangeRate",
+        "streamID": 1000005714,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0007783c030835805be1f24afc3c5cd242c97e029b4b2c70e41b278c3f771e96",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
