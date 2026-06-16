@@ -59099,6 +59099,159 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "373220.KR/KRW-Datalink-EquityPrice-mainnet-production",
+    "pair": [
+      "373220.KR",
+      "KRW"
+    ],
+    "path": "373220-kr-krw-datalink-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "LG Energy Solution Ltd.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "LG Energy Solution Ltd.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "373220.KR",
+      "baseAssetClic": "373220.KR_EQ",
+      "baseAssetEntityId": "equity-373220.KR",
+      "clicProductName": "373220.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Seoul",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "KRW",
+      "quoteAssetClic": "KRW_FX",
+      "quoteAssetEntityId": "forex-KRW",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "lo-tech"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-benchmark",
+        "streamID": 1000005719,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-benchmark-timestamp",
+        "streamID": 1000005720,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-bid",
+        "streamID": 1000005721,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "streamID": 1000005722,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-ask",
+        "streamID": 1000005723,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-askVolume",
+        "streamID": 1000005724,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "373220.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "streamID": 1000005725,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "Seoul-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005316,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b55a9b76a4f65d79621951f2ab8968c2a4e7f625ba2f1d9bf2399a5e20555",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "KWEB/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
