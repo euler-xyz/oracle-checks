@@ -1269,6 +1269,57 @@
     "address": "0x33a7221A5fb4fE9416bD4545b4eBdb07f3233BBE"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0x340910AE46d98f9524A82b4836927bc2F74f50b0",
+    "chainId": 8453,
+    "base": "0x1ceA84203673764244E05693e42E6Ace62bE9BA5",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
+    "maxStaleness": "4800",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1ceA84203673764244E05693e42E6Ace62bE9BA5 is WBTC (Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (4800 s) is sufficient for the feed's heartbeat (1200 s).",
+        "pass": true
+      }
+    ],
+    "label": "BTC / USD (0.1%, 1200s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "name": "PythOracle",
     "address": "0x34718C5519dfc2d2dFD9cd151410D8b0578c83B9",
     "chainId": 8453,
@@ -1652,6 +1703,57 @@
   },
   {
     "address": "0x4073F6AFfe8F1F8B0609912BA12859e93B45970b"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x4092adeCad7C285F7DbAb3E7453d7F8afe93c363",
+    "chainId": 8453,
+    "base": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x8D9e0911A532e2a3C005667B475E6F9742355f2b",
+    "maxStaleness": "4800",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (4800 s) is sufficient for the feed's heartbeat (1200 s).",
+        "pass": true
+      }
+    ],
+    "label": "BTC / USD (0.1%, 1200s)",
+    "methodology": "Smart Value Capture",
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -4480,6 +4582,58 @@
     "address": "0xe9068372496b15eB213d24829b170650b7D1A5fB"
   },
   {
+    "name": "CrossAdapter",
+    "address": "0xE91DF11FD9a7742a41106981CFDD3B7ca5f73Ae9",
+    "chainId": 8453,
+    "base": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "cross": "0x4200000000000000000000000000000000000006",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xa9f99F1088ec67a77586ec2b609ca5780Cd15A0E",
+    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A is weETH (Wrapped eETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "weETH/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
     "chainId": 8453,
@@ -4527,6 +4681,57 @@
     ],
     "label": "ETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xecbCb16D603b9C41EAB0F549C7AA0496759ad562",
+    "chainId": 8453,
+    "base": "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xDa5Fd22F9382e57534fEdA4fF544878aa1cf401f",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82 is SOL (Solana) with 9 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "SOL / USD (0.5%, 86400s)",
+    "methodology": "Smart Value Capture",
     "model": "Push",
     "provider": "Chainlink"
   },
@@ -5770,5 +5975,56 @@
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xa9f99F1088ec67a77586ec2b609ca5780Cd15A0E",
+    "chainId": 8453,
+    "base": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "feed": "0xFC1415403EbB0c693f9a7844b92aD2Ff24775C65",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A is weETH (Wrapped eETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "weETH / ETH (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
   }
 ]
