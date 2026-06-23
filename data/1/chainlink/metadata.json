@@ -4574,6 +4574,37 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x61b35E8fD649992e184FC3e619E6899c0e851460",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "mglobal-nav-aave-llamaguard",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "mGlobal NAV - Aave Llamaguard",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "mglobal-nav-aave-llamaguard",
+    "proxyAddress": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "smartdata_nav",
+      "valueSecuring": "value-securing"
+    },
+    "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x62a897c3e81d809c7444BB63D7D51E1F2EbB6C3D",
     "contractType": "",
     "contractVersion": 6,
@@ -5460,6 +5491,42 @@
       "quoteAsset": "ETH",
       "quoteAssetClic": "ETH_CR",
       "quoteAssetEntityId": "crypto-ETH"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x718681aC045C42f1839f914b7Afe9caC93f50de0",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "susdai-usdai-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SUSDAI / USDAI Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susdai-usdai-exchange-rate",
+    "proxyAddress": "0x0fBE44B96320EBD455FF9CCE0781fA9A83Ddee7a",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Staked USDai",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetClic": "SUSDAI_CR",
+      "baseAssetEntityId": "crypto-SUSDAI",
+      "marketHours": "Crypto",
+      "quoteAssetClic": "USDAI_CR",
+      "quoteAssetEntityId": "crypto-USDAI",
+      "valueSecuring": "value-securing"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
