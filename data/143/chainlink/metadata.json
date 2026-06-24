@@ -595,6 +595,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x1a62a92c1973466b9930a42A979FCb47e2F13EC7",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "syrupusdc-usdc-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SYRUPUSDC / USDC Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "syrupusdc-usdc-exchange-rate",
+    "proxyAddress": "0xaeC21ef8f7aA33687c647BFEDaA8CD7F7855973F",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-SYRUPUSDC",
+      "quoteAssetEntityId": "crypto-USDC"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x1d6533DdC0E46514afbeAB55a013D6ded720307C",
     "contractType": "",
     "contractVersion": 6,
@@ -1669,6 +1701,38 @@
       "quoteAssetEntityId": "forex-USD",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x62c056E89A6153133A21359D0f63587f47bc3D3D",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "susde-usde-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SUSDE / USDE Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susde-usde-exchange-rate",
+    "proxyAddress": "0x34047f0e5261103f384F20b76A324b86d192f698",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-SUSDE",
+      "quoteAssetEntityId": "crypto-USDE"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
