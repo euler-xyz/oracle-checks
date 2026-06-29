@@ -24991,6 +24991,128 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "HYPE/USDT-Datalink-Bybit-FundingRate-mainnet-production",
+    "pair": [
+      "HYPE",
+      "USDT"
+    ],
+    "path": "hype-usdt-datalink-bybit-fundingrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "HYPE",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "HYPE",
+      "attributeType": "FundingRate",
+      "baseAsset": "HYPE",
+      "baseAssetClic": "HYPE_CR",
+      "baseAssetEntityId": "crypto-HYPE",
+      "clicProductName": "HYPE/USDT-Datalink-Bybit-FundingRate-DS-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "mobula-state"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "HYPE/USDT-Datalink-Bybit-FundingRate-fundingRate",
+        "streamID": 1000005799,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "HYPE/USDT-Datalink-Bybit-FundingRate-fundingTimestamp",
+        "streamID": 1000005800,
+        "type": "uint32",
+        "multiplier": "1"
+      },
+      {
+        "name": "HYPE/USDT-Datalink-Bybit-FundingRate-epochDuration",
+        "streamID": 1000005801,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00056c26fafb2d6bffc2c0f4c3416a6d8c4c88ebf1ed18b36986ba56c312bd1d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "SILVER/USDC-Datalink-Hyperliquid-FundingRate-mainnet-production",
     "pair": [
       "SILVER",
@@ -29461,7 +29583,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "custom",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -29698,6 +29819,117 @@
       }
     ],
     "feedId": "0x000764a7e8b01c535c00ecdf4a7f62d882f905c2441de4b0bcf855b81b5e6073",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SMB/WYLDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "SMB",
+      "WYLDS"
+    ],
+    "path": "smb-wylds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hastra SMB",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hastra SMB",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SMB",
+      "baseAssetClic": "SMB_CR",
+      "baseAssetEntityId": "crypto-SMB",
+      "clicProductName": "SMB/WYLDS-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExchangeRate",
+      "quoteAsset": "WYLDS",
+      "quoteAssetClic": "WYLDS_CR",
+      "quoteAssetEntityId": "crypto-WYLDS",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SMB/WYLDS-Streams-ExchangeRate",
+        "streamID": 1000005792,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x00076f0ebf018138682718578c470922765bbc424d02aef426ddfb6f37a623b4",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -37594,7 +37826,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "NYSE",
       "productSubType": "Reference",
       "productType": "Price",
@@ -41250,6 +41481,133 @@
       }
     ],
     "feedId": "0x00099110a6d7ea475658acbfd05b8669dc2ba7805d99ffc34665cc1c9a71e0eb",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-mainnet-production",
+    "pair": [
+      "CBBTC",
+      "POR"
+    ],
+    "path": "cbbtc-nav-por-smartdata-por-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Coinbase cbBTC Reserves",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Wrapped Assets",
+      "assetName": "Coinbase cbBTC Reserves",
+      "attributeType": "NAV",
+      "baseAsset": "CBBTC",
+      "baseAssetClic": "cbBTC_CR",
+      "clicProductName": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "quoteAsset": "POR",
+      "quoteAssetClic": "POR_FX",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-benchmark",
+        "streamID": 1000005794,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-navDate",
+        "streamID": 1000005795,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-aum",
+        "streamID": 1000005796,
+        "type": "int192",
+        "multiplier": "10000000000"
+      },
+      {
+        "name": "CBBTC-NAV/POR-SmartData-PoR-NetAssetValue-ripcord",
+        "streamID": 1000005797,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009a5705faccfb0a1a68b8b82e9dcdd29dd9ada377d5d476e94a61f5ee8f1d7",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -58650,7 +59008,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "US Equities Overnight",
       "productSubType": "Reference",
       "productType": "Price",
@@ -79661,7 +80018,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "US Equities Extended",
       "productSubType": "Reference",
       "productType": "Price",
