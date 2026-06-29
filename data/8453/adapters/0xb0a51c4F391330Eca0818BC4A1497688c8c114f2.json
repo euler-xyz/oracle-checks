@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xb0a51c4F391330Eca0818BC4A1497688c8c114f2",
+  "chainId": 8453,
+  "base": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b is VIRTUAL (Virtual Protocol) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "VIRTUAL / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink"
+}
