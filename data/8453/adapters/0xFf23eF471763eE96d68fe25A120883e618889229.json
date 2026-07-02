@@ -1,11 +1,11 @@
 {
-  "name": "PendleUniversalOracle",
-  "address": "0xe6eB9F33dF6F1D335D454d740f40E12D8972dBEF",
-  "chainId": 42161,
-  "base": "0xB459dB106f645d698E74027eeF6019A26a0675Cc",
+  "name": "ChainlinkOracle",
+  "address": "0xFf23eF471763eE96d68fe25A120883e618889229",
+  "chainId": 8453,
+  "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "quote": "0x0000000000000000000000000000000000000348",
-  "pendleMarket": "0xcbF629C8d396b1261F81F55175Afa010E94787d8",
-  "twapWindow": "900",
+  "feed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -28,7 +28,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xB459dB106f645d698E74027eeF6019A26a0675Cc is PT-sUSDai-15OCT2026 (PT Staked USDai 15OCT2026) with 18 decimals.",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
       "pass": true
     },
     {
@@ -38,14 +38,14 @@
       "pass": true
     },
     {
-      "id": "Consistent asset",
-      "severity": "High",
-      "message": "Asset 0xcbF629C8d396b1261F81F55175Afa010E94787d8 is PLP-sUSDai-15OCT2026 (PLP Staked USDai 15OCT2026) with 18 decimals.",
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
       "pass": true
     }
   ],
-  "label": "PT-sUSDai",
-  "methodology": "TWAP",
+  "label": "USDC / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "Pendle"
+  "provider": "Chainlink"
 }
