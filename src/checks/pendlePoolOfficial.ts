@@ -17,9 +17,9 @@ export function pendlePoolOfficial({ adapter, pendleMetadata }: Params): {
     return {
       result: passCheck(
         CHECKS.OFFICIAL_PENDLE_POOL,
-        `Adapter is connected to an official Pendle pool: ${matchingPendlePool.symbol}.`,
+        `Adapter is connected to an official Pendle pool: PT-${matchingPendlePool.symbol}.`,
       ),
-      label: `${matchingPendlePool.symbol}`,
+      label: `PT-${matchingPendlePool.symbol}`,
     };
   } else {
     return {
