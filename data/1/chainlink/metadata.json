@@ -13144,13 +13144,21 @@
     "proxyAddress": "0xBc8f5e8B47D69fa10A4B64eC5B45b466f81B77CA",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "valueSuffix": "%",
+    "assetName": "Secured Overnight Financing Rate",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
     "docs": {
+      "assetClass": "Macroeconomics",
       "attributeType": "macroeconomics",
-      "hidden": true,
-      "marketHours": "NYSE"
+      "baseAsset": "SOFR",
+      "baseAssetEntityId": "nan-SOFR",
+      "blockchainName": "Ethereum",
+      "deliveryChannelCode": "DF",
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

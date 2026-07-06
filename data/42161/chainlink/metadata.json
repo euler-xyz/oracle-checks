@@ -9217,6 +9217,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "WEETH",
       "baseAssetClic": "WEETH_CR",
+      "baseAssetEntityId": "crypto-WEETH",
       "clicProductName": "WEETH/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -9227,10 +9228,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-WEETH/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005942,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WEETH/USD-Streams-DexPrice-bid",
+        "streamID": 1000005944,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WEETH/USD-Streams-DexPrice-ask",
+        "streamID": 1000005943,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003408374cbf263a4b242539a3ea60395de32ddb445030e9c5b405090a39a30",
     "sourceChain": 42161,
     "status": "live",
@@ -9946,8 +9968,9 @@
       "assetSubClass": "Crypto",
       "assetName": "Wrapped Bitcoin",
       "attributeType": "DexPrice",
-      "baseAsset": "wBTC",
+      "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
+      "baseAssetEntityId": "crypto-WBTC",
       "clicProductName": "wBTC/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -9958,10 +9981,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005946,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000005948,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000005947,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00034a95e798013fd8bc6ac56707488e1c4622e5dffa9f3c2fe99f8105b4fa5b",
     "sourceChain": 42161,
     "status": "live",
@@ -11695,6 +11739,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "BTCB",
       "baseAssetClic": "BTCB_CR",
+      "baseAssetEntityId": "crypto-BTCB",
       "clicProductName": "BTCB/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -11706,10 +11751,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-BTCB/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005858,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BTCB/USD-Streams-DexPrice-bid",
+        "streamID": 1000005860,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BTCB/USD-Streams-DexPrice-ask",
+        "streamID": 1000005859,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00035f6b71a4acd6833f1e63a32d8150839888116ae48587bcb0c95cba207577",
     "sourceChain": 42161,
     "status": "live",
@@ -15293,6 +15359,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "USDS",
       "baseAssetClic": "USDS_CR",
+      "baseAssetEntityId": "crypto-USDS",
       "clicProductName": "USDS/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -15303,10 +15370,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDS/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005958,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDS/USD-Streams-DexPrice-bid",
+        "streamID": 1000005960,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDS/USD-Streams-DexPrice-ask",
+        "streamID": 1000005959,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003862a436c33ac6d32d9af66468429de9cb6a0b396bf03f46a019ebd879a89",
     "sourceChain": 42161,
     "status": "live",
@@ -17713,9 +17801,10 @@
       "assetSubClass": "Crypto",
       "assetName": "Wrapped Bitcoin",
       "attributeType": "DexPrice",
-      "baseAsset": "wBTC",
+      "baseAsset": "WBTC",
       "baseAssetClic": "WBTC_CR",
-      "clicProductName": "wBTC/USD-Streams-DexPrice",
+      "baseAssetEntityId": "crypto-WBTC",
+      "clicProductName": "WBTC/USD-Streams-DexPrice",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -17726,10 +17815,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005946,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000005948,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000005947,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003aed8fece677ff92341fe4ca2e9994237009bc31e0478e4685a4e8915f3d6",
     "sourceChain": 42161,
     "status": "live",
@@ -20796,6 +20906,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "USX",
       "baseAssetClic": "USX_CR",
+      "baseAssetEntityId": "crypto-USX",
       "clicProductName": "USX/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -20806,10 +20917,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USX/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005950,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USX/USD-Streams-DexPrice-bid",
+        "streamID": 1000005952,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USX/USD-Streams-DexPrice-ask",
+        "streamID": 1000005951,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003da0af654f8f5850f843290c8c3d99a1467478d13fdf92d1c99c837f6aecf",
     "sourceChain": 42161,
     "status": "live",
@@ -23753,6 +23885,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "USR",
       "baseAssetClic": "USR_CR",
+      "baseAssetEntityId": "crypto-USR",
       "clicProductName": "USR/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -23763,10 +23896,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USR/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005954,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USR/USD-Streams-DexPrice-bid",
+        "streamID": 1000005956,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USR/USD-Streams-DexPrice-ask",
+        "streamID": 1000005955,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003f22fc74488b2645a00bf4eeefd3a2f5c83b22d02e19cebf37156e9c915fb",
     "sourceChain": 42161,
     "status": "live",
