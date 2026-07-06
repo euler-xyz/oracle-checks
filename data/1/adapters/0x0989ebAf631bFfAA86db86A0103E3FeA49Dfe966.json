@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
-  "chainId": 130,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "name": "CrossAdapter",
+  "address": "0x0989ebAf631bFfAA86db86A0103E3FeA49Dfe966",
+  "chainId": 1,
+  "base": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+  "cross": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "oracleBaseCross": "0xEBE2A245EF638686FcEa784031E4E4F2C350f048",
+  "oracleCrossQuote": "0x575Ffc02361368A2708c00bC7e299d1cD1c89f8A",
   "checks": [
     {
       "id": "Adapter existence",
@@ -28,7 +29,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x45804880De22913dAFE09f4980848ECE6EcbAf78 is PAXG (Paxos Gold) with 18 decimals.",
       "pass": true
     },
     {
@@ -38,14 +39,14 @@
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xdAC17F958D2ee523a2206206994597C13D831ec7 is USDT (Tether USD) with 6 decimals.",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "PAXG/USDT/USD",
   "methodology": "Unknown",
-  "model": "Push",
-  "provider": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

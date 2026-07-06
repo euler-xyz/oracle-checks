@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
-  "chainId": 130,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "name": "CrossAdapter",
+  "address": "0xD47934bE9636E2DA626B938D035ba41CE8422D2F",
+  "chainId": 1,
+  "base": "0x23238f20b894f29041f48D88eE91131C395Aaa71",
+  "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "oracleBaseCross": "0xDb9F4eDeD77a4a99BD24220B32D6831E1cfA7C83",
+  "oracleCrossQuote": "0xD35657aE033A86FFa8fc6Bc767C5eb57C7c3D4B8",
   "checks": [
     {
       "id": "Adapter existence",
@@ -28,7 +29,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x23238f20b894f29041f48D88eE91131C395Aaa71 is USDat (USDat) with 6 decimals.",
       "pass": true
     },
     {
@@ -38,14 +39,14 @@
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "USDat/USDC/USD",
   "methodology": "Unknown",
-  "model": "Push",
-  "provider": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

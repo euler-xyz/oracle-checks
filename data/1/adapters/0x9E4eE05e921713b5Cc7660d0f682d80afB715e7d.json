@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
-  "chainId": 130,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x9E4eE05e921713b5Cc7660d0f682d80afB715e7d",
+  "chainId": 1,
+  "base": "0xdDC0f880ff6e4e22E4B74632fBb43Ce4DF6cCC5a",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "feed": "0x7844441f13C61CBD3d297F5d2D7fcaBf17f0b843",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -28,7 +28,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0xdDC0f880ff6e4e22E4B74632fBb43Ce4DF6cCC5a is reUSDe (Re Protocol reUSDe) with 18 decimals.",
       "pass": true
     },
     {

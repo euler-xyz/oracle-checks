@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
-  "chainId": 130,
-  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xEBE2A245EF638686FcEa784031E4E4F2C350f048",
+  "chainId": 1,
+  "base": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+  "quote": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "feed": "0xD308867ED5a2c41Dc778f4CF34593764D09860E7",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -28,13 +28,13 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x45804880De22913dAFE09f4980848ECE6EcbAf78 is PAXG (Paxos Gold) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0xdAC17F958D2ee523a2206206994597C13D831ec7 is USDT (Tether USD) with 6 decimals.",
       "pass": true
     },
     {
