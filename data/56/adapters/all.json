@@ -253,6 +253,9 @@
     "provider": "Chronicle"
   },
   {
+    "address": "0x3aBEe5638d93d792c9b282f0204e925f9A50C09C"
+  },
+  {
     "name": "CrossAdapter",
     "address": "0x421B5623A02dE8B2E7A5F83279F12EB1fC81D19d",
     "chainId": 56,
@@ -407,6 +410,9 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross"
+  },
+  {
+    "address": "0x56a730448E1c8bAd17aFA1a4c4633B9c1214288E"
   },
   {
     "name": "PythOracle",
@@ -945,6 +951,59 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Unknown"
+  },
+  {
+    "address": "0x92dad5eEE3245c2aD9766225Ff15beDf650646ea"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x969b93eE397B95fF155b2474A350a0800B91F6E0",
+    "chainId": 56,
+    "base": "0x55d398326f99059fF775485246999027B3197955",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x55d398326f99059fF775485246999027B3197955 is USDT (Tether USD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDT/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "name": "ChainlinkOracle",
@@ -1686,6 +1745,9 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone"
+  },
+  {
+    "address": "0xf2c37aa072b980A7054bB281FDC894b64B6EC019"
   },
   {
     "name": "ChainlinkOracle",
