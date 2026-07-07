@@ -14814,127 +14814,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "Updated-WEETH/USD-Streams-DexPrice-mainnet-production",
-    "pair": [
-      "WEETH",
-      "USD"
-    ],
-    "path": "updated-weeth-usd-streams-dexprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Wrapped eETH",
-    "feedCategory": "low",
-    "feedType": "Crypto-DEX",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Wrapped eETH",
-      "attributeType": "DexPrice",
-      "baseAsset": "WEETH",
-      "baseAssetClic": "WEETH_CR",
-      "baseAssetEntityId": "crypto-WEETH",
-      "clicProductName": "WEETH/USD-Streams-DexPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto-DEX",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "Updated-WEETH/USD-Streams-DexPrice-benchmark",
-        "streamID": 1000005942,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WEETH/USD-Streams-DexPrice-bid",
-        "streamID": 1000005944,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WEETH/USD-Streams-DexPrice-ask",
-        "streamID": 1000005943,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      }
-    ],
-    "feedId": "0x000383ed99d2894508d56915f0c869a5b3d1ccc2f2c4f10940dda734b56ec2de",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "AI/USD-Streams-CexPrice-mainnet-production",
     "pair": [
       "AI",
@@ -44603,6 +44482,132 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "DEJAAA-NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "DEJAAA",
+      ""
+    ],
+    "path": "dejaaa-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "DeFi Janus Henderson Anemoy AAA CLO Fund",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "assetSubClass": "Tokenized Asset",
+      "assetName": "DeFi Janus Henderson Anemoy AAA CLO Fund",
+      "attributeType": "NAV",
+      "baseAsset": "DEJAAA",
+      "baseAssetClic": "deJAAA_CR",
+      "clicProductName": "DEJAAA-NAV-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "DEJAAA-NAV-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000006001,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "DEJAAA-NAV-SmartData-NetAssetValue-navDate",
+        "streamID": 1000006002,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "DEJAAA-NAV-SmartData-NetAssetValue-aum",
+        "streamID": 1000006003,
+        "type": "int192",
+        "multiplier": "1"
+      },
+      {
+        "name": "DEJAAA-NAV-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000006004,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009c0250f6f42cdf189cac80f170f9a776ff983891fdb81fb41b3466c1a616b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "NVDAx/POR-Datalink-ProofOfReserves-mainnet-production",
     "pair": [
       "NVDAx",
@@ -44792,6 +44797,132 @@
       }
     ],
     "feedId": "0x0009c4860747f1a58f964a493b76e1cc4b58765c764e2d24310ee2434aa60fd0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "deJTRSY-NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "deJTRSY",
+      ""
+    ],
+    "path": "dejtrsy-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "DeFi  Janus Henderson Anemoy Treasury Fund",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "assetSubClass": "Tokenized Asset",
+      "assetName": "DeFi  Janus Henderson Anemoy Treasury Fund",
+      "attributeType": "NAV",
+      "baseAsset": "deJTRSY",
+      "baseAssetClic": "deTRSY_CR",
+      "clicProductName": "deJTRSY-NAV-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "deJTRSY-NAV-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000005996,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "deJTRSY-NAV-SmartData-NetAssetValue-navDate",
+        "streamID": 1000005997,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "deJTRSY-NAV-SmartData-NetAssetValue-aum",
+        "streamID": 1000005998,
+        "type": "int192",
+        "multiplier": "1"
+      },
+      {
+        "name": "deJTRSY-NAV-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000005999,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009c950abc78043837edf0e7af00f47e4b54248957ca0dfed612a0c2559d05d",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
