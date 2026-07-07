@@ -20808,6 +20808,7 @@
       "attributeType": "DexPrice",
       "baseAsset": "MUSD",
       "baseAssetClic": "MUSD_CR",
+      "baseAssetEntityId": "crypto-MUSD",
       "clicProductName": "MUSD/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -20818,10 +20819,31 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-MUSD/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005862,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MUSD/USD-Streams-DexPrice-bid",
+        "streamID": 1000005864,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MUSD/USD-Streams-DexPrice-ask",
+        "streamID": 1000005863,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003d7d5fd22363d2e8d61794317307997fc45e83d81a875b97dbd09f170bbbf",
     "sourceChain": 42161,
     "status": "live",
