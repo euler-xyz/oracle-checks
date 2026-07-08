@@ -31,11 +31,17 @@ import { config as loadEnv } from "dotenv";
 import { Address, getAddress, Hex, isAddress, type PublicClient, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
+import { extractMetadataHash } from "./checks/knownMetadataHash";
 import { chainConfigs } from "./config/chainConfigs";
 import { fallbackAssets } from "./config/fallbackAssets";
+import {
+  POPPIE_EULER_ADAPTER_CONTRACT_NAME,
+  POPPIE_EULER_ADAPTER_METADATA_HASH,
+  PoppieEulerAdapter,
+} from "./customAdapters";
 import { fetchEulerApiDeployedRouters, fetchEulerApiHistoricalAdapters } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
-import { CollectedData } from "./types";
+import { CollectedData, OracleAdapter } from "./types";
 
 type ChainlinkFeedMetadataWithSecondaryProxy = ChainlinkMetadata[number] & {
   secondaryProxyAddress?: Address | null;
@@ -135,7 +141,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const seenAdapterAddresses = new Set(adapterAddresses.map((address) => address.toLowerCase()));
   let pendingAdapterAddresses = [...adapterAddresses];
 
-  const adapters: (Adapter | null)[] = [];
+  const adapters: (OracleAdapter | null)[] = [];
   const bytecodes: (Hex | undefined)[] = [];
 
   while (pendingAdapterAddresses.length > 0) {
@@ -155,9 +161,11 @@ export async function collectData(chainId: number): Promise<CollectedData> {
 
       const normalizedAdapterBatch = await Promise.all(
         adapterBatch.map((adapter, adapterIndex) =>
-          normalizeChainlinkInfrequentXStocksOracle({
+          normalizeAdapter({
             adapter,
+            address: addressBatch[adapterIndex],
             code: bytecodeBatch[adapterIndex],
+            chainId,
             publicClient,
           }),
         ),
@@ -340,6 +348,29 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   };
 }
 
+async function normalizeAdapter({
+  adapter,
+  address,
+  code,
+  chainId,
+  publicClient,
+}: {
+  adapter: Adapter | null;
+  address: Address;
+  code: Hex | undefined;
+  chainId: number;
+  publicClient: PublicClient;
+}): Promise<OracleAdapter | null> {
+  const normalizedAdapter = await normalizeChainlinkInfrequentXStocksOracle({
+    adapter,
+    code,
+    publicClient,
+  });
+  if (normalizedAdapter) return normalizedAdapter;
+
+  return normalizePoppieEulerAdapter({ address, code, chainId });
+}
+
 async function normalizeChainlinkInfrequentXStocksOracle({
   adapter,
   code,
@@ -348,7 +379,7 @@ async function normalizeChainlinkInfrequentXStocksOracle({
   adapter: Adapter | null;
   code: Hex | undefined;
   publicClient: PublicClient;
-}): Promise<Adapter | null> {
+}): Promise<OracleAdapter | null> {
   if (
     adapter?.name !== "ChainlinkInfrequentOracle" ||
     !isChainlinkInfrequentXStocksBytecode(code)
@@ -388,6 +419,25 @@ async function normalizeChainlinkInfrequentXStocksOracle({
     maxAllowedMultiplierChange,
     xStocksToken,
   } satisfies ChainlinkInfrequentXStocksOracle;
+}
+
+function normalizePoppieEulerAdapter({
+  address,
+  code,
+  chainId,
+}: {
+  address: Address;
+  code: Hex | undefined;
+  chainId: number;
+}): PoppieEulerAdapter | null {
+  if (!code || code === "0x") return null;
+  if (extractMetadataHash(code) !== POPPIE_EULER_ADAPTER_METADATA_HASH) return null;
+
+  return {
+    address,
+    chainId,
+    name: POPPIE_EULER_ADAPTER_CONTRACT_NAME,
+  };
 }
 
 function isChainlinkInfrequentXStocksBytecode(code: Hex | undefined): boolean {

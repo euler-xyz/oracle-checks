@@ -24,6 +24,10 @@ import {
   pendlePoolOfficial,
 } from "./checks";
 import { chainConfigs } from "./config/chainConfigs";
+import {
+  POPPIE_CUSTOM_ADAPTER_DISPLAY_NAME,
+  POPPIE_EULER_ADAPTER_CONTRACT_NAME,
+} from "./customAdapters";
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { AdapterToResults, CollectedData, OracleMethodology, OracleModel } from "./types";
 
@@ -57,6 +61,23 @@ export function runChecks({
     let methodology: OracleMethodology = "Unknown";
     let model: OracleModel = "Unknown";
     let provider: string = "Unknown";
+
+    if (adapter?.name === POPPIE_EULER_ADAPTER_CONTRACT_NAME) {
+      adapterToResults[adapter.address] = {
+        checks: [
+          knownMetadataHash({
+            adapter,
+            code: bytecodes[index],
+            allowedMetadataHashes: metadataHashes[adapter.name],
+          }),
+        ],
+        label: POPPIE_CUSTOM_ADAPTER_DISPLAY_NAME,
+        methodology: "Custom",
+        model,
+        provider: POPPIE_CUSTOM_ADAPTER_DISPLAY_NAME,
+      };
+      return;
+    }
 
     const existenceCheck = existence({
       chainId,

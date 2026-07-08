@@ -1,3 +1,8 @@
+import {
+  POPPIE_EULER_ADAPTER_CONTRACT_NAME,
+  POPPIE_EULER_ADAPTER_METADATA_HASH,
+} from "../customAdapters";
+
 export const metadataHashes: Record<string, string[]> = {
   ChainlinkOracle: [
     "0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
@@ -102,4 +107,5 @@ export const metadataHashes: Record<string, string[]> = {
   SwaapSafeguardOracle: ["0x"],
   UniswapV3Oracle: ["0x"],
   IdleTranchesOracle: ["0x12205fab90911f9465e9f90d80ef81361680dedc1af9c5ec17910c1ac452ebbcb893"],
+  [POPPIE_EULER_ADAPTER_CONTRACT_NAME]: [POPPIE_EULER_ADAPTER_METADATA_HASH],
 };

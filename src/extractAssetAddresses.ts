@@ -1,7 +1,8 @@
-import { Adapter } from "@objectivelabs/oracle-sdk";
 import { Address } from "viem";
 
-export function extractAssetAddresses(adapter: Adapter | null): Address[] {
+import { OracleAdapter } from "./types";
+
+export function extractAssetAddresses(adapter: OracleAdapter | null): Address[] {
   if (!adapter) return [];
   const addresses: Address[] = [];
 

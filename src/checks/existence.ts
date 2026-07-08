@@ -1,13 +1,13 @@
-import { Adapter } from "@objectivelabs/oracle-sdk";
 import { Address } from "viem";
 
+import { OracleAdapter } from "../types";
 import { CheckResultWithId } from "./types";
 import { CHECKS, failCheck, passCheck } from "./utils";
 
 type Params = {
   chainId: number;
   address: Address;
-  adapter: Adapter | null;
+  adapter: OracleAdapter | null;
 };
 
 export function existence({ chainId, address, adapter }: Params): CheckResultWithId {

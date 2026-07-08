@@ -17,6 +17,9 @@ import {
 import { Address, Hex } from "viem";
 
 import { CheckResult } from "./checks";
+import { PoppieEulerAdapter } from "./customAdapters";
+
+export type OracleAdapter = Adapter | PoppieEulerAdapter;
 
 export type CollectedData = {
   chainId: number;
@@ -34,7 +37,7 @@ export type CollectedData = {
   eoracleFeeds: EOracleFeed[];
   idleCDOs: IdleCDO[];
   idleTranches: IdleTranche[];
-  adapters: (Adapter | null)[];
+  adapters: (OracleAdapter | null)[];
   bytecodes: (Hex | undefined)[];
   assets: Asset[];
 };
@@ -47,6 +50,7 @@ export type OracleMethodology =
   | "Smart Value Recapture"
   | "Exchange Rate"
   | "TWAP"
+  | "Custom"
   | "Unknown";
 
 export type AdapterToResults = Record<

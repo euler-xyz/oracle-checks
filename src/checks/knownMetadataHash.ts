@@ -1,12 +1,12 @@
-import { Adapter } from "@objectivelabs/oracle-sdk";
 import { decode } from "cbor-x";
 import { Hex } from "viem";
 
+import { OracleAdapter } from "../types";
 import { CheckResultWithId } from "./types";
 import { CHECKS, failCheck, passCheck } from "./utils";
 
 type Params = {
-  adapter: Adapter;
+  adapter: Pick<OracleAdapter, "name">;
   code: Hex | undefined;
   allowedMetadataHashes?: string[];
 };
@@ -42,7 +42,7 @@ export function knownMetadataHash({
   return passCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash matches a known hash.`);
 }
 
-function extractMetadataHash(bytecode: Hex): string | null {
+export function extractMetadataHash(bytecode: Hex): string | null {
   try {
     // Remove 0x prefix
     const code = bytecode.slice(2);
