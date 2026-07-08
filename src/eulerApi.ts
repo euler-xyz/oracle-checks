@@ -81,11 +81,12 @@ async function fetchEulerApiPages<T>(path: string, chainId: number): Promise<T[]
 
     items.push(...data.data);
 
-    const { total, limit } = data.meta;
-    if (items.length >= total || data.data.length === 0) {
+    const { total, offset: returnedOffset, limit } = data.meta;
+    const nextOffset = returnedOffset + data.data.length;
+    if (items.length >= total || data.data.length === 0 || nextOffset <= offset || limit <= 0) {
       hasMore = false;
     } else {
-      offset += limit;
+      offset = nextOffset;
     }
   }
 
