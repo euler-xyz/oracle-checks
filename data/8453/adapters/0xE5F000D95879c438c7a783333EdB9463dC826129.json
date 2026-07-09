@@ -1,0 +1,52 @@
+{
+  "name": "CrossAdapter",
+  "address": "0xE5F000D95879c438c7a783333EdB9463dC826129",
+  "chainId": 8453,
+  "base": "0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F",
+  "cross": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xE73B9C66487F76E4FB28d4029786575424673dc5",
+  "oracleCrossQuote": "0x41DBdfd03a44BA83A64EdE9716E270994F472DCe",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F is sUSN (Staked USN) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Onchain indexing failed for asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD: could not get symbol.",
+      "pass": false
+    }
+  ],
+  "label": "sUSN//USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross"
+}

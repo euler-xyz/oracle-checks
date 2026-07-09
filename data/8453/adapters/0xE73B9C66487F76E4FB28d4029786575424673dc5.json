@@ -1,0 +1,45 @@
+{
+  "name": "ChainlinkInfrequentNanosecondOracle",
+  "address": "0xE73B9C66487F76E4FB28d4029786575424673dc5",
+  "chainId": 8453,
+  "base": "0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F",
+  "quote": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+  "feed": "0x907fb22C2DA56642F89702b0970a03ed13EbF136",
+  "maxStaleness": "7200",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Unrecognized adapter class ChainlinkInfrequentNanosecondOracle.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F is sUSN (Staked USN) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Onchain indexing failed for asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD: could not get symbol.",
+      "pass": false
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Unknown"
+}
