@@ -7773,9 +7773,9 @@
       "assetSubClass": "Crypto",
       "assetName": "Coinbase Wrapped BTC",
       "attributeType": "DexPrice",
-      "baseAsset": "cbBTC",
+      "baseAsset": "CBBTC",
       "baseAssetClic": "CBBTC_CR",
-      "baseAssetEntityId": "crypto-cbBTC",
+      "baseAssetEntityId": "crypto-CBBTC",
       "clicProductName": "CBBTC/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -7791,6 +7791,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005992,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000005994,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000005993,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00032f0dcc9c5ca2902b87fb3384538135429b53854ddff805f98b6f37132b22",
     "sourceChain": 42161,
     "status": "live",
@@ -8313,6 +8333,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-CUSDO/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005988,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CUSDO/USD-Streams-DexPrice-bid",
+        "streamID": 1000005990,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CUSDO/USD-Streams-DexPrice-ask",
+        "streamID": 1000005989,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000333eb8ccccb7e6bf3338fe3da4cd391f93911f32d022a7ea5f8b76172c0b9",
     "sourceChain": 42161,
     "status": "live",
@@ -8614,6 +8654,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005938,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-bid",
+        "streamID": 1000005940,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-ask",
+        "streamID": 1000005939,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000338b3a0229b0239953b2f262f3335c91fed6098d7949563a9cddb8824a8d7",
     "sourceChain": 42161,
     "status": "live",
@@ -9088,127 +9148,6 @@
       },
       {
         "operator": "mercury-simplyVC-3"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "Updated-BTCB/USD-Streams-DexPrice-mainnet-production",
-    "pair": [
-      "BTCB",
-      "USD"
-    ],
-    "path": "updated-btcb-usd-streams-dexprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Binance Bitcoin",
-    "feedCategory": "low",
-    "feedType": "Crypto-DEX",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Binance Bitcoin",
-      "attributeType": "DexPrice",
-      "baseAsset": "BTCB",
-      "baseAssetClic": "BTCB_CR",
-      "baseAssetEntityId": "crypto-BTCB",
-      "clicProductName": "BTCB/USD-Streams-DexPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto-DEX",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "Updated-BTCB/USD-Streams-DexPrice-benchmark",
-        "streamID": 1000005858,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-BTCB/USD-Streams-DexPrice-bid",
-        "streamID": 1000005860,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-BTCB/USD-Streams-DexPrice-ask",
-        "streamID": 1000005859,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      }
-    ],
-    "feedId": "0x00033d078dde72f199872f6fb861859f9bcd9ee3790d49c9e3108aa7f0a18f09",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
       }
     ]
   },
@@ -9722,6 +9661,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDF/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005964,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDF/USD-Streams-DexPrice-bid",
+        "streamID": 1000005966,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDF/USD-Streams-DexPrice-ask",
+        "streamID": 1000005965,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00034859d73b33c17b48fce6234c99e16d1c6245c1580a4449d8bf1a70b02360",
     "sourceChain": 42161,
     "status": "live",
@@ -10947,9 +10906,9 @@
       "assetSubClass": "Crypto",
       "assetName": "Coinbase Wrapped BTC",
       "attributeType": "DexPrice",
-      "baseAsset": "cbBTC",
+      "baseAsset": "CBBTC",
       "baseAssetClic": "CBBTC_CR",
-      "baseAssetEntityId": "crypto-cbBTC",
+      "baseAssetEntityId": "crypto-CBBTC",
       "clicProductName": "CBBTC/USD-RefPrice-DSStaging-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
@@ -10966,6 +10925,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005992,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000005994,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CBBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000005993,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00035426b9e3d49c551d1d8293c9a92f9338583cc98026d59096dd4936ce2cdc",
     "sourceChain": 42161,
     "status": "live",
@@ -12498,6 +12477,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-GHO/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005984,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GHO/USD-Streams-DexPrice-bid",
+        "streamID": 1000005986,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GHO/USD-Streams-DexPrice-ask",
+        "streamID": 1000005985,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00036792986ec2fa0b725f3fb906a88bbba79d0df28836f4b37312a8a49cadcc",
     "sourceChain": 42161,
     "status": "live",
@@ -12598,6 +12597,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USD0/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005976,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USD0/USD-Streams-DexPrice-bid",
+        "streamID": 1000005978,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USD0/USD-Streams-DexPrice-ask",
+        "streamID": 1000005977,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003686329f38081e9b198fd171ec7693a9e5f7c4a36fb7b2828dbf1effd5567",
     "sourceChain": 42161,
     "status": "live",
@@ -23068,6 +23087,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005938,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-bid",
+        "streamID": 1000005940,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-WSTETH/USD-Streams-DexPrice-ask",
+        "streamID": 1000005939,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003e8aed7fa7b939cc969a6db3105e05b4e77a7e9bb546fe21516f22aa1b0f4",
     "sourceChain": 42161,
     "status": "live",
@@ -23788,6 +23827,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-TBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005980,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-TBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000005982,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-TBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000005981,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003ec6b637fbe60468e9750089fc0282adee2df319fd3d1b7ab4b98f7f4b97f",
     "sourceChain": 42161,
     "status": "live",
@@ -45012,6 +45071,133 @@
       }
     ],
     "feedId": "0x0009b670c100cdda89aa2e2e3110f61ad6a3a4c1afbf95be32d763972008c14e",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "oTFY-NAV/USD-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "oTFY",
+      "USD"
+    ],
+    "path": "otfy-nav-usd-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Obligate Trade Finance Yield",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "assetSubClass": "Tokenized Asset",
+      "assetName": "Obligate Trade Finance Yield",
+      "attributeType": "NAV",
+      "baseAsset": "oTFY",
+      "baseAssetClic": "OTFY_CR",
+      "clicProductName": "oTFY-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "generic-api"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "oTFY-NAV/USD-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000006139,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "oTFY-NAV/USD-SmartData-NetAssetValue-navDate",
+        "streamID": 1000006140,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "oTFY-NAV/USD-SmartData-NetAssetValue-aum",
+        "streamID": 1000006141,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "oTFY-NAV/USD-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000006142,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009bf088582463ee42e21e75e7ba2f16833fe3fce402b9af9556f3c57411689",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -104080,26 +104266,53 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "USDe",
+    "assetName": "Ethena USDe",
     "feedCategory": "low",
     "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "USDe",
+      "assetName": "Ethena USDe",
       "attributeType": "DexPrice",
       "baseAsset": "USDE",
+      "baseAssetClic": "USDE_CR",
       "baseAssetEntityId": "crypto-USDE",
-      "clicProductName": "USDe/USD-Streams-DexPrice",
+      "clicProductName": "USDE/USD-Streams-DexPrice",
+      "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
       "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005972,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-bid",
+        "streamID": 1000005974,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-ask",
+        "streamID": 1000005973,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003f6d7af2aa710362ae5e361aa5424642584010d973683d9ee2007b8788593",
     "sourceChain": 42161,
     "status": "live",
@@ -111411,6 +111624,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005972,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-bid",
+        "streamID": 1000005974,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-ask",
+        "streamID": 1000005973,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000379477abdca006db92300211242ba44479369a15be0ad8d59cabe00e63074",
     "sourceChain": 42161,
     "status": "live",
