@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x9D39B08C040501c0977274F865cD11891BF3c1d2",
+  "chainId": 8453,
+  "base": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6985884C4392D348587B19cb9eAAf157F13271cd is ZRO (LayerZero) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "ZRO / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink"
+}
