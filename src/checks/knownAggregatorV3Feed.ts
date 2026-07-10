@@ -1,6 +1,7 @@
 import {
   Asset,
   ChainlinkMetadata,
+  ChainlinkInfrequentNanosecondOracle,
   ChainlinkInfrequentOracle,
   ChainlinkInfrequentXStocksOracle,
   ChainlinkOracle,
@@ -18,7 +19,11 @@ type ChainlinkFeedWithSecondaryProxy = ChainlinkMetadata[number] & {
 };
 
 type Params = {
-  adapter: ChainlinkOracle | ChainlinkInfrequentOracle | ChainlinkInfrequentXStocksOracle;
+  adapter:
+    | ChainlinkOracle
+    | ChainlinkInfrequentOracle
+    | ChainlinkInfrequentNanosecondOracle
+    | ChainlinkInfrequentXStocksOracle;
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
   eoracleMetadata?: EOracleMetadata;

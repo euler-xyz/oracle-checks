@@ -119,6 +119,7 @@ export function runChecks({
     if (
       name === "ChainlinkOracle" ||
       name === "ChainlinkInfrequentOracle" ||
+      name === "ChainlinkInfrequentNanosecondOracle" ||
       name === "ChainlinkInfrequentXStocksOracle"
     ) {
       const aggregatorV3FeedCheck = knownAggregatorV3Feed({
@@ -131,7 +132,8 @@ export function runChecks({
       });
       label = aggregatorV3FeedCheck.label;
       methodology = aggregatorV3FeedCheck.methodology;
-      provider = aggregatorV3FeedCheck.provider;
+      provider =
+        name === "ChainlinkInfrequentNanosecondOracle" ? "Stork" : aggregatorV3FeedCheck.provider;
       model = "Push";
 
       if (

@@ -212,6 +212,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
       (adapter) =>
         adapter?.name === "ChainlinkOracle" ||
         adapter?.name === "ChainlinkInfrequentOracle" ||
+        adapter?.name === "ChainlinkInfrequentNanosecondOracle" ||
         adapter?.name === "ChainlinkInfrequentXStocksOracle",
     )
     .map(({ feed }) => feed);
