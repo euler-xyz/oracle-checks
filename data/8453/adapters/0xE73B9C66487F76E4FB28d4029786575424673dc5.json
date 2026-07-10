@@ -16,8 +16,8 @@
     {
       "id": "Source code provenance",
       "severity": "High",
-      "message": "Unrecognized adapter class ChainlinkInfrequentNanosecondOracle.",
-      "pass": false
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
     },
     {
       "id": "Distinct assets",
@@ -36,10 +36,16 @@
       "severity": "High",
       "message": "Onchain indexing failed for asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD: could not get symbol.",
       "pass": false
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
     }
   ],
-  "label": "",
+  "label": "Unknown AggregatorV3 Feed",
   "methodology": "Unknown",
-  "model": "Unknown",
-  "provider": "Unknown"
+  "model": "Push",
+  "provider": "Stork"
 }
