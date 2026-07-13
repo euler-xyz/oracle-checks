@@ -895,7 +895,7 @@
     "valuePrefix": "",
     "valueSuffix": "BTC",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -915,6 +915,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "BTC",
       "reserveAssetClic": "BTC_CR",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -943,13 +944,13 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "synthetix_aggregator_debt_ratio",
       "blockchainName": "Ethereum",
       "deliveryChannelCode": "DF",
-      "hidden": true
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 27,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -1802,13 +1803,13 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "attributeType": "synthetix_aggregator_issued_synths",
       "blockchainName": "Ethereum",
       "deliveryChannelCode": "DF",
-      "hidden": true
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -6570,7 +6571,7 @@
     "valuePrefix": "",
     "valueSuffix": "BTC",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -6590,6 +6591,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "BTC",
       "reserveAssetClic": "BTC_CR",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -10300,7 +10302,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "stBTC / BTC Exchange Rate",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -10317,7 +10319,8 @@
       "productType": "Price",
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -14099,7 +14102,7 @@
     "valuePrefix": "",
     "valueSuffix": "ETH",
     "assetName": "Renzo Restaked ETH",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
@@ -14119,6 +14122,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "ETH",
       "reserveAssetClic": "ETH_CR",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },

@@ -690,7 +690,7 @@
     "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "splUSD / plUSD Exchange Rate",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -707,7 +707,8 @@
       "productType": "Price",
       "productTypeCode": "ExRate",
       "quoteAsset": "plUSD",
-      "quoteAssetClic": "plUSD_CR"
+      "quoteAssetClic": "plUSD_CR",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

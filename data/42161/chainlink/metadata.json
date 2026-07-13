@@ -43796,7 +43796,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "OpenDelta NX8",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Net Asset Value",
     "docs": {
       "assetClass": "NAV",
@@ -43807,7 +43807,7 @@
       "baseAssetClic": "NX8_CR",
       "clicProductName": "NX8-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-009",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Net Asset Value",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -105125,7 +105125,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Rocket Pool",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -105141,7 +105141,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -105291,7 +105292,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Orderly Network",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -105308,7 +105309,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -117584,7 +117586,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Magic Internet Money",
-    "feedCategory": "high",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -117603,6 +117605,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -121145,7 +121148,7 @@
     "valuePrefix": "",
     "valueSuffix": "BTC",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -121165,6 +121168,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "BTC",
       "reserveAssetClic": "BTC_CR",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -122404,7 +122408,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "stBTC / BTC Exchange Rate",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -122421,7 +122425,8 @@
       "productType": "Price",
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

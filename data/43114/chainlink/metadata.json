@@ -2402,7 +2402,7 @@
     "valuePrefix": "",
     "valueSuffix": "Troy Ounces",
     "assetName": "Ion Digital Total Reserve",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Commodities",
     "docs": {
       "assetClass": "Commodity",
@@ -2414,7 +2414,8 @@
       "porSource": "Third-party",
       "porType": "Off-chain",
       "productType": "Proof of Reserve",
-      "productTypeCode": "PoR"
+      "productTypeCode": "PoR",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -2835,18 +2836,18 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Ion Digital Total Reserve",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Commodities",
     "docs": {
       "assetClass": "Commodity",
       "attributeType": "smartdata_por",
       "baseAsset": "Ion_Digital",
       "blockchainName": "Avalanche",
-      "hidden": true,
       "porAuditor": "Instruxi",
       "porSource": "Third-party",
       "porType": "Off-chain",
-      "productType": "Proof of Reserve"
+      "productType": "Proof of Reserve",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

@@ -3811,7 +3811,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "FRAX",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3828,7 +3828,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -4526,7 +4527,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Lido Staked Matic",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4545,6 +4546,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "POL",
       "underlyingAssetClic": "POL_CR"
     },
@@ -4617,7 +4619,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Legacy Frax",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4636,6 +4638,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "July 22nd, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
