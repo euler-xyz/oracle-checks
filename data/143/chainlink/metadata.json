@@ -1048,6 +1048,47 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x2aC3D032F428C7294a05fA85773AB978cb25F75b",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "multipli-rwausdi-reserves",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "Multipli rwaUSDi Reserves",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "rwausdi-por",
+    "proxyAddress": "0x8531421fcbE17B81882FEAF750C0Aa25a36eF187",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Multipli rwaUSDi",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "attributeType": "smartdata_por",
+      "baseAsset": "rwaUSDi",
+      "baseAssetEntityId": "crypto-rwaUSDi",
+      "blockchainName": "Monad",
+      "deliveryChannelCode": "DF",
+      "issuer": "Multipli",
+      "porAuditor": "AFI",
+      "porSource": "Third-party",
+      "porType": "Off-chain",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2d617A7Faa270908D476982A5C5F4a3fc2B96190",
     "contractType": "",
     "contractVersion": 6,
@@ -1438,6 +1479,45 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x45309F5786d09241Ee4649e0753062415cFE16cc",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "rwausdi-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "rwaUSDi NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "rwausdi-nav",
+    "proxyAddress": "0xf72885b0C01FbC1e4db78187507576298eF7F6B9",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Multipli rwaUSDi",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "attributeType": "smartdata_nav",
+      "baseAsset": "rwaUSDi",
+      "blockchainName": "Monad",
+      "deliveryChannelCode": "DF",
+      "issuer": "Multipli",
+      "porAuditor": "AFI",
+      "porSource": "Third-party",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
