@@ -99063,24 +99063,53 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
+    "assetName": "Gram",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
+      "assetName": "Gram",
       "attributeType": "CexPrice",
-      "baseAsset": "TON",
-      "baseAssetEntityId": "crypto-TON",
-      "clicProductName": "TON/USD-Streams-CexPrice",
+      "baseAsset": "GRAM",
+      "baseAssetClic": "GRAM_CR",
+      "baseAssetEntityId": "crypto-GRAM",
+      "clicProductName": "GRAM/USD-Streams-CexPrice",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
       "feedType": "Crypto",
       "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000006276,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-bid",
+        "streamID": 1000006278,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-ask",
+        "streamID": 1000006277,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00038b1a1cf435a8d5ff8e6091ee1847c13c1277846d8af9c78245e2e4a2d78e",
     "sourceChain": 42161,
     "status": "live",
@@ -99090,9 +99119,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -99113,25 +99139,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -115149,9 +115178,9 @@
       "assetSubClass": "Crypto",
       "assetName": "Toncoin",
       "attributeType": "CexPrice",
-      "baseAsset": "TON",
+      "baseAsset": "GRAM",
       "baseAssetClic": "TON_CR",
-      "baseAssetEntityId": "crypto-TON",
+      "baseAssetEntityId": "crypto-GRAM",
       "blockchainName": "Global",
       "clicProductName": "TON/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
@@ -115169,6 +115198,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000006276,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-bid",
+        "streamID": 1000006278,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-GRAM/USD-Streams-CexPrice-ask",
+        "streamID": 1000006277,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003f9ec12942ff27b28ab151905c8fc1cb280518d8bbd3885d410eaa50ddc56",
     "sourceChain": 42161,
     "status": "live",
