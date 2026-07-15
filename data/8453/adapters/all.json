@@ -1264,6 +1264,57 @@
     "provider": "Pendle"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0x2c4b963d2E0cAaf65a253f141Aa0ac5039E6Aa95",
+    "chainId": 8453,
+    "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xd0Dc8c910565D94D408729D16bE5467B5d7633Ad",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "USDC / USD (0.3%, 86400s)",
+    "methodology": "Smart Value Capture",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "address": "0x2F2A0FBC42D4678850a15CC9651Ec637ddAB2069"
   },
   {
@@ -3009,6 +3060,108 @@
     "address": "0x6E183458600e66047A0f4D356d9DAa480DA1CA59"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0x6fDf4E6fe578cC3a11ce0dFd225385c22c6B5b17",
+    "chainId": 8453,
+    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x10509b4053385b49145Fab2D6B1c58e96Eac5b79",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "CBBTC / USD (0.5%, 86400s)",
+    "methodology": "Smart Value Capture",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x7092620DeA3e96a4a511219E5Ab57a55c54a9a5e",
+    "chainId": 8453,
+    "base": "0xCE6170EA245dC8D1f275A710a062b70f125F0110",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xF35059FB4471333F81E4F39fA40260FF53Dc340b",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xCE6170EA245dC8D1f275A710a062b70f125F0110 is FXRP (FXRP) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "XRP / USD (0.5%, 86400s)",
+    "methodology": "Smart Value Capture",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "address": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
   },
   {
@@ -4370,6 +4523,57 @@
     "address": "0xc26f3914106b593cb38314faE24934fEdA1CAb1C"
   },
   {
+    "name": "ChainlinkOracle",
+    "address": "0xC3b9cC69D2221fe9dd351999f5389B0AfeaF354C",
+    "chainId": 8453,
+    "base": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xd7818272B9e248357d13057AAb0B417aF31E817d",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22 is cbETH (Coinbase Wrapped Staked ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is sufficient for the feed's heartbeat (1200 s).",
+        "pass": true
+      }
+    ],
+    "label": "CBETH / USD (0.15%, 1200s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "name": "CrossAdapter",
     "address": "0xC7A321aEfB7E60e9CD14e313075d58D596144cDF",
     "chainId": 8453,
@@ -5314,6 +5518,57 @@
   },
   {
     "address": "0xf79446A632522A6E85c2D765dF203120FAd28141"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xf9B4c6fe15430dA579BD5572094ae950cB1FF3e1",
+    "chainId": 8453,
+    "base": "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xF35059FB4471333F81E4F39fA40260FF53Dc340b",
+    "maxStaleness": "86400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcb585250f852C6c6bf90434AB21A00f02833a4af is cbXRP (Coinbase Wrapped XRP) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
+      }
+    ],
+    "label": "XRP / USD (0.5%, 86400s)",
+    "methodology": "Smart Value Capture",
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkInfrequentOracle",
