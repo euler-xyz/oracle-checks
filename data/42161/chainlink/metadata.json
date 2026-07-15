@@ -12419,127 +12419,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "Updated-WSTETH/USD-Streams-DexPrice-mainnet-production",
-    "pair": [
-      "WSTETH",
-      "USD"
-    ],
-    "path": "updated-wsteth-usd-streams-dexprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Wrapped stETH",
-    "feedCategory": "low",
-    "feedType": "Crypto-DEX",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Wrapped stETH",
-      "attributeType": "DexPrice",
-      "baseAsset": "WSTETH",
-      "baseAssetClic": "WSTETH_CR",
-      "baseAssetEntityId": "crypto-WSTETH",
-      "clicProductName": "WSTETH/USD-Streams-DexPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto-DEX",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-benchmark",
-        "streamID": 1000005938,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-bid",
-        "streamID": 1000005940,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-ask",
-        "streamID": 1000005939,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      }
-    ],
-    "feedId": "0x000369cadc8a27147b5a32d50be84c93af01b75c9fb60dce15d8ebf53b646c24",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "S/USD-RefPrice-mainnet-staging",
     "pair": [
       "",
@@ -15543,127 +15422,6 @@
       },
       {
         "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "Updated-WSTETH/USD-Streams-DexPrice-mainnet-staging",
-    "pair": [
-      "WSTETH",
-      "USD"
-    ],
-    "path": "updated-wsteth-usd-streams-dexprice-mainnet-staging",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Wrapped stETH",
-    "feedCategory": "low",
-    "feedType": "Crypto-DEX",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Wrapped stETH",
-      "attributeType": "DexPrice",
-      "baseAsset": "WSTETH",
-      "baseAssetClic": "WSTETH_CR",
-      "baseAssetEntityId": "crypto-WSTETH",
-      "clicProductName": "WSTETH/USD-Streams-DexPrice-DSStaging-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto-DEX",
-      "hidden": true,
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "serviceLevel": "Streams"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-benchmark",
-        "streamID": 1000005938,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-bid",
-        "streamID": 1000005940,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "Updated-WSTETH/USD-Streams-DexPrice-ask",
-        "streamID": 1000005939,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      }
-    ],
-    "feedId": "0x00038aacb7af7d5ea6adca07b6e1cdf6ee1a1d4ef9ea1ce5eda149611454447e",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-3"
-      },
-      {
-        "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-dexTrac-3"
-      },
-      {
-        "operator": "mercury-fiews-3"
-      },
-      {
-        "operator": "mercury-inotel-3"
-      },
-      {
-        "operator": "mercury-linkForest-3"
-      },
-      {
-        "operator": "mercury-linkPool-3"
-      },
-      {
-        "operator": "mercury-linkRiver-3"
-      },
-      {
-        "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-validationCloud-3"
-      },
-      {
-        "operator": "mercury-tiingo-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
-      },
-      {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -115019,19 +114777,19 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "Toncoin",
+    "assetName": "Gram",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "Toncoin",
+      "assetName": "Gram",
       "attributeType": "CexPrice",
       "baseAsset": "GRAM",
-      "baseAssetClic": "TON_CR",
+      "baseAssetClic": "GRAM_CR",
       "baseAssetEntityId": "crypto-GRAM",
       "blockchainName": "Global",
-      "clicProductName": "TON/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "GRAM/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
