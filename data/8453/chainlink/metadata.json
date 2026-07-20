@@ -3607,6 +3607,36 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x73850E47AFbE677fd86165333048b80118aF56b7",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "frnt-por",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "FRNT Proof of Reserves",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "frnt-por",
+    "proxyAddress": "0xB93901c344325f89630C56458eD1dD27a76a2FCd",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "smartdata_por"
+    },
+    "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x74535Ecc46F5F1e1614b830b3B3cCdc08EF02482",
     "contractType": "",
     "contractVersion": 6,
@@ -4846,6 +4876,51 @@
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x93d826226DadBf15f38448da3FD08d1507B0C109",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xgld-xaut-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000",
+    "name": "XGLD / XAUT Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xgld-xaut-exchange-rate",
+    "proxyAddress": "0xDbc71D0ca5F37dB7A9a45E5c0C46FfFe5E7C24B5",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Exchange Rate XGLD / XAUT",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "attributeType": "exchange_rate",
+      "baseAsset": "XGLD",
+      "baseAssetClic": "XGLD_CR",
+      "baseAssetEntityId": "crypto-XGLD",
+      "blockchainName": "Base",
+      "clicProductName": "XGLD/XAUT-ExRate-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "XAUT",
+      "quoteAssetClic": "XAUT_CR",
+      "quoteAssetEntityId": "crypto-XAUT"
+    },
+    "decimals": 6,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {

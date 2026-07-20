@@ -1001,6 +1001,53 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x2D562Eb42eBD8EFf9E67fB24c80B10326438Fb82",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "musd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "100000000",
+    "name": "MUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "musd-usd",
+    "proxyAddress": "0x78470CDDC272E0540757fFbd5160D7877a060681",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "Metamask USD",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "attributeType": "dex_state_price",
+      "baseAsset": "MUSD",
+      "baseAssetClic": "MUSD_CR",
+      "baseAssetEntityId": "crypto-MUSD",
+      "blockchainName": "Monad",
+      "clicProductName": "MUSD/USD-RefPrice-DF-Monad-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "underlyingAsset": "forex-USD",
+      "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2a9a8dF0e9639FF648b9Fb7855C5dc97733A305d",
     "contractType": "",
     "contractVersion": 6,
@@ -1974,6 +2021,38 @@
       "quoteAssetClic": "AUSD_CR",
       "underlyingAsset": "AUSD",
       "underlyingAssetClic": "AUSD_CR"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x743253fFafE37816111010E93C56de62D2396879",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "dreusds-dreusd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 21600,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "dreUSDs / dreUSD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "dreusds-dreusd-exchange-rate",
+    "proxyAddress": "0xF520511f4d138F6F98802c5EB8977a4E86Ffb087",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "exchange_rate",
+      "baseAssetEntityId": "crypto-dreUSDs",
+      "quoteAssetEntityId": "crypto-dreUSD"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -2967,6 +3046,45 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xBd0Ae742e312362dB13c637a174A6cecD22a04Ed",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "uspc-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USPC NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "uspc-nav",
+    "proxyAddress": "0xbA62278232b6007960a38F1E20ef68Fe14a03CeF",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Coinshift USPC",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "attributeType": "smartdata_nav",
+      "baseAsset": "USPC",
+      "blockchainName": "Monad",
+      "deliveryChannelCode": "DF",
+      "issuer": "Coinshift",
+      "porAuditor": "Accountable",
+      "porSource": "Third-party",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
