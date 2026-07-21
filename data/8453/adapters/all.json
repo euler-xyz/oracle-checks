@@ -1009,6 +1009,57 @@
     "provider": "Chainlink"
   },
   {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x21D6A2773c6AdD17234F6326b60B6b958E4859f8",
+    "chainId": 8453,
+    "base": "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x74AC917D44B2B9588923edF19B0d6F4E58C54F3a",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5cDa0E1CA4ce2af96315f7F8963C85399c172204 is wtCOIN (Wrapped Coinbase Global Inc ST0x) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
     "chainId": 8453,
@@ -2111,6 +2162,57 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x49467289668F3985386b43C7Fa1F02ce09325761",
+    "chainId": 8453,
+    "base": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x48A77b22Be3bC31619fea1356A0AaC8Df68C4C2E",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2 is wtMSTR (Wrapped MicroStrategy Incorporated ST0x) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
   },
   {
     "name": "CrossAdapter",
@@ -5414,6 +5516,57 @@
   },
   {
     "address": "0xEe3C2ba4D355Ab797A99b5385FCc54852F9C2adE"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xf366D1ED3D8AdD33B26fCE0FC9d8643849AadF53",
+    "chainId": 8453,
+    "base": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xC0EA67e6012366425F57e0027AD7689A5b9c53E3",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x31C2C14134e6E3B7ef9478297F199331133Fc2d8 is wtSPYM (Wrapped State Street SPDR Portfolio S&P 500 ETF ST0x) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
   },
   {
     "name": "PendleUniversalOracle",
