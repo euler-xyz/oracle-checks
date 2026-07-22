@@ -42043,6 +42043,133 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "APC-NAV/USD-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "APC",
+      "USD"
+    ],
+    "path": "apc-nav-usd-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Axil Prime Credit APC",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "assetSubClass": "Tokenized Asset",
+      "assetName": "Axil Prime Credit APC",
+      "attributeType": "NAV",
+      "baseAsset": "APC",
+      "baseAssetClic": "APC_CR",
+      "clicProductName": "APC-NAV/USD-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "APC-NAV/USD-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000006306,
+        "type": "int192",
+        "multiplier": "1"
+      },
+      {
+        "name": "APC-NAV/USD-SmartData-NetAssetValue-navDate",
+        "streamID": 1000006307,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "APC-NAV/USD-SmartData-NetAssetValue-aum",
+        "streamID": 1000006308,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "APC-NAV/USD-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000006309,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x00094773deaa2083d54c81dc2eddb1d84725b863b04a517aa13c8efe36cee6db",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "tSpaceX/NAV-SmartData-AUM-NetAssetValue-mainnet-production",
     "pair": [
       "tSpaceX",
@@ -89290,6 +89417,157 @@
       }
     ],
     "feedId": "0x000bf92a5a7fcfb038408e46e94face3cba9df002895d86c8a17966b5244655b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SKHY/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "SKHY",
+      "USDT"
+    ],
+    "path": "skhy-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SK hynix Inc. (ADRs)",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "SK hynix Inc. (ADRs)",
+      "attributeType": "TopOfBook",
+      "baseAsset": "SKHY",
+      "baseAssetClic": "SKHY_EQ",
+      "baseAssetEntityId": "equity-SKHY",
+      "clicProductName": "SKHY/USDT-Datalink-Binance-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-benchmark",
+        "streamID": 1000006297,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-benchmark-timestamp",
+        "streamID": 1000006298,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000006299,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000006299,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000006300,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000006300,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SKHY/USDT-Datalink-Binance-TopOfBook-benchmark",
+        "streamID": 1000006297,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "AAPL/USD-Streams-Equity-RWAV1-Dead-marketStatus",
+        "streamID": 1000001547,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bf967a679e260658e42974290ac0a5325233a5e55d5c657b47841a03ad5a5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
