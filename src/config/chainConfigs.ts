@@ -62,7 +62,8 @@ type BaseCheckConfig = Omit<CheckConfig, keyof SystemAddresses>;
 
 const baseChainConfigs = {
   [mainnet.id]: {
-    publicClient: getClient(mainnet),
+    // Lazy call only throws when that chain is actually used
+    get publicClient() { return getClient(mainnet) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -114,35 +115,35 @@ const baseChainConfigs = {
     ...defaultBounds,
   },
   [optimism.id]: {
-    publicClient: getClient(optimism),
+    get publicClient() { return getClient(optimism) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [gnosis.id]: {
-    publicClient: getClient(gnosis),
+    get publicClient() { return getClient(gnosis) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [unichain.id]: {
-    publicClient: getClient(unichain),
+    get publicClient() { return getClient(unichain) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [polygon.id]: {
-    publicClient: getClient(polygon),
+    get publicClient() { return getClient(polygon) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [sonic.id]: {
-    publicClient: getClient(sonic),
+    get publicClient() { return getClient(sonic) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -166,58 +167,60 @@ const baseChainConfigs = {
     ...defaultBounds,
   },
   [swellchain.id]: {
-    publicClient: getClient(swellchain),
+    get publicClient() { return getClient(swellchain) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [corn.id]: {
-    publicClient: getClient(corn),
+    get publicClient() { return getClient(corn) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [arbitrum.id]: {
-    publicClient: getClient(arbitrum),
+    get publicClient() { return getClient(arbitrum) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [avalanche.id]: {
-    publicClient: getClient(avalanche),
+    get publicClient() { return getClient(avalanche) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [bsc.id]: {
-    publicClient: getClient(bsc),
+    get publicClient() { return getClient(bsc) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [ink.id]: {
-    publicClient: getClient({
-      ...ink,
-      contracts: {
-        ...ink.contracts,
-        multicall3: {
-          address: "0xcA11bde05977b3631167028862bE2a173976CA11",
-          blockCreated: 1000000,
+    get publicClient() {
+      return getClient({
+        ...ink,
+        contracts: {
+          ...ink.contracts,
+          multicall3: {
+            address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+            blockCreated: 1000000,
+          },
         },
-      },
-    }),
+      });
+    },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [bob.id]: {
-    publicClient: getClient(bob),
+    get publicClient() { return getClient(bob) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -249,16 +252,18 @@ const baseChainConfigs = {
     ...defaultBounds,
   },
   [berachain.id]: {
-    publicClient: getClient({
-      ...berachain,
-      contracts: {
-        ...berachain.contracts,
-        multicall3: {
-          address: "0xcA11bde05977b3631167028862bE2a173976CA11",
-          blockCreated: 1,
+    get publicClient() {
+      return getClient({
+        ...berachain,
+        contracts: {
+          ...berachain.contracts,
+          multicall3: {
+            address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+            blockCreated: 1,
+          },
         },
-      },
-    }),
+      })
+    },
     maxBlockRange: 100000n,
     metadataHashes,
     fallbackAssets,
@@ -279,7 +284,7 @@ const baseChainConfigs = {
     ...defaultBounds,
   },
   [base.id]: {
-    publicClient: getClient(base),
+    get publicClient() { return getClient(base) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -309,14 +314,14 @@ const baseChainConfigs = {
   },
 
   [tac.id]: {
-    publicClient: getClient(tac),
+    get publicClient() { return getClient(tac) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [plasma.id]: {
-    publicClient: getClient(plasma),
+    get publicClient() { return getClient(plasma) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -328,24 +333,26 @@ const baseChainConfigs = {
     ...defaultBounds,
   },
   [linea.id]: {
-    publicClient: getClient(linea),
+    get publicClient() { return getClient(linea) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
   },
   [monad.id]: {
-    publicClient: getClient(monad),
+    get publicClient() { return getClient(monad) },
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {"0x70E58b7A1c884fFFE7dbce5249337603a28b8422": {
+    otherRecognizedAggregatorV3Feeds: {
+      "0x70E58b7A1c884fFFE7dbce5249337603a28b8422": {
         provider: "Chronicle",
         description: "Midas mTBILL/USD Oracle",
-      },},
+      },
+    },
     ...defaultBounds,
   },
   [hyperEvm.id]: {
-    publicClient: getClient(hyperEvm),
+    get publicClient() { return getClient(hyperEvm) },
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -362,6 +369,9 @@ export const chainConfigs: Record<number, CheckConfig> = Object.fromEntries(
       return [];
     }
 
-    return [[chainId, { ...config, ...addresses }]];
+    const combined = Object.assign({}, addresses);
+    Object.defineProperties(combined, Object.getOwnPropertyDescriptors(config));
+
+    return [[chainId, combined as CheckConfig]];
   }),
 ) as Record<number, CheckConfig>;
