@@ -3,8 +3,20 @@ import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
 import { runChecks } from "./runChecks";
 
+const providerSummaries: Record<string, { dir: string; name: string }> = {
+  Pyth: { dir: "pyth", name: "Pyth" },
+  Chainlink: { dir: "chainlink", name: "Chainlink" },
+  Chronicle: { dir: "chronicle", name: "Chronicle" },
+  RedStone: { dir: "redstone", name: "RedStone" },
+  eOracle: { dir: "eoracle", name: "eOracle" },
+  "MEV Linear Discount": { dir: "mev-linear-discount", name: "MEV Linear Discount" },
+  Idle: { dir: "idle", name: "Idle" },
+  Pendle: { dir: "pendle", name: "Pendle" },
+};
+
 async function runChecksForAllChains(): Promise<void> {
   cleanDataDir();
+
   for (const chainId of Object.keys(chainConfigs)) {
     const dirPath = `./data/${chainId}`;
 
@@ -43,11 +55,12 @@ async function runChecksForAllChains(): Promise<void> {
       allResults.push(combined);
     }
 
-    saveJSON(allResults, `${dirPath}/adapters/all.json`);
-
-    // Filter and save Pyth adapters to pyth/all.json
-    const pythAdapters = allResults.filter((result) => result.provider === "Pyth");
-    saveJSON(pythAdapters, `${dirPath}/pyth/all.json`);
+    for (const [providerName, { dir }] of Object.entries(providerSummaries)) {
+      const filtered = allResults.filter(r => r.provider === providerName)
+      if (filtered.length > 0) {
+        saveJSON(filtered, `${dirPath}/${dir}/all.json`);
+      }
+    }
 
     console.log(`Wrote results to ${dirPath}`);
   }
