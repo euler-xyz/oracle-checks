@@ -13185,6 +13185,127 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "AKT/USD-Streams-CexPrice-mainnet-production",
+    "pair": [
+      "AKT",
+      "USD"
+    ],
+    "path": "akt-usd-streams-cexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Akash Network",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Akash Network",
+      "attributeType": "CexPrice",
+      "baseAsset": "AKT",
+      "baseAssetClic": "AKT_CR",
+      "baseAssetEntityId": "crypto-AKT",
+      "clicProductName": "AKT/USD-Streams-CexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "AKT/USD-Streams-CexPrice-benchmark",
+        "streamID": 1000006313,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "AKT/USD-Streams-CexPrice-bid",
+        "streamID": 1000006315,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "AKT/USD-Streams-CexPrice-ask",
+        "streamID": 1000006314,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x000355d5f63d68bcdcea2539307bbdc5c88c10053e178ef5063982176182f49b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USD/CAD-Datalink-NCFX-ForexPrice-V3-mainnet-production",
     "pair": [
       "USD",
@@ -33228,6 +33349,117 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "SYZUSD/YZUSD-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "SYZUSD",
+      "YZUSD"
+    ],
+    "path": "syzusd-yzusd-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Staked Yuzu USD",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Staked Yuzu USD",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SYZUSD",
+      "baseAssetClic": "SYZUSD_CR",
+      "baseAssetEntityId": "crypto-SYZUSD",
+      "clicProductName": "SYZUSD/YZUSD-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExchangeRate",
+      "quoteAsset": "YZUSD",
+      "quoteAssetClic": "YZUSD_CR",
+      "quoteAssetEntityId": "crypto-YZUSD",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SYZUSD/YZUSD-Streams-ExchangeRate",
+        "streamID": 1000006316,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0007690a1667f3978924aa34b16a46ab12fcaae1b012c2f348905cb8299f58b7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "SMB/WYLDS-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "SMB",
@@ -45456,6 +45688,131 @@
       }
     ],
     "feedId": "0x0009a5831badbd7ca44834d9943b0d4a7ea28ebad0e5119f6855b80acb84ec25",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-mainnet-production",
+    "pair": [
+      "TOPENAI",
+      ""
+    ],
+    "path": "topenai-nav-smartdata-por-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Tessera T-OpenAI Reserves",
+    "feedCategory": "custom",
+    "feedType": "Tokenized Asset",
+    "docs": {
+      "assetClass": "Tokenized Asset",
+      "assetSubClass": "Tokenized Asset",
+      "assetName": "Tessera T-OpenAI Reserves",
+      "attributeType": "NAV",
+      "baseAsset": "TOPENAI",
+      "baseAssetClic": "TOPENAI_CR",
+      "clicProductName": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Tokenized Asset",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "SmartData",
+      "productTypeCode": "POR",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "the-network-firm"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-benchmark",
+        "streamID": 1000006319,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-navDate",
+        "streamID": 1000006320,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-aum",
+        "streamID": 1000006321,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TOPENAI-NAV-SmartData-PoR-NetAssetValue-ripcord",
+        "streamID": 1000006322,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0009aea6c85b4a29f0e1d0742bc91882a9a054ed725a74bc19d53f556268c637",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
