@@ -42,19 +42,19 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Could not find matching Pyth feed",
-      "pass": false
+      "message": "Adapter is connected to an official Pyth feed: HAHYPE/HYPE",
+      "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Feed is unknown.",
-      "pass": false
+      "message": "Adapter's base asset (haHYPE) corresponds to the Pyth feed's base asset from metadata (HAHYPE).",
+      "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Feed is unknown",
+      "message": "Adapter's quote asset (WHYPE) does not correspond to the Pyth feed's quote asset from metadata (HAHYPE).",
       "pass": false
     },
     {
@@ -70,8 +70,8 @@
       "pass": false
     }
   ],
-  "label": "unknown feed (3600s, ±500bps)",
-  "methodology": "Unknown",
+  "label": "Crypto.HAHYPE/HYPE.RR (3600s, ±500bps)",
+  "methodology": "Exchange Rate",
   "model": "Pull",
   "provider": "Pyth"
 }
