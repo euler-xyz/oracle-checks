@@ -121,7 +121,10 @@ export async function collectData(chainId: number): Promise<CollectedData> {
 
   const chainlinkMetadata = getMetadata(chainlinkResult, "Chainlink");
   const redstoneMetadata = getMetadata(redstoneResult, "RedStone");
-  const pythMetadata = getMetadata(pythResult, "Pyth");
+  if (pythResult.status === "rejected") {
+    throw new Error(`Error fetching Pyth metadata: ${pythResult.reason}`);
+  }
+  const pythMetadata = pythResult.value;
   const pendleMetadata = getMetadata(pendleResult, "Pendle");
   const eoracleMetadata = getMetadata(eoracleResult, "eOracle");
 

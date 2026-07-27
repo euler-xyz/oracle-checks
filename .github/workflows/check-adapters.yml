@@ -50,9 +50,18 @@ jobs:
           cache: "npm"
 
       - name: Generate .env file
+        env:
+          RPC_URLS: ${{ secrets.RPC_URLS }}
+          EULER_DATA_API_URL: ${{ secrets.EULER_DATA_API_URL }}
+          PYTH_API_KEY: ${{ secrets.PYTH_API_KEY }}
         run: |
-          echo '${{ secrets.RPC_URLS }}' > .env
-          echo "EULER_DATA_API_URL=${{ secrets.EULER_DATA_API_URL }}" >> .env
+          if [ -z "$PYTH_API_KEY" ]; then
+            echo "::error::PYTH_API_KEY repository secret is not configured"
+            exit 1
+          fi
+          printf '%s\n' "$RPC_URLS" > .env
+          printf 'EULER_DATA_API_URL=%s\n' "$EULER_DATA_API_URL" >> .env
+          printf 'PYTH_API_KEY=%s\n' "$PYTH_API_KEY" >> .env
 
       - name: Install dependencies
         run: npm ci
