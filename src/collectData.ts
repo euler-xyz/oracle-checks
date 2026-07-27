@@ -11,7 +11,6 @@ import {
   fetchChainlinkMetadata,
   fetchEOracleMetadata,
   fetchPendleMetadata,
-  fetchPythMetadata,
   fetchRedStoneMetadata,
   IdleCDO,
   IdleTranche,
@@ -41,6 +40,7 @@ import {
 } from "./customAdapters";
 import { fetchEulerApiDeployedRouters, fetchEulerApiHistoricalAdapters } from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
+import { fetchPythMetadata } from "./fetchPythMetadata";
 import { CollectedData, OracleAdapter } from "./types";
 
 type ChainlinkFeedMetadataWithSecondaryProxy = ChainlinkMetadata[number] & {
