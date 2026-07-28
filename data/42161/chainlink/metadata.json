@@ -47513,6 +47513,131 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "solmFONE-NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "solmFONE",
+      ""
+    ],
+    "path": "solmfone-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "solmFONE",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "NAV",
+      "assetSubClass": "NAV",
+      "assetName": "solmFONE",
+      "attributeType": "NAV",
+      "baseAsset": "solmFONE",
+      "baseAssetClic": "solmFONE_CR",
+      "clicProductName": "solmFONE-NAV-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "solana-functions"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "solmFONE-NAV-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000006367,
+        "type": "int192",
+        "multiplier": "1"
+      },
+      {
+        "name": "solmFONE-NAV-SmartData-NetAssetValue-navDate",
+        "streamID": 1000006368,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "solmFONE-NAV-SmartData-NetAssetValue-aum",
+        "streamID": 1000006369,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "solmFONE-NAV-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000006370,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0009e317dc672d25d41ef29aec9a04570f6645d9a82d36478f392b0b519600d9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "GOOGLx/POR-Datalink-ProofOfReserves-mainnet-production",
     "pair": [
       "GOOGLx",
@@ -47957,6 +48082,131 @@
       }
     ],
     "feedId": "0x0009f6496534d798ed08ddada565dec18d9a712bf71b1de6cc7a24b751d10143",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "SOLMHYPER-NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "SOLMHYPER",
+      ""
+    ],
+    "path": "solmhyper-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SOLMHYPER",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "NAV",
+      "assetSubClass": "NAV",
+      "assetName": "SOLMHYPER",
+      "attributeType": "NAV",
+      "baseAsset": "SOLMHYPER",
+      "baseAssetClic": "SOLMHYPER_CR",
+      "clicProductName": "SOLMHYPER-NAV-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "solana-functions"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "SOLMHYPER-NAV-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000006362,
+        "type": "int192",
+        "multiplier": "1"
+      },
+      {
+        "name": "SOLMHYPER-NAV-SmartData-NetAssetValue-navDate",
+        "streamID": 1000006363,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "SOLMHYPER-NAV-SmartData-NetAssetValue-aum",
+        "streamID": 1000006364,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "SOLMHYPER-NAV-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000006365,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0009fc92d1aa7665ebec5f70acba4eff3be2388b20d52bdbcaae1c017c9dc3c8",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
