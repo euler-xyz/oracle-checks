@@ -1,0 +1,77 @@
+{
+  "name": "PythOracle",
+  "address": "0x34f72433F8c884B375785262F9e95918791f5F11",
+  "chainId": 999,
+  "base": "0xd70659a6396285BF7214d7Ea9673184e7C72E07E",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc",
+  "feedId": "0xec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
+  "maxStaleness": "3600",
+  "maxConfWidth": "500",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xd70659a6396285BF7214d7Ea9673184e7C72E07E is FXRP (FXRP) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth feed",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pyth feed: XRP/USD",
+      "pass": true
+    },
+    {
+      "id": "Pyth base correspondence",
+      "severity": "Info",
+      "message": "Adapter's base asset (FXRP) does not correspond to the Pyth feed's base asset from metadata (XRP).",
+      "pass": false
+    },
+    {
+      "id": "Pyth quote correspondence",
+      "severity": "Info",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
+    },
+    {
+      "id": "Recognized Pyth proxy",
+      "severity": "High",
+      "message": "Adapter is connected to the official Pyth proxy.",
+      "pass": true
+    },
+    {
+      "id": "Sane Pyth staleness range",
+      "severity": "High",
+      "message": "The adapter's maximum staleness parameter (3600 s) is too high. The recommended range is (30 - 300 s).",
+      "pass": false
+    }
+  ],
+  "label": "Crypto.XRP/USD (3600s, ±500bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth"
+}
