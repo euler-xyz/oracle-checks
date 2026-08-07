@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x2c4b963d2E0cAaf65a253f141Aa0ac5039E6Aa95",
+  "chainId": 8453,
+  "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xd0Dc8c910565D94D408729D16bE5467B5d7633Ad",
+  "maxStaleness": "86400",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "pass": false
+    }
+  ],
+  "label": "USDC / USD (0.3%, 86400s)",
+  "methodology": "Smart Value Capture",
+  "model": "Push",
+  "provider": "Chainlink"
+}

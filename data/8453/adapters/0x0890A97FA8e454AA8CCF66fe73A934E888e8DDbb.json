@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x0890A97FA8e454AA8CCF66fe73A934E888e8DDbb",
+  "chainId": 8453,
+  "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xCCADC697c55bbB68dc5bCdf8d3CBe83CdD4E071E",
+  "maxStaleness": "4800",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (4800 s) is sufficient for the feed's heartbeat (1200 s).",
+      "pass": true
+    }
+  ],
+  "label": "WBTC / USD (0.1%, 1200s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink"
+}
