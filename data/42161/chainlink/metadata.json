@@ -31593,6 +31593,117 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "HASTRATRADE/WYLDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "HASTRATRADE",
+      "WYLDS"
+    ],
+    "path": "hastratrade-wylds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hastra Trade",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hastra Trade",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "HASTRATRADE",
+      "baseAssetClic": "HASTRATRADE_CR",
+      "baseAssetEntityId": "crypto-HASTRATRADE",
+      "clicProductName": "HASTRATRADE/WYLDS-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExchangeRate",
+      "quoteAsset": "WYLDS",
+      "quoteAssetClic": "WYLDS_CR",
+      "quoteAssetEntityId": "crypto-WYLDS",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "HASTRATRADE/WYLDS-Streams-ExchangeRate",
+        "streamID": 1000007115,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0007159e452364febd78b44869e7e3e5c59b0b2b334c2ec23ff9b16ce3d8718b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "WSTUSR/STUSR-Streams-ExRate-mainnet-production",
     "pair": [
       "WSTUSR",
@@ -32721,6 +32832,117 @@
       }
     ],
     "feedId": "0x00074aa24721afb55f937e7e9bc473ac1ea195b3892138cd93da7b449704343b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "HASTRAFLEX/WYLDS-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "HASTRAFLEX",
+      "WYLDS"
+    ],
+    "path": "hastraflex-wylds-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hastra Flex",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hastra Flex",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "HASTRAFLEX",
+      "baseAssetClic": "HASTRAFLEX_CR",
+      "baseAssetEntityId": "crypto-HASTRAFLEX",
+      "clicProductName": "HASTRAFLEX/WYLDS-Streams-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "ExchangeRate",
+      "quoteAsset": "WYLDS",
+      "quoteAssetClic": "WYLDS_CR",
+      "quoteAssetEntityId": "crypto-WYLDS",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "HASTRAFLEX/WYLDS-Streams-ExchangeRate",
+        "streamID": 1000007117,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0007510acf0012a1ff6fa52dc2d6870c2ae2cec714051796cdab70f20b6c3b17",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -53520,6 +53742,157 @@
       }
     ],
     "feedId": "0x000b122bc7189267b8c0f0759c71895809633b1aaa0c71ffb31f81ddb5d56849",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "TBLL",
+      "USD"
+    ],
+    "path": "tbll-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Invesco Short Term Treasury ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Invesco Short Term Treasury ETF",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "TBLL",
+      "baseAssetClic": "TBLL_EQ_EXT",
+      "baseAssetEntityId": "equity-TBLL",
+      "clicProductName": "TBLL/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007136,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007137,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007138,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007139,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007140,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007141,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007142,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b128ba9636942d49029477464b9a8f1d4b651908b50eac84c7d791daf4e06",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -76761,6 +77134,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "TBLL",
+      "USD"
+    ],
+    "path": "tbll-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Invesco Short Term Treasury ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Invesco Short Term Treasury ETF",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "TBLL",
+      "baseAssetClic": "TBLL_EQ_ON",
+      "baseAssetEntityId": "equity-TBLL",
+      "clicProductName": "TBLL/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000007128,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007129,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000007130,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000007131,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000007132,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000007133,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007134,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b91aea2822721bf6b8990644deecdbf4fefd9c96d139bcde00a2f2bdcd1a5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "USO/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "USO",
@@ -94312,6 +94836,157 @@
       }
     ],
     "feedId": "0x000be95389790f65bcb20abda478ee3a24e14230f26ac983b6f6f2c39b7b1f24",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "TBLL/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "TBLL",
+      "USD"
+    ],
+    "path": "tbll-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Invesco Short Term Treasury ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Invesco Short Term Treasury ETF",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "TBLL",
+      "baseAssetClic": "TBLL_EQ_REG",
+      "baseAssetEntityId": "equity-TBLL",
+      "clicProductName": "TBLL/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007120,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007121,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007122,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007123,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007124,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007125,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TBLL/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007126,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000be98da081b09323e60edc25efe03117704b999dda9f23e86a0389fe3896ac",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
