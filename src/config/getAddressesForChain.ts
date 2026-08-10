@@ -24,7 +24,5 @@ export function getAddressesForChain(chainId: number): SystemAddresses | null {
   return {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     oracleRouterFactory: (peripheryAddresses as any).oracleRouterFactory,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    oracleAdapterRegistry: (peripheryAddresses as any).oracleAdapterRegistry,
   };
 }
