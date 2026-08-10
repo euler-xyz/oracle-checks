@@ -2,7 +2,6 @@ import { Asset } from "@objectivelabs/oracle-sdk";
 import { Address, PublicClient } from "viem";
 export type SystemAddresses = {
   oracleRouterFactory: Address;
-  oracleAdapterRegistry: Address;
 };
 
 export type CheckConfig = SystemAddresses & {
