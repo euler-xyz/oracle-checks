@@ -21627,6 +21627,127 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "Updated-BSOL/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "BSOL",
+      "USD"
+    ],
+    "path": "updated-bsol-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "BlazeStake Staked SOL",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "BlazeStake Staked SOL",
+      "attributeType": "DexPrice",
+      "baseAsset": "BSOL",
+      "baseAssetClic": "BSOL_CR",
+      "baseAssetEntityId": "crypto-BSOL",
+      "clicProductName": "BSOL/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007168,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-bid",
+        "streamID": 1000007170,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-ask",
+        "streamID": 1000007169,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003ca673c9e14c9191242a6946c977cdb31c5d2474b46ebaa315e633f80e311",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "TURTLE/USD-Streams-CexPrice-mainnet-production",
     "pair": [
       "TURTLE",
@@ -32617,6 +32738,117 @@
       }
     ],
     "feedId": "0x00073e8d86e4914ed56b969493476b32ca981504582724406232249948afc952",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "Updated-SUSDTEL/USDTEL-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "SUSDTEL",
+      "USDTEL"
+    ],
+    "path": "updated-susdtel-usdtel-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Staked Dawn Internet USD",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Staked Dawn Internet USD",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "SUSDTEL",
+      "baseAssetClic": "SUSD.TEL_CR",
+      "baseAssetEntityId": "crypto-SUSDTEL",
+      "clicProductName": "SUSD.TEL/USD.TEL-ExchangeRate-DS-Premium-Global-007-DS-Premium-Global-007-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USDTEL",
+      "quoteAssetClic": "USD.TEL_CR",
+      "quoteAssetEntityId": "crypto-USDTEL",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "generic-api"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-SUSDTEL/USDTEL-Streams-ExchangeRate",
+        "streamID": 1000007171,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x00074715b11dc3bd51de10184edf2ff160d2299870db09ce2d6c1d409f2c1153",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
