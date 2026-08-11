@@ -341,7 +341,12 @@ const baseChainConfigs = {
     otherRecognizedAggregatorV3Feeds: {"0x70E58b7A1c884fFFE7dbce5249337603a28b8422": {
         provider: "Chronicle",
         description: "Midas mTBILL/USD Oracle",
-      },},
+        },
+          "0x165d2E3C0A368988F497F649B6fe2134bE20FD8c": {
+        provider: "Midas",
+        description: "Midas mHYPERBTC/BTC Feed",
+      },
+    },
     ...defaultBounds,
   },
   [hyperEvm.id]: {
