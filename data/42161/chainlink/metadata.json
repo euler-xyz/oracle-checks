@@ -26244,7 +26244,7 @@
       "baseAsset": "BSOL",
       "baseAssetClic": "BSOL_CR",
       "baseAssetEntityId": "crypto-BSOL",
-      "clicProductName": "BSOL/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "BSOL/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -26259,6 +26259,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007168,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-bid",
+        "streamID": 1000007170,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BSOL/USD-Streams-DexPrice-ask",
+        "streamID": 1000007169,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003f83d7c087c514007c261e6a375678f8c56d4da30b5e33a3065662c608a99",
     "sourceChain": 42161,
     "status": "live",
@@ -31941,15 +31961,15 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "SUSD.TEL / USD.TEL Exchange Rate",
+    "assetName": "Staked Dawn Internet USD",
     "feedCategory": "custom",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "SUSD.TEL / USD.TEL Exchange Rate",
+      "assetName": "Staked Dawn Internet USD",
       "attributeType": "ExchangeRate",
-      "baseAsset": "SUSD.TEL",
+      "baseAsset": "SUSDTEL",
       "baseAssetClic": "SUSD.TEL_CR",
       "baseAssetEntityId": "crypto-SUSDTEL",
       "clicProductName": "SUSD.TEL/USD.TEL-ExchangeRate-DS-Premium-Global-007-DS-Premium-Global-007-DS-Premium-Global-007",
@@ -31960,19 +31980,19 @@
       "productSubType": "Exchange rate",
       "productType": "Price",
       "productTypeCode": "ExRate",
-      "quoteAsset": "USD.TEL",
+      "quoteAsset": "USDTEL",
       "quoteAssetClic": "USD.TEL_CR",
       "quoteAssetEntityId": "crypto-USDTEL",
       "schema": "v7",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "generic-api"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "SUSD.TEL/USD.TEL-Streams-ExchangeRate",
-        "streamID": 1000005106,
+        "name": "Updated-SUSDTEL/USDTEL-Streams-ExchangeRate",
+        "streamID": 1000007171,
         "type": "int192",
         "multiplier": "1000000000000000000"
       }
