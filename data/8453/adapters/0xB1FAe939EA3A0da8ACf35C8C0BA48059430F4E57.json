@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xB1FAe939EA3A0da8ACf35C8C0BA48059430F4E57",
+  "chainId": 8453,
+  "base": "0x98d55707B60793AC8cadAB3C456dA156671F138a",
+  "quote": "0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F",
+  "feed": "0xcB9B87D54E422d8AE8f213b75E31535FE6B7E151",
+  "maxStaleness": "86400",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x98d55707B60793AC8cadAB3C456dA156671F138a is ROY-ST-sUSN (Royco Senior Tranche sUSN) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x34a2798D47b238A7CbA9D87D49618DEE6C4D999F is sUSN (Staked USN) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Unknown"
+}

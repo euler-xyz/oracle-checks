@@ -1,0 +1,51 @@
+{
+  "name": "PendleUniversalOracle",
+  "address": "0x10b69CBD942c6Add426525b443b7B8bD84F07C34",
+  "chainId": 143,
+  "base": "0xDaf216939826AcABA0C2312F7E30A890213845CD",
+  "quote": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+  "pendleMarket": "0x475B98c83AEdBfdd0a0aBaA930ec8cb501aC93B1",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xDaf216939826AcABA0C2312F7E30A890213845CD is PT-earnAUSD-8OCT2026 (PT earnAUSD 8OCT2026) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a is AUSD (AUSD) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x475B98c83AEdBfdd0a0aBaA930ec8cb501aC93B1 is PLP-earnAUSD-8OCT2026 (PLP earnAUSD 8OCT2026) with 18 decimals.",
+      "pass": true
+    }
+  ],
+  "label": "PT-earnAUSD",
+  "methodology": "TWAP",
+  "model": "Push",
+  "provider": "Pendle"
+}

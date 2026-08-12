@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x1fE373DA81919E15bf20f8AA5991788F77975630",
+  "chainId": 999,
+  "base": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x54EdE484Bb0E589F5eE13e04c84f46eb787c9C6a",
+  "maxStaleness": "86400",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xBe6727B535545C67d5cAa73dEa54865B92CF7907 is UETH (Unit Ethereum) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (86400 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+      "pass": false
+    }
+  ],
+  "label": "UETH / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink"
+}
