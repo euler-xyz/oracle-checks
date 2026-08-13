@@ -3146,14 +3146,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "ETH/USD (0.5%, 86400s)",
+    "methodology": "Market Price",
     "model": "Push",
-    "provider": "Unknown"
+    "provider": "RedStone"
   },
   {
     "address": "0x6Df91c54F5c376772E69A757821A476cb9B97bee"
@@ -3363,14 +3363,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (172800 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "UTY_PEGGED_FUNDAMENTAL/USD (0.1%, 86400s)",
+    "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Unknown"
+    "provider": "RedStone"
   },
   {
     "address": "0x77334F006fBE72f07EE536F43cc370f13D417291"
@@ -6724,14 +6724,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
+    "label": "LBTC_FUNDAMENTAL/BTC (1%, 86400s)",
+    "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Unknown"
+    "provider": "RedStone"
   },
   {
     "name": "UniswapV3Oracle",
