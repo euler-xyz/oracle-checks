@@ -51,6 +51,57 @@
     "provider": "RedStone"
   },
   {
+    "name": "PendleUniversalOracle",
+    "address": "0x0726AC0cBEE90e597c7f23Fd6a02204C96fDfAdF",
+    "chainId": 143,
+    "base": "0xa08A69aB9Dd3B04D0992BC7aFb2c0b907bbdc147",
+    "quote": "0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF",
+    "pendleMarket": "0x88C5D8A908834E44B421CB67aEc9A931782f9538",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xa08A69aB9Dd3B04D0992BC7aFb2c0b907bbdc147 is PT-USDat-14JAN2027 (PT Saturn USD 14JAN2027) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF is USDat (Saturn USD) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x88C5D8A908834E44B421CB67aEc9A931782f9538 is PLP-USDat-14JAN2027 (PLP Saturn USD 14JAN2027) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USDat",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x081D115bEC82Fc1c83e9cE344EE41058e0A952b4",
     "chainId": 143,
@@ -714,6 +765,58 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0x4E0DCeAD1D026f3E017E11b529DCaa3096f91523",
+    "chainId": 143,
+    "base": "0xa08A69aB9Dd3B04D0992BC7aFb2c0b907bbdc147",
+    "cross": "0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x0726AC0cBEE90e597c7f23Fd6a02204C96fDfAdF",
+    "oracleCrossQuote": "0xe0ec8545Cf207978E85Cd320C6d6Ca59F8B1DB7C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xa08A69aB9Dd3B04D0992BC7aFb2c0b907bbdc147 is PT-USDat-14JAN2027 (PT Saturn USD 14JAN2027) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF is USDat (Saturn USD) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USDat-14JAN2027/USDat/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross"
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0x541B6aB89e3F45F148D73A9Eafe29E24B6271aC1",
     "chainId": 143,
     "base": "0x9FC74f8Ed616B5BaF52a170caa97d6d3898602d1",
@@ -913,6 +1016,57 @@
       }
     ],
     "label": "AUSD / USD (0.05%, 3600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x67945512a2603B566Bd882898b1973770aC3f0F2",
+    "chainId": 143,
+    "base": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xf5F15f188AbCB0d165D1Edb7f37F7d6fA2fCebec",
+    "maxStaleness": "7200",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x754704Bc059F8C67012fEd69BC8A327a5aafb603 is USDC (USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (7200 s) is sufficient for the feed's heartbeat (3600 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC / USD (0.05%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink"
@@ -2184,6 +2338,56 @@
       }
     ],
     "label": "1:1 cbBTC/BTC",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xe0ec8545Cf207978E85Cd320C6d6Ca59F8B1DB7C",
+    "chainId": 143,
+    "base": "0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0Bb150DFa86EA5d7742F07FEfCD8E8edA81D64eF is USDat (Saturn USD) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDat/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate"
