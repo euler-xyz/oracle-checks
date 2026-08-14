@@ -66697,6 +66697,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "ARM/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ARM",
+      "USD"
+    ],
+    "path": "arm-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Arm Holdings American Depositary Shares",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Arm Holdings American Depositary Shares",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "ARM",
+      "baseAssetClic": "ARM_EQ_ON",
+      "baseAssetEntityId": "equity-ARM",
+      "clicProductName": "ARM/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000007480,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007481,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000007482,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000007483,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000007484,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000007485,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007486,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b4b966db530d69b54fe1baaef6991dfa45dfcc819ac77b1fd2cb3c8b490c9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "TSLA/USDT-Datalink-Binance-TopOfBook-mainnet-production",
     "pair": [
       "TSLA",
@@ -74307,6 +74458,157 @@
       }
     ],
     "feedId": "0x000b71d05f6a427b37789d24446cd265124ba8de1663d41a2807b3b284550a5b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ARM/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ARM",
+      "USD"
+    ],
+    "path": "arm-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Arm Holdings American Depositary Shares",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Arm Holdings American Depositary Shares",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "ARM",
+      "baseAssetClic": "ARM_EQ_REG",
+      "baseAssetEntityId": "equity-ARM",
+      "clicProductName": "ARM/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007472,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007473,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007474,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007475,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007476,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007477,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007478,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b71daa32af09ebbf64fe34eaaa67b90bef52a841b56c6a1076e48de63aabe",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -93137,6 +93439,157 @@
       }
     ],
     "feedId": "0x000bd0280bc4711534568b94a5d08883a89a287619c56203c6188439649a7f5d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "ARM",
+      "USD"
+    ],
+    "path": "arm-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Arm Holdings American Depositary Shares",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Arm Holdings American Depositary Shares",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "ARM",
+      "baseAssetClic": "ARM_EQ_EXT",
+      "baseAssetEntityId": "equity-ARM",
+      "clicProductName": "ARM/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007488,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007489,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007490,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007491,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007492,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007493,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "ARM/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007494,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bd0af57c26676260ba28d1b9fa2c351f781c18cabbbf5840d0f3fb4d7216e",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
