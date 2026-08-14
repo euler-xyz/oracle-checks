@@ -5508,6 +5508,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-KTA/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007268,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-KTA/USD-Streams-DexPrice-bid",
+        "streamID": 1000007270,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-KTA/USD-Streams-DexPrice-ask",
+        "streamID": 1000007269,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003007a5c72695f6f389c161d8851c2496ab5fc9b8978b9bf66ff0f3ecd4e6b",
     "sourceChain": 42161,
     "status": "live",
@@ -5908,6 +5928,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDTB/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007288,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDTB/USD-Streams-DexPrice-bid",
+        "streamID": 1000007290,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDTB/USD-Streams-DexPrice-ask",
+        "streamID": 1000007289,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00030446e1f0ce990ee10744ed4b0d78fe4ff53090a7f98b9f78b7e64144515f",
     "sourceChain": 42161,
     "status": "live",
@@ -9098,7 +9138,7 @@
       "baseAsset": "JLP",
       "baseAssetClic": "JLP_CR",
       "baseAssetEntityId": "crypto-JLP",
-      "clicProductName": "JLP/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "JLP/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -9113,6 +9153,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-JLP/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007292,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JLP/USD-Streams-DexPrice-bid",
+        "streamID": 1000007294,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JLP/USD-Streams-DexPrice-ask",
+        "streamID": 1000007293,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000320bcdede0286144777b414fc48b98ba07ecf959485a6b89825a5464f8ab6",
     "sourceChain": 42161,
     "status": "live",
@@ -11314,6 +11374,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-CRVUSD/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007276,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CRVUSD/USD-Streams-DexPrice-bid",
+        "streamID": 1000007278,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-CRVUSD/USD-Streams-DexPrice-ask",
+        "streamID": 1000007277,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000334fdd7bdb64358f23b36f85d0edcf4720d8d90a47f3cc144b3cfc5018082",
     "sourceChain": 42161,
     "status": "live",
@@ -11741,7 +11821,7 @@
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
       "baseAssetEntityId": "crypto-LBTC",
-      "clicProductName": "LBTC/USD-RefPrice-DSStaging-Premium-Global-003",
+      "clicProductName": "LBTC/USD-Streams-DexPrice-DSStaging-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -11757,6 +11837,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007284,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000007286,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000007285,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00033a95dc943bfcdd0faa4cc4d5587319a73ec738eed4e431147bc4fe057156",
     "sourceChain": 42161,
     "status": "live",
@@ -13932,7 +14032,7 @@
       "baseAsset": "LBTC",
       "baseAssetClic": "LBTC_CR",
       "baseAssetEntityId": "crypto-LBTC",
-      "clicProductName": "LBTC/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "LBTC/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -13947,6 +14047,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007284,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-bid",
+        "streamID": 1000007286,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-LBTC/USD-Streams-DexPrice-ask",
+        "streamID": 1000007285,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000352f8c5b7c5173b2c277a5bd04fcf7d1d2705b66ac95aeda9763d1ad2ec60",
     "sourceChain": 42161,
     "status": "live",
@@ -17973,6 +18093,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-FRXUSD/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007264,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-FRXUSD/USD-Streams-DexPrice-bid",
+        "streamID": 1000007266,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-FRXUSD/USD-Streams-DexPrice-ask",
+        "streamID": 1000007265,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00037f8cb74dcfd0d8f4435e08e9c866d3fef3efe6d68f07781ac190e64ddaa8",
     "sourceChain": 42161,
     "status": "live",
@@ -18258,7 +18398,7 @@
       "baseAsset": "MSOL",
       "baseAssetClic": "MSOL_CR",
       "baseAssetEntityId": "crypto-MSOL",
-      "clicProductName": "MSOL/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "MSOL/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -18273,6 +18413,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-MSOL/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007260,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MSOL/USD-Streams-DexPrice-bid",
+        "streamID": 1000007262,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MSOL/USD-Streams-DexPrice-ask",
+        "streamID": 1000007261,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00038153ba6d4327b5864721f09e9fadbc8be6c751141253ea12967ae6086290",
     "sourceChain": 42161,
     "status": "live",
@@ -18679,7 +18839,7 @@
       "baseAsset": "JITOSOL",
       "baseAssetClic": "JITOSOL_CR",
       "baseAssetEntityId": "crypto-JITOSOL",
-      "clicProductName": "JITOSOL/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "JITOSOL/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -18694,6 +18854,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-JITOSOL/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007296,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JITOSOL/USD-Streams-DexPrice-bid",
+        "streamID": 1000007298,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JITOSOL/USD-Streams-DexPrice-ask",
+        "streamID": 1000007297,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000385536e9b3b137562f1ac4a82d242be8778933b43648024d6cb264aade8b0",
     "sourceChain": 42161,
     "status": "live",
@@ -20821,13 +21001,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "DAI",
+    "assetName": "Dai",
     "feedCategory": "low",
     "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "DAI",
+      "assetName": "Dai",
       "attributeType": "DexPrice",
       "baseAsset": "DAI",
       "baseAssetClic": "DAI_CR",
@@ -20847,6 +21027,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-DAI/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007272,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-DAI/USD-Streams-DexPrice-bid",
+        "streamID": 1000007274,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-DAI/USD-Streams-DexPrice-ask",
+        "streamID": 1000007273,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003a9efc56074727bde001b0f0301eef38db844278734c32aa8b72dcb7902ba",
     "sourceChain": 42161,
     "status": "live",
@@ -23441,7 +23641,7 @@
       "baseAsset": "JUPSOL",
       "baseAssetClic": "JUPSOL_CR",
       "baseAssetEntityId": "crypto-JUPSOL",
-      "clicProductName": "JUPSOL/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "JUPSOL/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -23456,6 +23656,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-JUPSOL/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007280,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JUPSOL/USD-Streams-DexPrice-bid",
+        "streamID": 1000007282,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-JUPSOL/USD-Streams-DexPrice-ask",
+        "streamID": 1000007281,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003cc6eaee0e41a95b3950f424fb06c14e8dc35545bbc651b2a3cd2eb3fc2e4",
     "sourceChain": 42161,
     "status": "live",
@@ -113066,24 +113286,51 @@
     "valuePrefix": "",
     "assetName": "Maker",
     "feedCategory": "low",
-    "feedType": "Crypto",
+    "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
       "assetName": "Maker",
       "attributeType": "DexPrice",
       "baseAsset": "MKR",
+      "baseAssetClic": "MKR_CR",
       "baseAssetEntityId": "crypto-MKR",
-      "clicProductName": "MKR/USD-Streams-DexPrice",
+      "clicProductName": "MKR/USD-Streams-DexPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "Crypto",
+      "feedType": "Crypto-DEX",
       "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
       "serviceLevel": "Streams"
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007256,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-bid",
+        "streamID": 1000007258,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-ask",
+        "streamID": 1000007257,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003e88c622419841f210d0f5b5c846cef5db0b2fd400ed72aa61b44805e177a",
     "sourceChain": 42161,
     "status": "live",
@@ -121555,18 +121802,19 @@
     "valuePrefix": "",
     "assetName": "Maker",
     "feedCategory": "low",
-    "feedType": "Crypto",
+    "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
       "assetName": "Maker",
       "attributeType": "DexPrice",
       "baseAsset": "MKR",
+      "baseAssetClic": "MKR_CR",
       "baseAssetEntityId": "crypto-MKR",
-      "clicProductName": "MKR/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "MKR/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "Crypto",
+      "feedType": "Crypto-DEX",
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -121578,6 +121826,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007256,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-bid",
+        "streamID": 1000007258,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-MKR/USD-Streams-DexPrice-ask",
+        "streamID": 1000007257,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00038fde9456e8c1cc561816878c804d9e9965748c960deeac9ec2829d468ed3",
     "sourceChain": 42161,
     "status": "live",
