@@ -54213,6 +54213,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "QCOM",
+      "USD"
+    ],
+    "path": "qcom-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "QUALCOMM Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "QUALCOMM Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "QCOM",
+      "baseAssetClic": "QCOM_EQ_ON",
+      "baseAssetEntityId": "equity-QCOM",
+      "clicProductName": "QCOM/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000007528,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007529,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000007530,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000007531,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000007532,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000007533,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007534,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b055a6676575854a81648fbdf6458af0c5ff0e3962baeec14dfe0e1cf3485",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "SPY/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "SPY",
@@ -63239,6 +63390,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "MRVL/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRVL",
+      "USD"
+    ],
+    "path": "mrvl-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Marvell Technology Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "Marvell Technology Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "MRVL",
+      "baseAssetClic": "MRVL_EQ_REG",
+      "baseAssetEntityId": "equity-MRVL",
+      "clicProductName": "MRVL/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007496,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007497,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007498,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007499,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007500,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007501,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007502,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b3cf8f5de6d5d185f5a70cdb0ec2197bcff0e5d31ab61128799cef5f7ccbe",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "IAU/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
       "IAU",
@@ -69861,6 +70163,157 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "QCOM/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "QCOM",
+      "USD"
+    ],
+    "path": "qcom-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "QUALCOMM Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "QUALCOMM Inc",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "QCOM",
+      "baseAssetClic": "QCOM_EQ_REG",
+      "baseAssetEntityId": "equity-QCOM",
+      "clicProductName": "QCOM/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007520,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007521,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007522,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007523,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007524,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007525,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007526,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b573ce4df81db3997887ffd1fa913edcdd8e03143e3a301bf6041711b4f72",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "COST/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "COST",
@@ -74672,6 +75125,157 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRVL",
+      "USD"
+    ],
+    "path": "mrvl-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Marvell Technology Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "Marvell Technology Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "MRVL",
+      "baseAssetClic": "MRVL_EQ_EXT",
+      "baseAssetEntityId": "equity-MRVL",
+      "clicProductName": "MRVL/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007512,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007513,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007514,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007515,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007516,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007517,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007518,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b71f6e4d56e61dd8592107994a32668923cac6d29bb8ef9496e421d9a195a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "EUR/USD-Datalink-DeutscheBoerse-mainnet-production",
     "pair": [
@@ -74762,6 +75366,157 @@
       }
     ],
     "feedId": "0x000b73270ff3b97c1588b84d043baebf77d49adbf8a74d0801853469193c9153",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "QCOM",
+      "USD"
+    ],
+    "path": "qcom-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "QUALCOMM Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "QUALCOMM Inc",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "QCOM",
+      "baseAssetClic": "QCOM_EQ_EXT",
+      "baseAssetEntityId": "equity-QCOM",
+      "clicProductName": "QCOM/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007536,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007537,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007538,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007539,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007540,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007541,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "QCOM/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007542,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b7458019ab546f0156c7bfc8205181712ddb24a596dc0ae7a69b4fc04fd68",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -85603,6 +86358,157 @@
       }
     ],
     "feedId": "0x000baf2c24e188c6afb6cdf57b34ada41510947e06131f41de3997e25bc26b41",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "MRVL",
+      "USD"
+    ],
+    "path": "mrvl-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Marvell Technology Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "Marvell Technology Inc",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "MRVL",
+      "baseAssetClic": "MRVL_EQ_ON",
+      "baseAssetEntityId": "equity-MRVL",
+      "clicProductName": "MRVL/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000007504,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007505,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000007506,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000007507,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000007508,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000007509,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "MRVL/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007510,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bafb0239b447204ee0e200fe2be2eb2773c4b79c4563892ccdcd21f9b8600",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
