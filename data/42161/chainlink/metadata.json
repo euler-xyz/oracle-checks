@@ -7216,6 +7216,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-EURC/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007356,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EURC/USD-Streams-DexPrice-bid",
+        "streamID": 1000007358,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EURC/USD-Streams-DexPrice-ask",
+        "streamID": 1000007357,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00030f2b89e4498002a62638cc61ae91a9690c33830601fc64bc131a07f0c5cb",
     "sourceChain": 42161,
     "status": "live",
@@ -8310,10 +8330,10 @@
       "assetSubClass": "Crypto",
       "assetName": "Renzo Restaked ETH",
       "attributeType": "DexPrice",
-      "baseAsset": "ezETH",
+      "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
-      "baseAssetEntityId": "crypto-ezETH",
-      "clicProductName": "EZETH/USD-RefPrice-DS-Premium-Global-003",
+      "baseAssetEntityId": "crypto-EZETH",
+      "clicProductName": "EZETH/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -8328,6 +8348,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007364,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-bid",
+        "streamID": 1000007366,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-ask",
+        "streamID": 1000007365,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003198584d481482c058fd74ff897255f06c1286d607b7b38dd5194206f48ed",
     "sourceChain": 42161,
     "status": "live",
@@ -8617,7 +8657,7 @@
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
       "baseAssetEntityId": "crypto-SUSDE",
-      "clicProductName": "SUSDE/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "SUSDE/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -8632,6 +8672,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007360,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-bid",
+        "streamID": 1000007362,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-ask",
+        "streamID": 1000007361,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00031c0621225c7fe190027a4c4d7ae000e9f548cfbbd5b0251d0b0169e2eb6b",
     "sourceChain": 42161,
     "status": "live",
@@ -12221,10 +12281,10 @@
       "assetSubClass": "Crypto",
       "assetName": "Renzo Restaked ETH",
       "attributeType": "DexPrice",
-      "baseAsset": "ezETH",
+      "baseAsset": "EZETH",
       "baseAssetClic": "EZETH_CR",
-      "baseAssetEntityId": "crypto-ezETH",
-      "clicProductName": "EZETH/USD-RefPrice-DSStaging-Premium-Global-003",
+      "baseAssetEntityId": "crypto-EZETH",
+      "clicProductName": "EZETH/USD-Streams-DexPrice-DSStaging-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -12240,6 +12300,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007364,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-bid",
+        "streamID": 1000007366,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-EZETH/USD-Streams-DexPrice-ask",
+        "streamID": 1000007365,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x000344bf88adb740993a8ffe7c5ab3ad03999fc7856de55917b55f3a953da537",
     "sourceChain": 42161,
     "status": "live",
@@ -17046,6 +17126,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-BTC.B/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007376,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BTC.B/USD-Streams-DexPrice-bid",
+        "streamID": 1000007378,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-BTC.B/USD-Streams-DexPrice-ask",
+        "streamID": 1000007377,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003789de471c089e388aa56ae58b398ac25dbcca7e5b4acb06ab06935c5367c",
     "sourceChain": 42161,
     "status": "live",
@@ -17468,6 +17568,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-AUSD/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007372,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-AUSD/USD-Streams-DexPrice-bid",
+        "streamID": 1000007374,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-AUSD/USD-Streams-DexPrice-ask",
+        "streamID": 1000007373,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x00037cdc8e372d32756c57f04dd6b6d8e4e8a4c07fe34dec0e99571f743fafa8",
     "sourceChain": 42161,
     "status": "live",
@@ -26256,7 +26376,7 @@
       "baseAsset": "INF",
       "baseAssetClic": "INF_CR",
       "baseAssetEntityId": "crypto-INF",
-      "clicProductName": "INF/USD-RefPrice-DS-Premium-Global-003",
+      "clicProductName": "INF/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -26271,6 +26391,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-INF/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007368,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-INF/USD-Streams-DexPrice-bid",
+        "streamID": 1000007370,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-INF/USD-Streams-DexPrice-ask",
+        "streamID": 1000007369,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003e86884a90d8d189edf0486f5f5c8f1edd5a2e562ee0a05a0ae226a8a88d9",
     "sourceChain": 42161,
     "status": "live",
@@ -27538,7 +27678,7 @@
       "baseAsset": "SUSDE",
       "baseAssetClic": "SUSDE_CR",
       "baseAssetEntityId": "crypto-SUSDE",
-      "clicProductName": "SUSDE/USD-RefPrice-DSStaging-Premium-Global-003",
+      "clicProductName": "SUSDE/USD-Streams-DexPrice-DSStaging-Premium-Global-003",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto-DEX",
@@ -27554,6 +27694,26 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007360,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-bid",
+        "streamID": 1000007362,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-SUSDE/USD-Streams-DexPrice-ask",
+        "streamID": 1000007361,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
     "feedId": "0x0003eee24b375ab4be71217ec4980433d40e9f39e0d9530a265eed41ddc4da6d",
     "sourceChain": 42161,
     "status": "live",
@@ -34472,7 +34632,7 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
-    "multiply": "1000000000000000000",
+    "multiply": "1",
     "name": "SUSD.TEL/USD.TEL-Streams-ExchangeRate-mainnet-production",
     "pair": [
       "SUSD.TEL",
@@ -34506,16 +34666,16 @@
       "quoteAssetEntityId": "crypto-USDTEL",
       "schema": "v7",
       "serviceLevel": "Streams",
-      "dataProvider": "generic-api"
+      "dataProvider": "view-function-multi-chain"
     },
-    "decimals": 18,
+    "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "Updated-SUSDTEL/USDTEL-Streams-ExchangeRate",
-        "streamID": 1000007171,
+        "name": "Updated-SUSDTEL/USDTEL-Streams-ExchangeRate-2",
+        "streamID": 1000007381,
         "type": "int192",
-        "multiplier": "1000000000000000000"
+        "multiplier": "1"
       }
     ],
     "feedId": "0x00071d99ccae499c11213da4706d2f816b07fcc652a1b461c855f01d9532dff4",
