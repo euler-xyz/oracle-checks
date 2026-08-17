@@ -58427,6 +58427,158 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "3037.TW/TWD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "3037.TW",
+      "TWD"
+    ],
+    "path": "3037-tw-twd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unimicron Technology",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Unimicron Technology",
+      "attributeType": "EquityPrice",
+      "baseAsset": "3037.TW",
+      "baseAssetClic": "3037.TW_EQ",
+      "baseAssetEntityId": "equity-3037.TW",
+      "clicProductName": "3037.TW/TWD-Streams-TW-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "TWSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "TWD",
+      "quoteAssetClic": "TWD_FX",
+      "quoteAssetEntityId": "forex-TWD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-mid",
+        "streamID": 1000007564,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007565,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-bid",
+        "streamID": 1000007566,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007567,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-ask",
+        "streamID": 1000007568,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007569,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "3037.TW/TWD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007570,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TWSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005308,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b1d9d0888b1d48d037dcd839ecfd117638c6d54db5d92392c16f70f910c6c",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "BMNR/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "BMNR",
@@ -77991,6 +78143,158 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "2382.TW/TWD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "2382.TW",
+      "TWD"
+    ],
+    "path": "2382-tw-twd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Quanta Computer Inc.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Quanta Computer Inc.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "2382.TW",
+      "baseAssetClic": "2382.TW_EQ",
+      "baseAssetEntityId": "equity-2382.TW",
+      "clicProductName": "2382.TW/TWD-Streams-TW-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "TWSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "TWD",
+      "quoteAssetClic": "TWD_FX",
+      "quoteAssetEntityId": "forex-TWD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-mid",
+        "streamID": 1000007556,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007557,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-bid",
+        "streamID": 1000007558,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007559,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-ask",
+        "streamID": 1000007560,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007561,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2382.TW/TWD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007562,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TWSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005308,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b815bdfd24362f53a7c684e0f969d6db6acbf99697afcb2ad0d2983d7bb7a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "NFLX/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "NFLX",
@@ -81538,6 +81842,158 @@
       }
     ],
     "feedId": "0x000b934b6c7752a4814606b1d96ce16fac7bdeaa1087aa9ecee39b2b5ac20bd7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "2454.TW/TWD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "2454.TW",
+      "TWD"
+    ],
+    "path": "2454-tw-twd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "MediaTek Inc.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "MediaTek Inc.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "2454.TW",
+      "baseAssetClic": "2454.TW_EQ",
+      "baseAssetEntityId": "equity-2454.TW",
+      "clicProductName": "2454.TW/TWD-Streams-TW-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "TWSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "TWD",
+      "quoteAssetClic": "TWD_FX",
+      "quoteAssetEntityId": "forex-TWD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-mid",
+        "streamID": 1000007572,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007573,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-bid",
+        "streamID": 1000007574,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007575,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-ask",
+        "streamID": 1000007576,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007577,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2454.TW/TWD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007578,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TWSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005308,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b936042fb87d8a9feaaac747ccf850dcc5ac60ec2e8e10d19c890b4ca84c5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -86208,6 +86664,158 @@
       }
     ],
     "feedId": "0x000baeff5a154da366519da82c637800a5a0667082c49c0cbd90194711e5db51",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "2330.TW/TWD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "2330.TW",
+      "TWD"
+    ],
+    "path": "2330-tw-twd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "TSMC",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "TSMC",
+      "attributeType": "EquityPrice",
+      "baseAsset": "2330.TW",
+      "baseAssetClic": "2330.TW_EQ",
+      "baseAssetEntityId": "equity-2330.TW",
+      "clicProductName": "2330.TW/TWD-Streams-TW-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "TWSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "TWD",
+      "quoteAssetClic": "TWD_FX",
+      "quoteAssetEntityId": "forex-TWD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-mid",
+        "streamID": 1000007580,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007581,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-bid",
+        "streamID": 1000007582,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007583,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-ask",
+        "streamID": 1000007584,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007585,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "2330.TW/TWD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007586,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "TWSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005308,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000baf03ca3bc2b10a67d6db84e939d7554d5b3d7a5384e1a4bba0f217fbd474",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -99605,6 +100213,158 @@
       }
     ],
     "feedId": "0x000bed9c0e46357155ddb6f37f6505b69812ad1d625f19fda18b66c62f706738",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "CXMT/CNY-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "CXMT",
+      "CNY"
+    ],
+    "path": "cxmt-cny-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ChangXin Memory Technologies Inc.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "ChangXin Memory Technologies Inc.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "CXMT",
+      "baseAssetClic": "CXMT_EQ",
+      "baseAssetEntityId": "equity-CXMT",
+      "clicProductName": "CXMT/CNY-Streams-CN-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Shanghai",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "CNY",
+      "quoteAssetClic": "CNY_FX",
+      "quoteAssetEntityId": "forex-CNY",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-mid",
+        "streamID": 1000007548,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007549,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-bid",
+        "streamID": 1000007550,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007551,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-ask",
+        "streamID": 1000007552,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-askVolume",
+        "streamID": 1000007553,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "CXMT/CNY-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007554,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Shanghai-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005312,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bef5014d1954e78e289b9d01beac5a529d9b09d4d590e972ce5a137781d04",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
