@@ -83094,6 +83094,158 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "9992.HK/HKD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "9992.HK",
+      "HKD"
+    ],
+    "path": "9992-hk-hkd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Pop Mart International Group",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Pop Mart International Group",
+      "attributeType": "EquityPrice",
+      "baseAsset": "9992.HK",
+      "baseAssetClic": "9992.HK_EQ",
+      "baseAssetEntityId": "equity-9992.HK",
+      "clicProductName": "9992.HK/HKD-Streams-HK-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "HK",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "HKD",
+      "quoteAssetClic": "HKD_FX",
+      "quoteAssetEntityId": "forex-HKD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-mid",
+        "streamID": 1000007745,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007746,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-bid",
+        "streamID": 1000007747,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007748,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-ask",
+        "streamID": 1000007749,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007750,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "9992.HK/HKD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007751,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "HK-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000007546,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000ba777a70bf65f0db1b575731e0be1d1bee0ecc855e70567d9ed034e5d67d2",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "IWM/USD-Streams-RegularHoursEquityPrice-mainnet-production",
     "pair": [
       "IWM",
@@ -99294,6 +99446,158 @@
       }
     ],
     "feedId": "0x000bf4528276ae7c4d7114459a16c4a68d00898bd098bc9a40abc8f2633d09d5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "0981.HK/HKD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "0981.HK",
+      "HKD"
+    ],
+    "path": "0981-hk-hkd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SMIC (Semiconductor Manufacturing Intl)",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "SMIC (Semiconductor Manufacturing Intl)",
+      "attributeType": "EquityPrice",
+      "baseAsset": "0981.HK",
+      "baseAssetClic": "0981.HK_EQ",
+      "baseAssetEntityId": "equity-0981.HK",
+      "clicProductName": "0981.HK/HKD-Streams-HK-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "HK",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "HKD",
+      "quoteAssetClic": "HKD_FX",
+      "quoteAssetEntityId": "forex-HKD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-mid",
+        "streamID": 1000007737,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007738,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-bid",
+        "streamID": 1000007739,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007740,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-ask",
+        "streamID": 1000007741,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007742,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "0981.HK/HKD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007743,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "HK-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000007546,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bf4c76267356b49bc5da966b41b8c27bb14a9d5a43e54dd2906ccd1a01a9a",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
