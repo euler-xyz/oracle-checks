@@ -1155,7 +1155,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "AVLT Reserves",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1169,7 +1169,8 @@
       "porSource": "Third-party",
       "porType": "Off-chain",
       "productType": "Proof of Reserve",
-      "productTypeCode": "PoR"
+      "productTypeCode": "PoR",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 6,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

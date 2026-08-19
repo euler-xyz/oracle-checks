@@ -1333,7 +1333,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Amundi ETF Govies 0-6 Months Euro Investment Grade UCITS ETF",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Equities",
     "docs": {
       "assetClass": "ETF",
@@ -1351,7 +1351,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "EUR",
       "quoteAssetClic": "EUR_FX",
-      "quoteAssetEntityId": "forex-EUR"
+      "quoteAssetEntityId": "forex-EUR",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -2371,7 +2372,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Heroes of Mavia",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2388,7 +2389,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -3822,7 +3824,7 @@
     "valuePrefix": "",
     "valueSuffix": "BTC",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3842,6 +3844,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "BTC",
       "reserveAssetClic": "BTC_CR",
+      "shutdownDate": "August 19th, 2026",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
@@ -5738,7 +5741,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5757,6 +5760,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
       "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "August 19th, 2026",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
@@ -7174,7 +7178,7 @@
     "threshold": 1e-7,
     "valuePrefix": "",
     "assetName": "PumpBTC / BTC Exchange Rate",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7191,7 +7195,8 @@
       "productType": "Price",
       "productTypeCode": "ExRate",
       "quoteAsset": "BTC",
-      "quoteAssetClic": "BTC_CR"
+      "quoteAssetClic": "BTC_CR",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -9546,7 +9551,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "M Reserves",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "assetClass": "Stablecoin",
@@ -9561,7 +9566,8 @@
       "porAuditor": "LedgerLens",
       "porSource": "Third-Party",
       "productType": "Proof of Reserve",
-      "productTypeCode": "PoR"
+      "productTypeCode": "PoR",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"

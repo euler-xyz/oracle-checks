@@ -5803,7 +5803,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "MemeCore",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5815,7 +5815,7 @@
       "baseAssetEntityId": "crypto-M",
       "clicProductName": "M/USD-Streams-CexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -24848,7 +24848,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Story",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -24860,7 +24860,7 @@
       "baseAssetEntityId": "crypto-IP",
       "clicProductName": "IP/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -26031,7 +26031,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Crypto-DEX",
     "docs": {
       "assetClass": "Crypto",
@@ -26043,7 +26043,7 @@
       "baseAssetEntityId": "crypto-USR",
       "clicProductName": "USR/USD-Streams-DexPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Crypto-DEX",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -48973,7 +48973,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "ROLYPOLYx",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Tokenized Equities",
     "docs": {
       "assetClass": "TokenizedEquities",
@@ -48984,7 +48984,7 @@
       "baseAssetClic": "ROLYPOLYx_EQ",
       "clicProductName": "ROLYPOLYx/USD-Datalink-TotalReturnMultiplier",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Tokenized Equities",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -54909,7 +54909,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Micro-EURO STOXX 50 Index Futures",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Derivatives",
@@ -54920,7 +54920,7 @@
       "baseAssetClic": "FSXE_FU",
       "clicProductName": "FSXE/EUR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "marketHours": "Eurex",
       "productSubType": "Reference",
@@ -81261,7 +81261,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Micro-SMI Futures",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Datalink",
     "docs": {
       "assetClass": "Derivatives",
@@ -81272,7 +81272,7 @@
       "baseAssetClic": "FSMS_FU",
       "clicProductName": "FSMS/EUR-Datalink-DeutscheBoerse-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
-      "feedCategory": "low",
+      "feedCategory": "deprecating",
       "feedType": "Datalink",
       "marketHours": "Eurex",
       "productSubType": "Reference",
@@ -104157,7 +104157,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "South African Rand",
-    "feedCategory": "low",
+    "feedCategory": "deprecating",
     "feedType": "Forex",
     "docs": {
       "assetClass": "Fiat",
@@ -104174,7 +104174,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD"
+      "quoteAssetEntityId": "forex-USD",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 8,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -130247,7 +130248,7 @@
     "threshold": 1e-7,
     "valuePrefix": "",
     "assetName": "RYT",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "",
     "docs": {
       "assetClass": "Money Market Fund",
@@ -130260,7 +130261,8 @@
       "porAuditor": "Standard Chartered Bank",
       "porSource": "Custodian",
       "productType": "NAVLink",
-      "productTypeCode": "NAV"
+      "productTypeCode": "NAV",
+      "shutdownDate": "August 19th, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -133276,7 +133278,7 @@
     "valuePrefix": "",
     "valueSuffix": "BTC",
     "assetName": "Bitcoin (BTC)",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -133296,6 +133298,7 @@
       "productTypeCode": "PoR",
       "reserveAsset": "BTC",
       "reserveAssetClic": "BTC_CR",
+      "shutdownDate": "August 19th, 2026",
       "underlyingAsset": "BTC",
       "underlyingAssetClic": "BTC_CR"
     },
