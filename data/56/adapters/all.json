@@ -4,6 +4,57 @@
   },
   {
     "name": "ChainlinkInfrequentOracle",
+    "address": "0x02101e5fAbcb25649F0c77F76E7a085F5c7c233d",
+    "chainId": 56,
+    "base": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x8368760507CCff34E49775C86c211b092a838370",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1 is SPCXB (SpaceX) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
     "address": "0x036f84E85a2e4b5F860Aa4D974581320337E9422",
     "chainId": 56,
     "base": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
@@ -1158,6 +1209,57 @@
   },
   {
     "name": "ChainlinkInfrequentOracle",
+    "address": "0x7Fd0E9221819BfEcE0723Ec4ca625c89FF4dcCA7",
+    "chainId": 56,
+    "base": "0xcdf2f3e0fa43C47A6662a91C9E4a7C5f69762699",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xeCa90386c256EbAB5102e45bcfdd73CB617F8C14",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcdf2f3e0fa43C47A6662a91C9E4a7C5f69762699 is MUB (Micron Technology Inc) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
     "address": "0x832fBa398091248D0222B68f1eB717f7aD152293",
     "chainId": 56,
     "base": "0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb",
@@ -1187,6 +1289,108 @@
         "id": "Consistent asset",
         "severity": "High",
         "message": "Asset 0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb is SNDKB (Sandisk Corporation) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x86dDE2b120F8b322c4AA2C52B404652bE0e4A7ED",
+    "chainId": 56,
+    "base": "0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xAaA14e42F8F907C169a39c53784E997D5922ef4a",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb is SNDKB (Sandisk Corporation) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x870Bb4637BE2a9561Df728B1A9bce53b5A7D22Dd",
+    "chainId": 56,
+    "base": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x5B423096ba4BBE5E159D57Fd92c650026d476bBF",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x205812CdBed920aFf76C6580abD681a46D11efc7 is QQQB (Invesqo QQQ) with 18 decimals.",
         "pass": true
       },
       {
@@ -1568,6 +1772,57 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xA92433eCA9A1912f1a4aEb7c7eCb1CA88DE9DA51",
+    "chainId": 56,
+    "base": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x458a78447e43302574d25b6F8AfDEa2Db5d8B5Da",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0 is MSFTB (Microsoft) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
   },
   {
     "name": "PythOracle",
@@ -2308,6 +2563,57 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xEc8708f0ab2d4D36Ac43D117035E36DA7E3f433b",
+    "chainId": 56,
+    "base": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xf25Af12920D408bAf6211e9e90eDa89DF3D8CCDa",
+    "maxStaleness": "600",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436 is NVDAB (NVIDIA Corp) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown"
   },
   {
     "name": "ChainlinkOracle",
