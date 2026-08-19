@@ -82493,6 +82493,158 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "688836.CN/CNY-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "688836.CN",
+      "CNY"
+    ],
+    "path": "688836-cn-cny-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Unitree Robotics",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Unitree Robotics",
+      "attributeType": "EquityPrice",
+      "baseAsset": "688836.CN",
+      "baseAssetClic": "688836.CN_EQ",
+      "baseAssetEntityId": "equity-688836.CN",
+      "clicProductName": "688836.CN/CNY-Streams-CN-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "Shanghai",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "CNY",
+      "quoteAssetClic": "CNY_FX",
+      "quoteAssetEntityId": "forex-CNY",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-mid",
+        "streamID": 1000007753,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007754,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-bid",
+        "streamID": 1000007755,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007756,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-ask",
+        "streamID": 1000007757,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-askVolume",
+        "streamID": 1000007758,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "688836.CN/CNY-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007759,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Shanghai-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000005312,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000ba3617a12c41067d513408856c235db13b5392ac4a1f94c067260586f2169",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "LLY/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
     "pair": [
       "LLY",
