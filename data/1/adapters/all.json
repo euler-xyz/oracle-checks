@@ -6818,11 +6818,11 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (46800 s) is sufficient for the feed's heartbeat (43200 s).",
-        "pass": true
+        "message": "Adapter's maximum staleness (46800 s) is insufficient for the feed's heartbeat (86400 s). Minimum recommended value is 88200 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
+        "pass": false
       }
     ],
-    "label": "HINC_ETHEREUM_FUNDAMENTAL/USD (0.5%, 43200s)",
+    "label": "HINC_ETHEREUM_FUNDAMENTAL/USD (0.01%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone"
