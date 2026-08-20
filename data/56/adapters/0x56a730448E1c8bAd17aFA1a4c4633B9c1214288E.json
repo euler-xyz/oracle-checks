@@ -1,3 +1,17 @@
 {
-  "address": "0x56a730448E1c8bAd17aFA1a4c4633B9c1214288E"
+  "address": "0x56a730448E1c8bAd17aFA1a4c4633B9c1214288E",
+  "chainId": 56,
+  "name": "PoppieEulerAdapter",
+  "checks": [
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    }
+  ],
+  "label": "Poppie Custom Adaptor",
+  "methodology": "Custom",
+  "model": "Unknown",
+  "provider": "Poppie Custom Adaptor"
 }

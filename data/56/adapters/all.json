@@ -616,7 +616,21 @@
     "provider": "Cross"
   },
   {
-    "address": "0x56a730448E1c8bAd17aFA1a4c4633B9c1214288E"
+    "address": "0x56a730448E1c8bAd17aFA1a4c4633B9c1214288E",
+    "chainId": 56,
+    "name": "PoppieEulerAdapter",
+    "checks": [
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      }
+    ],
+    "label": "Poppie Custom Adaptor",
+    "methodology": "Custom",
+    "model": "Unknown",
+    "provider": "Poppie Custom Adaptor"
   },
   {
     "name": "PythOracle",
@@ -1619,7 +1633,21 @@
     "address": "0x9107789371DB5530D1F6CBe738c4D754531F9bbc"
   },
   {
-    "address": "0x92dad5eEE3245c2aD9766225Ff15beDf650646ea"
+    "address": "0x92dad5eEE3245c2aD9766225Ff15beDf650646ea",
+    "chainId": 56,
+    "name": "PoppieEulerAdapter",
+    "checks": [
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      }
+    ],
+    "label": "Poppie Custom Adaptor",
+    "methodology": "Custom",
+    "model": "Unknown",
+    "provider": "Poppie Custom Adaptor"
   },
   {
     "name": "FixedRateOracle",
