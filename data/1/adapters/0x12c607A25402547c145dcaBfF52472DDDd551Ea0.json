@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x12c607A25402547c145dcaBfF52472DDDd551Ea0",
+  "chainId": 1,
+  "base": "0x7433806912Eae67919e66aea853d46Fa0aef98A8",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
+  "maxStaleness": "432000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x7433806912Eae67919e66aea853d46Fa0aef98A8 is mGLOBAL (Midas Fasanara Global) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (432000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "mGlobal NAV - Aave Llamaguard (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink"
+}
