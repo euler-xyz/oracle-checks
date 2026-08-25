@@ -28087,127 +28087,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "HYPE/USDT-Datalink-Okx-FundingRate-mainnet-production",
-    "pair": [
-      "HYPE",
-      "USDT"
-    ],
-    "path": "hype-usdt-datalink-okx-fundingrate-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "HYPE",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "HYPE",
-      "attributeType": "FundingRate",
-      "baseAsset": "HYPE",
-      "baseAssetClic": "HYPE_CR",
-      "baseAssetEntityId": "crypto-HYPE",
-      "clicProductName": "HYPE/USDT-Datalink-Okx-FundingRate-DS-Premium-Global-005",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "FundingRate",
-      "productType": "Price",
-      "productTypeCode": "FundingRate",
-      "quoteAsset": "USDT",
-      "quoteAssetClic": "USDT_CR",
-      "quoteAssetEntityId": "crypto-USDT",
-      "serviceLevel": "Datalink",
-      "dataProvider": "mobula-state"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "HYPE/USDT-Datalink-Okx-FundingRate-fundingRate",
-        "streamID": 1000003277,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "HYPE/USDT-Datalink-Okx-FundingRate-fundingTimestamp",
-        "streamID": 1000003278,
-        "type": "uint32",
-        "multiplier": "1"
-      },
-      {
-        "name": "HYPE/USDT-Datalink-Okx-FundingRate-epochDuration",
-        "streamID": 1000003279,
-        "type": "uint32",
-        "multiplier": "1"
-      }
-    ],
-    "feedId": "0x000522c94edd2043c4cb4aaa0e4297c6b77319a4771904cc5eeca344ab2cd718",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "ETH/USDT-Datalink-Gate-FundingRate-mainnet-production",
     "pair": [
       "ETH",
@@ -28874,127 +28753,6 @@
       }
     ],
     "feedId": "0x000565e0b92a6152f0c399dbebf88b4e8fb0cd5dad3296f3730254b499283c18",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
-    "name": "XAU/USDT-Datalink-Okx-FundingRate-mainnet-production",
-    "pair": [
-      "XAU",
-      "USDT"
-    ],
-    "path": "xau-usdt-datalink-okx-fundingrate-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Gold",
-    "feedCategory": "low",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Gold",
-      "attributeType": "FundingRate",
-      "baseAsset": "XAU",
-      "baseAssetClic": "XAU_M",
-      "baseAssetEntityId": "crypto-XAU",
-      "clicProductName": "XAU/USDT-Datalink-Okx-FundingRate-DS-Premium-Global-005",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "low",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "FundingRate",
-      "productType": "Price",
-      "productTypeCode": "FundingRate",
-      "quoteAsset": "USDT",
-      "quoteAssetClic": "USDT_CR",
-      "quoteAssetEntityId": "crypto-USDT",
-      "serviceLevel": "Datalink",
-      "dataProvider": "mobula-state"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "streamValuesMetadata": [
-      {
-        "name": "XAU/USDT-Datalink-Okx-FundingRate-fundingRate",
-        "streamID": 1000003297,
-        "type": "int192",
-        "multiplier": "1000000000000000000"
-      },
-      {
-        "name": "XAU/USDT-Datalink-Okx-FundingRate-fundingTimestamp",
-        "streamID": 1000003298,
-        "type": "uint32",
-        "multiplier": "1"
-      },
-      {
-        "name": "XAU/USDT-Datalink-Okx-FundingRate-epochDuration",
-        "streamID": 1000003299,
-        "type": "uint32",
-        "multiplier": "1"
-      }
-    ],
-    "feedId": "0x00056681ef632f13203836ffd210f93cf35dbb92c18d43cdb3c8446e1381363f",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -129293,6 +129051,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x806A2bd26204a271e6bba1009f8092092609737D",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "eth-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eth-usd-cre-backup",
+    "proxyAddress": "0x5e3F10F1E8A97dd3e8600307fB45E0343E4ebe61",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-ETH",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x80d3003D88f3fD420dF4D28F9Ba67D098168ceb3",
     "contractType": "",
     "contractVersion": 6,
@@ -129456,6 +129246,38 @@
       "marketHours": "Crypto"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x83232a20F3a4d0dCe0E86D6e617F8f2c1374274A",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USDC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdc-usd-cre-backup",
+    "proxyAddress": "0x8A35b600bf6CC8C06E3E7c888ecf95411096803d",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-USDC",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
@@ -129712,6 +129534,38 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x88e20534EfEe56810a4f1F3158b838f2936b0F14",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "link-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "LINK / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "link-usd-cre-backup",
+    "proxyAddress": "0x737ab6fB310A38Bf7592FB62F47fb416c4624B0c",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-LINK",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
@@ -130113,6 +129967,38 @@
       "quoteAssetClic": "ETH_CR",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x954D639B0F591d55637f9762894275a71B5c680c",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xlm-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XLM / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xlm-usd-cre-backup",
+    "proxyAddress": "0x5a0a07CD0E9e4754B3FeC4Fb1ee1a5baBbaa6051",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-XLM",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
@@ -130552,6 +130438,38 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x9aC5943667C8B58ca6560Ad344C1A0032986cc22",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "eurc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "EURC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eurc-usd-cre-backup",
+    "proxyAddress": "0xdE85Ee1a7D45B2B3c56aCb1B8A43EdEEfBa50cB8",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-EURC",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
@@ -131601,6 +131519,36 @@
       "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xC46bC0a61F4bc248cE030D31D4A761b20254e1Bd",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xaum-reference-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "XAUM Reference Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xaum-reference-rate-nav-cre-backup",
+    "proxyAddress": "0xD109A10A4F819b22D7d5cee48dff5c0c0fb97980",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "hidden": true
+    },
+    "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
@@ -134130,6 +134078,38 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xd53BB7BEE682D28B56214310421EB43A34605301",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdt-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USDT / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdt-usd-cre-backup",
+    "proxyAddress": "0x13c110Ba22A50E3C7980691983565081283A1970",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-USDT",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xd7f886A645e1D2514eCEFE797A8C6ecCb356B635",
     "contractType": "",
     "contractVersion": 6,
@@ -134922,6 +134902,38 @@
       "quoteAssetClic": "ynETHx_CR",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xf4345185c6c70D7D8c5bb663c2277169Ce29E124",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "btc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usd-cre-backup",
+    "proxyAddress": "0xf5166f957d716D26488f185E5B1d378839724530",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "baseAssetEntityId": "crypto-BTC",
+      "hidden": true,
+      "quoteAssetEntityId": "forex-USD"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
