@@ -32883,6 +32883,117 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1",
+    "name": "APYUSD/APXUSD-Streams-ExchangeRate-mainnet-production",
+    "pair": [
+      "APYUSD",
+      "APXUSD"
+    ],
+    "path": "apyusd-apxusd-streams-exchangerate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "apyUSD",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "apyUSD",
+      "attributeType": "ExchangeRate",
+      "baseAsset": "APYUSD",
+      "baseAssetClic": "APYUSD_CR",
+      "baseAssetEntityId": "crypto-APYUSD",
+      "clicProductName": "APYUSD/APXUSD-ExchangeRate-DS-Premium-Global-007",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "APXUSD",
+      "quoteAssetClic": "APXUSD_CR",
+      "quoteAssetEntityId": "crypto-APXUSD",
+      "schema": "v7",
+      "serviceLevel": "Streams",
+      "dataProvider": "view-function-multi-chain"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "APYUSD/APXUSD-Streams-ExchangeRate",
+        "streamID": 1000007776,
+        "type": "int192",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x0007340b23c9c5fb1b16352d38a0aa3f4c62264755b2c4a8257f86329958b9a0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
     "name": "Chainlink-Internal-CPI-U-Headline-12MT-Change-ExchangeRate-mainnet-production",
     "pair": [
       "CPIU-12M",
@@ -63892,6 +64003,158 @@
       }
     ],
     "feedId": "0x000b47988e89f3e63e1d679c84b774e6c38bb9929ad9de6e5e56d657a80388a9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "COPPER/USDT-Datalink-Binance-TopOfBook-mainnet-production",
+    "pair": [
+      "COPPER",
+      "USDT"
+    ],
+    "path": "copper-usdt-datalink-binance-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Copper",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Commodities",
+      "assetSubClass": "Commodities",
+      "assetName": "Copper",
+      "attributeType": "TopOfBook",
+      "baseAsset": "COPPER",
+      "baseAssetClic": "XCU_CO",
+      "baseAssetEntityId": "commodity-XCU",
+      "clicProductName": "COPPER/USDT-Datalink-Binance-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Precious_Metals",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-benchmark",
+        "streamID": 1000007772,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-benchmark-timestamp",
+        "streamID": 1000007773,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000007774,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-bid",
+        "streamID": 1000007774,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000007775,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-ask",
+        "streamID": 1000007775,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-benchmark",
+        "streamID": 1000007772,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "COPPER/USDT-Datalink-Binance-TopOfBook-benchmark",
+        "streamID": 1000007772,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000b480b34c1186a861d045be813ef0f3d75ca9684abc4fde9500154fc09ff68",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
