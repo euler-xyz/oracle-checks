@@ -16568,6 +16568,201 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "WSTETH/USD-Streams-DexCross-mainnet-staging",
+    "pair": [
+      "WSTETH",
+      "USD"
+    ],
+    "path": "wsteth-usd-streams-dexcross-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Wrapped stETH",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Wrapped stETH",
+      "attributeType": "DexCross",
+      "baseAsset": "WSTETH",
+      "baseAssetClic": "WSTETH_CR",
+      "baseAssetEntityId": "crypto-WSTETH",
+      "clicProductName": "WSTETH/USD-Streams-DexCross",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "feedId": "0x00039d6733859abef383cea7aa6fc8626396e258f12bdf5615ac3f84d7d9a452",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ZK/USD-Streams-CexPrice-mainnet-staging",
+    "pair": [
+      "ZK",
+      "USD"
+    ],
+    "path": "zk-usd-streams-cexprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "ZKsync",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "ZKsync",
+      "attributeType": "CexPrice",
+      "baseAsset": "ZK",
+      "baseAssetEntityId": "crypto-ZK",
+      "clicProductName": "ZK/USD-Streams-CexPrice",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x00039d6733859abef383cea7aa6fc8627396e258f12adf5715ac3f84d7afb930",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "UBTC/USD-Streams-CexPrice-mainnet-production",
     "pair": [
@@ -23273,6 +23468,310 @@
       },
       {
         "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "Updated-USDE/USD-Streams-DexPrice-mainnet-staging",
+    "pair": [
+      "USDE",
+      "USD"
+    ],
+    "path": "updated-usde-usd-streams-dexprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethena USDe",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ethena USDe",
+      "attributeType": "DexPrice",
+      "baseAsset": "USDE",
+      "baseAssetClic": "USDE_CR",
+      "baseAssetEntityId": "crypto-USDE",
+      "clicProductName": "USDE/USD-Streams-DexPrice",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000005972,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-bid",
+        "streamID": 1000005974,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "Updated-USDE/USD-Streams-DexPrice-ask",
+        "streamID": 1000005973,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003f6d7af2aa710362ae5e361aa5424642584010d973683d9ee2007b8788401",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AAVE/USD-Streams-CexPrice-mainnet-staging",
+    "pair": [
+      "AAVE",
+      "USD"
+    ],
+    "path": "aave-usd-streams-cexprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "AAVE",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "AAVE",
+      "attributeType": "CexPrice",
+      "baseAsset": "AAVE",
+      "baseAssetEntityId": "crypto-AAVE",
+      "clicProductName": "AAVE/USD-Streams-CexPrice",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003f6d7af2aa710362ae5e361aa5424642584010d983683d8ee200742464258",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "FLOKI/USD-Streams-CexPrice-mainnet-staging",
+    "pair": [
+      "FLOKI",
+      "USD"
+    ],
+    "path": "floki-usd-streams-cexprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "CexPrice",
+      "baseAsset": "FLOKI",
+      "baseAssetEntityId": "crypto-FLOKI",
+      "clicProductName": "FLOKI/USD-Streams-CexPrice",
+      "hidden": true,
+      "quoteAsset": "USD",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003f6d7af2aa710362ae6e361aa5424642584111d983683d8ee2104b8792593",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
       }
     ]
   },
@@ -52195,7 +52694,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "TWSE",
       "productSubType": "Reference",
       "productType": "Price",
@@ -53545,7 +54043,7 @@
       "baseAsset": "285A.JP",
       "baseAssetClic": "285A.JP_EQ",
       "baseAssetEntityId": "equity-285A.JP",
-      "clicProductName": "285A.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "285A.JP/JPY-Streams-JP-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -53557,50 +54055,50 @@
       "quoteAssetClic": "JPY_FX",
       "quoteAssetEntityId": "forex-JPY",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-mid",
+        "name": "285A.JP/JPY-Streams-EquityPrice-mid",
         "streamID": 1000005674,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-mid-timestamp",
+        "name": "285A.JP/JPY-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005675,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-bid",
+        "name": "285A.JP/JPY-Streams-EquityPrice-bid",
         "streamID": 1000005676,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "name": "285A.JP/JPY-Streams-EquityPrice-bidVolume",
         "streamID": 1000005677,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-ask",
+        "name": "285A.JP/JPY-Streams-EquityPrice-ask",
         "streamID": 1000005678,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-askVolume",
+        "name": "285A.JP/JPY-Streams-EquityPrice-askVolume",
         "streamID": 1000005679,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "285A.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "name": "285A.JP/JPY-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005680,
         "type": "int192",
         "multiplier": "0"
@@ -62419,7 +62917,7 @@
       "baseAsset": "000660.KR",
       "baseAssetClic": "000660.KR_EQ",
       "baseAssetEntityId": "equity-000660.KR",
-      "clicProductName": "000660.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "000660.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -62431,50 +62929,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "000660.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005690,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "000660.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005691,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "000660.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005692,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "000660.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005693,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "000660.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005694,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "000660.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005695,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "000660.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "000660.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005696,
         "type": "int192",
         "multiplier": "0"
@@ -63627,7 +64125,7 @@
       "baseAsset": "373220.KR",
       "baseAssetClic": "373220.KR_EQ",
       "baseAssetEntityId": "equity-373220.KR",
-      "clicProductName": "373220.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "373220.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -63639,50 +64137,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "lo-tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "373220.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005719,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "373220.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005720,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "373220.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005721,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "373220.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005722,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "373220.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005723,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "373220.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005724,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "373220.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "373220.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005725,
         "type": "int192",
         "multiplier": "0"
@@ -63996,6 +64494,158 @@
       }
     ],
     "feedId": "0x000b56317dccaac49b663ff0a9fb15f87b3853c1370d9cb2e45386c968d3ab54",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "00625.HK/HKD-Streams-EquityPrice-mainnet-production",
+    "pair": [
+      "00625.HK",
+      "HKD"
+    ],
+    "path": "00625-hk-hkd-streams-equityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SHEIN Group Ltd.",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "SHEIN Group Ltd.",
+      "attributeType": "EquityPrice",
+      "baseAsset": "00625.HK",
+      "baseAssetClic": "00625.HK_EQ",
+      "baseAssetEntityId": "equity-00625.HK",
+      "clicProductName": "00625.HK/HKD-Streams-HK-EquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "HK",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "HKD",
+      "quoteAssetClic": "HKD_FX",
+      "quoteAssetEntityId": "forex-HKD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-mid",
+        "streamID": 1000007878,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-mid-timestamp",
+        "streamID": 1000007879,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-bid",
+        "streamID": 1000007880,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-bidVolume",
+        "streamID": 1000007881,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-ask",
+        "streamID": 1000007882,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-askVolume",
+        "streamID": 1000007883,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "00625.HK/HKD-Streams-EquityPrice-lastTradedPrice",
+        "streamID": 1000007884,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "HK-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000007546,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b566af4c3dca61ff69ef68626542e8b0b64d2e3444c13e2bc15744308c414",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -64380,7 +65030,7 @@
       "baseAsset": "005930.KR",
       "baseAssetClic": "005930.KR_EQ",
       "baseAssetEntityId": "equity-005930.KR",
-      "clicProductName": "005930.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "005930.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -64392,50 +65042,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "005930.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005706,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "005930.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005707,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "005930.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005708,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "005930.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005709,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "005930.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005710,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "005930.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005711,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005930.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "005930.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005712,
         "type": "int192",
         "multiplier": "0"
@@ -66505,44 +67155,44 @@
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-mid",
-        "streamID": 1000002863,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007809,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
-        "streamID": 1000002864,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007810,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-bid",
-        "streamID": 1000002865,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007811,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-bidVolume",
-        "streamID": 1000002866,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007812,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-ask",
-        "streamID": 1000002867,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007813,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-askVolume",
-        "streamID": 1000002868,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007814,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
-        "streamID": 1000002869,
+        "name": "Updated-COIN/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007815,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
@@ -72814,7 +73464,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "TWSE",
       "productSubType": "Reference",
       "productType": "Price",
@@ -75369,7 +76018,7 @@
       "baseAsset": "035420.KR",
       "baseAssetClic": "035420.KR_EQ",
       "baseAssetEntityId": "equity-035420.KR",
-      "clicProductName": "035420.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "035420.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -75381,50 +76030,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "035420.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005658,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "035420.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005659,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "035420.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005660,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "035420.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005661,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "035420.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005662,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "035420.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005663,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035420.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "035420.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005664,
         "type": "int192",
         "multiplier": "0"
@@ -76428,7 +77077,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "TWSE",
       "productSubType": "Reference",
       "productType": "Price",
@@ -80947,7 +81595,7 @@
       "baseAsset": "005380.KR",
       "baseAssetClic": "005380.KR_EQ",
       "baseAssetEntityId": "equity-005380.KR",
-      "clicProductName": "005380.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "005380.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -80959,50 +81607,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "005380.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005698,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "005380.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005699,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "005380.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005700,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "005380.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005701,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "005380.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005702,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "005380.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005703,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "005380.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "005380.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005704,
         "type": "int192",
         "multiplier": "0"
@@ -81103,7 +81751,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "custom",
       "feedType": "Forex",
-      "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
@@ -81405,7 +82052,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "TWSE",
       "productSubType": "Reference",
       "productType": "Price",
@@ -83509,7 +84155,7 @@
       "baseAsset": "9984.JP",
       "baseAssetClic": "9984.JP_EQ",
       "baseAssetEntityId": "equity-9984.JP",
-      "clicProductName": "9984.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "9984.JP/JPY-Streams-JP-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -83521,50 +84167,50 @@
       "quoteAssetClic": "JPY_FX",
       "quoteAssetEntityId": "forex-JPY",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-mid",
+        "name": "9984.JP/JPY-Streams-EquityPrice-mid",
         "streamID": 1000005682,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-mid-timestamp",
+        "name": "9984.JP/JPY-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005683,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-bid",
+        "name": "9984.JP/JPY-Streams-EquityPrice-bid",
         "streamID": 1000005684,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "name": "9984.JP/JPY-Streams-EquityPrice-bidVolume",
         "streamID": 1000005685,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-ask",
+        "name": "9984.JP/JPY-Streams-EquityPrice-ask",
         "streamID": 1000005686,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-askVolume",
+        "name": "9984.JP/JPY-Streams-EquityPrice-askVolume",
         "streamID": 1000005687,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "9984.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "name": "9984.JP/JPY-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005688,
         "type": "int192",
         "multiplier": "0"
@@ -85623,7 +86269,7 @@
       "baseAsset": "6871.JP",
       "baseAssetClic": "6871.JP_EQ",
       "baseAssetEntityId": "equity-6871.JP",
-      "clicProductName": "6871.JP/JPY-Datalink-JP-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "6871.JP/JPY-Streams-JP-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -85635,50 +86281,50 @@
       "quoteAssetClic": "JPY_FX",
       "quoteAssetEntityId": "forex-JPY",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-mid",
+        "name": "6871.JP/JPY-Streams-EquityPrice-mid",
         "streamID": 1000005666,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-mid-timestamp",
+        "name": "6871.JP/JPY-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005667,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-bid",
+        "name": "6871.JP/JPY-Streams-EquityPrice-bid",
         "streamID": 1000005668,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-bidVolume",
+        "name": "6871.JP/JPY-Streams-EquityPrice-bidVolume",
         "streamID": 1000005669,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-ask",
+        "name": "6871.JP/JPY-Streams-EquityPrice-ask",
         "streamID": 1000005670,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-askVolume",
+        "name": "6871.JP/JPY-Streams-EquityPrice-askVolume",
         "streamID": 1000005671,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "6871.JP/JPY-Datalink-EquityPrice-lastTradedPrice",
+        "name": "6871.JP/JPY-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005672,
         "type": "int192",
         "multiplier": "0"
@@ -94503,7 +95149,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
-      "hidden": true,
       "marketHours": "Shanghai",
       "productSubType": "Reference",
       "productType": "Price",
@@ -96003,7 +96648,7 @@
       "baseAsset": "035720.KR",
       "baseAssetClic": "035720.KR_EQ",
       "baseAssetEntityId": "equity-035720.KR",
-      "clicProductName": "035720.KR/KRW-Datalink-KR-EquityPrice-DS-Premium-Global-011",
+      "clicProductName": "035720.KR/KRW-Streams-KR-EquityPrice-DS-Premium-Global-011",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Equities",
@@ -96015,50 +96660,50 @@
       "quoteAssetClic": "KRW_FX",
       "quoteAssetEntityId": "forex-KRW",
       "schema": "v11",
-      "serviceLevel": "Datalink",
+      "serviceLevel": "Streams",
       "dataProvider": "Lo Tech"
     },
     "decimals": 0,
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-mid",
+        "name": "035720.KR/KRW-Streams-EquityPrice-mid",
         "streamID": 1000005646,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-mid-timestamp",
+        "name": "035720.KR/KRW-Streams-EquityPrice-mid-timestamp",
         "streamID": 1000005647,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-bid",
+        "name": "035720.KR/KRW-Streams-EquityPrice-bid",
         "streamID": 1000005648,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-bidVolume",
+        "name": "035720.KR/KRW-Streams-EquityPrice-bidVolume",
         "streamID": 1000005649,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-ask",
+        "name": "035720.KR/KRW-Streams-EquityPrice-ask",
         "streamID": 1000005650,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-askVolume",
+        "name": "035720.KR/KRW-Streams-EquityPrice-askVolume",
         "streamID": 1000005651,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "035720.KR/KRW-Datalink-EquityPrice-lastTradedPrice",
+        "name": "035720.KR/KRW-Streams-EquityPrice-lastTradedPrice",
         "streamID": 1000005652,
         "type": "int192",
         "multiplier": "0"
@@ -96624,44 +97269,44 @@
     "maxSubmissionValue": "",
     "streamValuesMetadata": [
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-mid",
-        "streamID": 1000002871,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007817,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
-        "streamID": 1000002872,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007818,
         "type": "uint64",
         "multiplier": "1000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-bid",
-        "streamID": 1000002873,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007819,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
-        "streamID": 1000002874,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007820,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-ask",
-        "streamID": 1000002875,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007821,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-askVolume",
-        "streamID": 1000002876,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007822,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
       {
-        "name": "COIN/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
-        "streamID": 1000002877,
+        "name": "Updated-COIN/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007823,
         "type": "int192",
         "multiplier": "1000000000000000000"
       },
@@ -106626,7 +107271,7 @@
     },
     "decimals": 0,
     "maxSubmissionValue": "",
-    "feedId": "0x00039d6733859abef383cea7aa6fc8626396e258f12bdf5615ac3f84d7d9b930",
+    "feedId": "0x00039d6733859abef383cea7aa6fc8626396e258f12bdf5615ac3f84d7d9b932",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -106720,7 +107365,7 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
-    "feedId": "0x00039d6733859abef383cea7aa6fc8627396e258f12adf5715ac3f84d7d9b930",
+    "feedId": "0x00039d6733859abef383cea7aa6fc8627396e258f12adf5715ac3f84d7d9b931",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -110320,7 +110965,7 @@
     },
     "decimals": 18,
     "maxSubmissionValue": "",
-    "feedId": "0x0003f6d7af2aa710362ae5e361aa5424642584010d983683d8ee2007b8788593",
+    "feedId": "0x0003f6d7af2aa710362ae5e361aa5424642584010d983683d8ee2007b8788594",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
