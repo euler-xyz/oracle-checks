@@ -178,6 +178,39 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x01C67A42eaE16D76b0188e5Ed555C6a7399AEAE1",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "sgovon-usd-calculated",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "SGOVon / USD (Calculated)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "sgovon-usd-calculated",
+    "proxyAddress": "0xfE45662E9fA552464289B0568D4A846c6F284Db9",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "twenty_four_five_equity",
+      "baseAssetEntityId": "equity-SGOV",
+      "marketHours": "us_equities_24/5",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x0260343eB7bEf134b8892Ee66712fd3D5a3f6274",
     "contractType": "",
     "contractVersion": 6,
@@ -1747,6 +1780,38 @@
     },
     "decimals": 8,
     "maxSubmissionValue": "1"
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x214111CA7A91b4304828575DB75c6516A38E65Ff",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "sgovon-usd-ondo-api",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "SGOVon / USD (Ondo API)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "sgovon-usd",
+    "proxyAddress": "0x03A624CB084536eA9cB51AbEeecBF47b325130C1",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "attributeType": "equity_price",
+      "baseAssetEntityId": "crypto-SGOVON",
+      "quoteAssetEntityId": "forex-USD"
+    },
+    "decimals": 8,
+    "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
   },
   {
     "compareOffchain": "",
