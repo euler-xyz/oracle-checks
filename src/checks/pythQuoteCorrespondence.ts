@@ -20,9 +20,20 @@ export function pythQuoteCorrespondence({ quote, feed }: Params): CheckResultWit
   const quoteSymbol = quote.symbol;
   const feedQuoteSymbol = feed.attributes.quote_currency;
 
+  if (!quoteSymbol) {
+    return failCheck(CHECKS.PYTH_QUOTE_CORRESPONDENCE, "Quote asset symbol is unknown.");
+  }
+
+  if (!feedQuoteSymbol) {
+    return failCheck(CHECKS.PYTH_QUOTE_CORRESPONDENCE, "Feed quote asset symbol is unknown.");
+  }
+
+  const normalizedQuoteSymbol = quoteSymbol.toLowerCase();
+  const normalizedFeedQuoteSymbol = feedQuoteSymbol.toLowerCase();
+
   if (
-    quoteSymbol.toLocaleLowerCase() === feedQuoteSymbol.toLocaleLowerCase() ||
-    (quoteSymbol === "WETH" && feedQuoteSymbol === "ETH")
+    normalizedQuoteSymbol === normalizedFeedQuoteSymbol ||
+    (normalizedQuoteSymbol === "weth" && normalizedFeedQuoteSymbol === "eth")
   ) {
     return passCheck(
       CHECKS.PYTH_QUOTE_CORRESPONDENCE,

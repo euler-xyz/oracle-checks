@@ -261,7 +261,10 @@ export function runChecks({
         adapter,
         pendleMetadata,
       });
-      label = pendlePoolCheck.label;
+      checks.push(pendlePoolCheck.result);
+      const baseSymbol = assets.find((asset) => asset.address === adapter.base)?.symbol;
+      const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
+      label = `${baseSymbol ?? "Unknown base"}/${quoteSymbol ?? "Unknown quote"}`;
       methodology = "TWAP";
       model = "Push";
       provider = "Pendle";

@@ -20,9 +20,20 @@ export function pythBaseCorrespondence({ base, feed }: Params): CheckResultWithI
   const baseSymbol = base.symbol;
   const feedBaseSymbol = feed.attributes.base;
 
+  if (!baseSymbol) {
+    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Base asset symbol is unknown.");
+  }
+
+  if (!feedBaseSymbol) {
+    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Feed base asset symbol is unknown.");
+  }
+
+  const normalizedBaseSymbol = baseSymbol.toLowerCase();
+  const normalizedFeedBaseSymbol = feedBaseSymbol.toLowerCase();
+
   if (
-    baseSymbol.toLocaleLowerCase() === feedBaseSymbol.toLocaleLowerCase() ||
-    (baseSymbol.toLowerCase() === "weth" && feedBaseSymbol.toLowerCase() === "eth")
+    normalizedBaseSymbol === normalizedFeedBaseSymbol ||
+    (normalizedBaseSymbol === "weth" && normalizedFeedBaseSymbol === "eth")
   ) {
     return passCheck(
       CHECKS.PYTH_BASE_CORRESPONDENCE,
