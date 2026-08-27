@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x7da97FbFAA3020f856C60EB4EF068079A9023Aca is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-hgETH-25JUN2026/WETH",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

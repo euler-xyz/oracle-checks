@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xB451A36c8B6b2EAc77AD0737BA732818143A0E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-USDe-27MAR2025/USDe",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

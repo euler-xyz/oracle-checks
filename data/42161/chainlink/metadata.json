@@ -8677,107 +8677,6 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "BTR/USD-Streams-CexPrice-mainnet-production",
-    "pair": [
-      "BTR",
-      "USD"
-    ],
-    "path": "btr-usd-streams-cexprice-mainnet-production",
-    "proxyAddress": null,
-    "threshold": 0,
-    "valuePrefix": "",
-    "assetName": "Bitlayer",
-    "feedCategory": "deprecating",
-    "feedType": "Crypto",
-    "docs": {
-      "assetClass": "Crypto",
-      "assetSubClass": "Crypto",
-      "assetName": "Bitlayer",
-      "attributeType": "CexPrice",
-      "baseAsset": "BTR",
-      "baseAssetClic": "BTR_CR",
-      "baseAssetEntityId": "crypto-BTR",
-      "clicProductName": "BTR/USD-Streams-CexPrice-DS-Premium-Global-003",
-      "deliveryChannelCode": "DS",
-      "feedCategory": "deprecating",
-      "feedType": "Crypto",
-      "marketHours": "Crypto",
-      "productSubType": "Reference",
-      "productType": "Price",
-      "productTypeCode": "RefPrice",
-      "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "quoteAssetEntityId": "forex-USD",
-      "serviceLevel": "Streams",
-      "shutdownDate": "August 19th, 2026"
-    },
-    "decimals": 18,
-    "maxSubmissionValue": "",
-    "feedId": "0x00032cb6acac6557dc19b0f992b00a3cedfe9ac5179e332000fb4e02e6571295",
-    "sourceChain": 42161,
-    "status": "live",
-    "oracles": [
-      {
-        "operator": "mercury-chainlayer-2"
-      },
-      {
-        "operator": "mercury-chainlink-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-dexTrac-2"
-      },
-      {
-        "operator": "mercury-fiews-2"
-      },
-      {
-        "operator": "mercury-inotel-2"
-      },
-      {
-        "operator": "mercury-linkForest-2"
-      },
-      {
-        "operator": "mercury-linkPool-2"
-      },
-      {
-        "operator": "mercury-linkRiver-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
-      },
-      {
-        "operator": "mercury-snzPool-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-validationCloud-2"
-      },
-      {
-        "operator": "mercury-tiingo-2"
-      }
-    ]
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0x0000000000000000000000000000000000000000",
-    "contractType": "verifier",
-    "contractVersion": 1001,
-    "decimalPlaces": null,
-    "ens": null,
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "history": null,
-    "multiply": "1000000000000000000",
     "name": "PUMP/USD-RefPrice-mainnet-production",
     "pair": [
       "PUMP",
@@ -9322,7 +9221,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -10005,7 +9903,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -19643,7 +19540,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -30476,7 +30372,7 @@
     "multiply": "1",
     "name": "SMB/WYLDS-Streams-ExchangeRate-mainnet-production",
     "pair": [
-      "SMB",
+      "HASTRASMB",
       "WYLDS"
     ],
     "path": "hastrasmb-wylds-streams-exchangerate-mainnet-production",
@@ -32530,7 +32426,7 @@
     "multiply": "1",
     "name": "PRIME/WYLDS-Streams-ExchangeRate-mainnet-production",
     "pair": [
-      "PRIME",
+      "HASTRAPRIME",
       "WYLDS"
     ],
     "path": "prime-wylds-streams-exchangerate-mainnet-production",
@@ -59969,7 +59865,6 @@
       "deliveryChannelCode": "DS",
       "feedCategory": "custom",
       "feedType": "Datalink",
-      "hidden": true,
       "marketHours": "Precious_Metals",
       "productSubType": "Reference",
       "productType": "Price",
@@ -60934,6 +60829,157 @@
       }
     ],
     "feedId": "0x000b4b966db530d69b54fe1baaef6991dfa45dfcc819ac77b1fd2cb3c8b490c9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "BIL/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BIL",
+      "USD"
+    ],
+    "path": "bil-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "BIL",
+      "baseAssetClic": "BIL_EQ_REG",
+      "baseAssetEntityId": "equity-BIL",
+      "clicProductName": "BIL/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007849,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007850,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007851,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007852,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007853,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007854,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007855,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b4bf0c245da08c061ca37245d6ae16ba2c8c78dafeaa56d7175635ea47ca5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -71173,6 +71219,157 @@
       }
     ],
     "feedId": "0x000b7a7c2018db26afa770191c94655397706245befe73a9a44f62859e1e5d49",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BIL",
+      "USD"
+    ],
+    "path": "bil-usd-streams-extendedhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Extended Hours",
+      "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "attributeType": "ExtendedHoursEquityPrice",
+      "baseAsset": "BIL",
+      "baseAssetClic": "BIL_EQ_EXT",
+      "baseAssetEntityId": "equity-BIL",
+      "clicProductName": "BIL/USD-Streams-ExtendedHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Extended",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-mid",
+        "streamID": 1000007865,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007866,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-bid",
+        "streamID": 1000007867,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-bidVolume",
+        "streamID": 1000007868,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-ask",
+        "streamID": 1000007869,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-askVolume",
+        "streamID": 1000007870,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-ExtendedHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007871,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000b7b73b4c2b0ccc1612c528189ebb5048e77d6d28d2ea9c57f63b36f5ca3d8",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -91211,6 +91408,157 @@
       }
     ],
     "feedId": "0x000bdbaf6af9ee5c6c4f2b6f2f185e7c918e2e374bd5fcaecdfb77a71b7f02e7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "BIL/USD-Streams-OvernightHoursEquityPrice-mainnet-production",
+    "pair": [
+      "BIL",
+      "USD"
+    ],
+    "path": "bil-usd-streams-overnighthoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Overnight Hours",
+      "assetName": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "attributeType": "OvernightHoursEquityPrice",
+      "baseAsset": "BIL",
+      "baseAssetClic": "BIL_EQ_ON",
+      "baseAssetEntityId": "equity-BIL",
+      "clicProductName": "BIL/USD-Streams-OvernightHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Overnight",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-mid",
+        "streamID": 1000007857,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007858,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-bid",
+        "streamID": 1000007859,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-bidVolume",
+        "streamID": 1000007860,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-ask",
+        "streamID": 1000007861,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-askVolume",
+        "streamID": 1000007862,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "BIL/USD-Streams-OvernightHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007863,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bde0766f3ba6ac72da79e986775904c68c1b3b0722756d416a15238a5bcd6",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [

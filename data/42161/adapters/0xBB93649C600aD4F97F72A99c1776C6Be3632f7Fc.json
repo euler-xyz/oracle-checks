@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x8A8A557b90eC79496a18a1f9C9DA8Bbd7DB86Fd3 is PLP-USDai-18JUN2026 (PLP USDai 18JUN2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-USDai-18JUN2026/USD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

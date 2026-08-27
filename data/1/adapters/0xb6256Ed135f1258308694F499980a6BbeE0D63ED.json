@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xcd9573442af27a2d050dc6ee199A6b2F98354907 is PLP-cUSDO-28MAY2026 (PLP Compounding Open Dollar 28MAY2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-cUSDO-28MAY2026/USDO",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

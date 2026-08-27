@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x5Fa69163085efd4767f24639eB1fB87Ed34bBB12 is PLP-sUSDE-9APR2026 (PLP Ethena sUSDE 9APR2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-sUSDE-9APR2026/USD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

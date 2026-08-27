@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x6f99CF00ee7290aE78a072Bb6910eF72D1129fE7 is PLP-AUSD-8OCT2026 (PLP AUSD 8OCT2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pendle pool: PT-AUSD.",
+      "pass": true
     }
   ],
-  "label": "PT-AUSD",
+  "label": "PT-AUSD-8OCT2026/AUSD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

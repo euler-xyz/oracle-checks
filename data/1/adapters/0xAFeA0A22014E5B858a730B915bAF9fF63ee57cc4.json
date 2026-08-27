@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x9EaAedA23177B7168c55a3A0F937f67919733449 is PLP-cUSD-23JUL2026 (PLP cap USD 23JUL2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-cUSD-23JUL2026/cUSD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

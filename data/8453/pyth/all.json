@@ -43,14 +43,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: WSTETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -120,14 +120,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EURC/USD",
+        "message": "Adapter is connected to an official Pyth feed: EURCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EURC) corresponds to the Pyth feed's base asset from metadata (EURC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -197,14 +197,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: ETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -274,14 +274,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -351,14 +351,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SUSDS/USDS",
+        "message": "Adapter is connected to an official Pyth feed: SUSDSUSDS",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sUSDS) corresponds to the Pyth feed's base asset from metadata (SUSDS).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",

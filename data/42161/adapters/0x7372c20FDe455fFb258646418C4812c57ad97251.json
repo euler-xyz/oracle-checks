@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x22d95cEC2b962C142FfF9BE88CfC7eF15043419F is PLP-thBILL-18JUN2026 (PLP thBILL 18JUN2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-thBILL-18JUN2026/USDC",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

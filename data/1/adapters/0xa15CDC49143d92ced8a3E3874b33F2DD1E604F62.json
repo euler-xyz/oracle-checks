@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x41092d4599F66aDA393f729F01886398A74A0B22",
-  "chainId": 8453,
-  "base": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xa15CDC49143d92ced8a3E3874b33F2DD1E604F62",
+  "chainId": 1,
+  "base": "0x1296EA461Ff7894e000C75d97D74d0ee0589971A",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x206a34e47093125fbf4C75b7c7E88b84c6A77a69",
-  "maxStaleness": "90000",
+  "feed": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
+  "maxStaleness": "432000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -16,8 +16,8 @@
     {
       "id": "Source code provenance",
       "severity": "High",
-      "message": "Contract metadata hash matches a known hash.",
-      "pass": true
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
     },
     {
       "id": "Distinct assets",
@@ -28,7 +28,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xcb17C9Db87B595717C857a08468793f5bAb6445F is cbLTC (Coinbase Wrapped LTC) with 8 decimals.",
+      "message": "Asset 0x1296EA461Ff7894e000C75d97D74d0ee0589971A is ps-mGLOBAL (Pending Settlement mGLOBAL) with 18 decimals.",
       "pass": true
     },
     {
@@ -40,12 +40,12 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "message": "Adapter's maximum staleness (432000 s) is sufficient for the feed's heartbeat (86400 s).",
       "pass": true
     }
   ],
-  "label": "LTC / USD (0.5%, 86400s)",
-  "methodology": "Smart Value Capture",
+  "label": "mGlobal NAV - Aave Llamaguard (0.5%, 86400s)",
+  "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink"
 }

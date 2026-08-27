@@ -1,10 +1,10 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x41092d4599F66aDA393f729F01886398A74A0B22",
-  "chainId": 8453,
-  "base": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xAc628c9e4Ce96a9A30dBB49b11a63724f167fdc8",
+  "chainId": 1,
+  "base": "0xD71C161D429b794845F0aC992d25225F22daF226",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x206a34e47093125fbf4C75b7c7E88b84c6A77a69",
+  "feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
   "maxStaleness": "90000",
   "checks": [
     {
@@ -16,8 +16,8 @@
     {
       "id": "Source code provenance",
       "severity": "High",
-      "message": "Contract metadata hash matches a known hash.",
-      "pass": true
+      "message": "Contract metadata hash is not recognized.",
+      "pass": false
     },
     {
       "id": "Distinct assets",
@@ -28,7 +28,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xcb17C9Db87B595717C857a08468793f5bAb6445F is cbLTC (Coinbase Wrapped LTC) with 8 decimals.",
+      "message": "Asset 0xD71C161D429b794845F0aC992d25225F22daF226 is ps-USDC (Pending Settlement USDC) with 6 decimals.",
       "pass": true
     },
     {
@@ -40,12 +40,12 @@
     {
       "id": "Push oracle staleness buffer",
       "severity": "Med",
-      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (82800 s).",
       "pass": true
     }
   ],
-  "label": "LTC / USD (0.5%, 86400s)",
-  "methodology": "Smart Value Capture",
+  "label": "USDC / USD (0.25%, 82800s)",
+  "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink"
 }

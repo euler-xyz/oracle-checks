@@ -42,14 +42,14 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: USDS/USD",
+      "message": "Adapter is connected to an official Pyth feed: USDSUSD",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (USDS) corresponds to the Pyth feed's base asset from metadata (USDS).",
-      "pass": true
+      "message": "Feed base asset symbol is unknown.",
+      "pass": false
     },
     {
       "id": "Pyth quote correspondence",

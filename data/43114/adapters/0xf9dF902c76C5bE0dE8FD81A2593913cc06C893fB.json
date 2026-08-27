@@ -42,13 +42,13 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: AVAX/USD",
+      "message": "Adapter is connected to an official Pyth feed: AVAXUSD",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (WAVAX) does not correspond to the Pyth feed's base asset from metadata (AVAX).",
+      "message": "Feed base asset symbol is unknown.",
       "pass": false
     },
     {

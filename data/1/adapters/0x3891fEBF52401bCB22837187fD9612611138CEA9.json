@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xaC24A6f0068d9701EAEa76AB0B418021017F8D59 is PLP-stcUSD-23JUL2026 (PLP Staked cap USD 23JUL2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-stcUSD-23JUL2026/cUSD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

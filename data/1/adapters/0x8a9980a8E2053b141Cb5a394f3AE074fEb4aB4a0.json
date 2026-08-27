@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x13285bCbc27F92b47B4EDB99D744C07B48C977c0 is PLP-reUSD-10DEC2026 (PLP reUSD 10DEC2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pendle pool: PT-reUSD.",
+      "pass": true
     }
   ],
-  "label": "PT-reUSD",
+  "label": "PT-reUSD-10DEC2026/reUSD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

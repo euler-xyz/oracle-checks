@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x84183d35960914bad14Fa272372861664df329E2 is PLP-STRCx-27AUG2026 (PLP Strategy PP Variable xStock 27AUG2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "PT-STRCx",
+  "label": "PT-STRCx-27AUG2026/STRCx",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

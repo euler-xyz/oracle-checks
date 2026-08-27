@@ -42,14 +42,14 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: XHYPE/USDC",
+      "message": "Adapter is connected to an official Pyth feed: XHYPE",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (xHYPE) corresponds to the Pyth feed's base asset from metadata (XHYPE).",
-      "pass": true
+      "message": "Feed base asset symbol is unknown.",
+      "pass": false
     },
     {
       "id": "Pyth quote correspondence",

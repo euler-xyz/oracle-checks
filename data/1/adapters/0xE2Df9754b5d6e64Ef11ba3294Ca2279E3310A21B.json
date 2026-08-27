@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xf8208fB52BA80075aF09840A683143C22DC5B4dd is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-corn-pumpBTC-26DEC2024/WBTC",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

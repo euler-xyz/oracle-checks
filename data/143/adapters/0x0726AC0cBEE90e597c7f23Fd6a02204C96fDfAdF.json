@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x88C5D8A908834E44B421CB67aEc9A931782f9538 is PLP-USDat-14JAN2027 (PLP Saturn USD 14JAN2027) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pendle pool: PT-USDat.",
+      "pass": true
     }
   ],
-  "label": "PT-USDat",
+  "label": "PT-USDat-14JAN2027/USDat",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

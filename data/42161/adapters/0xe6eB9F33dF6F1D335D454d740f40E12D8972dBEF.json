@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xcbF629C8d396b1261F81F55175Afa010E94787d8 is PLP-sUSDai-15OCT2026 (PLP Staked USDai 15OCT2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Adapter is connected to an official Pendle pool: PT-sUSDai.",
+      "pass": true
     }
   ],
-  "label": "PT-sUSDai",
+  "label": "PT-sUSDai-15OCT2026/USD",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

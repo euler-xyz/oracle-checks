@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0xAFB7d6d1e9BcA5B675aDC9b4f52F0CDfDdec9654 is PLP-srUSDe-2APR2026 (PLP Strata Senior USDe 2APR2026) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-srUSDe-2APR2026/USDe",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

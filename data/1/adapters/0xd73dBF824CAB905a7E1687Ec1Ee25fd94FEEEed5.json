@@ -42,9 +42,15 @@
       "severity": "High",
       "message": "Asset 0x36d3ca43ae7939645C306E26603ce16e39A89192 is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
+    },
+    {
+      "id": "Recognized Pendle pool",
+      "severity": "High",
+      "message": "Could not find matching Pendle pool in the official list.",
+      "pass": false
     }
   ],
-  "label": "Unknown pool",
+  "label": "PT-EBTC-26DEC2024/eBTC",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle"

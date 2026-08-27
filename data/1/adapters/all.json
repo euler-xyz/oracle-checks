@@ -95,14 +95,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WEETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: WEETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (weETH) corresponds to the Pyth feed's base asset from metadata (WEETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -523,9 +523,15 @@
         "severity": "High",
         "message": "Asset 0x233f5adf236CAB22C5DbDD3333a7EfD8267d7AEE is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDaf-13NOV2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -824,9 +830,15 @@
         "severity": "High",
         "message": "Asset 0x71d857c437c56562a27Aa087BC3fe529b35b6948 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mAPOLLO-20NOV2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -1030,9 +1042,15 @@
         "severity": "High",
         "message": "Asset 0x353d0B2EFB5B3a7987fB06D30Ad6160522d08426 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-wstUSR-27MAR2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -1187,14 +1205,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BOLD/USD",
+        "message": "Adapter is connected to an official Pyth feed: BOLDUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (BOLD) corresponds to the Pyth feed's base asset from metadata (BOLD).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -1264,9 +1282,15 @@
         "severity": "High",
         "message": "Asset 0x7da97FbFAA3020f856C60EB4EF068079A9023Aca is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-hgETH-25JUN2026/WETH",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -1417,9 +1441,15 @@
         "severity": "High",
         "message": "Asset 0x23f0dEcc26ecEeafa5CC900F8B47D99FF94DDD2B is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-YU-4SEP2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -2019,9 +2049,15 @@
         "severity": "High",
         "message": "Asset 0x4708E55da780a953FDed696CecB0E19164bA72f4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PENDLE-LPT/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -2379,14 +2415,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PAXG/USD",
+        "message": "Adapter is connected to an official Pyth feed: PAXGUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (PAXG) corresponds to the Pyth feed's base asset from metadata (PAXG).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -3684,9 +3720,15 @@
         "severity": "High",
         "message": "Asset 0x45F163E583D34b8E276445dd3Da9aE077D137d72 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDf-25SEP2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -3786,14 +3828,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CBETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: CETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbETH) corresponds to the Pyth feed's base asset from metadata (CBETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -3909,9 +3951,15 @@
         "severity": "High",
         "message": "Asset 0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PENDLE-LPT/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -4365,9 +4413,15 @@
         "severity": "High",
         "message": "Asset 0xEB5819B31A0378407F43aBa2F3E9d16b40aa5ec7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDf-29JAN2026/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -5424,14 +5478,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ENA/USD",
+        "message": "Adapter is connected to an official Pyth feed: ENAUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ENA) corresponds to the Pyth feed's base asset from metadata (ENA).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -5656,14 +5710,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EURC/USD",
+        "message": "Adapter is connected to an official Pyth feed: EURCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EURC) corresponds to the Pyth feed's base asset from metadata (EURC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -5892,9 +5946,15 @@
         "severity": "High",
         "message": "Asset 0xC88FF954d42d3e11D43B62523B3357847C29377c is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-slvlUSD-25SEP2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -6304,9 +6364,15 @@
         "severity": "High",
         "message": "Asset 0x41264F35ef7eF8c4905ca98052E8D7480F12859e is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-jrUSDe-15JAN2026/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -6871,20 +6937,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: METH/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -6899,8 +6965,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.METH/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -6999,9 +7065,15 @@
         "severity": "High",
         "message": "Asset 0x15E434C42AB4c9a62Ed7db53baaF9d255ea51E0E is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PENDLE-LPT/wOETH",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -7400,14 +7472,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: DAI/USD",
+        "message": "Adapter is connected to an official Pyth feed: DAIUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (DAI) corresponds to the Pyth feed's base asset from metadata (DAI).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -7570,14 +7642,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -7735,9 +7807,15 @@
         "severity": "High",
         "message": "Asset 0xA549eA12E9bEF89c604183404A929d78a4941Eb8 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-xUSD-18DEC2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -9262,20 +9340,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USD0++/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (bUSD0) does not correspond to the Pyth feed's base asset from metadata (USD0++).",
+        "message": "Feed is unknown.",
         "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -9290,8 +9368,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USD0++/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -9799,9 +9877,15 @@
         "severity": "High",
         "message": "Asset 0xE5C04b27476a71803fed99A0914a2fc5C37e4cf6 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-hwHLP-18DEC2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -9953,14 +10037,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDT/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDTUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDT) corresponds to the Pyth feed's base asset from metadata (USDT).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -10030,9 +10114,15 @@
         "severity": "High",
         "message": "Asset 0x13285bCbc27F92b47B4EDB99D744C07B48C977c0 is PLP-reUSD-10DEC2026 (PLP reUSD 10DEC2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pendle pool: PT-reUSD.",
+        "pass": true
       }
     ],
-    "label": "PT-reUSD",
+    "label": "PT-reUSD-10DEC2026/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -10081,13 +10171,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -10158,9 +10248,15 @@
         "severity": "High",
         "message": "Asset 0x8Bf03ACbF1C2aC2e487c80678De7873C954525D2 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDaf-13NOV2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -10261,9 +10357,15 @@
         "severity": "High",
         "message": "Asset 0x56649da435f9a9a57ee9C4C06b728e4ba84FCc6b is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mFARM-11DEC2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -10312,9 +10414,15 @@
         "severity": "High",
         "message": "Asset 0xE467c5C54748f0125d729280F90DeD77C4e720a4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sBOLD-27NOV2025/sBOLD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -10414,14 +10522,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: ETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -10546,14 +10654,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: W/USD",
+        "message": "Adapter is connected to an official Pyth feed: WUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (W) corresponds to the Pyth feed's base asset from metadata (W).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -11551,14 +11659,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: CBBTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: CBBTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbBTC) corresponds to the Pyth feed's base asset from metadata (CBBTC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -11683,13 +11791,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -11812,9 +11920,15 @@
         "severity": "High",
         "message": "Asset 0x8322B96F7aFF9Bf405A5A321C7CA5aaC748716e0 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mEDGE-30OCT2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -11912,14 +12026,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WBTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: WBTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WBTC) corresponds to the Pyth feed's base asset from metadata (WBTC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -12350,9 +12464,15 @@
         "severity": "High",
         "message": "Asset 0x8AF9872eeE05c7Ca1c24295426E4d71b4AF5B559 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PENDLE-LPT/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -12746,9 +12866,15 @@
         "severity": "High",
         "message": "Asset 0xc65B7a0f8Fc97e1D548860d866f4304E039EF016 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDf-29JAN2026/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -13007,9 +13133,15 @@
         "severity": "High",
         "message": "Asset 0x688b8eea04B9756da290C962bfBA988b11fC66dF is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mMEV-30OCT2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -13466,14 +13598,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDE/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDEUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDe) corresponds to the Pyth feed's base asset from metadata (USDE).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -13650,9 +13782,15 @@
         "severity": "High",
         "message": "Asset 0x13285bCbc27F92b47B4EDB99D744C07B48C977c0 is PLP-reUSD-10DEC2026 (PLP reUSD 10DEC2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pendle pool: PT-reUSD.",
+        "pass": true
       }
     ],
-    "label": "PT-reUSD",
+    "label": "PT-reUSD-10DEC2026/reUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -13701,14 +13839,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ONDO/USD",
+        "message": "Adapter is connected to an official Pyth feed: ONDOUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (ONDO) corresponds to the Pyth feed's base asset from metadata (ONDO).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -13778,9 +13916,15 @@
         "severity": "High",
         "message": "Asset 0x266728b30c98B24De810E3325aDC615486988Cb2 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mMEV-31JUL2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -14296,14 +14440,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDY/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDYUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDY) corresponds to the Pyth feed's base asset from metadata (USDY).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -14730,14 +14874,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: WSTETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -14911,13 +15055,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (eBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -15571,9 +15715,15 @@
         "severity": "High",
         "message": "Asset 0x3a4204255257698e379245EF94274ef3B2907296 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mHYPER-20NOV2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -15674,14 +15824,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: RSETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: RSETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (rsETH) corresponds to the Pyth feed's base asset from metadata (RSETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -15706,6 +15856,57 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xa15CDC49143d92ced8a3E3874b33F2DD1E604F62",
+    "chainId": 1,
+    "base": "0x1296EA461Ff7894e000C75d97D74d0ee0589971A",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
+    "maxStaleness": "432000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1296EA461Ff7894e000C75d97D74d0ee0589971A is ps-mGLOBAL (Pending Settlement mGLOBAL) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (432000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "mGlobal NAV - Aave Llamaguard (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "PendleUniversalOracle",
@@ -15751,9 +15952,15 @@
         "severity": "High",
         "message": "Asset 0x233062C1de76a38a4f41aB7c32E7bdB80A1dfc02 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-alUSD-11DEC2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -15802,20 +16009,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: TBTC/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (tBTC) corresponds to the Pyth feed's base asset from metadata (TBTC).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -15830,8 +16037,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.TBTC/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -16040,9 +16247,15 @@
         "severity": "High",
         "message": "Asset 0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-wstUSR-25SEP2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -16660,6 +16873,57 @@
     "provider": "Unknown"
   },
   {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xAc628c9e4Ce96a9A30dBB49b11a63724f167fdc8",
+    "chainId": 1,
+    "base": "0xD71C161D429b794845F0aC992d25225F22daF226",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD71C161D429b794845F0aC992d25225F22daF226 is ps-USDC (Pending Settlement USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (82800 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC / USD (0.25%, 82800s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "address": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0"
   },
   {
@@ -17065,9 +17329,15 @@
         "severity": "High",
         "message": "Asset 0x8585177b041CD3C3FBEc607fb620230259CD70dB is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-YU-4DEC2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -17473,20 +17743,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: DEUSD/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (deUSD) corresponds to the Pyth feed's base asset from metadata (DEUSD).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -17501,8 +17771,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.DEUSD/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -17650,9 +17920,15 @@
         "severity": "High",
         "message": "Asset 0xa83174F1dD8475378abCa9d676DaD3cE97409E0a is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-srUSDe-15JAN2026/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -17754,14 +18030,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WEETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: WEETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (weETH) corresponds to the Pyth feed's base asset from metadata (WEETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -18143,14 +18419,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -18628,14 +18904,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: FDUSD/USD",
+        "message": "Adapter is connected to an official Pyth feed: FDUSDUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (FDUSD) corresponds to the Pyth feed's base asset from metadata (FDUSD).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -18805,9 +19081,15 @@
         "severity": "High",
         "message": "Asset 0x461bc2ac3f80801BC11B0F20d63B73feF60C8076 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-lvlUSD-25SEP2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -19175,14 +19457,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SAFE/USD",
+        "message": "Adapter is connected to an official Pyth feed: SAFEUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (SAFE) corresponds to the Pyth feed's base asset from metadata (SAFE).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -20341,14 +20623,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: PYUSD/USD",
+        "message": "Adapter is connected to an official Pyth feed: PYUSDUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (PYUSD) corresponds to the Pyth feed's base asset from metadata (PYUSD).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -20522,9 +20804,15 @@
         "severity": "High",
         "message": "Asset 0xA549eA12E9bEF89c604183404A929d78a4941Eb8 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-xUSD-18DEC2025/xUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -21249,13 +21537,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (LBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -21427,9 +21715,15 @@
         "severity": "High",
         "message": "Asset 0xA36b60A14A1A5247912584768C6e53E1a269a9F7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PENDLE-LPT/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -21478,14 +21772,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SDAI/USD",
+        "message": "Adapter is connected to an official Pyth feed: SDAIUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sDAI) corresponds to the Pyth feed's base asset from metadata (SDAI).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -21810,14 +22104,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: WSTETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstETH) corresponds to the Pyth feed's base asset from metadata (WSTETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -22145,20 +22439,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USD0/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USD0) corresponds to the Pyth feed's base asset from metadata (USD0).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -22173,8 +22467,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.USD0/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -22222,13 +22516,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -22351,9 +22645,15 @@
         "severity": "High",
         "message": "Asset 0xcBEeD3364912bCee868cfA9cff6Fe865C85eA094 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-mEDGE-31JUL2025/USD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -22766,13 +23066,13 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
+        "message": "Feed base asset symbol is unknown.",
         "pass": false
       },
       {
@@ -23107,14 +23407,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: G/USD",
+        "message": "Adapter is connected to an official Pyth feed: GUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (G) corresponds to the Pyth feed's base asset from metadata (G).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -23331,9 +23631,15 @@
         "severity": "High",
         "message": "Asset 0x4c60AB7cE24D4D7268317f44b6DC3d6530864E86 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-uniBTC-18DEC2025/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -23587,14 +23893,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SUSDE/USD",
+        "message": "Adapter is connected to an official Pyth feed: SUSDEUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (sUSDe) corresponds to the Pyth feed's base asset from metadata (SUSDE).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -23871,14 +24177,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: USDS/USD",
+        "message": "Adapter is connected to an official Pyth feed: USDSUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (USDS) corresponds to the Pyth feed's base asset from metadata (USDS).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -24093,14 +24399,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
+        "message": "Adapter is connected to an official Pyth feed: ETHUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -24276,9 +24582,15 @@
         "severity": "High",
         "message": "Asset 0xdacE1121e10500e9e29d071F01593fD76B000f08 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDS-14AUG2025/USDS",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24376,9 +24688,15 @@
         "severity": "High",
         "message": "Asset 0x35a18CD59a214c9e797e14b1191b700EEa251f6A is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USR-29MAY2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24477,9 +24795,15 @@
         "severity": "High",
         "message": "Asset 0x523f9441853467477b4dDE653c554942f8E17162 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-EBTC-26JUN2025/eBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24630,9 +24954,15 @@
         "severity": "High",
         "message": "Asset 0x39C3F8e0E7C6F44Dc8F0397FEb124517ba82e26E is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-wstUSR-29JAN2026/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24681,9 +25011,15 @@
         "severity": "High",
         "message": "Asset 0x07b1711d4af74Af661DDe3b774741993B79fC59C is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-tUSDe-25SEP2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24732,9 +25068,15 @@
         "severity": "High",
         "message": "Asset 0x6d98a2b6CDbF44939362a3E99793339Ba2016aF4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDe-25SEP2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24783,9 +25125,15 @@
         "severity": "High",
         "message": "Asset 0x9EaAedA23177B7168c55a3A0F937f67919733449 is PLP-cUSD-23JUL2026 (PLP cap USD 23JUL2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSD-23JUL2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -24979,14 +25327,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "message": "Adapter is connected to an official Pyth feed: BTCUSD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (BTC) corresponds to the Pyth feed's base asset from metadata (BTC).",
-        "pass": true
+        "message": "Feed base asset symbol is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -25056,9 +25404,15 @@
         "severity": "High",
         "message": "Asset 0x4339Ffe2B7592Dc783ed13cCE310531aB366dEac is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-31JUL2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25158,9 +25512,15 @@
         "severity": "High",
         "message": "Asset 0xE467c5C54748f0125d729280F90DeD77C4e720a4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sBOLD-27NOV2025/BOLD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25209,9 +25569,15 @@
         "severity": "High",
         "message": "Asset 0x048680F64d6DFf1748ba6D9a01F578433787e24B is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USD0++-26JUN2025/bUSD0",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25260,9 +25626,15 @@
         "severity": "High",
         "message": "Asset 0xE93B4A93e80BD3065B290394264af5d82422ee70 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-eUSDE-14AUG2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25355,9 +25727,15 @@
         "severity": "High",
         "message": "Asset 0xB451A36c8B6b2EAc77AD0737BA732818143A0E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDe-27MAR2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25406,20 +25784,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: EUL/USD",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (EUL) corresponds to the Pyth feed's base asset from metadata (EUL).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -25434,8 +25812,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.EUL/USD (120s, ±300bps)",
-    "methodology": "Market Price",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -25534,9 +25912,15 @@
         "severity": "High",
         "message": "Asset 0xCC781b043933c10a04409b22aaDa3a3D1A7f29D4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-stcUSD-29JAN2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25585,9 +25969,15 @@
         "severity": "High",
         "message": "Asset 0x84183d35960914bad14Fa272372861664df329E2 is PLP-STRCx-27AUG2026 (PLP Strategy PP Variable xStock 27AUG2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "PT-STRCx",
+    "label": "PT-STRCx-27AUG2026/STRCx",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25636,9 +26026,15 @@
         "severity": "High",
         "message": "Asset 0x70B70Ac0445C3eF04E314DFdA6caafd825428221 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-LBTC-27MAR2025/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25687,9 +26083,15 @@
         "severity": "High",
         "message": "Asset 0x4eaA571EaFCD96f51728756BD7F396459BB9B869 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDe-27NOV2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25788,9 +26190,15 @@
         "severity": "High",
         "message": "Asset 0xEb4d3057738b9Ed930F451Be473C1CCC42988384 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-corn-SolvBTC.BBN-26DEC2024/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -25941,9 +26349,15 @@
         "severity": "High",
         "message": "Asset 0x307c15f808914Df5a5DbE17E5608f84953fFa023 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSD-29JAN2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26036,9 +26450,15 @@
         "severity": "High",
         "message": "Asset 0xaC24A6f0068d9701EAEa76AB0B418021017F8D59 is PLP-stcUSD-23JUL2026 (PLP Staked cap USD 23JUL2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-stcUSD-23JUL2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26087,9 +26507,15 @@
         "severity": "High",
         "message": "Asset 0xb6aC3d5da138918aC4E84441e924a20daA60dBdd is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-27NOV2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26138,9 +26564,15 @@
         "severity": "High",
         "message": "Asset 0xfAbEEFC5369aA5270B401f4Ee062D17fb5f1EC2A is PLP-jrUSDe-2APR2026 (PLP Strata Junior USDe 2APR2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-jrUSDe-2APR2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26189,9 +26621,15 @@
         "severity": "High",
         "message": "Asset 0x2C71Ead7ac9AE53D05F8664e77031d4F9ebA064B is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-corn-eBTC-27MAR2025/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26240,9 +26678,15 @@
         "severity": "High",
         "message": "Asset 0x8dAe8ECe668cf80d348873F23D456448E8694883 is PLP-sUSDE-7MAY2026 (PLP Ethena sUSDE 7MAY2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-7MAY2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26291,9 +26735,15 @@
         "severity": "High",
         "message": "Asset 0xa83174F1dD8475378abCa9d676DaD3cE97409E0a is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-srUSDe-15JAN2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26342,9 +26792,15 @@
         "severity": "High",
         "message": "Asset 0x1047a4D2dC60e6652B51e7c63bA276b501ad6bc8 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-yUSD-7AUG2025/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26444,9 +26900,15 @@
         "severity": "High",
         "message": "Asset 0xF8094570485B124b4f2aBE98909A87511489C162 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USD0++-27NOV2025/bUSD0",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26546,9 +27008,15 @@
         "severity": "High",
         "message": "Asset 0x36d3ca43ae7939645C306E26603ce16e39A89192 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-EBTC-26DEC2024/eBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26597,9 +27065,15 @@
         "severity": "High",
         "message": "Asset 0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSN-31JUL2025/USN",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26648,9 +27122,15 @@
         "severity": "High",
         "message": "Asset 0x3F53eb4c57c7E7118BE8566bCd503EA502639581 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSDO-20NOV2025/USDO",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26749,9 +27229,15 @@
         "severity": "High",
         "message": "Asset 0xAADBC004DAcF10e1fdbd87ca1a40ecAF77CC5B02 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDe-5FEB2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -26951,9 +27437,15 @@
         "severity": "High",
         "message": "Asset 0xCaE62858DB831272A03768f5844cbe1B40bB381f is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cornLBTC-26DEC2024/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27002,9 +27494,15 @@
         "severity": "High",
         "message": "Asset 0x55F06992E4C3ed17Df830dA37644885c0c34EDdA is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-RLP-4SEP2025/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27130,9 +27628,15 @@
         "severity": "High",
         "message": "Asset 0x931F7eA0c31c14914a452d341bc5Cb5d996BE71d is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-LBTC-26JUN2025/LBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27422,9 +27926,15 @@
         "severity": "High",
         "message": "Asset 0x10e3E052bDee38C468ad092c87D330b59AF6BbeB is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USR-4DEC2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27619,9 +28129,15 @@
         "severity": "High",
         "message": "Asset 0x8098B48a1c4e4080b30A43a7eBc0c87b52F17222 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-pumpBTC-27MAR2025/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27670,9 +28186,15 @@
         "severity": "High",
         "message": "Asset 0xB162B764044697cf03617C2EFbcB1f42e31E4766 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-29MAY2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27721,9 +28243,15 @@
         "severity": "High",
         "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSDO-19JUN2025/cUSDO",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27872,9 +28400,15 @@
         "severity": "High",
         "message": "Asset 0x233062C1de76a38a4f41aB7c32E7bdB80A1dfc02 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-alUSD-11DEC2025/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27923,9 +28457,15 @@
         "severity": "High",
         "message": "Asset 0xcd9573442af27a2d050dc6ee199A6b2F98354907 is PLP-cUSDO-28MAY2026 (PLP Compounding Open Dollar 28MAY2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSDO-28MAY2026/USDO",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -27974,9 +28514,15 @@
         "severity": "High",
         "message": "Asset 0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-27MAR2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28171,9 +28717,15 @@
         "severity": "High",
         "message": "Asset 0xAFB7d6d1e9BcA5B675aDC9b4f52F0CDfDdec9654 is PLP-srUSDe-2APR2026 (PLP Strata Senior USDe 2APR2026) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-srUSDe-2APR2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28323,9 +28875,15 @@
         "severity": "High",
         "message": "Asset 0x33BdA865c6815c906e63878357335B28f063936c is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USR-4SEP2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28374,9 +28932,15 @@
         "severity": "High",
         "message": "Asset 0xA77c0DE4d26B7C97D1D42ABD6733201206122E25 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSDO-19JUN2025/USDO",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28425,9 +28989,15 @@
         "severity": "High",
         "message": "Asset 0xaFDC922d0059147486cC1F0f32e3A2354b0d35CC is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USD0++-27MAR2025/bUSD0",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28614,9 +29184,15 @@
         "severity": "High",
         "message": "Asset 0xf4C449d6a2D1840625211769779ADA42857d04dD is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-pUSDe-16OCT2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28665,9 +29241,15 @@
         "severity": "High",
         "message": "Asset 0x64506968E80C9ed07bFF60C8D9d57474EFfFF2c9 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USD0++-30JAN2025/bUSD0",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28716,9 +29298,15 @@
         "severity": "High",
         "message": "Asset 0xCC781b043933c10a04409b22aaDa3a3D1A7f29D4 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-stcUSD-29JAN2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -28914,9 +29502,15 @@
         "severity": "High",
         "message": "Asset 0xA36b60A14A1A5247912584768C6e53E1a269a9F7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-25SEP2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29015,9 +29609,15 @@
         "severity": "High",
         "message": "Asset 0xF342d4bde4Ec5B4bBa94c17Ab4c92EE3792Abd5e is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-tUSDe-18DEC2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29066,9 +29666,15 @@
         "severity": "High",
         "message": "Asset 0x9Df192D13D61609D1852461c4850595e1F56E714 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USDe-31JUL2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29117,20 +29723,20 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: METH/ETH",
-        "pass": true
+        "message": "Could not find matching Pyth feed",
+        "pass": false
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
-        "pass": true
+        "message": "Feed is unknown.",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (WETH) corresponds to the Pyth feed's quote asset from metadata (ETH).",
-        "pass": true
+        "message": "Feed is unknown",
+        "pass": false
       },
       {
         "id": "Recognized Pyth proxy",
@@ -29145,8 +29751,8 @@
         "pass": true
       }
     ],
-    "label": "Crypto.METH/ETH.RR (120s, ±300bps)",
-    "methodology": "Exchange Rate",
+    "label": "unknown feed (120s, ±300bps)",
+    "methodology": "Unknown",
     "model": "Pull",
     "provider": "Pyth"
   },
@@ -29194,9 +29800,15 @@
         "severity": "High",
         "message": "Asset 0x307c15f808914Df5a5DbE17E5608f84953fFa023 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-cUSD-29JAN2026/cUSD",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29245,9 +29857,15 @@
         "severity": "High",
         "message": "Asset 0x11f7f8AA7Bb5ABF819544d502D0f365C4cb0dFEB is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USN-31JUL2025/USN",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29347,9 +29965,15 @@
         "severity": "High",
         "message": "Asset 0xf8208fB52BA80075aF09840A683143C22DC5B4dd is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-corn-pumpBTC-26DEC2024/WBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29398,9 +30022,15 @@
         "severity": "High",
         "message": "Asset 0x85667e484a32d884010Cf16427D90049CCf46e97 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-eUSDE-29MAY2025/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29449,9 +30079,15 @@
         "severity": "High",
         "message": "Asset 0x9A63FA80b5DDFd3Cab23803fdB93ad2c18F3d5aa is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-syrupUSDC-28AUG2025/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29595,9 +30231,15 @@
         "severity": "High",
         "message": "Asset 0x9942a74e6E75cEa2DB5D068c1E75C9ac687bcA06 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-RLP-4DEC2025/USDC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29690,9 +30332,15 @@
         "severity": "High",
         "message": "Asset 0x35a18CD59a214c9e797e14b1191b700EEa251f6A is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-USR-29MAY2025/USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29741,9 +30389,15 @@
         "severity": "High",
         "message": "Asset 0xed81f8bA2941C3979de2265C295748a6b6956567 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-sUSDE-5FEB2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29843,9 +30497,15 @@
         "severity": "High",
         "message": "Asset 0x71d4a6bAc0FE7210309b6A3807cf2BaD13d7C1E1 is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-hwHLP-25SEP2025/hwHLP",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
@@ -29894,9 +30554,15 @@
         "severity": "High",
         "message": "Asset 0x41264F35ef7eF8c4905ca98052E8D7480F12859e is PENDLE-LPT (Pendle Market) with 18 decimals.",
         "pass": true
+      },
+      {
+        "id": "Recognized Pendle pool",
+        "severity": "High",
+        "message": "Could not find matching Pendle pool in the official list.",
+        "pass": false
       }
     ],
-    "label": "Unknown pool",
+    "label": "PT-jrUSDe-15JAN2026/USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"

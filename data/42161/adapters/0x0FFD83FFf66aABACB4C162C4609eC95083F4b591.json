@@ -42,13 +42,13 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: AAVE/USD",
+      "message": "Adapter is connected to an official Pyth feed: AAVEUSD",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (ELIT) does not correspond to the Pyth feed's base asset from metadata (AAVE).",
+      "message": "Feed base asset symbol is unknown.",
       "pass": false
     },
     {
