@@ -150,7 +150,9 @@ export function knownAggregatorV3Feed({
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
         `Adapter is connected to a recognized AggregatorV3-compatible feed: ${matchingOtherFeed.description}.`,
       ),
-      label: `${matchingOtherFeed.description} ${labelExtra}`,
+      label: labelExtra
+        ? `${matchingOtherFeed.description} ${labelExtra}`
+        : matchingOtherFeed.description,
       heartbeat: matchingOtherFeed.heartbeat,
       methodology: matchingOtherFeed.methodology ?? "Unknown",
       provider: matchingOtherFeed.provider,

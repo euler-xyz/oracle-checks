@@ -136,7 +136,14 @@ export function runChecks({
         name === "ChainlinkInfrequentNanosecondOracle" ? "Stork" : aggregatorV3FeedCheck.provider;
       model = "Push";
 
-      if (
+      if (aggregatorV3FeedCheck.methodology === "Linear Discount") {
+        checks.push(
+          passCheck(
+            CHECKS.PUSH_STALENESS_BUFFER,
+            "Feed heartbeat is not applicable to a deterministic linear discount oracle.",
+          ),
+        );
+      } else if (
         aggregatorV3FeedCheck.provider === "RedStone" &&
         (aggregatorV3FeedCheck.heartbeat === 0 || aggregatorV3FeedCheck.heartbeat === undefined)
       ) {
