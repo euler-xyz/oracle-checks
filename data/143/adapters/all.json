@@ -1635,7 +1635,7 @@
         "pass": false
       }
     ],
-    "label": "Midas mHYPERBTC/BTC Feed ",
+    "label": "Midas mHYPERBTC/BTC Feed",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas"
@@ -2046,7 +2046,7 @@
         "pass": false
       }
     ],
-    "label": "Midas mHYPERBTC/BTC Feed ",
+    "label": "Midas mHYPERBTC/BTC Feed",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas"
@@ -2559,7 +2559,7 @@
         "pass": false
       }
     ],
-    "label": "Midas mHYPERBTC/BTC Feed ",
+    "label": "Midas mHYPERBTC/BTC Feed",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas"
@@ -2961,11 +2961,11 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
+        "message": "Feed heartbeat is not applicable to a deterministic linear discount oracle.",
+        "pass": true
       }
     ],
-    "label": "Pendle PT-AUSD-8OCT2026/AUSD ",
+    "label": "Pendle PT-AUSD-8OCT2026/AUSD",
     "methodology": "Linear Discount",
     "model": "Push",
     "provider": "Pendle"
