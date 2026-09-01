@@ -30,7 +30,13 @@ type Params = {
   quoteAsset?: Asset;
   otherRecognizedAggregatorV3Feeds: Record<
     Address,
-    { provider: string; description: string; threshold?: number; heartbeat?: number }
+    {
+      provider: string;
+      description: string;
+      methodology?: OracleMethodology;
+      threshold?: number;
+      heartbeat?: number;
+    }
   >;
 };
 
@@ -146,7 +152,7 @@ export function knownAggregatorV3Feed({
       ),
       label: `${matchingOtherFeed.description} ${labelExtra}`,
       heartbeat: matchingOtherFeed.heartbeat,
-      methodology: "Unknown",
+      methodology: matchingOtherFeed.methodology ?? "Unknown",
       provider: matchingOtherFeed.provider,
     };
   } else {

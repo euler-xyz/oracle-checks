@@ -49,6 +49,7 @@ export type OracleMethodology =
   | "Market Price (Bolt)"
   | "Smart Value Recapture"
   | "Exchange Rate"
+  | "Linear Discount"
   | "TWAP"
   | "Custom"
   | "Unknown";

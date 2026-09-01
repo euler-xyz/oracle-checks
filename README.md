@@ -198,7 +198,8 @@ The system uses `chainConfigs.ts` to define settings for each supported chain. E
   otherRecognizedAggregatorV3Feeds: {
     [address: Address]: {
       provider: string,
-      description: string
+      description: string,
+      methodology?: OracleMethodology
     }
   },
 

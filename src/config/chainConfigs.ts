@@ -1,4 +1,3 @@
-import { defineChain } from "viem";
 import {
   arbitrum,
   avalanche,
@@ -109,7 +108,7 @@ const baseChainConfigs = {
       "0x8D5FFAa15730D87C90C34A4c2e80684043704417": {
         provider: "InfiniFi Custom Oracle",
         description: "InfiniFi liUSD-13w/USD",
-      }
+      },
     },
     ...defaultBounds,
   },
@@ -338,13 +337,20 @@ const baseChainConfigs = {
     publicClient: getClient(monad),
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {"0x70E58b7A1c884fFFE7dbce5249337603a28b8422": {
+    otherRecognizedAggregatorV3Feeds: {
+      "0x70E58b7A1c884fFFE7dbce5249337603a28b8422": {
         provider: "Chronicle",
         description: "Midas mTBILL/USD Oracle",
-        },
-          "0x165d2E3C0A368988F497F649B6fe2134bE20FD8c": {
+      },
+      "0x165d2E3C0A368988F497F649B6fe2134bE20FD8c": {
         provider: "Midas",
         description: "Midas mHYPERBTC/BTC Feed",
+      },
+      // Linear discount feed used by adapter 0xFdb1c7652351DA5c0C551d9BD127B09182521554.
+      "0xac15dD96f1059a7F58c89e1bB57417C804DA6157": {
+        provider: "Pendle",
+        description: "Pendle PT-AUSD-8OCT2026/AUSD",
+        methodology: "Linear Discount",
       },
     },
     ...defaultBounds,
