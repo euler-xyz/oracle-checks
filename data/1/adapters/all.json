@@ -19200,6 +19200,57 @@
     "provider": "Unknown"
   },
   {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xc8ca465080946d78686F3fC1587bFB64328bd69F",
+    "chainId": 1,
+    "base": "0xD71C161D429b794845F0aC992d25225F22daF226",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD71C161D429b794845F0aC992d25225F22daF226 is ps-USDC (Pending Settlement USDC) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (82800 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC / USD (0.25%, 82800s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
+  },
+  {
     "name": "CrossAdapter",
     "address": "0xc9775fb90053119Ac99C67f5536dbC02dFd28b2a",
     "chainId": 1,
@@ -23643,6 +23694,57 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle"
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xF56378Fef87904c4Fd0b4a9dE8305ae87d436729",
+    "chainId": 1,
+    "base": "0x1296EA461Ff7894e000C75d97D74d0ee0589971A",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
+    "maxStaleness": "432000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
+        "pass": false
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1296EA461Ff7894e000C75d97D74d0ee0589971A is ps-mGLOBAL (Pending Settlement mGLOBAL) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (432000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "mGlobal NAV - Aave Llamaguard (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "FixedRateOracle",
