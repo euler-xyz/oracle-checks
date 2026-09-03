@@ -1,0 +1,51 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0xc832be5BFfFd9961F3591EC84E136b07C4caDe80",
+  "chainId": 143,
+  "base": "0x484be0540aD49f351eaa04eeB35dF0f937D4E73f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x1Bd7e3865Bba838524bCCAe84A7a0cA635D65071",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x484be0540aD49f351eaa04eeB35dF0f937D4E73f is syzUSD (Staked Yuzu USD) with 18 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    },
+    {
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+      "pass": true
+    }
+  ],
+  "label": "SYZUSD / YZUSD Exchange Rate (0.1%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Chainlink"
+}
