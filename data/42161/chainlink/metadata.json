@@ -6294,6 +6294,109 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "MSFT/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "MSFT",
+      "USDT"
+    ],
+    "path": "msft-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Microsoft Corp",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Microsoft Corp",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "MSFT",
+      "baseAssetClic": "MSFT_EQ",
+      "baseAssetEntityId": "equity-MSFT",
+      "clicProductName": "MSFT/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NASDAQ",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x00031350137f77072d2ea4661769b3bc536bf2fee4e6f98b81f44d0198e7f266",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "ZAMA/USD-Streams-CexPrice-mainnet-production",
     "pair": [
       "ZAMA",
@@ -6853,6 +6956,128 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x000318ed7a378324925d265f0dd2908a3802241fed9a3317da12b53ec8ecc399",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PYUSD/USD-Streams-DexPrice-mainnet-production",
+    "pair": [
+      "PYUSD",
+      "USD"
+    ],
+    "path": "pyusd-usd-streams-dexprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "PayPal USD",
+    "feedCategory": "low",
+    "feedType": "Crypto-DEX",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "PayPal USD",
+      "attributeType": "DexPrice",
+      "baseAsset": "PYUSD",
+      "baseAssetClic": "PYUSD_CR",
+      "baseAssetEntityId": "crypto-PYUSD",
+      "clicProductName": "PYUSD/USD-Streams-DexPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto-DEX",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "schema": "v3",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "PYUSD/USD-Streams-DexPrice-benchmark",
+        "streamID": 1000007936,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "PYUSD/USD-Streams-DexPrice-bid",
+        "streamID": 1000007938,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "PYUSD/USD-Streams-DexPrice-ask",
+        "streamID": 1000007937,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      }
+    ],
+    "feedId": "0x0003194129dfc274a16d8eb91a1c3646edde4370315f1de73a7d781e04ed2401",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -13817,6 +14042,109 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "NVDA/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "NVDA",
+      "USDT"
+    ],
+    "path": "nvda-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "NVIDIA Corp",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "NVIDIA Corp",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "NVDA",
+      "baseAssetClic": "NVDA_EQ",
+      "baseAssetEntityId": "equity-NVDA",
+      "clicProductName": "NVDA/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003769678f55bfe60197c679384e3de8db4091adf996e8e564358fcd1d93f38",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "xyz:GOLD/USDC-Datalink-Hyperliquid-TopOfBook-V3-mainnet-production",
     "pair": [
       "xyz:GOLD",
@@ -15966,6 +16294,109 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "TSM/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "TSM",
+      "USDT"
+    ],
+    "path": "tsm-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "TSMC / Taiwan Semiconductor Man Co (ADRs)",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "TSMC / Taiwan Semiconductor Man Co (ADRs)",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "TSM",
+      "baseAssetClic": "TSM_EQ",
+      "baseAssetEntityId": "equity-TSM",
+      "clicProductName": "TSM/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x00038a1c96483d74c2e8302628959dd51a94051f47529bbc3b1497b2c65ac460",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "XDC/USD-RefPrice-mainnet-staging",
     "pair": [
       "XDC",
@@ -16204,6 +16635,109 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x00038f3b8f8be4305564abf0ed3c9cc46cb8b4303c35ab54079ea873b7d74b3a",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "MU/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "MU",
+      "USDT"
+    ],
+    "path": "mu-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Micron Technology Inc",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Micron Technology Inc",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "MU",
+      "baseAssetClic": "MU_EQ",
+      "baseAssetEntityId": "equity-MU",
+      "clicProductName": "MU/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003952f3b20c5eb2c8d0691632a4856e0132867dc66ae157142f084c0d68d9d",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -17041,6 +17575,109 @@
       }
     ],
     "feedId": "0x0003a0a3d7b50aeb90a11a48a590af135acb3a139ed1fc9229fbce193d8e78f3",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "GOOGL/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "GOOGL",
+      "USDT"
+    ],
+    "path": "googl-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Alphabet Inc - A",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Alphabet Inc - A",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "GOOGL",
+      "baseAssetClic": "GOOGL_EQ",
+      "baseAssetEntityId": "equity-GOOGL",
+      "clicProductName": "GOOGL/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003a36a9127b2ec01ec8776c4d252ab5cbf7256e202381a65001f7e50cad127",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -19631,6 +20268,109 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "META/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "META",
+      "USDT"
+    ],
+    "path": "meta-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Meta Platforms Inc",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Meta Platforms Inc",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "META",
+      "baseAssetClic": "META_EQ",
+      "baseAssetEntityId": "equity-META",
+      "clicProductName": "META/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NASDAQ",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003c763ede01c669f2ceb3cc50a4833127ce6e167b435ee208c25b0fef1b450",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "HYPE/USD-RefPrice-mainnet-staging",
     "pair": [
       "HYPE",
@@ -19888,6 +20628,109 @@
       }
     ],
     "feedId": "0x0003cb0f9f70b2e4c6da4e3a3e38968ad86383685815354f8bdb6684ca444eba",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AVGO/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "AVGO",
+      "USDT"
+    ],
+    "path": "avgo-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Broadcom Inc",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Broadcom Inc",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "AVGO",
+      "baseAssetClic": "AVGO_EQ",
+      "baseAssetEntityId": "equity-AVGO",
+      "clicProductName": "AVGO/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003cb21cfb6c1923ab32d75b251a8ce46fe38681d87a1dfaadb6a31aae5446b",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -21071,6 +21914,109 @@
     "decimals": 18,
     "maxSubmissionValue": "",
     "feedId": "0x0003df1ca5682717315cc4f0db6f3c782eec3f6861f38ba90f5a2383b75404d8",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AMZN/USDT-Datalink-Binance-MarkPriceIndex-mainnet-production",
+    "pair": [
+      "AMZN",
+      "USDT"
+    ],
+    "path": "amzn-usdt-datalink-binance-markpriceindex-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Amazon.com Inc",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Equities",
+      "assetName": "Amazon.com Inc",
+      "attributeType": "MarkPriceIndex",
+      "baseAsset": "AMZN",
+      "baseAssetClic": "AMZN_EQ",
+      "baseAssetEntityId": "equity-AMZN",
+      "clicProductName": "AMZN/USDT-Datalink-Binance-MarkPriceIndex-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "NASDAQ",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "MarkPriceIndex",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR",
+      "quoteAssetEntityId": "crypto-USDT",
+      "schema": "v3",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "feedId": "0x0003dfc3f64f4136938077e7a626042e7e022307abd2e0e9d58327d0b6db2a81",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -59706,6 +60652,159 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-mainnet-production",
+    "pair": [
+      "xyz:AAPL",
+      "USDC"
+    ],
+    "path": "xyz-aapl-usdc-datalink-hyperliquid-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Apple Perpetual Futures",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Apple Perpetual Futures",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:AAPL",
+      "baseAssetClic": "AAPL_CR",
+      "baseAssetEntityId": "crypto-AAPL",
+      "clicProductName": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "quoteAssetEntityId": "crypto-USDC",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007926,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-benchmark-timestamp",
+        "streamID": 1000007927,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000007928,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000007928,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000007929,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000007929,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007926,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:AAPL/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007926,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000b43eca809308ce4acc5d7668186a7bc240062f91faa50559e05729685fcbe",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1",
     "name": "PLUG/USD-Streams-ExtendedHoursEquityPrice-mainnet-production",
     "pair": [
@@ -79819,6 +80918,159 @@
       }
     ],
     "feedId": "0x000ba38bc53d30ddf079e88e8302fbe6489c69564fe1c4c537d4c142881149a5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-mainnet-production",
+    "pair": [
+      "xyz:NVDA",
+      "USDC"
+    ],
+    "path": "xyz-nvda-usdc-datalink-hyperliquid-topofbook-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "NVIDIA Perpetual Futures",
+    "feedCategory": "custom",
+    "feedType": "Datalink",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "NVIDIA Perpetual Futures",
+      "attributeType": "TopOfBook",
+      "baseAsset": "xyz:NVDA",
+      "baseAssetClic": "NVDA_CR",
+      "baseAssetEntityId": "crypto-NVDA",
+      "clicProductName": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Datalink",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "TopOfBook",
+      "quoteAsset": "USDC",
+      "quoteAssetClic": "USDC_CR",
+      "quoteAssetEntityId": "crypto-USDC",
+      "schema": "v11",
+      "serviceLevel": "Datalink",
+      "dataProvider": "coinpaprika"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007931,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-benchmark-timestamp",
+        "streamID": 1000007932,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000007933,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-bid",
+        "streamID": 1000007933,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000007934,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-ask",
+        "streamID": 1000007934,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007931,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "xyz:NVDA/USDC-Datalink-Hyperliquid-TopOfBook-benchmark",
+        "streamID": 1000007931,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x000ba4a97ca33d0ce39c6b950b42a4b8255a74b7e2d7e004a479e012b6aafd2b",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
