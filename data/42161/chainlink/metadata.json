@@ -45226,6 +45226,131 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "HINC-NAV-SmartData-NetAssetValue-mainnet-production",
+    "pair": [
+      "HINC",
+      ""
+    ],
+    "path": "hinc-nav-smartdata-netassetvalue-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "HINC",
+    "feedCategory": "custom",
+    "feedType": "Net Asset Value",
+    "docs": {
+      "assetClass": "NAV",
+      "assetSubClass": "NAV",
+      "assetName": "HINC",
+      "attributeType": "NAV",
+      "baseAsset": "HINC",
+      "baseAssetClic": "HINC_CR",
+      "clicProductName": "HINC-NAV-SmartData-NetAssetValue-DS-Premium-Global-009",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "custom",
+      "feedType": "Net Asset Value",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "schema": "v9",
+      "serviceLevel": "Streams",
+      "dataProvider": "securitize"
+    },
+    "decimals": 18,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "HINC-NAV-SmartData-NetAssetValue-benchmark",
+        "streamID": 1000007948,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "HINC-NAV-SmartData-NetAssetValue-navDate",
+        "streamID": 1000007949,
+        "type": "uint64",
+        "multiplier": "1"
+      },
+      {
+        "name": "HINC-NAV-SmartData-NetAssetValue-aum",
+        "streamID": 1000007950,
+        "type": "int192",
+        "multiplier": "0"
+      },
+      {
+        "name": "HINC-NAV-SmartData-NetAssetValue-ripcord",
+        "streamID": 1000007951,
+        "type": "uint32",
+        "multiplier": "0"
+      }
+    ],
+    "feedId": "0x0009c30c91e08c259792d955af0c1d8c0853d64c33c42895f954d6183b257367",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USCC/NAV-SmartData-NetAssetValue-mainnet-production",
     "pair": [
       "USCC",
@@ -88007,6 +88132,158 @@
       }
     ],
     "feedId": "0x000bc1dc24cf2deadc7aecfd3ddf6a4fa3de34ec472e956b13cf94a5e1a1cfcd",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "USFR/USD-Streams-RegularHoursEquityPrice-mainnet-production",
+    "pair": [
+      "USFR",
+      "USD"
+    ],
+    "path": "usfr-usd-streams-regularhoursequityprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "WisdomTree Floating Rate Treasury Fund",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equities",
+      "assetSubClass": "Regular Hours",
+      "assetName": "WisdomTree Floating Rate Treasury Fund",
+      "attributeType": "RegularHoursEquityPrice",
+      "baseAsset": "USFR",
+      "baseAssetClic": "USFR_EQ_REG",
+      "baseAssetEntityId": "equity-USFR",
+      "clicProductName": "USFR/USD-Streams-RegularHoursEquityPrice-DS-Premium-Global-011",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "US Equities Regular",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "quoteAssetEntityId": "forex-USD",
+      "schema": "v11",
+      "serviceLevel": "Streams"
+    },
+    "decimals": 0,
+    "maxSubmissionValue": "",
+    "streamValuesMetadata": [
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-mid",
+        "streamID": 1000007940,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-mid-timestamp",
+        "streamID": 1000007941,
+        "type": "uint64",
+        "multiplier": "1000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-bid",
+        "streamID": 1000007942,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-bidVolume",
+        "streamID": 1000007943,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-ask",
+        "streamID": 1000007944,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-askVolume",
+        "streamID": 1000007945,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "USFR/USD-Streams-RegularHoursEquityPrice-lastTradedPrice",
+        "streamID": 1000007946,
+        "type": "int192",
+        "multiplier": "1000000000000000000"
+      },
+      {
+        "name": "NYSE-Streams-MarketStatusAdvanced-marketStatus",
+        "streamID": 1000002663,
+        "type": "uint32",
+        "multiplier": "1"
+      }
+    ],
+    "feedId": "0x000bc345b4ef400ee4b27ad0dddd15f09490e9da7f07f83e3af714ae82906dd9",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
