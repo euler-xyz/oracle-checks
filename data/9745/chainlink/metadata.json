@@ -1542,7 +1542,7 @@
     "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "plUSD / USDT Exchange Rate",
-    "feedCategory": "custom",
+    "feedCategory": "deprecating",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1559,7 +1559,8 @@
       "productType": "Price",
       "productTypeCode": "ExRate",
       "quoteAsset": "USDT",
-      "quoteAssetClic": "USDT_CR"
+      "quoteAssetClic": "USDT_CR",
+      "shutdownDate": "September 16th, 2026"
     },
     "decimals": 18,
     "maxSubmissionValue": "95780971304118053647396689196894323976171195136475135"
