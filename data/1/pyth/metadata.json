@@ -22265,9 +22265,9 @@
   {
     "id": "0x4a134870158ad1ea98bc4e4eb8e4ca824a32e69d4f3da380377c09936ba23954",
     "market_hours": {
-      "is_open": true,
+      "is_open": false,
       "next_open": 1788831000,
-      "next_close": 1788535800
+      "next_close": 1788881400
     },
     "attributes": {
       "asset_type": "FX",
@@ -32880,6 +32880,23 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0907/C,1126/C,1127/0930-1300,1224/0930-1300,1225/C,0101/C,0118/C,0215/C,0326/C,0531/C,0618/C,0705/C",
       "symbol": "Equity.US.GTLB/USD",
       "min_channel": "fixed_rate@200ms"
+    }
+  },
+  {
+    "id": "0x55e85ff86bd61d78f44135dd67f77623db3c855be98daf6603213632fc5b3126",
+    "market_hours": {
+      "is_open": true,
+      "next_open": 1788731400,
+      "next_close": 1788555600
+    },
+    "attributes": {
+      "asset_type": "Commodities",
+      "description": "PYTH PRICE IN USD FOR CONSTANT 1M DUTCH TTF GAS 23/5",
+      "display_symbol": "TGAS1M",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0000-2200,0050-2200,0050-2200,0050-2200,0050-2200,C,2250-2400;0101/C,0403/C,0406/C,0525/0000-1830,0619/0050-1830,0703/0050-1830,0907/0000-1830,1126/0050-1830,1127/0050-2000,1225/C",
+      "symbol": "Commodities.Index.TGAS1M/USD",
+      "min_channel": "fixed_rate@50ms"
     }
   },
   {
